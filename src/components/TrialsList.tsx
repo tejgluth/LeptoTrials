@@ -14,7 +14,7 @@ interface TrialsListProps {
 export default function TrialsList({
   results,
   filteredCount,
-  totalApiCount,
+  totalApiCount: _totalApiCount,
   hasMore,
   isLoadingMore,
   onLoadMore,
@@ -26,7 +26,7 @@ export default function TrialsList({
       {/* Results header */}
       <div className="flex flex-wrap items-baseline gap-x-5 gap-y-1.5 mb-3">
         <h2 className="text-2xl sm:text-3xl font-semibold text-[#e8f4fd]">
-          {(totalApiCount ?? filteredCount).toLocaleString()} trial{(totalApiCount ?? filteredCount) !== 1 ? 's' : ''} found
+          {filteredCount.toLocaleString()} trial{filteredCount !== 1 ? 's' : ''} found{hasMore ? '+' : ''}
         </h2>
       </div>
 
