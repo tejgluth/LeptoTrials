@@ -12,6 +12,7 @@ export default function App() {
   const searchSectionRef = useRef<HTMLDivElement>(null)
   const sentinelRef = useRef<HTMLDivElement>(null)
   const [isHeaderSticky, setIsHeaderSticky] = useState(false)
+  const [isFiltersCollapsed, setIsFiltersCollapsed] = useState(false)
   const [lastSearchParams, setLastSearchParams] = useState<SearchParams>(DEFAULT_SEARCH_PARAMS)
 
   const {
@@ -35,7 +36,12 @@ export default function App() {
     if (!sentinel) return
 
     const observer = new IntersectionObserver(
-      ([entry]) => setIsHeaderSticky(!entry.isIntersecting),
+      ([entry]) => {
+        const pinned = !entry.isIntersecting
+        setIsHeaderSticky(pinned)
+        // Auto-expand filters when user scrolls back to the top
+        if (!pinned) setIsFiltersCollapsed(false)
+      },
       // rootMargin top offset = nav height (64px); bottom opens to infinity
       // so we only care about the top edge crossing
       { rootMargin: '-64px 0px 9999px 0px', threshold: 0 }
@@ -101,6 +107,8 @@ export default function App() {
           onSearch={handleSearch}
           isLoading={isLoading}
           compact={isHeaderSticky}
+          isCollapsed={isFiltersCollapsed}
+          onToggleCollapsed={() => setIsFiltersCollapsed((v) => !v)}
         />
       </div>
 

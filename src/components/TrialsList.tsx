@@ -24,7 +24,7 @@ export default function TrialsList({
       {/* Results header */}
       <div className="flex flex-wrap items-baseline gap-x-5 gap-y-1.5 mb-3">
         <h2 className="text-2xl sm:text-3xl font-semibold text-[#e8f4fd]">
-          {filteredCount} trial{filteredCount !== 1 ? 's' : ''} found
+          {filteredCount}{hasMore ? '+' : ''} trial{filteredCount !== 1 ? 's' : ''} found
         </h2>
       </div>
 

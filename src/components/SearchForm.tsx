@@ -15,9 +15,17 @@ interface SearchFormProps {
   onSearch: (params: SearchParams) => void
   isLoading: boolean
   compact?: boolean
+  isCollapsed?: boolean
+  onToggleCollapsed?: () => void
 }
 
-export default function SearchForm({ onSearch, isLoading, compact = false }: SearchFormProps) {
+export default function SearchForm({
+  onSearch,
+  isLoading,
+  compact = false,
+  isCollapsed = false,
+  onToggleCollapsed,
+}: SearchFormProps) {
   const [age, setAge] = useState<string>('')
   const [ageError, setAgeError] = useState<string>('')
   const [studyTypes, setStudyTypes] = useState<Array<'INTERVENTIONAL' | 'OBSERVATIONAL'>>([])
@@ -93,15 +101,39 @@ export default function SearchForm({ onSearch, isLoading, compact = false }: Sea
       {/* transition-[padding] smooths the compact ↔ full height switch */}
       <div className={`px-5 sm:px-8 md:px-12 lg:px-20 max-w-7xl transition-[padding] duration-200 ${compact ? 'py-4 sm:py-5' : 'py-8 sm:py-10'}`}>
 
-        {/* Section label — hidden in compact/sticky mode */}
-        {!compact && (
+        {/* Header row: label (non-sticky) or collapse toggle (sticky) */}
+        {compact ? (
+          <div className={`flex items-center justify-between ${isCollapsed ? '' : 'mb-3'}`}>
+            <p className="text-xs font-semibold uppercase tracking-widest text-[#4a7896]">
+              Filter Trials
+            </p>
+            {onToggleCollapsed && (
+              <button
+                type="button"
+                onClick={onToggleCollapsed}
+                className="flex items-center gap-1.5 text-xs font-medium text-[#4a7896] hover:text-[#8ab8d4] transition-colors cursor-pointer px-2 py-1 -mr-2"
+                aria-label={isCollapsed ? 'Expand filters' : 'Collapse filters'}
+              >
+                {isCollapsed ? (
+                  <>Show filters <span className="text-[10px]">▼</span></>
+                ) : (
+                  <>Hide filters <span className="text-[10px]">▲</span></>
+                )}
+              </button>
+            )}
+          </div>
+        ) : (
           <p className="text-xs font-semibold uppercase tracking-widest text-[#4a7896] mb-7">
             Filter Trials
           </p>
         )}
 
+        {/* Collapsible body — hidden when collapsed in sticky mode */}
+        {(!isCollapsed || !compact) && (
+        <div>
+
         {/* Filter grid */}
-        <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 ${compact ? 'mb-3' : 'mb-7'}`}>
+        <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 ${compact ? 'mb-3 mt-3' : 'mb-7'}`}>
 
           {/* Age */}
           <div className="flex flex-col gap-2.5">
@@ -268,6 +300,8 @@ export default function SearchForm({ onSearch, isLoading, compact = false }: Sea
             </>
           )}
         </button>
+        </div>
+        )}
       </div>
     </form>
   )
