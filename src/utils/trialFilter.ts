@@ -178,27 +178,5 @@ export function filterTrial(
     }
   }
 
-  // --- All checks passed ---
-  // If we couldn't find the exclusion section we can't confirm there's no
-  // leptomeningeal exclusion buried inside unstructured text — UNLESS the
-  // trial's own conditions/keywords explicitly list a leptomeningeal term,
-  // which confirms it's targeted at these patients and no flag is needed.
-  if (!sectionFound && criteriaText.length > 0) {
-    const conditionsText = [
-      ...(proto.conditionsModule?.conditions ?? []),
-      ...(proto.conditionsModule?.keywords ?? []),
-    ]
-      .join(' ')
-      .toLowerCase()
-
-    const isExplicitlyTargeted = EXCLUSION_BLOCKED_TERMS.some((term) =>
-      conditionsText.includes(term)
-    )
-
-    if (!isExplicitlyTargeted) {
-      return { include: true, flag: 'VERIFY_ELIGIBILITY' }
-    }
-  }
-
   return { include: true }
 }

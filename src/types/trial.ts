@@ -194,5 +194,5 @@ export interface SearchParams {
 }
 
 export type FilterResult =
-  | { include: true; flag?: 'VERIFY_ELIGIBILITY' }
+  | { include: true }
   | { include: false; reason: string }

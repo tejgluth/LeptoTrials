@@ -73,7 +73,7 @@ function formatResponsibleParty(study: Study): string {
   }
 }
 
-export default function TrialCard({ study, filterResult, index }: TrialCardProps) {
+export default function TrialCard({ study, index }: TrialCardProps) {
   const [summaryExpanded, setSummaryExpanded] = useState(false)
   const [copied, setCopied] = useState(false)
   const cardRef = useRef<HTMLDivElement>(null)
@@ -99,11 +99,10 @@ export default function TrialCard({ study, filterResult, index }: TrialCardProps
   const centralContacts   = contacts?.centralContacts ?? []
   const contactEmail      = centralContacts.find((c) => c.email)?.email
 
-  const statusCfg         = STATUS_CONFIG[overallStatus] ?? { label: overallStatus, color: '#6b8ca4', bg: '#6b8ca418' }
-  const phaseLabel        = formatPhase(phases)
-  const trialUrl          = getTrialUrl(nctId)
-  const responsibleParty  = formatResponsibleParty(study)
-  const needsVerification = filterResult.flag === 'VERIFY_ELIGIBILITY'
+  const statusCfg        = STATUS_CONFIG[overallStatus] ?? { label: overallStatus, color: '#6b8ca4', bg: '#6b8ca418' }
+  const phaseLabel       = formatPhase(phases)
+  const trialUrl         = getTrialUrl(nctId)
+  const responsibleParty = formatResponsibleParty(study)
 
   useEffect(() => {
     const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -177,21 +176,6 @@ export default function TrialCard({ study, filterResult, index }: TrialCardProps
               : studyType === 'OBSERVATIONAL' ? 'Observational'
               : studyType}
           </span>
-
-          {/* Verify flag */}
-          {needsVerification && (
-            <span
-              className="px-3 py-1.5 text-sm font-medium text-[#fbbf24] bg-[#fbbf2412] border border-[#fbbf2440] flex items-center gap-2 cursor-help"
-              title="This trial's eligibility criteria weren't structured clearly enough for our filter to parse automatically. It may still be right for you — open it on ClinicalTrials.gov to read the full criteria and confirm you qualify before reaching out."
-            >
-              <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
-                <path d="M6.5 2L11.5 11H1.5L6.5 2Z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round"/>
-                <line x1="6.5" y1="5.5" x2="6.5" y2="8" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-                <circle cx="6.5" cy="9.5" r="0.5" fill="currentColor"/>
-              </svg>
-              Verify eligibility
-            </span>
-          )}
 
           {/* NCT ID */}
           <span className="ml-auto text-xs text-[#2a5070] font-mono tracking-wide hidden sm:inline">

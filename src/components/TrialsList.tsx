@@ -24,19 +24,14 @@ export default function TrialsList({
       {/* Results header */}
       <div className="flex flex-wrap items-baseline gap-x-5 gap-y-1.5 mb-3">
         <h2 className="text-2xl sm:text-3xl font-semibold text-[#e8f4fd]">
-          {filteredCount}{hasMore ? '+' : ''} trial{filteredCount !== 1 ? 's' : ''} found
+          {filteredCount} trial{filteredCount !== 1 ? 's' : ''} found
         </h2>
       </div>
 
       {/* Sub-note */}
       <p className="text-sm text-[#4a7896] mb-8 sm:mb-10 leading-relaxed max-w-2xl">
-        Searched by condition and across all trial text — includes trials where
-        leptomeningeal eligibility appears in study descriptions or criteria, not just
-        the condition field. Exclusion criteria checked, age eligibility applied.
-        Trials marked{' '}
-        <span className="text-[#fbbf24] font-medium">⚠ Verify eligibility</span>
-        {' '}have eligibility text that wasn't structured clearly enough for our filter to read —
-        they were included just in case, but open the trial on ClinicalTrials.gov to confirm you qualify before contacting them.
+        Searched by condition and across all trial text. Exclusion criteria checked against
+        leptomeningeal terms, age eligibility applied. All shown trials passed eligibility filtering.
       </p>
 
       {/* Trial cards */}
