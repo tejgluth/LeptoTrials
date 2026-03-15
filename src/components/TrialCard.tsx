@@ -2,14 +2,12 @@ import { useState, useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import type { Study, OverallStatus } from '../types/trial'
-import type { FilterResult } from '../types/trial'
 import { getTrialUrl } from '../utils/apiClient'
 
 gsap.registerPlugin(ScrollTrigger)
 
 interface TrialCardProps {
   study: Study
-  filterResult: FilterResult & { include: true }
   index: number
 }
 

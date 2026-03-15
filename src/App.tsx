@@ -18,6 +18,7 @@ export default function App() {
   const {
     results,
     filteredCount,
+    totalApiCount,
     hasMore,
     isLoading,
     isLoadingMore,
@@ -128,6 +129,7 @@ export default function App() {
           <TrialsList
             results={results}
             filteredCount={filteredCount}
+            totalApiCount={totalApiCount}
             hasMore={hasMore}
             isLoadingMore={isLoadingMore}
             onLoadMore={loadMore}

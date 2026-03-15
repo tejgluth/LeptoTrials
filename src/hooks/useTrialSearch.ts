@@ -106,18 +106,40 @@ export function useTrialSearch(): UseTrialSearchReturn {
         condTokenRef.current = condData.nextPageToken
         termTokenRef.current = termData.nextPageToken
 
-        const filtered = mergeAndFilter(
+        let filtered = mergeAndFilter(
           condData.studies ?? [],
           termData.studies ?? [],
           params
         )
 
+        // Auto-fill: if client-side filtering leaves us under 20 on the first
+        // page but the API has more, fetch one additional batch silently so
+        // the user always sees a full first page.
+        if (filtered.length < 20 && (condTokenRef.current || termTokenRef.current)) {
+          const fillFetches: Promise<import('../types/trial').ApiResponse>[] = []
+          const fillPending: Array<'cond' | 'term'> = []
+          if (condTokenRef.current) { fillPending.push('cond'); fillFetches.push(fetchCondStudies(params, condTokenRef.current)) }
+          if (termTokenRef.current) { fillPending.push('term'); fillFetches.push(fetchTermStudies(params, termTokenRef.current)) }
+
+          const fillSettled = await Promise.allSettled(fillFetches)
+          if (searchIdRef.current !== thisSearchId) return
+
+          let fillCond: import('../types/trial').Study[] = []
+          let fillTerm: import('../types/trial').Study[] = []
+          fillSettled.forEach((r, i) => {
+            if (r.status !== 'fulfilled') return
+            if (fillPending[i] === 'cond') { condTokenRef.current = r.value.nextPageToken; fillCond = r.value.studies ?? [] }
+            else { termTokenRef.current = r.value.nextPageToken; fillTerm = r.value.studies ?? [] }
+          })
+          filtered = [...filtered, ...mergeAndFilter(fillCond, fillTerm, params)]
+        }
+
         setState({
           results: filtered,
-          totalApiCount: null, // Not meaningful across two deduplicated queries
+          totalApiCount: condData.totalCount ?? termData.totalCount ?? null,
           filteredCount: filtered.length,
           pagesLoaded: 1,
-          hasMore: !!(condData.nextPageToken || termData.nextPageToken),
+          hasMore: !!(condTokenRef.current || termTokenRef.current),
           isLoading: false,
           isLoadingMore: false,
           error: null,

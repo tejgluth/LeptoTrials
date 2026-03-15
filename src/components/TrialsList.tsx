@@ -4,6 +4,7 @@ import TrialCard from './TrialCard'
 interface TrialsListProps {
   results: TrialWithMeta[]
   filteredCount: number
+  totalApiCount: number | null
   hasMore: boolean
   isLoadingMore: boolean
   onLoadMore: () => void
@@ -13,6 +14,7 @@ interface TrialsListProps {
 export default function TrialsList({
   results,
   filteredCount,
+  totalApiCount,
   hasMore,
   isLoadingMore,
   onLoadMore,
@@ -24,7 +26,7 @@ export default function TrialsList({
       {/* Results header */}
       <div className="flex flex-wrap items-baseline gap-x-5 gap-y-1.5 mb-3">
         <h2 className="text-2xl sm:text-3xl font-semibold text-[#e8f4fd]">
-          {filteredCount} trial{filteredCount !== 1 ? 's' : ''} found
+          {(totalApiCount ?? filteredCount).toLocaleString()} trial{(totalApiCount ?? filteredCount) !== 1 ? 's' : ''} found
         </h2>
       </div>
 
@@ -36,11 +38,10 @@ export default function TrialsList({
 
       {/* Trial cards */}
       <div className="flex flex-col gap-4">
-        {results.map(({ study, filterResult }, i) => (
+        {results.map(({ study }, i) => (
           <TrialCard
             key={study.protocolSection.identificationModule.nctId}
             study={study}
-            filterResult={filterResult}
             index={i}
           />
         ))}

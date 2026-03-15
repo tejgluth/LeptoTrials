@@ -45,20 +45,20 @@ body {
 /* ─── Scrollbar ─────────────────────────────────────────────────── */
 /* Firefox */
 html {
-  scrollbar-width: thin;
+  scrollbar-width: auto;
   scrollbar-color: #2a5070 #060f1e;
 }
 /* Chrome / Safari / Edge */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 14px;
 }
 ::-webkit-scrollbar-track {
   background: #060f1e;
 }
 ::-webkit-scrollbar-thumb {
   background: #2a5070;
-  border-radius: 5px;
-  border: 2px solid #060f1e;
+  border-radius: 7px;
+  border: 3px solid #060f1e;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #38bdf8;
