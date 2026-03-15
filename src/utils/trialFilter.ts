@@ -26,14 +26,42 @@ const INCLUSION_OR_TERMS = [
 
 /**
  * Markers that indicate the start of the exclusion criteria section.
- * Tried in order — first match wins.
+ * All are checked; the one with the earliest position in the text wins.
+ * (Previously used first-match-wins which could pick the wrong marker.)
  */
 const EXCLUSION_SECTION_MARKERS = [
+  // Prefixed variants seen in ClinicalTrials.gov data
+  'key exclusion criteria:',
+  'key exclusion criteria\n',
+  'key exclusion criteria\r',
+  'main exclusion criteria:',
+  'main exclusion criteria\n',
+  'main exclusion criteria\r',
+  'subject exclusion criteria:',
+  'subject exclusion criteria\n',
+  'patient exclusion criteria:',
+  'patient exclusion criteria\n',
+  'study exclusion criteria:',
+  'study exclusion criteria\n',
+  'specific exclusion criteria:',
+  'specific exclusion criteria\n',
+  'general exclusion criteria:',
+  'general exclusion criteria\n',
+  // Standard "Exclusion Criteria" with colon, line-break, or opening paren
+  // e.g. "EXCLUSION CRITERIA (Patients will be excluded if they meet any of..."
   'exclusion criteria:',
   'exclusion criteria\n',
   'exclusion criteria\r',
-  '\nexclusion:',
+  'exclusion criteria\t',
+  'exclusion criteria (',
+  // Bare "Exclusion:" header on its own line
+  '\nexclusion:\n',
+  '\nexclusion:\r',
+  '\nexclusion:\t',
+  '\r\nexclusion:\n',
+  '\r\nexclusion:\r',
   '\r\nexclusion:',
+  '\nexclusion:',
 ]
 
 export interface ParsedCriteria {
@@ -52,13 +80,14 @@ export function parseEligibilityCriteria(text: string): ParsedCriteria {
   }
 
   const lower = text.toLowerCase()
+  // Find the earliest occurrence across ALL markers so we always split
+  // at the true section boundary, regardless of which variant is used.
   let splitIndex = -1
 
   for (const marker of EXCLUSION_SECTION_MARKERS) {
     const idx = lower.indexOf(marker)
-    if (idx !== -1) {
+    if (idx !== -1 && (splitIndex === -1 || idx < splitIndex)) {
       splitIndex = idx
-      break
     }
   }
 

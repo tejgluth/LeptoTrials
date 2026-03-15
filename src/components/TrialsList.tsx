@@ -3,7 +3,6 @@ import TrialCard from './TrialCard'
 
 interface TrialsListProps {
   results: TrialWithMeta[]
-  totalApiCount: number | null
   filteredCount: number
   hasMore: boolean
   isLoadingMore: boolean
@@ -13,7 +12,6 @@ interface TrialsListProps {
 
 export default function TrialsList({
   results,
-  totalApiCount,
   filteredCount,
   hasMore,
   isLoadingMore,
@@ -28,17 +26,13 @@ export default function TrialsList({
         <h2 className="text-2xl sm:text-3xl font-semibold text-[#e8f4fd]">
           {filteredCount} trial{filteredCount !== 1 ? 's' : ''} found
         </h2>
-        {totalApiCount !== null && (
-          <span className="text-sm text-[#4a7896]">
-            from {totalApiCount.toLocaleString()} total in API
-          </span>
-        )}
       </div>
 
       {/* Sub-note */}
       <p className="text-sm text-[#4a7896] mb-8 sm:mb-10 leading-relaxed max-w-2xl">
-        Results are filtered: exclusion criteria checked for leptomeningeal/leptomeninges,
-        age eligibility applied, and inclusion terms verified.
+        Searched by condition and across all trial text — includes trials where
+        leptomeningeal eligibility appears in study descriptions or criteria, not just
+        the condition field. Exclusion criteria checked, age eligibility applied.
         Trials marked{' '}
         <span className="text-[#fbbf24] font-medium">⚠ Verify eligibility</span>
         {' '}have eligibility text that wasn't structured clearly enough for our filter to read —

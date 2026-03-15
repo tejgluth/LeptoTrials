@@ -1,6 +1,4 @@
 import { useRef, useState, useEffect } from 'react'
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Hero from './components/Hero'
 import SearchForm from './components/SearchForm'
 import TrialsList from './components/TrialsList'
@@ -10,17 +8,14 @@ import { useTrialSearch } from './hooks/useTrialSearch'
 import type { SearchParams } from './types/trial'
 import { DEFAULT_SEARCH_PARAMS } from './utils/apiClient'
 
-gsap.registerPlugin(ScrollTrigger)
-
 export default function App() {
   const searchSectionRef = useRef<HTMLDivElement>(null)
-  const headerRef = useRef<HTMLDivElement>(null)
+  const sentinelRef = useRef<HTMLDivElement>(null)
   const [isHeaderSticky, setIsHeaderSticky] = useState(false)
   const [lastSearchParams, setLastSearchParams] = useState<SearchParams>(DEFAULT_SEARCH_PARAMS)
 
   const {
     results,
-    totalApiCount,
     filteredCount,
     hasMore,
     isLoading,
@@ -31,37 +26,34 @@ export default function App() {
     loadMore,
   } = useTrialSearch()
 
+  // Use IntersectionObserver on a 1px sentinel placed just above the form.
+  // When the sentinel scrolls past the nav (top: -64px), the form is "pinned"
+  // and we activate compact mode + shadow. This runs off the main thread and
+  // never triggers a reflow, so there's no scroll jank.
   useEffect(() => {
-    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    const sentinel = sentinelRef.current
+    if (!sentinel) return
 
-    const trigger = ScrollTrigger.create({
-      trigger: searchSectionRef.current,
-      start: 'top top',
-      onEnter: () => {
-        setIsHeaderSticky(true)
-        if (!prefersReduced && headerRef.current) {
-          gsap.fromTo(
-            headerRef.current,
-            { y: -10, opacity: 0.8 },
-            { y: 0, opacity: 1, duration: 0.3, ease: 'power2.out' }
-          )
-        }
-      },
-      onLeaveBack: () => setIsHeaderSticky(false),
-    })
-
-    return () => trigger.kill()
+    const observer = new IntersectionObserver(
+      ([entry]) => setIsHeaderSticky(!entry.isIntersecting),
+      // rootMargin top offset = nav height (64px); bottom opens to infinity
+      // so we only care about the top edge crossing
+      { rootMargin: '-64px 0px 9999px 0px', threshold: 0 }
+    )
+    observer.observe(sentinel)
+    return () => observer.disconnect()
   }, [])
 
   const handleSearch = (params: SearchParams) => {
     setLastSearchParams(params)
     search(params)
-    setTimeout(() => {
+    // Give the loading state time to mount before scrolling into view
+    requestAnimationFrame(() => {
       searchSectionRef.current?.nextElementSibling?.scrollIntoView({
         behavior: 'smooth',
         block: 'start',
       })
-    }, 100)
+    })
   }
 
   const scrollToSearch = () => {
@@ -92,16 +84,24 @@ export default function App() {
       {/* Hero */}
       <Hero onSearchClick={scrollToSearch} />
 
-      {/* Search form */}
+      {/* Sentinel — 1px element the IntersectionObserver watches.
+          Placed immediately before the form so when it exits the viewport
+          (past the nav), we know the form has become "pinned". */}
+      <div ref={sentinelRef} aria-hidden="true" style={{ height: 1 }} />
+
+      {/* Search form — always sticky so the browser compositor handles it
+          natively. The compact prop switches to a tighter layout once pinned. */}
       <div
         ref={searchSectionRef}
-        className={`bg-[#060f1e] z-40 transition-[box-shadow] duration-300 ${
-          isHeaderSticky ? 'sticky top-16 shadow-[0_1px_0_#1a3352]' : ''
+        className={`sticky top-16 bg-[#060f1e] z-40 transition-shadow duration-300 ${
+          isHeaderSticky ? 'shadow-[0_1px_0_#1a3352]' : ''
         }`}
       >
-        <div ref={headerRef}>
-          <SearchForm onSearch={handleSearch} isLoading={isLoading} compact={isHeaderSticky} />
-        </div>
+        <SearchForm
+          onSearch={handleSearch}
+          isLoading={isLoading}
+          compact={isHeaderSticky}
+        />
       </div>
 
       {/* Results */}
@@ -119,7 +119,6 @@ export default function App() {
         {showResults && results.length > 0 && (
           <TrialsList
             results={results}
-            totalApiCount={totalApiCount}
             filteredCount={filteredCount}
             hasMore={hasMore}
             isLoadingMore={isLoadingMore}

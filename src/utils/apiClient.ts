@@ -3,45 +3,30 @@ import type { ApiResponse, SearchParams, OverallStatus } from '../types/trial'
 const BASE_URL = 'https://clinicaltrials.gov/api/v2/studies'
 
 /**
- * Builds the ClinicalTrials.gov API v2 URL from search parameters.
- *
- * Core query always uses:
- *   query.cond=leptomeningeal metastasis (179 results as of Mar 2026)
- *
- * Optional filters applied at API level to reduce data transfer:
- *   - filter.overallStatus (status list)
- *   - filter.advanced with AREA[] syntax for studyType, phase, country
- *
- * Age filtering is handled entirely client-side since the API stores ages
- * as strings ("18 Years") which cannot be reliably range-queried.
+ * Shared filter/pagination params appended to every query URL.
+ * Applies status, study type, phase, and country filters at the API level.
+ * Age filtering is client-side only (API stores ages as strings like "18 Years").
  */
-export function buildApiUrl(params: SearchParams, pageToken?: string): string {
-  const url = new URLSearchParams()
-
-  // Core condition search — always applied
-  url.set('query.cond', 'leptomeningeal metastasis')
+function appendCommonParams(
+  url: URLSearchParams,
+  params: SearchParams,
+  pageToken?: string
+) {
   url.set('format', 'json')
   url.set('pageSize', '20')
-  url.set('countTotal', 'true')
 
-  if (pageToken) {
-    url.set('pageToken', pageToken)
-  }
+  if (pageToken) url.set('pageToken', pageToken)
 
-  // Status filter
   if (params.statuses.length > 0) {
     url.set('filter.overallStatus', params.statuses.join(','))
   }
 
-  // Build filter.advanced parts
   const advancedParts: string[] = []
 
-  // Study type filter
   if (params.studyType !== 'any') {
     advancedParts.push(`AREA[StudyType]${params.studyType}`)
   }
 
-  // Phase filter — one or more phases combined with OR
   if (params.phases.length > 0) {
     if (params.phases.length === 1) {
       advancedParts.push(`AREA[Phase]${params.phases[0]}`)
@@ -51,45 +36,56 @@ export function buildApiUrl(params: SearchParams, pageToken?: string): string {
     }
   }
 
-  // Country filter
   if (params.country) {
-    // Escape the country name for the AREA filter
-    const safeCountry = params.country.replace(/[()]/g, '')
-    advancedParts.push(`AREA[LocationCountry]${safeCountry}`)
+    advancedParts.push(`AREA[LocationCountry]${params.country.replace(/[()]/g, '')}`)
   }
 
   if (advancedParts.length > 0) {
     url.set('filter.advanced', advancedParts.join(' AND '))
   }
+}
 
+/**
+ * QUERY A — condition field search.
+ * query.cond uses MeSH synonym expansion, so "leptomeningeal metastasis" also
+ * matches trials listed under "Meningeal Metastasis", "Leptomeningeal
+ * Carcinomatosis", etc.
+ */
+export function buildCondUrl(params: SearchParams, pageToken?: string): string {
+  const url = new URLSearchParams()
+  url.set('query.cond', 'leptomeningeal metastasis')
+  appendCommonParams(url, params, pageToken)
   return `${BASE_URL}?${url.toString()}`
 }
 
 /**
- * Fetches a page of studies from ClinicalTrials.gov API v2.
- * Throws on network errors or non-OK HTTP responses.
+ * QUERY B — full-text search across ALL fields.
+ * query.term finds trials where "leptomeningeal" appears in eligibility
+ * criteria, descriptions, or titles — catching brain-metastasis trials that
+ * include LM patients without listing it as the primary condition.
  */
-export async function fetchStudies(
-  params: SearchParams,
-  pageToken?: string
-): Promise<ApiResponse> {
-  const apiUrl = buildApiUrl(params, pageToken)
+export function buildTermUrl(params: SearchParams, pageToken?: string): string {
+  const url = new URLSearchParams()
+  url.set('query.term', 'leptomeningeal')
+  appendCommonParams(url, params, pageToken)
+  return `${BASE_URL}?${url.toString()}`
+}
 
-  const response = await fetch(apiUrl, {
-    headers: {
-      Accept: 'application/json',
-    },
-  })
-
+async function doFetch(apiUrl: string): Promise<ApiResponse> {
+  const response = await fetch(apiUrl, { headers: { Accept: 'application/json' } })
   if (!response.ok) {
     const errorText = await response.text().catch(() => 'Unknown error')
-    throw new Error(
-      `ClinicalTrials.gov API error ${response.status}: ${errorText}`
-    )
+    throw new Error(`ClinicalTrials.gov API error ${response.status}: ${errorText}`)
   }
+  return response.json() as Promise<ApiResponse>
+}
 
-  const data = await response.json()
-  return data as ApiResponse
+export function fetchCondStudies(params: SearchParams, pageToken?: string): Promise<ApiResponse> {
+  return doFetch(buildCondUrl(params, pageToken))
+}
+
+export function fetchTermStudies(params: SearchParams, pageToken?: string): Promise<ApiResponse> {
+  return doFetch(buildTermUrl(params, pageToken))
 }
 
 /**

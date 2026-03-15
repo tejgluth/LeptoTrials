@@ -1,7 +1,7 @@
 import { useState, useCallback, useRef } from 'react'
 import type { Study, SearchParams } from '../types/trial'
 import type { FilterResult } from '../types/trial'
-import { fetchStudies } from '../utils/apiClient'
+import { fetchCondStudies, fetchTermStudies } from '../utils/apiClient'
 import { filterTrial } from '../utils/trialFilter'
 
 export interface TrialWithMeta {
@@ -42,10 +42,12 @@ const INITIAL_STATE: SearchState = {
 export function useTrialSearch(): UseTrialSearchReturn {
   const [state, setState] = useState<SearchState>(INITIAL_STATE)
 
-  // Store the current search params and next page token between loads
   const currentParamsRef = useRef<SearchParams | null>(null)
-  const nextPageTokenRef = useRef<string | undefined>(undefined)
-  // Track if the current search has been cancelled (new search started)
+  // Track page tokens for both queries independently
+  const condTokenRef = useRef<string | undefined>(undefined)
+  const termTokenRef = useRef<string | undefined>(undefined)
+  // Deduplicate across both queries and across paginated loads
+  const seenIdsRef = useRef<Set<string>>(new Set())
   const searchIdRef = useRef(0)
 
   const applyFilter = useCallback(
@@ -57,39 +59,65 @@ export function useTrialSearch(): UseTrialSearchReturn {
     []
   )
 
+  /**
+   * Merges studies from two API responses, deduplicating by NCT ID against
+   * the global seenIds set, then runs the eligibility filter on each new study.
+   */
+  const mergeAndFilter = useCallback(
+    (
+      condStudies: Study[],
+      termStudies: Study[],
+      params: SearchParams
+    ): TrialWithMeta[] => {
+      const filtered: TrialWithMeta[] = []
+      for (const study of [...condStudies, ...termStudies]) {
+        const id = study.protocolSection.identificationModule.nctId
+        if (seenIdsRef.current.has(id)) continue
+        seenIdsRef.current.add(id)
+        const meta = applyFilter(study, params)
+        if (meta) filtered.push(meta)
+      }
+      return filtered
+    },
+    [applyFilter]
+  )
+
   const search = useCallback(
     async (params: SearchParams) => {
-      // Increment search ID so stale responses are ignored
       const thisSearchId = ++searchIdRef.current
       currentParamsRef.current = params
-      nextPageTokenRef.current = undefined
+      condTokenRef.current = undefined
+      termTokenRef.current = undefined
+      seenIdsRef.current = new Set()
 
-      setState({
-        ...INITIAL_STATE,
-        isLoading: true,
-        hasSearched: true,
-      })
+      setState({ ...INITIAL_STATE, isLoading: true, hasSearched: true })
 
       try {
-        const data = await fetchStudies(params, undefined)
+        // Fire both queries in parallel — cond catches synonym-matched condition
+        // terms; term catches any trial mentioning "leptomeningeal" in any field
+        // (eligibility criteria, summaries, titles, etc.)
+        const [condData, termData] = await Promise.all([
+          fetchCondStudies(params, undefined),
+          fetchTermStudies(params, undefined),
+        ])
 
-        // Bail if a newer search has started
         if (searchIdRef.current !== thisSearchId) return
 
-        const filtered: TrialWithMeta[] = []
-        for (const study of data.studies ?? []) {
-          const meta = applyFilter(study, params)
-          if (meta) filtered.push(meta)
-        }
+        condTokenRef.current = condData.nextPageToken
+        termTokenRef.current = termData.nextPageToken
 
-        nextPageTokenRef.current = data.nextPageToken
+        const filtered = mergeAndFilter(
+          condData.studies ?? [],
+          termData.studies ?? [],
+          params
+        )
 
         setState({
           results: filtered,
-          totalApiCount: data.totalCount ?? null,
+          totalApiCount: null, // Not meaningful across two deduplicated queries
           filteredCount: filtered.length,
           pagesLoaded: 1,
-          hasMore: !!data.nextPageToken,
+          hasMore: !!(condData.nextPageToken || termData.nextPageToken),
           isLoading: false,
           isLoadingMore: false,
           error: null,
@@ -107,37 +135,59 @@ export function useTrialSearch(): UseTrialSearchReturn {
         }))
       }
     },
-    [applyFilter]
+    [mergeAndFilter]
   )
 
   const loadMore = useCallback(async () => {
-    if (!currentParamsRef.current || !nextPageTokenRef.current) return
+    if (!currentParamsRef.current) return
+    if (!condTokenRef.current && !termTokenRef.current) return
 
     const params = currentParamsRef.current
-    const token = nextPageTokenRef.current
     const thisSearchId = searchIdRef.current
 
     setState((prev) => ({ ...prev, isLoadingMore: true, error: null }))
 
     try {
-      const data = await fetchStudies(params, token)
+      // Only fetch from queries that still have more pages
+      const pending: Array<'cond' | 'term'> = []
+      const fetches: Promise<import('../types/trial').ApiResponse>[] = []
 
-      if (searchIdRef.current !== thisSearchId) return
-
-      const newFiltered: TrialWithMeta[] = []
-      for (const study of data.studies ?? []) {
-        const meta = applyFilter(study, params)
-        if (meta) newFiltered.push(meta)
+      if (condTokenRef.current) {
+        pending.push('cond')
+        fetches.push(fetchCondStudies(params, condTokenRef.current))
+      }
+      if (termTokenRef.current) {
+        pending.push('term')
+        fetches.push(fetchTermStudies(params, termTokenRef.current))
       }
 
-      nextPageTokenRef.current = data.nextPageToken
+      // allSettled so a single query failure doesn't block the other
+      const settled = await Promise.allSettled(fetches)
+      if (searchIdRef.current !== thisSearchId) return
+
+      let condStudies: Study[] = []
+      let termStudies: Study[] = []
+
+      settled.forEach((result, i) => {
+        if (result.status !== 'fulfilled') return
+        const data = result.value
+        if (pending[i] === 'cond') {
+          condTokenRef.current = data.nextPageToken
+          condStudies = data.studies ?? []
+        } else {
+          termTokenRef.current = data.nextPageToken
+          termStudies = data.studies ?? []
+        }
+      })
+
+      const newFiltered = mergeAndFilter(condStudies, termStudies, params)
 
       setState((prev) => ({
         ...prev,
         results: [...prev.results, ...newFiltered],
         filteredCount: prev.filteredCount + newFiltered.length,
         pagesLoaded: prev.pagesLoaded + 1,
-        hasMore: !!data.nextPageToken,
+        hasMore: !!(condTokenRef.current || termTokenRef.current),
         isLoadingMore: false,
       }))
     } catch (err) {
@@ -151,12 +201,14 @@ export function useTrialSearch(): UseTrialSearchReturn {
             : 'Failed to load more trials. Please try again.',
       }))
     }
-  }, [applyFilter])
+  }, [mergeAndFilter])
 
   const reset = useCallback(() => {
     searchIdRef.current++
     currentParamsRef.current = null
-    nextPageTokenRef.current = undefined
+    condTokenRef.current = undefined
+    termTokenRef.current = undefined
+    seenIdsRef.current = new Set()
     setState(INITIAL_STATE)
   }, [])
 

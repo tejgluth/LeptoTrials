@@ -90,7 +90,8 @@ export default function SearchForm({ onSearch, isLoading, compact = false }: Sea
 
   return (
     <form onSubmit={handleSubmit} className="w-full border-b border-[#1a3352]/60">
-      <div className={`px-5 sm:px-8 md:px-12 lg:px-20 max-w-7xl ${compact ? 'py-4 sm:py-5' : 'py-8 sm:py-10'}`}>
+      {/* transition-[padding] smooths the compact ↔ full height switch */}
+      <div className={`px-5 sm:px-8 md:px-12 lg:px-20 max-w-7xl transition-[padding] duration-200 ${compact ? 'py-4 sm:py-5' : 'py-8 sm:py-10'}`}>
 
         {/* Section label — hidden in compact/sticky mode */}
         {!compact && (
