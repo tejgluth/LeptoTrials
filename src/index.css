@@ -43,18 +43,25 @@ body {
 }
 
 /* ─── Scrollbar ─────────────────────────────────────────────────── */
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #2a5070 #060f1e;
+}
+/* Chrome / Safari / Edge */
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 10px;
 }
 ::-webkit-scrollbar-track {
   background: #060f1e;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1a3352;
-  border-radius: 2px;
+  background: #2a5070;
+  border-radius: 5px;
+  border: 2px solid #060f1e;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #2a4f72;
+  background: #38bdf8;
 }
 
 /* ─── Focus styles ──────────────────────────────────────────────── */
