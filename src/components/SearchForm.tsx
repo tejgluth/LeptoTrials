@@ -1,15 +1,7 @@
 import { useState } from 'react'
 import type { SearchParams, StudyTypeFilter, PhaseFilter, OverallStatus } from '../types/trial'
 import { DEFAULT_STATUSES } from '../utils/apiClient'
-
-const COUNTRIES = [
-  'United States', 'Canada', 'United Kingdom', 'Germany', 'France', 'Italy',
-  'Spain', 'Netherlands', 'Belgium', 'Switzerland', 'Austria', 'Sweden',
-  'Denmark', 'Norway', 'Finland', 'Australia', 'Japan', 'China', 'South Korea',
-  'Israel', 'Brazil', 'Mexico', 'Argentina', 'India', 'Singapore', 'Hong Kong',
-  'New Zealand', 'Poland', 'Czech Republic', 'Portugal', 'Greece', 'Turkey',
-  'Russia', 'Ukraine', 'South Africa',
-]
+import { COUNTRIES } from '../constants/countries'
 
 interface SearchFormProps {
   onSearch: (params: SearchParams) => void
@@ -137,12 +129,15 @@ export default function SearchForm({
 
           {/* Age */}
           <div className="flex flex-col gap-2.5">
-            <label className="text-sm font-semibold text-[#8ab8d4]">
+            <label htmlFor="filter-age" className="text-sm font-semibold text-[#8ab8d4]">
               Your Age
             </label>
             <div className="relative">
               <input
+                id="filter-age"
+                name="age"
                 type="number"
+                autoComplete="off"
                 min={0}
                 max={120}
                 value={age}
@@ -166,10 +161,13 @@ export default function SearchForm({
 
           {/* Country */}
           <div className="flex flex-col gap-2.5">
-            <label className="text-sm font-semibold text-[#8ab8d4]">
+            <label htmlFor="filter-country" className="text-sm font-semibold text-[#8ab8d4]">
               Country
             </label>
             <select
+              id="filter-country"
+              name="country"
+              autoComplete="country-name"
               value={country}
               onChange={(e) => setCountry(e.target.value)}
               className={`${inputCls} appearance-none cursor-pointer`}
@@ -189,10 +187,10 @@ export default function SearchForm({
 
           {/* Study Type */}
           <div className="flex flex-col gap-2.5">
-            <label className="text-sm font-semibold text-[#8ab8d4]">
+            <p className="text-sm font-semibold text-[#8ab8d4]" aria-hidden="true">
               Study Type
-            </label>
-            <div className="flex gap-3 h-[52px]">
+            </p>
+            <div className="flex gap-3 h-[52px]" role="group" aria-label="Study type">
               {(['INTERVENTIONAL', 'OBSERVATIONAL'] as const).map((type) => (
                 <button
                   key={type}
@@ -215,13 +213,13 @@ export default function SearchForm({
 
           {/* Phase */}
           <div className="flex flex-col gap-2.5">
-            <label className="text-sm font-semibold text-[#8ab8d4]">
+            <p className="text-sm font-semibold text-[#8ab8d4]" aria-hidden="true">
               Phase{' '}
               <span className="text-[#2a5070] font-normal normal-case">
                 — select any
               </span>
-            </label>
-            <div className="flex border border-[#1a3352] overflow-hidden h-[52px]">
+            </p>
+            <div className="flex border border-[#1a3352] overflow-hidden h-[52px]" role="group" aria-label="Trial phase">
               {phaseOptions.map(({ value, label }) => (
                 <button
                   key={value}
@@ -249,7 +247,7 @@ export default function SearchForm({
             Recruitment Status
           </span>
           {statusOptions.map(({ value, label, color }) => (
-            <label key={value} className="flex items-center gap-3 cursor-pointer group min-h-[44px]">
+            <label key={value} htmlFor={`filter-status-${value.toLowerCase().replace(/_/g, '-')}`} className="flex items-center gap-3 cursor-pointer group min-h-[44px]">
               <span
                 className="relative inline-flex items-center justify-center w-5 h-5 border-2 flex-shrink-0 transition-all"
                 style={{
@@ -269,6 +267,8 @@ export default function SearchForm({
                   </svg>
                 )}
                 <input
+                  id={`filter-status-${value.toLowerCase().replace(/_/g, '-')}`}
+                  name={`status-${value}`}
                   type="checkbox"
                   checked={statuses.includes(value)}
                   onChange={() => toggleStatus(value)}

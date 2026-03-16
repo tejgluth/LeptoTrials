@@ -122,16 +122,11 @@ export default function TrialCard({ study, index }: TrialCardProps) {
     if (!contactEmail) return
     try {
       await navigator.clipboard.writeText(contactEmail)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
     } catch {
-      const ta = document.createElement('textarea')
-      ta.value = contactEmail
-      document.body.appendChild(ta)
-      ta.select()
-      document.execCommand('copy')
-      document.body.removeChild(ta)
+      // Clipboard API unavailable (non-HTTPS or unsupported browser)
     }
-    setCopied(true)
-    setTimeout(() => setCopied(false), 2000)
   }
 
   const SUMMARY_LIMIT = 280

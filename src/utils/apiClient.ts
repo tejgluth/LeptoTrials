@@ -1,6 +1,23 @@
 import type { ApiResponse, SearchParams, OverallStatus } from '../types/trial'
+import { COUNTRIES } from '../constants/countries'
 
 const BASE_URL = 'https://clinicaltrials.gov/api/v2/studies'
+
+const ALLOWED_STUDY_TYPES = new Set(['any', 'INTERVENTIONAL', 'OBSERVATIONAL'])
+const ALLOWED_PHASES = new Set(['PHASE1', 'PHASE2', 'PHASE3', 'PHASE4', 'EARLY_PHASE1', 'NA'])
+const ALLOWED_COUNTRIES = new Set<string>(COUNTRIES)
+
+function validateParams(params: SearchParams): void {
+  if (!ALLOWED_STUDY_TYPES.has(params.studyType)) {
+    throw new Error('Invalid study type')
+  }
+  for (const phase of params.phases) {
+    if (!ALLOWED_PHASES.has(phase)) throw new Error('Invalid phase value')
+  }
+  if (params.country !== null && !ALLOWED_COUNTRIES.has(params.country)) {
+    throw new Error('Invalid country')
+  }
+}
 
 /**
  * Shared filter/pagination params appended to every query URL.
@@ -52,6 +69,7 @@ function appendCommonParams(
  * Carcinomatosis", etc.
  */
 export function buildCondUrl(params: SearchParams, pageToken?: string): string {
+  validateParams(params)
   const url = new URLSearchParams()
   url.set('query.cond', 'leptomeningeal metastasis')
   appendCommonParams(url, params, pageToken)
@@ -65,6 +83,7 @@ export function buildCondUrl(params: SearchParams, pageToken?: string): string {
  * include LM patients without listing it as the primary condition.
  */
 export function buildTermUrl(params: SearchParams, pageToken?: string): string {
+  validateParams(params)
   const url = new URLSearchParams()
   url.set('query.term', 'leptomeningeal')
   appendCommonParams(url, params, pageToken)
