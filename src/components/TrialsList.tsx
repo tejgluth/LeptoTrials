@@ -4,29 +4,17 @@ import TrialCard from './TrialCard'
 interface TrialsListProps {
   results: TrialWithMeta[]
   filteredCount: number
-  totalApiCount: number | null
-  hasMore: boolean
-  isLoadingMore: boolean
-  onLoadMore: () => void
   error: string | null
 }
 
-export default function TrialsList({
-  results,
-  filteredCount,
-  totalApiCount: _totalApiCount,
-  hasMore,
-  isLoadingMore,
-  onLoadMore,
-  error,
-}: TrialsListProps) {
+export default function TrialsList({ results, filteredCount, error }: TrialsListProps) {
   return (
     <section className="px-5 sm:px-8 md:px-12 lg:px-20 py-10 sm:py-12 max-w-7xl">
 
       {/* Results header */}
       <div className="flex flex-wrap items-baseline gap-x-5 gap-y-1.5 mb-3">
         <h2 className="text-2xl sm:text-3xl font-semibold text-[#e8f4fd]">
-          {filteredCount.toLocaleString()} trial{filteredCount !== 1 ? 's' : ''} found{hasMore ? '+' : ''}
+          {filteredCount.toLocaleString()} trial{filteredCount !== 1 ? 's' : ''} found
         </h2>
       </div>
 
@@ -54,28 +42,8 @@ export default function TrialsList({
         </div>
       )}
 
-      {/* Load more */}
-      {hasMore && (
-        <div className="mt-10 flex justify-center">
-          <button
-            onClick={onLoadMore}
-            disabled={isLoadingMore}
-            className="inline-flex items-center gap-3 border border-[#1a3352] text-[#8ab8d4] hover:text-[#e8f4fd] hover:border-[#38bdf8] px-8 sm:px-10 py-4 text-base font-medium transition-colors duration-200 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer min-h-[52px]"
-          >
-            {isLoadingMore ? (
-              <>
-                <span className="inline-block w-4 h-4 border-2 border-[#8ab8d4] border-t-transparent rounded-full animate-spin" />
-                Loading more…
-              </>
-            ) : (
-              'Load More Trials'
-            )}
-          </button>
-        </div>
-      )}
-
       {/* End of results */}
-      {!hasMore && results.length > 0 && (
+      {results.length > 0 && (
         <p className="text-center text-sm text-[#2a5070] mt-12">
           End of results · {filteredCount} total
         </p>

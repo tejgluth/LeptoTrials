@@ -18,14 +18,10 @@ export default function App() {
   const {
     results,
     filteredCount,
-    totalApiCount,
-    hasMore,
     isLoading,
-    isLoadingMore,
     error,
     hasSearched,
     search,
-    loadMore,
   } = useTrialSearch()
 
   // Use IntersectionObserver on a 1px sentinel placed just above the form.
@@ -129,10 +125,6 @@ export default function App() {
           <TrialsList
             results={results}
             filteredCount={filteredCount}
-            totalApiCount={totalApiCount}
-            hasMore={hasMore}
-            isLoadingMore={isLoadingMore}
-            onLoadMore={loadMore}
             error={error}
           />
         )}

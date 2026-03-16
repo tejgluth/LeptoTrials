@@ -1,5 +1,5 @@
 import { useState, useCallback, useRef } from 'react'
-import type { Study, SearchParams } from '../types/trial'
+import type { Study, SearchParams, ApiResponse } from '../types/trial'
 import type { FilterResult } from '../types/trial'
 import { fetchCondStudies, fetchTermStudies } from '../utils/apiClient'
 import { filterTrial } from '../utils/trialFilter'
@@ -11,42 +11,31 @@ export interface TrialWithMeta {
 
 export interface SearchState {
   results: TrialWithMeta[]
-  totalApiCount: number | null
   filteredCount: number
-  pagesLoaded: number
-  hasMore: boolean
   isLoading: boolean
-  isLoadingMore: boolean
   error: string | null
   hasSearched: boolean
 }
 
 export interface UseTrialSearchReturn extends SearchState {
   search: (params: SearchParams) => Promise<void>
-  loadMore: () => Promise<void>
   reset: () => void
 }
 
 const INITIAL_STATE: SearchState = {
   results: [],
-  totalApiCount: null,
   filteredCount: 0,
-  pagesLoaded: 0,
-  hasMore: false,
   isLoading: false,
-  isLoadingMore: false,
   error: null,
   hasSearched: false,
 }
 
+// Maximum pages to fetch per search (safety cap — 20 pages × 20/page = 400 trials max)
+const MAX_PAGES = 20
+
 export function useTrialSearch(): UseTrialSearchReturn {
   const [state, setState] = useState<SearchState>(INITIAL_STATE)
 
-  const currentParamsRef = useRef<SearchParams | null>(null)
-  // Track page tokens for both queries independently
-  const condTokenRef = useRef<string | undefined>(undefined)
-  const termTokenRef = useRef<string | undefined>(undefined)
-  // Deduplicate across both queries and across paginated loads
   const seenIdsRef = useRef<Set<string>>(new Set())
   const searchIdRef = useRef(0)
 
@@ -64,11 +53,7 @@ export function useTrialSearch(): UseTrialSearchReturn {
    * the global seenIds set, then runs the eligibility filter on each new study.
    */
   const mergeAndFilter = useCallback(
-    (
-      condStudies: Study[],
-      termStudies: Study[],
-      params: SearchParams
-    ): TrialWithMeta[] => {
+    (condStudies: Study[], termStudies: Study[], params: SearchParams): TrialWithMeta[] => {
       const filtered: TrialWithMeta[] = []
       for (const study of [...condStudies, ...termStudies]) {
         const id = study.protocolSection.identificationModule.nctId
@@ -85,63 +70,53 @@ export function useTrialSearch(): UseTrialSearchReturn {
   const search = useCallback(
     async (params: SearchParams) => {
       const thisSearchId = ++searchIdRef.current
-      currentParamsRef.current = params
-      condTokenRef.current = undefined
-      termTokenRef.current = undefined
       seenIdsRef.current = new Set()
 
       setState({ ...INITIAL_STATE, isLoading: true, hasSearched: true })
 
       try {
-        // Fire both queries in parallel — cond catches synonym-matched condition
-        // terms; term catches any trial mentioning "leptomeningeal" in any field
-        // (eligibility criteria, summaries, titles, etc.)
+        const allFiltered: TrialWithMeta[] = []
+        let condToken: string | undefined = undefined
+        let termToken: string | undefined = undefined
+
+        // Page 1: fire both queries in parallel
         const [condData, termData] = await Promise.all([
           fetchCondStudies(params, undefined),
           fetchTermStudies(params, undefined),
         ])
-
         if (searchIdRef.current !== thisSearchId) return
 
-        condTokenRef.current = condData.nextPageToken
-        termTokenRef.current = termData.nextPageToken
+        condToken = condData.nextPageToken
+        termToken = termData.nextPageToken
+        allFiltered.push(...mergeAndFilter(condData.studies ?? [], termData.studies ?? [], params))
 
-        let filtered = mergeAndFilter(
-          condData.studies ?? [],
-          termData.studies ?? [],
-          params
-        )
+        // Remaining pages: keep fetching in parallel until both queries are exhausted
+        for (let page = 1; page < MAX_PAGES; page++) {
+          if (!condToken && !termToken) break
 
-        // Auto-fill: if client-side filtering leaves us under 20 on the first
-        // page but the API has more, fetch one additional batch silently so
-        // the user always sees a full first page.
-        if (filtered.length < 20 && (condTokenRef.current || termTokenRef.current)) {
-          const fillFetches: Promise<import('../types/trial').ApiResponse>[] = []
-          const fillPending: Array<'cond' | 'term'> = []
-          if (condTokenRef.current) { fillPending.push('cond'); fillFetches.push(fetchCondStudies(params, condTokenRef.current)) }
-          if (termTokenRef.current) { fillPending.push('term'); fillFetches.push(fetchTermStudies(params, termTokenRef.current)) }
+          const fetches: Promise<ApiResponse>[] = []
+          const pending: Array<'cond' | 'term'> = []
+          if (condToken) { pending.push('cond'); fetches.push(fetchCondStudies(params, condToken)) }
+          if (termToken) { pending.push('term'); fetches.push(fetchTermStudies(params, termToken)) }
 
-          const fillSettled = await Promise.allSettled(fillFetches)
+          const settled = await Promise.allSettled(fetches)
           if (searchIdRef.current !== thisSearchId) return
 
-          let fillCond: import('../types/trial').Study[] = []
-          let fillTerm: import('../types/trial').Study[] = []
-          fillSettled.forEach((r, i) => {
+          let condStudies: Study[] = []
+          let termStudies: Study[] = []
+          settled.forEach((r, i) => {
             if (r.status !== 'fulfilled') return
-            if (fillPending[i] === 'cond') { condTokenRef.current = r.value.nextPageToken; fillCond = r.value.studies ?? [] }
-            else { termTokenRef.current = r.value.nextPageToken; fillTerm = r.value.studies ?? [] }
+            if (pending[i] === 'cond') { condToken = r.value.nextPageToken; condStudies = r.value.studies ?? [] }
+            else { termToken = r.value.nextPageToken; termStudies = r.value.studies ?? [] }
           })
-          filtered = [...filtered, ...mergeAndFilter(fillCond, fillTerm, params)]
+
+          allFiltered.push(...mergeAndFilter(condStudies, termStudies, params))
         }
 
         setState({
-          results: filtered,
-          totalApiCount: condData.totalCount ?? termData.totalCount ?? null,
-          filteredCount: filtered.length,
-          pagesLoaded: 1,
-          hasMore: !!(condTokenRef.current || termTokenRef.current),
+          results: allFiltered,
+          filteredCount: allFiltered.length,
           isLoading: false,
-          isLoadingMore: false,
           error: null,
           hasSearched: true,
         })
@@ -150,89 +125,18 @@ export function useTrialSearch(): UseTrialSearchReturn {
         setState((prev) => ({
           ...prev,
           isLoading: false,
-          error:
-            err instanceof Error
-              ? err.message
-              : 'Failed to fetch trials. Please try again.',
+          error: err instanceof Error ? err.message : 'Failed to fetch trials. Please try again.',
         }))
       }
     },
     [mergeAndFilter]
   )
 
-  const loadMore = useCallback(async () => {
-    if (!currentParamsRef.current) return
-    if (!condTokenRef.current && !termTokenRef.current) return
-
-    const params = currentParamsRef.current
-    const thisSearchId = searchIdRef.current
-
-    setState((prev) => ({ ...prev, isLoadingMore: true, error: null }))
-
-    try {
-      // Only fetch from queries that still have more pages
-      const pending: Array<'cond' | 'term'> = []
-      const fetches: Promise<import('../types/trial').ApiResponse>[] = []
-
-      if (condTokenRef.current) {
-        pending.push('cond')
-        fetches.push(fetchCondStudies(params, condTokenRef.current))
-      }
-      if (termTokenRef.current) {
-        pending.push('term')
-        fetches.push(fetchTermStudies(params, termTokenRef.current))
-      }
-
-      // allSettled so a single query failure doesn't block the other
-      const settled = await Promise.allSettled(fetches)
-      if (searchIdRef.current !== thisSearchId) return
-
-      let condStudies: Study[] = []
-      let termStudies: Study[] = []
-
-      settled.forEach((result, i) => {
-        if (result.status !== 'fulfilled') return
-        const data = result.value
-        if (pending[i] === 'cond') {
-          condTokenRef.current = data.nextPageToken
-          condStudies = data.studies ?? []
-        } else {
-          termTokenRef.current = data.nextPageToken
-          termStudies = data.studies ?? []
-        }
-      })
-
-      const newFiltered = mergeAndFilter(condStudies, termStudies, params)
-
-      setState((prev) => ({
-        ...prev,
-        results: [...prev.results, ...newFiltered],
-        filteredCount: prev.filteredCount + newFiltered.length,
-        pagesLoaded: prev.pagesLoaded + 1,
-        hasMore: !!(condTokenRef.current || termTokenRef.current),
-        isLoadingMore: false,
-      }))
-    } catch (err) {
-      if (searchIdRef.current !== thisSearchId) return
-      setState((prev) => ({
-        ...prev,
-        isLoadingMore: false,
-        error:
-          err instanceof Error
-            ? err.message
-            : 'Failed to load more trials. Please try again.',
-      }))
-    }
-  }, [mergeAndFilter])
-
   const reset = useCallback(() => {
     searchIdRef.current++
-    currentParamsRef.current = null
-    condTokenRef.current = undefined
-    termTokenRef.current = undefined
     seenIdsRef.current = new Set()
     setState(INITIAL_STATE)
   }, [])
 
-  return { ...state, search, loadMore, reset }
+  return { ...state, search, reset }
 }
