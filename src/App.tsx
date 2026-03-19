@@ -72,13 +72,13 @@ export default function App() {
       {/* Fixed nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-5 sm:px-8 md:px-12 lg:px-20 h-16 border-b border-[#1a3352]/60 bg-[#060f1e]/95 backdrop-blur-sm">
         <span className="text-sm font-bold uppercase tracking-[0.25em] text-[#e8f4fd]">
-          Lepto<span className="text-[#38bdf8]">Trials</span>
+          LM-<span className="text-[#38bdf8]">Trials</span>
         </span>
         <a
           href="https://clinicaltrials.gov"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xs uppercase tracking-widest text-[#4a7896] hover:text-[#8ab8d4] transition-colors duration-200"
+          className="text-xs uppercase tracking-widest text-[#6ba3bf] hover:text-[#8ab8d4] transition-colors duration-200"
         >
           ClinicalTrials.gov ↗
         </a>
@@ -143,9 +143,9 @@ export default function App() {
         <div className="flex flex-col sm:flex-row flex-wrap justify-between gap-10 max-w-7xl">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#38bdf8] mb-3">
-              LeptoTrials
+              LM-Trials
             </p>
-            <p className="text-sm text-[#4a7896] leading-relaxed max-w-xs">
+            <p className="text-sm text-[#6ba3bf] leading-relaxed max-w-xs">
               A focused clinical trial finder for leptomeningeal metastasis patients.
               Data sourced live from ClinicalTrials.gov API v2.
             </p>
@@ -154,7 +154,7 @@ export default function App() {
             <p className="text-xs font-semibold uppercase tracking-wider text-[#2a5070] mb-3">
               Medical Disclaimer
             </p>
-            <p className="text-sm text-[#4a7896] max-w-sm leading-relaxed">
+            <p className="text-sm text-[#6ba3bf] max-w-sm leading-relaxed">
               This tool is for informational purposes only and does not constitute medical advice.
               Always consult your oncologist or qualified medical professional before enrolling
               in any clinical trial.

@@ -1,12 +1,53 @@
-import type { Study, FilterResult } from '../types/trial'
+import type { Study, FilterResult, TumorTypeFilter } from '../types/trial'
 import { isAgeEligible } from './ageParser'
+
+/**
+ * Terms that confirm a trial is specifically for LMD patients when found in
+ * the conditionsModule.conditions array. If any match, we auto-include the
+ * trial (bypassing eligibility text checks) — only age still applies.
+ */
+const LMD_CONDITION_TERMS = ['leptomeningeal', 'leptomeninges']
 
 /**
  * Terms that CANNOT appear in the exclusion criteria section.
  * If any of these appear in the exclusion section, the trial explicitly
- * excludes leptomeningeal patients and must be removed from results.
+ * excludes leptomeningeal (or brain-metastasis) patients and must be removed.
+ *
+ * Note: "brain metastases" / "brain metastasis" added to catch screening trials
+ * for patients who have NOT yet developed brain/LMD involvement (Fix B).
+ * Fix A (LMD in conditions) bypasses this check, so legitimate LMD+brain-met
+ * trials are never incorrectly removed.
  */
-const EXCLUSION_BLOCKED_TERMS = ['leptomeningeal', 'leptomeninges']
+const EXCLUSION_BLOCKED_TERMS = [
+  'leptomeningeal',
+  'leptomeninges',
+  'brain metastases',
+  'brain metastasis',
+]
+
+/**
+ * Phrases in the INCLUSION criteria section that indicate LMD patients are
+ * excluded — e.g. "No radiographic evidence of leptomeningeal disease".
+ * These are negative-inclusion criteria (Fix D).
+ */
+const INCLUSION_NEGATIVE_PHRASES = [
+  'no radiographic evidence of leptomeningeal',
+  'no evidence of leptomeningeal',
+  'no leptomeningeal disease',
+  'no leptomeningeal metastasis',
+  'no leptomeningeal metastases',
+  'no leptomeningeal involvement',
+  'absence of leptomeningeal',
+]
+
+/**
+ * Plain-English phrases in the brief summary that signal LMD patients cannot
+ * participate (Fix C). These appear in consumer-language summaries rather than
+ * the structured eligibility criteria field.
+ */
+const BRIEF_SUMMARY_EXCLUSION_PHRASES = [
+  'cannot take part if the cancer cells have spread to the thin tissue covering the brain and spinal cord',
+]
 
 /**
  * OR terms — at least one must appear somewhere in the study's searchable fields
@@ -27,10 +68,8 @@ const INCLUSION_OR_TERMS = [
 /**
  * Markers that indicate the start of the exclusion criteria section.
  * All are checked; the one with the earliest position in the text wins.
- * (Previously used first-match-wins which could pick the wrong marker.)
  */
 const EXCLUSION_SECTION_MARKERS = [
-  // Prefixed variants seen in ClinicalTrials.gov data
   'key exclusion criteria:',
   'key exclusion criteria\n',
   'key exclusion criteria\r',
@@ -47,14 +86,11 @@ const EXCLUSION_SECTION_MARKERS = [
   'specific exclusion criteria\n',
   'general exclusion criteria:',
   'general exclusion criteria\n',
-  // Standard "Exclusion Criteria" with colon, line-break, or opening paren
-  // e.g. "EXCLUSION CRITERIA (Patients will be excluded if they meet any of..."
   'exclusion criteria:',
   'exclusion criteria\n',
   'exclusion criteria\r',
   'exclusion criteria\t',
   'exclusion criteria (',
-  // Bare "Exclusion:" header on its own line
   '\nexclusion:\n',
   '\nexclusion:\r',
   '\nexclusion:\t',
@@ -72,7 +108,6 @@ export interface ParsedCriteria {
 
 /**
  * Splits an eligibility criteria string into inclusion and exclusion sections.
- * The split is case-insensitive and looks for standard markers.
  */
 export function parseEligibilityCriteria(text: string): ParsedCriteria {
   if (!text) {
@@ -80,8 +115,6 @@ export function parseEligibilityCriteria(text: string): ParsedCriteria {
   }
 
   const lower = text.toLowerCase()
-  // Find the earliest occurrence across ALL markers so we always split
-  // at the true section boundary, regardless of which variant is used.
   let splitIndex = -1
 
   for (const marker of EXCLUSION_SECTION_MARKERS) {
@@ -92,7 +125,6 @@ export function parseEligibilityCriteria(text: string): ParsedCriteria {
   }
 
   if (splitIndex === -1) {
-    // Could not find exclusion section — treat entire text as inclusion
     return { inclusion: text, exclusion: '', sectionFound: false }
   }
 
@@ -105,13 +137,18 @@ export function parseEligibilityCriteria(text: string): ParsedCriteria {
 
 /**
  * Main filter function. Returns a FilterResult indicating whether a trial
- * should be shown to the patient, and whether it needs a verification flag.
+ * should be shown to the patient.
  *
- * Steps:
+ * Execution order:
  * 1. Parse eligibility criteria into inclusion/exclusion sections
- * 2. Hard exclusion check: if exclusion section contains blocked terms → remove
- * 3. Age eligibility check (if patient age provided)
- * 4. Inclusion OR check: verify at least one required term appears in searchable fields
+ * 2. Compute whether LMD appears in the conditionsModule.conditions list
+ * 3. Age eligibility check (applies to all trials)
+ * 4. Fast path: if LMD in conditions list → return include: true
+ *    (bypasses eligibility text checks — the conditions list is authoritative)
+ * 5. Check inclusion section for INCLUSION_NEGATIVE_PHRASES → reject if found
+ * 6. Check exclusion section for EXCLUSION_BLOCKED_TERMS → reject if found
+ * 7. Check brief summary for BRIEF_SUMMARY_EXCLUSION_PHRASES → reject if found
+ * 8. Inclusion OR term verification → reject if no LMD term found
  */
 export function filterTrial(
   study: Study,
@@ -124,7 +161,43 @@ export function filterTrial(
   // --- Step 1: Parse sections ---
   const { inclusion, exclusion, sectionFound } = parseEligibilityCriteria(criteriaText)
 
-  // --- Step 2: Exclusion criteria block check (CRITICAL) ---
+  // --- Step 2: Check LMD in conditions list ---
+  const conditionsList = proto.conditionsModule?.conditions ?? []
+  const lmdInConditions = LMD_CONDITION_TERMS.some((term) =>
+    conditionsList.some((c) => c.toLowerCase().includes(term))
+  )
+
+  // --- Step 3: Age eligibility check (always applies) ---
+  if (patientAge !== null) {
+    const minAgeStr = eligibility?.minimumAge
+    const maxAgeStr = eligibility?.maximumAge
+    if (!isAgeEligible(patientAge, minAgeStr, maxAgeStr)) {
+      return {
+        include: false,
+        reason: `Patient age ${patientAge} outside trial range (${minAgeStr ?? 'no min'} – ${maxAgeStr ?? 'no max'})`,
+      }
+    }
+  }
+
+  // --- Step 4: Fast path — LMD in conditions list is authoritative ---
+  // Trials that list a leptomeningeal term as a primary condition are
+  // definitively for LMD patients. Skip all eligibility text checks.
+  if (lmdInConditions) {
+    return { include: true }
+  }
+
+  // --- Step 5: Inclusion negative phrase check ---
+  const lowerInclusion = inclusion.toLowerCase()
+  for (const phrase of INCLUSION_NEGATIVE_PHRASES) {
+    if (lowerInclusion.includes(phrase)) {
+      return {
+        include: false,
+        reason: `Inclusion criteria excludes LMD patients: "${phrase}"`,
+      }
+    }
+  }
+
+  // --- Step 6: Exclusion criteria block check ---
   if (sectionFound) {
     const lowerExclusion = exclusion.toLowerCase()
     for (const term of EXCLUSION_BLOCKED_TERMS) {
@@ -137,31 +210,30 @@ export function filterTrial(
     }
   }
 
-  // --- Step 3: Age eligibility check ---
-  if (patientAge !== null) {
-    const minAgeStr = eligibility?.minimumAge
-    const maxAgeStr = eligibility?.maximumAge
-    if (!isAgeEligible(patientAge, minAgeStr, maxAgeStr)) {
+  // --- Step 7: Brief summary exclusion phrase check ---
+  const briefSummary = (proto.descriptionModule?.briefSummary ?? '').toLowerCase()
+  for (const phrase of BRIEF_SUMMARY_EXCLUSION_PHRASES) {
+    if (briefSummary.includes(phrase)) {
       return {
         include: false,
-        reason: `Patient age ${patientAge} outside trial range (${minAgeStr ?? 'no min'} – ${maxAgeStr ?? 'no max'})`,
+        reason: 'Brief summary indicates LMD patients excluded',
       }
     }
   }
 
-  // --- Step 4: Inclusion OR term verification ---
-  const conditions = (proto.conditionsModule?.conditions ?? []).join(' ')
+  // --- Step 8: Inclusion OR term verification ---
+  const conditions = conditionsList.join(' ')
   const keywords = (proto.conditionsModule?.keywords ?? []).join(' ')
   const briefTitle = proto.identificationModule?.briefTitle ?? ''
   const officialTitle = proto.identificationModule?.officialTitle ?? ''
-  const briefSummary = proto.descriptionModule?.briefSummary ?? ''
+  const briefSummaryRaw = proto.descriptionModule?.briefSummary ?? ''
 
   const allSearchableText = [
     conditions,
     keywords,
     briefTitle,
     officialTitle,
-    briefSummary,
+    briefSummaryRaw,
     inclusion,
   ]
     .join(' ')
@@ -179,4 +251,67 @@ export function filterTrial(
   }
 
   return { include: true }
+}
+
+// ---------------------------------------------------------------------------
+// Tumor type keyword maps
+// ---------------------------------------------------------------------------
+const TUMOR_KEYWORDS: Record<Exclude<TumorTypeFilter, 'any' | 'OTHER_SOLID'>, string[]> = {
+  LUNG: [
+    'non-small cell lung', 'small cell lung', 'nsclc', 'sclc',
+    'lung cancer', 'lung carcinoma', 'lung adenocarcinoma',
+    'lung neoplasm', 'pulmonary carcinoma',
+  ],
+  BREAST: [
+    'breast cancer', 'breast carcinoma', 'breast neoplasm',
+    'breast tumor', 'breast tumour', 'mammary carcinoma',
+    'triple negative breast', 'triple-negative breast', 'her2-positive breast',
+  ],
+  MELANOMA: ['melanoma'],
+  GBM: [
+    'glioblastoma', 'high-grade glioma', 'high grade glioma',
+    'grade iv glioma', 'grade 4 glioma', 'malignant glioma',
+    'anaplastic astrocytoma',
+  ],
+}
+
+const SPECIFIC_TYPES = ['LUNG', 'BREAST', 'MELANOMA', 'GBM'] as const
+type SpecificType = typeof SPECIFIC_TYPES[number]
+
+/**
+ * Returns true if the study should be included for the given tumor type.
+ *
+ * Inclusion logic:
+ * - 'any'         → always include
+ * - 'OTHER_SOLID' → include if the study has no match for any specific type
+ * - Specific type → include if broadly-open (no specific type found) OR matches selected type
+ */
+export function filterByTumorType(study: Study, tumorType: TumorTypeFilter): boolean {
+  if (tumorType === 'any') return true
+
+  const proto = study.protocolSection
+  const combinedText = [
+    (proto.conditionsModule?.conditions ?? []).join(' '),
+    (proto.conditionsModule?.keywords ?? []).join(' '),
+    proto.identificationModule?.briefTitle ?? '',
+    proto.identificationModule?.officialTitle ?? '',
+    proto.descriptionModule?.briefSummary ?? '',
+  ]
+    .join(' ')
+    .toLowerCase()
+
+  const matchedTypes = SPECIFIC_TYPES.filter((type) =>
+    TUMOR_KEYWORDS[type].some((kw) => combinedText.includes(kw))
+  ) as SpecificType[]
+
+  const hasAnySpecific = matchedTypes.length > 0
+
+  if (tumorType === 'OTHER_SOLID') {
+    // Include broadly-open trials + non-specific trials; exclude lung/breast/melanoma/GBM-specific ones
+    return !hasAnySpecific
+  }
+
+  // For LUNG | BREAST | MELANOMA | GBM:
+  if (!hasAnySpecific) return true // broadly-open — relevant to all
+  return matchedTypes.includes(tumorType as SpecificType)
 }

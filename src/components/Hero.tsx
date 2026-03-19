@@ -51,7 +51,7 @@ export default function Hero({ onSearchClick }: HeroProps) {
         {/* Label */}
         <p
           data-hero-label
-          className="text-sm font-medium text-[#4a7896] mb-8 sm:mb-10 flex items-center gap-4"
+          className="text-sm font-medium text-[#6ba3bf] mb-8 sm:mb-10 flex items-center gap-4"
         >
           <span className="inline-block w-8 h-px bg-[#1a3352]" />
           Clinical Trial Finder · Leptomeningeal Metastasis
@@ -101,7 +101,7 @@ export default function Hero({ onSearchClick }: HeroProps) {
               <span className="font-serif italic text-[2rem] sm:text-[2.5rem] leading-none font-bold text-[#38bdf8]">
                 {stat.value}
               </span>
-              <span className="text-sm text-[#4a7896] font-medium">
+              <span className="text-sm text-[#6ba3bf] font-medium">
                 {stat.label}
               </span>
             </div>

@@ -33,7 +33,7 @@ export default function EmptyState({ hasSearched, error, onRetry }: EmptyStatePr
       <div className="max-w-lg">
         <div className="w-16 h-px bg-[#1a3352] mb-10" />
 
-        <p className="text-sm font-semibold uppercase tracking-wider text-[#4a7896] mb-4">
+        <p className="text-sm font-semibold uppercase tracking-wider text-[#6ba3bf] mb-4">
           No trials found
         </p>
         <p className="text-base text-[#8ab8d4] leading-relaxed mb-8">
@@ -48,7 +48,7 @@ export default function EmptyState({ hasSearched, error, onRetry }: EmptyStatePr
             'Change country to "Any Country"',
             'Include all recruitment statuses',
           ].map((tip) => (
-            <li key={tip} className="flex items-start gap-3 text-base text-[#4a7896]">
+            <li key={tip} className="flex items-start gap-3 text-base text-[#6ba3bf]">
               <span className="text-[#38bdf8] flex-shrink-0 font-medium leading-6">→</span>
               {tip}
             </li>

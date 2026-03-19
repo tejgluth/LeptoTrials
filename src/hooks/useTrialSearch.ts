@@ -2,7 +2,8 @@ import { useState, useCallback, useRef } from 'react'
 import type { Study, SearchParams, ApiResponse } from '../types/trial'
 import type { FilterResult } from '../types/trial'
 import { fetchCondStudies, fetchTermStudies } from '../utils/apiClient'
-import { filterTrial } from '../utils/trialFilter'
+import { filterTrial, filterByTumorType } from '../utils/trialFilter'
+import { CONTINENT_COUNTRIES } from '../constants/countries'
 
 export interface TrialWithMeta {
   study: Study
@@ -41,8 +42,18 @@ export function useTrialSearch(): UseTrialSearchReturn {
 
   const applyFilter = useCallback(
     (study: Study, params: SearchParams): TrialWithMeta | null => {
+      // Continent client-side filter: check if the study has at least one
+      // location in the requested continent's country list.
+      if (params.continent) {
+        const allowed = CONTINENT_COUNTRIES[params.continent] ?? []
+        const locations = study.protocolSection.contactsLocationsModule?.locations ?? []
+        const hasMatch = locations.some((loc) => loc.country && allowed.includes(loc.country))
+        if (!hasMatch) return null
+      }
+
       const result = filterTrial(study, params.age)
       if (!result.include) return null
+      if (!filterByTumorType(study, params.tumorType)) return null
       return { study, filterResult: result as FilterResult & { include: true } }
     },
     []

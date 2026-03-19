@@ -184,13 +184,16 @@ export interface ApiResponse {
 
 export type PhaseFilter = 'PHASE1' | 'PHASE2' | 'PHASE3'
 export type StudyTypeFilter = 'any' | 'INTERVENTIONAL' | 'OBSERVATIONAL'
+export type TumorTypeFilter = 'any' | 'LUNG' | 'BREAST' | 'MELANOMA' | 'GBM' | 'OTHER_SOLID'
 
 export interface SearchParams {
   age: number | null
   studyType: StudyTypeFilter
   phases: PhaseFilter[]
   country: string | null
+  continent: string | null
   statuses: OverallStatus[]
+  tumorType: TumorTypeFilter
 }
 
 export type FilterResult =

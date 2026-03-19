@@ -128,5 +128,7 @@ export const DEFAULT_SEARCH_PARAMS: SearchParams = {
   studyType: 'any',
   phases: [],
   country: null,
+  continent: null,
   statuses: DEFAULT_STATUSES,
+  tumorType: 'any',
 }

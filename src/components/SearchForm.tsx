@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import type { SearchParams, StudyTypeFilter, PhaseFilter, OverallStatus } from '../types/trial'
+import type { SearchParams, StudyTypeFilter, PhaseFilter, OverallStatus, TumorTypeFilter } from '../types/trial'
 import { DEFAULT_STATUSES } from '../utils/apiClient'
-import { COUNTRIES } from '../constants/countries'
+import { COUNTRIES, CONTINENT_COUNTRIES, CONTINENTS } from '../constants/countries'
 
 interface SearchFormProps {
   onSearch: (params: SearchParams) => void
@@ -22,8 +22,9 @@ export default function SearchForm({
   const [ageError, setAgeError] = useState<string>('')
   const [studyTypes, setStudyTypes] = useState<Array<'INTERVENTIONAL' | 'OBSERVATIONAL'>>([])
   const [phases, setPhases] = useState<PhaseFilter[]>([])
-  const [country, setCountry] = useState<string>('')
+  const [locationFilter, setLocationFilter] = useState<string>('')
   const [statuses, setStatuses] = useState<OverallStatus[]>(DEFAULT_STATUSES)
+  const [tumorType, setTumorType] = useState<TumorTypeFilter>('any')
 
   const toggleStudyType = (type: 'INTERVENTIONAL' | 'OBSERVATIONAL') => {
     setStudyTypes((prev) =>
@@ -35,6 +36,10 @@ export default function SearchForm({
     setPhases((prev) =>
       prev.includes(phase) ? prev.filter((p) => p !== phase) : [...prev, phase]
     )
+  }
+
+  const toggleTumorType = (type: TumorTypeFilter) => {
+    setTumorType((prev) => (prev === type ? 'any' : type))
   }
 
   const toggleStatus = (status: OverallStatus) => {
@@ -64,12 +69,15 @@ export default function SearchForm({
     const studyType: StudyTypeFilter =
       studyTypes.length === 1 ? studyTypes[0] : 'any'
 
+    const isContinent = locationFilter !== '' && CONTINENTS.includes(locationFilter)
     onSearch({
       age: parsedAge,
       studyType,
       phases,
-      country: country || null,
+      country: !isContinent && locationFilter ? locationFilter : null,
+      continent: isContinent ? locationFilter : null,
       statuses: statuses.length > 0 ? statuses : DEFAULT_STATUSES,
+      tumorType,
     })
   }
 
@@ -77,6 +85,15 @@ export default function SearchForm({
     { value: 'PHASE1', label: 'Phase 1' },
     { value: 'PHASE2', label: 'Phase 2' },
     { value: 'PHASE3', label: 'Phase 3' },
+  ]
+
+  const tumorTypeOptions: { value: TumorTypeFilter; label: string }[] = [
+    { value: 'any',         label: 'Any tumor type' },
+    { value: 'LUNG',        label: 'Lung' },
+    { value: 'BREAST',      label: 'Breast' },
+    { value: 'MELANOMA',    label: 'Melanoma' },
+    { value: 'GBM',         label: 'GBM' },
+    { value: 'OTHER_SOLID', label: 'Other / Solid tumor' },
   ]
 
   const statusOptions: { value: OverallStatus; label: string; color: string }[] = [
@@ -96,14 +113,14 @@ export default function SearchForm({
         {/* Header row: label (non-sticky) or collapse toggle (sticky) */}
         {compact ? (
           <div className={`flex items-center justify-between ${isCollapsed ? '' : 'mb-3'}`}>
-            <p className="text-xs font-semibold uppercase tracking-widest text-[#4a7896]">
+            <p className="text-xs font-semibold uppercase tracking-widest text-[#6ba3bf]">
               Filter Trials
             </p>
             {onToggleCollapsed && (
               <button
                 type="button"
                 onClick={onToggleCollapsed}
-                className="flex items-center gap-1.5 text-xs font-medium text-[#4a7896] hover:text-[#8ab8d4] transition-colors cursor-pointer px-2 py-1 -mr-2"
+                className="flex items-center gap-1.5 text-xs font-medium text-[#6ba3bf] hover:text-[#8ab8d4] transition-colors cursor-pointer px-2 py-1 -mr-2"
                 aria-label={isCollapsed ? 'Expand filters' : 'Collapse filters'}
               >
                 {isCollapsed ? (
@@ -115,7 +132,7 @@ export default function SearchForm({
             )}
           </div>
         ) : (
-          <p className="text-xs font-semibold uppercase tracking-widest text-[#4a7896] mb-7">
+          <p className="text-xs font-semibold uppercase tracking-widest text-[#6ba3bf] mb-7">
             Filter Trials
           </p>
         )}
@@ -149,7 +166,7 @@ export default function SearchForm({
                 className={inputCls}
               />
               {age && (
-                <span className="absolute right-4 top-1/2 -translate-y-1/2 text-sm text-[#4a7896]">
+                <span className="absolute right-4 top-1/2 -translate-y-1/2 text-sm text-[#6ba3bf]">
                   yrs
                 </span>
               )}
@@ -159,17 +176,17 @@ export default function SearchForm({
             )}
           </div>
 
-          {/* Country */}
+          {/* Location (Region or Country) */}
           <div className="flex flex-col gap-2.5">
-            <label htmlFor="filter-country" className="text-sm font-semibold text-[#8ab8d4]">
-              Country
+            <label htmlFor="filter-location" className="text-sm font-semibold text-[#8ab8d4]">
+              Location
             </label>
             <select
-              id="filter-country"
-              name="country"
-              autoComplete="country-name"
-              value={country}
-              onChange={(e) => setCountry(e.target.value)}
+              id="filter-location"
+              name="location"
+              autoComplete="off"
+              value={locationFilter}
+              onChange={(e) => setLocationFilter(e.target.value)}
               className={`${inputCls} appearance-none cursor-pointer`}
               style={{
                 backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14'%3E%3Cpath fill='%234a7896' d='M7 9.5L2 4h10z'/%3E%3C/svg%3E")`,
@@ -178,10 +195,17 @@ export default function SearchForm({
                 paddingRight: '40px',
               }}
             >
-              <option value="">Any Country</option>
-              {COUNTRIES.map((c) => (
-                <option key={c} value={c}>{c}</option>
-              ))}
+              <option value="">Anywhere</option>
+              <optgroup label="By Region">
+                {CONTINENTS.map((c) => (
+                  <option key={c} value={c}>{c}</option>
+                ))}
+              </optgroup>
+              <optgroup label="By Country">
+                {COUNTRIES.map((c) => (
+                  <option key={c} value={c}>{c}</option>
+                ))}
+              </optgroup>
             </select>
           </div>
 
@@ -199,7 +223,7 @@ export default function SearchForm({
                   className={`flex-1 text-sm font-medium border transition-colors duration-150 cursor-pointer ${
                     studyTypes.includes(type)
                       ? 'bg-[#38bdf8] text-[#060f1e] border-[#38bdf8]'
-                      : 'bg-[#0a1a2e] text-[#4a7896] hover:text-[#8ab8d4] hover:bg-[#0f2240] border-[#1a3352]'
+                      : 'bg-[#0a1a2e] text-[#6ba3bf] hover:text-[#8ab8d4] hover:bg-[#0f2240] border-[#1a3352]'
                   }`}
                 >
                   {type === 'INTERVENTIONAL' ? 'Interventional' : 'Observational'}
@@ -228,7 +252,7 @@ export default function SearchForm({
                   className={`flex-1 text-sm font-medium transition-colors duration-150 cursor-pointer ${
                     phases.includes(value)
                       ? 'bg-[#38bdf8] text-[#060f1e]'
-                      : 'bg-[#0a1a2e] text-[#4a7896] hover:text-[#8ab8d4] hover:bg-[#0f2240]'
+                      : 'bg-[#0a1a2e] text-[#6ba3bf] hover:text-[#8ab8d4] hover:bg-[#0f2240]'
                   }`}
                 >
                   {label}
@@ -280,6 +304,34 @@ export default function SearchForm({
               </span>
             </label>
           ))}
+        </div>
+
+        {/* Tumor Type row */}
+        <div className={`flex flex-col gap-2.5 ${compact ? 'mb-3' : 'mb-8'}`}>
+          <p className="text-sm font-semibold text-[#8ab8d4]" aria-hidden="true">
+            Tumor Type
+          </p>
+          <div className="flex flex-wrap gap-2" role="group" aria-label="Tumor type filter">
+            {tumorTypeOptions.map(({ value, label }) => (
+              <button
+                key={value}
+                type="button"
+                onClick={() => toggleTumorType(value)}
+                className={`px-4 py-2 text-sm font-medium border transition-colors duration-150 cursor-pointer rounded-sm ${
+                  tumorType === value
+                    ? 'bg-[#38bdf8] text-[#060f1e] border-[#38bdf8]'
+                    : 'bg-[#0a1a2e] text-[#6ba3bf] hover:text-[#8ab8d4] hover:bg-[#0f2240] border-[#1a3352]'
+                }`}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+          {tumorType !== 'any' && (
+            <p className="text-xs italic text-[#2a5070]">
+              Adding a tumor type may limit studies shown, because some trial records do not explicitly list the primary cancer.
+            </p>
+          )}
         </div>
 
         {/* Submit */}
