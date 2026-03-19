@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import type { SearchParams, StudyTypeFilter, PhaseFilter, OverallStatus, TumorTypeFilter } from '../types/trial'
 import { DEFAULT_STATUSES } from '../utils/apiClient'
-import { COUNTRIES, CONTINENT_COUNTRIES, CONTINENTS } from '../constants/countries'
+import { COUNTRIES, CONTINENTS } from '../constants/countries'
 
 interface SearchFormProps {
   onSearch: (params: SearchParams) => void
