@@ -1,28 +1,31 @@
 import type { Study, FilterResult, TumorTypeFilter } from '../types/trial'
 import { isAgeEligible } from './ageParser'
+import { getManualAuditOverride } from './manualAuditOverrides'
 
 /**
  * Terms that confirm a trial is specifically for LMD patients when found in
  * the conditionsModule.conditions array. If any match, we auto-include the
  * trial (bypassing eligibility text checks) — only age still applies.
  */
-const LMD_CONDITION_TERMS = ['leptomeningeal', 'leptomeninges']
+const LMD_CONDITION_TERMS = [
+  'leptomeningeal',
+  'leptomeninges',
+  'leptomeningeal disease',
+  'leptomeningeal carcinomatosis',
+  'meningeal disease',
+  'meningeal metastasis',
+  'meningeal metastases',
+  'lmd',
+]
 
 /**
  * Terms that CANNOT appear in the exclusion criteria section.
  * If any of these appear in the exclusion section, the trial explicitly
- * excludes leptomeningeal (or brain-metastasis) patients and must be removed.
- *
- * Note: "brain metastases" / "brain metastasis" added to catch screening trials
- * for patients who have NOT yet developed brain/LMD involvement (Fix B).
- * Fix A (LMD in conditions) bypasses this check, so legitimate LMD+brain-met
- * trials are never incorrectly removed.
+ * excludes leptomeningeal patients and must be removed.
  */
 const EXCLUSION_BLOCKED_TERMS = [
   'leptomeningeal',
   'leptomeninges',
-  'brain metastases',
-  'brain metastasis',
 ]
 
 /**
@@ -37,7 +40,13 @@ const INCLUSION_NEGATIVE_PHRASES = [
   'no leptomeningeal metastasis',
   'no leptomeningeal metastases',
   'no leptomeningeal involvement',
+  'no meningeal metastasis',
+  'no meningeal metastases',
+  'without leptomeningeal',
+  'without meningeal metastasis',
+  'without meningeal metastases',
   'absence of leptomeningeal',
+  'absence of meningeal metastasis',
 ]
 
 /**
@@ -50,18 +59,22 @@ const BRIEF_SUMMARY_EXCLUSION_PHRASES = [
 ]
 
 /**
- * OR terms — at least one must appear somewhere in the study's searchable fields
- * (conditions, title, description, inclusion criteria) to confirm relevance.
+ * Positive LM evidence. We intentionally do NOT use generic brain-metastasis
+ * terms because they are too broad for an LM-specific finder.
  */
-const INCLUSION_OR_TERMS = [
+const LM_POSITIVE_TERMS = [
   'leptomeningeal',
   'leptomeninges',
-  'brain metastasis',
-  'brain metastases',
+  'lmd',
   'leptomeningeal carcinomatosis',
+  'meningeal carcinomatosis',
   'leptomeningeal cancer',
+  'leptomeningeal disease',
+  'meningeal disease',
   'leptomeningeal metastasis',
   'leptomeningeal metastases',
+  'meningeal metastasis',
+  'meningeal metastases',
   'metastatic malignant neoplasm in the leptomeninges',
 ]
 
@@ -104,6 +117,43 @@ export interface ParsedCriteria {
   inclusion: string
   exclusion: string
   sectionFound: boolean
+}
+
+const LM_TERM_PATTERN =
+  /\b(?:lmd|leptomeningeal(?: disease| metastasis| metastases| carcinomatosis)?|leptomeninges|meningeal disease|meningeal metastasis|meningeal metastases|meningeal carcinomatosis)\b/i
+
+const LM_CONTEXT_PATTERNS = [
+  new RegExp(`patients? with[^.\\n;]{0,80}${LM_TERM_PATTERN.source}`, 'i'),
+  new RegExp(`with[^.\\n;]{0,60}${LM_TERM_PATTERN.source}`, 'i'),
+  new RegExp(`evidence of[^.\\n;]{0,60}${LM_TERM_PATTERN.source}`, 'i'),
+  new RegExp(`diagnos(?:ed|is of)[^.\\n;]{0,60}${LM_TERM_PATTERN.source}`, 'i'),
+  new RegExp(`newly diagnosed[^.\\n;]{0,60}${LM_TERM_PATTERN.source}`, 'i'),
+  new RegExp(`${LM_TERM_PATTERN.source}[^.\\n;]{0,60}(patients?|cohort|confirmed|diagnosed|from)`, 'i'),
+]
+
+function includesAnyTerm(text: string, terms: string[]): boolean {
+  return terms.some((term) => {
+    if (term === 'lmd') return /\blmd\b/i.test(text)
+    return text.includes(term)
+  })
+}
+
+function matchesAnyPattern(text: string, patterns: RegExp[]): boolean {
+  return patterns.some((pattern) => pattern.test(text))
+}
+
+function getStudyTextParts(study: Study) {
+  const proto = study.protocolSection
+  const conditions = (proto.conditionsModule?.conditions ?? []).join(' ')
+  const briefTitle = proto.identificationModule?.briefTitle ?? ''
+  const officialTitle = proto.identificationModule?.officialTitle ?? ''
+  const briefSummary = proto.descriptionModule?.briefSummary ?? ''
+
+  return {
+    conditionsText: conditions.toLowerCase(),
+    titleText: [briefTitle, officialTitle].join(' ').toLowerCase(),
+    summaryText: briefSummary.toLowerCase(),
+  }
 }
 
 /**
@@ -155,17 +205,26 @@ export function filterTrial(
   patientAge: number | null
 ): FilterResult {
   const proto = study.protocolSection
+  const nctId = proto.identificationModule.nctId
   const eligibility = proto.eligibilityModule
   const criteriaText = eligibility?.eligibilityCriteria ?? ''
 
   // --- Step 1: Parse sections ---
   const { inclusion, exclusion, sectionFound } = parseEligibilityCriteria(criteriaText)
+  const lowerInclusion = inclusion.toLowerCase()
+  const lowerExclusion = exclusion.toLowerCase()
 
   // --- Step 2: Check LMD in conditions list ---
-  const conditionsList = proto.conditionsModule?.conditions ?? []
-  const lmdInConditions = LMD_CONDITION_TERMS.some((term) =>
-    conditionsList.some((c) => c.toLowerCase().includes(term))
-  )
+  const {
+    conditionsText,
+    titleText,
+    summaryText,
+  } = getStudyTextParts(study)
+  const lmdInConditions = includesAnyTerm(conditionsText, LMD_CONDITION_TERMS)
+  const hasTitleLmSignal = includesAnyTerm(titleText, LM_POSITIVE_TERMS)
+  const hasSummaryLmSignal = matchesAnyPattern(summaryText, LM_CONTEXT_PATTERNS)
+  const hasInclusionLmSignal = matchesAnyPattern(lowerInclusion, LM_CONTEXT_PATTERNS)
+  const hasDefinitiveLmSignal = lmdInConditions || hasTitleLmSignal
 
   // --- Step 3: Age eligibility check (always applies) ---
   if (patientAge !== null) {
@@ -179,15 +238,18 @@ export function filterTrial(
     }
   }
 
-  // --- Step 4: Fast path — LMD in conditions list is authoritative ---
-  // Trials that list a leptomeningeal term as a primary condition are
-  // definitively for LMD patients. Skip all eligibility text checks.
-  if (lmdInConditions) {
+  const manualAuditOverride = getManualAuditOverride(nctId)
+  if (manualAuditOverride) {
+    if (!manualAuditOverride.siteEligible) {
+      return {
+        include: false,
+        reason: 'Excluded by manual audit override',
+      }
+    }
     return { include: true }
   }
 
-  // --- Step 5: Inclusion negative phrase check ---
-  const lowerInclusion = inclusion.toLowerCase()
+  // --- Step 4: Inclusion negative phrase check ---
   for (const phrase of INCLUSION_NEGATIVE_PHRASES) {
     if (lowerInclusion.includes(phrase)) {
       return {
@@ -197,9 +259,15 @@ export function filterTrial(
     }
   }
 
+  // --- Step 5: Fast path — conditions-level LM evidence is a strong positive signal ---
+  // Still respect explicit negative language above, but avoid treating a mixed-cohort
+  // exclusion section as a universal LM exclusion when the study lists LM directly.
+  if (lmdInConditions) {
+    return { include: true }
+  }
+
   // --- Step 6: Exclusion criteria block check ---
-  if (sectionFound) {
-    const lowerExclusion = exclusion.toLowerCase()
+  if (sectionFound && !hasDefinitiveLmSignal) {
     for (const term of EXCLUSION_BLOCKED_TERMS) {
       if (lowerExclusion.includes(term)) {
         return {
@@ -221,32 +289,13 @@ export function filterTrial(
     }
   }
 
-  // --- Step 8: Inclusion OR term verification ---
-  const conditions = conditionsList.join(' ')
-  const keywords = (proto.conditionsModule?.keywords ?? []).join(' ')
-  const briefTitle = proto.identificationModule?.briefTitle ?? ''
-  const officialTitle = proto.identificationModule?.officialTitle ?? ''
-  const briefSummaryRaw = proto.descriptionModule?.briefSummary ?? ''
-
-  const allSearchableText = [
-    conditions,
-    keywords,
-    briefTitle,
-    officialTitle,
-    briefSummaryRaw,
-    inclusion,
-  ]
-    .join(' ')
-    .toLowerCase()
-
-  const hasRequiredTerms = INCLUSION_OR_TERMS.some((term) =>
-    allSearchableText.includes(term)
-  )
+  // --- Step 8: Explicit LM evidence verification ---
+  const hasRequiredTerms = hasDefinitiveLmSignal || hasSummaryLmSignal || hasInclusionLmSignal
 
   if (!hasRequiredTerms) {
     return {
       include: false,
-      reason: 'No leptomeningeal or brain metastasis reference found in searchable fields',
+      reason: 'No explicit leptomeningeal reference found in searchable fields',
     }
   }
 
@@ -278,40 +327,140 @@ const TUMOR_KEYWORDS: Record<Exclude<TumorTypeFilter, 'any' | 'OTHER_SOLID'>, st
 const SPECIFIC_TYPES = ['LUNG', 'BREAST', 'MELANOMA', 'GBM'] as const
 type SpecificType = typeof SPECIFIC_TYPES[number]
 
-/**
- * Returns true if the study should be included for the given tumor type.
- *
- * Inclusion logic:
- * - 'any'         → always include
- * - 'OTHER_SOLID' → include if the study has no match for any specific type
- * - Specific type → include if broadly-open (no specific type found) OR matches selected type
- */
-export function filterByTumorType(study: Study, tumorType: TumorTypeFilter): boolean {
-  if (tumorType === 'any') return true
+const NON_SOLID_KEYWORDS = [
+  'lymphoma',
+  'pcnsl',
+  'leukemia',
+  'leukaemia',
+  'myeloma',
+  'myelodysplastic',
+  'myelodysplastic syndrome',
+  'mds',
+  'aml',
+  'cml',
+  'myeloid leukemia',
+  'lymphoid',
+  'hematologic',
+  'haematologic',
+]
 
+const BROAD_SOLID_KEYWORDS = [
+  'solid tumor',
+  'solid tumors',
+  'solid tumour',
+  'solid tumours',
+  'solid tumor malignancies',
+  'malignant solid tumors',
+  'advanced solid tumors',
+  'locally advanced or metastatic malignant solid tumors',
+  'all solid tumors',
+  'any solid tumor',
+]
+
+const NON_OTHER_SOLID_KEYWORDS = [
+  ...NON_SOLID_KEYWORDS,
+  'brain tumor',
+  'brain tumour',
+  'brain neoplasm',
+  'primary brain neoplasm',
+  'central nervous system tumor',
+  'central nervous system tumour',
+  'cns tumor',
+  'cns tumour',
+  'glioma',
+  'astrocytoma',
+  'ependymoma',
+  'medulloblastoma',
+  'oligodendroglioma',
+  'meningioma',
+  'diffuse intrinsic pontine glioma',
+  'diffuse midline glioma',
+]
+
+const OTHER_SOLID_SITE_KEYWORDS = [
+  'colorectal',
+  'colon cancer',
+  'colorectal cancer',
+  'rectal cancer',
+  'pancreatic cancer',
+  'pancreatic adenocarcinoma',
+  'gastric cancer',
+  'gastroesophageal',
+  'esophageal cancer',
+  'ovarian cancer',
+  'endometrial cancer',
+  'uterine cancer',
+  'cervical cancer',
+  'prostate cancer',
+  'urothelial cancer',
+  'bladder cancer',
+  'renal cell',
+  'kidney cancer',
+  'hepatocellular',
+  'liver cancer',
+  'cholangiocarcinoma',
+  'biliary tract cancer',
+  'head and neck cancer',
+  'thyroid cancer',
+  'salivary gland',
+  'sarcoma',
+  'mesothelioma',
+  'appendiceal cancer',
+  'small bowel cancer',
+  'anal cancer',
+]
+
+function getTumorTypeText(study: Study): string {
   const proto = study.protocolSection
-  const combinedText = [
+  const meshes = (
+    study.derivedSection?.conditionBrowseModule?.meshes?.map((mesh) => mesh.term) ?? []
+  ).join(' ')
+
+  return [
     (proto.conditionsModule?.conditions ?? []).join(' '),
     (proto.conditionsModule?.keywords ?? []).join(' '),
     proto.identificationModule?.briefTitle ?? '',
     proto.identificationModule?.officialTitle ?? '',
     proto.descriptionModule?.briefSummary ?? '',
+    meshes,
   ]
     .join(' ')
     .toLowerCase()
+}
+
+/**
+ * Returns true if the study should be included for the given tumor type.
+ *
+ * Inclusion logic:
+ * - 'any'         → always include
+ * - 'OTHER_SOLID' → include only with explicit non-hematologic, non-CNS solid-tumor evidence
+ * - Specific type → include only on positive evidence for that type
+ */
+export function filterByTumorType(study: Study, tumorType: TumorTypeFilter): boolean {
+  if (tumorType === 'any') return true
+
+  const manualAuditOverride = getManualAuditOverride(
+    study.protocolSection.identificationModule.nctId
+  )
+  if (manualAuditOverride) {
+    return manualAuditOverride.tumorLabels.includes(tumorType as Exclude<TumorTypeFilter, 'any'>)
+  }
+
+  const combinedText = getTumorTypeText(study)
 
   const matchedTypes = SPECIFIC_TYPES.filter((type) =>
     TUMOR_KEYWORDS[type].some((kw) => combinedText.includes(kw))
   ) as SpecificType[]
 
   const hasAnySpecific = matchedTypes.length > 0
+  const hasNonOtherSolidSignal = NON_OTHER_SOLID_KEYWORDS.some((kw) => combinedText.includes(kw))
+  const hasBroadSolidSignal = BROAD_SOLID_KEYWORDS.some((kw) => combinedText.includes(kw))
+  const hasOtherSolidSiteSignal = OTHER_SOLID_SITE_KEYWORDS.some((kw) => combinedText.includes(kw))
 
   if (tumorType === 'OTHER_SOLID') {
-    // Include broadly-open trials + non-specific trials; exclude lung/breast/melanoma/GBM-specific ones
-    return !hasAnySpecific
+    if (hasNonOtherSolidSignal || hasAnySpecific) return false
+    return hasBroadSolidSignal || hasOtherSolidSiteSignal
   }
 
-  // For LUNG | BREAST | MELANOMA | GBM:
-  if (!hasAnySpecific) return true // broadly-open — relevant to all
   return matchedTypes.includes(tumorType as SpecificType)
 }

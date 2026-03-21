@@ -1,0 +1,884 @@
+{
+  "generatedAt": "2026-03-21T14:54:19.265Z",
+  "batch": 3,
+  "batchSize": 46,
+  "records": [
+    {
+      "nctId": "NCT05064306",
+      "url": "https://clinicaltrials.gov/study/NCT05064306",
+      "status": "NO_LONGER_AVAILABLE",
+      "studyType": "EXPANDED_ACCESS",
+      "phases": [],
+      "briefTitle": "131I-omburtamab for the Treatment of Central Nervous System/Leptomeningeal Neoplasms in Children and Young Adults",
+      "officialTitle": "Expanded Access Use of 131I-Omburtamab Intraventricular Radioimmunotherapy for Central Nervous System/Leptomeningeal Neoplasms",
+      "conditions": [
+        "Central Nervous System/Leptomeningeal Neoplasms"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "The researchers are doing this study to provide access to treatment with 131I-omburtamab for children and young adults who have CNS/leptomeningeal neoplasms. 131I-omburtamab is an investigational drug; the FDA has not approved it to treat this cancer or any other disease. However, the agency has granted the drug Breakthrough Therapy Designation for the treatment of neuroblastoma with CNS metastases."
+    },
+    {
+      "nctId": "NCT05112549",
+      "url": "https://clinicaltrials.gov/study/NCT05112549",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "briefTitle": "Intrathecal Application of PD1 Antibody in Metastatic Solid Tumors With Leptomeningeal Disease (IT-PD1/ NOA 26)",
+      "officialTitle": "Intrathecal Application of PD1 Antibody in Metastatic Solid Tumors With Leptomeningeal Disease (IT-PD1/ NOA 26)",
+      "conditions": [
+        "Leptomeningeal Disease"
+      ],
+      "countries": [
+        "Germany"
+      ],
+      "briefSummary": "To determine the safety of intrathecal (IT) PD1 antibody for Intrathecal application of PD1 antibody in metastatic solid tumors with leptomeningeal disease of solid tumors."
+    },
+    {
+      "nctId": "NCT05146219",
+      "url": "https://clinicaltrials.gov/study/NCT05146219",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Study of TY-9591 in Patients With a Lung Cancer With Brain or Leptomeningeal Metastases With EGFR Mutation",
+      "officialTitle": "A Phase II, Open-label, Multi-center Study to Evaluate the Efficacy and Safety of TY-9591 Tablets in Patients With EGFR-Mutated Non-small Cell Lung Cancer With Brain or Leptomeningeal Metastases",
+      "conditions": [
+        "NSCLC",
+        "EGFR Activating Mutation",
+        "Brain Metastases",
+        "Leptomeningeal Metastasis"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "To evaluate the efficacy and safety of TY-9591 tablets in the treatment of EGFR mutation-positive non-small cell lung cancer (NSCLC) patients with brain or leptomeningeal metastases."
+    },
+    {
+      "nctId": "NCT05184816",
+      "url": "https://clinicaltrials.gov/study/NCT05184816",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "briefTitle": "A Study of Deferoxamine (DFO) in People With Leptomeningeal Metastasis",
+      "officialTitle": "A Phase 1a/1b Trial of Intrathecal Deferoxamine for Leptomeningeal Metastases",
+      "conditions": [
+        "Leptomeningeal Metastases"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "The researchers are doing this study to find out whether deferoxamine (DFO) given intrathecally (directly into the CSF) is a safe treatment for people with leptomeningeal metastasis from solid tumor cancer. The researchers will test different doses of DFO to find the highest dose that causes few or mild side effects. When the dose is found, they will test it in future participants to see whether DFO is a safe and effective treatment for people with leptomeningeal metastasis from solid tumor malignancies. They are also doing this study to see how the body absorbs, distributes, gets rid of, and responds to DFO."
+    },
+    {
+      "nctId": "NCT05208840",
+      "url": "https://clinicaltrials.gov/study/NCT05208840",
+      "status": "WITHDRAWN",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "briefTitle": "A Study To Determine The Effect Of Ocrelizumab On Leptomeningeal Inflammation In Multiple Sclerosis",
+      "officialTitle": "Open-Label Multicenter Study To Determine The Effect Of Ocrelizumab On Leptomeningeal Inflammation In Multiple Sclerosis",
+      "conditions": [
+        "Multiple Sclerosis"
+      ],
+      "countries": [
+        "Russia"
+      ],
+      "briefSummary": "This study will evaluate the evolution of leptomeningeal lesions via leptomeningeal contrast enhancement (LMCE) presence/disappearance after treatment administration in patients with active progressive multiple sclerosis (MS). In addition, this study will investigate if the presence of leptomeningeal inflammation is associated with alterations of B cell repertoire and whether therapy with ocrelizumab will lead to change of B cell repertoire in LMCE-positive patients."
+    },
+    {
+      "nctId": "NCT05257967",
+      "url": "https://clinicaltrials.gov/study/NCT05257967",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "briefTitle": "CSF Analysis in EGFR Mutant Non-Small Cell Lung Cancer with Leptomeningeal Disease",
+      "officialTitle": "CSF Liquid Biopsy Based Characterization of Leptomeningeal Disease in EGFR Mutant Non-Small Cell Lung Cancer",
+      "conditions": [
+        "EGFR Activating Mutation",
+        "Leptomeningeal Metastasis",
+        "Non Small Cell Lung Cancer"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "briefSummary": "Leptomeningeal disease is malignant seeding of the leptomeninges and presents with a variety of symptoms frequently impacting quality of life. With improvement in treatment options, rates of leptomeningeal disease are increasing and currently found in up to 9% of EGFR mutant NSCLC.\n\nSystemic therapy may be more effective if it can target the correct molecular aberration. The molecular characterization of central nervous system disease may differ from disease outside of the central nervous system. The aim of this pilot trial is to evaluate for molecular differences between cerebral spinal fluid (CSF) and blood circulating tumor DNA (ctDNA) through the use of ddPCR and BC Cancer NGS panel molecular testing."
+    },
+    {
+      "nctId": "NCT05286684",
+      "url": "https://clinicaltrials.gov/study/NCT05286684",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "briefTitle": "Feasibility of Exosome Analysis in Cerebrospinal Fluid During the Diagnostic Workup of Metastatic Meningitis",
+      "officialTitle": "Feasibility of Exosome Analysis in Cerebrospinal Fluid During the Diagnostic Workup of Metastatic Meningitis From Breast Cancer",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "countries": [
+        "France"
+      ],
+      "briefSummary": "The investigators are interested in one of the most frequent tumor types causing leptomeningeal metastasis in order to investigate whether a profile can be established by a high-throughput clinical proteomic approach. All the data acquired will allow a tailored and promising approach to improve the knowledge of metastatic tumor meningitis."
+    },
+    {
+      "nctId": "NCT05289908",
+      "url": "https://clinicaltrials.gov/study/NCT05289908",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "briefTitle": "Intrathecal Pemetrexed for Leptomeningeal Metastasis",
+      "officialTitle": "Phase I/II Clinical Trial of Intrathecal Pemetrexed as First Line Intrathecal Chemotherapy in Patients With Leptomeningeal Metastasis",
+      "conditions": [
+        "Leptomeningeal Metastases"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "Intrathecal chemotherapy is one of the most important treatment modalities for leptomeningeal metastasis of solid tumors. In the previous study(Intrathecal Pemetrexed for Recurrent Leptomeningeal Metastasis From Non-small Cell Lung Cancer: A Prospective Pilot Clinical Trial. ClinicalTrials.gov identification number: NCT03101579), pemetrexed presented feasibility of intrathecal administration. Pemetrexed at 10 mg dose level on the schedule of 1-2 times per week was recommended as an intrathecal administration agent for patients with refractory leptomeningeal metastases from non-small-cell lung cancer in the previous study. Moreover, the maximum-tolerated dose and recommended dose of intrathecal pemetrexed in the previous study was obtained without vitamin supplementation. Vitamin supplementation has been shown to reduce pemetrexed-induced myelosuppression. In this study, the regimen of intrathecal pemetrexed with folic acid and vitamin B12 supplementation may provide higher safety. Therefore, the purpose of this study is to investigate the maximally tolerated dose and evaluate the safety and effectiveness of intrathecal pemetrexed with vitamin supplementation as the first-line intrathecal chemotherapy in patients with leptomeningeal metastases from malignant solid tumors."
+    },
+    {
+      "nctId": "NCT05305365",
+      "url": "https://clinicaltrials.gov/study/NCT05305365",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Study Assessing QBS72S For Treating Brain Metastases",
+      "officialTitle": "Phase IIa Study Assessing QBS72S For Treating Brain Metastases",
+      "conditions": [
+        "Brain Metastases",
+        "Breast Cancer",
+        "Lung Cancer",
+        "Leptomeningeal Disease",
+        "LMD"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "This study is to evaluate the efficacy and safety of QBS72S in participants with advanced, relapsed, metastatic cancer with CNS involvement"
+    },
+    {
+      "nctId": "NCT05305885",
+      "url": "https://clinicaltrials.gov/study/NCT05305885",
+      "status": "UNKNOWN",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "briefTitle": "Intra-pemetrexed Alone or Combined With Concurrent Radiotherapy for Leptomeningeal Metastasis",
+      "officialTitle": "An Open-label, Randomized, Multicenter Trial of Intrathecal-pemetrexed Combined With Concurrent Involved-field Radiotherapy and Intrathecal-pemetrexed Alone in Patients With Leptomeningeal Metastasis From Solid Tumors",
+      "conditions": [
+        "Leptomeningeal Metastasis"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "Intrathecal chemotherapy is one of the mainstay treatment options for leptomeningeal metastases. Owing to the limited number of agents available for intrathecal chemotherapy, it is crucial to find a novel agent with efficacy and safety. In our phase 1 study, intrathecal pemetrexed showed controllable toxicities and potential promising efficacy for refractory leptomeningeal metastases from non-small-cell lung cancer patients. In our further study, intrathecal pemetrexed combined with involved-field radiation therapy was administered as the first-line intrathecal chemotherapy for leptomeningeal metastases from solid tumors. In this study, intrathecal pemetrexed combined with involved-field radiation therapy showed feasibility and controllable adverse events. It has been proved that pemetrexed as a novel intrathecal drug exhibited promising antitumor effects in cerebrospinal fluid. Moreover, the concomitant therapeutic modality is an optimal treatment option for leptomeningeal metastases from solid tumors.\n\nCentral nervous system radiotherapy is a part of the specific treatment of leptomeningeal metastases. Radiotherapy has been proved to improve neurologic function and control of parenchymal brain metastases in leptomeningeal metastases treatment. Additionally, radiotherapy is revealed to improve the efficacy and attenuate toxicity of intrathecal chemotherapy as a result of normal cerebrospinal fluid reestablishing. However, it is still controversial whether radiotherapy can improve the overall survival. We conduct this study to further demonstrate the efficacy and safety of intrathecal pemetrexed administration for patients with leptomeningeal metastases from solid tumors by multicenter study. Furthermore, the study of effective treatment modality is of great significance. The safety and antitumor activity of intrathecal pemetrexed combined with involved-field radiation therapy and intrathecal pemetrexed alone were also compared to confirm an optimized therapeutic regimen."
+    },
+    {
+      "nctId": "NCT05385185",
+      "url": "https://clinicaltrials.gov/study/NCT05385185",
+      "status": "UNKNOWN",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Clinical Observation of ICI Combined With Recombinant Human Endostatin on Leptomeningeal Metastasis of Lung Cancer",
+      "officialTitle": "Clinical Observation of ICI Combined With Recombinant Human Endostatin on Leptomeningeal Metastasis of Lung Cancer",
+      "conditions": [
+        "Leptomeningeal Metastasis",
+        "Immune Checkpoint Inhibitor",
+        "Endostatin"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "immune checkpoint inhibitor combined with recombinant human endostatin can improve the 3-month OS rate of leptomeningeal metastasis of lung cancer, and the combination is safe"
+    },
+    {
+      "nctId": "NCT05394636",
+      "url": "https://clinicaltrials.gov/study/NCT05394636",
+      "status": "COMPLETED",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "Cerebellar Superficial Siderosis in Cerebral Amyloid Angiopathy",
+      "officialTitle": "Cerebellar Superficial Siderosis in Cerebral Amyloid Angiopathy on 1.5T T2*-Weighted Imaging",
+      "conditions": [
+        "Cerebral Amyloid Angiopathy",
+        "Siderosis"
+      ],
+      "countries": [
+        "France"
+      ],
+      "briefSummary": "Cerebellar superficial siderosis (SS) has been recently reported to be present in about 10% of both hereditary (n=50) and sporadic (n=46) cerebral amyloid angiopathy (CAA) patients on 3T MRI using susceptibility-weighted imaging (SWI) in the majority of patients. In that study, cerebellar SS was associated with a higher number of supratentorial lobar and superficial cerebellar macrobleeds (although cerebellar SS was not directly located adjacent to these cerebellar macrobleeds). It is unclear if cerebellar SS is caused by in situ leakage of cerebellar leptomeningeal vessels or rather represents hemorrhagic diffusion from cerebellar parenchymal micro/macrobleeds or from supratentorial bleeding sources via the tentorium cerebelli (TC)."
+    },
+    {
+      "nctId": "NCT05414123",
+      "url": "https://clinicaltrials.gov/study/NCT05414123",
+      "status": "TERMINATED",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "A Therapy Treatment Response Trial in Patients With Leptomeningeal Metastases ((LM) Using CNSide",
+      "officialTitle": "A Longitudinal Therapy Response Monitoring Study in Subjects With Leptomeningeal Metastases Using CNSide (CSF Tumor Cells) Compared to Standard of Care (CSF Cytology, Clinical Evaluation, and Imaging).",
+      "conditions": [
+        "Leptomeningeal Metastasis",
+        "Leptomeningeal Disease",
+        "Leptomeningeal Neoplasms",
+        "Breast Cancer",
+        "Non-Small Cell Lung Cancer"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "The FORESEE Study is a multi-center, prospective clinical trial enrolling patients with Breast or Non-Small Cell Lung Cancer (NSCLC) who have suspicious or confirmed Leptomeningeal Metastases (LM). Standard of Care methods to diagnose, or assess the treatment response of LM (Clinical Evaluation, MRI and Cytology) have limited sensitivity and specificity. This creates challenges for physicians to manage LM or determine the best course of treatment. CNSide, is a Laboratory Developed Test (LDT ) that is used commercially at the Physician's discretion in Biocept's CLIA certified, CAP accredited laboratory. CNSide can detect and quantify tumor cells in the CSF from patients with Breast Cancer or NSCLC having a suspicious or confirmed LM. The goal of the FORESEE Study is to evaluate the performance of CNSide in monitoring the LM's response to treatment and to assess the impact of CNSide on treatment decisions made by Physicians."
+    },
+    {
+      "nctId": "NCT05451069",
+      "url": "https://clinicaltrials.gov/study/NCT05451069",
+      "status": "UNKNOWN",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "Neurofilament Light Chain ,Chitinase-3 Like-1 Proteins and Plasmacytoid Dendritic Cells in Multiple Sclerosis",
+      "officialTitle": "Combined Neurofilament Light Chain ,Chitinase-3 Like-1 Protein Levels and Tolerogenic Plasmacytoid Dendritic Cells in Defining Disease Course in Multiple Sclerosis Patients",
+      "conditions": [
+        "Multiple Sclerosis"
+      ],
+      "countries": [],
+      "briefSummary": "Multiple sclerosis (MS) is an autoimmune neurodegenerative disease characterized by demyelination and neurodegeneration of the central nervous system (CNS) . Current diagnostic criteria and management depend on MRI, clinical status, and oligoclonal immunoglobulin g bands . These markers often fail to predict relapse, progression and therapy response .There is an increased need to identify biomarkers for clinical endpoints .\n\nOne of the hallmark features of MS is axonal damage which associated with brain and cervical atrophy.Nf levels indicate the extent of axonal damage. Neurofilaments are composed of four subunits: neurofilament light polypeptides (NfL) is the most abundant and soluble and it is highly sensitive to neurodegenerative processes .\n\nChitinase 3-like 1 (CHI3L1) is expressed in astrocytes in the brain tissue of MS patients . CHI3L1 plays a role as prognostic biomarker in patients with MS. CHI3L1 cerebrospinal fluid levels were associated correlated with disease activity and neurological disability.\n\nDendritic cells (DCs) are highly specialized antigen-presenting cells with a key role in activating and preventing CNS immune-mediated damage in MS . Dendritic cells express Human Leukocyte Antigen-antigen D Related (HLA-DR) . Plasmacytoid dendritic cells characterized by the expression of blood dendritic cells antigen-2 (BDCA-2) .Plasmacytoid dendritic cells are present in the cerebrospinal fluid (CSF), leptomeninges and demyelinating lesions of patients with MS . Plasmacytoid dendritic cells also exhibit up-regulation of chemokine (CCR7C) expression. It was demonstrated increased amounts of chemokine CCR7 in the CSF from MS patients during relapses .CCR7 controls migration and functional activity of regulatory T cells and plays an important role in the establishment of tolerance .\n\nTolerogenic DCs (TolDCs) present an intermediate phenotype between immature dendritic cells (iDCs) and mature dendritic cells (mDCs) regarding costimulatory molecules, a pronounced shift toward anti-inflammatory . TolDCs exhibit tolerogenic molecules such as HLA-G and CD274 \\[programmed death-ligand 1 (PD-L1)\\] either in peripheral blood or in CSF. These characteristics lead to T cell clonal anergy and T cell unresponsiveness due to Ag presentation in the presence of low co-stimulation .We aim to investigate the role of NfL,(CHI3L1) and markers of plasmacytoid dendritic cells in MS."
+    },
+    {
+      "nctId": "NCT05459441",
+      "url": "https://clinicaltrials.gov/study/NCT05459441",
+      "status": "UNKNOWN",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "briefTitle": "Efficacy and Safety Evaluation of Percutaneous Ommaya Capsule Injection of Autologous Bi-dimensional Specific T Cells in the Treatment of Glioma and in Combination With Pemetrexed in the Treatment of Brain/Meningeal Metastases",
+      "officialTitle": "Efficacy and Safety Evaluation of Percutaneous Ommaya Capsule Injection of Autologous Bi-dimensional Specific T Cells in the Treatment of Glioma and in Combination With Pemetrexed in the Treatment of Brain/Meningeal Metastases",
+      "conditions": [
+        "Glioma",
+        "Brain Metastases"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "Cerebral metastases are common intracranial tumor, its incidence increased year by year, in recent years, although the whole brain radiation therapy, surgical resection, stereotactic radiosurgery treatment, targeted drugs, and other comprehensive treatment in patients with symptoms of mitigation and the extension of survival has played a positive role, but due to individual differences, treatment in patients with poor compliance were a lot of factors, Further treatment of brain metastases after conventional treatment requires the assistance and cooperation of clinical multi-disciplines. To evaluate the efficacy and safety of percutaneous Ommaya capsule injection of autologous bi-dimensional specific T cells in the treatment of glioma and combined with pemetrexed in the treatment of brain/meningeal metastasis. Using translational research techniques and means, to find molecular indicators related to clinical prognosis and outcome, establish the clinical use standard of this holistic treatment technology, and popularize it in multi-centers."
+    },
+    {
+      "nctId": "NCT05598853",
+      "url": "https://clinicaltrials.gov/study/NCT05598853",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "briefTitle": "Intrathecal Double Checkpoint Inhibition",
+      "officialTitle": "Intrathecal Administration of Anti-PD1/Anti-CTLA-4 in Combination With Systemic Combination of Anti-PD1/Anti-CTLA-4 in Patients With NSCLC Without Oncogenic Driver Mutation or Melanoma and Newly Diagnosed Leptomeningeal Metastasis: a Multicentric Phase I Study",
+      "conditions": [
+        "Leptomeningeal Metastasis",
+        "Non-small Cell Lung Cancer Stage IV",
+        "Melanoma Stage IV"
+      ],
+      "countries": [
+        "Switzerland"
+      ],
+      "briefSummary": "The objective of the present study is to determine the feasibility and to explore anti-tumor activity of intrathecal double immune checkpoint inhibition for patients with newly diagnosed leptomeningeal metastases from non-small cell lung cancer without driver mutation or melanoma."
+    },
+    {
+      "nctId": "NCT05746325",
+      "url": "https://clinicaltrials.gov/study/NCT05746325",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "briefTitle": "Tumor Treating Fields for the Treatment of Leptomeningeal Metastases of the Spine in Patients With Breast or Lung Cancer",
+      "officialTitle": "Pilot Feasibility Study of Tumor Treating Fields in Treatment of Leptomeningeal Metastases Involving the Spine",
+      "conditions": [
+        "Anatomic Stage IV Breast Cancer AJCC v8",
+        "Metastatic Breast Carcinoma",
+        "Metastatic Malignant Neoplasm in the Leptomeninges",
+        "Metastatic Lung Carcinoma",
+        "Stage IV Lung Cancer AJCC v8"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "This clinical trial evaluates the safety and feasibility of tumor treating fields (TTF) in the treatment of spinal leptomeningeal disease in patients with breast or lung cancer that has spread from where it first started (primary site) to other places in the body (metastatic). Patients wear the portable Novo TTF-200T device that produces electric fields to target areas on the body to stop the growth of tumor cells. The information from this study will help researchers develop a better treatment for leptomeningeal metastases in the future."
+    },
+    {
+      "nctId": "NCT05746754",
+      "url": "https://clinicaltrials.gov/study/NCT05746754",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "briefTitle": "Proton Cranio-spinal Irradiation for Leptomeningeal Metastasis",
+      "officialTitle": "Phase II Study of Proton Cranio-spinal Irradiation for Leptomeningeal Metastasis",
+      "conditions": [
+        "Leptomeningeal Metastasis"
+      ],
+      "countries": [
+        "Denmark"
+      ],
+      "briefSummary": "Leptomeningeal metastasis is a rare but serious complication to cancer, with a grave prognosis. No efficient treatment exists.\n\nRecent data suggest that craniospinal radiotherapy lead to superior survival and CNS control compared to focal photon radiotherapy. We want to offer Danish patients the new treatment, but within a protocol, as this is new data with an new treatment principle"
+    },
+    {
+      "nctId": "NCT05793489",
+      "url": "https://clinicaltrials.gov/study/NCT05793489",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "briefTitle": "Prospective Double Arm Randomized Trial: WBRT Alone and WBRT Plus Silibinin",
+      "officialTitle": "Prospective Double Arm Randomized Trial for Patients With Multiple Brain Metastasis and/or Leptomeningeal Carcinomatosis: Comparison of WBRT Alone and WBRT Plus Silibinin (Sillbrain)",
+      "conditions": [
+        "Brain Metastases, Adult"
+      ],
+      "countries": [
+        "Italy"
+      ],
+      "briefSummary": "The occurrence of brain metastases (BMs) is increasing given the availability of a more accurate radiological imaging such as MRI for detecting also small brain lesions and the most effective systemic therapy able to control extracranial disease. Although, the new target therapy and immunotherapy has proven to be effective on brain metastasis too, a subgroup of patients shows prove themselves unresponsive to medical treatment. A further subgroup of patients exhibit diffuse brain disease for the presence of multiple brain lesion (\\>10 BMs) or leptomeningeal carcinomatosis. Among these patients the most treatment employed is represented by whole brain RT. Since the 1950s, whole-brain radiation therapy (WBRT) has been the most widely used treatment for patients with multiple brain metastases, given its effectiveness in palliation, widespread availability, and ease to delivery. However, the median overall survival recorded is restricted to 3 months, on the average. A better understanding of the molecular and cellular mechanisms underlying brain metastasis might be expected to lead to improvements in the overall survival rate for these patients. Recent studies have revealed complex interactions between metastatic cancer cells and their microenvironment in the brain. Priego et al. describe that brain metastatic cells induce and maintain the co-option of a pro-metastatic program driven by signal transducer and activator of transcription 3 (STAT3) in a subpopulation of reactive astrocytes surrounding metastatic lesions. In patients, active STAT3 in reactive astrocytes correlates with reduced survival from diagnosis of intracranial metastases. Blocking STAT3 signaling in reactive astrocytes reduces experimental brain metastasis from different primary tumor sources, even at advanced stages of colonization. Silibinin (or silybin) is a natural polyphenolic flavonoid isolated from seed extracts of the herb milk thistle (Silybum marianum). Silibinin has been shown to impair STAT3 activation. Preclinical studies show that Silibinin has an anticancer effects in vitro and in vivo.\n\nBased on this background, the investigators designed a double arm randomized trial evaluating the benefit of Silibinin (in the form of marketed supplement) associated to WBRT respect to WBRT alone."
+    },
+    {
+      "nctId": "NCT05800275",
+      "url": "https://clinicaltrials.gov/study/NCT05800275",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Capecitabine, Tucatinib, and Intrathecal Trastuzumab for Breast Cancer Patients With Leptomeningeal Disease",
+      "officialTitle": "Multicentric Single Arm Phase II Study Evaluating the Efficacy of Association of Tucatinib, Capecitabine and Intra-CSF Trastuzumab in HER2 Amplified Breast Cancer Patients With Leptomeningeal Metastases",
+      "conditions": [
+        "Leptomeningeal Metastasis",
+        "Leptomeningeal Disease",
+        "HER2-positive Metastatic Breast Cancer"
+      ],
+      "countries": [
+        "France"
+      ],
+      "briefSummary": "The goal of this clinical trial is to evaluate the efficacy of tucatinib and capecitabine in combination with intrathecal trastuzumab on overall survival rate at 12 months in HER2-positive metastatic breast cancer (MBC) patients with proven leptomeningeal evolution and requiring intrathecal therapy."
+    },
+    {
+      "nctId": "NCT05805631",
+      "url": "https://clinicaltrials.gov/study/NCT05805631",
+      "status": "NOT_YET_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Intrathecal Pemetrexed for Leptomeningeal Metastasis in EGFR-Mutant NSCLC",
+      "officialTitle": "Efficacy of Intrathecal Pemetrexed Combined With Tyrosine Kinase Inhibitor for Treating Leptomeningeal Metastasis in EGFR-Mutant NSCLC After Failure of Osimertinib",
+      "conditions": [
+        "Carcinoma, Non-Small-Cell Lung",
+        "Epidermal Growth Factor Receptor",
+        "Leptomeningeal Metastasis"
+      ],
+      "countries": [],
+      "briefSummary": "Leptomeningeal metastasis (LM) is a complication of advanced non-small cell lung cancer (NSCLC). The incidence of LM in NSCLC patients is around 3-5 %, reaching 9.4 % of those with an epidermal growth factor receptor (EGFR) mutation. Generally, the efficacy of systemic treatment for LM is limited due to the blood-brain barrier. Osimertinib has a high central nervous system penetration rate, making it the preferred first-line treatment for EGFR-mutant NSCLC. Previous studies indicated that osimertinib had shown promising efficacy in pretreated patients harboring EGFR mutations and LM. However, intracranial disease progression eventually develops, and the prognosis of patients with LM progression after osimertinib is poor. Recently, intrathecal chemotherapy with pemetrexed (IP) was reported to be an alternative treatment in patients with NSCLC and LM. The results from a phase I/II trial examining the efficacy and safety of IP in patients with EGFR-mutant NSCLC after the failure of previous TKI, and 83% of study enrollees received osimertinib before IP. The clinical response rate was 84.6%, and the median overall survival was 9.0 months. Despite initial promising efficacy, further trials are needed to verify these results. Therefore, the investigators plan to conduct a prospective study to examine the safety and effectiveness of IP combined with EGFR-TKI for patients with EGFR mutant NSCLC after osimertinib failure."
+    },
+    {
+      "nctId": "NCT05809752",
+      "url": "https://clinicaltrials.gov/study/NCT05809752",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "briefTitle": "A First in Human Dose Escalation of Dendritic Cell Vaccine (DCV)",
+      "officialTitle": "A First in Human Dose Escalation of Dendritic Cell Vaccine (DCV) Administered Intrathecally (IT) Primed Against HER2/HER3 in Patients With Leptomeningeal Disease (LMD) From Triple-Negative Breast Cancer (TNBC) or HER2+ Breast Cancer (HER2+BC)",
+      "conditions": [
+        "Leptomeningeal Disease",
+        "Triple Negative Breast Cancer",
+        "HER2-positive Breast Cancer"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "The purpose of this study is to learn about the effects of the study treatment, Dendritic Cell Vaccine (DCV), to find the highest dose of the study treatment that can be given safely to Breast Cancer patients with Leptomeningeal Disease"
+    },
+    {
+      "nctId": "NCT05810350",
+      "url": "https://clinicaltrials.gov/study/NCT05810350",
+      "status": "UNKNOWN",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Aumolertinib Combined Intrathecal Chemotherapy for Leptomeningeal Metastasis From EGFR-Mutated NSCLC and Prognostic Value of Dynamic Changes in cfDNA Profiles",
+      "officialTitle": "The Efficacy and Safety of Aumolertinib Combined Ommaya Reservoir Intrathecal Chemotherapy With Pemetrexed for Leptomeningeal Metastasis From EGFR-mutated NSCLC and Investigate the Efficacy Prognostic Value of Dynamic Changes of cfDNA",
+      "conditions": [
+        "Non-small Cell Lung Cancer"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "This is a prospective, open-label, single-arm clinical trial. The aim of this study is to evaluate the efficacy and safety of almonertinib and intrathecal chemotherapy in patients with advanced EGFR mutation positive (EGFRm+) non-small cell lung cancer (NSCLC) and leptomeningeal metastasis, and to explore the predictive value of dynamic changes of cfDNA in cerebrospinal fluid for efficacy and prognosis. A total of 40 subjects who met the inclusion criteria were enrolled in the study and received almonertinib (165mg, oral, once a day) combined with intrathecal infusion. Before and after treatment, cerebrospinal fluid was extracted for cfDNA detection by a 49 gene detection panel. Treatment continued until disease progression or other discontinuation criteria were met. In addition, the subjects received regular hematological and imaging examinations to evaluate the condition. Finally, through data analysis, the progression-free survival (PFS), disease control rate (DCR), objective response rate (ORR), duration of response (DoR), and overall survival (OS) of patients with EGFR mutation-positive advanced NSCLC and leptomeningeal metastasis who received almonertinib combined with intrathecal infusion chemotherapy were evaluated. The dynamic changes of cfDNA in cerebrospinal fluid before and after treatment were explored and the correlation between the dynamic changes of cfDNA in cerebrospinal fluid and the therapeutic effect was explored."
+    },
+    {
+      "nctId": "NCT05813522",
+      "url": "https://clinicaltrials.gov/study/NCT05813522",
+      "status": "UNKNOWN",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Furmonertinib in Patients With Leptomeningeal Metastases Associated With EGFR Mutated NSCLC",
+      "officialTitle": "Efficacy and Safety Analysis of Furmonertinib in Patients With Leptomeningeal Metastases Associated With EGFR Mutated NSCLC，Guiding by Cerebrospinal Fluid ctDNA Detection",
+      "conditions": [
+        "Non Small Cell Lung Cancer"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "The goal of this clinical trial is to evaluate the clinical efficacy and safety of Furmonertinib in EGFR mutated NSCLC patients with leptomeningeal metastasis and to explore the feasibility of CSF ctDNA detection for efficacy evaluation. Participants will be treated with 160mg Furmonertinib daily and tumor evaluation will be performed every 6-8 weeks. The participants' blood and cerebrospinal fluid samples will be collected three times during the study for ctDNA detection."
+    },
+    {
+      "nctId": "NCT05865990",
+      "url": "https://clinicaltrials.gov/study/NCT05865990",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "HER3-DXd in Breast Cancer and NSCLC Brain Metastases and Solid Tumor Leptomeningeal Disease",
+      "officialTitle": "Multicenter, Single-arm, 3 Cohort, Phase II Trial of HER3-DXd in Patients With Active Brain Metastases From Metastatic Breast Cancer and Non-small Cell Lung Cancer, and in Patients With Leptomeningeal Disease From Advanced Solid Tumors",
+      "conditions": [
+        "Metastatic Breast Cancer",
+        "Advanced Non-Small Cell Squamous Lung Cancer",
+        "Solid Tumor, Adult"
+      ],
+      "countries": [
+        "Austria",
+        "Spain"
+      ],
+      "briefSummary": "The goal of this phase II clinical trial\\] is to analyze the efficacy of patritumab deruxtecan (HER3-DXd) in patients with metastatic breast cancer (MBC) or advanced non-small cell lung cancer (aNSCLC) with active brain metastases (BM) who have received at least one line of systemic therapy in the advanced setting, or patients with active leptomeningeal carcinomatosis/disease (LMD) after radiotherapy from an advanced solid tumor who do not need immediate local treatment, and have not received prior treatment with an anti-HER3 targeted drug\\].\n\nThe main questions it aims to answer are:\n\n* The intracranial objective response rate (ORR-IC) per local investigator as judged by best central nervous system (CNS) response according to Response Assessment in Neuro-Oncology Brain Metastases (RANO-BM) criteria of HER3-DXd in patients with active BM from MBC (Cohort 1) and aNSCLC (Cohort 2).\n* The overall survival (OS) rate at 3 months of HER3-DXd in patients with advanced solid tumors with untreated LMD (Cohort 3).\n\nParticipants will receive HER3-DXd on day (D1) of each 21-day cycle until disease progression, unacceptable toxicity, death, or discontinuation from the study treatment for any other reason.\n\nResearchers will compare historical groups to see if HER3-DXd positively impacts patient outcomes."
+    },
+    {
+      "nctId": "NCT05934630",
+      "url": "https://clinicaltrials.gov/study/NCT05934630",
+      "status": "SUSPENDED",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "Testing Cerebrospinal Fluid for Cell-free Tumor DNA in Children, Adolescents, and Young Adults With Brain Tumors",
+      "officialTitle": "CSF Cell-free Tumor DNA (CSF cfDNA) Liquid Biopsies for Pediatric, Adolescent, and Young Adult Patients With Primary Brain Tumors",
+      "conditions": [
+        "Anaplastic Astrocytoma",
+        "Diffuse Brainstem Glioma",
+        "Glioblastoma Multiforme",
+        "High-grade Astrocytoma NOS",
+        "Fibrillary Astrocytoma",
+        "Low-Grade Astrocytoma, Nos",
+        "Pilocytic Astrocytoma",
+        "Choroid Plexus Carcinoma",
+        "CNS Primary Tumor, Nos",
+        "Atypical Teratoid/Rhabdoid Tumor",
+        "Medulloblastoma",
+        "Supratentorial Primitive Neuroectodermal Tumor",
+        "Ependymoma, NOS",
+        "Anaplastic Oligodendroglioma",
+        "Oligodendroglioma, Nos",
+        "CNS Germ Cell Tumor",
+        "Pineoblastoma",
+        "Diffuse Leptomeningeal Glioneuronal Tumor"
+      ],
+      "countries": [
+        "United States",
+        "Canada"
+      ],
+      "briefSummary": "Recent advances in technology have allowed for the detection of cell-free DNA (cfDNA). cfDNA is tumor DNA that can be found in the fluid that surrounds the brain and spinal cord (called cerebrospinal fluid or CSF) and in the blood of patients with brain tumors. The detection of cfDNA in blood and CSF is known as a \"liquid biopsy\" and is non-invasive, meaning it does not require a surgery or biopsy of tumor tissue. Multiple studies in other cancer types have shown that cfDNA can be used for diagnosis, to monitor disease response to treatment, and to understand the genetic changes that occur in brain tumors over time. Study doctors hope that by studying these tests in pediatric brain tumor patients, they will be able to use liquid biopsy in place of tests that have more risks for patients, like surgery.\n\nThere is no treatment provided on this study. Patients who have CSF samples taken as part of regular care will be asked to provide extra samples for this study. The study doctor will collect a minimum of one extra tube of CSF (about 1 teaspoon or 5 mL) for this study. If the patients doctor thinks it is safe, up to 2 tubes of CSF (about 4 teaspoons or up to 20 mL) may be collected. CSF will be collected through the indwelling catheter device or through a needle inserted into the lower part of the patient's spine (known as a spinal tap or lumbar puncture).\n\nA required blood sample (about ½ a teaspoon or 2 3 mL) will be collected once at the start of the study. This sample will be used to help determine changes found in the CSF. Blood will be collected from the patient's central line or arm as a part of regular care.\n\nAn optional tumor tissue if obtained within 8 weeks of CSF collection will be collected if available. Similarities between changes in the DNA of the tissue that has caused the tumor to form and grow with the cfDNA from CSF will be compared. This will help understand if CSF can be used instead of tumor tissue for diagnosis. Up to 300 people will take part in this study.\n\nThis study will use genetic tests that may identify changes in the genes in the CSF. The report of the somatic mutations (the mutations that are found in the tumor only) will become part of the medical record. The results of the cfDNA sequencing will be shared with the patient. The study doctor will discuss what the results mean for the patient and patient's diagnosis and treatment. Looking for inheritable mutations in normal cells (blood) is not the purpose of this study. Genetic tests of normal blood can reveal information about the patient and also about the their relatives. The doctor will discuss what the tests results may mean for the patient and the their family. Patient may be monitored on this study for up to 5 years."
+    },
+    {
+      "nctId": "NCT06016387",
+      "url": "https://clinicaltrials.gov/study/NCT06016387",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Tucatinib, Trastuzumab and Capecitabine With Brain and/or Spinal Radiotherapy (XRT) in Patients With HER2+, HER2 Mutated and/or HER2-amplified Metastatic Breast Cancer and Leptomeningeal Disease: A Multi-centre Phase II, Single Arm Feasibility Study",
+      "officialTitle": "Tucatinib, Trastuzumab and Capecitabine With Brain and/or Spinal Radiotherapy (XRT) in Patients With HER2+, HER2 Mutated and/or HER2-amplified Metastatic Breast Cancer and Leptomeningeal Disease: A Multi-centre Phase II, Single Arm Feasibility Study",
+      "conditions": [
+        "HER2-positive Breast Cancer",
+        "LMD"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "briefSummary": "The proposed study will evaluate the safety and efficacy of XRT followed by systemic therapy among patients with HER2+, HER2 mutated and/or HER2-amplified metastatic breast cancer and LMD"
+    },
+    {
+      "nctId": "NCT06026735",
+      "url": "https://clinicaltrials.gov/study/NCT06026735",
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "Non-small Cell Lung Cancer With Central Nervous System Metastasis",
+      "officialTitle": "Comprehensive Profiling of Promising Biomarkers in Exosomes From Non-small Cell Lung Cancer With Central Nervous System Metastasis",
+      "conditions": [
+        "Lung Cancer With Central Nervous System Metastasis"
+      ],
+      "countries": [
+        "Taiwan"
+      ],
+      "briefSummary": "Cerebrospinal fluid was obtained from the cerebrospinal cavity of non-small cell lung cancer patients with central nervous system metastasis, blood was obtained from veins, and metastatic lung cancer tumor tissue was obtained from surgically resected brain tumors or meningeal tumors. Then comprehensively analyze the exosomes contained in the aforementioned samples, and compare and analyze the clinical data of the patients, so as to explore whether the cancer cell-related substances contained in the cerebrospinal fluid, blood and tumor tissue can be used to predict lung cancer metastasis and Bioindicators of treatment effect."
+    },
+    {
+      "nctId": "NCT06058988",
+      "url": "https://clinicaltrials.gov/study/NCT06058988",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Trastuzumab Deruxtecan (T-DXd) for People With Brain Cancer",
+      "officialTitle": "Window of Opportunity Assessment of [Fam-]Trastuzumab DERuxtecan-nxki (T-DXd) Brain Tumor Penetration and Efficacy (WOnDER-BT)",
+      "conditions": [
+        "Brain Cancer",
+        "Glioblastoma",
+        "Metastatic Cancer",
+        "Leptomeningeal Metastasis",
+        "Recurrent Glioblastoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "The purpose of this study is to find out how much tratuzumab deruxtecan (T-DXd) can penetrate the tumor when injected into the body, and whether T-DXd may be an effective treatment for brain cancers that express the HER2 protein."
+    },
+    {
+      "nctId": "NCT06132698",
+      "url": "https://clinicaltrials.gov/study/NCT06132698",
+      "status": "UNKNOWN",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Immune Checkpoint Inhibitors Intrathecal Injection in Patients With Leptomeningeal Metastases in NSCLC",
+      "officialTitle": "Efficacy and Safety of Immune Checkpoint (PD-1) Inhibitor Combined With Pemetrexed Intrathecal Injection in Patients With Leptomeningeal Metastases in NSCLC",
+      "conditions": [
+        "NSCLC Associated With Leptomeningeal Metastases"
+      ],
+      "countries": [],
+      "briefSummary": "This is a prospective, single-arm, open clinical study, which was designed to evaluate the efficacy and safety of an immune checkpoint inhibitor combined with pemetrexed intrathecal injection in the treatment of patients with NSCLC associated with leptomeningeal metastases."
+    },
+    {
+      "nctId": "NCT06137651",
+      "url": "https://clinicaltrials.gov/study/NCT06137651",
+      "status": "WITHDRAWN",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "briefTitle": "Trotabresib in Combination With Vinorelbine and Radiation Therapy for the Treatment of HER2+ Breast Cancer With Central Nervous System or Leptomeningeal Metastasis",
+      "officialTitle": "A Phase I/Ib Trial of Trotabresib (BMS-986378), an Oral BET Inhibitor) in Combination With Vinorelbine and Radiation Therapy in HER2+ Breast Cancer Patients With Central Nervous System Metastasis and Leptomeningeal Disease (CA076-1008)",
+      "conditions": [
+        "Breast Carcinoma",
+        "Metastatic Malignant Neoplasm in the Brain",
+        "Metastatic Malignant Neoplasm in the Leptomeninges"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "This phase I/Ib trial tests the safety, side effects, and best dose of vinorelbine when given in combination with trotabresib in treating patients with HER2 positive breast cancer that has spread to the central nervous system or leptomeninges (metastasis). Cancer cells that make too much HER2 may grow more quickly and are more likely to spread to other parts of the body as metastases, including the central nervous system. Trotabresib is part of a family of drugs called BET inhibitors. Trotabresib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Vinorelbine is in a class of medications called vinca alkaloids. It works by slowing or stopping the growth of cancer cells in your body. Giving trotabresib and vinorelbine may increase in the anti-cancer activity of vinorelbine when used in combination with radiation (radiotherapy)."
+    },
+    {
+      "nctId": "NCT06146010",
+      "url": "https://clinicaltrials.gov/study/NCT06146010",
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "Non Interventional German Leptomeningeal Disease Register",
+      "officialTitle": "Deutsches Meningeosis Neoplastica Register",
+      "conditions": [
+        "Meningeal Neoplasms",
+        "Leptomeningeal Disease"
+      ],
+      "countries": [
+        "Germany"
+      ],
+      "briefSummary": "The planned multicenter register is intended to create a database in the form of a cancer register on the incidence and course of disease in Germany of leptomeningeal disease, the therapeutic measures administered in the real world and the complications."
+    },
+    {
+      "nctId": "NCT06176261",
+      "url": "https://clinicaltrials.gov/study/NCT06176261",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "DATO-BASE: DATOpotamab-deruxtecan for Breast Cancer Brain metAstaSEs",
+      "officialTitle": "DATO-BASE: A Phase 2 Trial of DATOpotamab-deruxtecan for Breast Cancer Brain metAstaSEs",
+      "conditions": [
+        "Breast Cancer",
+        "Breast Cancer Female",
+        "Metastatic Triple-Negative Breast Carcinoma",
+        "ER Positive Breast Cancer",
+        "HER2-negative Breast Cancer",
+        "HER2 Negative Breast Carcinoma",
+        "ER-negative Breast Cancer"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "The purpose of this study is to test the safety and effectiveness of the study drug datopotamab deruxtecan in participants with metastatic breast cancer that has spread to the brain.\n\nThe name of the study drug used in this research study is:\n\nDatopotamab deruxtecan (a type of antibody-drug conjugate)"
+    },
+    {
+      "nctId": "NCT06230055",
+      "url": "https://clinicaltrials.gov/study/NCT06230055",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "briefTitle": "Intrathecal Chemotherapy Through Ommaya Reservoir Upon Her-2 Negative Breast Cancer With Leptomeningeal Metastasis",
+      "officialTitle": "Clinical Outcome and Quality of Life of Intrathecal Chemotherapy Through Ommaya Reservoir in Combination With Systematic Chemotherapy Versus Systematic Chemotherapy Upon Her-2 Negative Breast Cancer With Leptomeningeal Metastasis (CONQUER)",
+      "conditions": [
+        "HER2-negative Breast Cancer",
+        "Leptomeningeal Metastasis"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "This is a prospective, multicenter, randomized controlled, open-label investigator-initiated clinical study to evaluate the clinical efficacy and quality of life of intrathecal chemotherapy through Ommaya reservoir in combination with systematic chemotherapy versus systemic chemotherapy alone in patients with Her-2 negative breast cancer with leptomeningeal metastasis."
+    },
+    {
+      "nctId": "NCT06296745",
+      "url": "https://clinicaltrials.gov/study/NCT06296745",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Intrathecal Pemetrexed for Leptomeningeal Metastasis From Lung Adenocarcinoma That Progressed After Osimertinib.",
+      "officialTitle": "An Open-label, Single-arm, Phase II Trial of Intrathecal Pemetrexed for Leptomeningeal Metastasis From Lung Adenocarcinoma That Progressed After a Double Dose of Third-generation TKIs, Including Osimertinib",
+      "conditions": [
+        "Leptomeningeal Metastasis"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "Pemetrexed is one of the first-line chemotherapeutic agents for non-squamous non-small cell lung cancer (NSCLC). Since 2017, intrathecal pemetrexed has shown good efficacy for patients with leptomeningeal metastases from NSCLC. It has been recommended as the preferred drug for intrathecal chemotherapy by the Chinese Society of Clinical Oncology (CSCO) guidelines. Tyrosine kinase inhibitors (TKIs) play a promising role in treating non-small cell lung cancer patients with epidermal growth factor receptor (EGFR) mutations. An international multi-center clinical study published in 2019 confirmed that double dose of osimertinib showed significant improvement in leptomeningeal metastases from NSCLC with EGFR exon 19 deletion or exon 21 L858R/T790M mutation. It makes TKIs the mainstay of treatment for patients with EGFR-mutant NSCLC with leptomeningeal metastases. However, the choice of treatment after resistance to targeted therapy is a hot topic in clinical practice, with 78% of patients in the study above who responded to double-dose osimertinib still showing progression at the time of follow-up. The purpose of this study was to observe the safety and efficacy of intrathecal pemetrexed for leptomeningeal metastasis from lung adenocarcinoma that progressed after a double dose of a third-generation TKI such as osimertinib."
+    },
+    {
+      "nctId": "NCT06304441",
+      "url": "https://clinicaltrials.gov/study/NCT06304441",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "briefTitle": "Intra-pemetrexed Plus Third-generation Small Molecule TKI Drugs (e.g. 'Osimertinib') Versus Third-generation Small Molecule TKI Drugs Alone for Leptomeningeal Metastasis From Epidermal Growth Factor Receptor Mutation-Positive Non-Small-cell Lung Cancer",
+      "officialTitle": "A Clinical Trial of Intra-pemetrexed Plus Third-generation Small Molecule TKI Drugs (e.g. 'Osimertinib') Versus Third-generation Small Molecule TKI Drugs Alone for Leptomeningeal Metastasis From Epidermal Growth Factor Receptor Mutation-Positive Non-Small-cell Lung Cancer",
+      "conditions": [
+        "Leptomeningeal Metastasis"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "Intrathecal chemotherapy is one of the mainstay treatment options for leptomeningeal metastases. Pemetrexed is one of the first-line chemotherapeutic agents for non-squamous non-small cell lung cancer (NSCLC). Since 2017, intrathecal pemetrexed has shown good efficacy for patients with leptomeningeal metastases from NSCLC. It has been recommended as the preferred drug for intrathecal chemotherapy by the Chinese Society of Clinical Oncology (CSCO) guidelines. Tyrosine kinase inhibitors (TKIs) play a promising role in the treatment of non-small cell lung cancer patients with epidermal growth factor receptor (EGFR) mutations. Due to its small molecule properties, it can effectively penetrate the central nervous system barrier and deliver an effective antitumor effect. An international multi-center clinical study published in 2019 confirmed that double-dose of osimertinib showed significant improvement in leptomeningeal metastases from NSCLC with EGFR exon 19 deletion or exon 21 L858R/T790M mutation. It makes TKIs the mainstay of treatment for patients with EGFR-mutant NSCLC with leptomeningeal metastases. However, whether third-generation small molecule TKI drugs (e.g. 'osimertinib') combined with intrathecal pemetrexed could benefit patients with LM from EGFR- mutant NSCLC remains undetermined."
+    },
+    {
+      "nctId": "NCT06315686",
+      "url": "https://clinicaltrials.gov/study/NCT06315686",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "The Dynamic Monitoring of Cerebrospinal Fluid ctDNA",
+      "officialTitle": "A Single-center Prospective Cohort Study to Explore the Efficacy and Prognosis of Dynamic Monitoring of Cerebrospinal Fluid ctDNA",
+      "conditions": [
+        "NSCLC"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "Focusing on advanced EGFR mutation in NSCLC patients with leptomeningeal metastasis, vormetinib combined with OMMAYA lateral ventricle chemotherapy (pemetrexed) was used to dynamically monitor ctDNA in cerebrospinal fluid (CSF), analyze the ctDNA gene mutation profile of CSF in different patients, and explore the relationship between ctDNA and efficacy and prognosis."
+    },
+    {
+      "nctId": "NCT06332287",
+      "url": "https://clinicaltrials.gov/study/NCT06332287",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "A Study of Trilaciclib Combined With Chemotherapy in the Treatment of Advanced NSCLC With Leptomeningeal Metastasis",
+      "officialTitle": "A Prospective, Single-arm, and Exploratory Phase II Clinical Study of Trilaciclib Combined With Lateral Ventricular Chemotherapy in the Treatment of Advanced Non-small Cell Lung Cancer With Leptomeningeal Metastasis",
+      "conditions": [
+        "NSCLC"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "To observe the efficacy of Trilaciclib combined with lateral ventricular chemotherapy in the treatment of non-small cell lung cancer with leptomeningeal metastasis。"
+    },
+    {
+      "nctId": "NCT06332300",
+      "url": "https://clinicaltrials.gov/study/NCT06332300",
+      "status": "WITHDRAWN",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "An Exploratory Clinical Study of Adebelimumab in Combination With Famitinib and Chemotherapy in Patients With NSCLC",
+      "officialTitle": "An Exploratory Clinical Study of Adebelimumab in Combination With Famitinib and Lateral Ventricular Chemotherapy in Patients With Non-squamous NSCLC With Soft Meningeal Metastases Who Have Failed EGFR-TKI Therapy",
+      "conditions": [
+        "NSCLC"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "This study was a single-arm design to explore the efficacy and safety of Adebelimumab in combination with famitinib and lateral ventricular chemotherapy in patients with floppy meningeal metastases from non-squamous NSCLC who have failed EGFR-TKI therapy, and included patients with pathologically confirmed non-squamous non-small cell lung cancer."
+    },
+    {
+      "nctId": "NCT06339242",
+      "url": "https://clinicaltrials.gov/study/NCT06339242",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "A Study of Furmonertinib Combined With Chemotherapy in the Treatment of NSCLC With Leptomeningeal Metastasis",
+      "officialTitle": "A Single-arm, Prospective Clinical Study of Double Dose of Furmonertinib Combined With Lateral Ventricular Chemotherapy in the Treatment of EGFR-mutant Lung Cancer With Leptomeningeal Metastasis After Third-generation EGFR-TKIs Resistance",
+      "conditions": [
+        "NSCLC"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "Leptomeningeal metastasis is a fatal complication of advanced lung cancer. There is no standard treatment for leptomeningeal metastasis after third-generation EGFR-TKIs. The Furmonertinib prototype persists longer in brain tissue, and its metabolites can also penetrate the blood-brain barrier. Ommaya cystlateral ventricle chemotherapy can quickly control the progression of intracranial lesions. The aim of this study is to evaluate the LM progression-free survival (LM-PFS) of Furmonertinib combined with lateral ventricular chemotherapy in the treatment of leptomeningeal metastatic NSCLC after third-generation EGFR-TKIs resistance."
+    },
+    {
+      "nctId": "NCT06346977",
+      "url": "https://clinicaltrials.gov/study/NCT06346977",
+      "status": "NOT_YET_RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "Diagnosis of Leptomeningeal Metastasis and the Monitoring of Intrathecal Chemotherapy Efficacy in NSCLC",
+      "officialTitle": "A Prospective Study on the Diagnosis of Leptomeningeal Metastasis and the Monitoring of Intrathecal Chemotherapy Efficacy in NSCLC Based on Proteomics",
+      "conditions": [
+        "Diagnosis"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "Non-small cell lung cancer (NSCLC), occupying a disquieting position as the second most prevalent and deadliest neoplasm worldwide, afflicts an estimated 30% of its patients with intracranial metastatic spread. Among these, leptomeningeal metastasis (LM) is an exceptionally surreptitious and perilous manifestation, often evading timely and accurate diagnosis. The clinical landscape is further complicated by the presence of patients who, due to various reasons, are unable to undergo lumbar puncture, a procedure crucial for the investigation of LM. Moreover, even when cerebrospinal fluid (CSF) analysis via conventional cytological and immunohistochemical methods is attempted, a definitive diagnosis of LM may remain elusive in a subset of cases.\n\nIntrathecal chemotherapy, particularly via the administration of pemetrexed, which has demonstrated both notable efficacy and an acceptable safety profile when delivered directly into the cerebrospinal space, constitutes a cornerstone of treatment for NSCLC-LM. Despite its importance, the lack of robust, validated biomarkers to gauge the therapeutic response to such interventions represents a significant knowledge gap. This deficit is compounded by the inherent challenges associated with CSF samples, including their limited availability and the suboptimal sensitivity and high resource demands of current ctDNA assessment techniques.\n\nTo address these pressing diagnostic and monitoring needs in NSCLC-LM management, the investigator proposes a forward-looking, non-interventional clinical study harnessing the power of cutting-edge proteomic technologies. These platforms, characterized by their high throughput, exquisite sensitivity, and minimal sample volume requirements, offer a promising avenue for elucidating the intricacies of chemotherapy response in intrathecal therapy. The study aims to provide valuable insights into improving diagnostic accuracy for LM in NSCLC patients and to establish a more rigorous framework for assessing treatment efficacy in individuals undergoing intrathecal chemotherapy, ultimately contributing to enhanced patient care and personalized therapeutic strategies."
+    },
+    {
+      "nctId": "NCT06376292",
+      "url": "https://clinicaltrials.gov/study/NCT06376292",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "A Prospective Single Arm Phase II Exploratory Study on the Combination of Whole Brain Radiotherapy, Thiotepa Intrathecal Injection and Systemic Treatment of Primary Diseases in the Treatment of Solid Tumor Leptomeningeal Metastasis",
+      "officialTitle": "A Prospective Single Arm Phase II Exploratory Study on the Combination of Whole Brain Radiotherapy and Thiotepa Intrathecal Injection for Systemic Treatment of Primary Diseases in the Treatment of Solid Tumor Leptomeningeal Metastasis",
+      "conditions": [
+        "Solid Tumor Leptomeningeal Metastasis"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "The goal of this prospective, single-arm exploratory clinical study is to explore the safty and efficacy of whole-brain radiotherapy combined with Thiotepa intrathecal injection combined with systemic therapy for the primary disease in the treatment of leptoeningeal metastases in solid tumors\n\nHow works well was the combined therapy？ How safe was combined therapy？ Participants will continue systemic treatment, receive HA-WBRT combined with intrathecal injection of Thiotepa. Evaluate the efficacy and safety every 6 cycles.\n\nResearchers will evaluate whether this combination treatment is safe and whether it is more effective than previous studies."
+    },
+    {
+      "nctId": "NCT06399926",
+      "url": "https://clinicaltrials.gov/study/NCT06399926",
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "Efficacy and Safety of Intraventricule Pemetrexed Disodium Administered Via Ommaya Reservoir",
+      "officialTitle": "A Open-label, Random, Multi-central Prospective Cohort of Observation Study on the Efficacy and Safety of Intraventricule Pemetrexed Disodium Via Ommaya Reservoir",
+      "conditions": [
+        "Leptomeningeal Metastasis",
+        "Lung Cancer"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "This is a open-label, multi-center prospective observation study for the efficacy and safety of intraventricle pemetrexed disodium via ommaya reservoir in the treatment of leptomeningeal metastasis with lung cancer who have failed at least one targeted therapy. In detail: At least the treatment failure was after third-generation EGFR-TKIs in EGFR-mutated lung cancer; or at least the treatment failure was after second-generation ALK-TKIs in ALK-mutated lung cancer; or at least the treatment failure was after one-line of targeted-TKIs in ROS1-mutated non-squamous non-small lung cancer."
+    },
+    {
+      "nctId": "NCT06410040",
+      "url": "https://clinicaltrials.gov/study/NCT06410040",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "A Retrospective Study of the Efficacy and Safety of Lolatinib in ALK+ NSCLC Patients With Brain or Meningeal Metastasis",
+      "officialTitle": "A Retrospective Study of the Efficacy and Safety of Lolatinib in Anaplastic Lymphoma Kinase (ALK) - Positive Non-Small Cell Lung Cancer (NSCLC) Patients With Brain or Meningeal Metastasis",
+      "conditions": [
+        "ALK-positive Non-small Cell Lung Cancer",
+        "Brain Metastases",
+        "Meningeal Metastasis"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "This study was a retrospective observational study. The study included patients with non-small cell lung cancer with ALK-fusion brain metastases or meningeal metastases who received first-line and late-line treatment with the third-generation ALK TKI lorlatinib between June 2022 and June 2023.\n\nData were collected from the electronic medical records database and hospital information system of many hospitals in Sichuan Province. Clinical pathology features including gender, age, ALK mutation status at diagnosis, and clinical stage at diagnosis were collected from the medical records. The physical condition assessed by ECOG-PS before the administration of lorlatinib was recorded. Information on anti-tumor therapy was obtained from the records, including dose and time of ALK-TKI therapy and tumor response, number of prior systemic therapy lines, drug regimen, efficacy, and whether local therapy such as radiotherapy and surgery had been received. In this study, the sample size is not limited, and information is collected according to the maximum number of patients. The study period was from 01 July 2023 to 30 June 2024."
+    },
+    {
+      "nctId": "NCT06417710",
+      "url": "https://clinicaltrials.gov/study/NCT06417710",
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "Standardized Clinical Assessment of Patients With Leptomeningeal Metastasis",
+      "officialTitle": "Standardized Clinical Assessment of Patients With Leptomeningeal Metastasis",
+      "conditions": [
+        "Leptomeningeal Metastasis",
+        "Leptomeningeal Disease",
+        "Leptomeningeal Neoplasms",
+        "Leptomeningeal Cancer"
+      ],
+      "countries": [
+        "United States",
+        "Netherlands",
+        "Switzerland"
+      ],
+      "briefSummary": "The goal of this project is to develop and validate a reproducible scorecard for the neurological assessment of patients with leptomeningeal metastases that can be used in clinical trials including such patients, as well as in clinical practice."
+    },
+    {
+      "nctId": "NCT06431685",
+      "url": "https://clinicaltrials.gov/study/NCT06431685",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "briefTitle": "Safety and Efficacy of Whole Brain LDRT+ICI+Intrathecal Chemotherapy in Refractory Meningeal Metastasis of Lung Cancer",
+      "officialTitle": "Phase I Study of Whole Brain Low Dose Radiotherapy Combined With ICI and Intrathecal Chemotherapy for Treatment of Refractory Meningeal Metastasis of Lung Cancer",
+      "conditions": [
+        "NSCLC",
+        "Low Dose Radiotherapy",
+        "PD-1 Inhibitor",
+        "Leptomeningeal Metastasis"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "This phase I study aims to investigate the safety and efficacy of whole brain low dose radiotherapy (WB-LDRT) combined with ICI and intrathecal chemotherapy for treatment of refractory meningeal metastasis of lung cancer."
+    }
+  ]
+}

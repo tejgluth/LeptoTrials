@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "export:audit-universe": "npx tsx scripts/export-audit-universe.ts",
+    "generate:manual-audit-overrides": "npx tsx scripts/generate-manual-audit-overrides.ts",
+    "reconcile:manual-audit": "npx tsx scripts/reconcile-manual-audit.ts",
+    "validate:trials": "npx tsx scripts/validate-trials.ts"
   },
   "dependencies": {
     "gsap": "^3.14.2",

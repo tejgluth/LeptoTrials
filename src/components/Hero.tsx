@@ -51,7 +51,7 @@ export default function Hero({ onSearchClick }: HeroProps) {
         {/* Label */}
         <p
           data-hero-label
-          className="text-sm font-medium text-[#6ba3bf] mb-8 sm:mb-10 flex items-center gap-4"
+          className="text-sm font-medium text-[#8ecfe8] mb-8 sm:mb-10 flex items-center gap-4"
         >
           <span className="inline-block w-8 h-px bg-[#1a3352]" />
           Clinical Trial Finder · Leptomeningeal Metastasis
@@ -83,7 +83,7 @@ export default function Hero({ onSearchClick }: HeroProps) {
         {/* Subheading */}
         <p
           data-hero-sub
-          className="text-lg sm:text-xl text-[#8ab8d4] leading-relaxed max-w-2xl mb-12 sm:mb-14 font-light"
+          className="text-lg sm:text-xl text-[#b0d8ee] leading-relaxed max-w-2xl mb-12 sm:mb-14 font-light"
         >
           A focused search tool for leptomeningeal cancer patients. We filter
           ClinicalTrials.gov so you only see trials that can include you —
@@ -93,7 +93,7 @@ export default function Hero({ onSearchClick }: HeroProps) {
         {/* Stats row */}
         <div className="flex flex-wrap gap-10 sm:gap-16 mb-14 sm:mb-16">
           {[
-            { value: '179+', label: 'Active trials indexed' },
+            { value: 'Live', label: 'ClinicalTrials.gov data' },
             { value: '3-step', label: 'Eligibility filter' },
             { value: 'Live', label: 'Real-time data' },
           ].map((stat) => (
@@ -101,7 +101,7 @@ export default function Hero({ onSearchClick }: HeroProps) {
               <span className="font-serif italic text-[2rem] sm:text-[2.5rem] leading-none font-bold text-[#38bdf8]">
                 {stat.value}
               </span>
-              <span className="text-sm text-[#6ba3bf] font-medium">
+              <span className="text-sm text-[#8ecfe8] font-medium">
                 {stat.label}
               </span>
             </div>
@@ -122,7 +122,7 @@ export default function Hero({ onSearchClick }: HeroProps) {
       {/* Disclaimer */}
       <p
         data-hero-disclaimer
-        className="absolute bottom-7 sm:bottom-8 left-5 sm:left-8 md:left-12 lg:left-20 right-5 sm:right-8 text-sm text-[#2a5070] leading-relaxed max-w-2xl"
+        className="absolute bottom-7 sm:bottom-8 left-5 sm:left-8 md:left-12 lg:left-20 right-5 sm:right-8 text-sm text-[#8ecfe8] leading-relaxed max-w-2xl"
       >
         For informational purposes only. Always consult your oncologist or medical
         team before enrolling in any clinical trial. This tool does not provide medical advice.

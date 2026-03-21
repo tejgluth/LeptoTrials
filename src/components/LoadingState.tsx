@@ -3,7 +3,7 @@ export default function LoadingState() {
     <section className="px-5 sm:px-8 md:px-12 lg:px-20 py-10 sm:py-12 max-w-7xl">
       <div className="flex items-center gap-3 mb-8">
         <span className="inline-block w-5 h-5 border-2 border-[#38bdf8] border-t-transparent rounded-full animate-spin" />
-        <span className="text-base text-[#6ba3bf]">Searching ClinicalTrials.gov…</span>
+        <span className="text-base text-[#8ecfe8]">Searching ClinicalTrials.gov…</span>
       </div>
       <div className="flex flex-col gap-4">
         {Array.from({ length: 4 }).map((_, i) => (

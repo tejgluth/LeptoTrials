@@ -103,7 +103,7 @@ export default function SearchForm({
   ]
 
   const inputCls =
-    'w-full bg-[#0a1a2e] border border-[#1a3352] text-[#e8f4fd] placeholder-[#2a5070] px-4 py-3.5 text-base focus:outline-none focus:border-[#38bdf8] transition-colors min-h-[52px] rounded-sm'
+    'w-full bg-[#0a1a2e] border border-[#1a3352] text-[#e8f4fd] placeholder-[#4a7896] px-4 py-3.5 text-base focus:outline-none focus:border-[#38bdf8] transition-colors min-h-[52px] rounded-sm'
 
   return (
     <form onSubmit={handleSubmit} className="w-full border-b border-[#1a3352]/60">
@@ -113,14 +113,14 @@ export default function SearchForm({
         {/* Header row: label (non-sticky) or collapse toggle (sticky) */}
         {compact ? (
           <div className={`flex items-center justify-between ${isCollapsed ? '' : 'mb-3'}`}>
-            <p className="text-xs font-semibold uppercase tracking-widest text-[#6ba3bf]">
+            <p className="text-xs font-semibold uppercase tracking-widest text-[#8ecfe8]">
               Filter Trials
             </p>
             {onToggleCollapsed && (
               <button
                 type="button"
                 onClick={onToggleCollapsed}
-                className="flex items-center gap-1.5 text-xs font-medium text-[#6ba3bf] hover:text-[#8ab8d4] transition-colors cursor-pointer px-2 py-1 -mr-2"
+                className="flex items-center gap-1.5 text-xs font-medium text-[#8ecfe8] hover:text-[#b0d8ee] transition-colors cursor-pointer px-2 py-1 -mr-2"
                 aria-label={isCollapsed ? 'Expand filters' : 'Collapse filters'}
               >
                 {isCollapsed ? (
@@ -132,7 +132,7 @@ export default function SearchForm({
             )}
           </div>
         ) : (
-          <p className="text-xs font-semibold uppercase tracking-widest text-[#6ba3bf] mb-7">
+          <p className="text-xs font-semibold uppercase tracking-widest text-[#8ecfe8] mb-7">
             Filter Trials
           </p>
         )}
@@ -146,7 +146,7 @@ export default function SearchForm({
 
           {/* Age */}
           <div className="flex flex-col gap-2.5">
-            <label htmlFor="filter-age" className="text-sm font-semibold text-[#8ab8d4]">
+            <label htmlFor="filter-age" className="text-sm font-semibold text-[#b0d8ee]">
               Your Age
             </label>
             <div className="relative">
@@ -166,7 +166,7 @@ export default function SearchForm({
                 className={inputCls}
               />
               {age && (
-                <span className="absolute right-4 top-1/2 -translate-y-1/2 text-sm text-[#6ba3bf]">
+                <span className="absolute right-4 top-1/2 -translate-y-1/2 text-sm text-[#8ecfe8]">
                   yrs
                 </span>
               )}
@@ -178,7 +178,7 @@ export default function SearchForm({
 
           {/* Location (Region or Country) */}
           <div className="flex flex-col gap-2.5">
-            <label htmlFor="filter-location" className="text-sm font-semibold text-[#8ab8d4]">
+            <label htmlFor="filter-location" className="text-sm font-semibold text-[#b0d8ee]">
               Location
             </label>
             <select
@@ -211,7 +211,7 @@ export default function SearchForm({
 
           {/* Study Type */}
           <div className="flex flex-col gap-2.5">
-            <p className="text-sm font-semibold text-[#8ab8d4]" aria-hidden="true">
+            <p className="text-sm font-semibold text-[#b0d8ee]" aria-hidden="true">
               Study Type
             </p>
             <div className="flex gap-3 h-[52px]" role="group" aria-label="Study type">
@@ -223,7 +223,7 @@ export default function SearchForm({
                   className={`flex-1 text-sm font-medium border transition-colors duration-150 cursor-pointer ${
                     studyTypes.includes(type)
                       ? 'bg-[#38bdf8] text-[#060f1e] border-[#38bdf8]'
-                      : 'bg-[#0a1a2e] text-[#6ba3bf] hover:text-[#8ab8d4] hover:bg-[#0f2240] border-[#1a3352]'
+                      : 'bg-[#0a1a2e] text-[#8ecfe8] hover:text-[#b0d8ee] hover:bg-[#0f2240] border-[#1a3352]'
                   }`}
                 >
                   {type === 'INTERVENTIONAL' ? 'Interventional' : 'Observational'}
@@ -231,15 +231,15 @@ export default function SearchForm({
               ))}
             </div>
             {studyTypes.length === 0 && (
-              <p className="text-xs text-[#2a5070]">All types included</p>
+              <p className="text-xs text-[#8ecfe8]">All types included</p>
             )}
           </div>
 
           {/* Phase */}
           <div className="flex flex-col gap-2.5">
-            <p className="text-sm font-semibold text-[#8ab8d4]" aria-hidden="true">
+            <p className="text-sm font-semibold text-[#b0d8ee]" aria-hidden="true">
               Phase{' '}
-              <span className="text-[#2a5070] font-normal normal-case">
+              <span className="text-[#8ecfe8] font-normal normal-case">
                 — select any
               </span>
             </p>
@@ -252,7 +252,7 @@ export default function SearchForm({
                   className={`flex-1 text-sm font-medium transition-colors duration-150 cursor-pointer ${
                     phases.includes(value)
                       ? 'bg-[#38bdf8] text-[#060f1e]'
-                      : 'bg-[#0a1a2e] text-[#6ba3bf] hover:text-[#8ab8d4] hover:bg-[#0f2240]'
+                      : 'bg-[#0a1a2e] text-[#8ecfe8] hover:text-[#b0d8ee] hover:bg-[#0f2240]'
                   }`}
                 >
                   {label}
@@ -260,14 +260,14 @@ export default function SearchForm({
               ))}
             </div>
             {phases.length === 0 && (
-              <p className="text-xs text-[#2a5070]">All phases included</p>
+              <p className="text-xs text-[#8ecfe8]">All phases included</p>
             )}
           </div>
         </div>
 
         {/* Status row */}
         <div className={`flex flex-wrap items-center gap-x-8 gap-y-4 ${compact ? 'mb-3' : 'mb-8'}`}>
-          <span className="text-sm font-semibold text-[#8ab8d4] w-full sm:w-auto">
+          <span className="text-sm font-semibold text-[#b0d8ee] w-full sm:w-auto">
             Recruitment Status
           </span>
           {statusOptions.map(({ value, label, color }) => (
@@ -299,7 +299,7 @@ export default function SearchForm({
                   className="sr-only"
                 />
               </span>
-              <span className="text-base text-[#8ab8d4] group-hover:text-[#c9dff0] transition-colors">
+              <span className="text-base text-[#b0d8ee] group-hover:text-[#c9dff0] transition-colors">
                 {label}
               </span>
             </label>
@@ -308,7 +308,7 @@ export default function SearchForm({
 
         {/* Tumor Type row */}
         <div className={`flex flex-col gap-2.5 ${compact ? 'mb-3' : 'mb-8'}`}>
-          <p className="text-sm font-semibold text-[#8ab8d4]" aria-hidden="true">
+          <p className="text-sm font-semibold text-[#b0d8ee]" aria-hidden="true">
             Tumor Type
           </p>
           <div className="flex flex-wrap gap-2" role="group" aria-label="Tumor type filter">
@@ -320,7 +320,7 @@ export default function SearchForm({
                 className={`px-4 py-2 text-sm font-medium border transition-colors duration-150 cursor-pointer rounded-sm ${
                   tumorType === value
                     ? 'bg-[#38bdf8] text-[#060f1e] border-[#38bdf8]'
-                    : 'bg-[#0a1a2e] text-[#6ba3bf] hover:text-[#8ab8d4] hover:bg-[#0f2240] border-[#1a3352]'
+                    : 'bg-[#0a1a2e] text-[#8ecfe8] hover:text-[#b0d8ee] hover:bg-[#0f2240] border-[#1a3352]'
                 }`}
               >
                 {label}
@@ -328,7 +328,7 @@ export default function SearchForm({
             ))}
           </div>
           {tumorType !== 'any' && (
-            <p className="text-xs italic text-[#2a5070]">
+            <p className="text-xs italic text-[#8ecfe8]">
               Adding a tumor type may limit studies shown, because some trial records do not explicitly list the primary cancer.
             </p>
           )}

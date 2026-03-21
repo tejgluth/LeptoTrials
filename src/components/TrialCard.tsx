@@ -158,20 +158,20 @@ export default function TrialCard({ study, index }: TrialCardProps) {
 
           {/* Phase */}
           {phaseLabel && phaseLabel !== 'N/A' && (
-            <span className="px-3 py-1.5 text-base font-medium text-[#8ab8d4] bg-[#0a1a2e] border border-[#1a3352]">
+            <span className="px-3 py-1.5 text-base font-medium text-[#b0d8ee] bg-[#0a1a2e] border border-[#1a3352]">
               {phaseLabel}
             </span>
           )}
 
           {/* Study type */}
-          <span className="px-3 py-1.5 text-base font-medium text-[#8ab8d4] bg-[#0a1a2e] border border-[#1a3352]">
+          <span className="px-3 py-1.5 text-base font-medium text-[#b0d8ee] bg-[#0a1a2e] border border-[#1a3352]">
             {studyType === 'INTERVENTIONAL' ? 'Interventional'
               : studyType === 'OBSERVATIONAL' ? 'Observational'
               : studyType}
           </span>
 
           {/* NCT ID */}
-          <span className="ml-auto text-xs text-[#2a5070] font-mono tracking-wide hidden sm:inline">
+          <span className="ml-auto text-xs text-[#8ecfe8] font-mono tracking-wide hidden sm:inline">
             {nctId}
           </span>
         </div>
@@ -182,12 +182,12 @@ export default function TrialCard({ study, index }: TrialCardProps) {
             {briefTitle}
           </h2>
           {officialTitle && officialTitle !== briefTitle && (
-            <p className="text-[#6ba3bf] text-base leading-relaxed">
+            <p className="text-[#8ecfe8] text-base leading-relaxed">
               {officialTitle}
             </p>
           )}
           {/* NCT ID mobile */}
-          <p className="text-xs text-[#2a5070] font-mono mt-2 sm:hidden">{nctId}</p>
+          <p className="text-xs text-[#8ecfe8] font-mono mt-2 sm:hidden">{nctId}</p>
         </div>
 
         {/* Condition tags */}
@@ -196,13 +196,13 @@ export default function TrialCard({ study, index }: TrialCardProps) {
             {conditions.slice(0, 5).map((cond) => (
               <span
                 key={cond}
-                className="text-sm px-2.5 py-1 text-[#6ba3bf] bg-[#0a1a2e] border border-[#1a3352] leading-none"
+                className="text-sm px-2.5 py-1 text-[#8ecfe8] bg-[#0a1a2e] border border-[#1a3352] leading-none"
               >
                 {cond}
               </span>
             ))}
             {conditions.length > 5 && (
-              <span className="text-xs px-2 py-1 text-[#2a5070]">
+              <span className="text-xs px-2 py-1 text-[#8ecfe8]">
                 +{conditions.length - 5} more
               </span>
             )}
@@ -214,7 +214,7 @@ export default function TrialCard({ study, index }: TrialCardProps) {
         {/* Brief summary */}
         {briefSummary && (
           <div className="mb-5">
-            <p className="text-base text-[#8ab8d4] leading-relaxed">
+            <p className="text-base text-[#b0d8ee] leading-relaxed">
               {summaryExpanded || briefSummary.length <= SUMMARY_LIMIT
                 ? briefSummary
                 : briefSummary.substring(0, SUMMARY_LIMIT) + '…'}
@@ -222,7 +222,7 @@ export default function TrialCard({ study, index }: TrialCardProps) {
             {briefSummary.length > SUMMARY_LIMIT && (
               <button
                 onClick={() => setSummaryExpanded(!summaryExpanded)}
-                className="text-sm text-[#6ba3bf] hover:text-[#38bdf8] mt-2 transition-colors cursor-pointer"
+                className="text-sm text-[#8ecfe8] hover:text-[#38bdf8] mt-2 transition-colors cursor-pointer"
               >
                 {summaryExpanded ? '↑ Show less' : '↓ Read more'}
               </button>
@@ -235,29 +235,29 @@ export default function TrialCard({ study, index }: TrialCardProps) {
         {/* Metadata grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mb-5">
           <div>
-            <p className="text-sm font-medium text-[#2a5070] mb-1.5 uppercase tracking-wider">Organization</p>
-            <p className="text-base text-[#8ab8d4] leading-snug">{orgFullName ?? '—'}</p>
+            <p className="text-sm font-medium text-[#8ecfe8] mb-1.5 uppercase tracking-wider">Organization</p>
+            <p className="text-base text-[#b0d8ee] leading-snug">{orgFullName ?? '—'}</p>
           </div>
           <div>
-            <p className="text-sm font-medium text-[#2a5070] mb-1.5 uppercase tracking-wider">Responsible Party</p>
-            <p className="text-base text-[#8ab8d4] leading-snug">{responsibleParty}</p>
+            <p className="text-sm font-medium text-[#8ecfe8] mb-1.5 uppercase tracking-wider">Responsible Party</p>
+            <p className="text-base text-[#b0d8ee] leading-snug">{responsibleParty}</p>
           </div>
           <div>
-            <p className="text-sm font-medium text-[#2a5070] mb-1.5 uppercase tracking-wider">Start Date</p>
-            <p className="text-base text-[#8ab8d4]">
+            <p className="text-sm font-medium text-[#8ecfe8] mb-1.5 uppercase tracking-wider">Start Date</p>
+            <p className="text-base text-[#b0d8ee]">
               {formatDate(startDate)}
               {status.startDateStruct?.type === 'ESTIMATED' && (
-                <span className="text-[#2a5070] ml-1.5">(est.)</span>
+                <span className="text-[#8ecfe8] ml-1.5">(est.)</span>
               )}
             </p>
           </div>
           <div>
-            <p className="text-sm font-medium text-[#2a5070] mb-1.5 uppercase tracking-wider">Enrollment</p>
-            <p className="text-base text-[#8ab8d4]">
+            <p className="text-sm font-medium text-[#8ecfe8] mb-1.5 uppercase tracking-wider">Enrollment</p>
+            <p className="text-base text-[#b0d8ee]">
               {enrollment ? (
                 <>
                   {enrollment.count.toLocaleString()}
-                  <span className="text-[#2a5070] ml-1.5">
+                  <span className="text-[#8ecfe8] ml-1.5">
                     {enrollment.type === 'ESTIMATED' ? '(est.)' : '(actual)'}
                   </span>
                 </>
@@ -265,15 +265,15 @@ export default function TrialCard({ study, index }: TrialCardProps) {
             </p>
           </div>
           <div>
-            <p className="text-sm font-medium text-[#2a5070] mb-1.5 uppercase tracking-wider">Expanded Access</p>
-            <p className="text-base text-[#8ab8d4]">
+            <p className="text-sm font-medium text-[#8ecfe8] mb-1.5 uppercase tracking-wider">Expanded Access</p>
+            <p className="text-base text-[#b0d8ee]">
               {hasExpandedAccess ? <span style={{ color: '#34d399' }}>Yes</span> : 'No'}
             </p>
           </div>
           {status.studyFirstSubmitDate && (
             <div>
-              <p className="text-sm font-medium text-[#2a5070] mb-1.5 uppercase tracking-wider">First Submitted</p>
-              <p className="text-base text-[#8ab8d4]">{formatDate(status.studyFirstSubmitDate)}</p>
+              <p className="text-sm font-medium text-[#8ecfe8] mb-1.5 uppercase tracking-wider">First Submitted</p>
+              <p className="text-base text-[#b0d8ee]">{formatDate(status.studyFirstSubmitDate)}</p>
             </div>
           )}
         </div>
@@ -284,12 +284,12 @@ export default function TrialCard({ study, index }: TrialCardProps) {
         <div className="flex flex-wrap items-center gap-4">
           {contactEmail ? (
             <div className="flex items-center gap-3 min-w-0">
-              <span className="text-base font-medium text-[#6ba3bf] flex-shrink-0">Contact:</span>
+              <span className="text-base font-medium text-[#8ecfe8] flex-shrink-0">Contact:</span>
               <span className="text-base text-[#38bdf8] font-mono truncate">{contactEmail}</span>
               <button
                 onClick={copyEmail}
                 title="Copy email"
-                className="text-[#6ba3bf] hover:text-[#38bdf8] transition-colors cursor-pointer flex-shrink-0"
+                className="text-[#8ecfe8] hover:text-[#38bdf8] transition-colors cursor-pointer flex-shrink-0"
               >
                 {copied ? (
                   <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
@@ -304,14 +304,14 @@ export default function TrialCard({ study, index }: TrialCardProps) {
               </button>
             </div>
           ) : (
-            <span className="text-base text-[#2a5070]">Contact via ClinicalTrials.gov</span>
+            <span className="text-base text-[#8ecfe8]">Contact via ClinicalTrials.gov</span>
           )}
 
           <a
             href={trialUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-auto inline-flex items-center gap-2.5 border border-[#1a3352] text-[#8ab8d4] hover:text-[#e8f4fd] hover:border-[#38bdf8] px-5 py-2.5 text-base font-medium transition-colors duration-200 min-h-[40px]"
+            className="ml-auto inline-flex items-center gap-2.5 border border-[#1a3352] text-[#b0d8ee] hover:text-[#e8f4fd] hover:border-[#38bdf8] px-5 py-2.5 text-base font-medium transition-colors duration-200 min-h-[40px]"
           >
             View Trial
             <svg width="11" height="11" viewBox="0 0 11 11" fill="none">

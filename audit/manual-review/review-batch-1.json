@@ -1,0 +1,476 @@
+{
+  "generatedAt": "2026-03-21T14:54:19.264Z",
+  "batch": 1,
+  "instructions": {
+    "siteEligible": "true if the study should appear anywhere on the website for LM patients; false otherwise",
+    "tumorLabels": [
+      "LUNG",
+      "BREAST",
+      "MELANOMA",
+      "GBM",
+      "OTHER_SOLID"
+    ],
+    "confidence": "high | medium | low",
+    "rationale": "Short evidence-based note from the ClinicalTrials.gov record"
+  },
+  "reviews": [
+    {
+      "nctId": "NCT00002750",
+      "briefTitle": "Melphalan in Patients With Neoplastic Meningitis",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Official record is phase I intrathecal melphalan for recurrent neoplastic meningitis; eligibility requires malignancy metastatic to CSF/leptomeningeal space."
+    },
+    {
+      "nctId": "NCT00002751",
+      "briefTitle": "Monoclonal Antibody Therapy in Treating Patients With Brain Metastases",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Despite the brain-metastases title, eligibility requires recurrent subarachnoid/leptomeningeal disease or CSF malignancy."
+    },
+    {
+      "nctId": "NCT00003020",
+      "briefTitle": "LMB-7 Immunotoxin in Treating Patients With Leptomeningeal Metastases",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Study is for leptomeningeal metastases, with eligibility requiring a primary intracranial or extraneural neoplasm plus LM involvement."
+    },
+    {
+      "nctId": "NCT00003022",
+      "briefTitle": "Monoclonal Antibody Therapy in Treating Patients With Leptomeningeal Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG",
+        "MELANOMA",
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Official record targets leptomeningeal cancer and includes GD2-expressing melanoma, lung cancer, and other solid tumors."
+    },
+    {
+      "nctId": "NCT00003073",
+      "briefTitle": "Chemotherapy in Treating Young Patients With Recurrent or Refractory Meningeal Leukemia, Lymphoma, or Solid Tumors",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Phase I trial for recurrent/refractory meningeal leukemia, lymphoma, or solid tumors with overt meningeal involvement."
+    },
+    {
+      "nctId": "NCT00003462",
+      "briefTitle": "Intrathecal Busulfan in Treating Patients With Recurrent, Refractory, or Metastatic Leptomeningeal Tumors",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Intrathecal busulfan trial for recurrent/refractory/metastatic leptomeningeal tumors; LM is the core eligibility criterion."
+    },
+    {
+      "nctId": "NCT00005811",
+      "briefTitle": "Topotecan Hydrochloride in Treating Children With Meningeal Cancer That Has Not Responded to Previous Treatment",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Children with meningeal cancer and overt meningeal involvement from leukemia/lymphoma or solid tumors, including medulloblastoma."
+    },
+    {
+      "nctId": "NCT00005812",
+      "briefTitle": "Temozolomide in Treating Patients With Leptomeningeal Metastases From a Solid Tumor or Lymphoma",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Temozolomide trial specifically requires documented leptomeningeal metastases from solid tumor or lymphoma."
+    },
+    {
+      "nctId": "NCT00006246",
+      "briefTitle": "Busulfan in Treating Children and Adolescents With Refractory CNS Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Intrathecal busulfan in children/adolescents with refractory CNS cancer metastatic to CSF/leptomeningeal space."
+    },
+    {
+      "nctId": "NCT00025311",
+      "briefTitle": "Topotecan in Treating Patients With Recurrent, Progressive, or Refractory Cancer That is Metastatic to the Lining Around the Brain",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Eligibility requires neoplastic meningitis/leptomeningeal metastasis refractory to conventional therapy."
+    },
+    {
+      "nctId": "NCT00089245",
+      "briefTitle": "Radiolabeled MAB Therapy in Patients With Refractory, Recurrent, or Advanced CNS or Leptomeningeal Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Study is for refractory/recurrent/advanced CNS or leptomeningeal malignancy, not brain-only disease."
+    },
+    {
+      "nctId": "NCT00112619",
+      "briefTitle": "Topotecan in Treating Young Patients With Neoplastic Meningitis Due to Leukemia, Lymphoma, or Solid Tumors",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Neoplastic meningitis trial in leukemia, lymphoma, or solid tumors with CSF or MRI evidence of meningeal disease."
+    },
+    {
+      "nctId": "NCT00338377",
+      "briefTitle": "Lymphodepletion Plus Adoptive Cell Transfer With or Without Dendritic Cell Immunization in Patients With Metastatic Melanoma",
+      "siteEligible": false,
+      "tumorLabels": [
+        "MELANOMA"
+      ],
+      "confidence": "high",
+      "rationale": "Metastatic melanoma study; the official record does not require leptomeningeal disease."
+    },
+    {
+      "nctId": "NCT00424242",
+      "briefTitle": "Pemetrexed Disodium in the Cerebrospinal Fluid of Patients With Leptomeningeal Metastases",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Eligibility requires systemic malignancy or primary CNS lymphoma with documented leptomeningeal metastases."
+    },
+    {
+      "nctId": "NCT00445965",
+      "briefTitle": "Iodine I 131 Monoclonal Antibody 3F8 in Treating Patients With Central Nervous System Cancer or Leptomeningeal Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG",
+        "MELANOMA",
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Official record covers CNS or leptomeningeal cancer and explicitly includes melanoma, lung cancer, and other GD2+ tumors."
+    },
+    {
+      "nctId": "NCT00450866",
+      "briefTitle": "Epothilone B in Treating Patients With CNS Metastases From Breast Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "high",
+      "rationale": "Breast cancer trial where CNS metastases include leptomeningeal disease in eligibility."
+    },
+    {
+      "nctId": "NCT00512460",
+      "briefTitle": "RTA 744 Injection in Patients With Leptomeningeal Disease",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Leptomeningeal disease trial for any primary tumor type; the study purpose is LM treatment."
+    },
+    {
+      "nctId": "NCT00527410",
+      "briefTitle": "A Safety Study of RTA 744 in Recurrent, Progressive or Refractory Neoplastic Meningitis",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Safety study of RTA 744 in recurrent neoplastic meningitis; record is LM-specific and tumor-agnostic."
+    },
+    {
+      "nctId": "NCT00830245",
+      "briefTitle": "A Study to Assess the Efficacy of Erlotinib for Leptomeningeal Carcinomatosis in EGFR Mutation Positive Non-small Cell Lung Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "NSCLC patients with leptomeningeal carcinomatosis are the target population."
+    },
+    {
+      "nctId": "NCT00854867",
+      "briefTitle": "Study to Demonstrate the Safety of WBR Administered at the Same Time as Intrathecal Liposomal Cytarabine (DepoCyte®) Versus Intrathecal Liposomal Cytarabine (DepoCyte®) Administered After WBR for the Treatment of Solid Tumour Neoplastic Meningitis in Patients With or Without Brain Metastasis.",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Solid-tumour neoplastic meningitis study, with or without brain metastasis."
+    },
+    {
+      "nctId": "NCT00949741",
+      "briefTitle": "Observational Study for the Cytofluorimetric Analysis of Cerebrospinal Fluid in Non-Hodgkin's Lymphoma Patients",
+      "siteEligible": false,
+      "tumorLabels": [],
+      "confidence": "high",
+      "rationale": "Observational CSF flow-cytometry study in lymphoma patients; eligibility excludes clinical or instrumental meningeal localization disease."
+    },
+    {
+      "nctId": "NCT00992602",
+      "briefTitle": "Liposomal Cytarabine and High-Dose Methotrexate in Treating Patients With Central Nervous System Metastases From Breast Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "high",
+      "rationale": "Breast cancer with CNS metastases, and eligibility requires leptomeningeal disease with or without brain involvement."
+    },
+    {
+      "nctId": "NCT01281696",
+      "briefTitle": "Bevacizumab With Etoposide and Cisplatin in Breast Cancer Patients With Brain and/or Leptomeningeal Metastasis",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "high",
+      "rationale": "Breast cancer patients with brain and/or leptomeningeal metastasis are eligible."
+    },
+    {
+      "nctId": "NCT01325194",
+      "briefTitle": "CHemoImmunotherapy With Early Central Nervous System (CNS) Prophylaxis",
+      "siteEligible": false,
+      "tumorLabels": [],
+      "confidence": "high",
+      "rationale": "This is CNS prophylaxis for high-risk DLBCL, not a study of established LM or meningeal disease."
+    },
+    {
+      "nctId": "NCT01325207",
+      "briefTitle": "Intrathecal Trastuzumab for Leptomeningeal Metastases in HER2+ Breast Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "high",
+      "rationale": "HER2+ breast cancer patients with leptomeningeal metastases are the enrolled population."
+    },
+    {
+      "nctId": "NCT01438021",
+      "briefTitle": "Continuous Intraventricular Methotrexate in Treating Patients With Leptomeningeal Disease",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Continuous intraventricular methotrexate for leptomeningeal disease; eligibility includes solid-tumor, leukemic, and lymphomatous meningitis."
+    },
+    {
+      "nctId": "NCT01563614",
+      "briefTitle": "A Clinical Trial to Assess the Safety & Efficacy of the Treatment of Patients With Metastasis From Malignant Melanoma - Treatment Consists of the Substances Lomustine (Capsules) & Cytarabine (Injected Into an Area Near the Spinal Cord), Accompanied by Radiotherapy of the Brain",
+      "siteEligible": true,
+      "tumorLabels": [
+        "MELANOMA"
+      ],
+      "confidence": "high",
+      "rationale": "Malignant melanoma study where enrollment requires leptomeningeal metastasis."
+    },
+    {
+      "nctId": "NCT01596127",
+      "briefTitle": "Intrathecal Rituximab in Lymphoid Malignancies Involving Central Nervous System",
+      "siteEligible": true,
+      "tumorLabels": [],
+      "confidence": "medium",
+      "rationale": "Intrathecal rituximab is studied in lymphoid malignancies involving the CNS; the record also references leptomeningeal disease, but this is not a solid-tumor study."
+    },
+    {
+      "nctId": "NCT01645839",
+      "briefTitle": "Interest of Intrathecal Chemotherapy With Liposomal Cytarabine (DepoCyte®) in Meningeal Metastasis of Breast Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "high",
+      "rationale": "Breast cancer trial in meningeal metastasis confirmed by CSF, MRI, or both."
+    },
+    {
+      "nctId": "NCT01713699",
+      "briefTitle": "Circulating Tumor Cells and Cytology in Cerebrospinal Fluid of Patients Clinically Suspected for Leptomeningeal Metastases",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Study enrolls advanced EpCAM-positive solid tumors in patients clinically suspected for leptomeningeal metastases."
+    },
+    {
+      "nctId": "NCT01818713",
+      "briefTitle": "Clinical and Pharmacological Study With 2B3-101 in Patients With Breast Cancer and Leptomeningeal Metastases",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "high",
+      "rationale": "Breast cancer and leptomeningeal metastases are explicitly the target population."
+    },
+    {
+      "nctId": "NCT02071056",
+      "briefTitle": "Circulating Tumor DNA in Cerebrospinal Fluid as an Early Biomarker of Leptomeningeal Metastasis (LM)",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "CSF ctDNA biomarker study in patients with solid tumors and signs/symptoms consistent with LM."
+    },
+    {
+      "nctId": "NCT02228369",
+      "briefTitle": "Oral Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitors, AZD3759 or AZD9291, in Patients Who Have Advanced Non-Small Cell Lung Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "medium",
+      "rationale": "Advanced EGFR-mutant NSCLC study; the official record states that patients with leptomeningeal metastasis may also be enrolled."
+    },
+    {
+      "nctId": "NCT02253264",
+      "briefTitle": "A Phase 1 Trial of Intrathecal Rituximab for Progressive Multiple Sclerosis Patients",
+      "siteEligible": false,
+      "tumorLabels": [],
+      "confidence": "high",
+      "rationale": "This is a multiple-sclerosis study, not a cancer or LM trial."
+    },
+    {
+      "nctId": "NCT02336451",
+      "briefTitle": "A Phase II Study to Evaluate the Efficacy and Safety of Oral Ceritinib in Patients With ALK-positive NSCLC Metastatic to the Brain and/or to Leptomeninges",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "ALK-positive NSCLC metastatic to the brain and/or leptomeninges is the study population."
+    },
+    {
+      "nctId": "NCT02422641",
+      "briefTitle": "Prospective Evaluation Of High-Dose Systemic Methotrexate In Patients With Breast Cancer And Leptomeningeal Metastasis",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "high",
+      "rationale": "Prospective breast-cancer LM study evaluating high-dose systemic methotrexate."
+    },
+    {
+      "nctId": "NCT02607605",
+      "briefTitle": "A Prospective, Observational Trial on the Diagnostic and Prognostic of LM",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "Observational trial of diagnostic/prognostic markers in advanced lung cancer with leptomeningeal metastases."
+    },
+    {
+      "nctId": "NCT02616393",
+      "briefTitle": "Phase 2 Study of Study of Tesevatinib in Subjects With NSCLC and Brain or Leptomeningeal Metastases",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "NSCLC with brain metastases or leptomeningeal metastases are explicitly eligible."
+    },
+    {
+      "nctId": "NCT02650752",
+      "briefTitle": "Intermittent High-Dose Lapatinib in Tandem With Capecitabine for HER2 Overexpressed/Amplified Metastatic Breast Cancer With Central Nervous System (CNS) Metastases",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "high",
+      "rationale": "HER2-overexpressed metastatic breast cancer with CNS metastases including leptomeningeal disease."
+    },
+    {
+      "nctId": "NCT02684071",
+      "briefTitle": "Phase II Study of Intraventricular Methotrexate in Children With Recurrent or Progressive Malignant Brain Tumors",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "medium",
+      "rationale": "Pediatric malignant brain-tumor study includes disease on brain/spine imaging or CSF cytology and the record lists leptomeningeal neoplasm."
+    },
+    {
+      "nctId": "NCT02755987",
+      "briefTitle": "Expanded Access to ANG1005 for Individual Patients",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST",
+        "OTHER_SOLID"
+      ],
+      "confidence": "medium",
+      "rationale": "Expanded-access record includes one patient with recurrent brain metastases and leptomeningeal carcinomatosis from breast cancer plus two CNS-tumor patients."
+    },
+    {
+      "nctId": "NCT02759835",
+      "briefTitle": "Local Ablative Therapy for Treatment of Oligoprogressive, EGFR-Mutated, Non-Small Cell Lung Cancer After Treatment With Osimertinib",
+      "siteEligible": false,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "Oligoprogressive EGFR-mutated NSCLC after osimertinib; the record does not describe leptomeningeal disease enrollment."
+    },
+    {
+      "nctId": "NCT02803619",
+      "briefTitle": "A Multi-center Prospective Observational Biomarker Study on EGFRm+ Non-small Cell Lung Cancer Patients With Leptomeningeal Metastasis",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "Biomarker study in EGFR-mutant NSCLC patients with leptomeningeal metastasis."
+    },
+    {
+      "nctId": "NCT02939300",
+      "briefTitle": "Ipilimumab and Nivolumab in Leptomeningeal Metastases",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Ipilimumab/nivolumab study is specifically in leptomeningeal metastases from solid tumors."
+    },
+    {
+      "nctId": "NCT02948751",
+      "briefTitle": "Microfluidic Device to Diagnose Leptomeningeal Metastasis in Breast Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "high",
+      "rationale": "Breast cancer patients undergoing workup for suspected leptomeningeal metastasis are enrolled."
+    },
+    {
+      "nctId": "NCT03025256",
+      "briefTitle": "Intravenous and Intrathecal Nivolumab in Treating Patients With Leptomeningeal Disease",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG",
+        "MELANOMA"
+      ],
+      "confidence": "high",
+      "rationale": "Intrathecal/intravenous nivolumab trial for leptomeningeal disease in melanoma and lung cancer cohorts."
+    }
+  ]
+}

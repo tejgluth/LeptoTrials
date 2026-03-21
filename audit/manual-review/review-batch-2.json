@@ -1,0 +1,465 @@
+{
+  "generatedAt": "2026-03-21T14:54:19.265Z",
+  "batch": 2,
+  "instructions": {
+    "siteEligible": "true if the study should appear anywhere on the website for LM patients; false otherwise",
+    "tumorLabels": [
+      "LUNG",
+      "BREAST",
+      "MELANOMA",
+      "GBM",
+      "OTHER_SOLID"
+    ],
+    "confidence": "high | medium | low",
+    "rationale": "Short evidence-based note from the ClinicalTrials.gov record"
+  },
+  "reviews": [
+    {
+      "nctId": "NCT03025269",
+      "briefTitle": "Ocrelizumab Effects on Physiological and Cognitive Changes in Multiple Sclerosis",
+      "siteEligible": false,
+      "tumorLabels": [],
+      "confidence": "high",
+      "rationale": "Multiple sclerosis ocrelizumab study; condition is MS, not cancer or leptomeningeal metastasis."
+    },
+    {
+      "nctId": "NCT03029065",
+      "briefTitle": "Detection of CSF Next Generation Sequencing in the Application of Brain Metastases From Lung Adenocarcinoma or Meningeal Metastasis",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "Eligibility and condition text specify lung adenocarcinoma with brain (meningeal) metastasis / meningeal metastasis."
+    },
+    {
+      "nctId": "NCT03082144",
+      "briefTitle": "Concurrent Involved-field Radiotherapy and Intrathecal Chemotherapy for Leptomeningeal Metastases From Solid Tumors",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Requires definite leptomeningeal metastasis from a malignant solid tumor, excluding hematologic malignancy and primary brain tumors."
+    },
+    {
+      "nctId": "NCT03091478",
+      "briefTitle": "Pembrolizumab in Patients With Leptomeningeal Disease",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Pembrolizumab trial requires cytologically confirmed or radiologically detectable LMD in histologically/cytologically confirmed solid tumors."
+    },
+    {
+      "nctId": "NCT03101579",
+      "briefTitle": "Intrathecal Pemetrexed for Recurrent Leptomeningeal Metastases From Non-small Cell Lung Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "Intrathecal pemetrexed study is for recurrent leptomeningeal metastases from non-small cell lung cancer."
+    },
+    {
+      "nctId": "NCT03252912",
+      "briefTitle": "Study in Leptomeningeal Metastases of Breast Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "high",
+      "rationale": "Study is specifically in leptomeningeal metastases of breast cancer."
+    },
+    {
+      "nctId": "NCT03257124",
+      "briefTitle": "Study of AZD9291 in NSCLC Patients Harboring T790M Mutation Who Failed EGFR TKI and With Brain and/or LMS",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "Eligibility covers NSCLC with brain and/or leptomeningeal metastasis and EGFR T790M mutation."
+    },
+    {
+      "nctId": "NCT03275402",
+      "briefTitle": "131I-omburtamab Radioimmunotherapy for Neuroblastoma Central Nervous System/Leptomeningeal Metastases",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Neuroblastoma CNS/leptomeningeal metastases trial; pediatric solid tumor LM population."
+    },
+    {
+      "nctId": "NCT03423628",
+      "briefTitle": "A Study to Assess the Safety and Tolerability of AZD1390 Given With Radiation Therapy in Patients With Brain Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "GBM",
+        "OTHER_SOLID"
+      ],
+      "confidence": "medium",
+      "rationale": "Protocol includes recurrent/primary GBM and a solid-tumor arm that allows brain lesions with LMD-related criteria."
+    },
+    {
+      "nctId": "NCT03501979",
+      "briefTitle": "Tucatinib, Trastuzumab, and Capecitabine for the Treatment of HER2+ LMD",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "high",
+      "rationale": "HER2+ metastatic breast cancer trial with explicit leptomeningeal disease eligibility."
+    },
+    {
+      "nctId": "NCT03507244",
+      "briefTitle": "Concurrent Intrathecal-pemetrexed and Involved-field Radiotherapy for Leptomeningeal Metastasis From Solid Tumors",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Concurrent intrathecal pemetrexed and radiotherapy for leptomeningeal metastasis from solid tumors."
+    },
+    {
+      "nctId": "NCT03520504",
+      "briefTitle": "Study of Proton Radiation to the Brain and Spinal Cord for Patients With Leptomeningeal Metastases",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Proton craniospinal irradiation study requires solid-tumor leptomeningeal metastases established radiographically and/or by CSF cytology."
+    },
+    {
+      "nctId": "NCT03526224",
+      "briefTitle": "Teriflunomide Tecfidera LMCE",
+      "siteEligible": false,
+      "tumorLabels": [],
+      "confidence": "high",
+      "rationale": "Multiple sclerosis medication review; no cancer or leptomeningeal metastasis population."
+    },
+    {
+      "nctId": "NCT03591757",
+      "briefTitle": "Short-term Effects of TOLCAPONE on Transthyretin Stability in Subjects With Leptomeningeal TTR Amyloidosis (ATTR)",
+      "siteEligible": false,
+      "tumorLabels": [],
+      "confidence": "high",
+      "rationale": "Leptomeningeal transthyretin amyloidosis, which is non-malignant and outside LM metastasis scope."
+    },
+    {
+      "nctId": "NCT03613181",
+      "briefTitle": "ANG1005 in Leptomeningeal Disease From Breast Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "high",
+      "rationale": "ANG1005 trial is for leptomeningeal disease from breast cancer."
+    },
+    {
+      "nctId": "NCT03638167",
+      "briefTitle": "EGFR806-specific CAR T Cell Locoregional Immunotherapy for EGFR-positive Recurrent or Refractory Pediatric CNS Tumors",
+      "siteEligible": false,
+      "tumorLabels": [],
+      "confidence": "high",
+      "rationale": "Pediatric CNS tumor CAR-T study; no leptomeningeal metastasis population in eligibility."
+    },
+    {
+      "nctId": "NCT03661424",
+      "briefTitle": "BATs in Patients With Breast Cancer and Leptomeningeal Metastases",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "high",
+      "rationale": "Breast cancer trial requires leptomeningeal metastasis by imaging and/or CSF cytology."
+    },
+    {
+      "nctId": "NCT03684980",
+      "briefTitle": "LTA Pilot Study of Glucarpidase in Patients With Central Nervous System Lymphoma",
+      "siteEligible": false,
+      "tumorLabels": [],
+      "confidence": "medium",
+      "rationale": "Study is for CNS lymphoma involving the leptomeningeal space, but it is not a leptomeningeal metastasis trial for solid tumors."
+    },
+    {
+      "nctId": "NCT03696030",
+      "briefTitle": "HER2-CAR T Cells in Treating Patients With Recurrent Brain or Leptomeningeal Metastases",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "medium",
+      "rationale": "HER2-CAR T study allows recurrent brain or leptomeningeal metastases and the condition list is breast-cancer based."
+    },
+    {
+      "nctId": "NCT03711422",
+      "briefTitle": "Afatinib on CNS Metastases and LMD in EGFR Mutation Positive NSCLC",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "Afatinib study is for EGFR-mutant NSCLC with CNS metastases and LMD."
+    },
+    {
+      "nctId": "NCT03719768",
+      "briefTitle": "Avelumab With Radiotherapy in Patients With Leptomeningeal Disease",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Avelumab plus radiotherapy trial enrolls patients with LMD from any histologically confirmed cancer except leukemia."
+    },
+    {
+      "nctId": "NCT03974204",
+      "briefTitle": "Analyses of Exosomes in the Cerebrospinal Fluid for Breast Cancer Patients With Suspicion of Leptomeningeal Metastasis.",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "high",
+      "rationale": "Breast cancer patients with suspected leptomeningeal metastasis are eligible."
+    },
+    {
+      "nctId": "NCT04148898",
+      "briefTitle": "Osimertinib With or Without Bevacizumab for EGFR- Mutant Non-small Cell Lung Cancer With Leptomeningeal Metastasis",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "Osimertinib trial requires NSCLC with leptomeningeal metastasis."
+    },
+    {
+      "nctId": "NCT04178343",
+      "briefTitle": "Tomotherapy for Leptomeningeal Metastases",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Tomotherapy study is for leptomeningeal metastases from solid tumors, without a specific primary site."
+    },
+    {
+      "nctId": "NCT04185038",
+      "briefTitle": "Study of B7-H3-Specific CAR T Cell Locoregional Immunotherapy for Diffuse Intrinsic Pontine Glioma/Diffuse Midline Glioma and Recurrent or Refractory Pediatric Central Nervous System Tumors",
+      "siteEligible": false,
+      "tumorLabels": [],
+      "confidence": "high",
+      "rationale": "B7-H3 CAR-T study is for DIPG/DMG and other pediatric CNS tumors, not LM disease."
+    },
+    {
+      "nctId": "NCT04192981",
+      "briefTitle": "GDC-0084 With Radiation Therapy for People With PIK3CA-Mutated Solid Tumor Brain Metastases or Leptomeningeal Metastases",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "GDC-0084 plus radiation allows solid tumors with brain metastases and/or leptomeningeal metastases."
+    },
+    {
+      "nctId": "NCT04233021",
+      "briefTitle": "Study of Osimertinib in Patients with a Lung Cancer with Brain or Leptomeningeal Metastases with EGFR Mutation",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "Osimertinib study is in lung cancer with brain or leptomeningeal metastases and EGFR mutation."
+    },
+    {
+      "nctId": "NCT04250545",
+      "briefTitle": "Testing of the Anti Cancer Drugs CB-839 HCl (Telaglenastat) and MLN0128 (Sapanisertib) in Advanced Stage Non-small Cell Lung Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "medium",
+      "rationale": "Advanced NSCLC trial explicitly allows stable treated asymptomatic brain metastases or leptomeningeal disease."
+    },
+    {
+      "nctId": "NCT04315246",
+      "briefTitle": "177Lu-DTPA-Omburtamab Radioimmunotherapy for Leptomeningeal Metastasis From Solid Tumors (Breast, NSCLC, Malignant Melanoma)",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST",
+        "LUNG",
+        "MELANOMA"
+      ],
+      "confidence": "high",
+      "rationale": "Eligibility is limited to breast cancer, non-small cell lung cancer, or malignant melanoma with LM."
+    },
+    {
+      "nctId": "NCT04343573",
+      "briefTitle": "Proton Craniospinal Radiation Therapy vs. Partial Photon Radiation Therapy for Leptomeningeal Metastasis From Solid Tumors",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Randomized radiation study for leptomeningeal metastasis from solid tumors."
+    },
+    {
+      "nctId": "NCT04356118",
+      "briefTitle": "Efficacy and Safety of Recombinant Human Endostatin in Non-Small Cell Lung Cancer With Leptomeningeal Metastasis",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "Non-small cell lung cancer with leptomeningeal metastasis."
+    },
+    {
+      "nctId": "NCT04356222",
+      "briefTitle": "Efficacy and Safety of Durvalumab in Non-Small Cell Lung Cancer With Leptomeningeal Metastasis",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "Non-small cell lung cancer with leptomeningeal metastasis."
+    },
+    {
+      "nctId": "NCT04420598",
+      "briefTitle": "DS-8201a for trEatment of aBc, BRain Mets, And Her2[+] Disease",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "high",
+      "rationale": "Breast cancer study includes a cohort for leptomeningeal carcinomatosis / LM."
+    },
+    {
+      "nctId": "NCT04425681",
+      "briefTitle": "Osimertinib With Bevacizumab for Leptomeningeal Metastasis From EGFR-mutation Non-Small Cell Lung Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "EGFR-mutant NSCLC with leptomeningeal metastasis."
+    },
+    {
+      "nctId": "NCT04448054",
+      "briefTitle": "Imaging SARS-CoV-2 Involvement of Leptomeninges, Olfactory and Limbic Areas",
+      "siteEligible": false,
+      "tumorLabels": [],
+      "confidence": "high",
+      "rationale": "COVID-19 imaging study of leptomeningeal involvement, not a cancer LM trial."
+    },
+    {
+      "nctId": "NCT04460937",
+      "briefTitle": "Testing the Addition of an Anti-cancer Drug, Adavosertib, to Radiation Therapy for Patients With Incurable Esophageal and Gastroesophageal Junction Cancers",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Esophageal/GEJ cancer trial explicitly allows patients with new or progressive brain metastases or leptomeningeal disease."
+    },
+    {
+      "nctId": "NCT04563871",
+      "briefTitle": "Efficacy and Safety of 80mg Osimertinib in Patients With Non-small Cell Lung Cancer(NSCLC)",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "NSCLC osimertinib study requires at least one LM site by investigator assessment."
+    },
+    {
+      "nctId": "NCT04588545",
+      "briefTitle": "Radiation Therapy Followed by Intrathecal Trastuzumab/Pertuzumab in HER2+ Breast Leptomeningeal Disease",
+      "siteEligible": true,
+      "tumorLabels": [
+        "BREAST"
+      ],
+      "confidence": "high",
+      "rationale": "HER2+ breast cancer with leptomeningeal disease."
+    },
+    {
+      "nctId": "NCT04661384",
+      "briefTitle": "Brain Tumor-Specific Immune Cells (IL13Ralpha2-CAR T Cells) for the Treatment of Leptomeningeal Glioblastoma, Ependymoma, or Medulloblastoma",
+      "siteEligible": true,
+      "tumorLabels": [
+        "GBM"
+      ],
+      "confidence": "medium",
+      "rationale": "CAR-T trial is for leptomeningeal glioblastoma and related primary CNS tumors."
+    },
+    {
+      "nctId": "NCT04729348",
+      "briefTitle": "Pembrolizumab And Lenvatinib In Leptomeningeal Metastases",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Trial enrolls any solid malignancy with confirmed leptomeningeal metastases."
+    },
+    {
+      "nctId": "NCT04778800",
+      "briefTitle": "A Dose Exploration Study of Almonertinib for EGFRm NSCLC Patients With Brain/Leptomeningeal Metastasis (ARTISTRY)",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "medium",
+      "rationale": "NSCLC study includes a queue for patients with tumor cells in CSF or MRI meningeal enhancement."
+    },
+    {
+      "nctId": "NCT04833205",
+      "briefTitle": "Clinical Efficacy and Safety of EGFR-TKI Combined With Nimotuzumab in the Treatment of Leptomeningeal Metastases From Lung Cancer",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "Leptomeningeal metastases from lung cancer."
+    },
+    {
+      "nctId": "NCT04944069",
+      "briefTitle": "Almonertinib With Bevacizumab for EGFR-Mutant NSCLC Patients With Leptomeningeal Metastasis",
+      "siteEligible": true,
+      "tumorLabels": [
+        "LUNG"
+      ],
+      "confidence": "high",
+      "rationale": "EGFR-mutant NSCLC with cytology-confirmed leptomeningeal metastasis."
+    },
+    {
+      "nctId": "NCT04988009",
+      "briefTitle": "Patient Perceptions Around Quality of Care Through Telemedicine in Neuro-Oncology",
+      "siteEligible": false,
+      "tumorLabels": [],
+      "confidence": "low",
+      "rationale": "Broad neuro-oncology telemedicine survey includes LM among many CNS tumors, but it is not LM-specific."
+    },
+    {
+      "nctId": "NCT05034497",
+      "briefTitle": "Intraventricular Administration of Rhenium-186 NanoLiposome for Leptomeningeal Metastases",
+      "siteEligible": true,
+      "tumorLabels": [
+        "OTHER_SOLID"
+      ],
+      "confidence": "high",
+      "rationale": "Intraventricular rhenium study is for type 1 and 2 leptomeningeal metastases of any primary type."
+    },
+    {
+      "nctId": "NCT05063682",
+      "briefTitle": "The Efficacy and Safety of Brain-targeting Immune Cells (EGFRvIII-CAR T Cells) in Treating Patients With Leptomeningeal Disease From Glioblastoma. Administering Patients EGFRvIII -CAR T Cells May Help to Recognize and Destroy Brain Tumor Cells in Patients",
+      "siteEligible": true,
+      "tumorLabels": [
+        "GBM"
+      ],
+      "confidence": "medium",
+      "rationale": "Study is for leptomeningeal disease from glioblastoma."
+    }
+  ]
+}

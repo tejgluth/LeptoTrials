@@ -12,11 +12,11 @@ export default function EmptyState({ hasSearched, error, onRetry }: EmptyStatePr
           <p className="text-sm font-semibold uppercase tracking-wider text-red-400 mb-4">
             Error
           </p>
-          <p className="text-base text-[#8ab8d4] leading-relaxed mb-8">{error}</p>
+          <p className="text-base text-[#b0d8ee] leading-relaxed mb-8">{error}</p>
           {onRetry && (
             <button
               onClick={onRetry}
-              className="text-sm font-medium text-[#8ab8d4] hover:text-[#e8f4fd] border border-[#1a3352] hover:border-[#38bdf8] px-6 py-3 transition-colors cursor-pointer min-h-[44px]"
+              className="text-sm font-medium text-[#b0d8ee] hover:text-[#e8f4fd] border border-[#1a3352] hover:border-[#38bdf8] px-6 py-3 transition-colors cursor-pointer min-h-[44px]"
             >
               Try again
             </button>
@@ -33,10 +33,10 @@ export default function EmptyState({ hasSearched, error, onRetry }: EmptyStatePr
       <div className="max-w-lg">
         <div className="w-16 h-px bg-[#1a3352] mb-10" />
 
-        <p className="text-sm font-semibold uppercase tracking-wider text-[#6ba3bf] mb-4">
+        <p className="text-sm font-semibold uppercase tracking-wider text-[#8ecfe8] mb-4">
           No trials found
         </p>
-        <p className="text-base text-[#8ab8d4] leading-relaxed mb-8">
+        <p className="text-base text-[#b0d8ee] leading-relaxed mb-8">
           No trials matched your filters after eligibility checking. Try broadening your search:
         </p>
 
@@ -48,14 +48,14 @@ export default function EmptyState({ hasSearched, error, onRetry }: EmptyStatePr
             'Change country to "Any Country"',
             'Include all recruitment statuses',
           ].map((tip) => (
-            <li key={tip} className="flex items-start gap-3 text-base text-[#6ba3bf]">
+            <li key={tip} className="flex items-start gap-3 text-base text-[#8ecfe8]">
               <span className="text-[#38bdf8] flex-shrink-0 font-medium leading-6">→</span>
               {tip}
             </li>
           ))}
         </ul>
 
-        <p className="text-sm text-[#2a5070] leading-relaxed border-l-2 border-[#1a3352] pl-4">
+        <p className="text-sm text-[#8ecfe8] leading-relaxed border-l-2 border-[#1a3352] pl-4">
           Some trials are removed because their exclusion criteria explicitly
           exclude leptomeningeal patients — these are not appropriate for your condition
           and are not shown.
