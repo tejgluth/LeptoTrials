@@ -7,7 +7,7 @@ interface EmptyStateProps {
 export default function EmptyState({ hasSearched, error, onRetry }: EmptyStateProps) {
   if (error) {
     return (
-      <section className="px-5 sm:px-8 md:px-12 lg:px-20 py-16 sm:py-20">
+      <section className="px-4 sm:px-8 md:px-12 lg:px-20 py-14 sm:py-20">
         <div className="max-w-lg">
           <p className="text-sm font-semibold uppercase tracking-wider text-red-400 mb-4">
             Error
@@ -29,7 +29,7 @@ export default function EmptyState({ hasSearched, error, onRetry }: EmptyStatePr
   if (!hasSearched) return null
 
   return (
-    <section className="px-5 sm:px-8 md:px-12 lg:px-20 py-16 sm:py-20">
+    <section className="px-4 sm:px-8 md:px-12 lg:px-20 py-14 sm:py-20">
       <div className="max-w-lg">
         <div className="w-16 h-px bg-[#1a3352] mb-10" />
 

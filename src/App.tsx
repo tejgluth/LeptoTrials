@@ -11,6 +11,7 @@ import { DEFAULT_SEARCH_PARAMS } from './utils/apiClient'
 export default function App() {
   const searchSectionRef = useRef<HTMLDivElement>(null)
   const sentinelRef = useRef<HTMLDivElement>(null)
+  const resultsRef = useRef<HTMLDivElement>(null)
   const [isHeaderSticky, setIsHeaderSticky] = useState(false)
   const [isFiltersCollapsed, setIsFiltersCollapsed] = useState(false)
   const [lastSearchParams, setLastSearchParams] = useState<SearchParams>(DEFAULT_SEARCH_PARAMS)
@@ -31,17 +32,17 @@ export default function App() {
   useEffect(() => {
     const sentinel = sentinelRef.current
     if (!sentinel) return
+    const isMobile = window.matchMedia('(max-width: 639px)').matches
+    const navOffset = isMobile ? 56 : 64
 
     const observer = new IntersectionObserver(
       ([entry]) => {
         const pinned = !entry.isIntersecting
         setIsHeaderSticky(pinned)
-        // Auto-expand filters when user scrolls back to the top
-        if (!pinned) setIsFiltersCollapsed(false)
       },
       // rootMargin top offset = nav height (64px); bottom opens to infinity
       // so we only care about the top edge crossing
-      { rootMargin: '-64px 0px 9999px 0px', threshold: 0 }
+      { rootMargin: `-${navOffset}px 0px 9999px 0px`, threshold: 0 }
     )
     observer.observe(sentinel)
     return () => observer.disconnect()
@@ -49,10 +50,11 @@ export default function App() {
 
   const handleSearch = (params: SearchParams) => {
     setLastSearchParams(params)
+    setIsFiltersCollapsed(true)
     search(params)
     // Give the loading state time to mount before scrolling into view
     requestAnimationFrame(() => {
-      searchSectionRef.current?.nextElementSibling?.scrollIntoView({
+      resultsRef.current?.scrollIntoView({
         behavior: 'smooth',
         block: 'start',
       })
@@ -70,15 +72,15 @@ export default function App() {
     <div className="min-h-screen bg-[#060f1e] text-[#e8f4fd]">
 
       {/* Fixed nav */}
-      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-5 sm:px-8 md:px-12 lg:px-20 h-16 border-b border-[#1a3352]/60 bg-[#060f1e]/95 backdrop-blur-sm">
-        <span className="text-sm font-bold uppercase tracking-[0.25em] text-[#e8f4fd]">
+      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between max-[350px]:items-start max-[350px]:justify-center max-[350px]:flex-col gap-3 max-[350px]:gap-1 px-4 sm:px-8 md:px-12 lg:px-20 h-14 sm:h-16 max-[350px]:h-auto max-[350px]:py-2 border-b border-[#1a3352]/60 bg-[#060f1e]/95 backdrop-blur-sm">
+        <span className="min-w-0 flex-shrink text-[0.9rem] max-[430px]:text-[clamp(0.82rem,2.9vw,0.9rem)] font-bold uppercase tracking-[0.2em] max-[430px]:tracking-[0.16em] sm:tracking-[0.25em] text-[#e8f4fd] whitespace-nowrap">
           Lepto<span className="text-[#38bdf8]">Trials</span>
         </span>
         <a
           href="https://clinicaltrials.gov"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xs uppercase tracking-widest text-[#8ecfe8] hover:text-[#b0d8ee] transition-colors duration-200"
+          className="min-w-0 flex-shrink text-[0.75rem] max-[430px]:text-[clamp(0.68rem,2.45vw,0.75rem)] uppercase tracking-[0.16em] max-[430px]:tracking-[0.1em] sm:tracking-widest text-[#8ecfe8] hover:text-[#b0d8ee] transition-colors duration-200 whitespace-nowrap max-[350px]:pl-[1px]"
         >
           ClinicalTrials.gov ↗
         </a>
@@ -96,21 +98,25 @@ export default function App() {
           natively. The compact prop switches to a tighter layout once pinned. */}
       <div
         ref={searchSectionRef}
-        className={`sticky top-16 bg-[#060f1e] z-40 transition-shadow duration-300 ${
-          isHeaderSticky ? 'shadow-[0_1px_0_#1a3352]' : ''
-        }`}
+        className={`bg-[#060f1e] z-40 transition-shadow duration-300 ${
+          hasSearched ? 'sticky top-14 sm:top-16' : 'relative'
+        } ${isHeaderSticky ? 'shadow-[0_1px_0_#1a3352]' : ''}`}
       >
         <SearchForm
           onSearch={handleSearch}
           isLoading={isLoading}
-          compact={isHeaderSticky}
+          compact={hasSearched && isHeaderSticky}
           isCollapsed={isFiltersCollapsed}
           onToggleCollapsed={() => setIsFiltersCollapsed((v) => !v)}
         />
       </div>
 
       {/* Results */}
-      <div id="results" className="min-h-[50vh]">
+      <div
+        id="results"
+        ref={resultsRef}
+        className="min-h-[50vh] scroll-mt-[8.5rem] sm:scroll-mt-[9.5rem]"
+      >
         {isLoading && <LoadingState />}
 
         {showEmpty && (
@@ -130,7 +136,7 @@ export default function App() {
         )}
 
         {!hasSearched && !isLoading && (
-          <div className="px-5 sm:px-8 md:px-12 lg:px-20 py-24 text-center">
+          <div className="px-5 sm:px-8 md:px-12 lg:px-20 py-20 sm:py-24 text-center">
             <p className="text-sm text-[#8ecfe8]">
               Set your filters above and press Search to find eligible trials
             </p>

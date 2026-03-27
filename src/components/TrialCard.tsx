@@ -142,14 +142,14 @@ export default function TrialCard({ study, index }: TrialCardProps) {
         style={{ backgroundColor: statusCfg.color + '80' }}
       />
 
-      <div className="px-6 sm:px-8 py-6 sm:py-7 pl-8 sm:pl-10">
+      <div className="px-4 sm:px-8 py-5 sm:py-7 pl-6 sm:pl-10">
 
         {/* Badge row */}
-        <div className="flex flex-wrap items-center gap-2 mb-5">
+        <div className="flex flex-wrap items-center gap-2 mb-4 sm:mb-5">
 
           {/* Status */}
           <span
-            className="inline-flex items-center gap-2 px-3 py-1.5 text-base font-semibold"
+            className="inline-flex items-center gap-2 px-3 py-1.5 text-sm sm:text-base font-semibold"
             style={{ color: statusCfg.color, backgroundColor: statusCfg.bg }}
           >
             <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: statusCfg.color }} />
@@ -158,13 +158,13 @@ export default function TrialCard({ study, index }: TrialCardProps) {
 
           {/* Phase */}
           {phaseLabel && phaseLabel !== 'N/A' && (
-            <span className="px-3 py-1.5 text-base font-medium text-[#b0d8ee] bg-[#0a1a2e] border border-[#1a3352]">
+            <span className="px-3 py-1.5 text-sm sm:text-base font-medium text-[#b0d8ee] bg-[#0a1a2e] border border-[#1a3352]">
               {phaseLabel}
             </span>
           )}
 
           {/* Study type */}
-          <span className="px-3 py-1.5 text-base font-medium text-[#b0d8ee] bg-[#0a1a2e] border border-[#1a3352]">
+          <span className="px-3 py-1.5 text-sm sm:text-base font-medium text-[#b0d8ee] bg-[#0a1a2e] border border-[#1a3352]">
             {studyType === 'INTERVENTIONAL' ? 'Interventional'
               : studyType === 'OBSERVATIONAL' ? 'Observational'
               : studyType}
@@ -177,12 +177,12 @@ export default function TrialCard({ study, index }: TrialCardProps) {
         </div>
 
         {/* Title block */}
-        <div className="mb-5">
-          <h2 className="text-[#e8f4fd] font-semibold text-xl sm:text-2xl leading-snug mb-2">
+        <div className="mb-4 sm:mb-5">
+          <h2 className="text-[#e8f4fd] font-semibold text-lg sm:text-2xl leading-snug mb-2">
             {briefTitle}
           </h2>
           {officialTitle && officialTitle !== briefTitle && (
-            <p className="text-[#8ecfe8] text-base leading-relaxed">
+            <p className="hidden sm:block text-[#8ecfe8] text-base leading-relaxed">
               {officialTitle}
             </p>
           )}
@@ -192,11 +192,11 @@ export default function TrialCard({ study, index }: TrialCardProps) {
 
         {/* Condition tags */}
         {conditions.length > 0 && (
-          <div className="flex flex-wrap gap-2 mb-5">
+          <div className="flex flex-wrap gap-2 mb-4 sm:mb-5">
             {conditions.slice(0, 5).map((cond) => (
               <span
                 key={cond}
-                className="text-sm px-2.5 py-1 text-[#8ecfe8] bg-[#0a1a2e] border border-[#1a3352] leading-none"
+                className="text-xs sm:text-sm px-2.5 py-1 text-[#8ecfe8] bg-[#0a1a2e] border border-[#1a3352] leading-none"
               >
                 {cond}
               </span>
@@ -209,20 +209,21 @@ export default function TrialCard({ study, index }: TrialCardProps) {
           </div>
         )}
 
-        <div className="h-px bg-[#142840] mb-5" />
+        <div className="h-px bg-[#142840] mb-4 sm:mb-5" />
 
         {/* Brief summary */}
         {briefSummary && (
-          <div className="mb-5">
-            <p className="text-base text-[#b0d8ee] leading-relaxed">
+          <div className="mb-4 sm:mb-5">
+            <p className="text-sm sm:text-base text-[#b0d8ee] leading-relaxed">
               {summaryExpanded || briefSummary.length <= SUMMARY_LIMIT
                 ? briefSummary
                 : briefSummary.substring(0, SUMMARY_LIMIT) + '…'}
             </p>
             {briefSummary.length > SUMMARY_LIMIT && (
               <button
+                type="button"
                 onClick={() => setSummaryExpanded(!summaryExpanded)}
-                className="text-sm text-[#8ecfe8] hover:text-[#38bdf8] mt-2 transition-colors cursor-pointer"
+                className="text-sm text-[#8ecfe8] hover:text-[#38bdf8] mt-2 transition-colors cursor-pointer min-h-[44px]"
               >
                 {summaryExpanded ? '↑ Show less' : '↓ Read more'}
               </button>
@@ -230,21 +231,21 @@ export default function TrialCard({ study, index }: TrialCardProps) {
           </div>
         )}
 
-        <div className="h-px bg-[#142840] mb-5" />
+        <div className="h-px bg-[#142840] mb-4 sm:mb-5" />
 
         {/* Metadata grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mb-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-5 mb-4 sm:mb-5">
           <div>
             <p className="text-sm font-medium text-[#8ecfe8] mb-1.5 uppercase tracking-wider">Organization</p>
-            <p className="text-base text-[#b0d8ee] leading-snug">{orgFullName ?? '—'}</p>
+            <p className="text-sm sm:text-base text-[#b0d8ee] leading-snug">{orgFullName ?? '—'}</p>
           </div>
           <div>
             <p className="text-sm font-medium text-[#8ecfe8] mb-1.5 uppercase tracking-wider">Responsible Party</p>
-            <p className="text-base text-[#b0d8ee] leading-snug">{responsibleParty}</p>
+            <p className="text-sm sm:text-base text-[#b0d8ee] leading-snug">{responsibleParty}</p>
           </div>
           <div>
             <p className="text-sm font-medium text-[#8ecfe8] mb-1.5 uppercase tracking-wider">Start Date</p>
-            <p className="text-base text-[#b0d8ee]">
+            <p className="text-sm sm:text-base text-[#b0d8ee]">
               {formatDate(startDate)}
               {status.startDateStruct?.type === 'ESTIMATED' && (
                 <span className="text-[#8ecfe8] ml-1.5">(est.)</span>
@@ -253,7 +254,7 @@ export default function TrialCard({ study, index }: TrialCardProps) {
           </div>
           <div>
             <p className="text-sm font-medium text-[#8ecfe8] mb-1.5 uppercase tracking-wider">Enrollment</p>
-            <p className="text-base text-[#b0d8ee]">
+            <p className="text-sm sm:text-base text-[#b0d8ee]">
               {enrollment ? (
                 <>
                   {enrollment.count.toLocaleString()}
@@ -266,30 +267,32 @@ export default function TrialCard({ study, index }: TrialCardProps) {
           </div>
           <div>
             <p className="text-sm font-medium text-[#8ecfe8] mb-1.5 uppercase tracking-wider">Expanded Access</p>
-            <p className="text-base text-[#b0d8ee]">
+            <p className="text-sm sm:text-base text-[#b0d8ee]">
               {hasExpandedAccess ? <span style={{ color: '#34d399' }}>Yes</span> : 'No'}
             </p>
           </div>
           {status.studyFirstSubmitDate && (
             <div>
               <p className="text-sm font-medium text-[#8ecfe8] mb-1.5 uppercase tracking-wider">First Submitted</p>
-              <p className="text-base text-[#b0d8ee]">{formatDate(status.studyFirstSubmitDate)}</p>
+              <p className="text-sm sm:text-base text-[#b0d8ee]">{formatDate(status.studyFirstSubmitDate)}</p>
             </div>
           )}
         </div>
 
-        <div className="h-px bg-[#142840] mb-5" />
+        <div className="h-px bg-[#142840] mb-4 sm:mb-5" />
 
         {/* Contact + CTA */}
-        <div className="flex flex-wrap items-center gap-4">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3 sm:gap-4">
           {contactEmail ? (
-            <div className="flex items-center gap-3 min-w-0">
-              <span className="text-base font-medium text-[#8ecfe8] flex-shrink-0">Contact:</span>
-              <span className="text-base text-[#38bdf8] font-mono truncate">{contactEmail}</span>
+            <div className="flex items-center gap-2.5 sm:gap-3 min-w-0 w-full sm:w-auto">
+              <span className="text-sm sm:text-base font-medium text-[#8ecfe8] flex-shrink-0">Contact:</span>
+              <span className="text-sm sm:text-base text-[#38bdf8] font-mono truncate">{contactEmail}</span>
               <button
+                type="button"
                 onClick={copyEmail}
                 title="Copy email"
-                className="text-[#8ecfe8] hover:text-[#38bdf8] transition-colors cursor-pointer flex-shrink-0"
+                aria-label={copied ? 'Email copied' : 'Copy contact email'}
+                className="text-[#8ecfe8] hover:text-[#38bdf8] transition-colors cursor-pointer flex-shrink-0 min-h-[44px] min-w-[44px] inline-flex items-center justify-center"
               >
                 {copied ? (
                   <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
@@ -311,7 +314,7 @@ export default function TrialCard({ study, index }: TrialCardProps) {
             href={trialUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-auto inline-flex items-center gap-2.5 border border-[#1a3352] text-[#b0d8ee] hover:text-[#e8f4fd] hover:border-[#38bdf8] px-5 py-2.5 text-base font-medium transition-colors duration-200 min-h-[40px]"
+            className="inline-flex items-center justify-center gap-2.5 border border-[#1a3352] text-[#b0d8ee] hover:text-[#e8f4fd] hover:border-[#38bdf8] px-5 py-2.5 text-sm sm:text-base font-medium transition-colors duration-200 min-h-[44px] w-full sm:w-auto sm:ml-auto"
           >
             View Trial
             <svg width="11" height="11" viewBox="0 0 11 11" fill="none">

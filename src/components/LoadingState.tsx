@@ -1,6 +1,6 @@
 export default function LoadingState() {
   return (
-    <section className="px-5 sm:px-8 md:px-12 lg:px-20 py-10 sm:py-12 max-w-7xl">
+    <section className="px-4 sm:px-8 md:px-12 lg:px-20 py-8 sm:py-12 max-w-7xl">
       <div className="flex items-center gap-3 mb-8">
         <span className="inline-block w-5 h-5 border-2 border-[#38bdf8] border-t-transparent rounded-full animate-spin" />
         <span className="text-base text-[#8ecfe8]">Searching ClinicalTrials.gov…</span>
@@ -17,7 +17,7 @@ export default function LoadingState() {
 function SkeletonCard({ delay }: { delay: number }) {
   return (
     <div
-      className="bg-[#0c1e34] border border-[#1a3352] px-6 sm:px-8 py-6 sm:py-7"
+      className="bg-[#0c1e34] border border-[#1a3352] px-4 sm:px-8 py-5 sm:py-7"
       style={{ animationDelay: `${delay}s` }}
     >
       {/* Badge row */}

@@ -9,17 +9,17 @@ interface TrialsListProps {
 
 export default function TrialsList({ results, filteredCount, error }: TrialsListProps) {
   return (
-    <section className="px-5 sm:px-8 md:px-12 lg:px-20 py-10 sm:py-12 max-w-7xl">
+    <section className="px-4 sm:px-8 md:px-12 lg:px-20 py-8 sm:py-12 max-w-7xl">
 
       {/* Results header */}
-      <div className="flex flex-wrap items-baseline gap-x-5 gap-y-1.5 mb-3">
-        <h2 className="text-2xl sm:text-3xl font-semibold text-[#e8f4fd]">
+      <div className="flex flex-wrap items-baseline gap-x-5 gap-y-1.5 mb-2 sm:mb-3">
+        <h2 className="text-xl sm:text-3xl font-semibold text-[#e8f4fd]">
           {filteredCount.toLocaleString()} trial{filteredCount !== 1 ? 's' : ''} found
         </h2>
       </div>
 
       {/* Sub-note */}
-      <p className="text-sm text-[#8ecfe8] mb-8 sm:mb-10 leading-relaxed max-w-2xl">
+      <p className="text-sm text-[#8ecfe8] mb-6 sm:mb-10 leading-relaxed max-w-2xl">
         Searched by condition and across all trial text. Exclusion criteria checked against
         leptomeningeal terms, age eligibility applied. All shown trials passed eligibility filtering.
       </p>

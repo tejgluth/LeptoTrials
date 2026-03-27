@@ -32,7 +32,7 @@ export default function Hero({ onSearchClick }: HeroProps) {
   return (
     <section
       ref={containerRef}
-      className="relative min-h-screen flex flex-col justify-center overflow-hidden px-5 sm:px-8 md:px-12 lg:px-20 pt-24 pb-28 sm:pb-20"
+      className="relative min-h-screen flex flex-col justify-center overflow-hidden px-4 sm:px-8 md:px-12 lg:px-20 pt-20 sm:pt-24 pb-12 sm:pb-20"
     >
       {/* Deep navy radial glow */}
       <div
@@ -51,9 +51,9 @@ export default function Hero({ onSearchClick }: HeroProps) {
         {/* Label */}
         <p
           data-hero-label
-          className="text-sm font-medium text-[#8ecfe8] mb-8 sm:mb-10 flex items-center gap-4"
+          className="text-xs sm:text-sm font-medium text-[#8ecfe8] mb-6 sm:mb-10 flex items-center gap-3 sm:gap-4"
         >
-          <span className="inline-block w-8 h-px bg-[#1a3352]" />
+          <span className="inline-block w-6 sm:w-8 h-px bg-[#1a3352]" />
           Clinical Trial Finder · Leptomeningeal Metastasis
         </p>
 
@@ -61,20 +61,20 @@ export default function Hero({ onSearchClick }: HeroProps) {
         <div
           data-hero-line
           ref={lineRef}
-          className="w-full h-px bg-[#1a3352] mb-10 sm:mb-12"
+          className="w-full h-px bg-[#1a3352] mb-7 sm:mb-12"
         />
 
         {/* Main headline — Fraunces italic */}
-        <h1 className="font-serif italic leading-[0.9] tracking-tight mb-10 sm:mb-12">
+        <h1 className="font-serif italic leading-[0.92] sm:leading-[0.9] tracking-tight mb-8 sm:mb-12">
           <span
             data-hero-title-1
-            className="block text-[clamp(3rem,8vw,7.5rem)] font-bold text-[#e8f4fd]"
+            className="block text-[clamp(2.1rem,12vw,7.5rem)] font-bold text-[#e8f4fd]"
           >
             Find your trial.
           </span>
           <span
             data-hero-title-2
-            className="block text-[clamp(3rem,8vw,7.5rem)] font-bold text-[#38bdf8]"
+            className="block text-[clamp(2.1rem,12vw,7.5rem)] font-bold text-[#38bdf8]"
           >
             Skip the complexity.
           </span>
@@ -83,7 +83,7 @@ export default function Hero({ onSearchClick }: HeroProps) {
         {/* Subheading */}
         <p
           data-hero-sub
-          className="text-lg sm:text-xl text-[#b0d8ee] leading-relaxed max-w-2xl mb-12 sm:mb-14 font-light"
+          className="text-base sm:text-xl text-[#b0d8ee] leading-relaxed max-w-2xl mb-8 sm:mb-14 font-light"
         >
           A focused search tool for leptomeningeal cancer patients. We filter
           ClinicalTrials.gov so you only see trials that can include you —
@@ -91,17 +91,17 @@ export default function Hero({ onSearchClick }: HeroProps) {
         </p>
 
         {/* Stats row */}
-        <div className="flex flex-wrap gap-10 sm:gap-16 mb-14 sm:mb-16">
+        <div className="grid grid-cols-2 sm:flex sm:flex-wrap gap-x-8 gap-y-6 sm:gap-16 mb-10 sm:mb-16">
           {[
             { value: 'Live', label: 'ClinicalTrials.gov data' },
             { value: '3-step', label: 'Eligibility filter' },
             { value: 'Live', label: 'Real-time data' },
           ].map((stat) => (
             <div key={stat.label} data-hero-meta className="flex flex-col gap-2">
-              <span className="font-serif italic text-[2rem] sm:text-[2.5rem] leading-none font-bold text-[#38bdf8]">
+              <span className="font-serif italic text-[1.65rem] sm:text-[2.5rem] leading-none font-bold text-[#38bdf8]">
                 {stat.value}
               </span>
-              <span className="text-sm text-[#8ecfe8] font-medium">
+              <span className="text-xs sm:text-sm text-[#8ecfe8] font-medium">
                 {stat.label}
               </span>
             </div>
@@ -112,17 +112,25 @@ export default function Hero({ onSearchClick }: HeroProps) {
         <button
           data-hero-cta
           onClick={onSearchClick}
-          className="group inline-flex items-center gap-4 bg-[#38bdf8] text-[#060f1e] px-8 sm:px-10 py-4 text-base font-semibold hover:bg-[#7dd3fc] transition-colors duration-200 cursor-pointer min-h-[52px]"
+          className="group inline-flex items-center justify-center gap-3 sm:gap-4 bg-[#38bdf8] text-[#060f1e] w-full sm:w-auto px-6 sm:px-10 py-3.5 sm:py-4 text-base font-semibold hover:bg-[#7dd3fc] transition-colors duration-200 cursor-pointer min-h-[48px] sm:min-h-[52px]"
         >
           Search Clinical Trials
           <span className="inline-block transition-transform duration-200 group-hover:translate-x-1.5 text-lg leading-none">→</span>
         </button>
+
+        {/* Mobile disclaimer in flow to prevent overlap with CTA */}
+        <p
+          data-hero-disclaimer
+          className="sm:hidden mt-7 text-sm text-[#8ecfe8] leading-relaxed max-w-2xl"
+        >
+          For informational purposes only. Always consult your oncologist or medical
+          team before enrolling in any clinical trial. This tool does not provide medical advice.
+        </p>
       </div>
 
-      {/* Disclaimer */}
+      {/* Desktop/tablet disclaimer */}
       <p
-        data-hero-disclaimer
-        className="absolute bottom-7 sm:bottom-8 left-5 sm:left-8 md:left-12 lg:left-20 right-5 sm:right-8 text-sm text-[#8ecfe8] leading-relaxed max-w-2xl"
+        className="hidden sm:block absolute bottom-7 sm:bottom-8 left-5 sm:left-8 md:left-12 lg:left-20 right-5 sm:right-8 text-sm text-[#8ecfe8] leading-relaxed max-w-2xl"
       >
         For informational purposes only. Always consult your oncologist or medical
         team before enrolling in any clinical trial. This tool does not provide medical advice.
