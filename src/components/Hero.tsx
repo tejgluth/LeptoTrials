@@ -8,6 +8,22 @@ interface HeroProps {
 export default function Hero({ onSearchClick }: HeroProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const lineRef = useRef<HTMLDivElement>(null)
+  const foundationLinkClassName =
+    'text-[#dff2fb] underline decoration-[#38bdf8]/70 underline-offset-4 transition-colors duration-200 hover:text-white hover:decoration-[#7dd3fc]'
+  const foundationResource = (
+    <>
+      For more information about leptomeningeal cancer, please visit the{' '}
+      <a
+        href="https://lmcancer.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={foundationLinkClassName}
+      >
+        Leptomeningeal Cancer Foundation
+      </a>
+      .
+    </>
+  )
 
   useEffect(() => {
     const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -118,23 +134,16 @@ export default function Hero({ onSearchClick }: HeroProps) {
           <span className="inline-block transition-transform duration-200 group-hover:translate-x-1.5 text-lg leading-none">→</span>
         </button>
 
-        {/* Mobile disclaimer in flow to prevent overlap with CTA */}
+        {/* In-flow disclaimer keeps the CTA clear on every breakpoint */}
         <p
           data-hero-disclaimer
-          className="sm:hidden mt-7 text-sm text-[#8ecfe8] leading-relaxed max-w-2xl"
+          className="mt-7 sm:mt-10 text-sm text-[#8ecfe8] leading-relaxed max-w-3xl lg:max-w-4xl"
         >
           For informational purposes only. Always consult your oncologist or medical
           team before enrolling in any clinical trial. This tool does not provide medical advice.
+          <span className="block mt-2">{foundationResource}</span>
         </p>
       </div>
-
-      {/* Desktop/tablet disclaimer */}
-      <p
-        className="hidden sm:block absolute bottom-7 sm:bottom-8 left-5 sm:left-8 md:left-12 lg:left-20 right-5 sm:right-8 text-sm text-[#8ecfe8] leading-relaxed max-w-2xl"
-      >
-        For informational purposes only. Always consult your oncologist or medical
-        team before enrolling in any clinical trial. This tool does not provide medical advice.
-      </p>
 
       {/* Bottom line */}
       <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#1a3352] to-transparent" />
