@@ -1,7 +1,11 @@
 import { useState, useCallback, useRef } from 'react'
 import type { Study, SearchParams, ApiResponse } from '../types/trial'
 import type { FilterResult } from '../types/trial'
-import { fetchCondStudies, fetchTermStudies } from '../utils/apiClient'
+import {
+  fetchCondStudies,
+  fetchSupplementalAuditedStudies,
+  fetchTermStudies,
+} from '../utils/apiClient'
 import { filterTrial, filterByTumorType } from '../utils/trialFilter'
 import { CONTINENT_COUNTRIES } from '../constants/countries'
 
@@ -34,6 +38,32 @@ const INITIAL_STATE: SearchState = {
 // Maximum pages to fetch per search (safety cap — 20 pages × 20/page = 400 trials max)
 const MAX_PAGES = 20
 
+function passesApiLevelFilters(study: Study, params: SearchParams): boolean {
+  const proto = study.protocolSection
+
+  if (params.statuses.length > 0) {
+    const status = proto.statusModule.overallStatus
+    if (!params.statuses.includes(status)) return false
+  }
+
+  if (params.studyType !== 'any' && proto.designModule.studyType !== params.studyType) {
+    return false
+  }
+
+  if (params.phases.length > 0) {
+    const studyPhases = proto.designModule.phases ?? []
+    const hasPhaseMatch = studyPhases.some((phase) => params.phases.includes(phase as typeof params.phases[number]))
+    if (!hasPhaseMatch) return false
+  }
+
+  if (params.country) {
+    const locations = proto.contactsLocationsModule?.locations ?? []
+    if (!locations.some((loc) => loc.country === params.country)) return false
+  }
+
+  return true
+}
+
 export function useTrialSearch(): UseTrialSearchReturn {
   const [state, setState] = useState<SearchState>(INITIAL_STATE)
 
@@ -42,6 +72,10 @@ export function useTrialSearch(): UseTrialSearchReturn {
 
   const applyFilter = useCallback(
     (study: Study, params: SearchParams): TrialWithMeta | null => {
+      if (!passesApiLevelFilters(study, params)) {
+        return null
+      }
+
       // Continent client-side filter: check if the study has at least one
       // location in the requested continent's country list.
       if (params.continent) {
@@ -64,9 +98,9 @@ export function useTrialSearch(): UseTrialSearchReturn {
    * the global seenIds set, then runs the eligibility filter on each new study.
    */
   const mergeAndFilter = useCallback(
-    (condStudies: Study[], termStudies: Study[], params: SearchParams): TrialWithMeta[] => {
+    (studyGroups: Study[][], params: SearchParams): TrialWithMeta[] => {
       const filtered: TrialWithMeta[] = []
-      for (const study of [...condStudies, ...termStudies]) {
+      for (const study of studyGroups.flat()) {
         const id = study.protocolSection.identificationModule.nctId
         if (seenIdsRef.current.has(id)) continue
         seenIdsRef.current.add(id)
@@ -91,15 +125,21 @@ export function useTrialSearch(): UseTrialSearchReturn {
         let termToken: string | undefined = undefined
 
         // Page 1: fire both queries in parallel
-        const [condData, termData] = await Promise.all([
+        const [condData, termData, supplementalStudies] = await Promise.all([
           fetchCondStudies(params, undefined),
           fetchTermStudies(params, undefined),
+          fetchSupplementalAuditedStudies(),
         ])
         if (searchIdRef.current !== thisSearchId) return
 
         condToken = condData.nextPageToken
         termToken = termData.nextPageToken
-        allFiltered.push(...mergeAndFilter(condData.studies ?? [], termData.studies ?? [], params))
+        allFiltered.push(
+          ...mergeAndFilter(
+            [condData.studies ?? [], termData.studies ?? [], supplementalStudies],
+            params
+          )
+        )
 
         // Remaining pages: keep fetching in parallel until both queries are exhausted
         for (let page = 1; page < MAX_PAGES; page++) {
@@ -121,7 +161,7 @@ export function useTrialSearch(): UseTrialSearchReturn {
             else { termToken = r.value.nextPageToken; termStudies = r.value.studies ?? [] }
           })
 
-          allFiltered.push(...mergeAndFilter(condStudies, termStudies, params))
+          allFiltered.push(...mergeAndFilter([condStudies, termStudies], params))
         }
 
         setState({

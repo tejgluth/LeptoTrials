@@ -1,6 +1,11 @@
 import { mkdir, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
-import { buildCondUrl, buildTermUrl, DEFAULT_SEARCH_PARAMS } from '../src/utils/apiClient'
+import {
+  buildCondUrl,
+  buildTermUrl,
+  DEFAULT_SEARCH_PARAMS,
+  fetchSupplementalAuditedStudies,
+} from '../src/utils/apiClient'
 import { CONTINENT_COUNTRIES } from '../src/constants/countries'
 import { filterByTumorType, filterTrial } from '../src/utils/trialFilter'
 import type {
@@ -18,6 +23,7 @@ const ALL_STATUSES: OverallStatus[] = [
   'RECRUITING',
   'NOT_YET_RECRUITING',
   'ACTIVE_NOT_RECRUITING',
+  'ENROLLING_BY_INVITATION',
   'COMPLETED',
   'TERMINATED',
   'WITHDRAWN',
@@ -33,6 +39,7 @@ const ALL_STATUSES: OverallStatus[] = [
 type AuditRecord = {
   nctId: string
   url: string
+  lastUpdate: string
   status: string
   studyType: string
   phases: string[]
@@ -92,15 +99,17 @@ async function fetchRawSearchResults(params: SearchParams): Promise<Study[]> {
     }
   }
 
-  const [condData, termData] = await Promise.all([
+  const [condData, termData, supplementalStudies] = await Promise.all([
     fetchJson(buildCondUrl(params)),
     fetchJson(buildTermUrl(params)),
+    fetchSupplementalAuditedStudies(),
   ])
 
   condToken = condData.nextPageToken
   termToken = termData.nextPageToken
   addStudies(condData.studies ?? [])
   addStudies(termData.studies ?? [])
+  addStudies(supplementalStudies.filter((study) => passesServerFilters(study, params)))
 
   for (let page = 1; page < MAX_PAGES; page += 1) {
     if (!condToken && !termToken) break
@@ -186,6 +195,7 @@ function toAuditRecord(study: Study): AuditRecord {
   return {
     nctId: identification.nctId,
     url: `https://clinicaltrials.gov/study/${identification.nctId}`,
+    lastUpdate: proto.statusModule?.lastUpdatePostDateStruct?.date ?? '',
     status: proto.statusModule.overallStatus,
     studyType: proto.designModule.studyType,
     phases: proto.designModule.phases ?? [],

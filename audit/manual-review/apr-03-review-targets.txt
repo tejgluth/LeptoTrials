@@ -1,0 +1,479 @@
+ID: NCT02422641
+UPDATED: 2026-03-23
+STATUS: RECRUITING
+TITLE: Prospective Evaluation Of High-Dose Systemic Methotrexate In Patients With Breast Cancer And Leptomeningeal Metastasis
+OFFICIAL: Traditional Incision and Drainage of Cutaneous Abscess Vs. Minimally Invasive Incision and Drainage With Vessel Loop: A Randomized Controlled Trail
+CONDITIONS: Metastatic Breast Cancer | Leptomeningeal Disease
+SUMMARY: This study is a prospective evaluation of systemic, intravenous high-dose methotrexate (HD-MTX, 8 g/m2) in patients with triple negative, HER2-positive, and hormone refractory breast cancer with leptomeningeal metastasis (LMD) with or without brain parenchymal involvement.
+LM_SNIPPETS: discretion of the Study Chair, Study co-chair, or designee in advance for approval. * Cytologic or unequivocal radiographic confirmation of leptomeningeal metastasis by dural puncture and/or neuroimaging with or without known brain metastasis * Adequate organ function as follows: Estimated creatinine clearance \>70 cc/min (calculated by Cockcroft-Gault formula) White blood cell counts \>3000 cells/mcL Absolute neutrophil count \>1500 ce
+---
+
+ID: NCT03025256
+UPDATED: 2026-04-02
+STATUS: RECRUITING
+TITLE: Intravenous and Intrathecal Nivolumab in Treating Patients With Leptomeningeal Disease
+OFFICIAL: Phase I/Ib Study of Concurrent Intravenous and Intrathecal Nivolumab for Melanoma and Lung Cancer Patients With Leptomeningeal Disease (LMD)
+CONDITIONS: Acral Lentiginous Melanoma | Central Nervous System Melanoma | Clinical Stage IV Cutaneous Melanoma AJCC v8 | Leptomeningeal Neoplasm | Melanocytoma | Metastatic Lung Non-Small Cell Carcinoma | Metastatic Melanoma | Metastatic Mucosal Melanoma | Metastatic Uveal Melanoma | Stage IV Lung Cancer AJCC v8
+SUMMARY: This phase I/Ib trial studies the side effects and best dose of intrathecal nivolumab, and how well it works in combination with intravenous nivolumab in treating patients with leptomeningeal disease. Immunotherapy with monoclonal antibodies, such as nivolumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread.
+LM_SNIPPETS: Inclusion Criteria: * Patients must have radiographic and/or CSF cytological evidence of LMD. For patient with melanoma: Must have a confirmed diagnosis of primary central nervous system (CNS) melanoma, melanocytomas or metastatic melanoma (cutaneous, acral-lentiginous, uveal and mucosal in origin), based on histological analysis of metastatic tissue and/or cancer cells, archival tissue
+---
+
+ID: NCT05184816
+UPDATED: 2026-03-27
+STATUS: RECRUITING
+TITLE: A Study of Deferoxamine (DFO) in People With Leptomeningeal Metastasis
+OFFICIAL: A Phase 1a/1b Trial of Intrathecal Deferoxamine for Leptomeningeal Metastases
+CONDITIONS: Leptomeningeal Metastases
+SUMMARY: The researchers are doing this study to find out whether deferoxamine (DFO) given intrathecally (directly into the CSF) is a safe treatment for people with leptomeningeal metastasis from solid tumor cancer. The researchers will test different doses of DFO to find the highest dose that causes few or mild side effects. When the dose is found, they will test it in future participants to see whether DFO is a safe and effective treatment for people with leptomeningeal metastasis from solid tumor mali
+LM_SNIPPETS: ing Investigator. There are no restrictions on the number of recurrences. OR * Persistent: As evidenced by any detectable disease (abnormal leptomeningeal enhancement on contrast-enhanced MRI; positive, suspicious, or atypical cytology; positive CSF CTCs; extrinsic cells on CSF cell count differential; or clinical symptoms attributed to LM) after receiving LM-directed radiation or systemic therapy. This includes patients with stable or 
+---
+
+ID: NCT05746325
+UPDATED: 2026-04-02
+STATUS: RECRUITING
+TITLE: Tumor Treating Fields for the Treatment of Leptomeningeal Metastases of the Spine in Patients With Breast or Lung Cancer
+OFFICIAL: Pilot Feasibility Study of Tumor Treating Fields in Treatment of Leptomeningeal Metastases Involving the Spine
+CONDITIONS: Anatomic Stage IV Breast Cancer AJCC v8 | Metastatic Breast Carcinoma | Metastatic Malignant Neoplasm in the Leptomeninges | Metastatic Lung Carcinoma | Stage IV Lung Cancer AJCC v8
+SUMMARY: This clinical trial evaluates the safety and feasibility of tumor treating fields (TTF) in the treatment of spinal leptomeningeal disease in patients with breast or lung cancer that has spread from where it first started (primary site) to other places in the body (metastatic). Patients wear the portable Novo TTF-200T device that produces electric fields to target areas on the body to stop the growth of tumor cells. The information from this study will help researchers develop a better treatment 
+LM_SNIPPETS: Inclusion Criteria: * Age \>= 18 * Prior tissue diagnosis of breast cancer or lung cancer * Confirmed diagnosis of leptomeningeal metastases (LM) with positive cerebrospinal fluid (CSF) cytology for malignancy and meningeal enhancement (type 1A, 1B, and 1C) * Radiographic evidence on MRI of leptomeningeal enhancement within the cervical, thoracic or lumbar spine on spinal MRI * Life expectancy of at least 6 week || ositive cerebrospinal fluid (CSF) cytology for malignancy and meningeal enhancement (type 1A, 1B, and 1C) * Radiographic evidence on MRI of leptomeningeal enhancement within the cervical, thoracic or lumbar spine on spinal MRI * Life expectancy of at least 6 weeks * Eastern Cooperative Oncology Group (ECOG) performance status of 0, 1, 2, or 3 * Recovery from any neurotoxic effects of prior therapy * Platelet count greater than 25 x 10\^
+---
+
+ID: NCT05805631
+UPDATED: 2026-03-24
+STATUS: RECRUITING
+TITLE: Intrathecal Pemetrexed for Leptomeningeal Metastasis in EGFR-Mutant NSCLC
+OFFICIAL: Efficacy of Intrathecal Pemetrexed Combined With Tyrosine Kinase Inhibitor for Treating Leptomeningeal Metastasis in EGFR-Mutant NSCLC After Failure of Osimertinib
+CONDITIONS: Carcinoma, Non-Small-Cell Lung | Epidermal Growth Factor Receptor | Leptomeningeal Metastasis
+SUMMARY: Leptomeningeal metastasis (LM) is a complication of advanced non-small cell lung cancer (NSCLC). The incidence of LM in NSCLC patients is around 3-5 %, reaching 9.4 % of those with an epidermal growth factor receptor (EGFR) mutation. Generally, the efficacy of systemic treatment for LM is limited due to the blood-brain barrier. Osimertinib has a high central nervous system penetration rate, making it the preferred first-line treatment for EGFR-mutant NSCLC. Previous studies indicated that osimer
+LM_SNIPPETS: none
+---
+
+ID: NCT05809752
+UPDATED: 2026-04-01
+STATUS: RECRUITING
+TITLE: A First in Human Dose Escalation of Dendritic Cell Vaccine (DCV)
+OFFICIAL: A First in Human Dose Escalation of Dendritic Cell Vaccine (DCV) Administered Intrathecally (IT) Primed Against HER2/HER3 in Patients With Leptomeningeal Disease (LMD) From Triple-Negative Breast Cancer (TNBC) or HER2+ Breast Cancer (HER2+BC)
+CONDITIONS: Leptomeningeal Disease | Triple Negative Breast Cancer | HER2-positive Breast Cancer
+SUMMARY: The purpose of this study is to learn about the effects of the study treatment, Dendritic Cell Vaccine (DCV), to find the highest dose of the study treatment that can be given safely to Breast Cancer patients with Leptomeningeal Disease
+LM_SNIPPETS:  HER2+BC per ASCO/CAP guidelines . A tumor can be considered a TNBC if the ER or PR is \<10%. * Trial participants must have a diagnosis of LMD. They must have the presence of malignant cells in the CSF (CSF+; note now cytology is considered diagnostic of LMD if the cytology is read as positive or suspicious; OR characteristic radiographic abnormalities (see below) of LMD). Signs and symptoms of LMD in and of themselves are not sufficie || ust have a diagnosis of LMD. They must have the presence of malignant cells in the CSF (CSF+; note now cytology is considered diagnostic of LMD if the cytology is read as positive or suspicious; OR characteristic radiographic abnormalities (see below) of LMD). Signs and symptoms of LMD in and of themselves are not sufficient for inclusion. * Patients must have an Eastern Cooperative Oncology Group performance scale of ≤ 3. * Coincident  || considered diagnostic of LMD if the cytology is read as positive or suspicious; OR characteristic radiographic abnormalities (see below) of LMD). Signs and symptoms of LMD in and of themselves are not sufficient for inclusion. * Patients must have an Eastern Cooperative Oncology Group performance scale of ≤ 3. * Coincident Brain or Spinal cord metastases are allowed if these are stable and do not require local therapy at the time of enr
+---
+
+ID: NCT06500481
+UPDATED: 2026-04-03
+STATUS: RECRUITING
+TITLE: Testing Proton Craniospinal Radiation Therapy Versus the Usual Radiation Therapy for Leptomeningeal Metastasis, RADIATE-LM Trial
+OFFICIAL: A Phase III Randomized Clinical Trial of Proton Craniospinal Irradiation Versus Involved-Field Radiotherapy for Patients With Breast Cancer or Non-Small Cell Lung Cancer Leptomeningeal Metastasis (Radiate-LM)
+CONDITIONS: Anatomic Stage IV Breast Cancer AJCC v8 | Metastatic Breast Carcinoma | Metastatic Lung Non-Small Cell Carcinoma | Metastatic Malignant Neoplasm in the Leptomeninges | Stage IV Lung Cancer AJCC v8
+SUMMARY: This phase III trial compares proton craniospinal irradiation (pCSI) to involved-field radiation therapy (IFRT) for the treatment of breast or non-small cell lung cancer that has spread from where it first started to the cerebrospinal fluid filled space that surrounds the brain and spinal cord (leptomeningeal metastasis). Patients with leptomeningeal metastasis (LM) may develop multiple areas of nervous system (neurologic) impairment that can be life-threatening. Radiation therapy (RT) effective
+LM_SNIPPETS: ients with pathologically (histologically or cytologically) proven diagnosis of breast cancer or NSCLC * Patients must have newly diagnosed leptomeningeal metastasis established through at least one of the following: * Positive CSF cytology for malignancy * CSF cytology with suspicious cells is considered positive; CSF cytology with atypical cells is considered equivocal and not positive * Patients with an equivocal or negative CSF cyto ||  and not positive * Patients with an equivocal or negative CSF cytology result, or not suitable for CSF sampling, radiographic diagnosis of leptomeningeal metastasis with linear and/or nodular disease and documentation of typical clinical signs (European Association of Neuro-Oncology \[EANO\]-European Society for Medical Oncology \[ESMO\] Diagnostic Criteria Type IIA-IIC) is required * Patients with typical clinical signs of leptomening || NO\]-European Society for Medical Oncology \[ESMO\] Diagnostic Criteria Type IIA-IIC) is required * Patients with typical clinical signs of leptomeningeal metastasis may have one or more of the following symptoms and signs: headache, nausea, vomiting, mental status change, gait difficulty, cranial nerve palsy, diplopia, visual change, hearing loss, radicular weakness, radicular sensory change, urinary retention, saddle anesthesia, const
+---
+
+ID: NCT06812871
+UPDATED: 2026-04-02
+STATUS: COMPLETED
+TITLE: High-dose Furmonertinib Combined With Bevacizumab and Intrathecal Pemetrexed Chemotherapy in Patients With EGFR-mutated Non-small Cell Lung Cancer and Meningeal Metastasis
+OFFICIAL: A Single-arm, Multicenter, Phase 2 Study of High-dose Furmonertinib Combined With Bevacizumab and Intrathecal Pemetrexed Chemotherapy in Patients With EGFR-mutated Non-small Cell Lung Cancer and Meningeal Metastasis
+CONDITIONS: Non-small Cell Lung Cancer Metastatic
+SUMMARY: the study conducted to evaluate the efficacy and safety of high-dose furmonertinib (160 mg qd) combined with bevacizumab and pemetrexed intrathecal chemotherapy in NSCLC patients with EGFR mutations and meningeal metastases.
+LM_SNIPPETS: drenal corticosteroids must be kept stable or reponse for at least 1 week before the first trial of the drug preparation; * Newly diagnosed meningeal metastasis, including meningeal metastasis after previous brain surgery and/or local radiotherapy for solid metastatic disease; * Patients did not received systemic treatment after diagnosed meningeal metastases. * Obtain informed consent signed by the patient's legal representative; * Age || ept stable or reponse for at least 1 week before the first trial of the drug preparation; * Newly diagnosed meningeal metastasis, including meningeal metastasis after previous brain surgery and/or local radiotherapy for solid metastatic disease; * Patients did not received systemic treatment after diagnosed meningeal metastases. * Obtain informed consent signed by the patient's legal representative; * Aged ≥18 years and ≤75 years; * Eas || evious brain surgery and/or local radiotherapy for solid metastatic disease; * Patients did not received systemic treatment after diagnosed meningeal metastases. * Obtain informed consent signed by the patient's legal representative; * Aged ≥18 years and ≤75 years; * Eastern Tourism Cooperation Group (ECOG) Physical condition evaluation 0-1; * Life expectancy ≥12 week; * Able to follow the requirements of the study protocol and confirma
+---
+
+ID: NCT06984523
+UPDATED: 2026-03-31
+STATUS: ACTIVE_NOT_RECRUITING
+TITLE: Study of Craniospinal Irradiation With Linac Based Volumetric Modulated Arc Therapy (VMAT) for Patients With Leptomeningeal Metastasis
+OFFICIAL: A Phase II Single-Arm Study of Craniospinal Irradiation With Linac Based Volumetric Modulated Arc Therapy (VMAT) for Patients With Leptomeningeal Metastasis
+CONDITIONS: Leptomeningeal Metastasis
+SUMMARY: The purpose of this study is to confirm the safety and efficacy of linac based Volumetric Modulated Arc Therapy (VMAT) for craniospinal irradiation (CSI) in solid tumor cancer patients with leptomeningeal metastasis. The primary aim is to determine if linac based VMAT CSI for leptomeningeal metastasis improves central nervous system (CNS) progression free survival (PFS) compared to the historical standard control CNS PFS in patients treated with Involved Field Radiation Therapy (IFRT).
+LM_SNIPPETS: Inclusion Criteria: 1. Solid tumor cancer primary with leptomeningeal metastases established radiographically and/or by CSF cytology 2. Candidate for radiation therapy for the treatment of leptomeningeal metastases 3. If patient had prior radiation, a treatment plan can be generated that will not exceed normal tissue tolerances 4. Patient must have reas ||  with leptomeningeal metastases established radiographically and/or by CSF cytology 2. Candidate for radiation therapy for the treatment of leptomeningeal metastases 3. If patient had prior radiation, a treatment plan can be generated that will not exceed normal tissue tolerances 4. Patient must have reasonable systemic treatment options, as confirmed by their medical oncologist 5. Age ≥ 18 years old 6. Able to provide informed consent 
+---
+
+ID: NCT07348965
+UPDATED: 2026-04-02
+STATUS: RECRUITING
+TITLE: Pulsatile High-dose Furmonertinib in EGFR-mutant NSCLC With Leptomeningeal Metastasis
+OFFICIAL: Pulsatile High-dose Furmonertinib in EGFR-mutant NSCLC With Leptomeningeal Metastasis
+CONDITIONS: NSCLC (Advanced Non-small Cell Lung Cancer) | Leptomeningeal Metastasis | Furmonertinib | EGFR Activating Mutation
+SUMMARY: The goal of this clinical trial is to clarify the efficacy and safety of the high-dose alternate-day furmonertinib in NSCLC with leptomeningeal metastasis. It will also explore the mechanism by which the high-dose alternate-day administration regimen enhances efficacy from a pharmacokinetic perspective, and investigate the impact of co-occurring mutations on the efficacy and prognosis of furmonertinib in the treatment of EGFR-mutant NSCLC with leptomeningeal metastasis. The main questions it aim
+LM_SNIPPETS: rmed by histopathological or cytopathological examination 2. Patients with EGFR exon 19 deletion or exon 21 L858R mutation 3. Patients with leptomeningeal metastasis (LMD) confirmed by positive cerebrospinal fluid (CSF) cytology (within 28 days prior to the first dose administration) and with at least 1 LMD lesion that can be repeatedly evaluated by magnetic resonance imaging (MRI) 4. Patients with disease progression after first-line t || r cytopathological examination 2. Patients with EGFR exon 19 deletion or exon 21 L858R mutation 3. Patients with leptomeningeal metastasis (LMD) confirmed by positive cerebrospinal fluid (CSF) cytology (within 28 days prior to the first dose administration) and with at least 1 LMD lesion that can be repeatedly evaluated by magnetic resonance imaging (MRI) 4. Patients with disease progression after first-line tyrosine kinase inhibitor (T ||  (LMD) confirmed by positive cerebrospinal fluid (CSF) cytology (within 28 days prior to the first dose administration) and with at least 1 LMD lesion that can be repeatedly evaluated by magnetic resonance imaging (MRI) 4. Patients with disease progression after first-line tyrosine kinase inhibitor (TKI) treatment 5. Aged ≥18 years and ≤85 years, with no gender restrictions. 6. Sufficient organ function, defined as: absolute neutrophil 
+---
+
+ID: NCT00013533
+UPDATED: 2019-12-16
+STATUS: COMPLETED
+TITLE: Pilot Study of Non-Myeloablative, HLA-Matched Allogeneic Stem Cell Transplantation for Pediatric Hematopoietic Malignancies
+OFFICIAL: Pilot Study of Non-Myeloablative, HLA-Matched Allogeneic Stem Cell Transplantation for Pediatric Hematopoietic Malignancies
+CONDITIONS: Hodgkin Lymphoma | Lymphocytic Leukemia | Mixed Cell Leukemia | Myelodysplastic Syndrome | Non Hodgkin's Lymphoma | CML | ALL | AML | Lymphoma
+SUMMARY: Background: * Allogeneic blood and marrow stem cell transplantation (BMT) plays an important role in the curative treatment of a number of pediatric malignancies. Unfortunately, the success of conventional allogeneic BMT is limited in part by the multiple toxicities associated with myeloablative preparative regimens. * Non-myeloablative pre-transplant regimens are associated with less toxic side effects than standard BMT. Recently, a novel immunosuppressive, non-myeloablative pre-transplant chem
+LM_SNIPPETS: ients greater than 18 years of age only). Patients must not have an active CNS malignancy as defined by: lymphoma (tumor mass on CT scan or leptomeningeal disease), Leukemia (CNS 2 or CNS 3 classification), or NB (History of CNS involvement with no current evidence of CNS malignancy is NOT an exclusion). Patients must not be HIV positive. Patients must not have active hepatitis B or C infection as defined by seropositive for hepatitis B || nt of Transfusion Medicine standards. EXLCUSION CRITERIA PATIENT: Active CNS malignancy as defined by: * Lymphoma: tumor mass on CT scan or leptomeningeal disease * Leukemia: CNS 2 or CNS 3 classification * NB: History of CNS involvement with no current evidence of CNS malignancy is NOT an exclusion. HIV positive. Active hepatitis B or C infection as defined by seropositive for hepatitis B (HbsAg) or hepatitis C and elevated liver trans
+---
+
+ID: NCT00029523
+UPDATED: 2007-02-28
+STATUS: COMPLETED
+TITLE: DepoCyt Therapy in Patients With Neoplastic Meningitis From Lymphoma or a Solid Tumor
+OFFICIAL: A Randomized Clinical Study to Determine the Patient Benefit and Safety of Depocyt (Cytarabine Liposome Injection) for the Treatment of Neoplastic Meningitis
+CONDITIONS: Meningeal Neoplasms
+SUMMARY: The purpose of this study is to find out how well an experimental drug called DepoCyt works for neoplastic meningitis (cancer that has spread to the tissues around the brain and spinal cord). DepoCyt is a new slow-release form of the cancer drug called ara-C (cytarabine). Cytarabine has been used for many years to treat cancer.
+LM_SNIPPETS: * Diagnosed (or previously diagnosed) with lymphoma or a solid tumor (not leukemia) * Diagnosed with neoplastic meningitis * If female, not pregnant and will not become pregnant while on-study * No other experimental therapy within 21 days of participation
+---
+
+ID: NCT00074607
+UPDATED: 2012-11-12
+STATUS: TERMINATED
+TITLE: Intrathecal Gemcitabine to Treat Neoplastic Meningitis, IT Gemcitabine
+OFFICIAL: Intrathecal Gemcitabine Therapy for Neoplastic Meningitis: A Phase I and Pharmacokinetic Study
+CONDITIONS: Meningitis | Neoplasms
+SUMMARY: Subject's are being asked to take part in this study because he or she has a type of cancer that has spread to the meninges (tissues that cover the brain and spinal cord). There is no known effective treatment for this specific disease or the subject has received all of the treatments that are known to work for his or her specific disease without success. Currently, there is no other effective treatment for this type of cancer. The purposes of this study are: * to determine the highest dose of g
+LM_SNIPPETS: Inclusion Criteria: * at least 3 years of age. * Neoplastic meningitis secondary to an underlying leukemia/lymphoma or a solid tumor (including primary CNS tumors or carcinomas of unknown primary site) for which there is no conventional therapy. Patients with CNS leukemia/lymphoma must be refractory to conventional therapy, including XRT (i.e. 2nd || ional therapy. Patients with CNS leukemia/lymphoma must be refractory to conventional therapy, including XRT (i.e. 2nd or greater relapse). Neoplastic meningitis is defined as follows: * Leukemia/Lymphoma: CSF cell count \> 5 uL AND evidence of blast cells on cytospin preparation or by cytology. * Solid tumor: Presence of tumor cells on cytospin preparation or cytology OR presence of meningeal disease on MRI scans. * Life expectancy of  || uch as an Ommaya reservoir. Exclusion Criteria: * Patients receiving other therapy (either intrathecal or systemic) designed to treat their leptomeningeal disease. However, patients receiving concomitant chemotherapy to control systemic disease or bulk CNS disease will be eligible, provided that the systemic chemotherapy is not a phase I agent, an agent that significantly penetrates the CSF, or an agent known to have serious unpredictab
+---
+
+ID: NCT00372515
+UPDATED: 2018-01-31
+STATUS: COMPLETED
+TITLE: High Dose Gefitinib for the Treatment of Carcinomatous Meningitis in Adult Patients With Non-Small Cell Lung Cancer and Known or Suspected EGFR Mutations
+OFFICIAL: Phase I Study of High Dose Gefitinib (Iressa) for the Treatment of Carcinomatous Meningitis in Adult Patients With Non-Small Cell Lung Cancer and Known or Suspected EGFR Mutations
+CONDITIONS: Non-Small Cell Lung Cancer
+SUMMARY: The primary purposes of this study are to find out if using high doses of the drug Gefitinib (Iressa) as a way to treat patients with non-small cell lung cancer that has spread to the covering of the brain and/or spinal cord (meninges) results in any bad side effects; and to determine the highest dose that can be given to patients in this setting.
+LM_SNIPPETS: e inhibitor, erlotinib, or gefitinib; known somatic mutation of the EGFR tyrosine kinase * Recurrent or persistent disease as manifested by carcinomatous meningitis * ECOG PS 0-3 * Age 18 years or older * Greater than 2 weeks since prior radiation therapy * Greater than 3 weeks since prior major surgery * Adequate hematologic, renal, and/or hepatic function * Coagulation parameters: international normalized ratio(INR)less than or equal 
+---
+
+ID: NCT00477503
+UPDATED: 2012-08-01
+STATUS: TERMINATED
+TITLE: Nuclear Imaging of Human CSF Flow Using Ga-67 Citrate and In-111 DTPA
+OFFICIAL: Phase 1 Study Nuclear Imaging of Human CSF Flow Using Ga-67 Citrate and In-111 DTPA
+CONDITIONS: Central Nervous System Tumors | Brain Tumors
+SUMMARY: * Primary Objective will be to evaluate the use of Ga-67 citrate as an alternative radiopharmaceutical for CSF imaging. * Secondary Objective will be to evaluate the biodistribution, pharmacokinetics and radiation dosimetry of In 111 DTPA and gallium-67 after intrathecal injection during remission of leptomeningeal metastasis (LM) and during LM occurrence, remission and recurrence.
+LM_SNIPPETS: none
+---
+
+ID: NCT00515788
+UPDATED: 2012-03-12
+STATUS: TERMINATED
+TITLE: DepoCyt Plus Temozolomide in Patients With Neoplastic Meningitis
+OFFICIAL: Phase I Study of Temozolomide and Intrathecal DepoCyt in Patients With Neoplastic Meningitis
+CONDITIONS: Neoplastic Meningitis
+SUMMARY: Objectives: \- To determine the safety, tolerability and maximum tolerated dose (MTD) of oral temozolomide using a 7 days on and 7 days off regimen combined with intrathecal liposomal cytarabine (DepoCyt) in patients with neoplastic meningitis from solid tumors and systemic lymphoma.
+LM_SNIPPETS: ologic diagnosis of systemic malignancy. Patients must have the presence of malignant cells in CSF (+CSF) or clinical signs and symptoms of leptomeningeal disease and radiographic abnormalities without malignant cells identified in the CSF (-CSF). Clinical signs/symptoms include cerebral hemispheric, cranial nerve, and/or spinal cord/root dysfunction. 3. Patients must have Karnofsky performance status of \>/=60%. Patients who are unable || erapy, before entering the study and must be without significant systemic illness. Patients must not have received any systemic therapy for Leptomeningeal disease (LMD) within 3 wks (6 wks if a nitrosourea), intrathecal chemotherapy within 1 wk, or irradiation within 8 wks prior to treatment on this study. Patients previously receiving craniospinal irradiation must have positive cytology or progression of meningeal disease on MRI scan.  || he study and must be without significant systemic illness. Patients must not have received any systemic therapy for Leptomeningeal disease (LMD) within 3 wks (6 wks if a nitrosourea), intrathecal chemotherapy within 1 wk, or irradiation within 8 wks prior to treatment on this study. Patients previously receiving craniospinal irradiation must have positive cytology or progression of meningeal disease on MRI scan. Patients must not have r
+---
+
+ID: NCT00523939
+UPDATED: 2013-06-17
+STATUS: TERMINATED
+TITLE: DepoCyt for Active Lymphomatous or Leukemic Meningitis
+OFFICIAL: Phase II Study of Intrathecal Therapy With DepoCyt for Active Lymphomatous or Leukemic Meningitis
+CONDITIONS: Neoplastic Meningitis | Lymphoma, B Cell
+SUMMARY: The purpose of this study is to determine the response rate of lymphomatous meningitis or leukemic meningitis to DepoCyt. The safety of DepoCyt, the number of people who respond well to the study drug, and the response of symptoms to the study drug will also be determined.
+LM_SNIPPETS: lymphomatous or leukemic meningitis. If the CSF cytology is negative, patients must have MRI/CT brain and clinical findings consistent with neoplastic meningitis. * Karnofsky Performance Score of 60 or above. * Age ≥ 18 years. * Patients must have adequate hematologic, renal and liver function. Laboratory * Absolute neutrophil count (ANC) ≥ 1,500/mm3 or white blood cell count \> 3,000/mm3 * Platelet count ≥ 100, 000/mm3 * BUN and serum 
+---
+
+ID: NCT00674674
+UPDATED: 2012-05-15
+STATUS: COMPLETED
+TITLE: Phase 1 Intrathecal Topotecan for Neoplastic Meningitis
+OFFICIAL: A Phase I Pharmacokinetic Optimal Dosing Study of Intrathecal Topotecan for Children With Neoplastic Meningitis
+CONDITIONS: Neoplastic Meningitis
+SUMMARY: 1. To find the optimal dose of topotecan that can safely be given directly into the spinal fluid (called intrathecal administration) of children whose cancer has spread to the lining of the brain and/or spinal cord. 2. To find out what effects (good and bad) topotecan has when given directly into the cerebrospinal fluid in children with neoplastic meningitis (cancer that has spread to the lining of the brain and spinal cord). * Cerebrospinal fluid is the fluid that circulates around the brain an
+LM_SNIPPETS:  must be greater than or equal to 3 years and less than or equal to 21 years of age at study registration. 2. Diagnosis: Patients must have neoplastic meningitis secondary to an underlying leukemia/lymphoma or a solid tumor (including primary CNS tumors or carcinomas of unknown primary site) for which there is no conventional therapy. Patients with CNS leukemia/lymphoma must be refractory to conventional therapy, including XRT (i.e., 2n || onal therapy. Patients with CNS leukemia/lymphoma must be refractory to conventional therapy, including XRT (i.e., 2nd or greater relapse). Neoplastic meningitis is defined as follows: (a)Leukemia/Lymphoma: CSF cell count over 5/µL AND evidence of blast cells on cytospin preparation or by cytology or (b) Solid tumor: Presence of tumor cells on cytospin preparation or cytology OR the unequivocal presence of meningeal disease on MRI scans || ness 5.1 Chemo: 1. Patients must have received their last dose of systemically administered therapy specifically for the treatment of their leptomeningeal disease (must be discussed with study chair) at least three (3) weeks prior to study registration. 2. Patients must have received their last dose of intrathecal therapy at least one (1) week (2 weeks if intrathecal DepoCyt) prior to study registration. 5.2 XRT: Patients must have had 
+---
+
+ID: NCT00924820
+UPDATED: 2020-12-31
+STATUS: COMPLETED
+TITLE: A Pilot Study of Bevacizumab for Neoplastic Meningitis
+OFFICIAL: A Pilot Study of Systemically Administered Bevacizumab in Patients With Neoplastic Meningitis (NM)
+CONDITIONS: Neoplastic Meningitis
+SUMMARY: The goal of this clinical research study is to learn if and how Avastin (bevacizumab) may affect cancer that has spread to the meninges of the brain or the spinal cord. The safety of this drug will also be studied. Objectives: 1\. Primary: 1\. Determine preliminary response data of intravenous bevacizumab in patients with NM a. As measured by clearance of malignant cells from the Cerebrospinal fluid (CSF) at 2, 4, 6, 12, 18, and 24 weeks, then every 8 weeks up to 54 weeks, and b. Time to neurolo
+LM_SNIPPETS: none
+---
+
+ID: NCT00938756
+UPDATED: 2010-04-07
+STATUS: UNKNOWN
+TITLE: Study of Cerebrospinal Fluid Samples in Diagnosing Carcinomatous Meningitis in Patients With Cancer or Meningeal Syndrome
+OFFICIAL: Interest of the Dosage of CA 15-3 in CSF for Diagnosing Carcinomatous Meningitis in Breast Cancer
+CONDITIONS: Brain and Central Nervous System Tumors | Breast Cancer | Metastatic Cancer
+SUMMARY: RATIONALE: Studying samples of cerebrospinal fluid from patients with cancer or meningeal syndrome may help doctors identify biomarkers related to cancer. PURPOSE: This clinical trial is studying cerebrospinal fluid samples in diagnosing carcinomatous meningitis in patients with cancer or meningeal syndrome.
+LM_SNIPPETS: DISEASE CHARACTERISTICS: * Meets 1 of the following criteria: * Diagnosis of metastatic breast cancer with evidence suggestive of carcinomatous meningitis, with or without brain metastasis * Other type of cancer with evidence suggestive of carcinomatous meningitis * Meningeal syndrome without context of cancer PATIENT CHARACTERISTICS: * No other prior cancers * Not pregnant or nursing PRIOR CONCURRENT THERAPY: * No prior intra || r with evidence suggestive of carcinomatous meningitis, with or without brain metastasis * Other type of cancer with evidence suggestive of carcinomatous meningitis * Meningeal syndrome without context of cancer PATIENT CHARACTERISTICS: * No other prior cancers * Not pregnant or nursing PRIOR CONCURRENT THERAPY: * No prior intrathecal treatment * At least 4 weeks since prior interferon * No concurrent participation in another clinical t
+---
+
+ID: NCT00964743
+UPDATED: 2013-09-09
+STATUS: TERMINATED
+TITLE: Depocyt® With Sorafenib in Neoplastic Meningitis
+OFFICIAL: A Single Arm Pilot Study of Intrathecally Administered DepoCyt® With Systemic Sorafenib in the Treatment of Neoplastic Meningitis From Solid Tumors
+CONDITIONS: Neoplastic Meningitis
+SUMMARY: The purpose of this study is to determine the tolerability and side effects of oral sorafenib in combination with intrathecal DepoCyt.
+LM_SNIPPETS: Inclusion Criteria: * Patients must have neoplastic meningitis (NM) from solid tumor malignancy (excluding metastatic melanoma, leukemia, lymphoma, or primary malignant glioma) diagnosed by: Positive cerebrospinal fluid (CSF) cytology - or - Definitive neurologic signs/symptoms of NM with positive magnetic resonance imaging (MRI) findings  || o sign a written informed consent. A signed informed consent must be obtained prior to any study specific procedures. Exclusion Criteria: * Neoplastic meningitis (NM) from metastatic melanoma, leukemia, lymphoma, or primary malignant glioma * Uncontrolled systemic disease from their primary cancer * Must not have had prior intrathecal chemotherapy, sorafenib, or brain or spine radiation for the treatment of neoplastic meningitis. * Conc || e from their primary cancer * Must not have had prior intrathecal chemotherapy, sorafenib, or brain or spine radiation for the treatment of neoplastic meningitis. * Concomitant therapy with high-dose systemic methotrexate, cytarabine, thiotepa, or an agent known to have penetration into the central nervous system (CNS) * Patients with clinical evidence of obstructive hydrocephalus or compartmentalization of CSF flow as documented by rad
+---
+
+ID: NCT01373710
+UPDATED: 2025-11-24
+STATUS: COMPLETED
+TITLE: Intrathecal Trastuzumab Administration in Metastatic Breast Cancer Patients Developing Carcinomatous Meningitis
+OFFICIAL: Phase 1-2 Study of Safety and Efficacy of Intrathecal Trastuzumab Administration in Metastatic HER2 Positive Breast Cancer Patients Developing Carcinomatous Meningitis
+CONDITIONS: Metastatic Breast Cancer | Carcinomatous Meningitis
+SUMMARY: The purpose of this study is: Phase I: To determine the Trastuzumab maximum tolerated dose (MTD) when weekly administrated by intrathecal or intraventricular route to reach a intra CSF target concentration (30 µg/mL) near the conventional therapeutic concentration and depending on the dose-limiting toxicity (DLT) Phase II: Determination of antitumor activity trastuzumab when administrated by IT or intra-ventricular in terms of neurological progression-free survival at 2 months
+LM_SNIPPETS: ic Infiltrating adenocarcinoma of the breast * HER2 Overexpression by IHC and / or amplification (FISH and or ICHS) * Positive diagnosis of neoplastic meningitis: positive CSF cytology (obtained within 28 days before inclusion) AND / OR clinical symptoms of neoplastic meningitis and aspect of tumoral meningitis on MRI * Brain metastases are allowed without prior treatment, if they are asymptomatics and without engagement. In cases of sy || Positive diagnosis of neoplastic meningitis: positive CSF cytology (obtained within 28 days before inclusion) AND / OR clinical symptoms of neoplastic meningitis and aspect of tumoral meningitis on MRI * Brain metastases are allowed without prior treatment, if they are asymptomatics and without engagement. In cases of symptomatic brain metastases, subjects could be included only if surgery and / or radiotherapy (stereotactic or in toto)
+---
+
+ID: NCT01584596
+UPDATED: 2016-02-05
+STATUS: COMPLETED
+TITLE: Steps Ahead, Adapting Physical Activity Guidelines for the Lower Mississippi Delta Population
+OFFICIAL: Steps Ahead, Adapting Physical Activity Guidelines for the Lower Mississippi Delta Population
+CONDITIONS: Obesity
+SUMMARY: The Lower Mississippi Delta (LMD) population is characterized by high levels of overweight and obesity, which are the result of long-term disruptions in energy imbalance where dietary energy intake has exceeded energy expenditure associated with physical activity. To address this issue, the overall goal of this project is to determine ways in which the U.S. Department of Health and Human Services and U.S. Department of Agriculture Dietary Guidelines for Americans (2005) physical activity recomme
+LM_SNIPPETS: none
+---
+
+ID: NCT01857752
+UPDATED: 2017-01-30
+STATUS: TERMINATED
+TITLE: Phase II Study Temozolomide for Retinoblastoma Metastatic to the Central Nervous System for Patients From Guatemala
+OFFICIAL: Phase II Study Temozolomide for Retinoblastoma Metastatic to the Central Nervous System for Patients From Guatemala
+CONDITIONS: Retinoblastoma
+SUMMARY: Primary Objectives: 1. To investigate the response rate (complete response plus partial response) of temozolomide for 8 weeks (2 cycles), in patients with retinoblastoma metastatic to the central nervous system (mass only) in two strata: * A. Initial diagnosis (mass) * B. At relapse (mass) 2. To determine hematologic toxicity: absolute neutrophil count (ANC), platelets and hemoglobin count. Secondary Objectives: 1. To determine the response in other metastatic sites (non target) (orbit, bone mar
+LM_SNIPPETS: none
+---
+
+ID: NCT02186730
+UPDATED: 2020-02-21
+STATUS: COMPLETED
+TITLE: Computerised Intervention/Treatment for Adolescent Depression and Low Mood:
+OFFICIAL: Computerised Intervention/Treatment for Adolescent Depression and Low Mood: Feasibility Phase 2
+CONDITIONS: Depression
+SUMMARY: This study forms the second phase of previous work to examine the effectiveness of computerised Cognitive Behaviour Therapy (cCBT) to treat adolescents with low mood/depression. Depression affects around 2% of adolescents. Antidepressants are not recommended for this age range as a first line treatment because of concerns about their usefulness and side effects. Government guidelines have supported using Cognitive Behaviour Therapy (CBT), which is effective and one of the main treatments recomme
+LM_SNIPPETS: none
+---
+
+ID: NCT02410993
+UPDATED: 2018-07-17
+STATUS: UNKNOWN
+TITLE: Current Treatment Strategy of Patients With Multivessel Disease or Left Main Coronary Artery Disease Indicated for Coronary Artery Bypass Graft Surgery
+OFFICIAL: 
+CONDITIONS: Coronary Artery Disease
+SUMMARY: According to 2011 ACCF/AHA guideline and 2014 ESC/EACTS guideline, CABG surgery was recommended for three-vessel coronary artery disease and left main coronary artery disease in the patients with stable ischemic heart disease as class I. 2-VD with proximal left anterior descending artery stenosis was also indicated for CABG surgery as class I recommendation. However, many patients have been recommended for PCI by catheterization laboratory cardiologist; 46% and 93% in the only-CABG candidates an
+LM_SNIPPETS: none
+---
+
+ID: NCT02594995
+UPDATED: 2020-03-31
+STATUS: COMPLETED
+TITLE: The Impact of NBP on the Collateral Circulation in ICA/M1 Occlusion
+OFFICIAL: The Impact of NBP on the Collateral Circulation in Acute Acute Internal Carotid Artery(ICA)/Middle Cerebral Artery(M1) Occlusion
+CONDITIONS: Cerebrovascular Occlusion | Collateral Blood Circulation | Anterior Cerebral Circulation Infarction
+SUMMARY: Stroke is the first leading cause of death in China, and is responsible for almost 22.4% of deaths. In approximately 80% of cases stroke is ischaemic, i.e. caused by disruption of blood flow to part of the brain from an acute arterial occlusion. Survival of penumbral tissue distal to an arterial occlusion depends on collateral circulation via the Circle of Willis and leptomeningeal anastomises. Collateral flow is dynamic and failure is associated with infarct growth. The presence of adequate col
+LM_SNIPPETS: none
+---
+
+ID: NCT02644044
+UPDATED: 2015-12-31
+STATUS: UNKNOWN
+TITLE: Intrathecal Methotrexate for Progressive Multiple Sclerosis: An Open Label Single Arm Study
+OFFICIAL: Intrathecal Methotrexate for Progressive Multiple Sclerosis: An Open Label Single Arm Study
+CONDITIONS: To Evaluate the Effect of Therapy With IT MTX on the Disease Course of Patients With Progressive MS
+SUMMARY: Multiple sclerosis (MS) is characterized pathologically by demyelination, axonal loss, and glial scar formation. Clinically, most patients have a relapsing-remitting course of MS (RRMS) that over time may become progressive without remissions - a secondary progressive MS (SPMS). About 15% of patients have a progressive course from onset which is called primary progressive (PP). Currently, there is no approved treatment for PPMS and for SPMS only therapy with mitoxantrone showed mild effect. Thus
+LM_SNIPPETS: none
+---
+
+ID: NCT03497767
+UPDATED: 2024-05-31
+STATUS: COMPLETED
+TITLE: A Randomised Phase II Trial of Osimertinib With or Without SRS for EGFR Mutated NSCLC With Brain Metastases
+OFFICIAL: A Randomised Phase II Trial of Osimertinib With or Without Stereotactic Radiosurgery for EGFR Mutated Non-Small Cell Lung Cancer (NSCLC) With Brain Metastases
+CONDITIONS: Metastatic Non Small Cell Lung Cancer
+SUMMARY: 20-40% of patients with NSCLC will develop brain metastases at some point during their course of disease. Osimertinib has demonstrated intracranial activity in EFGR mutated NSCLC with leptomeningeal disease in the phase 1 BLOOM study. Stereotactic radiosurgery (SRS) is one of the standard local treatment for patients with limited number of brain metastases. Currently, it is unclear whether adding SRS to Osimertinib will result in superior intracranial disease control in patients with EGFR mutate
+LM_SNIPPETS: h the exception of alopecia grade 2) at the time of starting study treatment. 3. Spinal cord compression unless asymptomatic and stable. 4. Leptomeningeal disease. 5. Moderate or severe symptomatic brain metastases defined as per Radiation Therapy Oncology Group acute morbidity grade 3 to 4. NOTE: * Grade 3 refers to neurological findings requiring hospitalisation for initial management. * Grade 4 refers to serious neurological impairme
+---
+
+ID: NCT03866824
+UPDATED: 2025-06-29
+STATUS: COMPLETED
+TITLE: MENIPREP Study: Evauation of the Effectiveness of Prp Injection in the Management of Degenerative Meniscal Lesions : Randomized Controlled Trial Double Blind Versus Reference Treatment"
+OFFICIAL: MENIPREP Study: Evauation of the Effectiveness of Prp Injection in the Management of Degenerative Meniscal Lesions : Randomized Controlled Trial Double Blind Versus Reference Treatment"
+CONDITIONS: DEGENERATIVE MENISCAL LESIONS
+SUMMARY: Meniscal tissue has very limited intrinsic properties in terms of repair, given the low mitotic activity of chondrocytes and poor vascularization. Nevertheless, its capacity for regeneration, in vivo and in vitro, can be stimulated by the contribution of growth factors, as has been widely described in the medical and scientific literature. Platelet Enhanced Plasma (PRP) is an autologous biological product (that is, derived from the patient's blood) containing a growth factor concentrate. The con
+LM_SNIPPETS: none
+---
+
+ID: NCT04091412
+UPDATED: 2019-09-16
+STATUS: UNKNOWN
+TITLE: Study of Collateral Circulation in Patients With Symptomatic Intracranial Anterior Circulation Occlusion
+OFFICIAL: Study of Collateral Circulation and Related Gene Polymorphism in Patients With Symptomatic Intracranial Anterior Circulation Aortic Occlusion
+CONDITIONS: Collateral Circulation | Large-artery Occlusion | Cerebral Infarction
+SUMMARY: Intracranial artery stenosis is the leading cause of stroke onset or recurrence in Asian. Multiple studies have shown that anterior circulation is most common in intracranial artery stenosis, especially the middle cerebral artery in patients with symptomatic or asymptomatic ischemic stroke. Based on the clinical experiences, we found that the cerebral collateral development can affect clinical symptoms seriously in patients with large artery stenosis. Compensated blood flow can reach the ischemi
+LM_SNIPPETS: none
+---
+
+ID: NCT04460729
+UPDATED: 2020-12-03
+STATUS: WITHDRAWN
+TITLE: A Phase II, Open-Label, Multicenter Study of Capmatinib in Subjects With MET Exon 14 Skipping Mutation Positive, Advanced, NSCLC With Brain Metastases
+OFFICIAL: A Phase II, Open-Label, Multicenter Study of Capmatinib in Subjects With MET Exon 14 Skipping Mutation Positive, Advanced, Non Small-Cell Lung Cancer That Has Metastasized to the Brain
+CONDITIONS: Non-small Cell Lung Carcinoma (NSCLC)
+SUMMARY: The purpose of this study is to establish the intracranial efficacy of single agent capmatinib in the population of treatment-naïve or pretreated with one or two prior lines of systemic therapies for advanced stage Non Small-Cell Lung Cancer (NSCLC) with MET exon 14 mutation that has metastasized to the brain. Cohort 1 (asymptomatic brain metastases (BM) without prior brain therapy) has been selected to identify patients who are most likely to benefit from capmatinib therapy in this setting and 
+LM_SNIPPETS: e or up to two prior lines of systemic therapy for stage IIIb-IV NSCLC * Measurable intracranial lesions: 1. Cohort 1 and Cohort 2 (without leptomeningeal carcinoma): At least 1 measurable intracranial lesion per RANO-BM criteria, documented by a radiologist/neuroradiologist (treated or untreated). 2. Cohort 2 (with leptomeningeal carcinoma): participants with leptomeningeal carcinoma may not have measurable lesions. In this circumstanc || measurable intracranial lesion per RANO-BM criteria, documented by a radiologist/neuroradiologist (treated or untreated). 2. Cohort 2 (with leptomeningeal carcinoma): participants with leptomeningeal carcinoma may not have measurable lesions. In this circumstance, the participant's disease will be considered to have non-target lesions only at baseline and their response based on descriptive clinical criteria by physician assessment. * C || iteria, documented by a radiologist/neuroradiologist (treated or untreated). 2. Cohort 2 (with leptomeningeal carcinoma): participants with leptomeningeal carcinoma may not have measurable lesions. In this circumstance, the participant's disease will be considered to have non-target lesions only at baseline and their response based on descriptive clinical criteria by physician assessment. * Capable of undergoing magnetic resonance imagi
+---
+
+ID: NCT05124236
+UPDATED: 2026-03-04
+STATUS: RECRUITING
+TITLE: Trial of Preoperative Radiosurgery Versus Postoperative Stereotactic Radiotherapy for Resectable Brain Metastases
+OFFICIAL: A Multicenter Prospective, Interventional, Randomized Trial of Preoperative Radiosurgery Compared With Postoperative Stereotactic Radiotherapy for Resectable Brain Metastases
+CONDITIONS: Brain Metastases, Adult
+SUMMARY: The research question is whether a single fraction of preoperative radiosurgery can reduce the incidence of leptomeningeal disease 12 months following resection of a brain metastasis (BM) as compared with 5 fractions of postoperative stereotactic radiotherapy.
+LM_SNIPPETS:  3. More than 4 brain metastases or the diameter of the metastasis for resection \>4.0 cm. 4. More than 1 metastasis requiring resection 5. Leptomeningeal disease in the CSF or on MRI (unless localized and can be irradiated then resected with the metastasis) 6. Prior radiation to the brain (SRS/SRT to lesion to be resected and /or WBRT) 7. Prior resection of a primary or secondary brain tumor 8. Prior diagnosis of a non-meningioma brain
+---
+
+ID: NCT05341739
+UPDATED: 2025-03-05
+STATUS: ACTIVE_NOT_RECRUITING
+TITLE: A Phase II Study of Pre-Op SRS Followed by Surgical Resection for Brain Metastases
+OFFICIAL: A Phase II Study of Pre-Operative Stereotactic Radiosurgery Followed by Surgical Resection for Brain Metastases
+CONDITIONS: Brain Metastases, Adult
+SUMMARY: This is a research study to determine if performing stereotactic radiosurgery (SRS) prior to surgical resection of the brain metastasis (tumor) will improve local control, in other words, increase the possibility of total removal of the primary tumor without local recurrence on longterm follow up. This research study will also determine if pre-operative SRS will lower the risk of radionecrosis that is the breakdown of body tissue at the original tumor site, and the development of leptomeningeal 
+LM_SNIPPETS: none
+---
+
+ID: NCT05497076
+UPDATED: 2022-08-11
+STATUS: UNKNOWN
+TITLE: the Efficacy and Safety of Dalpiciclib Combined With Third-generation EGFR-TKI in Patients With EGFR Mutation and Meningial Metastasis in Non-small Cell Lung Cancer Progressing Through Third-generation TKI and Platinum-containing Two-drug Chemotherapy
+OFFICIAL: A Single-center, Single-arm, Phase Ib Clinical Study of the Efficacy and Safety of Dalpiciclib Combined With Third-generation EGFR-TKI in Patients With EGFR Mutation and Meningial Metastasis in Non-small Cell Lung Cancer Progressing Through Third-generation TKI and Platinum-containing Two-drug Chemotherapy
+CONDITIONS: Non-small Cell Lung Cancer Confirmed by Histopathology or Cytology | The TNM (8th) Phase is IV | With EGFR Mutations | Meningeal Progression Occurred After Previous Platinum-containing Two-drug Chemotherapy and Third-generation EGFR-TKI Treatment | Male or Female | The Age of 18 Years Old or More | ECOG PS 0 to 2 Points
+SUMMARY: Efficacy and safety of Dalpiciclib combined with third-generation EGFR-TKI in patients with advanced EGFR-mutated non-small cell lung cancer with meningeal metastasis after third-generation TKI and platinum-containing chemotherapy
+LM_SNIPPETS: none
+---
+
+ID: NCT05984108
+UPDATED: 2023-08-09
+STATUS: UNKNOWN
+TITLE: Clinical, Radiological, Histologic and Molecular Features of a Cohort of Melanocytic Tumors of the Central Nervous System
+OFFICIAL: Clinical, Radiological, Histological and Molecular Features of a Cohort of Melanocytic Tumors of the Central Nervous System
+CONDITIONS: Meningeal Melanocytoma | Meningeal Melanomatosis | Meningeal Melanocytosis | Meningeal Melanoma
+SUMMARY: Primary melanocytic tumors of the central nervous system are rare lesions and occur develop from leptomeningeal melanocytes. The WHO classification of tumors of the central nervous system in its most recent version (2021) distinguishes on the one hand the circumscribed melanocytic tumors including melanocytoma, benign, and its slope malignant, meningeal melanoma, with an intermediate grade lesion in between, called intermediate grade melanocytoma. They are to be distinguished from diffuse tumors
+LM_SNIPPETS: none
+---
+
+ID: NCT06023277
+UPDATED: 2023-09-05
+STATUS: NOT_YET_RECRUITING
+TITLE: A Phase 1b/2 Clinical Trial to Evaluate the Safety and Efficacy of ConvitVax in Metastatic Breast Cancer
+OFFICIAL: A Phase 1b/2 Clinical Trial to Evaluate the Safety and Efficacy of ConvitVax in Metastatic Breast Cancer
+CONDITIONS: Metastatic Breast Cancer
+SUMMARY: This is a proof-of-concept, single-center, non-randomized, open-label, phase 1b/2 study to evaluate the safety and efficacy of ConvitVax, a simple, low cost (of manufacture), personalized, potentially safe and effective breast cancer vaccine made of three components: autologous tumor cells homogenate obtained from 0.3 g of tumor tissue, 0.0625 mg of bacillus Calmette-Guérin Danish strain 1331 (BCG D1331), and 0.02% of formalin, for patients with metastatic breast cancer (MBC) except for brain me
+LM_SNIPPETS: tern Cooperative Oncology Group (ECOG) performance status (PS) of ≥1. * Life expectancy \<3 months. * Patients with known brain metastases, leptomeningeal carcinomatosis, and/or spinal cord compression. Participants with brain metastases that have been previously totally resected or irradiated are eligible provided no progression or relapse is observed within 4-weeks of the last treatment. * Non-resolution of any prior treatment-related
+---
+
+ID: NCT06282874
+UPDATED: 2024-02-28
+STATUS: NOT_YET_RECRUITING
+TITLE: Lorlatinib in Patients With ALK-Positive NSCLC With Brain or Leptomeningeal Metastases
+OFFICIAL: An Open-label, Single-arm, Multicenter, Prospective Study of Lorlatinib in Patients With ALK-Positive NSCLC With Brain or Leptomeningeal Metastases
+CONDITIONS: Carcinoma, Non-Small-Cell Lung | Brain Metastases | Leptomeningeal Metastasis
+SUMMARY: This study is an investigator-initiated, prospective, open-label, single-arm, multicenter clinical trial aimed at exploring the antitumor activity of Lorlatinib in ALK-positive NSCLC patients with brain/ leptomeningeal metastases.
+LM_SNIPPETS: fety risk to the patient. 6. At least one CNS lesion that meets the following criteria: 1. Imaging and/or cerebrospinal fluid suggestive of leptomeningeal metastasis. Imaging-identified leptomeningeal metastasis does not require cerebrospinal fluid confirmation; 2. Brain metastasis confirmed by Magnetic Resonance Imaging (MRI), with ≥3 brain lesions; or 1-2 lesions that are unsuitable for surgical treatment or the patient refuses surgic || lesion that meets the following criteria: 1. Imaging and/or cerebrospinal fluid suggestive of leptomeningeal metastasis. Imaging-identified leptomeningeal metastasis does not require cerebrospinal fluid confirmation; 2. Brain metastasis confirmed by Magnetic Resonance Imaging (MRI), with ≥3 brain lesions; or 1-2 lesions that are unsuitable for surgical treatment or the patient refuses surgical treatment. For patients without leptomening || ≥3 brain lesions; or 1-2 lesions that are unsuitable for surgical treatment or the patient refuses surgical treatment. For patients without leptomeningeal metastasis, there must be at least one measurable lesion with a diameter of ≥5mm in the brain. 7. Patients with or without brain/leptomeningeal metastasis-related symptoms are eligible. 8. The subject's expected survival time must be 12 weeks or longer. 9. For patients without leptome
+---
+
+ID: NCT06361589
+UPDATED: 2024-04-12
+STATUS: RECRUITING
+TITLE: Real World Study of Lolatinib for Advanced ALK+ NSCLC Patients
+OFFICIAL: Real World Study of Lolatinib for Patients With Advanced/Metastatic Anaplastic Lymphoma Kinase (ALK) - Positive Non-Small Cell Lung Cancer (NSCLC)
+CONDITIONS: ALK-positive Non-small Cell Lung Cancer | Real World Study
+SUMMARY: This study was a multicenter, prospective, non-interventional clinical study that included first-line and late-line patients with advanced non-small cell lung cancer with ALK fusions treated with the third generation ALK-TKI lorlatinib until disease progression, intolerable toxicity, investigator or subject decision to withdraw, lost to follow-up, initiation of other antineoplastic therapy, or death. Clinical pathology including sex, age, ALK mutation status at diagnosis, and clinical stage at d
+LM_SNIPPETS: none
+---
+
+ID: NCT06436092
+UPDATED: 2025-03-13
+STATUS: RECRUITING
+TITLE: Japanese Coronary Intervention Using Drug Eluting and Perfusion Therapy for Left Main Disease (JDEPTH-LM Registry)
+OFFICIAL: Japanese Coronary Intervention Using Drug Eluting and Perfusion Therapy for Left Main Disease (JDEPTH-LM Registry)
+CONDITIONS: Stable Angina | Non-ST-elevation Acute Coronary Syndrome | Unstable Angina
+SUMMARY: JDEPTH-LM Registry is a prospective, observational, multi-center study designed for the efficacy and safety of Double-effect kissing balloon technique (W-KBT) in left main (LM) bifurcation percutaneous coronary intervention (PCI) using Perfusion balloon (PB) and Drug coated balloon (DCB) in patients with left main coronary artery disease (LMD) with left circumflex artery (LCx) ostium stenosis.
+LM_SNIPPETS: none
+---
+
+ID: NCT06945705
+UPDATED: 2025-04-25
+STATUS: RECRUITING
+TITLE: A Clinical Trial of Furmonertinib Combined With Anlotinib as First-line Treatment for Advanced NSCLC With EGFR-sensitive Mutations and Brain Metastasis
+OFFICIAL: A Prospective, Single-arm, Multi-center Clinical Trial of Furmonertinib Combined With Anlotinib as First-line Treatment for Advanced NSCLC With EGFR-sensitive Mutations and Brain Metastasis.
+CONDITIONS: NSCLC
+SUMMARY: EGFR mutation-positive NSCLC patients have a higher risk of developing brain metastases. The prognosis is poor for patients presenting with brain or leptomeningeal metastases at any stage, particularly those with such metastases at initial diagnosis, who have the worst prognosis. Furmonertinib, as a novel EGFR-TKI, enhances its lipophilicity by incorporating a trifluoroethoxy pyridine group. Preclinical animal studies further confirm that both Furmonertinib (AST2818) and its metabolite (AST5902)
+LM_SNIPPETS: e diagnosis cannot be confirmed as non-small cell lung cancer (NSCLC) through histological or cytological examination. 2. Patients who have leptomeningeal metastasis confirmed by MRI and/or positive cerebrospinal fluid (CSF) cytology, but no evidence of brain parenchymal metastasis. 3. Patients who are expected to require other systemic anticancer therapies outside of this study during the trial period. 4. Patients with a history of mal
+---
+
+ID: NCT07039760
+UPDATED: 2026-03-11
+STATUS: NOT_YET_RECRUITING
+TITLE: Asciminib With or Without Sildenafil for Brain Tumors
+OFFICIAL: An Early Phase 1 Study of Asciminib With or Without Sildenafil for Brain Tumors
+CONDITIONS: Brain Tumor
+SUMMARY: Dissemination of medulloblastoma is an independent risk factor of poor prognosis. Dissemination of medulloblastoma at recurrence is nearly universally fatal. ABL1 and 2 have been recently found to mediate the dissemination of medulloblastoma. Genetically inactivating ABL1 and 2 resulted in decreased leptomeningeal medulloblastoma and improved overall survival (OS) in rodent models. Asciminib is an FDA approved for the treatment of chronic myeloid leukemia and is well tolerated, likely due to its
+LM_SNIPPETS: none
+---
+
+ID: NCT07114497
+UPDATED: 2025-08-11
+STATUS: ACTIVE_NOT_RECRUITING
+TITLE: Investigation of miRNA Expression Profiles in Human Degenerated Intervertebral Disc Tissues
+OFFICIAL: Investigation of miRNA Expression Profiles in Human Degenerated Intervertebral Disc Tissues
+CONDITIONS: Degeneration Disc Intervertebral | miRNA
+SUMMARY: Aim of the Study: The aim of this study is to determine the expression levels of candidate microRNAs (miRNAs) expressed in human degenerated intervertebral disc tissues. In line with this objective, our specific goals are outlined below: Objectives: Objective 1: To include patients diagnosed with lumbar disc herniation (LDH) who are scheduled for lumbar microdiscectomy (LMD), and patients diagnosed with vertebral fractures who are scheduled for decompression or fusion surgeries, by obtaining inf
+LM_SNIPPETS: none
+---
+
+ID: NCT07177950
+UPDATED: 2025-09-17
+STATUS: NOT_YET_RECRUITING
+TITLE: A Two-cohort Study of SHR-A1811 in the Treatment of HER2-positive Breast Cancer With Brain Metastases
+OFFICIAL: A Two-cohort Study of SHR-A1811 in the Treatment of HER2-positive Breast Cancer With Brain Metastases, With or Without Leptomeningeal Metastases.
+CONDITIONS: Breast Cancer | Brain Metastases | Leptomeningeal Metastasis
+SUMMARY: This is a multi-center, open-label, two-cohort study. The purpose of this study is to evaluate the safety, tolerability and efficacy of SHR-A1811 in the treatment of HER2-positive breast cancer with brain and leptomeningeal metastases, and the efficacy and safety of SHR-A1811 in the treatment of HER2-positive breast cancer with brain but without leptomeningeal metastases.
+LM_SNIPPETS:  advanced breast cancer (IHC 3+, or IHC 2+ with ISH amplification). 3. Radiologically documented brain metastases, with or without baseline leptomeningeal disease: * Cohort A (leptomeningeal metastasis cohort): leptomeningeal involvement demonstrated by contrast-enhanced MRI or positive cerebrospinal fluid (CSF) cytology. * Cohort B (no leptomeningeal metastasis cohort): ≥1 measurable intracranial lesion; either CNS-naïve or progressive || IHC 2+ with ISH amplification). 3. Radiologically documented brain metastases, with or without baseline leptomeningeal disease: * Cohort A (leptomeningeal metastasis cohort): leptomeningeal involvement demonstrated by contrast-enhanced MRI or positive cerebrospinal fluid (CSF) cytology. * Cohort B (no leptomeningeal metastasis cohort): ≥1 measurable intracranial lesion; either CNS-naïve or progressive after prior local therapy. 4. Antic || Radiologically documented brain metastases, with or without baseline leptomeningeal disease: * Cohort A (leptomeningeal metastasis cohort): leptomeningeal involvement demonstrated by contrast-enhanced MRI or positive cerebrospinal fluid (CSF) cytology. * Cohort B (no leptomeningeal metastasis cohort): ≥1 measurable intracranial lesion; either CNS-naïve or progressive after prior local therapy. 4. Anticipated life expectancy \>12 weeks. 
+---
+
+ID: NCT07287995
+UPDATED: 2026-04-01
+STATUS: RECRUITING
+TITLE: A Study of ASP2998 Given by Itself and Given With Standard Therapies in People With Solid Tumors
+OFFICIAL: A Phase 1b/2 Study of ASP2998 as Monotherapy and in Combination With Standard Therapies in Participants With Locally Advanced Unresectable or Metastatic Solid Tumors
+CONDITIONS: Locally Advanced or Metastatic Malignant Solid Tumors
+SUMMARY: Specific proteins found in tumors help the tumors spread and grow. People with solid tumors often have a protein called TROP2 in their tumor. ASP2998 is being developed to attach to TROP2 and then attack the tumor cells in people with solid tumors. ASP2998 will either be given by itself, or given together with one or more of standard cancer treatments pembrolizumab, carboplatin, and enfortumab vedotin. This is an early development study to collect information about ASP2998 in people with solid t
+LM_SNIPPETS: ned as hemoglobin A1c (HbA1c) of ≥ 8% or HbA1c of 7% to \< 8% with associated diabetes symptoms (polyuria or polydipsia). * Participant has leptomeningeal disease as a manifestation of the current malignancy. * Participant has a known additional malignancy that requires active treatment, with the exception of any of the following: * Locally curable malignancies that have been apparently cured with no recurrence in the past 2 years. * Ad
+---
+
+ID: NCT07357298
+UPDATED: 2026-01-22
+STATUS: NOT_YET_RECRUITING
+TITLE: Phase III Trial of Brain MRI Surveillance in Stage IV Breast Cancer
+OFFICIAL: Phase III Trial of Brain MRI Surveillance in Stage IV Breast Cancer
+CONDITIONS: Breast Cancer
+SUMMARY: This randomized, multi-institutional phase III trial evaluates whether routine surveillance brain MRI every 6 months improves detection and treatment characteristics of brain metastases in neurologically asymptomatic patients with stage IV breast cancer. Patients are stratified by receptor subtype, age, prior therapy, and study site, then randomized 1:1 to either scheduled surveillance MRIs or standard-of-care symptom-triggered imaging. The study aims to determine whether earlier detection leads
+LM_SNIPPETS: l study procedures and availability for the duration of the study Exclusion Criteria: * Prior diagnosis or treatment of brain metastases or leptomeningeal disease * History of other non-breast malignancy requiring treatment with the exception of those with a negligible risk of metastasis or death (e.g., 5-year OS of \> 90%), such as but not limited to, non-melanoma skin cancers, stage I endometrioid uterine cancer, and others at the dis
+---
+
+ID: NCT07409272
+UPDATED: 2026-03-24
+STATUS: RECRUITING
+TITLE: A Study to Evaluate the Effectiveness and Safety of Setidegrasib, Given With Either mFOLFIRINOX or NALIRIFOX Chemotherapies, in People With Pancreatic Cancer
+OFFICIAL: A Phase 3, Double-blind, Placebo-controlled, Randomized Study to Assess the Efficacy and Safety of ASP3082 in Combination With mFOLFIRINOX or NALIRIFOX as First-line Treatment in Participants With KRAS G12D Mutated Metastatic Pancreatic Adenocarcinoma
+CONDITIONS: Pancreatic Cancer | Metastatic Pancreatic Cancer | Metastatic Pancreatic Adenocarcinoma
+SUMMARY: Pancreatic cancer is difficult to diagnose early. By the time people have been diagnosed, the cancer has usually spread to other parts of the body (metastatic). The standard treatment is chemotherapy, but other treatments are needed to improve outcomes in people with pancreatic cancer. The first treatment that people usually receive is chemotherapy. At the time this study started, some of the main standard chemotherapies for pancreatic cancer were mFOLFIRINOX or NALIRIFOX. Genes give your body i
+LM_SNIPPETS: none
+---
+
+ID: NCT07503704
+UPDATED: 2026-03-31
+STATUS: RECRUITING
+TITLE: A Prospective Study of the Genomic Landscape of Central Nervous System Disease Secondary to Breast Cancer Utilising Cell-free DNA Derived From Cerebrospinal Fluid (CSF)
+OFFICIAL: PRIMROSE - A Prospective Study of the Genomic Landscape of Central Nervous System Disease Secondary to Breast Cancer Utilising Cell-free DNA Derived From Cerebrospinal Fluid (CSF)
+CONDITIONS: Breast Cancer
+SUMMARY: The PRIMROSE CSF Study aims to study cerebrospinal fluid (CSF) in patients with breast cancer that has spread to the brain (brain metastasis) or the lining surrounding the brain (leptomeningeal disease). Research into breast cancer that has spread to the brain or the lining of the brain is limited due to difficulty in obtaining brain tissue containing cancer cells. Such tissue is typically only available when tumours are removed, which does not occur in all patients. Evidence indicates an increa
+LM_SNIPPETS: R2 status 4. Newly diagnosed with Breast Cancer Brain Metastasis (BCBM) OR Progressive BCBM following either local or systemic treatment OR Leptomeningeal disease 5. Informed Consent Exclusion Criteria: 1. Where the investigator considers it unsafe to undertake a lumbar puncture or perform an aspiration from the Ommaya reservoir. 2. Unable to comply with study procedures or give informed consent. 3. Where the investigator considers it n
+---

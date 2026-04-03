@@ -100,6 +100,12 @@ export default function SearchForm({
     { value: 'RECRUITING',            label: 'Recruiting',             color: '#34d399' },
     { value: 'NOT_YET_RECRUITING',    label: 'Not Yet Recruiting',     color: '#fbbf24' },
     { value: 'ACTIVE_NOT_RECRUITING', label: 'Active, Not Recruiting', color: '#60a5fa' },
+    { value: 'ENROLLING_BY_INVITATION', label: 'Enrolling by Invitation', color: '#a78bfa' },
+    { value: 'COMPLETED',             label: 'Completed',              color: '#6b8ca4' },
+    { value: 'TERMINATED',            label: 'Terminated',             color: '#f87171' },
+    { value: 'WITHDRAWN',             label: 'Withdrawn',              color: '#94a3b8' },
+    { value: 'SUSPENDED',             label: 'Suspended',              color: '#f59e0b' },
+    { value: 'UNKNOWN',               label: 'Unknown',                color: '#94a3b8' },
   ]
 
   const inputCls =

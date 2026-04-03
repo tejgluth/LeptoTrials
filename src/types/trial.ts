@@ -2,6 +2,7 @@ export type OverallStatus =
   | 'RECRUITING'
   | 'NOT_YET_RECRUITING'
   | 'ACTIVE_NOT_RECRUITING'
+  | 'ENROLLING_BY_INVITATION'
   | 'COMPLETED'
   | 'TERMINATED'
   | 'WITHDRAWN'

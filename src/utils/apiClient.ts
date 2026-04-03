@@ -1,4 +1,4 @@
-import type { ApiResponse, SearchParams, OverallStatus } from '../types/trial'
+import type { ApiResponse, SearchParams, OverallStatus, Study } from '../types/trial'
 import { COUNTRIES } from '../constants/countries'
 
 const BASE_URL = 'https://clinicaltrials.gov/api/v2/studies'
@@ -90,13 +90,18 @@ export function buildTermUrl(params: SearchParams, pageToken?: string): string {
   return `${BASE_URL}?${url.toString()}`
 }
 
-async function doFetch(apiUrl: string): Promise<ApiResponse> {
+export const SUPPLEMENTAL_AUDITED_STUDY_IDS = [
+  'NCT05497076',
+  'NCT06705049',
+] as const
+
+async function doFetch<T>(apiUrl: string): Promise<T> {
   const response = await fetch(apiUrl, { headers: { Accept: 'application/json' } })
   if (!response.ok) {
     const errorText = await response.text().catch(() => 'Unknown error')
     throw new Error(`ClinicalTrials.gov API error ${response.status}: ${errorText}`)
   }
-  return response.json() as Promise<ApiResponse>
+  return response.json() as Promise<T>
 }
 
 export function fetchCondStudies(params: SearchParams, pageToken?: string): Promise<ApiResponse> {
@@ -105,6 +110,14 @@ export function fetchCondStudies(params: SearchParams, pageToken?: string): Prom
 
 export function fetchTermStudies(params: SearchParams, pageToken?: string): Promise<ApiResponse> {
   return doFetch(buildTermUrl(params, pageToken))
+}
+
+export function fetchStudyById(nctId: string): Promise<Study> {
+  return doFetch(`${BASE_URL}/${nctId}`)
+}
+
+export function fetchSupplementalAuditedStudies(): Promise<Study[]> {
+  return Promise.all(SUPPLEMENTAL_AUDITED_STUDY_IDS.map((nctId) => fetchStudyById(nctId)))
 }
 
 /**

@@ -1,85 +1,12 @@
 {
-  "generatedAt": "2026-03-21T14:54:19.266Z",
+  "generatedAt": "2026-04-03T20:37:44.834Z",
   "batch": 4,
-  "batchSize": 46,
+  "batchSize": 45,
   "records": [
-    {
-      "nctId": "NCT06440954",
-      "url": "https://clinicaltrials.gov/study/NCT06440954",
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "phases": [
-        "PHASE2"
-      ],
-      "briefTitle": "Efficacy and Resistance Mechanisms of IP in NSCLC With Leptomeningeal Metastases",
-      "officialTitle": "To Investigate the Efficacy and Resistance Mechanisms of Intrathecal Pemetrexed in Advanced Non-small Cell Lung Cancer (NSCLC) Patients Harboring Oncogenic Mutations With Leptomeningeal Metastases",
-      "conditions": [
-        "Non-Small Cell Lung Cancer"
-      ],
-      "countries": [
-        "China"
-      ],
-      "briefSummary": "This is a prospective interventional study clinical study to investigate the efficacy and resistance mechanisms of intrathecal pemetrexed in patients with driver gene mutations advanced NSCLC with leptomeningeal metastases."
-    },
-    {
-      "nctId": "NCT06441045",
-      "url": "https://clinicaltrials.gov/study/NCT06441045",
-      "status": "NOT_YET_RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "phases": [
-        "PHASE2"
-      ],
-      "briefTitle": "Double Dose of Third-generation EGFR-TKI Plus Intrathecal Pemetrexed Versus Double Dose of Third-generation EGFR-TKI in Patients With LM Progression Following the Treatment of Routine Dose of Third-generation EGFR-TKI",
-      "officialTitle": "Double Dose of Third-generation EGFR-TKI Plus Intrathecal Pemetrexed Versus Double Dose of Third-generation EGFR-TKI in NSCLC Patients With Leptomeningeal Progression Following the Treatment of Routine Dose of Third-generation EGFR-TKI: a Phase II Randomized, Multicenter Study",
-      "conditions": [
-        "Leptomeningeal Metastasis"
-      ],
-      "countries": [
-        "China"
-      ],
-      "briefSummary": "We aim to compare the efficacy and safety of double Dose of Third-generation EGFR-TKI Plus Intrathecal Pemetrexed Versus double Dose of Third-generation EGFR-TKI in patients with leptomeningeal progression following the treatment of routine dose of EGFR-TKI,"
-    },
-    {
-      "nctId": "NCT06462092",
-      "url": "https://clinicaltrials.gov/study/NCT06462092",
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "briefTitle": "Sacituzumab Govitecan and Intrathecal Chemotherapy for Treating Leptomeningeal Metastases From Her2-negative Breast Cancer",
-      "officialTitle": "A Phase I/II Clinical Study of Sacituzumab Govitecan Combined With Intrathecal Chemotherapy for the Treatment of Leptomeningeal Metastases From Her2-negative Breast Cancer",
-      "conditions": [
-        "Leptomeningeal Metastases"
-      ],
-      "countries": [
-        "China"
-      ],
-      "briefSummary": "Leptomeningeal metastases (LM) is a lethal complication of malignant tumors, characterized by tumor cell invasion and proliferation within the subarachnoid space. LM from HER2-negative breast cancer remains challenging to treat, with a median overall survival of only 3-6 months despite aggressive therapy. This open-label, uncontrolled Phase I/II clinical study aims to evaluate the safety, feasibility, and potential efficacy of Sacituzumab Govitecan in combination with intrathecal pemetrexed chemotherapy for LM from HER2-negative breast cancer, with the objective of identifying a more effective treatment strategy."
-    },
-    {
-      "nctId": "NCT06462222",
-      "url": "https://clinicaltrials.gov/study/NCT06462222",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "briefTitle": "Immune Checkpoint Inhibitor Combined With Pemetrexed Intrathecal Injection for Leptomeningeal Metastasis From Solid Tumors",
-      "officialTitle": "Immune Checkpoint Inhibitor Combined With Pemetrexed Intrathecal Injection for Leptomeningeal Metastasis From Solid Tumors: a Phase I/II Study",
-      "conditions": [
-        "Leptomeningeal Metastasis"
-      ],
-      "countries": [
-        "China"
-      ],
-      "briefSummary": "This is an open-label, single-arm, phase I/II trial of immune checkpoint inhibitor combined with pemetrexed intrathecal injection for leptomeningeal metastasis from solid tumors."
-    },
     {
       "nctId": "NCT06497543",
       "url": "https://clinicaltrials.gov/study/NCT06497543",
+      "lastUpdate": "2024-09-19",
       "status": "NOT_YET_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -98,6 +25,7 @@
     {
       "nctId": "NCT06500481",
       "url": "https://clinicaltrials.gov/study/NCT06500481",
+      "lastUpdate": "2026-04-03",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -120,6 +48,7 @@
     {
       "nctId": "NCT06518057",
       "url": "https://clinicaltrials.gov/study/NCT06518057",
+      "lastUpdate": "2025-12-11",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -142,6 +71,7 @@
     {
       "nctId": "NCT06537297",
       "url": "https://clinicaltrials.gov/study/NCT06537297",
+      "lastUpdate": "2024-09-20",
       "status": "NOT_YET_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -160,6 +90,7 @@
     {
       "nctId": "NCT06543992",
       "url": "https://clinicaltrials.gov/study/NCT06543992",
+      "lastUpdate": "2024-08-09",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -178,6 +109,7 @@
     {
       "nctId": "NCT06592092",
       "url": "https://clinicaltrials.gov/study/NCT06592092",
+      "lastUpdate": "2026-01-29",
       "status": "COMPLETED",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -197,6 +129,7 @@
     {
       "nctId": "NCT06638294",
       "url": "https://clinicaltrials.gov/study/NCT06638294",
+      "lastUpdate": "2025-11-28",
       "status": "RECRUITING",
       "studyType": "OBSERVATIONAL",
       "phases": [],
@@ -213,6 +146,7 @@
     {
       "nctId": "NCT06643000",
       "url": "https://clinicaltrials.gov/study/NCT06643000",
+      "lastUpdate": "2025-03-06",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -233,6 +167,7 @@
     {
       "nctId": "NCT06663306",
       "url": "https://clinicaltrials.gov/study/NCT06663306",
+      "lastUpdate": "2026-03-02",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -250,8 +185,26 @@
       "briefSummary": "This is a prospective, single-arm, phase Ia clinical study, which was designed to evaluate the efficacy and safety of Pemetrexed Combined With Bevacizumab Intrathecal Injection in Patients With Leptomeningeal Metastases in NSCLC."
     },
     {
+      "nctId": "NCT06705049",
+      "url": "https://clinicaltrials.gov/study/NCT06705049",
+      "lastUpdate": "2024-11-26",
+      "status": "ENROLLING_BY_INVITATION",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "Retrospective Study on Leptomeningeal Metastasis of Solid Tumors",
+      "officialTitle": "Retrospective Study on Leptomeningeal Metastasis of Solid Tumors",
+      "conditions": [
+        "Leptomeningeal Metastasis"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "The goal of this observational study is to investigate the clinical characteristics, treatment outcomes, and prognostic factors of leptomeningeal metastasis (LM), a serious complication of advanced cancer. LM occurs when tumor cells spread to the leptomeninges and subarachnoid space, leading to neurological symptoms and poor prognosis. This study aims to answer:\n\nWhat are the common clinical features of LM? How do different treatments affect survival and quality of life? What factors influence patient outcomes?\n\nBackground With advancements in cancer treatment, patient survival has improved significantly, but late-stage complications like LM are becoming more common. LM is seen in about 5% of patients with metastatic cancers such as lung cancer, breast cancer, and melanoma. Symptoms can range from mild headaches and nausea to severe neurological issues, including vision loss, hearing impairment, or limb weakness, making LM challenging to diagnose and treat.\n\nDiagnosis often involves MRI with gadolinium enhancement and cerebrospinal fluid (CSF) analysis. Treatment options include intrathecal chemotherapy, targeted therapy, radiotherapy, and supportive care. However, LM remains a condition with poor prognosis, and there are no standardized treatment guidelines.\n\nStudy Design This study will retrospectively review LM cases treated at our hospital. Data will include: Patient demographics (age, gender, cancer type)Symptoms and clinical findings Treatment types (e.g., chemotherapy, targeted therapy, radiotherapy) Survival outcomes and factors influencing prognosis\n\nHypothesis The findings from this study aim to provide better insight into LM's clinical characteristics and treatment outcomes. This will help guide more effective, individualized treatment approaches and improve quality of life for patients with LM."
+    },
+    {
       "nctId": "NCT06718972",
       "url": "https://clinicaltrials.gov/study/NCT06718972",
+      "lastUpdate": "2025-04-27",
       "status": "RECRUITING",
       "studyType": "OBSERVATIONAL",
       "phases": [],
@@ -269,6 +222,7 @@
     {
       "nctId": "NCT06724926",
       "url": "https://clinicaltrials.gov/study/NCT06724926",
+      "lastUpdate": "2026-01-02",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -289,6 +243,7 @@
     {
       "nctId": "NCT06728865",
       "url": "https://clinicaltrials.gov/study/NCT06728865",
+      "lastUpdate": "2024-12-11",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -311,6 +266,7 @@
     {
       "nctId": "NCT06762080",
       "url": "https://clinicaltrials.gov/study/NCT06762080",
+      "lastUpdate": "2025-05-20",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -330,6 +286,7 @@
     {
       "nctId": "NCT06766591",
       "url": "https://clinicaltrials.gov/study/NCT06766591",
+      "lastUpdate": "2025-01-09",
       "status": "NOT_YET_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -350,6 +307,7 @@
     {
       "nctId": "NCT06809517",
       "url": "https://clinicaltrials.gov/study/NCT06809517",
+      "lastUpdate": "2025-05-20",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -370,6 +328,7 @@
     {
       "nctId": "NCT06809530",
       "url": "https://clinicaltrials.gov/study/NCT06809530",
+      "lastUpdate": "2025-05-18",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -393,6 +352,7 @@
     {
       "nctId": "NCT06810804",
       "url": "https://clinicaltrials.gov/study/NCT06810804",
+      "lastUpdate": "2025-10-14",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -411,7 +371,8 @@
     {
       "nctId": "NCT06812871",
       "url": "https://clinicaltrials.gov/study/NCT06812871",
-      "status": "RECRUITING",
+      "lastUpdate": "2026-04-02",
+      "status": "COMPLETED",
       "studyType": "INTERVENTIONAL",
       "phases": [
         "PHASE2"
@@ -429,6 +390,7 @@
     {
       "nctId": "NCT06861218",
       "url": "https://clinicaltrials.gov/study/NCT06861218",
+      "lastUpdate": "2025-03-06",
       "status": "NOT_YET_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -447,6 +409,7 @@
     {
       "nctId": "NCT06901817",
       "url": "https://clinicaltrials.gov/study/NCT06901817",
+      "lastUpdate": "2025-03-30",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -465,6 +428,7 @@
     {
       "nctId": "NCT06910761",
       "url": "https://clinicaltrials.gov/study/NCT06910761",
+      "lastUpdate": "2025-12-08",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -487,6 +451,7 @@
     {
       "nctId": "NCT06926803",
       "url": "https://clinicaltrials.gov/study/NCT06926803",
+      "lastUpdate": "2025-04-15",
       "status": "ACTIVE_NOT_RECRUITING",
       "studyType": "OBSERVATIONAL",
       "phases": [],
@@ -504,6 +469,7 @@
     {
       "nctId": "NCT06971406",
       "url": "https://clinicaltrials.gov/study/NCT06971406",
+      "lastUpdate": "2025-05-14",
       "status": "NOT_YET_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -523,7 +489,8 @@
     {
       "nctId": "NCT06984523",
       "url": "https://clinicaltrials.gov/study/NCT06984523",
-      "status": "NOT_YET_RECRUITING",
+      "lastUpdate": "2026-03-31",
+      "status": "ACTIVE_NOT_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
         "NA"
@@ -541,6 +508,7 @@
     {
       "nctId": "NCT07005791",
       "url": "https://clinicaltrials.gov/study/NCT07005791",
+      "lastUpdate": "2025-06-05",
       "status": "NOT_YET_RECRUITING",
       "studyType": "OBSERVATIONAL",
       "phases": [],
@@ -559,6 +527,7 @@
     {
       "nctId": "NCT07092202",
       "url": "https://clinicaltrials.gov/study/NCT07092202",
+      "lastUpdate": "2025-07-29",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -580,6 +549,7 @@
     {
       "nctId": "NCT07098806",
       "url": "https://clinicaltrials.gov/study/NCT07098806",
+      "lastUpdate": "2025-08-01",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -598,6 +568,7 @@
     {
       "nctId": "NCT07134153",
       "url": "https://clinicaltrials.gov/study/NCT07134153",
+      "lastUpdate": "2025-08-21",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -615,8 +586,29 @@
       "briefSummary": "Multiple trials confirm systemic T-DXd efficacy in HER2+ breast cancer with leptomeningeal/brain metastases, yet median LM survival remains 3-4 months, highlighting unmet needs. While systemic therapies improve survival, intracranial disease control remains limited due to poor BBB penetration. Preclinical data show no detectable T-DXd/DXd in CSF, though intrathecal trastuzumab demonstrates preliminary safety/efficacy in HER2+ LM.\n\nThis study evaluates intrathecal/intra-Ommaya T-DXd plus systemic therapy in active HER2+ meningeal/brain metastases, assessing safety, intracranial efficacy, and CSF/peripheral blood T-DXd distribution to clarify BBB penetration potential. Findings may guide novel therapeutic strategies for this high-need population."
     },
     {
+      "nctId": "NCT07177950",
+      "url": "https://clinicaltrials.gov/study/NCT07177950",
+      "lastUpdate": "2025-09-17",
+      "status": "NOT_YET_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "briefTitle": "A Two-cohort Study of SHR-A1811 in the Treatment of HER2-positive Breast Cancer With Brain Metastases",
+      "officialTitle": "A Two-cohort Study of SHR-A1811 in the Treatment of HER2-positive Breast Cancer With Brain Metastases, With or Without Leptomeningeal Metastases.",
+      "conditions": [
+        "Breast Cancer",
+        "Brain Metastases",
+        "Leptomeningeal Metastasis"
+      ],
+      "countries": [],
+      "briefSummary": "This is a multi-center, open-label, two-cohort study. The purpose of this study is to evaluate the safety, tolerability and efficacy of SHR-A1811 in the treatment of HER2-positive breast cancer with brain and leptomeningeal metastases, and the efficacy and safety of SHR-A1811 in the treatment of HER2-positive breast cancer with brain but without leptomeningeal metastases."
+    },
+    {
       "nctId": "NCT07193654",
       "url": "https://clinicaltrials.gov/study/NCT07193654",
+      "lastUpdate": "2025-09-26",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -635,6 +627,7 @@
     {
       "nctId": "NCT07199413",
       "url": "https://clinicaltrials.gov/study/NCT07199413",
+      "lastUpdate": "2025-09-30",
       "status": "NOT_YET_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -652,6 +645,7 @@
     {
       "nctId": "NCT07239102",
       "url": "https://clinicaltrials.gov/study/NCT07239102",
+      "lastUpdate": "2025-11-20",
       "status": "COMPLETED",
       "studyType": "OBSERVATIONAL",
       "phases": [],
@@ -670,6 +664,7 @@
     {
       "nctId": "NCT07263425",
       "url": "https://clinicaltrials.gov/study/NCT07263425",
+      "lastUpdate": "2025-12-04",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -688,6 +683,7 @@
     {
       "nctId": "NCT07264569",
       "url": "https://clinicaltrials.gov/study/NCT07264569",
+      "lastUpdate": "2025-12-04",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -707,6 +703,7 @@
     {
       "nctId": "NCT07304739",
       "url": "https://clinicaltrials.gov/study/NCT07304739",
+      "lastUpdate": "2025-12-26",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -725,7 +722,8 @@
     {
       "nctId": "NCT07348965",
       "url": "https://clinicaltrials.gov/study/NCT07348965",
-      "status": "NOT_YET_RECRUITING",
+      "lastUpdate": "2026-04-02",
+      "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
         "NA"
@@ -746,6 +744,7 @@
     {
       "nctId": "NCT07361705",
       "url": "https://clinicaltrials.gov/study/NCT07361705",
+      "lastUpdate": "2026-01-23",
       "status": "NOT_YET_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -764,6 +763,7 @@
     {
       "nctId": "NCT07386886",
       "url": "https://clinicaltrials.gov/study/NCT07386886",
+      "lastUpdate": "2026-02-04",
       "status": "COMPLETED",
       "studyType": "OBSERVATIONAL",
       "phases": [],
@@ -778,6 +778,7 @@
     {
       "nctId": "NCT07390539",
       "url": "https://clinicaltrials.gov/study/NCT07390539",
+      "lastUpdate": "2026-02-05",
       "status": "NOT_YET_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -809,6 +810,7 @@
     {
       "nctId": "NCT07398599",
       "url": "https://clinicaltrials.gov/study/NCT07398599",
+      "lastUpdate": "2026-02-10",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -828,6 +830,7 @@
     {
       "nctId": "NCT07414979",
       "url": "https://clinicaltrials.gov/study/NCT07414979",
+      "lastUpdate": "2026-02-17",
       "status": "NOT_YET_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -846,6 +849,7 @@
     {
       "nctId": "NCT07415018",
       "url": "https://clinicaltrials.gov/study/NCT07415018",
+      "lastUpdate": "2026-02-17",
       "status": "NOT_YET_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -864,6 +868,7 @@
     {
       "nctId": "NCT07476781",
       "url": "https://clinicaltrials.gov/study/NCT07476781",
+      "lastUpdate": "2026-03-17",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -880,6 +885,23 @@
         "Canada"
       ],
       "briefSummary": "This is a prospective, single-centre feasibility study of CSF ctDNA conducted at the Sunnybrook Odette Cancer Centre (SOCC), Toronto, Canada, including multiple solid tumor, stratified into cohorts according to CNS disease involvement, including leptomeningeal disease (Cohort A), parenchymal brain metastases (Cohort B), and no evidence of CNS metastases (Cohort C)."
+    },
+    {
+      "nctId": "NCT07503704",
+      "url": "https://clinicaltrials.gov/study/NCT07503704",
+      "lastUpdate": "2026-03-31",
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "A Prospective Study of the Genomic Landscape of Central Nervous System Disease Secondary to Breast Cancer Utilising Cell-free DNA Derived From Cerebrospinal Fluid (CSF)",
+      "officialTitle": "PRIMROSE - A Prospective Study of the Genomic Landscape of Central Nervous System Disease Secondary to Breast Cancer Utilising Cell-free DNA Derived From Cerebrospinal Fluid (CSF)",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "countries": [
+        "Ireland"
+      ],
+      "briefSummary": "The PRIMROSE CSF Study aims to study cerebrospinal fluid (CSF) in patients with breast cancer that has spread to the brain (brain metastasis) or the lining surrounding the brain (leptomeningeal disease). Research into breast cancer that has spread to the brain or the lining of the brain is limited due to difficulty in obtaining brain tissue containing cancer cells. Such tissue is typically only available when tumours are removed, which does not occur in all patients. Evidence indicates an increasing number of patients with breast cancer are developing disease that spreads to the brain or the lining of the brain as treatments improve. The PRIMROSE CSF Study aims to improve understanding of breast cancers that spread to the brain or brain lining by collecting and analysing the fluid that circulates around the brain and comparing these samples with other cancer and blood samples. Cancer cells that have spread to the brain or its lining shed genetic material into the surrounding fluid. Collection of this fluid enables purification of genetic material released by breast cancer cells. This approach allows examination of the genetic profile of breast cancer cells affecting the brain or its lining without the need for surgery. Differences between the original cancer and metastatic disease in the brain can then be analysed. This research will support improved understanding of why certain breast cancers spread to the brain and contribute to the development of new treatments for breast cancer that has spread to the brain or the lining of the brain."
     }
   ]
 }

@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "export:audit-universe": "npx tsx scripts/export-audit-universe.ts",
+    "export:expanded-candidates": "npx tsx scripts/export-expanded-candidates.ts",
     "generate:manual-audit-overrides": "npx tsx scripts/generate-manual-audit-overrides.ts",
     "reconcile:manual-audit": "npx tsx scripts/reconcile-manual-audit.ts",
     "validate:trials": "npx tsx scripts/validate-trials.ts"

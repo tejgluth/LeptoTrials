@@ -20,8 +20,9 @@ export default function TrialsList({ results, filteredCount, error }: TrialsList
 
       {/* Sub-note */}
       <p className="text-sm text-[#8ecfe8] mb-6 sm:mb-10 leading-relaxed max-w-2xl">
-        Searched by condition and across all trial text. Exclusion criteria checked against
-        leptomeningeal terms, age eligibility applied. All shown trials passed eligibility filtering.
+        Searched by condition, across all trial text, and with audited supplemental studies.
+        Exclusion criteria checked against leptomeningeal terms, age eligibility applied.
+        All shown trials passed eligibility filtering.
       </p>
 
       {/* Trial cards */}

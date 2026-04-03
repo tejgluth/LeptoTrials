@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T14:54:19.266Z",
+  "generatedAt": "2026-04-03T20:37:44.834Z",
   "batch": 3,
   "instructions": {
     "siteEligible": "true if the study should appear anywhere on the website for LM patients; false otherwise",
@@ -15,372 +15,372 @@
   },
   "reviews": [
     {
-      "nctId": "NCT05064306",
-      "briefTitle": "131I-omburtamab for the Treatment of Central Nervous System/Leptomeningeal Neoplasms in Children and Young Adults",
-      "siteEligible": true,
-      "tumorLabels": ["OTHER_SOLID"],
-      "confidence": "medium",
-      "rationale": "Expanded access for CNS/leptomeningeal neoplasms; eligibility includes embryonal malignancies and other B7-H3-reactive tumors."
-    },
-    {
       "nctId": "NCT05112549",
       "briefTitle": "Intrathecal Application of PD1 Antibody in Metastatic Solid Tumors With Leptomeningeal Disease (IT-PD1/ NOA 26)",
-      "siteEligible": true,
-      "tumorLabels": ["OTHER_SOLID"],
-      "confidence": "high",
-      "rationale": "Metastatic solid tumors with leptomeningeal disease; diagnosis by CSF and/or MRI is required."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05146219",
       "briefTitle": "Study of TY-9591 in Patients With a Lung Cancer With Brain or Leptomeningeal Metastases With EGFR Mutation",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "high",
-      "rationale": "NSCLC with brain or leptomeningeal metastases and EGFR mutation."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05184816",
       "briefTitle": "A Study of Deferoxamine (DFO) in People With Leptomeningeal Metastasis",
-      "siteEligible": true,
-      "tumorLabels": ["OTHER_SOLID"],
-      "confidence": "high",
-      "rationale": "LM from any solid tumor malignancy."
-    },
-    {
-      "nctId": "NCT05208840",
-      "briefTitle": "A Study To Determine The Effect Of Ocrelizumab On Leptomeningeal Inflammation In Multiple Sclerosis",
-      "siteEligible": false,
+      "siteEligible": null,
       "tumorLabels": [],
-      "confidence": "high",
-      "rationale": "Multiple sclerosis biomarker study, not a cancer or leptomeningeal metastasis trial."
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05257967",
       "briefTitle": "CSF Analysis in EGFR Mutant Non-Small Cell Lung Cancer with Leptomeningeal Disease",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "high",
-      "rationale": "EGFR-mutant NSCLC with leptomeningeal disease."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05286684",
       "briefTitle": "Feasibility of Exosome Analysis in Cerebrospinal Fluid During the Diagnostic Workup of Metastatic Meningitis",
-      "siteEligible": true,
-      "tumorLabels": ["BREAST"],
-      "confidence": "high",
-      "rationale": "Breast cancer patients with suspected metastatic leptomeningeal involvement are eligible."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05289908",
       "briefTitle": "Intrathecal Pemetrexed for Leptomeningeal Metastasis",
-      "siteEligible": true,
-      "tumorLabels": ["OTHER_SOLID"],
-      "confidence": "high",
-      "rationale": "Leptomeningeal metastasis from malignant solid tumors."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05305365",
       "briefTitle": "Study Assessing QBS72S For Treating Brain Metastases",
-      "siteEligible": true,
-      "tumorLabels": ["BREAST", "LUNG", "OTHER_SOLID"],
-      "confidence": "medium",
-      "rationale": "Record includes LMD and cohorts for breast, lung, and broad solid tumors with CNS involvement."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05305885",
       "briefTitle": "Intra-pemetrexed Alone or Combined With Concurrent Radiotherapy for Leptomeningeal Metastasis",
-      "siteEligible": true,
-      "tumorLabels": ["OTHER_SOLID"],
-      "confidence": "high",
-      "rationale": "Probable/confirmed leptomeningeal metastasis in solid tumors."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05385185",
       "briefTitle": "Clinical Observation of ICI Combined With Recombinant Human Endostatin on Leptomeningeal Metastasis of Lung Cancer",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "high",
-      "rationale": "Leptomeningeal metastasis derived from lung cancer."
-    },
-    {
-      "nctId": "NCT05394636",
-      "briefTitle": "Cerebellar Superficial Siderosis in Cerebral Amyloid Angiopathy",
-      "siteEligible": false,
+      "siteEligible": null,
       "tumorLabels": [],
-      "confidence": "high",
-      "rationale": "Non-oncology cerebral amyloid angiopathy/siderosis study."
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05414123",
       "briefTitle": "A Therapy Treatment Response Trial in Patients With Leptomeningeal Metastases ((LM) Using CNSide",
-      "siteEligible": true,
-      "tumorLabels": ["BREAST", "LUNG"],
-      "confidence": "high",
-      "rationale": "LM response study limited to breast cancer or NSCLC."
-    },
-    {
-      "nctId": "NCT05451069",
-      "briefTitle": "Neurofilament Light Chain ,Chitinase-3 Like-1 Proteins and Plasmacytoid Dendritic Cells in Multiple Sclerosis",
-      "siteEligible": false,
+      "siteEligible": null,
       "tumorLabels": [],
-      "confidence": "high",
-      "rationale": "Multiple sclerosis biomarker study, not cancer or LM."
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05459441",
       "briefTitle": "Efficacy and Safety Evaluation of Percutaneous Ommaya Capsule Injection of Autologous Bi-dimensional Specific T Cells in the Treatment of Glioma and in Combination With Pemetrexed in the Treatment of Brain/Meningeal Metastases",
-      "siteEligible": true,
-      "tumorLabels": ["OTHER_SOLID"],
-      "confidence": "low",
-      "rationale": "Title and eligibility mention brain/meningeal metastases, but the condition module is broader and the LM component is indirect."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT05497076",
+      "briefTitle": "the Efficacy and Safety of Dalpiciclib Combined With Third-generation EGFR-TKI in Patients With EGFR Mutation and Meningial Metastasis in Non-small Cell Lung Cancer Progressing Through Third-generation TKI and Platinum-containing Two-drug Chemotherapy",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05598853",
       "briefTitle": "Intrathecal Double Checkpoint Inhibition",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG", "MELANOMA"],
-      "confidence": "high",
-      "rationale": "Confirmed/probable LM in NSCLC or melanoma."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05746325",
       "briefTitle": "Tumor Treating Fields for the Treatment of Leptomeningeal Metastases of the Spine in Patients With Breast or Lung Cancer",
-      "siteEligible": true,
-      "tumorLabels": ["BREAST", "LUNG"],
-      "confidence": "high",
-      "rationale": "Spinal LM study for breast or lung cancer patients."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05746754",
       "briefTitle": "Proton Cranio-spinal Irradiation for Leptomeningeal Metastasis",
-      "siteEligible": true,
-      "tumorLabels": ["OTHER_SOLID"],
-      "confidence": "high",
-      "rationale": "Craniospinal irradiation study for leptomeningeal metastasis without a tumor-specific restriction."
-    },
-    {
-      "nctId": "NCT05793489",
-      "briefTitle": "Prospective Double Arm Randomized Trial: WBRT Alone and WBRT Plus Silibinin",
-      "siteEligible": false,
-      "tumorLabels": ["OTHER_SOLID"],
-      "confidence": "high",
-      "rationale": "Whole-brain radiotherapy for brain metastases only; no LM eligibility is stated."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05800275",
       "briefTitle": "Capecitabine, Tucatinib, and Intrathecal Trastuzumab for Breast Cancer Patients With Leptomeningeal Disease",
-      "siteEligible": true,
-      "tumorLabels": ["BREAST"],
-      "confidence": "high",
-      "rationale": "HER2-positive metastatic breast cancer with proven leptomeningeal progression."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05805631",
       "briefTitle": "Intrathecal Pemetrexed for Leptomeningeal Metastasis in EGFR-Mutant NSCLC",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "high",
-      "rationale": "EGFR-mutant NSCLC with probable or confirmed LM."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05809752",
       "briefTitle": "A First in Human Dose Escalation of Dendritic Cell Vaccine (DCV)",
-      "siteEligible": true,
-      "tumorLabels": ["BREAST"],
-      "confidence": "high",
-      "rationale": "TNBC or HER2+ breast cancer patients must have diagnosed LMD."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05810350",
       "briefTitle": "Aumolertinib Combined Intrathecal Chemotherapy for Leptomeningeal Metastasis From EGFR-Mutated NSCLC and Prognostic Value of Dynamic Changes in cfDNA Profiles",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "high",
-      "rationale": "EGFR-mutated NSCLC with meningeal metastasis."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05813522",
       "briefTitle": "Furmonertinib in Patients With Leptomeningeal Metastases Associated With EGFR Mutated NSCLC",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "high",
-      "rationale": "EGFR-mutated NSCLC with leptomeningeal metastases."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT05865990",
       "briefTitle": "HER3-DXd in Breast Cancer and NSCLC Brain Metastases and Solid Tumor Leptomeningeal Disease",
-      "siteEligible": true,
-      "tumorLabels": ["BREAST", "LUNG", "OTHER_SOLID"],
-      "confidence": "medium",
-      "rationale": "Title and eligibility cover breast, NSCLC, and solid-tumor leptomeningeal disease cohorts."
-    },
-    {
-      "nctId": "NCT05934630",
-      "briefTitle": "Testing Cerebrospinal Fluid for Cell-free Tumor DNA in Children, Adolescents, and Young Adults With Brain Tumors",
-      "siteEligible": false,
-      "tumorLabels": ["GBM"],
-      "confidence": "medium",
-      "rationale": "Primary brain-tumor CSF ctDNA study; not an LM-metastasis trial, though GBM is included."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06016387",
       "briefTitle": "Tucatinib, Trastuzumab and Capecitabine With Brain and/or Spinal Radiotherapy (XRT) in Patients With HER2+, HER2 Mutated and/or HER2-amplified Metastatic Breast Cancer and Leptomeningeal Disease: A Multi-centre Phase II, Single Arm Feasibility Study",
-      "siteEligible": true,
-      "tumorLabels": ["BREAST"],
-      "confidence": "high",
-      "rationale": "HER2-positive metastatic breast cancer with evidence of LMD."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06026735",
       "briefTitle": "Non-small Cell Lung Cancer With Central Nervous System Metastasis",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "medium",
-      "rationale": "NSCLC patients with brain or meningeal metastases are eligible."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06058988",
       "briefTitle": "Trastuzumab Deruxtecan (T-DXd) for People With Brain Cancer",
-      "siteEligible": true,
-      "tumorLabels": ["GBM", "OTHER_SOLID"],
-      "confidence": "low",
-      "rationale": "Brain-cancer study explicitly lists leptomeningeal metastasis and allows patients with concomitant LM."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06132698",
       "briefTitle": "Immune Checkpoint Inhibitors Intrathecal Injection in Patients With Leptomeningeal Metastases in NSCLC",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "high",
-      "rationale": "NSCLC with leptomeningeal metastases."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06137651",
       "briefTitle": "Trotabresib in Combination With Vinorelbine and Radiation Therapy for the Treatment of HER2+ Breast Cancer With Central Nervous System or Leptomeningeal Metastasis",
-      "siteEligible": true,
-      "tumorLabels": ["BREAST"],
-      "confidence": "high",
-      "rationale": "HER2+ breast cancer with newly diagnosed or progressive brain and/or leptomeningeal metastases."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06146010",
       "briefTitle": "Non Interventional German Leptomeningeal Disease Register",
-      "siteEligible": true,
-      "tumorLabels": ["OTHER_SOLID"],
-      "confidence": "high",
-      "rationale": "Non-interventional register of patients with leptomeningeal disease."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06176261",
       "briefTitle": "DATO-BASE: DATOpotamab-deruxtecan for Breast Cancer Brain metAstaSEs",
-      "siteEligible": true,
-      "tumorLabels": ["BREAST"],
-      "confidence": "medium",
-      "rationale": "Breast-cancer study includes an evaluable leptomeningeal disease cohort."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06230055",
       "briefTitle": "Intrathecal Chemotherapy Through Ommaya Reservoir Upon Her-2 Negative Breast Cancer With Leptomeningeal Metastasis",
-      "siteEligible": true,
-      "tumorLabels": ["BREAST"],
-      "confidence": "high",
-      "rationale": "HER2-negative metastatic breast cancer with leptomeningeal metastasis."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT06282874",
+      "briefTitle": "Lorlatinib in Patients With ALK-Positive NSCLC With Brain or Leptomeningeal Metastases",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06296745",
       "briefTitle": "Intrathecal Pemetrexed for Leptomeningeal Metastasis From Lung Adenocarcinoma That Progressed After Osimertinib.",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "high",
-      "rationale": "Lung adenocarcinoma with confirmed leptomeningeal metastasis."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06304441",
       "briefTitle": "Intra-pemetrexed Plus Third-generation Small Molecule TKI Drugs (e.g. 'Osimertinib') Versus Third-generation Small Molecule TKI Drugs Alone for Leptomeningeal Metastasis From Epidermal Growth Factor Receptor Mutation-Positive Non-Small-cell Lung Cancer",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "high",
-      "rationale": "EGFR-mutant NSCLC leptomeningeal metastasis trial."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06315686",
       "briefTitle": "The Dynamic Monitoring of Cerebrospinal Fluid ctDNA",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "high",
-      "rationale": "Advanced EGFR-mutant NSCLC associated with leptomeningeal metastasis."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06332287",
       "briefTitle": "A Study of Trilaciclib Combined With Chemotherapy in the Treatment of Advanced NSCLC With Leptomeningeal Metastasis",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "high",
-      "rationale": "Advanced NSCLC with leptomeningeal metastasis."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06332300",
       "briefTitle": "An Exploratory Clinical Study of Adebelimumab in Combination With Famitinib and Chemotherapy in Patients With NSCLC",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "medium",
-      "rationale": "Withdrawn NSCLC trial still required CSF-positive LM and evaluable LM sites."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06339242",
       "briefTitle": "A Study of Furmonertinib Combined With Chemotherapy in the Treatment of NSCLC With Leptomeningeal Metastasis",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "high",
-      "rationale": "NSCLC with leptomeningeal metastasis after EGFR-TKI resistance."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06346977",
       "briefTitle": "Diagnosis of Leptomeningeal Metastasis and the Monitoring of Intrathecal Chemotherapy Efficacy in NSCLC",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "high",
-      "rationale": "Record focuses on NSCLC-LM diagnosis and monitoring; phase 1 enrolls confirmed CSF-positive LM cases."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06376292",
       "briefTitle": "A Prospective Single Arm Phase II Exploratory Study on the Combination of Whole Brain Radiotherapy, Thiotepa Intrathecal Injection and Systemic Treatment of Primary Diseases in the Treatment of Solid Tumor Leptomeningeal Metastasis",
-      "siteEligible": true,
-      "tumorLabels": ["OTHER_SOLID"],
-      "confidence": "high",
-      "rationale": "Solid-tumor leptomeningeal metastasis trial."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06399926",
       "briefTitle": "Efficacy and Safety of Intraventricule Pemetrexed Disodium Administered Via Ommaya Reservoir",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "high",
-      "rationale": "Non-squamous NSCLC with confirmed leptomeningeal metastasis and Ommaya-based intraventricular therapy."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06410040",
       "briefTitle": "A Retrospective Study of the Efficacy and Safety of Lolatinib in ALK+ NSCLC Patients With Brain or Meningeal Metastasis",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "high",
-      "rationale": "ALK+ NSCLC with brain or meningeal metastases."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06417710",
       "briefTitle": "Standardized Clinical Assessment of Patients With Leptomeningeal Metastasis",
-      "siteEligible": true,
-      "tumorLabels": ["OTHER_SOLID"],
-      "confidence": "high",
-      "rationale": "Clinical assessment study of LM from extra-CNS primary solid cancer."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     },
     {
       "nctId": "NCT06431685",
       "briefTitle": "Safety and Efficacy of Whole Brain LDRT+ICI+Intrathecal Chemotherapy in Refractory Meningeal Metastasis of Lung Cancer",
-      "siteEligible": true,
-      "tumorLabels": ["LUNG"],
-      "confidence": "high",
-      "rationale": "Refractory meningeal metastasis of lung cancer."
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT06440954",
+      "briefTitle": "Efficacy and Resistance Mechanisms of IP in NSCLC With Leptomeningeal Metastases",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT06441045",
+      "briefTitle": "Double Dose of Third-generation EGFR-TKI Plus Intrathecal Pemetrexed Versus Double Dose of Third-generation EGFR-TKI in Patients With LM Progression Following the Treatment of Routine Dose of Third-generation EGFR-TKI",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT06462092",
+      "briefTitle": "Sacituzumab Govitecan and Intrathecal Chemotherapy for Treating Leptomeningeal Metastases From Her2-negative Breast Cancer",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT06462222",
+      "briefTitle": "Immune Checkpoint Inhibitor Combined With Pemetrexed Intrathecal Injection for Leptomeningeal Metastasis From Solid Tumors",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
     }
   ]
 }

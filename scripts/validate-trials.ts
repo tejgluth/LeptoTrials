@@ -1,7 +1,12 @@
 import { createHash } from 'node:crypto'
 import { mkdir, readFile, stat, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
-import { buildCondUrl, buildTermUrl, DEFAULT_SEARCH_PARAMS } from '../src/utils/apiClient'
+import {
+  buildCondUrl,
+  buildTermUrl,
+  DEFAULT_SEARCH_PARAMS,
+  fetchSupplementalAuditedStudies,
+} from '../src/utils/apiClient'
 import { CONTINENT_COUNTRIES } from '../src/constants/countries'
 import { getManualAuditOverride } from '../src/utils/manualAuditOverrides'
 import { filterByTumorType, filterTrial } from '../src/utils/trialFilter'
@@ -24,6 +29,7 @@ const ALL_STATUSES: OverallStatus[] = [
   'RECRUITING',
   'NOT_YET_RECRUITING',
   'ACTIVE_NOT_RECRUITING',
+  'ENROLLING_BY_INVITATION',
   'COMPLETED',
   'TERMINATED',
   'WITHDRAWN',
@@ -74,6 +80,7 @@ const STATUS_VALUES: Array<{ label: string; statuses: OverallStatus[] }> = [
   { label: 'recruiting', statuses: ['RECRUITING'] },
   { label: 'not_yet_recruiting', statuses: ['NOT_YET_RECRUITING'] },
   { label: 'active_not_recruiting', statuses: ['ACTIVE_NOT_RECRUITING'] },
+  { label: 'enrolling_by_invitation', statuses: ['ENROLLING_BY_INVITATION'] },
   { label: 'recruiting_active', statuses: ['RECRUITING', 'ACTIVE_NOT_RECRUITING'] },
   { label: 'recruiting_not_yet', statuses: ['RECRUITING', 'NOT_YET_RECRUITING'] },
   { label: 'not_yet_active', statuses: ['NOT_YET_RECRUITING', 'ACTIVE_NOT_RECRUITING'] },
@@ -314,17 +321,17 @@ type OracleResult = {
 const REGRESSIONS: RegressionCase[] = [
   {
     scenario: 'default',
-    mustInclude: ['NCT06016387', 'NCT05865990', 'NCT06026735', 'NCT06462222'],
+    mustInclude: ['NCT06016387', 'NCT05865990', 'NCT06026735', 'NCT06462222', 'NCT07503704'],
     mustExclude: ['NCT05782374'],
   },
   {
     scenario: 'lung-default',
-    mustInclude: ['NCT06663306', 'NCT06643000', 'NCT06861218'],
+    mustInclude: ['NCT06663306', 'NCT06643000', 'NCT06861218', 'NCT06282874', 'NCT07264569'],
     mustExclude: ['NCT06016387', 'NCT04588545', 'NCT05782374', 'NCT03684980'],
   },
   {
     scenario: 'breast-default',
-    mustInclude: ['NCT06810804', 'NCT04588545', 'NCT06016387'],
+    mustInclude: ['NCT06810804', 'NCT04588545', 'NCT06016387', 'NCT07177950', 'NCT07503704'],
     mustExclude: ['NCT06663306', 'NCT06643000', 'NCT05782374', 'NCT03684980'],
   },
   {
@@ -340,7 +347,16 @@ const REGRESSIONS: RegressionCase[] = [
   {
     scenario: 'other-solid-default',
     mustInclude: ['NCT06462222', 'NCT07476781'],
-    mustExclude: ['NCT05782374', 'NCT03684980', 'NCT07414979', 'NCT04988009', 'NCT04185038'],
+    mustExclude: ['NCT05782374', 'NCT03684980', 'NCT07414979', 'NCT04988009', 'NCT04185038', 'NCT07264569'],
+  },
+  {
+    scenario: 'other-solid-all-statuses',
+    mustInclude: ['NCT03082144', 'NCT05184816', 'NCT07098806'],
+    mustExclude: ['NCT00005812', 'NCT00512460', 'NCT05782374', 'NCT03684980'],
+  },
+  {
+    scenario: 'other-solid-invitation',
+    mustInclude: ['NCT06705049'],
   },
 ]
 
@@ -733,6 +749,20 @@ function buildSmokeScenarios(): Scenario[] {
         statuses: ALL_STATUSES,
       }),
     },
+    {
+      name: 'other-solid-all-statuses',
+      params: buildParams({
+        tumorType: 'OTHER_SOLID',
+        statuses: ALL_STATUSES,
+      }),
+    },
+    {
+      name: 'other-solid-invitation',
+      params: buildParams({
+        tumorType: 'OTHER_SOLID',
+        statuses: ['ENROLLING_BY_INVITATION'],
+      }),
+    },
   ]
 }
 
@@ -821,15 +851,17 @@ async function fetchRawSearchResults(params: SearchParams): Promise<SearchRun> {
     }
   }
 
-  const [condData, termData] = await Promise.all([
+  const [condData, termData, supplementalStudies] = await Promise.all([
     fetchJson(buildCondUrl(params)),
     fetchJson(buildTermUrl(params)),
+    fetchSupplementalAuditedStudies(),
   ])
 
   condToken = condData.nextPageToken
   termToken = termData.nextPageToken
   addStudies(condData.studies ?? [])
   addStudies(termData.studies ?? [])
+  addStudies(supplementalStudies.filter((study) => passesServerSideFilters(study, params)))
 
   for (let page = 1; page < MAX_PAGES; page += 1) {
     if (!condToken && !termToken) break

@@ -15,6 +15,7 @@ const STATUS_CONFIG: Record<OverallStatus, { label: string; color: string; bg: s
   RECRUITING:                { label: 'Recruiting',              color: '#34d399', bg: '#34d39918' },
   NOT_YET_RECRUITING:        { label: 'Not Yet Recruiting',      color: '#fbbf24', bg: '#fbbf2418' },
   ACTIVE_NOT_RECRUITING:     { label: 'Active, Not Recruiting',  color: '#60a5fa', bg: '#60a5fa18' },
+  ENROLLING_BY_INVITATION:   { label: 'Enrolling by Invitation', color: '#a78bfa', bg: '#a78bfa18' },
   COMPLETED:                 { label: 'Completed',               color: '#6b8ca4', bg: '#6b8ca418' },
   TERMINATED:                { label: 'Terminated',              color: '#f87171', bg: '#f8717118' },
   WITHDRAWN:                 { label: 'Withdrawn',               color: '#6b8ca4', bg: '#6b8ca418' },
