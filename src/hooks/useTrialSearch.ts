@@ -1,6 +1,5 @@
 import { useState, useCallback, useRef } from 'react'
-import type { Study, SearchParams, ApiResponse } from '../types/trial'
-import type { FilterResult } from '../types/trial'
+import type { Study, SearchParams, ApiResponse, FilterResult } from '../types/trial'
 import {
   fetchCondStudies,
   fetchSupplementalAuditedStudies,
@@ -35,8 +34,7 @@ const INITIAL_STATE: SearchState = {
   hasSearched: false,
 }
 
-// Maximum pages to fetch per search (safety cap — 20 pages × 20/page = 400 trials max)
-const MAX_PAGES = 20
+const MAX_PAGES = 20 // 20 pages × 20/page = 400 trials max
 
 function passesApiLevelFilters(study: Study, params: SearchParams): boolean {
   const proto = study.protocolSection
@@ -76,8 +74,6 @@ export function useTrialSearch(): UseTrialSearchReturn {
         return null
       }
 
-      // Continent client-side filter: check if the study has at least one
-      // location in the requested continent's country list.
       if (params.continent) {
         const allowed = CONTINENT_COUNTRIES[params.continent] ?? []
         const locations = study.protocolSection.contactsLocationsModule?.locations ?? []
@@ -93,10 +89,6 @@ export function useTrialSearch(): UseTrialSearchReturn {
     []
   )
 
-  /**
-   * Merges studies from two API responses, deduplicating by NCT ID against
-   * the global seenIds set, then runs the eligibility filter on each new study.
-   */
   const mergeAndFilter = useCallback(
     (studyGroups: Study[][], params: SearchParams): TrialWithMeta[] => {
       const filtered: TrialWithMeta[] = []
@@ -124,7 +116,6 @@ export function useTrialSearch(): UseTrialSearchReturn {
         let condToken: string | undefined = undefined
         let termToken: string | undefined = undefined
 
-        // Page 1: fire both queries in parallel
         const [condData, termData, supplementalStudies] = await Promise.all([
           fetchCondStudies(params, undefined),
           fetchTermStudies(params, undefined),
@@ -141,7 +132,6 @@ export function useTrialSearch(): UseTrialSearchReturn {
           )
         )
 
-        // Remaining pages: keep fetching in parallel until both queries are exhausted
         for (let page = 1; page < MAX_PAGES; page++) {
           if (!condToken && !termToken) break
 

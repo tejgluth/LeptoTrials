@@ -386,12 +386,6 @@ function sortIds(studies: Study[]): string[] {
     .sort()
 }
 
-function getStudyIdentityMap(studies: Study[]): Map<string, Study> {
-  return new Map(
-    studies.map((study) => [study.protocolSection.identificationModule.nctId, study])
-  )
-}
-
 function getLmTextParts(study: Study) {
   const proto = study.protocolSection
   const briefTitle = proto.identificationModule?.briefTitle ?? ''

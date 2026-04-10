@@ -48,12 +48,16 @@ export default function SearchForm({
     )
   }
 
-  const validateAge = (val: string): number | null => {
-    if (val === '') return null
+  // Returns null (no age), a number (valid age), or undefined (invalid — abort submit).
+  const validateAge = (val: string): number | null | undefined => {
+    if (val === '') {
+      setAgeError('')
+      return null
+    }
     const n = parseInt(val, 10)
     if (isNaN(n) || n < 0 || n > 120) {
       setAgeError('Please enter a valid age between 0 and 120.')
-      return undefined as unknown as null
+      return undefined
     }
     setAgeError('')
     return n
@@ -64,8 +68,7 @@ export default function SearchForm({
     const parsedAge = validateAge(age)
     if (parsedAge === undefined) return
     if (statuses.length === 0) setStatuses(DEFAULT_STATUSES)
-    // Map toggled study types to the filter value:
-    // 0 or 2 selected = any; exactly 1 selected = that type
+    // 0 or 2 selected → 'any'; exactly 1 selected → that type
     const studyType: StudyTypeFilter =
       studyTypes.length === 1 ? studyTypes[0] : 'any'
 
@@ -113,10 +116,9 @@ export default function SearchForm({
 
   return (
     <form onSubmit={handleSubmit} className="w-full border-b border-[#1a3352]/60">
-      {/* transition-[padding] smooths the compact ↔ full height switch */}
+      {/* transition-[padding] animates the compact/full height switch without layout shift */}
       <div className={`px-4 sm:px-8 md:px-12 lg:px-20 max-w-7xl transition-[padding] duration-200 ${compact ? 'py-3.5 sm:py-5' : 'py-6 sm:py-10'}`}>
 
-        {/* Header row: label (non-sticky) or collapse toggle (sticky) */}
         {compact ? (
           <div className={`flex items-center justify-between gap-3 ${isCollapsed ? '' : 'mb-3'}`}>
             <p className="text-xs font-semibold uppercase tracking-widest text-[#8ecfe8]">
@@ -143,14 +145,11 @@ export default function SearchForm({
           </p>
         )}
 
-        {/* Collapsible body — hidden when collapsed in sticky mode */}
         {(!isCollapsed || !compact) && (
         <div>
 
-        {/* Filter grid */}
         <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 ${compact ? 'mb-3 mt-3' : 'mb-6 sm:mb-7'}`}>
 
-          {/* Age */}
           <div className="flex flex-col gap-2.5">
             <label htmlFor="filter-age" className="text-sm font-semibold text-[#b0d8ee]">
               Your Age
@@ -182,7 +181,6 @@ export default function SearchForm({
             )}
           </div>
 
-          {/* Location (Region or Country) */}
           <div className="flex flex-col gap-2.5">
             <label htmlFor="filter-location" className="text-sm font-semibold text-[#b0d8ee]">
               Location
@@ -215,7 +213,6 @@ export default function SearchForm({
             </select>
           </div>
 
-          {/* Study Type */}
           <div className="flex flex-col gap-2.5">
             <p className="text-sm font-semibold text-[#b0d8ee]" aria-hidden="true">
               Study Type
@@ -232,12 +229,7 @@ export default function SearchForm({
                       : 'bg-[#0a1a2e] text-[#8ecfe8] hover:text-[#b0d8ee] hover:bg-[#0f2240] border-[#1a3352]'
                   }`}
                 >
-                  <span className="sm:hidden">
-                    {type === 'INTERVENTIONAL' ? 'Interventional' : 'Observational'}
-                  </span>
-                  <span className="hidden sm:inline">
-                    {type === 'INTERVENTIONAL' ? 'Interventional' : 'Observational'}
-                  </span>
+                  {type === 'INTERVENTIONAL' ? 'Interventional' : 'Observational'}
                 </button>
               ))}
             </div>
@@ -246,7 +238,6 @@ export default function SearchForm({
             )}
           </div>
 
-          {/* Phase */}
           <div className="flex flex-col gap-2.5">
             <p className="text-sm font-semibold text-[#b0d8ee]" aria-hidden="true">
               Phase{' '}
@@ -277,7 +268,6 @@ export default function SearchForm({
           </div>
         </div>
 
-        {/* Status row */}
         <div className={`flex flex-wrap items-center gap-x-6 gap-y-3 sm:gap-y-4 ${compact ? 'mb-3' : 'mb-6 sm:mb-8'}`}>
           <span className="text-sm font-semibold text-[#b0d8ee] w-full sm:w-auto mb-0.5 sm:mb-0">
             Recruitment Status
@@ -318,7 +308,6 @@ export default function SearchForm({
           ))}
         </div>
 
-        {/* Tumor Type row */}
         <div className={`flex flex-col gap-2.5 ${compact ? 'mb-3' : 'mb-6 sm:mb-8'}`}>
           <p className="text-sm font-semibold text-[#b0d8ee]" aria-hidden="true">
             Tumor Type
@@ -346,7 +335,6 @@ export default function SearchForm({
           )}
         </div>
 
-        {/* Submit */}
         <button
           type="submit"
           disabled={isLoading}

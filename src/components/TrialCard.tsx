@@ -77,30 +77,30 @@ export default function TrialCard({ study, index }: TrialCardProps) {
   const [copied, setCopied] = useState(false)
   const cardRef = useRef<HTMLDivElement>(null)
 
-  const proto    = study.protocolSection
-  const id       = proto.identificationModule
-  const status   = proto.statusModule
-  const design   = proto.designModule
+  const proto = study.protocolSection
+  const id = proto.identificationModule
+  const status = proto.statusModule
+  const design = proto.designModule
   const contacts = proto.contactsLocationsModule
 
-  const nctId             = id.nctId
-  const briefTitle        = id.briefTitle
-  const officialTitle     = id.officialTitle
-  const orgFullName       = id.organization?.fullName
-  const overallStatus     = status.overallStatus
-  const startDate         = status.startDateStruct?.date
+  const nctId = id.nctId
+  const briefTitle = id.briefTitle
+  const officialTitle = id.officialTitle
+  const orgFullName = id.organization?.fullName
+  const overallStatus = status.overallStatus
+  const startDate = status.startDateStruct?.date
   const hasExpandedAccess = status.expandedAccessInfo?.hasExpandedAccess ?? false
-  const studyType         = design.studyType
-  const phases            = design.phases
-  const enrollment        = design.enrollmentInfo
-  const briefSummary      = proto.descriptionModule?.briefSummary ?? ''
-  const conditions        = proto.conditionsModule?.conditions ?? []
-  const centralContacts   = contacts?.centralContacts ?? []
-  const contactEmail      = centralContacts.find((c) => c.email)?.email
+  const studyType = design.studyType
+  const phases = design.phases
+  const enrollment = design.enrollmentInfo
+  const briefSummary = proto.descriptionModule?.briefSummary ?? ''
+  const conditions = proto.conditionsModule?.conditions ?? []
+  const centralContacts = contacts?.centralContacts ?? []
+  const contactEmail = centralContacts.find((c) => c.email)?.email
 
-  const statusCfg        = STATUS_CONFIG[overallStatus] ?? { label: overallStatus, color: '#6b8ca4', bg: '#6b8ca418' }
-  const phaseLabel       = formatPhase(phases)
-  const trialUrl         = getTrialUrl(nctId)
+  const statusCfg = STATUS_CONFIG[overallStatus] ?? { label: overallStatus, color: '#6b8ca4', bg: '#6b8ca418' }
+  const phaseLabel = formatPhase(phases)
+  const trialUrl = getTrialUrl(nctId)
   const responsibleParty = formatResponsibleParty(study)
 
   useEffect(() => {
@@ -137,7 +137,6 @@ export default function TrialCard({ study, index }: TrialCardProps) {
       ref={cardRef}
       className="relative bg-[#0c1e34] border border-[#1a3352] hover:border-[#2a5070] transition-colors duration-300"
     >
-      {/* Left status accent */}
       <div
         className="absolute left-0 top-0 bottom-0 w-[3px]"
         style={{ backgroundColor: statusCfg.color + '80' }}
@@ -145,10 +144,8 @@ export default function TrialCard({ study, index }: TrialCardProps) {
 
       <div className="px-4 sm:px-8 py-5 sm:py-7 pl-6 sm:pl-10">
 
-        {/* Badge row */}
         <div className="flex flex-wrap items-center gap-2 mb-4 sm:mb-5">
 
-          {/* Status */}
           <span
             className="inline-flex items-center gap-2 px-3 py-1.5 text-sm sm:text-base font-semibold"
             style={{ color: statusCfg.color, backgroundColor: statusCfg.bg }}
@@ -157,27 +154,23 @@ export default function TrialCard({ study, index }: TrialCardProps) {
             {statusCfg.label}
           </span>
 
-          {/* Phase */}
           {phaseLabel && phaseLabel !== 'N/A' && (
             <span className="px-3 py-1.5 text-sm sm:text-base font-medium text-[#b0d8ee] bg-[#0a1a2e] border border-[#1a3352]">
               {phaseLabel}
             </span>
           )}
 
-          {/* Study type */}
           <span className="px-3 py-1.5 text-sm sm:text-base font-medium text-[#b0d8ee] bg-[#0a1a2e] border border-[#1a3352]">
             {studyType === 'INTERVENTIONAL' ? 'Interventional'
               : studyType === 'OBSERVATIONAL' ? 'Observational'
               : studyType}
           </span>
 
-          {/* NCT ID */}
           <span className="ml-auto text-xs text-[#8ecfe8] font-mono tracking-wide hidden sm:inline">
             {nctId}
           </span>
         </div>
 
-        {/* Title block */}
         <div className="mb-4 sm:mb-5">
           <h2 className="text-[#e8f4fd] font-semibold text-lg sm:text-2xl leading-snug mb-2">
             {briefTitle}
@@ -187,11 +180,9 @@ export default function TrialCard({ study, index }: TrialCardProps) {
               {officialTitle}
             </p>
           )}
-          {/* NCT ID mobile */}
           <p className="text-xs text-[#8ecfe8] font-mono mt-2 sm:hidden">{nctId}</p>
         </div>
 
-        {/* Condition tags */}
         {conditions.length > 0 && (
           <div className="flex flex-wrap gap-2 mb-4 sm:mb-5">
             {conditions.slice(0, 5).map((cond) => (
@@ -212,7 +203,6 @@ export default function TrialCard({ study, index }: TrialCardProps) {
 
         <div className="h-px bg-[#142840] mb-4 sm:mb-5" />
 
-        {/* Brief summary */}
         {briefSummary && (
           <div className="mb-4 sm:mb-5">
             <p className="text-sm sm:text-base text-[#b0d8ee] leading-relaxed">
@@ -234,7 +224,6 @@ export default function TrialCard({ study, index }: TrialCardProps) {
 
         <div className="h-px bg-[#142840] mb-4 sm:mb-5" />
 
-        {/* Metadata grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-5 mb-4 sm:mb-5">
           <div>
             <p className="text-sm font-medium text-[#8ecfe8] mb-1.5 uppercase tracking-wider">Organization</p>
@@ -282,7 +271,6 @@ export default function TrialCard({ study, index }: TrialCardProps) {
 
         <div className="h-px bg-[#142840] mb-4 sm:mb-5" />
 
-        {/* Contact + CTA */}
         <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3 sm:gap-4">
           {contactEmail ? (
             <div className="flex items-center gap-2.5 sm:gap-3 min-w-0 w-full sm:w-auto">

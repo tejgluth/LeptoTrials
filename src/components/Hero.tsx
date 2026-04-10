@@ -7,7 +7,6 @@ interface HeroProps {
 
 export default function Hero({ onSearchClick }: HeroProps) {
   const containerRef = useRef<HTMLDivElement>(null)
-  const lineRef = useRef<HTMLDivElement>(null)
   const foundationLinkClassName =
     'text-[#dff2fb] underline decoration-[#38bdf8]/70 underline-offset-4 transition-colors duration-200 hover:text-white hover:decoration-[#7dd3fc]'
   const foundationResource = (
@@ -50,7 +49,6 @@ export default function Hero({ onSearchClick }: HeroProps) {
       ref={containerRef}
       className="relative min-h-screen flex flex-col justify-center overflow-hidden px-4 sm:px-8 md:px-12 lg:px-20 pt-20 sm:pt-24 pb-12 sm:pb-20"
     >
-      {/* Deep navy radial glow */}
       <div
         className="pointer-events-none absolute inset-0"
         style={{
@@ -58,13 +56,11 @@ export default function Hero({ onSearchClick }: HeroProps) {
         }}
       />
 
-      {/* Top-left corner accents */}
       <div className="absolute top-0 left-0 w-px h-32 sm:h-44 bg-gradient-to-b from-transparent via-[#1e5f8c] to-transparent" />
       <div className="absolute top-0 left-0 w-32 sm:w-52 h-px bg-gradient-to-r from-transparent via-[#1e5f8c] to-transparent" />
 
       <div className="relative max-w-5xl">
 
-        {/* Label */}
         <p
           data-hero-label
           className="text-xs sm:text-sm font-medium text-[#8ecfe8] mb-6 sm:mb-10 flex items-center gap-3 sm:gap-4"
@@ -73,14 +69,11 @@ export default function Hero({ onSearchClick }: HeroProps) {
           Clinical Trial Finder · Leptomeningeal Metastasis
         </p>
 
-        {/* Horizontal rule */}
         <div
           data-hero-line
-          ref={lineRef}
           className="w-full h-px bg-[#1a3352] mb-7 sm:mb-12"
         />
 
-        {/* Main headline — Fraunces italic */}
         <h1 className="font-serif italic leading-[0.92] sm:leading-[0.9] tracking-tight mb-8 sm:mb-12">
           <span
             data-hero-title-1
@@ -96,7 +89,6 @@ export default function Hero({ onSearchClick }: HeroProps) {
           </span>
         </h1>
 
-        {/* Subheading */}
         <p
           data-hero-sub
           className="text-base sm:text-xl text-[#b0d8ee] leading-relaxed max-w-2xl mb-8 sm:mb-14 font-light"
@@ -106,12 +98,11 @@ export default function Hero({ onSearchClick }: HeroProps) {
           eligibility pre-checked, no medical jargon required.
         </p>
 
-        {/* Stats row */}
         <div className="grid grid-cols-2 sm:flex sm:flex-wrap gap-x-8 gap-y-6 sm:gap-16 mb-10 sm:mb-16">
           {[
             { value: 'Live', label: 'ClinicalTrials.gov data' },
             { value: '3-step', label: 'Eligibility filter' },
-            { value: 'Live', label: 'Real-time data' },
+            { value: 'Free', label: 'No account required' },
           ].map((stat) => (
             <div key={stat.label} data-hero-meta className="flex flex-col gap-2">
               <span className="font-serif italic text-[1.65rem] sm:text-[2.5rem] leading-none font-bold text-[#38bdf8]">
@@ -124,7 +115,6 @@ export default function Hero({ onSearchClick }: HeroProps) {
           ))}
         </div>
 
-        {/* CTA */}
         <button
           data-hero-cta
           onClick={onSearchClick}
@@ -134,7 +124,6 @@ export default function Hero({ onSearchClick }: HeroProps) {
           <span className="inline-block transition-transform duration-200 group-hover:translate-x-1.5 text-lg leading-none">→</span>
         </button>
 
-        {/* In-flow disclaimer keeps the CTA clear on every breakpoint */}
         <p
           data-hero-disclaimer
           className="mt-7 sm:mt-10 text-sm text-[#8ecfe8] leading-relaxed max-w-3xl lg:max-w-4xl"
@@ -145,7 +134,6 @@ export default function Hero({ onSearchClick }: HeroProps) {
         </p>
       </div>
 
-      {/* Bottom line */}
       <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#1a3352] to-transparent" />
     </section>
   )

@@ -19,11 +19,7 @@ function validateParams(params: SearchParams): void {
   }
 }
 
-/**
- * Shared filter/pagination params appended to every query URL.
- * Applies status, study type, phase, and country filters at the API level.
- * Age filtering is client-side only (API stores ages as strings like "18 Years").
- */
+// Age filtering is client-side — the API stores ages as strings like "18 Years"
 function appendCommonParams(
   url: URLSearchParams,
   params: SearchParams,
@@ -62,12 +58,8 @@ function appendCommonParams(
   }
 }
 
-/**
- * QUERY A — condition field search.
- * query.cond uses MeSH synonym expansion, so "leptomeningeal metastasis" also
- * matches trials listed under "Meningeal Metastasis", "Leptomeningeal
- * Carcinomatosis", etc.
- */
+// query.cond uses MeSH synonym expansion — "leptomeningeal metastasis" also matches
+// "Meningeal Metastasis", "Leptomeningeal Carcinomatosis", etc.
 export function buildCondUrl(params: SearchParams, pageToken?: string): string {
   validateParams(params)
   const url = new URLSearchParams()
@@ -76,12 +68,8 @@ export function buildCondUrl(params: SearchParams, pageToken?: string): string {
   return `${BASE_URL}?${url.toString()}`
 }
 
-/**
- * QUERY B — full-text search across ALL fields.
- * query.term finds trials where "leptomeningeal" appears in eligibility
- * criteria, descriptions, or titles — catching brain-metastasis trials that
- * include LM patients without listing it as the primary condition.
- */
+// query.term searches all fields — catches brain-metastasis trials that include LM
+// patients in eligibility criteria without listing LM as the primary condition.
 export function buildTermUrl(params: SearchParams, pageToken?: string): string {
   validateParams(params)
   const url = new URLSearchParams()
@@ -120,16 +108,10 @@ export function fetchSupplementalAuditedStudies(): Promise<Study[]> {
   return Promise.all(SUPPLEMENTAL_AUDITED_STUDY_IDS.map((nctId) => fetchStudyById(nctId)))
 }
 
-/**
- * Returns the direct ClinicalTrials.gov study URL for an NCT ID.
- */
 export function getTrialUrl(nctId: string): string {
   return `https://clinicaltrials.gov/study/${nctId}`
 }
 
-/**
- * Default search parameters — recruiting trials of any type/phase worldwide.
- */
 export const DEFAULT_STATUSES: OverallStatus[] = [
   'RECRUITING',
   'NOT_YET_RECRUITING',

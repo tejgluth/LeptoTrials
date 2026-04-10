@@ -2,11 +2,8 @@ import type { Study, FilterResult, TumorTypeFilter } from '../types/trial'
 import { isAgeEligible } from './ageParser'
 import { getManualAuditOverride } from './manualAuditOverrides'
 
-/**
- * Terms that confirm a trial is specifically for LMD patients when found in
- * the conditionsModule.conditions array. If any match, we auto-include the
- * trial (bypassing eligibility text checks) — only age still applies.
- */
+// Presence of any of these in conditionsModule.conditions is authoritative — the trial
+// is specifically for LMD patients, so we skip eligibility text checks (age still applies).
 const LMD_CONDITION_TERMS = [
   'leptomeningeal',
   'leptomeninges',
@@ -18,21 +15,13 @@ const LMD_CONDITION_TERMS = [
   'lmd',
 ]
 
-/**
- * Terms that CANNOT appear in the exclusion criteria section.
- * If any of these appear in the exclusion section, the trial explicitly
- * excludes leptomeningeal patients and must be removed.
- */
 const EXCLUSION_BLOCKED_TERMS = [
   'leptomeningeal',
   'leptomeninges',
 ]
 
-/**
- * Phrases in the INCLUSION criteria section that indicate LMD patients are
- * excluded — e.g. "No radiographic evidence of leptomeningeal disease".
- * These are negative-inclusion criteria (Fix D).
- */
+// Negative-inclusion phrases: LMD patients are effectively excluded even though
+// the phrasing appears in the inclusion section rather than the exclusion section.
 const INCLUSION_NEGATIVE_PHRASES = [
   'no radiographic evidence of leptomeningeal',
   'no evidence of leptomeningeal',
@@ -49,19 +38,13 @@ const INCLUSION_NEGATIVE_PHRASES = [
   'absence of meningeal metastasis',
 ]
 
-/**
- * Plain-English phrases in the brief summary that signal LMD patients cannot
- * participate (Fix C). These appear in consumer-language summaries rather than
- * the structured eligibility criteria field.
- */
+// Consumer-language exclusion phrases in brief summaries — these don't appear in the
+// structured eligibility criteria field so they need a separate check.
 const BRIEF_SUMMARY_EXCLUSION_PHRASES = [
   'cannot take part if the cancer cells have spread to the thin tissue covering the brain and spinal cord',
 ]
 
-/**
- * Positive LM evidence. We intentionally do NOT use generic brain-metastasis
- * terms because they are too broad for an LM-specific finder.
- */
+// Generic brain-metastasis terms intentionally excluded — too broad for an LM-specific finder.
 const LM_POSITIVE_TERMS = [
   'leptomeningeal',
   'leptomeninges',
@@ -78,10 +61,7 @@ const LM_POSITIVE_TERMS = [
   'metastatic malignant neoplasm in the leptomeninges',
 ]
 
-/**
- * Markers that indicate the start of the exclusion criteria section.
- * All are checked; the one with the earliest position in the text wins.
- */
+// All markers are checked; the one at the earliest position wins.
 const EXCLUSION_SECTION_MARKERS = [
   'key exclusion criteria:',
   'key exclusion criteria\n',
@@ -156,9 +136,6 @@ function getStudyTextParts(study: Study) {
   }
 }
 
-/**
- * Splits an eligibility criteria string into inclusion and exclusion sections.
- */
 export function parseEligibilityCriteria(text: string): ParsedCriteria {
   if (!text) {
     return { inclusion: '', exclusion: '', sectionFound: false }
@@ -185,21 +162,6 @@ export function parseEligibilityCriteria(text: string): ParsedCriteria {
   }
 }
 
-/**
- * Main filter function. Returns a FilterResult indicating whether a trial
- * should be shown to the patient.
- *
- * Execution order:
- * 1. Parse eligibility criteria into inclusion/exclusion sections
- * 2. Compute whether LMD appears in the conditionsModule.conditions list
- * 3. Age eligibility check (applies to all trials)
- * 4. Fast path: if LMD in conditions list → return include: true
- *    (bypasses eligibility text checks — the conditions list is authoritative)
- * 5. Check inclusion section for INCLUSION_NEGATIVE_PHRASES → reject if found
- * 6. Check exclusion section for EXCLUSION_BLOCKED_TERMS → reject if found
- * 7. Check brief summary for BRIEF_SUMMARY_EXCLUSION_PHRASES → reject if found
- * 8. Inclusion OR term verification → reject if no LMD term found
- */
 export function filterTrial(
   study: Study,
   patientAge: number | null
@@ -209,24 +171,17 @@ export function filterTrial(
   const eligibility = proto.eligibilityModule
   const criteriaText = eligibility?.eligibilityCriteria ?? ''
 
-  // --- Step 1: Parse sections ---
   const { inclusion, exclusion, sectionFound } = parseEligibilityCriteria(criteriaText)
   const lowerInclusion = inclusion.toLowerCase()
   const lowerExclusion = exclusion.toLowerCase()
 
-  // --- Step 2: Check LMD in conditions list ---
-  const {
-    conditionsText,
-    titleText,
-    summaryText,
-  } = getStudyTextParts(study)
+  const { conditionsText, titleText, summaryText } = getStudyTextParts(study)
   const lmdInConditions = includesAnyTerm(conditionsText, LMD_CONDITION_TERMS)
   const hasTitleLmSignal = includesAnyTerm(titleText, LM_POSITIVE_TERMS)
   const hasSummaryLmSignal = matchesAnyPattern(summaryText, LM_CONTEXT_PATTERNS)
   const hasInclusionLmSignal = matchesAnyPattern(lowerInclusion, LM_CONTEXT_PATTERNS)
   const hasDefinitiveLmSignal = lmdInConditions || hasTitleLmSignal
 
-  // --- Step 3: Age eligibility check (always applies) ---
   if (patientAge !== null) {
     const minAgeStr = eligibility?.minimumAge
     const maxAgeStr = eligibility?.maximumAge
@@ -249,7 +204,6 @@ export function filterTrial(
     return { include: true }
   }
 
-  // --- Step 4: Inclusion negative phrase check ---
   for (const phrase of INCLUSION_NEGATIVE_PHRASES) {
     if (lowerInclusion.includes(phrase)) {
       return {
@@ -259,14 +213,12 @@ export function filterTrial(
     }
   }
 
-  // --- Step 5: Fast path — conditions-level LM evidence is a strong positive signal ---
-  // Still respect explicit negative language above, but avoid treating a mixed-cohort
-  // exclusion section as a universal LM exclusion when the study lists LM directly.
+  // lmdInConditions is authoritative — don't let a mixed-cohort exclusion section
+  // veto a trial that explicitly lists LM as the condition.
   if (lmdInConditions) {
     return { include: true }
   }
 
-  // --- Step 6: Exclusion criteria block check ---
   if (sectionFound && !hasDefinitiveLmSignal) {
     for (const term of EXCLUSION_BLOCKED_TERMS) {
       if (lowerExclusion.includes(term)) {
@@ -278,7 +230,6 @@ export function filterTrial(
     }
   }
 
-  // --- Step 7: Brief summary exclusion phrase check ---
   const briefSummary = (proto.descriptionModule?.briefSummary ?? '').toLowerCase()
   for (const phrase of BRIEF_SUMMARY_EXCLUSION_PHRASES) {
     if (briefSummary.includes(phrase)) {
@@ -289,7 +240,6 @@ export function filterTrial(
     }
   }
 
-  // --- Step 8: Explicit LM evidence verification ---
   const hasRequiredTerms = hasDefinitiveLmSignal || hasSummaryLmSignal || hasInclusionLmSignal
 
   if (!hasRequiredTerms) {
@@ -302,9 +252,6 @@ export function filterTrial(
   return { include: true }
 }
 
-// ---------------------------------------------------------------------------
-// Tumor type keyword maps
-// ---------------------------------------------------------------------------
 const TUMOR_KEYWORDS: Record<Exclude<TumorTypeFilter, 'any' | 'OTHER_SOLID'>, string[]> = {
   LUNG: [
     'non-small cell lung', 'small cell lung', 'nsclc', 'sclc',
@@ -428,14 +375,8 @@ function getTumorTypeText(study: Study): string {
     .toLowerCase()
 }
 
-/**
- * Returns true if the study should be included for the given tumor type.
- *
- * Inclusion logic:
- * - 'any'         → always include
- * - 'OTHER_SOLID' → include only with explicit non-hematologic, non-CNS solid-tumor evidence
- * - Specific type → include only on positive evidence for that type
- */
+// OTHER_SOLID requires explicit non-hematologic, non-CNS solid-tumor evidence.
+// Specific types require positive keyword evidence; 'any' always passes.
 export function filterByTumorType(study: Study, tumorType: TumorTypeFilter): boolean {
   if (tumorType === 'any') return true
 
