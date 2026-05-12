@@ -79,8 +79,16 @@ export function buildTermUrl(params: SearchParams, pageToken?: string): string {
 }
 
 export const SUPPLEMENTAL_AUDITED_STUDY_IDS = [
+  'NCT00221325',
+  'NCT02542514',
+  'NCT02590510',
+  'NCT02886585',
+  'NCT02896335',
+  'NCT03574402',
   'NCT05497076',
+  'NCT06361589',
   'NCT06705049',
+  'NCT07178938',
 ] as const
 
 async function doFetch<T>(apiUrl: string): Promise<T> {

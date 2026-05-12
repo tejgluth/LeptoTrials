@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T20:06:03.080Z",
+  "generatedAt": "2026-05-12T20:38:39.339Z",
   "searches": [
     {
       "kind": "cond",
@@ -42,7 +42,7 @@
       "value": "LMD"
     }
   ],
-  "count": 531,
+  "count": 544,
   "records": [
     {
       "nctId": "NCT00002485",
@@ -7863,6 +7863,27 @@
       ]
     },
     {
+      "nctId": "NCT04057833",
+      "url": "https://clinicaltrials.gov/study/NCT04057833",
+      "briefTitle": "E-CEL UVEC Cells as an Adjunct Cell Therapy for the Arthroscopic Rotator Cuff Repair in Adults",
+      "officialTitle": "A Phase 1 Open-Label, Single-Center Investigator Initiated Trial (IIT) of E-CEL UVEC Cells as an Adjunct Cell Therapy for the Arthroscopic Rotator Cuff Repair in Adults",
+      "status": "ENROLLING_BY_INVITATION",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "conditions": [
+        "Rotator Cuff Tears",
+        "Muscle Atrophy or Weakness",
+        "Tendon Rupture - Shoulder",
+        "Safety Issues"
+      ],
+      "briefSummary": "This is a phase 1b investigator-initiated clinical trial that will evaluate the safety and feasibility of E-CEL UVEC® cells with the aim of improving outcomes for patients with full-thickness rotator cuff tears who undergo arthroscopic surgical repair.\n\nAllogeneic E-CEL UVEC cells will be delivered to the tendon repair site and to the muscle adjacent to the tendon repair site.",
+      "matchedSearches": [
+        "term:LMD"
+      ]
+    },
+    {
       "nctId": "NCT04065113",
       "url": "https://clinicaltrials.gov/study/NCT04065113",
       "briefTitle": "Middle Meningeal Artery Embolization for Chronic Subdural Hematoma",
@@ -9658,24 +9679,6 @@
       ]
     },
     {
-      "nctId": "NCT05138250",
-      "url": "https://clinicaltrials.gov/study/NCT05138250",
-      "briefTitle": "A Pilot Study of the Use of 129Xe and 1H MRI to Measure the Modulation of Eosinophil-Related Inflammation by Mepolizumab In COPD",
-      "officialTitle": "A Pilot Study of the Use of 129Xe and 1H MRI to Measure the Modulation of Eosinophil-Related Inflammation by Mepolizumab In COPD",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "phases": [
-        "PHASE3"
-      ],
-      "conditions": [
-        "COPD"
-      ],
-      "briefSummary": "The investigators aim to recruit 32 people with COPD who have frequent exacerbations and high eosinophil counts which indicates \"asthmatic type\" inflammation and treat them for a year with mepolizumab. This is a licenced medication for asthma. Mepolizumab is a monoclonal antibody that acts through interleukin-5 (IL-5) antagonism to reduce blood eosinophil levels and is effective at reducing exacerbations in asthmatics. To determine whether mepolizumab may be an effective treatment in people with COPD and \"asthmatic type\" inflammation participants will have MRI scans before the treatment, after 12 weeks and after a year to see how the drug affects inflammation. The investigators will also compare our measurements with the number of exacerbations people get (measured by diaries), with measures of their quality of life (using a questionnaire), and with ordinary laboratory breathing tests. The investigators are especially interested to know if the reduction in inflammation early on after 12 weeks is associated with fewer exacerbations and better quality of life over the year.",
-      "matchedSearches": [
-        "term:LMD"
-      ]
-    },
-    {
       "nctId": "NCT05139277",
       "url": "https://clinicaltrials.gov/study/NCT05139277",
       "briefTitle": "Evaluation of the CONVIVO System",
@@ -9815,7 +9818,7 @@
     {
       "nctId": "NCT05257967",
       "url": "https://clinicaltrials.gov/study/NCT05257967",
-      "briefTitle": "CSF Analysis in EGFR Mutant Non-Small Cell Lung Cancer with Leptomeningeal Disease",
+      "briefTitle": "CSF Analysis in EGFR Mutant Non-Small Cell Lung Cancer With Leptomeningeal Disease",
       "officialTitle": "CSF Liquid Biopsy Based Characterization of Leptomeningeal Disease in EGFR Mutant Non-Small Cell Lung Cancer",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
@@ -10270,6 +10273,28 @@
       ]
     },
     {
+      "nctId": "NCT05530356",
+      "url": "https://clinicaltrials.gov/study/NCT05530356",
+      "briefTitle": "Renal Hemodynamics, Energetics and Insulin Resistance: A Follow-up Study",
+      "officialTitle": "Renal Hemodynamics, Energetics and Insulin Resistance in Youth Onset Type 2 Diabetes: A Follow-up Study",
+      "status": "ENROLLING_BY_INVITATION",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "conditions": [
+        "Type 2 Diabetes",
+        "Diabetes Type 2",
+        "Diabetic Nephropathies",
+        "Nephropathy",
+        "Obesity",
+        "Adolescent Obesity",
+        "Diabetic Kidney Disease"
+      ],
+      "briefSummary": "The current protocol plans to enroll participants with youth-onset Type 2 Diabetes (T2D) as well as obese and lean controls from the Renal-HEIR - Renal Hemodynamics, Energetics and Insulin Resistance in Youth Onset Type 2 Diabetes Study (n=100) \\[COMIRB #16-1752\\] in a prospective investigation that seeks to 1) define the changes in kidney function by gold standard techniques and energetics by functional Magnetic Resonance Imaging (MRI) in adolescents with and without T2D as they transition to young adulthood; 2) quantify kidney oxidative metabolism by 11C-acetate Positron Emission Tomography (PET) in a subset of participants who are ≥18 years of age with youth-onset T2D and/or obesity; 3) determine peripheral arterial stiffness by SphygmoCor. Mechanistic insight will be provided by transcriptomic analyses of repeat biopsies 3-years after their initial biopsy for eligible participants with youth-onset T2D, as well as molecular analysis of tissue obtained from J-wire endovascular biopsies. This study will also leverage this well-characterized cohort of youths to define youth-onset T2D-related changes in brain morphology and function by structural MRI and resting-state functional MRI and through the assessment of cognitive function (fluid and crystallized intelligence) using the NIH Toolbox Cognitive Battery (NIHTB-CB), as an exploratory objective. All enrollees in Renal-HEIR have consented to be contacted for future research opportunities.",
+      "matchedSearches": [
+        "term:LMD"
+      ]
+    },
+    {
       "nctId": "NCT05545007",
       "url": "https://clinicaltrials.gov/study/NCT05545007",
       "briefTitle": "Preoperative vs Postoperative Hypofractionated Radiosurgery for Patients With Large Brain Metastases",
@@ -10351,6 +10376,32 @@
         "term:leptomeningeal carcinomatosis",
         "term:neoplastic meningitis",
         "term:carcinomatous meningitis"
+      ]
+    },
+    {
+      "nctId": "NCT05636618",
+      "url": "https://clinicaltrials.gov/study/NCT05636618",
+      "briefTitle": "Targeted Alpha-Particle Therapy for Advanced Somatostatin Receptor Type 2 (SSTR2) Positive Tumors",
+      "officialTitle": "A Phase I/IIa First-in-Human Study of [212Pb]VMT-α-NET Targeted Alpha-Particle Therapy for Advanced SSTR2 Positive Tumors",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "conditions": [
+        "Neuroendocrine Tumors Unresectable",
+        "Neuroendocrine Tumor Metastatic",
+        "Gastroenteropancreatic Neuroendocrine Tumor",
+        "Bronchial Neuroendocrine Tumor",
+        "Paraganglioma",
+        "Pheochromocytoma",
+        "Meningioma"
+      ],
+      "briefSummary": "This study is Phase I/IIa First-in-Human Study of \\[212Pb\\]VMT-α-NET Targeted Alpha-Particle Therapy for Advanced SSTR2 Positive Tumors",
+      "matchedSearches": [
+        "cond:meningeal metastasis",
+        "term:meningeal metastasis"
       ]
     },
     {
@@ -10566,7 +10617,7 @@
       "url": "https://clinicaltrials.gov/study/NCT05809752",
       "briefTitle": "A First in Human Dose Escalation of Dendritic Cell Vaccine (DCV)",
       "officialTitle": "A First in Human Dose Escalation of Dendritic Cell Vaccine (DCV) Administered Intrathecally (IT) Primed Against HER2/HER3 in Patients With Leptomeningeal Disease (LMD) From Triple-Negative Breast Cancer (TNBC) or HER2+ Breast Cancer (HER2+BC)",
-      "status": "RECRUITING",
+      "status": "ACTIVE_NOT_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
         "PHASE1"
@@ -10641,7 +10692,7 @@
       "url": "https://clinicaltrials.gov/study/NCT05865990",
       "briefTitle": "HER3-DXd in Breast Cancer and NSCLC Brain Metastases and Solid Tumor Leptomeningeal Disease",
       "officialTitle": "Multicenter, Single-arm, 3 Cohort, Phase II Trial of HER3-DXd in Patients With Active Brain Metastases From Metastatic Breast Cancer and Non-small Cell Lung Cancer, and in Patients With Leptomeningeal Disease From Advanced Solid Tumors",
-      "status": "ACTIVE_NOT_RECRUITING",
+      "status": "COMPLETED",
       "studyType": "INTERVENTIONAL",
       "phases": [
         "PHASE2"
@@ -10670,7 +10721,7 @@
       "url": "https://clinicaltrials.gov/study/NCT05934630",
       "briefTitle": "Testing Cerebrospinal Fluid for Cell-free Tumor DNA in Children, Adolescents, and Young Adults With Brain Tumors",
       "officialTitle": "CSF Cell-free Tumor DNA (CSF cfDNA) Liquid Biopsies for Pediatric, Adolescent, and Young Adult Patients With Primary Brain Tumors",
-      "status": "SUSPENDED",
+      "status": "TERMINATED",
       "studyType": "OBSERVATIONAL",
       "phases": [],
       "conditions": [
@@ -10705,7 +10756,7 @@
       "url": "https://clinicaltrials.gov/study/NCT05962333",
       "briefTitle": "Effect and Safety MABs Administration m.3243A>G Mutation Carriers",
       "officialTitle": "Assess Effect and Safety of Intra-arterial Autologous Mesoangioblast Administration to the Upper Arm of m.3243A>G Mutation Carriers",
-      "status": "RECRUITING",
+      "status": "UNKNOWN",
       "studyType": "INTERVENTIONAL",
       "phases": [
         "PHASE2"
@@ -10867,7 +10918,7 @@
       "url": "https://clinicaltrials.gov/study/NCT06132698",
       "briefTitle": "Immune Checkpoint Inhibitors Intrathecal Injection in Patients With Leptomeningeal Metastases in NSCLC",
       "officialTitle": "Efficacy and Safety of Immune Checkpoint (PD-1) Inhibitor Combined With Pemetrexed Intrathecal Injection in Patients With Leptomeningeal Metastases in NSCLC",
-      "status": "UNKNOWN",
+      "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
         "PHASE2"
@@ -11029,7 +11080,7 @@
       "url": "https://clinicaltrials.gov/study/NCT06282874",
       "briefTitle": "Lorlatinib in Patients With ALK-Positive NSCLC With Brain or Leptomeningeal Metastases",
       "officialTitle": "An Open-label, Single-arm, Multicenter, Prospective Study of Lorlatinib in Patients With ALK-Positive NSCLC With Brain or Leptomeningeal Metastases",
-      "status": "NOT_YET_RECRUITING",
+      "status": "ACTIVE_NOT_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
         "PHASE4"
@@ -11244,7 +11295,7 @@
       "url": "https://clinicaltrials.gov/study/NCT06346977",
       "briefTitle": "Diagnosis of Leptomeningeal Metastasis and the Monitoring of Intrathecal Chemotherapy Efficacy in NSCLC",
       "officialTitle": "A Prospective Study on the Diagnosis of Leptomeningeal Metastasis and the Monitoring of Intrathecal Chemotherapy Efficacy in NSCLC Based on Proteomics",
-      "status": "NOT_YET_RECRUITING",
+      "status": "UNKNOWN",
       "studyType": "OBSERVATIONAL",
       "phases": [],
       "conditions": [
@@ -11538,7 +11589,7 @@
       "url": "https://clinicaltrials.gov/study/NCT06466720",
       "briefTitle": "Measuring and Mapping Cognitive Decline After Brain Radiosurgery",
       "officialTitle": "Measuring and Mapping Cognitive Decline After Brain Radiosurgery: a Pilot Study",
-      "status": "RECRUITING",
+      "status": "ACTIVE_NOT_RECRUITING",
       "studyType": "OBSERVATIONAL",
       "phases": [],
       "conditions": [
@@ -11897,6 +11948,30 @@
       ]
     },
     {
+      "nctId": "NCT06705049",
+      "url": "https://clinicaltrials.gov/study/NCT06705049",
+      "briefTitle": "Retrospective Study on Leptomeningeal Metastasis of Solid Tumors",
+      "officialTitle": "Retrospective Study on Leptomeningeal Metastasis of Solid Tumors",
+      "status": "ENROLLING_BY_INVITATION",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "conditions": [
+        "Leptomeningeal Metastasis"
+      ],
+      "briefSummary": "The goal of this observational study is to investigate the clinical characteristics, treatment outcomes, and prognostic factors of leptomeningeal metastasis (LM), a serious complication of advanced cancer. LM occurs when tumor cells spread to the leptomeninges and subarachnoid space, leading to neurological symptoms and poor prognosis. This study aims to answer:\n\nWhat are the common clinical features of LM? How do different treatments affect survival and quality of life? What factors influence patient outcomes?\n\nBackground With advancements in cancer treatment, patient survival has improved significantly, but late-stage complications like LM are becoming more common. LM is seen in about 5% of patients with metastatic cancers such as lung cancer, breast cancer, and melanoma. Symptoms can range from mild headaches and nausea to severe neurological issues, including vision loss, hearing impairment, or limb weakness, making LM challenging to diagnose and treat.\n\nDiagnosis often involves MRI with gadolinium enhancement and cerebrospinal fluid (CSF) analysis. Treatment options include intrathecal chemotherapy, targeted therapy, radiotherapy, and supportive care. However, LM remains a condition with poor prognosis, and there are no standardized treatment guidelines.\n\nStudy Design This study will retrospectively review LM cases treated at our hospital. Data will include: Patient demographics (age, gender, cancer type)Symptoms and clinical findings Treatment types (e.g., chemotherapy, targeted therapy, radiotherapy) Survival outcomes and factors influencing prognosis\n\nHypothesis The findings from this study aim to provide better insight into LM's clinical characteristics and treatment outcomes. This will help guide more effective, individualized treatment approaches and improve quality of life for patients with LM.",
+      "matchedSearches": [
+        "cond:leptomeningeal metastasis",
+        "cond:meningeal metastasis",
+        "cond:leptomeningeal disease",
+        "term:leptomeningeal",
+        "term:leptomeningeal disease",
+        "term:meningeal metastasis",
+        "term:leptomeningeal carcinomatosis",
+        "term:neoplastic meningitis",
+        "term:carcinomatous meningitis"
+      ]
+    },
+    {
       "nctId": "NCT06710249",
       "url": "https://clinicaltrials.gov/study/NCT06710249",
       "briefTitle": "Impact of Salovum® and SPC® Flakes on Brain Tumor Induced Edema",
@@ -12036,6 +12111,28 @@
         "term:leptomeningeal carcinomatosis",
         "term:neoplastic meningitis",
         "term:carcinomatous meningitis"
+      ]
+    },
+    {
+      "nctId": "NCT06753617",
+      "url": "https://clinicaltrials.gov/study/NCT06753617",
+      "briefTitle": "Cryoablation of Brain Neoplasm",
+      "officialTitle": "Safety and Feasibility of the Use of Cryoablation in Patients With Brain Tumors",
+      "status": "ENROLLING_BY_INVITATION",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "conditions": [
+        "Brain Neoplasm",
+        "Brain Metastases",
+        "Glioma",
+        "Meningioma"
+      ],
+      "briefSummary": "This study will investigate the use of safety and feasibility of cryoablation in brain tumors",
+      "matchedSearches": [
+        "cond:meningeal metastasis",
+        "term:meningeal metastasis"
       ]
     },
     {
@@ -12226,7 +12323,7 @@
       "nctId": "NCT06852352",
       "url": "https://clinicaltrials.gov/study/NCT06852352",
       "briefTitle": "An Exploratory Study to Confirm Efficacy of Modified Deep Cervical Lymphovenous Anastomosis (LVA) in Alzheimer's Disease/ Parkinson's Disease",
-      "officialTitle": "A Prospective, Single-center, Single-arm, Exploratory, 24-Month Study to Confirm Efficacy of Modified Deep Cervical Lymphovenous Anastomosis (LVA) in Subjects with Alzheimer's Disease/ Parkinson's Disease",
+      "officialTitle": "A Prospective, Single-center, Single-arm, Exploratory, 24-Month Study to Confirm Efficacy of Modified Deep Cervical Lymphovenous Anastomosis (LVA) in Subjects With Alzheimer's Disease/ Parkinson's Disease",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -13379,6 +13476,25 @@
       ]
     },
     {
+      "nctId": "NCT07457333",
+      "url": "https://clinicaltrials.gov/study/NCT07457333",
+      "briefTitle": "Beta-sitosterol for Subarachnoid Hemorrhage: Mechanistic Analysis of Recovery and Therapy",
+      "officialTitle": "Beta-sitosterol for Subarachnoid Hemorrhage: Mechanistic Analysis of Recovery and Therapy",
+      "status": "ENROLLING_BY_INVITATION",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "conditions": [
+        "Subarachnoid Haemorrhagic Stroke"
+      ],
+      "briefSummary": "Subarachnoid Hemorrhage (SAH), a devastating form of stroke, is associated with high mortality and disability rates due to complex secondary brain injuries-including neuroinflammation, oxidative stress, and blood-brain barrier disruption-for which effective neuroprotective treatments remain scarce. Inspired by the neuroprotective properties of the traditional Chinese herb Gastrodia elata, this study identifies a novel bioactive mechanism: its extracellular vesicles (G-EVs) are naturally enriched with β-Sitosterol, a plant sterol with proven anti-inflammatory, antioxidant, and endothelial-protective effects.\n\nThis project represents the first clinical investigation into the therapeutic potential of β-Sitosterol for patients with aneurysmal SAH. Given the excellent safety profile of β-Sitosterol as a widely used dietary supplement, this study aims to evaluate its safety and tolerability in SAH patients while preliminarily exploring its efficacy in improving neurological outcomes. By analyzing key biomarkers of inflammation and oxidative stress, this research seeks to bridge the gap between traditional medicine and modern nanomedicine, offering a novel, safe, and accessible adjunct therapy for SAH and paving the way for plant-derived compounds in acute neurocritical care.",
+      "matchedSearches": [
+        "term:meningeal metastasis"
+      ]
+    },
+    {
       "nctId": "NCT07476404",
       "url": "https://clinicaltrials.gov/study/NCT07476404",
       "briefTitle": "Re-bleeding in Giant Meningioma and Intraoperative Hydroxyethyl Starch (HES) Fluid Therapy",
@@ -13457,6 +13573,183 @@
         "Breast Cancer"
       ],
       "briefSummary": "The PRIMROSE CSF Study aims to study cerebrospinal fluid (CSF) in patients with breast cancer that has spread to the brain (brain metastasis) or the lining surrounding the brain (leptomeningeal disease). Research into breast cancer that has spread to the brain or the lining of the brain is limited due to difficulty in obtaining brain tissue containing cancer cells. Such tissue is typically only available when tumours are removed, which does not occur in all patients. Evidence indicates an increasing number of patients with breast cancer are developing disease that spreads to the brain or the lining of the brain as treatments improve. The PRIMROSE CSF Study aims to improve understanding of breast cancers that spread to the brain or brain lining by collecting and analysing the fluid that circulates around the brain and comparing these samples with other cancer and blood samples. Cancer cells that have spread to the brain or its lining shed genetic material into the surrounding fluid. Collection of this fluid enables purification of genetic material released by breast cancer cells. This approach allows examination of the genetic profile of breast cancer cells affecting the brain or its lining without the need for surgery. Differences between the original cancer and metastatic disease in the brain can then be analysed. This research will support improved understanding of why certain breast cancers spread to the brain and contribute to the development of new treatments for breast cancer that has spread to the brain or the lining of the brain.",
+      "matchedSearches": [
+        "term:leptomeningeal",
+        "term:leptomeningeal disease"
+      ]
+    },
+    {
+      "nctId": "NCT07511608",
+      "url": "https://clinicaltrials.gov/study/NCT07511608",
+      "briefTitle": "Development of a New Technique for Quantifying Mitochondrial DNA in Single Muscle Fibers",
+      "officialTitle": "Development of a New Technique for Quantifying Mitochondrial DNA in Single Muscle Fibers, as a Tool for Interpreting Variants of Uncertain Significance in Mitochondrial Diseases",
+      "status": "NOT_YET_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "conditions": [
+        "Mitochondrial Disease"
+      ],
+      "briefSummary": "Mitochondrial diseases (MDs) are the most common metabolic disorders. Due to their great clinical and genetic heterogeneity, their diagnosis relies exclusively on the identification of pathogenic variants in nuclear genes or in mitochondrial DNA (mtDNA). However, to date, 50% of affected patients remain without a definitive diagnosis. The advent of next-generation sequencing (NGS) has improved diagnostic yield, but many identified variants remain of uncertain significance (VUS), preventing a definitive diagnosis. The clinical interpretation of these newly identified rare variants therefore represents a major challenge.\n\nIn the context of MDs, one of the major criteria for mtDNA variant pathogenicity is a good correlation between heteroplasmy level and tissue or cellular involvement. Heteroplasmy refers to the coexistence, within the same cell or tissue, of mutated and non-mutated mtDNA molecules. Pathogenic mtDNA variants are most often heteroplasmic, with the most affected tissues harboring a higher proportion of mutated mtDNA. In muscle biopsies from patients with MDs, muscle fibers may show a cytochrome c oxidase (COX) enzymatic deficiency (COX-negative fibers), reflecting dysfunction of the mitochondrial respiratory chain (MRC). Single-fiber analysis makes it possible to isolate muscle fibers by LASER microdissection and to quantify the heteroplasmy level of a variant within them. The presence of a high heteroplasmy level in COX-negative fibers, in contrast to fibers without deficiency (COX-positive fibers), is strong evidence supporting the pathogenicity of the variant. In previous projects, we tested two variant quantification techniques (PCR-RFLP and NGS), but these methods remain too labor-intensive or costly and are therefore difficult to maintain in routine practice.\n\nThis pilot study aims to develop a new method for quantifying heteroplasmy levels using digital PCR. Faster and less expensive, this approach could simplify technical implementation and reduce analysis costs, thereby facilitating its integration into clinical practice. Initially, a feasibility study will begin with validation of digital PCR on DNA extracted from blood samples of two patients carrying pathogenic variants identified in a previous study (AOI 2017 IDRCB: 2017-A00688-45). This validation will compare digital PCR with the PCR-RFLP method for heteroplasmy quantification and assess the reliability and reproducibility of the technique. Once validation is achieved, digital PCR will be tested on DNA extracted from microdissected muscle fibers from the same patients to evaluate its feasibility at the single-fiber level, with comparison to PCR-RFLP results. If feasibility at the single-fiber level is confirmed, the method will then be tested in four new patients from the Mitochondrial Diseases Reference Center, in whom variants of uncertain significance have been identified and for whom muscle biopsies with COX-negative fibers are available. Additional samples (blood, urine, and buccal swabs) will be collected to assess heteroplasmy levels across different tissues. If validated, this technique could be applied to a larger number of patients and integrated into the diagnostic strategy for mitochondrial diseases.\n\nMoreover, digital PCR could also be used to quantify mtDNA copy number, an essential biomarker for monitoring patients with MDs. To this end, mtDNA is partitioned into thousands of nanowells, and absolute quantification is obtained by counting fluorescent signals emitted by positive partitions, with a nuclear DNA probe serving as an internal control. This validation will be performed using the same blood samples and muscle fibers, by comparing digital PCR results with those obtained using the reference method, quantitative PCR (qPCR).\n\nThe primary objective of this study is to reduce diagnostic odysseys by simplifying existing methods. In addition, the application of digital PCR to quantify mtDNA copy number could offer new perspectives, particularly as a biomarker for patient monitoring and the development of clinical trials.",
+      "matchedSearches": [
+        "term:LMD"
+      ]
+    },
+    {
+      "nctId": "NCT07511725",
+      "url": "https://clinicaltrials.gov/study/NCT07511725",
+      "briefTitle": "Prophylactic Regimen With Intrathecal Thiotepa in SVZ-positive or Meningeal-risk Glioblastoma",
+      "officialTitle": "A Pilot Study of Prophylactic Intrathecal Thiotepa Plus the Stupp Regimen for Glioblastoma With Subventricular Zone Contact or Intraoperative Ventricular Entry（PRISM-Trial）",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "conditions": [
+        "Glioblastoma (GBM)"
+      ],
+      "briefSummary": "The goal of this clinical trial is to test whether adding preventive intrathecal chemotherapy (thiotepa) to the standard Stupp regimen can lower the risk of leptomeningeal metastasis (LM) and extend survival in patients with newly diagnosed glioblastoma (GBM) whose tumors touch the sub-ventricular zone (SVZ+) or whose surgery accidentally opened the ventricle (VE). The main questions it aims to answer are:\n\nCan six weekly intrathecal injections of thiotepa (10 mg) given during chemoradiotherapy increase the chance of remaining free of LM at one year? Does the approach also prolong overall survival and progression-free survival compared with historical controls? Is the combination safe and well-tolerated in this high-risk population?\n\nParticipants will:\n\nReceive maximal safe tumor resection followed by standard radiotherapy (60 Gy/30 fractions) plus daily temozolomide (75 mg/m²).\n\nBegin thiotepa injections (via lumbar puncture or Ommaya reservoir) within 1 week of starting radiotherapy, repeated every 7 days for 6 doses.\n\nContinue standard adjuvant temozolomide (150-200 mg/m² days 1-5/28) for 6 cycles.\n\nUnderstand that all procedures, toxicities and survival will be tracked for 2 years, with MRI and clinical visits every 4-8 weeks.\n\nProvide CSF and blood samples for exploratory biomarkers that may predict response or resistance.",
+      "matchedSearches": [
+        "term:leptomeningeal",
+        "term:leptomeningeal disease",
+        "term:meningeal metastasis",
+        "term:neoplastic meningitis",
+        "term:carcinomatous meningitis"
+      ]
+    },
+    {
+      "nctId": "NCT07539792",
+      "url": "https://clinicaltrials.gov/study/NCT07539792",
+      "briefTitle": "Efficacy and Safety Evaluation of Absorbable and Moldable Skull Base Support Plates in Extended Endoscopic Endonasal Transsphenoidal Surgery: A Prospective, Randomized, Controlled Study",
+      "officialTitle": "Efficacy and Safety Evaluation of Absorbable and Moldable Skull Base Support Plates in Extended Endoscopic Endonasal Transsphenoidal Surgery: A Prospective, Randomized, Controlled Study",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "conditions": [
+        "Sellar Tumor",
+        "Endonasal Surgery",
+        "Csf Leakage"
+      ],
+      "briefSummary": "Primary objective: To evaluate the effect of absorbable and moldable skull base support plates used in extended endoscopic endonasal transsphenoidal surgery on the incidence of cerebrospinal fluid (CSF) rhinorrhea within 1 month after surgery.\n\nSecondary objectives:\n\n1. To evaluate the effect of absorbable and moldable skull base support plates used in extended endoscopic endonasal transsphenoidal surgery on the incidence of intracranial infection within 1 months after surgery;\n2. To evaluate the effect of absorbable and moldable skull base support plates used in extended endoscopic endonasal transsphenoidal surgery on the duration of the surgery and length of postoperative hospital stay;\n3. To monitor and evaluate the safety of absorbable and moldable skull base support plates, especially the occurrence of nasal complications.",
+      "matchedSearches": [
+        "term:meningeal metastasis"
+      ]
+    },
+    {
+      "nctId": "NCT07545889",
+      "url": "https://clinicaltrials.gov/study/NCT07545889",
+      "briefTitle": "Multicenter Prospective Study Analyzing the Occurrence of Multiple Sclerosis Relapses Without Radiological Evidence: Myth or Reality?",
+      "officialTitle": "Multicenter Prospective Study Analyzing the Occurrence of Multiple Sclerosis Relapses Without Radiological Evidence: Myth or Reality?",
+      "status": "NOT_YET_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "conditions": [
+        "Multiple Sclerosis",
+        "RRMS",
+        "Multiple Sclerosis (MS) - Relapsing-remitting"
+      ],
+      "briefSummary": "The MYTH-MS study is a multicenter prospective study investigating the occurrence of clinical relapses in patients with relapsing-remitting multiple sclerosis (RRMS) in the absence of radiological activity on MRI.\n\nWhile MS relapses are typically associated with gadolinium-enhancing lesions on MRI, some patients present with acute neurological symptoms without radiological correlates, referred to as acute clinical events with stable MRI (ACES). The frequency, mechanisms, and clinical relevance of these events remain unclear due to limitations in previous studies.\n\nThe primary objective is to determine the proportion of RRMS patients experiencing a relapse without gadolinium-enhancing lesions on early brain and spinal MRI. Secondary objectives include identifying clinical, radiological, biological, and psychological predictors, assessing neurologists' diagnostic accuracy, and evaluating clinical outcomes such as disability, cognition, and quality of life over a 6-month follow-up.\n\nA total of 136 patients with recent neurological exacerbations will be included. Each participant will undergo clinical assessment, cognitive and psychological evaluation, and early MRI, with follow-up at 6 months. An ancillary study will explore blood biomarkers (NfL, GFAP, and circulating DNA) to help differentiate true inflammatory relapses from ACES.\n\nThis study aims to improve the understanding and diagnosis of MS exacerbations and to optimize patient management by reducing misdiagnosis and unnecessary treatments.",
+      "matchedSearches": [
+        "term:leptomeningeal",
+        "term:leptomeningeal disease"
+      ]
+    },
+    {
+      "nctId": "NCT07551414",
+      "url": "https://clinicaltrials.gov/study/NCT07551414",
+      "briefTitle": "Zorifertinib Plus Intra-Ommaya CSF Chemotherapy for Leptomeningeal Progression in NSCLC After Third-Generation EGFR-TKI",
+      "officialTitle": "A Prospective Study of Zorifertinib Plus Intra-Ommaya CSF Chemotherapy for Leptomeningeal Progression in NSCLC After Third-Generation EGFR-TKI Therapy",
+      "status": "NOT_YET_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "conditions": [
+        "NSCLC (Non-small Cell Lung Carcinoma)",
+        "Leptomeningeal Metastasis",
+        "EGFR-TKI Sensitizing Mutation",
+        "Zorifertinib"
+      ],
+      "briefSummary": "A Prospective Study of Zorifertinib Combined with Intra-Ommaya Reservoir Cerebrospinal Fluid Chemotherapy for Leptomeningeal Progression in NSCLC Patients After Third-Generation EGFR-TKI Therapy",
+      "matchedSearches": [
+        "cond:leptomeningeal metastasis",
+        "cond:meningeal metastasis",
+        "cond:leptomeningeal disease",
+        "term:leptomeningeal",
+        "term:leptomeningeal disease",
+        "term:meningeal metastasis",
+        "term:leptomeningeal carcinomatosis",
+        "term:neoplastic meningitis",
+        "term:carcinomatous meningitis"
+      ]
+    },
+    {
+      "nctId": "NCT07552233",
+      "url": "https://clinicaltrials.gov/study/NCT07552233",
+      "briefTitle": "NK Cell Therapy for Malignant Solid Brain Tumors",
+      "officialTitle": "NK Cell Therapy for the Treatment of Malignant Solid Brain Tumors",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "conditions": [
+        "Malignant Solid Brain Tumors",
+        "Glioblastoma (GBM)",
+        "Glioblastoma Multiforme (GBM)",
+        "Brain Metastasis",
+        "Malignant Meningioma"
+      ],
+      "briefSummary": "This is a multi-center, open-label investigator-initiated trial (IIT) designed to evaluate the safety, tolerability, and feasibility of combined intracranial and intravenous administration of ex vivo expanded and activated natural killer (NK) cells in adult patients with malignant solid brain tumors who have failed standard treatment modalities. The primary objective is to determine the maximum tolerated dose (MTD) or maximum feasible dose (MFD) of the combined NK cell therapy. Secondary objectives include preliminary assessment of anti-tumor activity as measured by progression-free survival (PFS), overall survival (OS), objective response rate (ORR) per RANO criteria, and evaluation of the immunological effects of NK cell infusion in the tumor microenvironment and peripheral blood.",
+      "matchedSearches": [
+        "cond:meningeal metastasis",
+        "term:meningeal metastasis"
+      ]
+    },
+    {
+      "nctId": "NCT07559097",
+      "url": "https://clinicaltrials.gov/study/NCT07559097",
+      "briefTitle": "Exploration of the Application of Methotrexate-loaded Drug Vesicles in Intrathecal Injection for Meningeal Metastasis of Lung Cancer",
+      "officialTitle": "A Phase I/II, Single-arm, Single-center Clinical Study: Exploration of the Application of Methotrexate-loaded Drug Vesicles in Intrathecal Injection for Meningeal Metastasis of Lung Cancer",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "conditions": [
+        "Leptomeningeal Metastasis From Lung Cancer"
+      ],
+      "briefSummary": "This is a phase I/II, single-arm, open-label, single-center clinical trial to evaluate the safety, tolerability, and preliminary efficacy of intrathecal injection of methotrexate-loaded autologous tumor cell-derived microparticles (MTX-MPs) in patients with leptomeningeal metastasis from lung cancer who have failed standard of care.\n\nThe study consists of two phases: Phase I employs an accelerated titration combined with a \"3+3\" dose-escalation design to determine the maximum tolerated dose (MTD) and the recommended phase II dose (RP2D). Phase II further assesses the objective response rate (ORR) at the RP2D. Key secondary endpoints include progression-free survival (PFS), overall survival (OS), and safety profile.\n\nApproximately 10-20 patients with cytologically confirmed leptomeningeal metastasis (age ≥18 years, ECOG PS 0-3) will be enrolled. Participants will receive intrathecal MTX-MPs on days 1, 3, and 5 of the first cycle, followed by once every 3 weeks (Q3W) until disease progression, unacceptable toxicity, or death.\n\nTumor response will be evaluated using the Response Assessment in Neuro-Oncology (RANO) criteria for leptomeningeal metastasis, and adverse events will be graded according to CTCAE version 5.0. This exploratory study may provide a novel local therapeutic approach for leptomeningeal metastasis from lung cancer.",
+      "matchedSearches": [
+        "cond:leptomeningeal metastasis",
+        "cond:meningeal metastasis",
+        "term:leptomeningeal",
+        "term:leptomeningeal disease",
+        "term:meningeal metastasis",
+        "term:neoplastic meningitis",
+        "term:carcinomatous meningitis"
+      ]
+    },
+    {
+      "nctId": "NCT07566052",
+      "url": "https://clinicaltrials.gov/study/NCT07566052",
+      "briefTitle": "A Study to Compare Setidegrasib (ASP3082) With Docetaxel, in People With Non-small Cell Lung Cancer With a KRAS G12D Mutation",
+      "officialTitle": "A Randomized, Open-label, Phase 3 Study of Setidegrasib (ASP3082) Versus Docetaxel in Participants With KRAS G12D-mutated Locally Advanced (Unresectable) or Metastatic Non-small Cell Lung Cancer (NSCLC) Who Have Progressed on or After Platinum Based Chemotherapy and Checkpoint Inhibitor Therapy (CPI)",
+      "status": "NOT_YET_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "conditions": [
+        "Non-small Cell Lung Cancer (NSCLC)"
+      ],
+      "briefSummary": "Non-small cell lung cancer (NSCLC) is the most common type of lung cancer. The first treatment is usually chemotherapy, given with another treatment that targets specific proteins on cancer cells. If the cancer gets worse, the next main treatment is usually a medicine called docetaxel. This treatment doesn't stop most people's cancer from getting worse for very long. Other treatments are needed to improve outcomes in people with NSCLC.\n\nGenes give your body instructions on how to make proteins. Proteins are needed to keep the body working properly. Many types of cancer are caused by changes in certain genes, making them faulty. Many people with NSCLC have a faulty KRAS gene in their tumor. One such change in the KRAS gene is called a G12D mutation. Researchers are looking for ways to stop the actions of abnormal proteins made from the KRAS G12D mutation.\n\nSetidegrasib (ASP3082) is thought to remove some of the abnormal proteins made from the faulty KRAS gene. Before setidegrasib can become available as a treatment, studies need to be done.\n\nThis study is for people with NSCLC with a faulty KRAS gene in their tumor. In this study, some people will be given setidegrasib and some people will be given docetaxel. The main aims are to learn how long people who are given setidegrasib live with cancer without it getting worse, compared to people who are given docetaxel, and if they live for longer. Other aims are to check tumor response, symptoms, how the body processes setidegrasib, and its safety, compared with docetaxel.\n\nThe main aims of study are to learn how long people who are given setidegrasib live with cancer without it getting worse, compared to people who are given docetaxel and if people who are given setidegrasib live for longer compared to people who are given docetaxel.\n\nPeople in this study will be adults with locally advanced, unresectable or metastatic non-small cell lung cancer (NSCLC) with the G12D mutation in their KRAS gene. Locally advanced means the cancer has spread to nearby tissue. Unresectable means the cancer cannot be removed by surgery. Metastatic means the cancer has spread to other parts of the body. They have had no more than 2 previous treatments for their cancer. The key reasons people cannot take part are if they have different faulty genes in their tumor which can be targeted with other treatments, have symptomatic or untreated cancers that have spread from the lung into the brain or nervous system, their cancer has spread to the thin tissue that covers the brain and spinal cord (leptomeningeal disease), or they have recently had other active cancers that required treatment.\n\nIn this study, people will either receive setidegrasib or docetaxel. Whether people receive setidegrasib or docetaxel is decided by chance, not by the study doctor. Both study treatments are given slowly through a tube into a vein (infusion). People will continue to receive study treatment until their cancer gets worse, they can't tolerate the study treatment, they start other cancer treatment, they or the doctor decides the person should stop receiving study treatment, or sadly, they pass away. Some people on docetaxel may be able to switch to setidegrasib during the study if their cancer becomes worse. There will be safety checks at each visit, and the doctors will continue to check for medical problems and people's wellbeing throughout the study. People will continue to have scans of their tumor every 6 weeks for the first year, then every 9 weeks until their cancer becomes worse. After people's cancer becomes worse, clinic staff will telephone people every 12 weeks to check on their cancer.",
       "matchedSearches": [
         "term:leptomeningeal",
         "term:leptomeningeal disease"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T20:37:44.834Z",
+  "generatedAt": "2026-05-12T20:38:20.493Z",
   "batch": 3,
   "instructions": {
     "siteEligible": "true if the study should appear anywhere on the website for LM patients; false otherwise",
@@ -14,6 +14,54 @@
     "rationale": "Short evidence-based note from the ClinicalTrials.gov record"
   },
   "reviews": [
+    {
+      "nctId": "NCT04833205",
+      "briefTitle": "Clinical Efficacy and Safety of EGFR-TKI Combined With Nimotuzumab in the Treatment of Leptomeningeal Metastases From Lung Cancer",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT04944069",
+      "briefTitle": "Almonertinib With Bevacizumab for EGFR-Mutant NSCLC Patients With Leptomeningeal Metastasis",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT04988009",
+      "briefTitle": "Patient Perceptions Around Quality of Care Through Telemedicine in Neuro-Oncology",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT05034497",
+      "briefTitle": "Intraventricular Administration of Rhenium-186 NanoLiposome for Leptomeningeal Metastases",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT05063682",
+      "briefTitle": "The Efficacy and Safety of Brain-targeting Immune Cells (EGFRvIII-CAR T Cells) in Treating Patients With Leptomeningeal Disease From Glioblastoma. Administering Patients EGFRvIII -CAR T Cells May Help to Recognize and Destroy Brain Tumor Cells in Patients",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT05064306",
+      "briefTitle": "131I-omburtamab for the Treatment of Central Nervous System/Leptomeningeal Neoplasms in Children and Young Adults",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
     {
       "nctId": "NCT05112549",
       "briefTitle": "Intrathecal Application of PD1 Antibody in Metastatic Solid Tumors With Leptomeningeal Disease (IT-PD1/ NOA 26)",
@@ -40,7 +88,7 @@
     },
     {
       "nctId": "NCT05257967",
-      "briefTitle": "CSF Analysis in EGFR Mutant Non-Small Cell Lung Cancer with Leptomeningeal Disease",
+      "briefTitle": "CSF Analysis in EGFR Mutant Non-Small Cell Lung Cancer With Leptomeningeal Disease",
       "siteEligible": null,
       "tumorLabels": [],
       "confidence": "",
@@ -135,6 +183,14 @@
       "rationale": ""
     },
     {
+      "nctId": "NCT05793489",
+      "briefTitle": "Prospective Double Arm Randomized Trial: WBRT Alone and WBRT Plus Silibinin",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
       "nctId": "NCT05800275",
       "briefTitle": "Capecitabine, Tucatinib, and Intrathecal Trastuzumab for Breast Cancer Patients With Leptomeningeal Disease",
       "siteEligible": null,
@@ -177,6 +233,14 @@
     {
       "nctId": "NCT05865990",
       "briefTitle": "HER3-DXd in Breast Cancer and NSCLC Brain Metastases and Solid Tumor Leptomeningeal Disease",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT05934630",
+      "briefTitle": "Testing Cerebrospinal Fluid for Cell-free Tumor DNA in Children, Adolescents, and Young Adults With Brain Tumors",
       "siteEligible": null,
       "tumorLabels": [],
       "confidence": "",
@@ -311,6 +375,14 @@
       "rationale": ""
     },
     {
+      "nctId": "NCT06361589",
+      "briefTitle": "Real World Study of Lolatinib for Advanced ALK+ NSCLC Patients",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
       "nctId": "NCT06376292",
       "briefTitle": "A Prospective Single Arm Phase II Exploratory Study on the Combination of Whole Brain Radiotherapy, Thiotepa Intrathecal Injection and Systemic Treatment of Primary Diseases in the Treatment of Solid Tumor Leptomeningeal Metastasis",
       "siteEligible": null,
@@ -361,22 +433,6 @@
     {
       "nctId": "NCT06441045",
       "briefTitle": "Double Dose of Third-generation EGFR-TKI Plus Intrathecal Pemetrexed Versus Double Dose of Third-generation EGFR-TKI in Patients With LM Progression Following the Treatment of Routine Dose of Third-generation EGFR-TKI",
-      "siteEligible": null,
-      "tumorLabels": [],
-      "confidence": "",
-      "rationale": ""
-    },
-    {
-      "nctId": "NCT06462092",
-      "briefTitle": "Sacituzumab Govitecan and Intrathecal Chemotherapy for Treating Leptomeningeal Metastases From Her2-negative Breast Cancer",
-      "siteEligible": null,
-      "tumorLabels": [],
-      "confidence": "",
-      "rationale": ""
-    },
-    {
-      "nctId": "NCT06462222",
-      "briefTitle": "Immune Checkpoint Inhibitor Combined With Pemetrexed Intrathecal Injection for Leptomeningeal Metastasis From Solid Tumors",
       "siteEligible": null,
       "tumorLabels": [],
       "confidence": "",

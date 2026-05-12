@@ -1,8 +1,48 @@
 {
-  "generatedAt": "2026-04-03T20:37:44.834Z",
+  "generatedAt": "2026-05-12T20:38:20.493Z",
   "batch": 4,
-  "batchSize": 45,
+  "batchSize": 51,
   "records": [
+    {
+      "nctId": "NCT06462092",
+      "url": "https://clinicaltrials.gov/study/NCT06462092",
+      "lastUpdate": "2025-09-29",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "briefTitle": "Sacituzumab Govitecan and Intrathecal Chemotherapy for Treating Leptomeningeal Metastases From Her2-negative Breast Cancer",
+      "officialTitle": "A Phase I/II Clinical Study of Sacituzumab Govitecan Combined With Intrathecal Chemotherapy for the Treatment of Leptomeningeal Metastases From Her2-negative Breast Cancer",
+      "conditions": [
+        "Leptomeningeal Metastases"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "Leptomeningeal metastases (LM) is a lethal complication of malignant tumors, characterized by tumor cell invasion and proliferation within the subarachnoid space. LM from HER2-negative breast cancer remains challenging to treat, with a median overall survival of only 3-6 months despite aggressive therapy. This open-label, uncontrolled Phase I/II clinical study aims to evaluate the safety, feasibility, and potential efficacy of Sacituzumab Govitecan in combination with intrathecal pemetrexed chemotherapy for LM from HER2-negative breast cancer, with the objective of identifying a more effective treatment strategy."
+    },
+    {
+      "nctId": "NCT06462222",
+      "url": "https://clinicaltrials.gov/study/NCT06462222",
+      "lastUpdate": "2026-05-11",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "briefTitle": "Immune Checkpoint Inhibitor Combined With Pemetrexed Intrathecal Injection for Leptomeningeal Metastasis From Solid Tumors",
+      "officialTitle": "Immune Checkpoint Inhibitor Combined With Pemetrexed Intrathecal Injection for Leptomeningeal Metastasis From Solid Tumors: a Phase I/II Study",
+      "conditions": [
+        "Leptomeningeal Metastasis"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "This is an open-label, single-arm, phase I/II trial of immune checkpoint inhibitor combined with pemetrexed intrathecal injection for leptomeningeal metastasis from solid tumors."
+    },
     {
       "nctId": "NCT06497543",
       "url": "https://clinicaltrials.gov/study/NCT06497543",
@@ -25,7 +65,7 @@
     {
       "nctId": "NCT06500481",
       "url": "https://clinicaltrials.gov/study/NCT06500481",
-      "lastUpdate": "2026-04-03",
+      "lastUpdate": "2026-05-07",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -352,7 +392,7 @@
     {
       "nctId": "NCT06810804",
       "url": "https://clinicaltrials.gov/study/NCT06810804",
-      "lastUpdate": "2025-10-14",
+      "lastUpdate": "2026-04-13",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -606,6 +646,24 @@
       "briefSummary": "This is a multi-center, open-label, two-cohort study. The purpose of this study is to evaluate the safety, tolerability and efficacy of SHR-A1811 in the treatment of HER2-positive breast cancer with brain and leptomeningeal metastases, and the efficacy and safety of SHR-A1811 in the treatment of HER2-positive breast cancer with brain but without leptomeningeal metastases."
     },
     {
+      "nctId": "NCT07178938",
+      "url": "https://clinicaltrials.gov/study/NCT07178938",
+      "lastUpdate": "2025-11-14",
+      "status": "NOT_YET_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Platform Trial Assessing Uptake, Safety and Efficacy of Theranostic Agents in Solid Tumors With Active Brain Metastases",
+      "officialTitle": "An International, Multicenter, Open-label, Multicohort, Platform Trial Assessing Uptake, Safety and Efficacy of Theranostic Agents in Solid Tumors With Active Brain Metastases (the THERANOVA Study; NMN-02).",
+      "conditions": [
+        "Solid Tumors",
+        "HER2-positive Breast Cancer"
+      ],
+      "countries": [],
+      "briefSummary": "This trial will evaluate treatment for patients with solid tumors with active brain metastases. Patients will be treated with a theranostic or diagnostic agent. Theranostic agents are targeted radioactive drugs used to identify (diagnose) and to deliver therapy. The main purpose of the study is to analyze the efficacy (to find out how effective a treatment is) of each of the theranostic agents in patients who have solid tumors with active brain metastases. In the diagnostic phase, the main objective is to determine the proportion of patients showing target expression in the brain lesion after a single dose of diagnostic agent. In the therapeutic phase, the theranostic agent's efficacy will be determined by assessing the response rate in the brain, defined as intracranial response rate at 24 weeks."
+    },
+    {
       "nctId": "NCT07193654",
       "url": "https://clinicaltrials.gov/study/NCT07193654",
       "lastUpdate": "2025-09-26",
@@ -810,7 +868,7 @@
     {
       "nctId": "NCT07398599",
       "url": "https://clinicaltrials.gov/study/NCT07398599",
-      "lastUpdate": "2026-02-10",
+      "lastUpdate": "2026-04-23",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -849,7 +907,7 @@
     {
       "nctId": "NCT07415018",
       "url": "https://clinicaltrials.gov/study/NCT07415018",
-      "lastUpdate": "2026-02-17",
+      "lastUpdate": "2026-04-14",
       "status": "NOT_YET_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -902,6 +960,67 @@
         "Ireland"
       ],
       "briefSummary": "The PRIMROSE CSF Study aims to study cerebrospinal fluid (CSF) in patients with breast cancer that has spread to the brain (brain metastasis) or the lining surrounding the brain (leptomeningeal disease). Research into breast cancer that has spread to the brain or the lining of the brain is limited due to difficulty in obtaining brain tissue containing cancer cells. Such tissue is typically only available when tumours are removed, which does not occur in all patients. Evidence indicates an increasing number of patients with breast cancer are developing disease that spreads to the brain or the lining of the brain as treatments improve. The PRIMROSE CSF Study aims to improve understanding of breast cancers that spread to the brain or brain lining by collecting and analysing the fluid that circulates around the brain and comparing these samples with other cancer and blood samples. Cancer cells that have spread to the brain or its lining shed genetic material into the surrounding fluid. Collection of this fluid enables purification of genetic material released by breast cancer cells. This approach allows examination of the genetic profile of breast cancer cells affecting the brain or its lining without the need for surgery. Differences between the original cancer and metastatic disease in the brain can then be analysed. This research will support improved understanding of why certain breast cancers spread to the brain and contribute to the development of new treatments for breast cancer that has spread to the brain or the lining of the brain."
+    },
+    {
+      "nctId": "NCT07511725",
+      "url": "https://clinicaltrials.gov/study/NCT07511725",
+      "lastUpdate": "2026-04-06",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Prophylactic Regimen With Intrathecal Thiotepa in SVZ-positive or Meningeal-risk Glioblastoma",
+      "officialTitle": "A Pilot Study of Prophylactic Intrathecal Thiotepa Plus the Stupp Regimen for Glioblastoma With Subventricular Zone Contact or Intraoperative Ventricular Entry（PRISM-Trial）",
+      "conditions": [
+        "Glioblastoma (GBM)"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "The goal of this clinical trial is to test whether adding preventive intrathecal chemotherapy (thiotepa) to the standard Stupp regimen can lower the risk of leptomeningeal metastasis (LM) and extend survival in patients with newly diagnosed glioblastoma (GBM) whose tumors touch the sub-ventricular zone (SVZ+) or whose surgery accidentally opened the ventricle (VE). The main questions it aims to answer are:\n\nCan six weekly intrathecal injections of thiotepa (10 mg) given during chemoradiotherapy increase the chance of remaining free of LM at one year? Does the approach also prolong overall survival and progression-free survival compared with historical controls? Is the combination safe and well-tolerated in this high-risk population?\n\nParticipants will:\n\nReceive maximal safe tumor resection followed by standard radiotherapy (60 Gy/30 fractions) plus daily temozolomide (75 mg/m²).\n\nBegin thiotepa injections (via lumbar puncture or Ommaya reservoir) within 1 week of starting radiotherapy, repeated every 7 days for 6 doses.\n\nContinue standard adjuvant temozolomide (150-200 mg/m² days 1-5/28) for 6 cycles.\n\nUnderstand that all procedures, toxicities and survival will be tracked for 2 years, with MRI and clinical visits every 4-8 weeks.\n\nProvide CSF and blood samples for exploratory biomarkers that may predict response or resistance."
+    },
+    {
+      "nctId": "NCT07551414",
+      "url": "https://clinicaltrials.gov/study/NCT07551414",
+      "lastUpdate": "2026-04-24",
+      "status": "NOT_YET_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Zorifertinib Plus Intra-Ommaya CSF Chemotherapy for Leptomeningeal Progression in NSCLC After Third-Generation EGFR-TKI",
+      "officialTitle": "A Prospective Study of Zorifertinib Plus Intra-Ommaya CSF Chemotherapy for Leptomeningeal Progression in NSCLC After Third-Generation EGFR-TKI Therapy",
+      "conditions": [
+        "NSCLC (Non-small Cell Lung Carcinoma)",
+        "Leptomeningeal Metastasis",
+        "EGFR-TKI Sensitizing Mutation",
+        "Zorifertinib"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "A Prospective Study of Zorifertinib Combined with Intra-Ommaya Reservoir Cerebrospinal Fluid Chemotherapy for Leptomeningeal Progression in NSCLC Patients After Third-Generation EGFR-TKI Therapy"
+    },
+    {
+      "nctId": "NCT07559097",
+      "url": "https://clinicaltrials.gov/study/NCT07559097",
+      "lastUpdate": "2026-04-30",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "briefTitle": "Exploration of the Application of Methotrexate-loaded Drug Vesicles in Intrathecal Injection for Meningeal Metastasis of Lung Cancer",
+      "officialTitle": "A Phase I/II, Single-arm, Single-center Clinical Study: Exploration of the Application of Methotrexate-loaded Drug Vesicles in Intrathecal Injection for Meningeal Metastasis of Lung Cancer",
+      "conditions": [
+        "Leptomeningeal Metastasis From Lung Cancer"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "This is a phase I/II, single-arm, open-label, single-center clinical trial to evaluate the safety, tolerability, and preliminary efficacy of intrathecal injection of methotrexate-loaded autologous tumor cell-derived microparticles (MTX-MPs) in patients with leptomeningeal metastasis from lung cancer who have failed standard of care.\n\nThe study consists of two phases: Phase I employs an accelerated titration combined with a \"3+3\" dose-escalation design to determine the maximum tolerated dose (MTD) and the recommended phase II dose (RP2D). Phase II further assesses the objective response rate (ORR) at the RP2D. Key secondary endpoints include progression-free survival (PFS), overall survival (OS), and safety profile.\n\nApproximately 10-20 patients with cytologically confirmed leptomeningeal metastasis (age ≥18 years, ECOG PS 0-3) will be enrolled. Participants will receive intrathecal MTX-MPs on days 1, 3, and 5 of the first cycle, followed by once every 3 weeks (Q3W) until disease progression, unacceptable toxicity, or death.\n\nTumor response will be evaluated using the Response Assessment in Neuro-Oncology (RANO) criteria for leptomeningeal metastasis, and adverse events will be graded according to CTCAE version 5.0. This exploratory study may provide a novel local therapeutic approach for leptomeningeal metastasis from lung cancer."
     }
   ]
 }

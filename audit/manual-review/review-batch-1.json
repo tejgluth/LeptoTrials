@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T20:37:44.833Z",
+  "generatedAt": "2026-05-12T20:38:20.490Z",
   "batch": 1,
   "instructions": {
     "siteEligible": "true if the study should appear anywhere on the website for LM patients; false otherwise",
@@ -103,6 +103,14 @@
       "rationale": ""
     },
     {
+      "nctId": "NCT00031928",
+      "briefTitle": "Mafosfamide in Treating Patients With Progressive or Refractory Meningeal Tumors",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
       "nctId": "NCT00074607",
       "briefTitle": "Intrathecal Gemcitabine to Treat Neoplastic Meningitis, IT Gemcitabine",
       "siteEligible": null,
@@ -127,8 +135,40 @@
       "rationale": ""
     },
     {
+      "nctId": "NCT00210340",
+      "briefTitle": "A Phase I Study of Intrathecal Rituximab in Patients With Lymphomatous Meningitis",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT00221325",
+      "briefTitle": "A Safety Study of Rituximab Plus MTX Injected Into the Cerebrospinal Fluid in the Treatment of Brain Lymphoma",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
       "nctId": "NCT00372515",
       "briefTitle": "High Dose Gefitinib for the Treatment of Carcinomatous Meningitis in Adult Patients With Non-Small Cell Lung Cancer and Known or Suspected EGFR Mutations",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT00392834",
+      "briefTitle": "Rituximab and Combination Chemotherapy in Treating Patients With Newly Diagnosed, HIV-Associated Burkitt's Lymphoma",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT00416923",
+      "briefTitle": "Intrathecal Rituximab in Treating Patients With Recurrent CNS Lymphoma",
       "siteEligible": null,
       "tumorLabels": [],
       "confidence": "",
@@ -201,6 +241,14 @@
     {
       "nctId": "NCT00674674",
       "briefTitle": "Phase 1 Intrathecal Topotecan for Neoplastic Meningitis",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT00801216",
+      "briefTitle": "High-dose Sequential Chemoimmunotherapy for B-cell Lymphomas With Central Nervous System Involvement",
       "siteEligible": null,
       "tumorLabels": [],
       "confidence": "",
@@ -311,6 +359,14 @@
       "rationale": ""
     },
     {
+      "nctId": "NCT01654497",
+      "briefTitle": "Dexanabinol in Patients With Brain Cancer",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
       "nctId": "NCT01713699",
       "briefTitle": "Circulating Tumor Cells and Cytology in Cerebrospinal Fluid of Patients Clinically Suspected for Leptomeningeal Metastases",
       "siteEligible": null,
@@ -321,6 +377,14 @@
     {
       "nctId": "NCT01818713",
       "briefTitle": "Clinical and Pharmacological Study With 2B3-101 in Patients With Breast Cancer and Leptomeningeal Metastases",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT01857752",
+      "briefTitle": "Phase II Study Temozolomide for Retinoblastoma Metastatic to the Central Nervous System for Patients From Guatemala",
       "siteEligible": null,
       "tumorLabels": [],
       "confidence": "",
@@ -343,6 +407,14 @@
       "rationale": ""
     },
     {
+      "nctId": "NCT02308020",
+      "briefTitle": "A Study of Abemaciclib (LY2835219) in Participants With Breast Cancer, Non-small Cell Lung Cancer, or Melanoma That Has Spread to the Brain",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
       "nctId": "NCT02336451",
       "briefTitle": "A Phase II Study to Evaluate the Efficacy and Safety of Oral Ceritinib in Patients With ALK-positive NSCLC Metastatic to the Brain and/or to Leptomeninges",
       "siteEligible": null,
@@ -359,24 +431,8 @@
       "rationale": ""
     },
     {
-      "nctId": "NCT02607605",
-      "briefTitle": "A Prospective, Observational Trial on the Diagnostic and Prognostic of LM",
-      "siteEligible": null,
-      "tumorLabels": [],
-      "confidence": "",
-      "rationale": ""
-    },
-    {
-      "nctId": "NCT02616393",
-      "briefTitle": "Phase 2 Study of Study of Tesevatinib in Subjects With NSCLC and Brain or Leptomeningeal Metastases",
-      "siteEligible": null,
-      "tumorLabels": [],
-      "confidence": "",
-      "rationale": ""
-    },
-    {
-      "nctId": "NCT02650752",
-      "briefTitle": "Intermittent High-Dose Lapatinib in Tandem With Capecitabine for HER2 Overexpressed/Amplified Metastatic Breast Cancer With Central Nervous System (CNS) Metastases",
+      "nctId": "NCT02423525",
+      "briefTitle": "Safety Study of Afatinib for Brain Cancer",
       "siteEligible": null,
       "tumorLabels": [],
       "confidence": "",

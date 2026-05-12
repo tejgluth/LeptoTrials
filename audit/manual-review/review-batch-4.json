@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T20:37:44.835Z",
+  "generatedAt": "2026-05-12T20:38:20.494Z",
   "batch": 4,
   "instructions": {
     "siteEligible": "true if the study should appear anywhere on the website for LM patients; false otherwise",
@@ -14,6 +14,22 @@
     "rationale": "Short evidence-based note from the ClinicalTrials.gov record"
   },
   "reviews": [
+    {
+      "nctId": "NCT06462092",
+      "briefTitle": "Sacituzumab Govitecan and Intrathecal Chemotherapy for Treating Leptomeningeal Metastases From Her2-negative Breast Cancer",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT06462222",
+      "briefTitle": "Immune Checkpoint Inhibitor Combined With Pemetrexed Intrathecal Injection for Leptomeningeal Metastasis From Solid Tumors",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
     {
       "nctId": "NCT06497543",
       "briefTitle": "Intrathecal Pemetrexed for SCLC Patients With Refractory Brain Metastases or Leptomeninges Metastatic",
@@ -255,6 +271,14 @@
       "rationale": ""
     },
     {
+      "nctId": "NCT07178938",
+      "briefTitle": "Platform Trial Assessing Uptake, Safety and Efficacy of Theranostic Agents in Solid Tumors With Active Brain Metastases",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
       "nctId": "NCT07193654",
       "briefTitle": "Stupp Treatment With Intrathecal Injection of Thiotepa for Glioblastoma With Advanced Spread",
       "siteEligible": null,
@@ -369,6 +393,30 @@
     {
       "nctId": "NCT07503704",
       "briefTitle": "A Prospective Study of the Genomic Landscape of Central Nervous System Disease Secondary to Breast Cancer Utilising Cell-free DNA Derived From Cerebrospinal Fluid (CSF)",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT07511725",
+      "briefTitle": "Prophylactic Regimen With Intrathecal Thiotepa in SVZ-positive or Meningeal-risk Glioblastoma",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT07551414",
+      "briefTitle": "Zorifertinib Plus Intra-Ommaya CSF Chemotherapy for Leptomeningeal Progression in NSCLC After Third-Generation EGFR-TKI",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT07559097",
+      "briefTitle": "Exploration of the Application of Methotrexate-loaded Drug Vesicles in Intrathecal Injection for Meningeal Metastasis of Lung Cancer",
       "siteEligible": null,
       "tumorLabels": [],
       "confidence": "",

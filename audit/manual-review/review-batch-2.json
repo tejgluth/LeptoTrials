@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T20:37:44.833Z",
+  "generatedAt": "2026-05-12T20:38:20.492Z",
   "batch": 2,
   "instructions": {
     "siteEligible": "true if the study should appear anywhere on the website for LM patients; false otherwise",
@@ -14,6 +14,46 @@
     "rationale": "Short evidence-based note from the ClinicalTrials.gov record"
   },
   "reviews": [
+    {
+      "nctId": "NCT02542514",
+      "briefTitle": "Study of Ibrutinib in Patients With Relapsed or Refractory Primary Central Nervous Lymphoma or Intraocular Lymphoma",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT02590510",
+      "briefTitle": "Different Dose of Methotrexate for the Treatment of Meningeal Carcinomatosis",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT02607605",
+      "briefTitle": "A Prospective, Observational Trial on the Diagnostic and Prognostic of LM",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT02616393",
+      "briefTitle": "Phase 2 Study of Study of Tesevatinib in Subjects With NSCLC and Brain or Leptomeningeal Metastases",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT02650752",
+      "briefTitle": "Intermittent High-Dose Lapatinib in Tandem With Capecitabine for HER2 Overexpressed/Amplified Metastatic Breast Cancer With Central Nervous System (CNS) Metastases",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
     {
       "nctId": "NCT02684071",
       "briefTitle": "Phase II Study of Intraventricular Methotrexate in Children With Recurrent or Progressive Malignant Brain Tumors",
@@ -39,6 +79,22 @@
       "rationale": ""
     },
     {
+      "nctId": "NCT02886585",
+      "briefTitle": "Pembrolizumab In Central Nervous System Metastases",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT02896335",
+      "briefTitle": "Palbociclib and Pembrolizumab In Central Nervous System Metastases",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
       "nctId": "NCT02939300",
       "briefTitle": "Ipilimumab and Nivolumab in Leptomeningeal Metastases",
       "siteEligible": null,
@@ -49,6 +105,14 @@
     {
       "nctId": "NCT02948751",
       "briefTitle": "Microfluidic Device to Diagnose Leptomeningeal Metastasis in Breast Cancer",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT02962167",
+      "briefTitle": "Modified Measles Virus (MV-NIS) for Children and Young Adults With Recurrent Medulloblastoma or Recurrent ATRT",
       "siteEligible": null,
       "tumorLabels": [],
       "confidence": "",
@@ -127,6 +191,14 @@
       "rationale": ""
     },
     {
+      "nctId": "NCT03500991",
+      "briefTitle": "HER2-specific CAR T Cell Locoregional Immunotherapy for HER2-positive Recurrent/Refractory Pediatric CNS Tumors",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
       "nctId": "NCT03501979",
       "briefTitle": "Tucatinib, Trastuzumab, and Capecitabine for the Treatment of HER2+ LMD",
       "siteEligible": null,
@@ -151,8 +223,24 @@
       "rationale": ""
     },
     {
+      "nctId": "NCT03574402",
+      "briefTitle": "Phase II Umbrella Study Directed by Next Generation Sequencing",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
       "nctId": "NCT03613181",
       "briefTitle": "ANG1005 in Leptomeningeal Disease From Breast Cancer",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT03638167",
+      "briefTitle": "EGFR806-specific CAR T Cell Locoregional Immunotherapy for EGFR-positive Recurrent or Refractory Pediatric CNS Tumors",
       "siteEligible": null,
       "tumorLabels": [],
       "confidence": "",
@@ -209,6 +297,14 @@
     {
       "nctId": "NCT04178343",
       "briefTitle": "Tomotherapy for Leptomeningeal Metastases",
+      "siteEligible": null,
+      "tumorLabels": [],
+      "confidence": "",
+      "rationale": ""
+    },
+    {
+      "nctId": "NCT04185038",
+      "briefTitle": "Study of B7-H3-Specific CAR T Cell Locoregional Immunotherapy for Diffuse Intrinsic Pontine Glioma/Diffuse Midline Glioma and Recurrent or Refractory Pediatric Central Nervous System Tumors",
       "siteEligible": null,
       "tumorLabels": [],
       "confidence": "",
@@ -337,46 +433,6 @@
     {
       "nctId": "NCT04778800",
       "briefTitle": "A Dose Exploration Study of Almonertinib for EGFRm NSCLC Patients With Brain/Leptomeningeal Metastasis (ARTISTRY)",
-      "siteEligible": null,
-      "tumorLabels": [],
-      "confidence": "",
-      "rationale": ""
-    },
-    {
-      "nctId": "NCT04833205",
-      "briefTitle": "Clinical Efficacy and Safety of EGFR-TKI Combined With Nimotuzumab in the Treatment of Leptomeningeal Metastases From Lung Cancer",
-      "siteEligible": null,
-      "tumorLabels": [],
-      "confidence": "",
-      "rationale": ""
-    },
-    {
-      "nctId": "NCT04944069",
-      "briefTitle": "Almonertinib With Bevacizumab for EGFR-Mutant NSCLC Patients With Leptomeningeal Metastasis",
-      "siteEligible": null,
-      "tumorLabels": [],
-      "confidence": "",
-      "rationale": ""
-    },
-    {
-      "nctId": "NCT05034497",
-      "briefTitle": "Intraventricular Administration of Rhenium-186 NanoLiposome for Leptomeningeal Metastases",
-      "siteEligible": null,
-      "tumorLabels": [],
-      "confidence": "",
-      "rationale": ""
-    },
-    {
-      "nctId": "NCT05063682",
-      "briefTitle": "The Efficacy and Safety of Brain-targeting Immune Cells (EGFRvIII-CAR T Cells) in Treating Patients With Leptomeningeal Disease From Glioblastoma. Administering Patients EGFRvIII -CAR T Cells May Help to Recognize and Destroy Brain Tumor Cells in Patients",
-      "siteEligible": null,
-      "tumorLabels": [],
-      "confidence": "",
-      "rationale": ""
-    },
-    {
-      "nctId": "NCT05064306",
-      "briefTitle": "131I-omburtamab for the Treatment of Central Nervous System/Leptomeningeal Neoplasms in Children and Young Adults",
       "siteEligible": null,
       "tumorLabels": [],
       "confidence": "",

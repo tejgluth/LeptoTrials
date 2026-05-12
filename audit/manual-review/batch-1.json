@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-03T20:37:44.832Z",
+  "generatedAt": "2026-05-12T20:38:20.488Z",
   "batch": 1,
-  "batchSize": 46,
+  "batchSize": 53,
   "records": [
     {
       "nctId": "NCT00002750",
@@ -257,6 +257,25 @@
       "briefSummary": "The purpose of this study is to find out how well an experimental drug called DepoCyt works for neoplastic meningitis (cancer that has spread to the tissues around the brain and spinal cord). DepoCyt is a new slow-release form of the cancer drug called ara-C (cytarabine). Cytarabine has been used for many years to treat cancer."
     },
     {
+      "nctId": "NCT00031928",
+      "url": "https://clinicaltrials.gov/study/NCT00031928",
+      "lastUpdate": "2015-04-30",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "briefTitle": "Mafosfamide in Treating Patients With Progressive or Refractory Meningeal Tumors",
+      "officialTitle": "Phase I Study of Intrathecal Mafosfamide",
+      "conditions": [
+        "Brain and Central Nervous System Tumors"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: Phase I trial to determine the effectiveness of mafosfamide in treating patients who have progressive or refractory meningeal tumors."
+    },
+    {
       "nctId": "NCT00074607",
       "url": "https://clinicaltrials.gov/study/NCT00074607",
       "lastUpdate": "2012-11-12",
@@ -321,6 +340,43 @@
       "briefSummary": "RATIONALE: Drugs used in chemotherapy, such as topotecan, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing.\n\nPURPOSE: This phase I trial is studying the side effects, best way to give, and best dose of topotecan when given by intraventricular infusion in treating young patients with neoplastic meningitis due to leukemia, lymphoma, or solid tumors."
     },
     {
+      "nctId": "NCT00210340",
+      "url": "https://clinicaltrials.gov/study/NCT00210340",
+      "lastUpdate": "2015-03-30",
+      "status": "WITHDRAWN",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "briefTitle": "A Phase I Study of Intrathecal Rituximab in Patients With Lymphomatous Meningitis",
+      "officialTitle": "A Phase I Study of Intrathecal Rituximab in Patients With Lymphomatous Meningitis",
+      "conditions": [
+        "Lymphoma, B Cell"
+      ],
+      "countries": [],
+      "briefSummary": "The purpose of this study is to define the safety profile of rituximab given intrathecally in lymphomatous meningitis related to CD20+ non-Hodgkin's lymphomas."
+    },
+    {
+      "nctId": "NCT00221325",
+      "url": "https://clinicaltrials.gov/study/NCT00221325",
+      "lastUpdate": "2015-02-16",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "briefTitle": "A Safety Study of Rituximab Plus MTX Injected Into the Cerebrospinal Fluid in the Treatment of Brain Lymphoma",
+      "officialTitle": "Phase I Study of Intraventricular Administration of Rituximab in Combination With Methotrexate in the Treatment of Recurrent CNS and Intraocular Lymphoma",
+      "conditions": [
+        "Central Nervous System Lymphoma",
+        "Intraocular Lymphoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "Rituximab is the first monoclonal antibody to receive approval in the treatment of cancer and has been proven to lead to extended survival when administered intravenously in the treatment of patients with systemic non-Hodgkin's lymphoma. We have previously demonstrated that a small fraction of Rituximab administered intravenously is able to cross the blood-brain-barrier into the brain.\n\nWe will test the idea that the direct injection into the cerebrospinal fluid of Rituximab, a monoclonal antibody which attacks and kills lymphoma cells, is safe and when used in combination with methotrexate in patients with recurrent brain and intraocular lymphoma.\n\nWe will also test the idea that the combination of rituximab plus methotrexate has activity and is effective in the treatment of recurrent brain and intraocular lymphoma."
+    },
+    {
       "nctId": "NCT00372515",
       "url": "https://clinicaltrials.gov/study/NCT00372515",
       "lastUpdate": "2018-01-31",
@@ -338,6 +394,43 @@
         "United States"
       ],
       "briefSummary": "The primary purposes of this study are to find out if using high doses of the drug Gefitinib (Iressa) as a way to treat patients with non-small cell lung cancer that has spread to the covering of the brain and/or spinal cord (meninges) results in any bad side effects; and to determine the highest dose that can be given to patients in this setting."
+    },
+    {
+      "nctId": "NCT00392834",
+      "url": "https://clinicaltrials.gov/study/NCT00392834",
+      "lastUpdate": "2018-06-06",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Rituximab and Combination Chemotherapy in Treating Patients With Newly Diagnosed, HIV-Associated Burkitt's Lymphoma",
+      "officialTitle": "Prospective Phase II Study of a High Dose, Short Course Regimen (R-CODOX-M/IVAC) Including CNS Penetration and Intensive IT Prophylaxis in HIV-Associated Burkitt's and Atypical Burkitt's Lymphoma",
+      "conditions": [
+        "Lymphoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "RATIONALE: Monoclonal antibodies, such as rituximab, can block cancer growth in different ways. Some block the ability of cancer cells to grow and spread. Others find cancer cells and help kill them or carry cancer-killing substances to them. Drugs used in chemotherapy work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Giving rituximab together with combination chemotherapy may kill more cancer cells.\n\nPURPOSE: This phase II trial is studying how well giving rituximab together with combination chemotherapy works in treating patients with newly diagnosed, HIV-associated Burkitt's lymphoma."
+    },
+    {
+      "nctId": "NCT00416923",
+      "url": "https://clinicaltrials.gov/study/NCT00416923",
+      "lastUpdate": "2015-02-16",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "briefTitle": "Intrathecal Rituximab in Treating Patients With Recurrent CNS Lymphoma",
+      "officialTitle": "Phase I Study of Intrathecal Rituximab in Patients With Recurrent CNS Lymphoma",
+      "conditions": [
+        "Brain and Central Nervous System Tumors",
+        "Lymphoma"
+      ],
+      "countries": [],
+      "briefSummary": "RATIONALE: Monoclonal antibodies, such as rituximab, can block cancer growth in different ways. Some block the ability of cancer cells to grow and spread. Others find cancer cells and help kill them or carry cancer-killing substances to them. Giving rituximab intrathecally may be an effective treatment for recurrent CNS lymphoma.\n\nPURPOSE: This phase I trial is studying the side effects and best dose of intrathecal rituximab in treating patients with recurrent CNS lymphoma."
     },
     {
       "nctId": "NCT00424242",
@@ -535,6 +628,25 @@
         "United States"
       ],
       "briefSummary": "1. To find the optimal dose of topotecan that can safely be given directly into the spinal fluid (called intrathecal administration) of children whose cancer has spread to the lining of the brain and/or spinal cord.\n2. To find out what effects (good and bad) topotecan has when given directly into the cerebrospinal fluid in children with neoplastic meningitis (cancer that has spread to the lining of the brain and spinal cord).\n\n   * Cerebrospinal fluid is the fluid that circulates around the brain and spinal cord.\n3. To determine if intrathecal topotecan is beneficial to patients.\n4. To better understand how topotecan is handled by the body after intrathecal administration.\n5. To evaluate the cerebrospinal fluid for signs (markers) of tumor spread."
+    },
+    {
+      "nctId": "NCT00801216",
+      "url": "https://clinicaltrials.gov/study/NCT00801216",
+      "lastUpdate": "2024-12-10",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "High-dose Sequential Chemoimmunotherapy for B-cell Lymphomas With Central Nervous System Involvement",
+      "officialTitle": "High-dose Sequential Chemotherapy and Rituximab (R-HDS) in Patients With Systemic B-cell Lymphoma With Central Nervous System Involvement at Diagnosis or Relapse",
+      "conditions": [
+        "B-cell Lymphomas"
+      ],
+      "countries": [
+        "Italy"
+      ],
+      "briefSummary": "This prospective trial will assess the activity and feasibility of a new high-dose methotrexate-based high-dose sequential chemotherapy combination in patients with B-cell lymphomas and CNS involvement at diagnosis or relapse. Selected drugs, with a well-documented anti-lymphoma activity, will be administered at high doses to increase blood-brain barrier penetration and CNS bioavailability as well as to reduce potential cross-resistance."
     },
     {
       "nctId": "NCT00830245",
@@ -801,6 +913,25 @@
       "briefSummary": "The purpose of this study is to evaluate the impact of Depocyte® IT combined with the systemic standard treatment in terms of clinical and/or radiological neuromeningeal progression free survival (SSPN)"
     },
     {
+      "nctId": "NCT01654497",
+      "url": "https://clinicaltrials.gov/study/NCT01654497",
+      "lastUpdate": "2019-11-14",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "briefTitle": "Dexanabinol in Patients With Brain Cancer",
+      "officialTitle": "A Phase I, Sequential Cohort, Open-Label, Dose-escalation Study of the Safety and CNS Pharmacokinetics of Dexanabinol in Patients With Brain Cancer",
+      "conditions": [
+        "Brain Cancer"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "The purpose of this study is to try to determine the maximum safe dose of dexanabinol that can be administered to people with brain cancer. Other purposes of this study are to:\n\n* find out what effects (good and bad) dexanabinol has;\n* see how much drug gets into the body by collecting blood and cerebrospinal fluid for use in pharmacokinetic (PK) studies;\n* learn more about how dexanabinol might affect the growth of cancer cells;\n* look at biomarkers (biochemical features that can be used to measure the progress of disease or the effects of a drug)."
+    },
+    {
       "nctId": "NCT01713699",
       "url": "https://clinicaltrials.gov/study/NCT01713699",
       "lastUpdate": "2021-01-22",
@@ -837,6 +968,25 @@
         "Netherlands"
       ],
       "briefSummary": "Leptomeningeal metastases (LM) develop when tumor cells reach the cerebrospinal fluid (CSF) and infiltrate the leptomeninges. The median survival of patient with breast cancer and LM is 4-6 months with up to 25% long-term survivors. Many potentially highly efficacious intravenous chemotherapies are currently not effective to treat LM because they do not adequately cross the blood-CSF barrier.\n\nDoxorubicin, the anthracycline chemotherapeutic agent, has a well-established antineoplastic activity in breast cancer. To optimally enhance the delivery of liposomal doxorubicin to the brain, to-BBB technologies B.V. has designed a glutathione (GSH) pegylated liposomal doxorubicin hydrochloride formulation (2B3-101). Coating of liposomes with PEG ensures the prolonged circulation time in plasma, whilst conjugation of GSH to the tips of the PEG molecules targets the liposomes towards the active GSH transporters on the BBB to enhance the delivery of doxorubicin to the brain.\n\nThis is a a clinical and pharmacological study that aims to determine preliminary efficacy of treatment with 2B3-101 in patients with leptomeningeal metastases of breast cancer using the LM response score."
+    },
+    {
+      "nctId": "NCT01857752",
+      "url": "https://clinicaltrials.gov/study/NCT01857752",
+      "lastUpdate": "2017-01-30",
+      "status": "TERMINATED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Phase II Study Temozolomide for Retinoblastoma Metastatic to the Central Nervous System for Patients From Guatemala",
+      "officialTitle": "Phase II Study Temozolomide for Retinoblastoma Metastatic to the Central Nervous System for Patients From Guatemala",
+      "conditions": [
+        "Retinoblastoma"
+      ],
+      "countries": [
+        "Guatemala"
+      ],
+      "briefSummary": "Primary Objectives:\n\n1. To investigate the response rate (complete response plus partial response) of temozolomide for 8 weeks (2 cycles), in patients with retinoblastoma metastatic to the central nervous system (mass only) in two strata:\n\n   * A. Initial diagnosis (mass)\n   * B. At relapse (mass)\n2. To determine hematologic toxicity: absolute neutrophil count (ANC), platelets and hemoglobin count.\n\nSecondary Objectives:\n\n1. To determine the response in other metastatic sites (non target) (orbit, bone marrow, bone, lung, liver and others)\n2. To determine the remission rate and time to relapse on temozolomide.\n3. To document the response of leptomeningeal metastasis (cerebrospinal fluid) to temozolomide"
     },
     {
       "nctId": "NCT02071056",
@@ -876,6 +1026,36 @@
         "Taiwan"
       ],
       "briefSummary": "This is the first time in patient study to assess the safety, tolerability and preliminary efficacy of AZD3759 in patients with advanced Non Small Cell Lung Cancer (NSCLC) In this study, patients with Leptomeningeal Metastasis and Brain Metastasis may also be enrolled to assess the anti-tumour efficacy, safety, pharmacokinetics and potential biological activity of AZD9291"
+    },
+    {
+      "nctId": "NCT02308020",
+      "url": "https://clinicaltrials.gov/study/NCT02308020",
+      "lastUpdate": "2020-12-19",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "A Study of Abemaciclib (LY2835219) in Participants With Breast Cancer, Non-small Cell Lung Cancer, or Melanoma That Has Spread to the Brain",
+      "officialTitle": "A Phase 2 Study of Abemaciclib in Patients With Brain Metastases Secondary to Hormone Receptor Positive Breast Cancer, Non-small Cell Lung Cancer, or Melanoma",
+      "conditions": [
+        "Breast Cancer",
+        "Non-small Cell Lung Cancer",
+        "Melanoma",
+        "Brain Metastases"
+      ],
+      "countries": [
+        "United States",
+        "Australia",
+        "Austria",
+        "Belgium",
+        "Canada",
+        "France",
+        "Israel",
+        "Italy",
+        "Spain"
+      ],
+      "briefSummary": "The main purpose of this study is to evaluate the safety and effectiveness of the study drug known as abemaciclib in participants with hormone receptor positive breast cancer, non-small cell lung cancer (NSCLC), or melanoma that has spread to the brain."
     },
     {
       "nctId": "NCT02336451",
@@ -933,63 +1113,23 @@
       "briefSummary": "This study is a prospective evaluation of systemic, intravenous high-dose methotrexate (HD-MTX, 8 g/m2) in patients with triple negative, HER2-positive, and hormone refractory breast cancer with leptomeningeal metastasis (LMD) with or without brain parenchymal involvement."
     },
     {
-      "nctId": "NCT02607605",
-      "url": "https://clinicaltrials.gov/study/NCT02607605",
-      "lastUpdate": "2017-10-26",
-      "status": "UNKNOWN",
-      "studyType": "OBSERVATIONAL",
-      "phases": [],
-      "briefTitle": "A Prospective, Observational Trial on the Diagnostic and Prognostic of LM",
-      "officialTitle": "A Prospective, Observational Trial on the Diagnostic and Prognostic Value of Cell-free DNA in Advanced Lung Cancer With Leptomeningeal Metastases",
-      "conditions": [
-        "Lung Neoplasms",
-        "Meningeal Carcinomatosis"
-      ],
-      "countries": [
-        "China"
-      ],
-      "briefSummary": "The primary purpose of this study is to compare the positive rate between the cell-free DNA and cytological examination of cerebrospinal fluid in Advanced lung cancer with leptomeningeal metastases."
-    },
-    {
-      "nctId": "NCT02616393",
-      "url": "https://clinicaltrials.gov/study/NCT02616393",
-      "lastUpdate": "2022-03-16",
-      "status": "COMPLETED",
-      "studyType": "INTERVENTIONAL",
-      "phases": [
-        "PHASE2"
-      ],
-      "briefTitle": "Phase 2 Study of Study of Tesevatinib in Subjects With NSCLC and Brain or Leptomeningeal Metastases",
-      "officialTitle": "A Phase 2, Multicenter Study of Tesevatinib in Subjects With Non-Small Cell Lung Cancer, EGFR Activating Mutation, Prior Treatment With a Tyrosine Kinase Inhibitor, and Brain Metastases or Leptomeningeal Metastases",
-      "conditions": [
-        "Non-Small Cell Lung Cancer",
-        "Leptomeningeal Metastases",
-        "Brain Metastases"
-      ],
-      "countries": [
-        "United States"
-      ],
-      "briefSummary": "A study to assess the activity of tesevatinib in subjects with non-small cell lung cancer (NSCLC) and activating epidermal growth factor receptor (EGFR) mutations who have disease progression with Brain Metastases (BM) or Leptomeningeal Metastases (LM) or who have either BM or LM at initial presentation (IP)"
-    },
-    {
-      "nctId": "NCT02650752",
-      "url": "https://clinicaltrials.gov/study/NCT02650752",
-      "lastUpdate": "2021-01-26",
+      "nctId": "NCT02423525",
+      "url": "https://clinicaltrials.gov/study/NCT02423525",
+      "lastUpdate": "2022-03-10",
       "status": "COMPLETED",
       "studyType": "INTERVENTIONAL",
       "phases": [
         "PHASE1"
       ],
-      "briefTitle": "Intermittent High-Dose Lapatinib in Tandem With Capecitabine for HER2 Overexpressed/Amplified Metastatic Breast Cancer With Central Nervous System (CNS) Metastases",
-      "officialTitle": "Phase I Study of Intermittent High-Dose Lapatinib in Tandem With Capecitabine for HER2 Overexpressed/Amplified Metastatic Breast Cancer With Central Nervous System (CNS) Metastases",
+      "briefTitle": "Safety Study of Afatinib for Brain Cancer",
+      "officialTitle": "A Phase I Dose Escalation and Central Nervous System (CNS) Pharmacokinetic Study of the ErbB Family Inhibitor Afatinib in Patients With Recurrent or Progressive Brain Cancer",
       "conditions": [
-        "Metastatic Breast Cancer",
-        "Central Nervous System (CNS) Metastases"
+        "Brain Cancer"
       ],
       "countries": [
         "United States"
       ],
-      "briefSummary": "The purpose of this study is to see if capecitabine can be taken safely with different doses of lapatinib in patients with HER-2 positive breast cancer involving brain (brain metastases) and/or in spinal fluid (leptomeningeal disease)."
+      "briefSummary": "The purpose of this study is to try to determine the maximum safe dose of afatinib that can be administered to people with brain cancer. Other purposes of this study are to:\n\n* find out what effects (good and bad) afatinib has;\n* see how much drug gets into the body by collecting blood and cerebrospinal fluid for use in pharmacokinetic (PK) studies;\n* learn more about how afatinib might affect the growth of cancer cells;\n* look at biomarkers (biochemical features that can be used to measure the progress of disease or the effects of a drug)."
     }
   ]
 }
