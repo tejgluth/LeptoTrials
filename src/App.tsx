@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from 'react'
+import { useRef, useState } from 'react'
 import Hero from './components/Hero'
 import SearchForm from './components/SearchForm'
 import TrialsList from './components/TrialsList'
@@ -10,9 +10,7 @@ import { DEFAULT_SEARCH_PARAMS } from './utils/apiClient'
 
 export default function App() {
   const searchSectionRef = useRef<HTMLDivElement>(null)
-  const sentinelRef = useRef<HTMLDivElement>(null)
   const resultsRef = useRef<HTMLDivElement>(null)
-  const [isHeaderSticky, setIsHeaderSticky] = useState(false)
   const [isFiltersCollapsed, setIsFiltersCollapsed] = useState(false)
   const [lastSearchParams, setLastSearchParams] = useState<SearchParams>(DEFAULT_SEARCH_PARAMS)
 
@@ -25,29 +23,10 @@ export default function App() {
     search,
   } = useTrialSearch()
 
-  // IntersectionObserver on a 1px sentinel just above the form — runs off the main thread,
-  // no scroll jank. When the sentinel exits past the nav bar we know the form is pinned.
-  useEffect(() => {
-    const sentinel = sentinelRef.current
-    if (!sentinel) return
-    const isMobile = window.matchMedia('(max-width: 639px)').matches
-    const navOffset = isMobile ? 56 : 64
-
-    const observer = new IntersectionObserver(
-      ([entry]) => setIsHeaderSticky(!entry.isIntersecting),
-      // top offset = nav height; 9999px bottom so only the top edge matters
-      { rootMargin: `-${navOffset}px 0px 9999px 0px`, threshold: 0 }
-    )
-    observer.observe(sentinel)
-    return () => observer.disconnect()
-  }, [])
-
   const handleSearch = (params: SearchParams) => {
     setLastSearchParams(params)
     setIsFiltersCollapsed(true)
     search(params)
-    // Give the loading state time to mount before scrolling into view
-    // Let the loading state mount before scrolling so it has a target to scroll to
     requestAnimationFrame(() => {
       resultsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
     })
@@ -55,6 +34,21 @@ export default function App() {
 
   const scrollToSearch = () => {
     searchSectionRef.current?.scrollIntoView({ behavior: 'smooth' })
+  }
+
+  const handleToggleFilters = () => {
+    const isExpanding = isFiltersCollapsed
+    setIsFiltersCollapsed((v) => !v)
+    if (isExpanding) {
+      // Scroll the form into view so the user can reach all filter fields
+      requestAnimationFrame(() => {
+        const navH = window.matchMedia('(max-width: 639px)').matches ? 56 : 64
+        const el = searchSectionRef.current
+        if (!el) return
+        const top = el.getBoundingClientRect().top + window.scrollY - navH
+        window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' })
+      })
+    }
   }
 
   const showResults = hasSearched && !isLoading
@@ -67,41 +61,47 @@ export default function App() {
         <span className="min-w-0 flex-shrink text-[0.9rem] max-[430px]:text-[clamp(0.82rem,2.9vw,0.9rem)] font-bold uppercase tracking-[0.2em] max-[430px]:tracking-[0.16em] sm:tracking-[0.25em] text-[#e8f4fd] whitespace-nowrap">
           Lepto<span className="text-[#38bdf8]">Trials</span>
         </span>
-        <a
-          href="https://clinicaltrials.gov"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="min-w-0 flex-shrink text-[0.75rem] max-[430px]:text-[clamp(0.68rem,2.45vw,0.75rem)] uppercase tracking-[0.16em] max-[430px]:tracking-[0.1em] sm:tracking-widest text-[#8ecfe8] hover:text-[#b0d8ee] transition-colors duration-200 whitespace-nowrap max-[350px]:pl-[1px]"
-        >
-          ClinicalTrials.gov ↗
-        </a>
+        <div className="flex items-center gap-4 sm:gap-6">
+          {hasSearched && (
+            <button
+              type="button"
+              onClick={handleToggleFilters}
+              className="flex items-center gap-1.5 text-xs font-medium text-[#8ecfe8] hover:text-[#b0d8ee] transition-colors cursor-pointer min-h-[44px] px-1"
+              aria-label={isFiltersCollapsed ? 'Show filters' : 'Hide filters'}
+            >
+              {isFiltersCollapsed ? (
+                <>Filters <span className="text-[10px]">▼</span></>
+              ) : (
+                <>Filters <span className="text-[10px]">▲</span></>
+              )}
+            </button>
+          )}
+          <a
+            href="https://clinicaltrials.gov"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="min-w-0 flex-shrink text-[0.75rem] max-[430px]:text-[clamp(0.68rem,2.45vw,0.75rem)] uppercase tracking-[0.16em] max-[430px]:tracking-[0.1em] sm:tracking-widest text-[#8ecfe8] hover:text-[#b0d8ee] transition-colors duration-200 whitespace-nowrap max-[350px]:pl-[1px]"
+          >
+            ClinicalTrials.gov ↗
+          </a>
+        </div>
       </nav>
 
       <Hero onSearchClick={scrollToSearch} />
 
-      {/* 1px sentinel the IntersectionObserver watches — when it exits past the nav
-          the form is pinned, so we switch to the compact layout */}
-      <div ref={sentinelRef} aria-hidden="true" style={{ height: 1 }} />
-
-      <div
-        ref={searchSectionRef}
-        className={`bg-[#060f1e] z-40 transition-shadow duration-300 ${
-          hasSearched ? 'sticky top-14 sm:top-16' : 'relative'
-        } ${isHeaderSticky ? 'shadow-[0_1px_0_#1a3352]' : ''}`}
-      >
+      <div ref={searchSectionRef} className="bg-[#060f1e] scroll-mt-14 sm:scroll-mt-16">
         <SearchForm
           onSearch={handleSearch}
           isLoading={isLoading}
-          compact={hasSearched && isHeaderSticky}
           isCollapsed={isFiltersCollapsed}
-          onToggleCollapsed={() => setIsFiltersCollapsed((v) => !v)}
+          onToggleCollapsed={handleToggleFilters}
         />
       </div>
 
       <div
         id="results"
         ref={resultsRef}
-        className="min-h-[50vh] scroll-mt-[8.5rem] sm:scroll-mt-[9.5rem]"
+        className="min-h-[50vh] scroll-mt-14 sm:scroll-mt-16"
       >
         {isLoading && <LoadingState />}
 

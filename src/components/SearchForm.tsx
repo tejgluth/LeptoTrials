@@ -14,9 +14,7 @@ interface SearchFormProps {
 export default function SearchForm({
   onSearch,
   isLoading,
-  compact = false,
   isCollapsed = false,
-  onToggleCollapsed,
 }: SearchFormProps) {
   const [age, setAge] = useState<string>('')
   const [ageError, setAgeError] = useState<string>('')
@@ -48,7 +46,6 @@ export default function SearchForm({
     )
   }
 
-  // Returns null (no age), a number (valid age), or undefined (invalid — abort submit).
   const validateAge = (val: string): number | null | undefined => {
     if (val === '') {
       setAgeError('')
@@ -68,7 +65,6 @@ export default function SearchForm({
     const parsedAge = validateAge(age)
     if (parsedAge === undefined) return
     if (statuses.length === 0) setStatuses(DEFAULT_STATUSES)
-    // 0 or 2 selected → 'any'; exactly 1 selected → that type
     const studyType: StudyTypeFilter =
       studyTypes.length === 1 ? studyTypes[0] : 'any'
 
@@ -100,15 +96,15 @@ export default function SearchForm({
   ]
 
   const statusOptions: { value: OverallStatus; label: string; color: string }[] = [
-    { value: 'RECRUITING',            label: 'Recruiting',             color: '#34d399' },
-    { value: 'NOT_YET_RECRUITING',    label: 'Not Yet Recruiting',     color: '#fbbf24' },
-    { value: 'ACTIVE_NOT_RECRUITING', label: 'Active, Not Recruiting', color: '#60a5fa' },
+    { value: 'RECRUITING',              label: 'Recruiting',             color: '#34d399' },
+    { value: 'NOT_YET_RECRUITING',      label: 'Not Yet Recruiting',     color: '#fbbf24' },
+    { value: 'ACTIVE_NOT_RECRUITING',   label: 'Active, Not Recruiting', color: '#60a5fa' },
     { value: 'ENROLLING_BY_INVITATION', label: 'Enrolling by Invitation', color: '#a78bfa' },
-    { value: 'COMPLETED',             label: 'Completed',              color: '#6b8ca4' },
-    { value: 'TERMINATED',            label: 'Terminated',             color: '#f87171' },
-    { value: 'WITHDRAWN',             label: 'Withdrawn',              color: '#94a3b8' },
-    { value: 'SUSPENDED',             label: 'Suspended',              color: '#f59e0b' },
-    { value: 'UNKNOWN',               label: 'Unknown',                color: '#94a3b8' },
+    { value: 'COMPLETED',               label: 'Completed',              color: '#6b8ca4' },
+    { value: 'TERMINATED',              label: 'Terminated',             color: '#f87171' },
+    { value: 'WITHDRAWN',               label: 'Withdrawn',              color: '#94a3b8' },
+    { value: 'SUSPENDED',               label: 'Suspended',              color: '#f59e0b' },
+    { value: 'UNKNOWN',                 label: 'Unknown',                color: '#94a3b8' },
   ]
 
   const inputCls =
@@ -116,39 +112,16 @@ export default function SearchForm({
 
   return (
     <form onSubmit={handleSubmit} className="w-full border-b border-[#1a3352]/60">
-      {/* transition-[padding] animates the compact/full height switch without layout shift */}
-      <div className={`px-4 sm:px-8 md:px-12 lg:px-20 max-w-7xl transition-[padding] duration-200 ${compact ? 'py-3.5 sm:py-5' : 'py-6 sm:py-10'}`}>
+      <div className="px-4 sm:px-8 md:px-12 lg:px-20 max-w-7xl py-6 sm:py-10">
 
-        {compact ? (
-          <div className={`flex items-center justify-between gap-3 ${isCollapsed ? '' : 'mb-3'}`}>
-            <p className="text-xs font-semibold uppercase tracking-widest text-[#8ecfe8]">
-              Filter Trials
-            </p>
-            {onToggleCollapsed && (
-              <button
-                type="button"
-                onClick={onToggleCollapsed}
-                className="flex items-center gap-1.5 text-xs font-medium text-[#8ecfe8] hover:text-[#b0d8ee] transition-colors cursor-pointer px-3 py-2 -mr-2 min-h-[44px]"
-                aria-label={isCollapsed ? 'Expand filters' : 'Collapse filters'}
-              >
-                {isCollapsed ? (
-                  <>Show filters <span className="text-[10px]">▼</span></>
-                ) : (
-                  <>Hide filters <span className="text-[10px]">▲</span></>
-                )}
-              </button>
-            )}
-          </div>
-        ) : (
-          <p className="text-xs font-semibold uppercase tracking-widest text-[#8ecfe8] mb-6 sm:mb-7">
-            Filter Trials
-          </p>
-        )}
+        <p className="text-xs font-semibold uppercase tracking-widest text-[#8ecfe8] mb-6 sm:mb-7">
+          Filter Trials
+        </p>
 
-        {(!isCollapsed || !compact) && (
+        {!isCollapsed && (
         <div>
 
-        <div className={`grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 ${compact ? 'mb-3 mt-3' : 'mb-6 sm:mb-7'}`}>
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 mb-6 sm:mb-7">
 
           <div className="flex flex-col gap-2.5">
             <label htmlFor="filter-age" className="text-sm font-semibold text-[#b0d8ee]">
@@ -267,7 +240,7 @@ export default function SearchForm({
           </div>
         </div>
 
-        <div className={`${compact ? 'mb-3' : 'mb-6 sm:mb-8'}`}>
+        <div className="mb-6 sm:mb-8">
           <span className="block text-sm font-semibold text-[#b0d8ee] mb-3">
             Recruitment Status
           </span>
@@ -309,7 +282,7 @@ export default function SearchForm({
           </div>
         </div>
 
-        <div className={`flex flex-col gap-2.5 ${compact ? 'mb-3' : 'mb-6 sm:mb-8'}`}>
+        <div className="flex flex-col gap-2.5 mb-6 sm:mb-8">
           <p className="text-sm font-semibold text-[#b0d8ee]" aria-hidden="true">
             Tumor Type
           </p>
