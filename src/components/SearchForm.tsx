@@ -148,7 +148,7 @@ export default function SearchForm({
         {(!isCollapsed || !compact) && (
         <div>
 
-        <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 ${compact ? 'mb-3 mt-3' : 'mb-6 sm:mb-7'}`}>
+        <div className={`grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 ${compact ? 'mb-3 mt-3' : 'mb-6 sm:mb-7'}`}>
 
           <div className="flex flex-col gap-2.5">
             <label htmlFor="filter-age" className="text-sm font-semibold text-[#b0d8ee]">
@@ -217,13 +217,13 @@ export default function SearchForm({
             <p className="text-sm font-semibold text-[#b0d8ee]" aria-hidden="true">
               Study Type
             </p>
-            <div className="flex gap-2 sm:gap-3" role="group" aria-label="Study type">
+            <div className="flex gap-2" role="group" aria-label="Study type">
               {(['INTERVENTIONAL', 'OBSERVATIONAL'] as const).map((type) => (
                 <button
                   key={type}
                   type="button"
                   onClick={() => toggleStudyType(type)}
-                  className={`flex-1 text-xs sm:text-sm font-medium border transition-colors duration-150 cursor-pointer min-h-[48px] sm:min-h-[52px] px-1.5 sm:px-2 ${
+                  className={`flex-1 text-xs font-medium border transition-colors duration-150 cursor-pointer min-h-[48px] px-1.5 leading-snug ${
                     studyTypes.includes(type)
                       ? 'bg-[#38bdf8] text-[#060f1e] border-[#38bdf8]'
                       : 'bg-[#0a1a2e] text-[#8ecfe8] hover:text-[#b0d8ee] hover:bg-[#0f2240] border-[#1a3352]'
@@ -245,20 +245,19 @@ export default function SearchForm({
                 — select any
               </span>
             </p>
-            <div className="grid grid-cols-3 border border-[#1a3352] overflow-hidden min-h-[48px] sm:min-h-[52px]" role="group" aria-label="Trial phase">
+            <div className="grid grid-cols-3 border border-[#1a3352] overflow-hidden min-h-[48px]" role="group" aria-label="Trial phase">
               {phaseOptions.map(({ value, label }) => (
                 <button
                   key={value}
                   type="button"
                   onClick={() => togglePhase(value)}
-                  className={`text-xs sm:text-sm font-medium transition-colors duration-150 cursor-pointer px-1 ${
+                  className={`text-xs font-medium transition-colors duration-150 cursor-pointer px-1 leading-snug ${
                     phases.includes(value)
                       ? 'bg-[#38bdf8] text-[#060f1e]'
                       : 'bg-[#0a1a2e] text-[#8ecfe8] hover:text-[#b0d8ee] hover:bg-[#0f2240]'
                   }`}
                 >
-                  <span className="sm:hidden">{label.replace('Phase ', 'P')}</span>
-                  <span className="hidden sm:inline">{label}</span>
+                  {label}
                 </button>
               ))}
             </div>
@@ -268,21 +267,22 @@ export default function SearchForm({
           </div>
         </div>
 
-        <div className={`flex flex-wrap items-center gap-x-6 gap-y-3 sm:gap-y-4 ${compact ? 'mb-3' : 'mb-6 sm:mb-8'}`}>
-          <span className="text-sm font-semibold text-[#b0d8ee] w-full sm:w-auto mb-0.5 sm:mb-0">
+        <div className={`${compact ? 'mb-3' : 'mb-6 sm:mb-8'}`}>
+          <span className="block text-sm font-semibold text-[#b0d8ee] mb-3">
             Recruitment Status
           </span>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:flex xl:flex-wrap gap-x-5 gap-y-2.5 sm:gap-y-3">
           {statusOptions.map(({ value, label, color }) => (
-            <label key={value} htmlFor={`filter-status-${value.toLowerCase().replace(/_/g, '-')}`} className="flex items-center gap-2.5 cursor-pointer group min-h-[44px]">
+            <label key={value} htmlFor={`filter-status-${value.toLowerCase().replace(/_/g, '-')}`} className="flex items-center gap-2 cursor-pointer group min-h-[44px]">
               <span
-                className="relative inline-flex items-center justify-center w-6 h-6 border-2 flex-shrink-0 transition-all"
+                className="relative inline-flex items-center justify-center w-5 h-5 sm:w-6 sm:h-6 border-2 flex-shrink-0 transition-all"
                 style={{
                   borderColor: statuses.includes(value) ? color : '#1a3352',
                   backgroundColor: statuses.includes(value) ? color + '20' : 'transparent',
                 }}
               >
                 {statuses.includes(value) && (
-                  <svg width="11" height="11" viewBox="0 0 11 11" fill="none">
+                  <svg width="10" height="10" viewBox="0 0 11 11" fill="none">
                     <path
                       d="M1.5 5.5L4.5 8.5L9.5 2.5"
                       stroke={color}
@@ -301,11 +301,12 @@ export default function SearchForm({
                   className="sr-only"
                 />
               </span>
-              <span className="text-sm sm:text-base text-[#b0d8ee] group-hover:text-[#c9dff0] transition-colors">
+              <span className="text-xs sm:text-sm text-[#b0d8ee] group-hover:text-[#c9dff0] transition-colors leading-snug">
                 {label}
               </span>
             </label>
           ))}
+          </div>
         </div>
 
         <div className={`flex flex-col gap-2.5 ${compact ? 'mb-3' : 'mb-6 sm:mb-8'}`}>
@@ -338,7 +339,7 @@ export default function SearchForm({
         <button
           type="submit"
           disabled={isLoading}
-          className="inline-flex items-center justify-center gap-3 bg-[#38bdf8] text-[#060f1e] w-full sm:w-auto px-6 sm:px-10 py-3.5 sm:py-4 text-base font-semibold hover:bg-[#7dd3fc] transition-colors duration-200 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer min-h-[48px] sm:min-h-[52px]"
+          className="inline-flex items-center justify-center gap-3 bg-[#38bdf8] text-[#060f1e] w-full sm:w-auto sm:min-w-[200px] px-8 py-3.5 text-sm sm:text-base font-semibold hover:bg-[#7dd3fc] transition-colors duration-200 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer min-h-[48px]"
         >
           {isLoading ? (
             <>
