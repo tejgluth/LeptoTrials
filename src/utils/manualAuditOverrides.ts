@@ -5,7 +5,7 @@ export type ManualAuditOverride = {
   tumorLabels: Array<Exclude<TumorTypeFilter, 'any'>>
 }
 
-export const MANUAL_AUDIT_REVIEWED_ON = '2026-04-11'
+export const MANUAL_AUDIT_REVIEWED_ON = '2026-06-13'
 
 export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT00002750': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
@@ -27,7 +27,7 @@ export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT00221325': { siteEligible: true, tumorLabels: [] },
   'NCT00372515': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT00392834': { siteEligible: true, tumorLabels: [] },
-  'NCT00338377': { siteEligible: false, tumorLabels: ['MELANOMA'] },
+  'NCT00338377': { siteEligible: true, tumorLabels: ['MELANOMA'] },
   'NCT00416923': { siteEligible: true, tumorLabels: [] },
   'NCT00477503': { siteEligible: true, tumorLabels: [] },
   'NCT00424242': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
@@ -37,7 +37,9 @@ export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT00515788': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT00523939': { siteEligible: true, tumorLabels: [] },
   'NCT00527410': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
+  'NCT00617539': { siteEligible: true, tumorLabels: ['BREAST'] },
   'NCT00674674': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
+  'NCT00749723': { siteEligible: true, tumorLabels: [] },
   'NCT00830245': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT00854867': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT00924820': { siteEligible: true, tumorLabels: [] },
@@ -101,11 +103,12 @@ export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT03613181': { siteEligible: true, tumorLabels: ['BREAST'] },
   'NCT03638167': { siteEligible: true, tumorLabels: [] },
   'NCT03661424': { siteEligible: true, tumorLabels: ['BREAST'] },
-  'NCT03684980': { siteEligible: false, tumorLabels: [] },
+  'NCT03684980': { siteEligible: true, tumorLabels: [] },
   'NCT03696030': { siteEligible: true, tumorLabels: ['BREAST'] },
   'NCT03711422': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT03719768': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT03974204': { siteEligible: true, tumorLabels: ['BREAST'] },
+  'NCT04109131': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT04148898': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT04178343': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT04185038': { siteEligible: true, tumorLabels: [] },
@@ -139,7 +142,7 @@ export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT05257967': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT05286684': { siteEligible: true, tumorLabels: ['BREAST'] },
   'NCT05289908': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
-  'NCT05305365': { siteEligible: true, tumorLabels: ['BREAST', 'LUNG', 'OTHER_SOLID'] },
+  'NCT05305365': { siteEligible: true, tumorLabels: ['BREAST', 'OTHER_SOLID'] },
   'NCT05305885': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT05385185': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT05394636': { siteEligible: false, tumorLabels: [] },
@@ -156,7 +159,7 @@ export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT05809752': { siteEligible: true, tumorLabels: ['BREAST'] },
   'NCT05810350': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT05813522': { siteEligible: true, tumorLabels: ['LUNG'] },
-  'NCT05865990': { siteEligible: true, tumorLabels: ['BREAST', 'LUNG', 'OTHER_SOLID'] },
+  'NCT05865990': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT05934630': { siteEligible: true, tumorLabels: [] },
   'NCT05967689': { siteEligible: false, tumorLabels: [] },
   'NCT05984108': { siteEligible: false, tumorLabels: [] },
@@ -197,7 +200,7 @@ export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT06663306': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT06705049': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT06718972': { siteEligible: true, tumorLabels: ['LUNG'] },
-  'NCT06724926': { siteEligible: true, tumorLabels: ['GBM', 'OTHER_SOLID'] },
+  'NCT06724926': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT06728865': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT06762080': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT06766591': { siteEligible: true, tumorLabels: ['LUNG'] },
@@ -216,7 +219,7 @@ export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT07092202': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT07098806': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT07177950': { siteEligible: true, tumorLabels: ['BREAST'] },
-  'NCT07178938': { siteEligible: true, tumorLabels: ['BREAST', 'OTHER_SOLID'] },
+  'NCT07178938': { siteEligible: true, tumorLabels: ['BREAST'] },
   'NCT07134153': { siteEligible: true, tumorLabels: ['BREAST'] },
   'NCT07193654': { siteEligible: true, tumorLabels: ['GBM'] },
   'NCT07199413': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
