@@ -321,8 +321,18 @@ type OracleResult = {
 const REGRESSIONS: RegressionCase[] = [
   {
     scenario: 'default',
-    mustInclude: ['NCT06016387', 'NCT05865990', 'NCT06026735', 'NCT06462222', 'NCT07503704'],
-    mustExclude: ['NCT05782374'],
+    mustInclude: [
+      'NCT04923126',
+      'NCT05124236',
+      'NCT05782374',
+      'NCT05865990',
+      'NCT06016387',
+      'NCT06026735',
+      'NCT06462222',
+      'NCT07331064',
+      'NCT07503704',
+    ],
+    mustExclude: ['NCT07415018', 'NCT07511725', 'NCT07653893'],
   },
   {
     scenario: 'lung-default',
@@ -332,7 +342,7 @@ const REGRESSIONS: RegressionCase[] = [
   {
     scenario: 'breast-default',
     mustInclude: ['NCT06810804', 'NCT04588545', 'NCT06016387', 'NCT07177950', 'NCT07503704'],
-    mustExclude: ['NCT06663306', 'NCT06643000', 'NCT05782374', 'NCT03684980'],
+    mustExclude: ['NCT06663306', 'NCT06643000', 'NCT05782374', 'NCT03684980', 'NCT07653893'],
   },
   {
     scenario: 'melanoma-default',
@@ -341,18 +351,26 @@ const REGRESSIONS: RegressionCase[] = [
   },
   {
     scenario: 'gbm-default',
-    mustInclude: ['NCT04661384', 'NCT07193654'],
-    mustExclude: ['NCT06663306', 'NCT06810804', 'NCT05782374', 'NCT03684980'],
+    mustInclude: ['NCT04661384', 'NCT07193654', 'NCT07331064'],
+    mustExclude: ['NCT06663306', 'NCT06810804', 'NCT05782374', 'NCT03684980', 'NCT07511725'],
   },
   {
     scenario: 'other-solid-default',
-    mustInclude: ['NCT06462222', 'NCT07476781'],
-    mustExclude: ['NCT05782374', 'NCT03684980', 'NCT07414979', 'NCT04988009', 'NCT04185038', 'NCT07264569'],
+    mustInclude: ['NCT05124236', 'NCT06462222', 'NCT07476781', 'NCT07656103', 'NCT07674693'],
+    mustExclude: ['NCT05782374', 'NCT03684980', 'NCT07414979', 'NCT07415018', 'NCT04988009', 'NCT04185038', 'NCT07264569'],
   },
   {
     scenario: 'other-solid-all-statuses',
-    mustInclude: ['NCT03082144', 'NCT05184816', 'NCT07098806'],
-    mustExclude: ['NCT00005812', 'NCT00512460', 'NCT05782374', 'NCT03684980'],
+    mustInclude: [
+      'NCT00005812',
+      'NCT00512460',
+      'NCT02654106',
+      'NCT03027544',
+      'NCT03082144',
+      'NCT05184816',
+      'NCT07098806',
+    ],
+    mustExclude: ['NCT05782374', 'NCT03684980'],
   },
   {
     scenario: 'other-solid-invitation',
