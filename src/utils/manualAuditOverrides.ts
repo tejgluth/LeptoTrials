@@ -5,7 +5,7 @@ export type ManualAuditOverride = {
   tumorLabels: Array<Exclude<TumorTypeFilter, 'any'>>
 }
 
-export const MANUAL_AUDIT_REVIEWED_ON = '2026-07-12'
+export const MANUAL_AUDIT_REVIEWED_ON = '2026-08-11'
 
 export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT00002750': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
@@ -62,6 +62,7 @@ export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT01713699': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT01857752': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT01818713': { siteEligible: true, tumorLabels: ['BREAST'] },
+  'NCT01970865': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT02071056': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT02125786': { siteEligible: false, tumorLabels: [] },
   'NCT02228369': { siteEligible: true, tumorLabels: ['LUNG'] },
@@ -129,15 +130,20 @@ export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT04448054': { siteEligible: false, tumorLabels: [] },
   'NCT04460729': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT04460937': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
-  'NCT04543188': { siteEligible: false, tumorLabels: [] },
+  'NCT04509596': { siteEligible: true, tumorLabels: ['BREAST'] },
+  'NCT04511013': { siteEligible: true, tumorLabels: ['MELANOMA'] },
+  // The posted protocol's cohort 5 permits current or prior LM; the LM exclusion applies to other cohorts.
+  'NCT04543188': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT04563871': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT04588545': { siteEligible: true, tumorLabels: ['BREAST'] },
   'NCT04661384': { siteEligible: true, tumorLabels: ['GBM'] },
   'NCT04729348': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT04778800': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT04833205': { siteEligible: true, tumorLabels: ['LUNG'] },
+  'NCT04856475': { siteEligible: true, tumorLabels: ['BREAST'] },
   'NCT04923126': { siteEligible: true, tumorLabels: [] },
   'NCT04944069': { siteEligible: true, tumorLabels: ['LUNG'] },
+  'NCT04965090': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT04988009': { siteEligible: true, tumorLabels: [] },
   'NCT05034497': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT05063682': { siteEligible: true, tumorLabels: ['GBM'] },
@@ -170,7 +176,8 @@ export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT05813522': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT05865990': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT05934630': { siteEligible: true, tumorLabels: [] },
-  'NCT05967689': { siteEligible: false, tumorLabels: [] },
+  // Main cohort C explicitly enrolls confirmed LMD; the later exclusion belongs to a separate substudy.
+  'NCT05967689': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT05984108': { siteEligible: false, tumorLabels: [] },
   'NCT06016387': { siteEligible: true, tumorLabels: ['BREAST'] },
   'NCT06026735': { siteEligible: true, tumorLabels: ['LUNG'] },
@@ -251,6 +258,9 @@ export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT07653893': { siteEligible: false, tumorLabels: [] },
   'NCT07656103': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT07674693': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
+  'NCT07704034': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
+  'NCT07751744': { siteEligible: true, tumorLabels: ['GBM', 'OTHER_SOLID'] },
+  'NCT07757113': { siteEligible: false, tumorLabels: [] },
 }
 
 export function getManualAuditOverride(nctId: string): ManualAuditOverride | undefined {

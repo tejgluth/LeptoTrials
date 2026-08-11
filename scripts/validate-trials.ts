@@ -322,6 +322,7 @@ const REGRESSIONS: RegressionCase[] = [
   {
     scenario: 'default',
     mustInclude: [
+      'NCT04511013',
       'NCT04923126',
       'NCT05124236',
       'NCT05782374',
@@ -331,13 +332,34 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT06462222',
       'NCT07331064',
       'NCT07503704',
+      'NCT07704034',
+      'NCT07751744',
     ],
-    mustExclude: ['NCT07415018', 'NCT07511725', 'NCT07653893'],
+    mustExclude: ['NCT05984108', 'NCT06945705', 'NCT07415018', 'NCT07511725', 'NCT07653893', 'NCT07757113'],
+  },
+  {
+    scenario: 'all-statuses',
+    mustInclude: [
+      'NCT01970865',
+      'NCT04509596',
+      'NCT04511013',
+      'NCT04543188',
+      'NCT04856475',
+      'NCT04965090',
+      'NCT05967689',
+      'NCT07704034',
+      'NCT07751744',
+    ],
+    mustExclude: ['NCT05984108', 'NCT06945705', 'NCT07415018', 'NCT07757113'],
   },
   {
     scenario: 'lung-default',
-    mustInclude: ['NCT06663306', 'NCT06643000', 'NCT06861218', 'NCT06282874', 'NCT07264569'],
+    mustInclude: ['NCT05967689', 'NCT06663306', 'NCT06643000', 'NCT06861218', 'NCT06282874', 'NCT07264569'],
     mustExclude: ['NCT06016387', 'NCT04588545', 'NCT05782374', 'NCT03684980'],
+  },
+  {
+    scenario: 'lung-all-statuses',
+    mustInclude: ['NCT01970865', 'NCT04965090', 'NCT05967689'],
   },
   {
     scenario: 'breast-default',
@@ -345,18 +367,34 @@ const REGRESSIONS: RegressionCase[] = [
     mustExclude: ['NCT06663306', 'NCT06643000', 'NCT05782374', 'NCT03684980', 'NCT07653893'],
   },
   {
+    scenario: 'breast-all-statuses',
+    mustInclude: ['NCT04509596', 'NCT04856475'],
+  },
+  {
     scenario: 'melanoma-default',
-    mustInclude: ['NCT07414979'],
+    mustInclude: ['NCT04511013', 'NCT07414979'],
     mustExclude: ['NCT05782374', 'NCT03684980'],
   },
   {
+    scenario: 'melanoma-all-statuses',
+    mustInclude: ['NCT04511013'],
+  },
+  {
     scenario: 'gbm-default',
-    mustInclude: ['NCT04661384', 'NCT07193654', 'NCT07331064'],
+    mustInclude: ['NCT04661384', 'NCT07193654', 'NCT07331064', 'NCT07751744'],
     mustExclude: ['NCT06663306', 'NCT06810804', 'NCT05782374', 'NCT03684980', 'NCT07511725'],
   },
   {
     scenario: 'other-solid-default',
-    mustInclude: ['NCT05124236', 'NCT06462222', 'NCT07476781', 'NCT07656103', 'NCT07674693'],
+    mustInclude: [
+      'NCT05124236',
+      'NCT06462222',
+      'NCT07476781',
+      'NCT07656103',
+      'NCT07674693',
+      'NCT07704034',
+      'NCT07751744',
+    ],
     mustExclude: ['NCT05782374', 'NCT03684980', 'NCT07414979', 'NCT07415018', 'NCT04988009', 'NCT04185038', 'NCT07264569'],
   },
   {
@@ -367,6 +405,7 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT02654106',
       'NCT03027544',
       'NCT03082144',
+      'NCT04543188',
       'NCT05184816',
       'NCT07098806',
     ],
@@ -722,9 +761,22 @@ function buildExhaustiveScenarios(): Scenario[] {
 function buildSmokeScenarios(): Scenario[] {
   return [
     { name: 'default', params: buildParams({}) },
+    { name: 'all-statuses', params: buildParams({ statuses: ALL_STATUSES }) },
     { name: 'lung-default', params: buildParams({ tumorType: 'LUNG' }) },
+    {
+      name: 'lung-all-statuses',
+      params: buildParams({ tumorType: 'LUNG', statuses: ALL_STATUSES }),
+    },
     { name: 'breast-default', params: buildParams({ tumorType: 'BREAST' }) },
+    {
+      name: 'breast-all-statuses',
+      params: buildParams({ tumorType: 'BREAST', statuses: ALL_STATUSES }),
+    },
     { name: 'melanoma-default', params: buildParams({ tumorType: 'MELANOMA' }) },
+    {
+      name: 'melanoma-all-statuses',
+      params: buildParams({ tumorType: 'MELANOMA', statuses: ALL_STATUSES }),
+    },
     { name: 'gbm-default', params: buildParams({ tumorType: 'GBM' }) },
     { name: 'other-solid-default', params: buildParams({ tumorType: 'OTHER_SOLID' }) },
     {

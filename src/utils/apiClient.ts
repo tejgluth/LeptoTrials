@@ -2,6 +2,7 @@ import type { ApiResponse, SearchParams, OverallStatus, Study } from '../types/t
 import { COUNTRIES } from '../constants/countries'
 
 const BASE_URL = 'https://clinicaltrials.gov/api/v2/studies'
+const FETCH_RETRIES = 4
 
 const ALLOWED_STUDY_TYPES = new Set(['any', 'INTERVENTIONAL', 'OBSERVATIONAL'])
 const ALLOWED_PHASES = new Set(['PHASE1', 'PHASE2', 'PHASE3', 'PHASE4', 'EARLY_PHASE1', 'NA'])
@@ -82,6 +83,7 @@ export const SUPPLEMENTAL_AUDITED_STUDY_IDS = [
   'NCT00221325',
   'NCT00310128',
   'NCT00749723',
+  'NCT01970865',
   'NCT02329080',
   'NCT02542514',
   'NCT02590510',
@@ -89,19 +91,34 @@ export const SUPPLEMENTAL_AUDITED_STUDY_IDS = [
   'NCT02896335',
   'NCT03434262',
   'NCT03574402',
+  'NCT04509596',
+  'NCT04511013',
+  'NCT04543188',
+  'NCT04856475',
+  'NCT04965090',
   'NCT05497076',
+  'NCT05967689',
   'NCT06361589',
   'NCT06705049',
   'NCT07178938',
 ] as const
 
 async function doFetch<T>(apiUrl: string): Promise<T> {
-  const response = await fetch(apiUrl, { headers: { Accept: 'application/json' } })
-  if (!response.ok) {
+  for (let attempt = 0; attempt < FETCH_RETRIES; attempt += 1) {
+    const response = await fetch(apiUrl, { headers: { Accept: 'application/json' } })
+    if (response.ok) return response.json() as Promise<T>
+
+    const shouldRetry = response.status === 429 || response.status >= 500
+    if (shouldRetry && attempt < FETCH_RETRIES - 1) {
+      await new Promise((resolve) => setTimeout(resolve, 1000 * 2 ** attempt))
+      continue
+    }
+
     const errorText = await response.text().catch(() => 'Unknown error')
     throw new Error(`ClinicalTrials.gov API error ${response.status}: ${errorText}`)
   }
-  return response.json() as Promise<T>
+
+  throw new Error('ClinicalTrials.gov API error: exhausted retries')
 }
 
 export function fetchCondStudies(params: SearchParams, pageToken?: string): Promise<ApiResponse> {
@@ -117,7 +134,11 @@ export function fetchStudyById(nctId: string): Promise<Study> {
 }
 
 export function fetchSupplementalAuditedStudies(): Promise<Study[]> {
-  return Promise.all(SUPPLEMENTAL_AUDITED_STUDY_IDS.map((nctId) => fetchStudyById(nctId)))
+  const url = new URLSearchParams()
+  url.set('format', 'json')
+  url.set('pageSize', '100')
+  url.set('query.id', SUPPLEMENTAL_AUDITED_STUDY_IDS.join(' OR '))
+  return doFetch<ApiResponse>(`${BASE_URL}?${url.toString()}`).then((response) => response.studies ?? [])
 }
 
 export function getTrialUrl(nctId: string): string {
