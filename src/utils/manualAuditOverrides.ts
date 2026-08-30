@@ -5,7 +5,7 @@ export type ManualAuditOverride = {
   tumorLabels: Array<Exclude<TumorTypeFilter, 'any'>>
 }
 
-export const MANUAL_AUDIT_REVIEWED_ON = '2026-08-11'
+export const MANUAL_AUDIT_REVIEWED_ON = '2026-08-30'
 
 export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT00002750': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
@@ -261,6 +261,8 @@ export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT07704034': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT07751744': { siteEligible: true, tumorLabels: ['GBM', 'OTHER_SOLID'] },
   'NCT07757113': { siteEligible: false, tumorLabels: [] },
+  // Separate LM groups cover breast/NSCLC and an all-comers solid-tumor population.
+  'NCT07789912': { siteEligible: true, tumorLabels: ['LUNG', 'BREAST', 'OTHER_SOLID'] },
 }
 
 export function getManualAuditOverride(nctId: string): ManualAuditOverride | undefined {
