@@ -1,7 +1,7 @@
 # Contributing
 
 Use Node.js 22.12 or newer and install the locked dependencies with `npm ci`.
-Run `npm run dev` for the patient app or follow the README for the Cloudflare environment.
+Run `npm run dev` for the patient app.
 
 Keep changes focused. Prefer small functions, explicit types at API boundaries, and the existing React and TypeScript conventions. Avoid adding dependencies or abstractions for behavior that can be expressed clearly with the platform APIs.
 
