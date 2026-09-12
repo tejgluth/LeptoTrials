@@ -41,3 +41,9 @@ coverage/
 /mobile-home*.png
 /mobile-results*.png
 /query_description_image.HEIC
+# Local Netlify folder
+.netlify
+
+# Local Cloudflare state and secrets
+.wrangler
+.dev.vars

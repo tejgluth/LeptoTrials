@@ -103,9 +103,15 @@ export const SUPPLEMENTAL_AUDITED_STUDY_IDS = [
   'NCT07178938',
 ] as const
 
-async function doFetch<T>(apiUrl: string): Promise<T> {
+async function doFetch<T>(apiUrl: string, signal?: AbortSignal): Promise<T> {
+  const timeout = AbortSignal.timeout(30_000)
+  const requestSignal = signal ? AbortSignal.any([signal, timeout]) : timeout
   for (let attempt = 0; attempt < FETCH_RETRIES; attempt += 1) {
-    const response = await fetch(apiUrl, { headers: { Accept: 'application/json' } })
+    requestSignal.throwIfAborted()
+    const response = await fetch(apiUrl, {
+      headers: { Accept: 'application/json' },
+      signal: requestSignal,
+    })
     if (response.ok) return response.json() as Promise<T>
 
     const shouldRetry = response.status === 429 || response.status >= 500
@@ -114,31 +120,31 @@ async function doFetch<T>(apiUrl: string): Promise<T> {
       continue
     }
 
-    const errorText = await response.text().catch(() => 'Unknown error')
-    throw new Error(`ClinicalTrials.gov API error ${response.status}: ${errorText}`)
+    throw new Error(`ClinicalTrials.gov is unavailable (HTTP ${response.status}). Please try again.`)
   }
 
   throw new Error('ClinicalTrials.gov API error: exhausted retries')
 }
 
-export function fetchCondStudies(params: SearchParams, pageToken?: string): Promise<ApiResponse> {
-  return doFetch(buildCondUrl(params, pageToken))
+export function fetchCondStudies(params: SearchParams, pageToken?: string, signal?: AbortSignal): Promise<ApiResponse> {
+  return doFetch(buildCondUrl(params, pageToken), signal)
 }
 
-export function fetchTermStudies(params: SearchParams, pageToken?: string): Promise<ApiResponse> {
-  return doFetch(buildTermUrl(params, pageToken))
+export function fetchTermStudies(params: SearchParams, pageToken?: string, signal?: AbortSignal): Promise<ApiResponse> {
+  return doFetch(buildTermUrl(params, pageToken), signal)
 }
 
-export function fetchStudyById(nctId: string): Promise<Study> {
-  return doFetch(`${BASE_URL}/${nctId}`)
+export function fetchStudyById(nctId: string, signal?: AbortSignal): Promise<Study> {
+  if (!/^NCT\d{8}$/.test(nctId)) throw new Error('Invalid study ID')
+  return doFetch(`${BASE_URL}/${nctId}`, signal)
 }
 
-export function fetchSupplementalAuditedStudies(): Promise<Study[]> {
+export function fetchSupplementalAuditedStudies(signal?: AbortSignal): Promise<Study[]> {
   const url = new URLSearchParams()
   url.set('format', 'json')
   url.set('pageSize', '100')
   url.set('query.id', SUPPLEMENTAL_AUDITED_STUDY_IDS.join(' OR '))
-  return doFetch<ApiResponse>(`${BASE_URL}?${url.toString()}`).then((response) => response.studies ?? [])
+  return doFetch<ApiResponse>(`${BASE_URL}?${url.toString()}`, signal).then((response) => response.studies ?? [])
 }
 
 export function getTrialUrl(nctId: string): string {

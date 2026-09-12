@@ -1,0 +1,2 @@
+# Local Cloudflare Pages Functions only. Never commit .dev.vars.
+ANALYTICS_ADMIN_TOKEN=replace-with-a-long-random-secret
