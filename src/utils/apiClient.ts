@@ -95,29 +95,33 @@ export const SUPPLEMENTAL_AUDITED_STUDY_IDS = [
   'NCT07178938',
 ] as const
 
-async function doFetch<T>(apiUrl: string): Promise<T> {
-  const response = await fetch(apiUrl, { headers: { Accept: 'application/json' } })
+async function doFetch<T>(apiUrl: string, signal?: AbortSignal): Promise<T> {
+  const timeout = AbortSignal.timeout(30_000)
+  const response = await fetch(apiUrl, {
+    headers: { Accept: 'application/json' },
+    signal: signal ? AbortSignal.any([signal, timeout]) : timeout,
+  })
   if (!response.ok) {
-    const errorText = await response.text().catch(() => 'Unknown error')
-    throw new Error(`ClinicalTrials.gov API error ${response.status}: ${errorText}`)
+    throw new Error(`ClinicalTrials.gov is unavailable (HTTP ${response.status}). Please try again.`)
   }
   return response.json() as Promise<T>
 }
 
-export function fetchCondStudies(params: SearchParams, pageToken?: string): Promise<ApiResponse> {
-  return doFetch(buildCondUrl(params, pageToken))
+export function fetchCondStudies(params: SearchParams, pageToken?: string, signal?: AbortSignal): Promise<ApiResponse> {
+  return doFetch(buildCondUrl(params, pageToken), signal)
 }
 
-export function fetchTermStudies(params: SearchParams, pageToken?: string): Promise<ApiResponse> {
-  return doFetch(buildTermUrl(params, pageToken))
+export function fetchTermStudies(params: SearchParams, pageToken?: string, signal?: AbortSignal): Promise<ApiResponse> {
+  return doFetch(buildTermUrl(params, pageToken), signal)
 }
 
-export function fetchStudyById(nctId: string): Promise<Study> {
-  return doFetch(`${BASE_URL}/${nctId}`)
+export function fetchStudyById(nctId: string, signal?: AbortSignal): Promise<Study> {
+  if (!/^NCT\d{8}$/.test(nctId)) throw new Error('Invalid study ID')
+  return doFetch(`${BASE_URL}/${nctId}`, signal)
 }
 
-export function fetchSupplementalAuditedStudies(): Promise<Study[]> {
-  return Promise.all(SUPPLEMENTAL_AUDITED_STUDY_IDS.map((nctId) => fetchStudyById(nctId)))
+export function fetchSupplementalAuditedStudies(signal?: AbortSignal): Promise<Study[]> {
+  return Promise.all(SUPPLEMENTAL_AUDITED_STUDY_IDS.map((nctId) => fetchStudyById(nctId, signal)))
 }
 
 export function getTrialUrl(nctId: string): string {

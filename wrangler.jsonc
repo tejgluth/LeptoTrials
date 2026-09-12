@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "lm-trials",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2026-08-15",
+  "d1_databases": [
+    {
+      "binding": "ANALYTICS_DB",
+      "database_name": "leptotrials-analytics",
+      "database_id": "62153558-c98e-4503-9c9d-6bcde182174f",
+      "migrations_dir": "migrations"
+    }
+  ]
+}

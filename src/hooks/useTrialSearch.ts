@@ -1,5 +1,6 @@
-import { useState, useCallback, useRef } from 'react'
-import type { Study, SearchParams, ApiResponse, FilterResult } from '../types/trial'
+import { useState, useCallback, useRef, useEffect } from 'react'
+import type { Study, SearchParams, FilterResult } from '../types/trial'
+import { fetchAllStudies } from '../utils/fetchAllStudies'
 import {
   fetchCondStudies,
   fetchSupplementalAuditedStudies,
@@ -34,8 +35,6 @@ const INITIAL_STATE: SearchState = {
   hasSearched: false,
 }
 
-const MAX_PAGES = 20 // 20 pages × 20/page = 400 trials max
-
 function passesApiLevelFilters(study: Study, params: SearchParams): boolean {
   const proto = study.protocolSection
 
@@ -65,8 +64,13 @@ function passesApiLevelFilters(study: Study, params: SearchParams): boolean {
 export function useTrialSearch(): UseTrialSearchReturn {
   const [state, setState] = useState<SearchState>(INITIAL_STATE)
 
-  const seenIdsRef = useRef<Set<string>>(new Set())
+  const controllerRef = useRef<AbortController | null>(null)
   const searchIdRef = useRef(0)
+
+  useEffect(() => () => {
+    searchIdRef.current++
+    controllerRef.current?.abort()
+  }, [])
 
   const applyFilter = useCallback(
     (study: Study, params: SearchParams): TrialWithMeta | null => {
@@ -84,7 +88,7 @@ export function useTrialSearch(): UseTrialSearchReturn {
       const result = filterTrial(study, params.age)
       if (!result.include) return null
       if (!filterByTumorType(study, params.tumorType)) return null
-      return { study, filterResult: result as FilterResult & { include: true } }
+      return { study, filterResult: result }
     },
     []
   )
@@ -92,10 +96,11 @@ export function useTrialSearch(): UseTrialSearchReturn {
   const mergeAndFilter = useCallback(
     (studyGroups: Study[][], params: SearchParams): TrialWithMeta[] => {
       const filtered: TrialWithMeta[] = []
+      const seenIds = new Set<string>()
       for (const study of studyGroups.flat()) {
         const id = study.protocolSection.identificationModule.nctId
-        if (seenIdsRef.current.has(id)) continue
-        seenIdsRef.current.add(id)
+        if (seenIds.has(id)) continue
+        seenIds.add(id)
         const meta = applyFilter(study, params)
         if (meta) filtered.push(meta)
       }
@@ -107,52 +112,20 @@ export function useTrialSearch(): UseTrialSearchReturn {
   const search = useCallback(
     async (params: SearchParams) => {
       const thisSearchId = ++searchIdRef.current
-      seenIdsRef.current = new Set()
+      controllerRef.current?.abort()
+      const controller = new AbortController()
+      controllerRef.current = controller
 
       setState({ ...INITIAL_STATE, isLoading: true, hasSearched: true })
 
       try {
-        const allFiltered: TrialWithMeta[] = []
-        let condToken: string | undefined = undefined
-        let termToken: string | undefined = undefined
-
-        const [condData, termData, supplementalStudies] = await Promise.all([
-          fetchCondStudies(params, undefined),
-          fetchTermStudies(params, undefined),
-          fetchSupplementalAuditedStudies(),
+        const studyGroups = await Promise.all([
+          fetchAllStudies((token) => fetchCondStudies(params, token, controller.signal)),
+          fetchAllStudies((token) => fetchTermStudies(params, token, controller.signal)),
+          fetchSupplementalAuditedStudies(controller.signal),
         ])
         if (searchIdRef.current !== thisSearchId) return
-
-        condToken = condData.nextPageToken
-        termToken = termData.nextPageToken
-        allFiltered.push(
-          ...mergeAndFilter(
-            [condData.studies ?? [], termData.studies ?? [], supplementalStudies],
-            params
-          )
-        )
-
-        for (let page = 1; page < MAX_PAGES; page++) {
-          if (!condToken && !termToken) break
-
-          const fetches: Promise<ApiResponse>[] = []
-          const pending: Array<'cond' | 'term'> = []
-          if (condToken) { pending.push('cond'); fetches.push(fetchCondStudies(params, condToken)) }
-          if (termToken) { pending.push('term'); fetches.push(fetchTermStudies(params, termToken)) }
-
-          const settled = await Promise.allSettled(fetches)
-          if (searchIdRef.current !== thisSearchId) return
-
-          let condStudies: Study[] = []
-          let termStudies: Study[] = []
-          settled.forEach((r, i) => {
-            if (r.status !== 'fulfilled') return
-            if (pending[i] === 'cond') { condToken = r.value.nextPageToken; condStudies = r.value.studies ?? [] }
-            else { termToken = r.value.nextPageToken; termStudies = r.value.studies ?? [] }
-          })
-
-          allFiltered.push(...mergeAndFilter([condStudies, termStudies], params))
-        }
+        const allFiltered = mergeAndFilter(studyGroups, params)
 
         setState({
           results: allFiltered,
@@ -162,6 +135,7 @@ export function useTrialSearch(): UseTrialSearchReturn {
           hasSearched: true,
         })
       } catch (err) {
+        controller.abort()
         if (searchIdRef.current !== thisSearchId) return
         setState((prev) => ({
           ...prev,
@@ -175,7 +149,7 @@ export function useTrialSearch(): UseTrialSearchReturn {
 
   const reset = useCallback(() => {
     searchIdRef.current++
-    seenIdsRef.current = new Set()
+    controllerRef.current?.abort()
     setState(INITIAL_STATE)
   }, [])
 

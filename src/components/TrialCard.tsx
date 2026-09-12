@@ -3,6 +3,8 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import type { Study, OverallStatus } from '../types/trial'
 import { getTrialUrl } from '../utils/apiClient'
+import { trackContactAction } from '../utils/contactAnalytics'
+import { buildTrialOutreachMailto, normalizeContactEmail } from '../utils/trialOutreachEmail'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -96,12 +98,21 @@ export default function TrialCard({ study, index }: TrialCardProps) {
   const briefSummary = proto.descriptionModule?.briefSummary ?? ''
   const conditions = proto.conditionsModule?.conditions ?? []
   const centralContacts = contacts?.centralContacts ?? []
-  const contactEmail = centralContacts.find((c) => c.email)?.email
+  const centralContact = centralContacts.find((contact) => normalizeContactEmail(contact.email))
+  const contactEmail = normalizeContactEmail(centralContact?.email)
 
   const statusCfg = STATUS_CONFIG[overallStatus] ?? { label: overallStatus, color: '#6b8ca4', bg: '#6b8ca418' }
   const phaseLabel = formatPhase(phases)
   const trialUrl = getTrialUrl(nctId)
   const responsibleParty = formatResponsibleParty(study)
+  const contactMailto = contactEmail
+    ? buildTrialOutreachMailto({
+        recipient: contactEmail,
+        nctId,
+        trialTitle: briefTitle,
+        contactName: centralContact?.name,
+      })
+    : undefined
 
   useEffect(() => {
     const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -123,6 +134,7 @@ export default function TrialCard({ study, index }: TrialCardProps) {
     if (!contactEmail) return
     try {
       await navigator.clipboard.writeText(contactEmail)
+      trackContactAction(nctId, 'email_copy')
       setCopied(true)
       setTimeout(() => setCopied(false), 2000)
     } catch {
@@ -275,7 +287,15 @@ export default function TrialCard({ study, index }: TrialCardProps) {
           {contactEmail ? (
             <div className="flex items-center gap-2.5 sm:gap-3 min-w-0 w-full sm:w-auto">
               <span className="text-sm sm:text-base font-medium text-[#8ecfe8] flex-shrink-0">Contact:</span>
-              <span className="text-sm sm:text-base text-[#38bdf8] font-mono truncate">{contactEmail}</span>
+              <a
+                href={contactMailto}
+                onClick={() => trackContactAction(nctId, 'email_click')}
+                className="text-sm sm:text-base text-[#38bdf8] hover:text-[#7dd3fc] font-mono truncate underline decoration-[#2a5070] underline-offset-4 transition-colors"
+                title="Open a pre-filled email to the trial team"
+                aria-label={`Open a pre-filled email to the contact for trial ${nctId}`}
+              >
+                {contactEmail}
+              </a>
               <button
                 type="button"
                 onClick={copyEmail}

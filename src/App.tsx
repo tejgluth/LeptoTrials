@@ -150,6 +150,10 @@ export default function App() {
               Always consult your oncologist or qualified medical professional before enrolling
               in any clinical trial.
             </p>
+            <p className="mt-3 text-xs text-[#6f9db8] max-w-sm leading-relaxed">
+              Anonymous trial contact interactions may be counted to help improve this service.
+              No patient details or message contents are collected.
+            </p>
           </div>
         </div>
       </footer>
