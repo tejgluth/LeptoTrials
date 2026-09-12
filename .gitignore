@@ -30,3 +30,21 @@ dist-ssr
 # Local Cloudflare state and secrets
 .wrangler
 .dev.vars
+
+# Local development assistants and instructions
+.agents/
+.claude/
+.codex/
+.cursor/
+AGENTS.md
+CLAUDE.md
+
+# Browser automation output and local reference captures
+.playwright-cli/
+.playwright-mcp/
+playwright-report/
+test-results/
+coverage/
+/mobile-home*.png
+/mobile-results*.png
+/query_description_image.HEIC
