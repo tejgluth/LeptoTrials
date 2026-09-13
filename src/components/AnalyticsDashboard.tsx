@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import TrialSuggestionsReview from './TrialSuggestionsReview'
 import type { ContactAnalyticsReport } from '../types/contactAnalytics'
 import { fetchContactAnalytics } from '../utils/contactAnalytics'
 import { getTrialUrl } from '../utils/apiClient'
@@ -212,6 +213,8 @@ export default function AnalyticsDashboard() {
             </table>
           </div>
         </section>
+
+        <TrialSuggestionsReview token={token} />
 
         <p className="border-t border-[#1a3352] pt-6 text-xs leading-relaxed text-[#6f9db8]">
           Counts represent intent signals, not confirmed messages or trial enrollments. Storage is append-only and contains only the NCT ID, action type, and event time.

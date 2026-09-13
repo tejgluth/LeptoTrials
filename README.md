@@ -14,6 +14,7 @@ LeptoTrials helps patients and caregivers navigate clinical trial options for le
 - Prepare an editable email inquiry to a trial team.
 - Open the original ClinicalTrials.gov record for further details.
 - Browse without creating an account.
+- Suggest a trial for review using its official ClinicalTrials.gov link.
 
 ## Using LeptoTrials
 
