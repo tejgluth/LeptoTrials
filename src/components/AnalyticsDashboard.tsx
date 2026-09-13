@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import TrialSuggestionsReview from './TrialSuggestionsReview'
+import BrandLogo from './BrandLogo'
 import type { ContactAnalyticsReport } from '../types/contactAnalytics'
 import { fetchContactAnalytics } from '../utils/contactAnalytics'
 import { getTrialUrl } from '../utils/apiClient'
@@ -65,8 +66,8 @@ export default function AnalyticsDashboard() {
     return (
       <main className="min-h-screen bg-[#060f1e] text-[#e8f4fd] flex items-center justify-center px-5 py-16">
         <section className="w-full max-w-lg border-t border-[#2a5070] pt-8">
-          <a href="/" className="text-xs font-semibold uppercase tracking-[0.22em] text-[#38bdf8] hover:text-[#7dd3fc]">
-            LeptoTrials
+          <a href="/" className="inline-block hover:opacity-85">
+            <BrandLogo className="text-xs tracking-[0.22em]" />
           </a>
           <h1 className="mt-8 font-serif text-4xl sm:text-5xl leading-[1.05] tracking-[-0.03em]">Contact activity</h1>
           <p className="mt-4 max-w-md text-sm sm:text-base leading-relaxed text-[#8ecfe8]">
@@ -106,8 +107,8 @@ export default function AnalyticsDashboard() {
       <header className="border-b border-[#1a3352]/70 px-5 sm:px-8 md:px-12 lg:px-20 py-5">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-5">
           <div>
-            <a href="/" className="text-sm font-bold uppercase tracking-[0.22em] text-[#e8f4fd]">
-              Lepto<span className="text-[#38bdf8]">Trials</span>
+            <a href="/" className="inline-block hover:opacity-85">
+              <BrandLogo className="text-sm tracking-[0.22em]" />
             </a>
             <p className="mt-1 text-xs text-[#6f9db8]">Private contact analytics</p>
           </div>
