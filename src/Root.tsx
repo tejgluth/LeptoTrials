@@ -2,14 +2,15 @@ import { lazy, Suspense } from 'react'
 import App from './App'
 
 const AnalyticsDashboard = lazy(() => import('./components/AnalyticsDashboard'))
-const isAnalyticsRoute = window.location.pathname.replace(/\/+$/, '') === '/analytics'
+const SuggestTrial = lazy(() => import('./components/SuggestTrial'))
+const pathname = window.location.pathname.replace(/\/+$/, '')
 
 export default function Root() {
-  if (!isAnalyticsRoute) return <App />
+  if (pathname !== '/analytics' && pathname !== '/suggest-trial') return <App />
 
   return (
-    <Suspense fallback={<main className="min-h-screen bg-[#060f1e]" aria-label="Loading analytics" />}>
-      <AnalyticsDashboard />
+    <Suspense fallback={<main className="min-h-screen bg-[#060f1e] p-8" role="status">Loading…</main>}>
+      {pathname === '/suggest-trial' ? <SuggestTrial /> : <AnalyticsDashboard />}
     </Suspense>
   )
 }

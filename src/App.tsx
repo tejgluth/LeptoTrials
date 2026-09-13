@@ -140,6 +140,9 @@ export default function App() {
               A focused clinical trial finder for leptomeningeal metastasis patients.
               Data sourced live from ClinicalTrials.gov API v2.
             </p>
+            <a href="/suggest-trial" className="mt-5 inline-flex min-h-11 items-center gap-3 text-sm font-semibold text-[#8ecfe8] underline underline-offset-4 hover:text-white">
+              Suggest a trial <span aria-hidden="true">↗</span>
+            </a>
           </div>
           <div>
             <p className="text-xs font-semibold uppercase tracking-wider text-[#8ecfe8] mb-3">
