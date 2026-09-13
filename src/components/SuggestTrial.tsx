@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { SUGGESTION_CATEGORIES, validateSuggestion, type SuggestionCategory } from '../utils/trialSuggestion'
+import BrandLogo from './BrandLogo'
 
 const inputClass = 'w-full min-w-0 rounded-md border border-[#2a5070] bg-[#0a1a2e] px-[14px] py-[12px] text-[16px] leading-normal text-[#e8f4fd] placeholder:text-[#6f9db8] focus:border-[#8ecfe8] focus:outline-none focus:ring-2 focus:ring-[#8ecfe8]/25'
 
@@ -65,7 +66,7 @@ export default function SuggestTrial() {
     <div className="min-h-screen bg-[#060f1e] text-[#e8f4fd]">
       <header className="border-b border-[#1a3352] px-[20px] sm:px-[32px]">
         <nav aria-label="Main navigation" className="mx-auto flex min-h-[72px] max-w-[1100px] items-center justify-between gap-4">
-          <a href="/" className="text-[13px] font-bold uppercase tracking-[0.18em]">Lepto<span className="text-[#8ecfe8]">Trials</span></a>
+          <a href="/" className="inline-block hover:opacity-85"><BrandLogo className="text-[13px] tracking-[0.18em]" /></a>
           <a href="/" className="inline-flex min-h-[44px] items-center text-[14px] text-[#8ecfe8] underline-offset-4 hover:underline">Back to trials <span className="ml-2" aria-hidden="true">↗</span></a>
         </nav>
       </header>

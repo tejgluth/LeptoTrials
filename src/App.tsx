@@ -2,6 +2,7 @@ import { useRef, useState } from 'react'
 import Hero from './components/Hero'
 import SearchForm from './components/SearchForm'
 import TrialsList from './components/TrialsList'
+import BrandLogo from './components/BrandLogo'
 import LoadingState from './components/LoadingState'
 import EmptyState from './components/EmptyState'
 import { useTrialSearch } from './hooks/useTrialSearch'
@@ -58,9 +59,7 @@ export default function App() {
     <div className="min-h-screen bg-[#060f1e] text-[#e8f4fd]">
 
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between max-[350px]:items-start max-[350px]:justify-center max-[350px]:flex-col gap-3 max-[350px]:gap-1 px-4 sm:px-8 md:px-12 lg:px-20 h-14 sm:h-16 max-[350px]:h-auto max-[350px]:py-2 border-b border-[#1a3352]/60 bg-[#060f1e]/95 backdrop-blur-sm">
-        <span className="min-w-0 flex-shrink text-[0.9rem] max-[430px]:text-[clamp(0.82rem,2.9vw,0.9rem)] font-bold uppercase tracking-[0.2em] max-[430px]:tracking-[0.16em] sm:tracking-[0.25em] text-[#e8f4fd] whitespace-nowrap">
-          Lepto<span className="text-[#38bdf8]">Trials</span>
-        </span>
+        <BrandLogo className="min-w-0 flex-shrink text-[0.9rem] max-[430px]:text-[clamp(0.82rem,2.9vw,0.9rem)] tracking-[0.2em] max-[430px]:tracking-[0.16em] sm:tracking-[0.25em] whitespace-nowrap" />
         <div className="flex items-center gap-4 sm:gap-6">
           {hasSearched && (
             <button
@@ -133,9 +132,7 @@ export default function App() {
       <footer className="mt-24 border-t border-[#1a3352]/60 px-5 sm:px-8 md:px-12 lg:px-20 py-12">
         <div className="flex flex-col sm:flex-row flex-wrap justify-between gap-10 max-w-7xl">
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#38bdf8] mb-3">
-              LeptoTrials
-            </p>
+            <BrandLogo className="mb-3 block text-sm tracking-[0.25em]" />
             <p className="text-sm text-[#8ecfe8] leading-relaxed max-w-xs">
               A focused clinical trial finder for leptomeningeal metastasis patients.
               Data sourced live from ClinicalTrials.gov API v2.
