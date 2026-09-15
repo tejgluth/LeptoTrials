@@ -335,6 +335,7 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT07704034',
       'NCT07751744',
       'NCT07789912',
+      'NCT07814352',
     ],
     mustExclude: ['NCT05984108', 'NCT06945705', 'NCT07415018', 'NCT07511725', 'NCT07653893', 'NCT07757113'],
   },
@@ -351,22 +352,23 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT07704034',
       'NCT07751744',
       'NCT07789912',
+      'NCT07814352',
     ],
     mustExclude: ['NCT05984108', 'NCT06945705', 'NCT07415018', 'NCT07757113'],
   },
   {
     scenario: 'lung-default',
-    mustInclude: ['NCT05967689', 'NCT06663306', 'NCT06643000', 'NCT06861218', 'NCT06282874', 'NCT07264569', 'NCT07789912'],
+    mustInclude: ['NCT05967689', 'NCT06663306', 'NCT06643000', 'NCT06861218', 'NCT06282874', 'NCT07264569', 'NCT07789912', 'NCT07814352'],
     mustExclude: ['NCT06016387', 'NCT04588545', 'NCT05782374', 'NCT03684980'],
   },
   {
     scenario: 'lung-all-statuses',
-    mustInclude: ['NCT01970865', 'NCT04965090', 'NCT05967689'],
+    mustInclude: ['NCT01970865', 'NCT04965090', 'NCT05967689', 'NCT07814352'],
   },
   {
     scenario: 'breast-default',
     mustInclude: ['NCT06810804', 'NCT04588545', 'NCT06016387', 'NCT07177950', 'NCT07503704', 'NCT07789912'],
-    mustExclude: ['NCT06663306', 'NCT06643000', 'NCT05782374', 'NCT03684980', 'NCT07653893'],
+    mustExclude: ['NCT06663306', 'NCT06643000', 'NCT05782374', 'NCT03684980', 'NCT07653893', 'NCT07814352'],
   },
   {
     scenario: 'breast-all-statuses',
@@ -374,17 +376,17 @@ const REGRESSIONS: RegressionCase[] = [
   },
   {
     scenario: 'melanoma-default',
-    mustInclude: ['NCT04511013', 'NCT07414979'],
+    mustInclude: ['NCT04511013', 'NCT07414979', 'NCT07814352'],
     mustExclude: ['NCT05782374', 'NCT03684980'],
   },
   {
     scenario: 'melanoma-all-statuses',
-    mustInclude: ['NCT04511013'],
+    mustInclude: ['NCT04511013', 'NCT07814352'],
   },
   {
     scenario: 'gbm-default',
     mustInclude: ['NCT04661384', 'NCT07193654', 'NCT07331064', 'NCT07751744'],
-    mustExclude: ['NCT06663306', 'NCT06810804', 'NCT05782374', 'NCT03684980', 'NCT07511725'],
+    mustExclude: ['NCT06663306', 'NCT06810804', 'NCT05782374', 'NCT03684980', 'NCT07511725', 'NCT07814352'],
   },
   {
     scenario: 'other-solid-default',
@@ -398,7 +400,7 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT07751744',
       'NCT07789912',
     ],
-    mustExclude: ['NCT05782374', 'NCT03684980', 'NCT07414979', 'NCT07415018', 'NCT04988009', 'NCT04185038', 'NCT07264569'],
+    mustExclude: ['NCT05782374', 'NCT03684980', 'NCT07414979', 'NCT07415018', 'NCT04988009', 'NCT04185038', 'NCT07264569', 'NCT07814352'],
   },
   {
     scenario: 'other-solid-all-statuses',
