@@ -5,7 +5,7 @@ export type ManualAuditOverride = {
   tumorLabels: Array<Exclude<TumorTypeFilter, 'any'>>
 }
 
-export const MANUAL_AUDIT_REVIEWED_ON = '2026-09-27'
+export const MANUAL_AUDIT_REVIEWED_ON = '2026-09-28'
 
 export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT00002750': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
@@ -305,6 +305,35 @@ export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT07783659': { siteEligible: false, tumorLabels: [] },
   'NCT07798921': { siteEligible: false, tumorLabels: [] },
   'NCT07802652': { siteEligible: false, tumorLabels: [] },
+  // Additional affirmative LM paths confirmed in the 2026-09-28 live follow-up.
+  'NCT00002578': { siteEligible: true, tumorLabels: [] },
+  'NCT02693535': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
+  'NCT03816345': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
+  'NCT04181060': { siteEligible: true, tumorLabels: ['LUNG'] },
+  'NCT04757779': { siteEligible: true, tumorLabels: ['LUNG'] },
+  'NCT04978727': { siteEligible: true, tumorLabels: ['GBM'] },
+  'NCT05359211': { siteEligible: true, tumorLabels: [] },
+  'NCT05422794': { siteEligible: true, tumorLabels: ['BREAST'] },
+  'NCT06102902': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
+  'NCT06211114': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
+  'NCT06422806': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
+  'NCT06465316': { siteEligible: true, tumorLabels: [] },
+  'NCT06589804': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
+  'NCT06610682': { siteEligible: true, tumorLabels: [] },
+  'NCT06896188': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
+  'NCT07415005': { siteEligible: true, tumorLabels: ['LUNG'] },
+  'NCT07426484': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
+  'NCT07431073': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
+  'NCT07444710': { siteEligible: true, tumorLabels: [] },
+  'NCT07447076': { siteEligible: true, tumorLabels: [] },
+  'NCT07624201': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
+  // These records lack an affirmative LM path or explicitly exclude LM.
+  'NCT03083041': { siteEligible: false, tumorLabels: [] },
+  'NCT03117049': { siteEligible: false, tumorLabels: [] },
+  'NCT03379428': { siteEligible: false, tumorLabels: [] },
+  'NCT03417895': { siteEligible: false, tumorLabels: [] },
+  'NCT07438626': { siteEligible: false, tumorLabels: [] },
+  'NCT07842276': { siteEligible: false, tumorLabels: [] },
   // Confirmed LM is required, and the eligible primaries are specifically NSCLC or melanoma.
   'NCT07814352': { siteEligible: true, tumorLabels: ['LUNG', 'MELANOMA'] },
 }
