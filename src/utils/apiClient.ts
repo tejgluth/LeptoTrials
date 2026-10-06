@@ -20,7 +20,7 @@ function validateParams(params: SearchParams): void {
   }
 }
 
-// Age filtering is client-side — the API stores ages as strings like "18 Years"
+// Age filtering is client-side. The API stores ages as strings like "18 Years"
 function appendCommonParams(
   url: URLSearchParams,
   params: SearchParams,
@@ -59,7 +59,7 @@ function appendCommonParams(
   }
 }
 
-// query.cond uses MeSH synonym expansion — "leptomeningeal metastasis" also matches
+// query.cond uses MeSH synonym expansion for "leptomeningeal metastasis", matching
 // "Meningeal Metastasis", "Leptomeningeal Carcinomatosis", etc.
 export function buildCondUrl(params: SearchParams, pageToken?: string): string {
   validateParams(params)
@@ -69,7 +69,7 @@ export function buildCondUrl(params: SearchParams, pageToken?: string): string {
   return `${BASE_URL}?${url.toString()}`
 }
 
-// query.term searches all fields — catches brain-metastasis trials that include LM
+// query.term searches all fields. It catches brain-metastasis trials that include LM
 // patients in eligibility criteria without listing LM as the primary condition.
 export function buildTermUrl(params: SearchParams, pageToken?: string): string {
   validateParams(params)

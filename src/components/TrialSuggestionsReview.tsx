@@ -46,7 +46,7 @@ export default function TrialSuggestionsReview({ token }: { token: string }) {
           <details className="mt-4 text-sm text-[#8daac0]">
             <summary className="cursor-pointer py-2 text-[#8ecfe8]">Official study details at submission</summary>
             <p className="mt-2">{[suggestion.study.status, suggestion.study.studyType, ...(suggestion.study.phases ?? [])].filter(Boolean).join(' · ')}</p>
-            <p className="mt-2">Ages: {suggestion.study.minimumAge ?? 'Not specified'} – {suggestion.study.maximumAge ?? 'Not specified'}</p>
+            <p className="mt-2">Ages: {suggestion.study.minimumAge ?? 'Not specified'} to {suggestion.study.maximumAge ?? 'Not specified'}</p>
             <p className="mt-2">Locations: {suggestion.study.countries.join(', ') || 'Not specified'}</p>
             <p className="mt-3 whitespace-pre-wrap">{suggestion.study.summary}</p>
           </details>

@@ -46,7 +46,7 @@ function formatPhase(phases: string[] | undefined): string {
 }
 
 function formatDate(dateStr: string | undefined): string {
-  if (!dateStr) return '—'
+  if (!dateStr) return 'Not specified'
   const parts = dateStr.split('-')
   if (parts.length >= 2) {
     const date = new Date(dateStr + (parts.length === 2 ? '-01' : ''))
@@ -59,7 +59,7 @@ function formatDate(dateStr: string | undefined): string {
 
 function formatResponsibleParty(study: Study): string {
   const rp = study.protocolSection?.sponsorCollaboratorsModule?.responsibleParty
-  if (!rp) return '—'
+  if (!rp) return 'Not specified'
   if (rp.investigatorFullName) {
     const parts = [rp.investigatorFullName]
     if (rp.investigatorTitle) parts.push(rp.investigatorTitle)
@@ -70,7 +70,7 @@ function formatResponsibleParty(study: Study): string {
     case 'SPONSOR':               return study.protocolSection?.sponsorCollaboratorsModule?.leadSponsor?.name ?? 'Sponsor'
     case 'PRINCIPAL_INVESTIGATOR':return 'Principal Investigator'
     case 'SPONSOR_INVESTIGATOR':  return 'Sponsor-Investigator'
-    default:                      return rp.type ?? '—'
+    default:                      return rp.type ?? 'Not specified'
   }
 }
 
@@ -239,7 +239,7 @@ export default function TrialCard({ study, index }: TrialCardProps) {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-5 mb-4 sm:mb-5">
           <div>
             <p className="text-sm font-medium text-[#8ecfe8] mb-1.5 uppercase tracking-wider">Organization</p>
-            <p className="text-sm sm:text-base text-[#b0d8ee] leading-snug">{orgFullName ?? '—'}</p>
+            <p className="text-sm sm:text-base text-[#b0d8ee] leading-snug">{orgFullName ?? 'Not specified'}</p>
           </div>
           <div>
             <p className="text-sm font-medium text-[#8ecfe8] mb-1.5 uppercase tracking-wider">Responsible Party</p>
@@ -264,7 +264,7 @@ export default function TrialCard({ study, index }: TrialCardProps) {
                     {enrollment.type === 'ESTIMATED' ? '(est.)' : '(actual)'}
                   </span>
                 </>
-              ) : '—'}
+              ) : 'Not specified'}
             </p>
           </div>
           <div>

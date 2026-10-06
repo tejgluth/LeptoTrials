@@ -123,7 +123,7 @@ export default function App() {
         {!hasSearched && !isLoading && (
           <div className="px-5 sm:px-8 md:px-12 lg:px-20 py-20 sm:py-24 text-center">
             <p className="text-sm text-[#8ecfe8]">
-              Set your filters above and press Search to find eligible trials
+              Set your filters above and press Search to find studies
             </p>
           </div>
         )}

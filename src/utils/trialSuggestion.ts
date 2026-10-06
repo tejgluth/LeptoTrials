@@ -54,7 +54,7 @@ export function validateSuggestion(body: unknown): TrialSuggestion {
     throw new Error('Choose specific categories or “Not sure”, not both.')
   }
   if (typeof relevance !== 'string' || relevance.trim().length < 20 || relevance.trim().length > 3_000) {
-    throw new Error('Explain the trial’s relevance in 20–3,000 characters.')
+    throw new Error('Explain why the trial is relevant in 20 to 3,000 characters.')
   }
   return { nctId, categories: [...new Set(categories)] as SuggestionCategory[], relevance: relevance.trim() }
 }

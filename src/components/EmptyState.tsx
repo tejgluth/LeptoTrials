@@ -37,7 +37,7 @@ export default function EmptyState({ hasSearched, error, onRetry }: EmptyStatePr
           No trials found
         </p>
         <p className="text-base text-[#b0d8ee] leading-relaxed mb-8">
-          No trials matched your filters after eligibility checking. Try broadening your search:
+          No studies matched your filters and our LM screening. Try broadening your search:
         </p>
 
         <ul className="space-y-3.5 mb-10">
@@ -56,9 +56,8 @@ export default function EmptyState({ hasSearched, error, onRetry }: EmptyStatePr
         </ul>
 
         <p className="text-sm text-[#8ecfe8] leading-relaxed border-l-2 border-[#1a3352] pl-4">
-          Some trials are removed because their exclusion criteria explicitly
-          exclude leptomeningeal patients — these are not appropriate for your condition
-          and are not shown.
+          Studies that explicitly exclude leptomeningeal disease are screened out.
+          Review possible options with your care team.
         </p>
       </div>
     </section>

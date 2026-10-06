@@ -215,7 +215,7 @@ export default function SearchForm({
             <p className="text-sm font-semibold text-[#b0d8ee]" aria-hidden="true">
               Phase{' '}
               <span className="text-[#8ecfe8] font-normal normal-case">
-                — select any
+                (select any)
               </span>
             </p>
             <div className="grid grid-cols-3 border border-[#1a3352] overflow-hidden min-h-[48px]" role="group" aria-label="Trial phase">

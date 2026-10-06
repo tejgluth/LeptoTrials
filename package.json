@@ -1,7 +1,7 @@
 {
-  "name": "leptomeningeal",
+  "name": "leptotrials",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -44,5 +44,8 @@
     "typescript-eslint": "^8.56.1",
     "vite": "^8.2.1",
     "wrangler": "^4.123.0"
+  },
+  "overrides": {
+    "sharp": "0.35.5"
   }
 }

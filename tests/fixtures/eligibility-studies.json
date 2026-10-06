@@ -1,0 +1,814 @@
+[
+  {
+    "source": "https://clinicaltrials.gov/study/NCT02616393",
+    "retrievedOn": "2026-10-06",
+    "study": {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT02616393",
+          "orgStudyIdInfo": {
+            "id": "KD019-206"
+          },
+          "organization": {
+            "fullName": "Kadmon Corporation, LLC",
+            "class": "INDUSTRY"
+          },
+          "briefTitle": "Phase 2 Study of Study of Tesevatinib in Subjects With NSCLC and Brain or Leptomeningeal Metastases",
+          "officialTitle": "A Phase 2, Multicenter Study of Tesevatinib in Subjects With Non-Small Cell Lung Cancer, EGFR Activating Mutation, Prior Treatment With a Tyrosine Kinase Inhibitor, and Brain Metastases or Leptomeningeal Metastases"
+        },
+        "statusModule": {
+          "statusVerifiedDate": "2022-03",
+          "overallStatus": "COMPLETED",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2015-11"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2018-04-03",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2018-04-03",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2015-11-20",
+          "studyFirstSubmitQcDate": "2015-11-24",
+          "studyFirstPostDateStruct": {
+            "date": "2015-11-26",
+            "type": "ESTIMATED"
+          },
+          "resultsFirstSubmitDate": "2021-05-28",
+          "resultsFirstSubmitQcDate": "2021-10-25",
+          "resultsFirstPostDateStruct": {
+            "date": "2021-11-23",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2022-03-07",
+          "lastUpdatePostDateStruct": {
+            "date": "2022-03-16",
+            "type": "ACTUAL"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "responsibleParty": {
+            "type": "SPONSOR"
+          },
+          "leadSponsor": {
+            "name": "Kadmon Corporation, LLC",
+            "class": "INDUSTRY"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "A study to assess the activity of tesevatinib in subjects with non-small cell lung cancer (NSCLC) and activating epidermal growth factor receptor (EGFR) mutations who have disease progression with Brain Metastases (BM) or Leptomeningeal Metastases (LM) or who have either BM or LM at initial presentation (IP)",
+          "detailedDescription": "This was a multicenter, phase 2, open-label study to assess the activity of tesevatinib, in subjects with non-small cell lung cancer (NSCLC) and activating epidermal growth factor receptor (EGFR) mutations, and brain metastases (BM) or leptomeningeal metastases (LM).\n\nAfter completion of the screening assessments and confirmation of study eligibility, tesevatinib was orally administered to all subjects at a dose of 300 mg once daily (QD). Tumor response, both in the central nervous system (CNS) and outside the central nervous system (non-CNS), was assessed after the second cycle of treatment and then at the end of every two cycles of treatment thereafter. Subjects were treated with tesevatinib 300 mg QD until disease progression or the subject experienced unacceptable toxicity.\n\nSubjects who discontinued tesevatinib therapy were followed for survival.\n\nSubjects with NSCLC + EGFR mutations were assigned to one of three cohorts:\n\n* Cohort A: Brain Metastases (BM). Subjects had progressed with BM.\n* Cohort B: Leptomeningeal Metastases (LM). Subjects had initially presented or progressed with LM.\n* Cohort C: Brain Metastases at Initial Presentation (BM-IP). Subjects had no prior systemic therapy.\n\nEach of the three cohorts was to have 20 subjects, for a total of 60 subjects. All three cohorts were enrolled simultaneously.\n\nThe primary objectives were to include:\n\n* Clinical activity of tesevatinib of subjects in Cohort A (BM) and Cohort C (BM-IP) as measured by Response Criteria in Solid Tumors (RECIST) version 1.1 which evaluated changes in BM size.\n* Clinical activity of tesevatinib of subjects in Cohort B (LM) as measured by improvement in Common Terminology Criteria for Adverse Events (CTCAE) version 5.0 symptoms and signs.\n\nEfficacy assessments included response to treatment using RECIST criteria, progression-free survival (PFS), time to progression (TTP), overall survival (OS), and Quality of Life (QOL) questionnaires. Safety assessments included adverse event (AE) monitoring, electrocardiogram (ECG), Eastern Cooperative Oncology Group (ECOG) Performance Status, laboratory testing, physical examination, vital signs, and pregnancy testing. In addition, pharmacokinetic (PK) and pharmacodynamic (PD) assessments were performed.\n\nAn End of Treatment Visit occurred within 3 days after the subject's last dose of study drug. This could have occurred at the visit when disease progression was diagnosed. Subjects were continued to be followed for disease progression and survival.\n\nA follow-up visit occurred 30 days (\u00b1 5 days) after the last dose of study drug. This visit may have occurred prior to 30 days if a new therapy was started within 30 days of last dose of study drug.\n\nFor long-term follow-up, after subjects withdrew from the active treatment portion of the study, they were contacted by telephone every 8 weeks to assess survival status and any subsequent anti-cancer treatment."
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Non-Small Cell Lung Cancer",
+            "Leptomeningeal Metastases",
+            "Brain Metastases"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE2"
+          ],
+          "designInfo": {
+            "allocation": "NON_RANDOMIZED",
+            "interventionModel": "SINGLE_GROUP",
+            "primaryPurpose": "TREATMENT",
+            "maskingInfo": {
+              "masking": "NONE"
+            }
+          },
+          "enrollmentInfo": {
+            "count": 36,
+            "type": "ACTUAL"
+          }
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Cohort A\n\nInclusion Criteria:\n\n* History of non-small cell lung cancer (NSCLC) with epidermal growth factor receptor (EGFR) mutation or an EGFR activating mutation that has had a clinical response to erlotinib, afatinib, or gefitinib in the patient being enrolled\n* Occurrence or progression of BM while receiving first-line therapy (either erlotinib, afatinib, or gefitinib) for at least 14 days. Patients may have received osimertinib (or other agents inhibiting the T790M EGFR mutation) as second line therapy. If BM progression occurs after osimertinib, patient will be eligible.\n* At least one measurable BM by RECIST 1.1 criteria (\u2265 10 mm in longest diameter). Target lesions must not have received stereotactic radiotherapy (SRS). If a subject had prior whole brain radiotherapy (WBRT), progression in any measurable BM lesion must have occurred at least 3 months after the end of WBRT. Subjects with asymptomatic brain metastases may have been enrolled without prior radiation therapy to the brain. Subjects with minimally symptomatic brain metastases may have been enrolled without prior radiation therapy to the brain if they do not require immediate surgical or radiation therapy in the opinion of the treating investigator and in the opinion of a radiation therapy or neurosurgical consultant\n* Subjects in Cohort A may have had asymptomatic LM detected by MRI. (Subjects with symptoms or signs attributed to LM were enrolled in Cohort B whether or not they have brain metastases)\n* No clinically significant progression outside of the CNS on most recent EGFR inhibitor therapy\n* ECOG Score \u2264 2\n* No history of another malignancy in the 5 years prior to study entry, except treated non-melanoma skin cancer or superficial bladder cancer or carcinoma in situ of the cervix or Stage 1 or 2 cancers of other sites that have been treated surgically and have not recurred\n* Adequate organ and bone marrow functions\n* Serum potassium and magnesium levels above the lower limit of normal\n* No coexisting medical problems of sufficient severity to limit compliance with the study\n* Willing and able to sign written informed consent and able to comply with the study protocol for the duration of the study\n* Women of childbearing potential (i.e., menstruating women) must have had a negative urine pregnancy test (positive urine tests confirmed by serum test)\n\nExclusion Criteria:\n\n* First day of dosing with tesevatinib less than 2 weeks from the last treatment of cytotoxic chemotherapy, biological therapy, or immunotherapy, and less than 6 weeks for nitrosoureas and mitomycin C. Surgical procedures must have been performed at least 2 weeks prior to the start of study treatment. Subjects must have recovered from the reversible effects of prior lung cancer treatments, including surgery and radiation therapy (excluding alopecia).\n* First day of dosing with tesevatinib less than 4 weeks from the last radiotherapy of the brain or spinal cord/cauda equina\n* First day of dosing with tesevatinib less than 2 weeks from treatment with another investigational agent\n* Treatment with erlotinib must have been discontinued at least 3 days prior to first dose of tesevatinib and treatment with afatinib or other tyrosine kinase inhibitor must have been discontinued at least 3 days prior to first dose of tesevatinib\n* Any concurrent therapy for BM other than the specified treatment in this study\n* Taking any medication known to moderately or severely inhibit the CYP3A4 isozyme or any drugs that are CYP3A4 inducers (including anti-epileptic agents such as phenytoin). A stable regimen (\u2265 4 weeks) of antidepressants of the selective serotonin uptake inhibitor (SSRI) class was allowed (common SSRIs include escitalopram oxalate, citalopram, fluvoxamine, paroxetine, sertraline, and fluoxetine)\n* Taking any drugs associated with torsades de pointes or known to moderately or severely prolong the QTc(F) interval\n* Evidence of active heart disease such as myocardial infarction within the 3 months prior to study entry; symptomatic coronary insufficiency congestive heart failure; moderate or severe pulmonary dysfunction\n* History of torsades de pointes, ventricular tachycardia or fibrillation, pathologic sinus bradycardia (\\< 50 bpm), heart block (excluding first degree block, being PR interval only), or congenital long QT syndrome. Subjects with a history of atrial arrhythmias were discussed with the medical monitor\n* Had an active infectious process\n* Female subject pregnant or lactating\n* Known contraindication to MRI, such as cardiac pacemaker, shrapnel, or ocular foreign body\n* Marked prolongation of QTc(F) interval at screening or baseline (QTc\\[F\\] interval \\> 470 msec) using the Fridericia method of correction for heart rate\n* Gastrointestinal (GI) condition interfering with drug absorption\n* Non-malignant neurological disease that would interfere with evaluation of symptoms or signs of brain metastases\n\nCohort B\n\nInclusion Criteria:\n\n* History of NSCLC with EGFR mutation (either exon 19 deletion or L858R mutation) or, if previously treated, history of an activating EGFR mutation that had a clinical response to erlotinib, afatinib, or gefitinib in the subject being enrolled).\n* Presentation with LM at initial presentation with no prior systemic treatment, or occurrence or progression of LM while receiving first-line therapy (either erlotinib, afatinib, or gefitinib) for at least 14 days. Patients may have received osimertinib (or other agents inhibiting the T790M EGFR mutation) as second line therapy. If LM progression occurred after osimertinib, subjects were eligible.\n* Presence of at least one CTCAE 4.03 symptom/sign of at least Grade 1 attributed by the investigator to LM\n* Diagnosis of LM by:\n\n  1. Cytological evidence in cerebrospinal fluid (CSF) sample of LM due to NSCLC, and/or\n  2. Findings on gadolinium-enhanced MRI\n* No clinically significant progression outside of the CNS on most recent EGFR inhibitor therapy\n* Concomitant brain metastases and brain metastases previously treated with radiation therapy were allowed. (Subjects with symptoms or signs attributed to LM will be enrolled in Cohort B whether or not they have brain metastases)\n* ECOG Score \u2264 2\n* No history of another malignancy in the 5 years prior to study entry, except treated non-melanoma skin cancer or superficial bladder cancer or carcinoma in situ of the cervix or Stage 1 or 2 cancers of other sites that have been treated surgically and had not recurred\n* Adequate organ and bone marrow functions\n* Serum potassium and magnesium levels above the lower limit of normal (LLN)\n* No coexisting medical problems of sufficient severity to limit compliance with the study\n* Willing and able to sign written informed consent and able to comply with the study protocol for the duration of the study\n* Women of childbearing potential (i.e., menstruating women) must have had a negative urine pregnancy test (positive urine tests confirmed by serum test)\n\nExclusion Criteria:\n\n* First day of dosing with tesevatinib less than 2 weeks from the last treatment of cytotoxic chemotherapy, biological therapy, or immunotherapy, and less than 6 weeks for nitrosoureas and mitomycin C. Surgical procedures must have been performed at least 2 weeks prior to the start of study treatment. Subjects must have recovered from the reversible effects of prior lung cancer treatments, including surgery and radiation therapy (excluding alopecia).\n* First day of dosing with tesevatinib less than 4 weeks from the last radiotherapy of the brain or spinal cord/cauda equina\n* First day of dosing with tesevatinib less than 2 weeks from treatment with another investigational agent\n* Treatment with erlotinib must have been discontinued at least 3 days prior to first dose of tesevatinib and treatment with afatinib or other tyrosine kinase inhibitor must have been discontinued at least 3 days prior to first dose of tesevatinib\n* Any concurrent therapy for LM other than the specified treatment in this study\n* Taking any medication known to moderately or severely inhibit the CYP3A4 isozyme or any drugs that are CYP3A4 inducers (including anti-epileptic agents such as phenytoin). A stable regimen (\u2265 4 weeks) of antidepressants of the SSRI class was allowed (common SSRIs include escitalopram oxalate, citalopram, fluvoxamine, paroxetine, sertraline, and fluoxetine)\n* Taking any drugs associated with torsades de pointes or known to moderately or severely prolong the QTc(F) interval\n* Evidence of active heart disease such as myocardial infarction within the 3 months prior to study entry; symptomatic coronary insufficiency congestive heart failure; moderate or severe pulmonary dysfunction\n* History of torsades de pointes, ventricular tachycardia or fibrillation, pathologic sinus bradycardia (\\< 50 bpm), heart block (excluding first degree block, being PR interval only), or congenital long QT syndrome. Subjects with a history of atrial arrhythmias were discussed with the medical monitor.\n* Has an active infectious process\n* Female subject pregnant or lactating\n* Known contraindication to MRI, such as cardiac pacemaker, shrapnel, or ocular foreign body\n* Marked prolongation of QTc(F) interval at screening or baseline (QTc\\[F\\] interval \\> 470 msec) using the Fridericia method of correction for heart rate\n* GI condition that would interfere with drug absorption\n* Non-malignant neurological disease that would interfere with evaluation of symptoms or signs of leptomeningeal metastases\n* Contraindications to lumbar puncture:\n\n  1. International Normalized Ratio (INR) \\> 1.5\n  2. Platelets \\< 50 \u00d7 10\\^9/L (Note that platelets are required to be \u2265100\u00d7 10\\^9/L at screening)\n  3. Therapeutic anticoagulant treatment that can't be held for 24 hours. Low dose low molecular weight heparin given for deep vein thrombosis (DVT) prophylaxis was allowed.\n  4. CNS lesions considered to be at risk for cerebral herniation, myelocompression, or conus/cauda compression\n\nCohort C\n\nInclusion Criteria:\n\n* NSCLC with EGFR activating mutation\n* No prior systemic treatment for NSCLC. Treatment with systemic steroids was not considered systemic treatment for NSCLC\n* No prior radiation therapy to the CNS (brain or spinal cord)\n* At least one measurable BM by RECIST 1.1 criteria (\u2265 10 mm in longest diameter) in a subject with asymptomatic or minimally symptomatic brain metastases who did not require immediate surgical or radiation therapy in the opinion of the treating investigator and in the opinion of a radiation therapy or neurosurgical consultant.\n* Subjects in Cohort C may have had asymptomatic LM detected by MRI\n* ECOG Score \u2264 2\n* No history of another malignancy in the 5 years prior to study entry, except treated non-melanoma skin cancer or superficial bladder cancer or carcinoma in situ of the cervix or Stage 1 or 2 cancers of other sites that have been treated surgically and have not recurred\n* Adequate organ and bone marrow functions\n* Serum potassium and magnesium levels above the LLN\n* No coexisting medical problems of sufficient severity to limit compliance with the study.\n* Willing and able to sign written informed consent and able to comply with the study protocol for the duration of the study\n* Women of childbearing potential (i.e., menstruating women) must have had a negative urine pregnancy test (positive urine tests are to be confirmed by serum test)\n\nExclusion Criteria:\n\n* Surgical procedures performed less than 2 weeks prior to the start of study treatment\n* Any concurrent therapy for BM other than the specified treatment in this study\n* Taking any medication known to moderately or severely inhibit the CYP3A4 isozyme or any drugs that are CYP3A4 inducers (including anti-epileptic agents such as phenytoin). A stable regimen (\u2265 4 weeks) of antidepressants of the SSRI class was allowed (common SSRIs include escitalopram oxalate, citalopram, fluvoxamine, paroxetine, sertraline, and fluoxetine)\n* Taking any drugs associated with torsades de pointes or known to moderately or severely prolong the QTc(F) interval\n* Evidence of active heart disease such as myocardial infarction within the 3 months prior to study entry; symptomatic coronary insufficiency congestive heart failure; moderate or severe pulmonary dysfunction\n* History of torsades de pointes, ventricular tachycardia or fibrillation, pathologic sinus bradycardia (\\< 50 bpm), heart block (excluding first-degree block, being PR interval only), or congenital long QT syndrome. Subjects with a history of atrial arrhythmias were discussed with the medical monitor\n* An active infectious process\n* Female subject pregnant or lactating\n* Known contraindication to MRI, such as cardiac pacemaker, shrapnel, or ocular foreign body\n* Marked prolongation of QTc(F) interval at screening or Cycle 1 Day 1 (QTc\\[F\\] interval \\> 470 msec) using the Fridericia method of correction for heart rate\n* GI condition interfering with drug absorption\n* Non-malignant neurological disease that would interfere with evaluation of symptoms or signs of brain metastases",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "minimumAge": "18 Years",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "source": "https://clinicaltrials.gov/study/NCT02896335",
+    "retrievedOn": "2026-10-06",
+    "study": {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT02896335",
+          "orgStudyIdInfo": {
+            "id": "16-254"
+          },
+          "organization": {
+            "fullName": "Massachusetts General Hospital",
+            "class": "OTHER"
+          },
+          "briefTitle": "Palbociclib and Pembrolizumab In Central Nervous System Metastases",
+          "officialTitle": "Phase II Trial of Palbociclib and Pembrolizumab in Central Nervous System Metastases"
+        },
+        "statusModule": {
+          "statusVerifiedDate": "2026-07",
+          "overallStatus": "RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2017-02-02",
+            "type": "ACTUAL"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2028-09-01",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2029-09-01",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2016-08-30",
+          "studyFirstSubmitQcDate": "2016-09-09",
+          "studyFirstPostDateStruct": {
+            "date": "2016-09-12",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2026-07-17",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-21",
+            "type": "ACTUAL"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "responsibleParty": {
+            "type": "PRINCIPAL_INVESTIGATOR",
+            "investigatorFullName": "Nancy Wang, M.D.",
+            "investigatorTitle": "Principal Investigator",
+            "investigatorAffiliation": "Massachusetts General Hospital"
+          },
+          "leadSponsor": {
+            "name": "Massachusetts General Hospital",
+            "class": "OTHER"
+          },
+          "collaborators": [
+            {
+              "name": "Pfizer",
+              "class": "INDUSTRY"
+            },
+            {
+              "name": "Merck Sharp & Dohme LLC",
+              "class": "INDUSTRY"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "This research study is studying This research study is studying the efficacy and safety of the following study drugs as a possible treatment for recurrent central nervous system (CNS) metastases:\n\n* Palbociclib alone (Cohort 1)\n* The combination of palbociclib and pembrolizumab (Cohort 2) Pfizer and Merck, pharmaceutical companies, are supporting this research study by providing the study drugs as well as funding for research activities.",
+          "detailedDescription": "This is a non-randomized, parallel cohort, Phase II study. Phase II clinical trials test the safety and effectiveness of an investigational intervention to learn whether the intervention works in treating a specific disease. \"Investigational\" means that the intervention is being studied.\n\nThe study will be conducted in two independent cohorts. The first cohort (Cohort 1) is comprised of participants with measurable CNS metastases from solid tumors (including patients whose primary cancers are from lung, breast or melanoma) harboring specific alterations, and participants receive the study drug palbociclib. The second cohort (Cohort 2) will evaluate the efficacy and safety of the combination of pembrolizumab and palbociclib in recurrent brain metastases from breast cancer or melanoma.\n\nPalbociclib is being studied for use in the treatment of a broad range of cancers. This type of drug inhibits cell growth in the cells called cyclin-dependent kinases which promote tumor cell proliferation. The U.S. Food and Drug Administration (FDA) has not approved palbociclib for participants with central nervous system metastases, but it has been approved for other uses.\n\nResearchers hope to study the effects of pembrolizumab. The U.S. Food and Drug Administration (FDA) has approved pembrolizumab for some diseases, but not central nervous system metastases. Many cancers use specific pathways (such as PD-1/PD-L1 and CTLA-4) to evade the body's immune system. Pembrolizumab works by blocking the PD-1/PD-L1 pathways and thus releasing the brakes on the immune system so it can stop or slow cancer. In some tumor diagnoses, there may be a correlation between a specific marker (PD-L1 status) and activity of types of immunotherapies.\n\nParticipants in any cohort will receive study treatment as long as they do not experience intolerable side effects and their disease does not worsen, and will be followed for 2 years after their study treatment ends."
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Metastatic Malignant Neoplasm to Brain",
+            "Recurrent Brain Metastases",
+            "Progressive Brain Metastases"
+          ],
+          "keywords": [
+            "Recurrent Brain metastases",
+            "Progressive Brain Metastases",
+            "Recurrent brain metastases from breast cancer",
+            "central nervous system metastases",
+            "recurrent brain metastases from melanoma"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE2"
+          ],
+          "designInfo": {
+            "allocation": "NON_RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "primaryPurpose": "TREATMENT",
+            "maskingInfo": {
+              "masking": "NONE"
+            }
+          },
+          "enrollmentInfo": {
+            "count": 45,
+            "type": "ESTIMATED"
+          }
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants must have histologically or cytologically confirmed disease from any solid tumor (Cohort 1)\n* Participants must have histologically or cytologically confirmed disease from breast cancer or melanoma (Cohort 2).\n* Participants must have measurable disease in the CNS, defined as at least one lesion that can be accurately measured in at least one dimension as \u226510 mm.\n* Participants must have progressive CNS lesions, as defined by one of the following:\n\n  * Patients may have multiple progressive CNS lesions, some of which have been treated by SRS or surgery. Patients are eligible if they have one or more un-treated (by surgery or SRS) progressive lesions that is measurable.\n  * Patients have measurable residual or progressive lesions after surgery.\n  * Patients who have had prior WBRT and/or SRS are eligible but there needs to be unequivocal evidence of progression of at least one lesion treated by radiation (e.g. tissue diagnosis). Biopsy can be considered for definitive diagnosis.\n  * Patients who have previously been treated with systemic therapy for CNS metastases are eligible.\n* Age \\> 18 years. The toxicity of palbociclib in children is unknown.\n* ECOG performance status of 0, 1 or 2 (Karnofsky \u2265 60, see Appendix A).\n* Participants must have normal organ and marrow function as defined below:\n\n  * leukocytes \u22653,000/mcL\n  * absolute neutrophil count \u22651,500/mcL\n  * platelets \u2265100,000/mcL\n  * hemoglobin \u22659g/dL\n  * total bilirubin \\< 1.5 x institutional upper limit of normal OR \\> 1.5 x institutional upper limit of normal allowed if direct bilirubin is within normal range.\n  * AST(SGOT)/ALT(SGPT) \u22642.5 \u00d7 institutional upper limit of normal\n  * creatinine within normal institutional limits OR\n\n    * creatinine clearance \u226560 mL/min/1.73 m2 for participants with creatinine levels above institutional normal (Cohort 1)\n    * creatinine clearance \u226530 mL/min/1.73 m2 for participants with creatinine levels above institutional normal (Cohort 2)\n  * baseline QTc \\<480ms\n* The effects of palbociclib on the developing human fetus are unknown. For this reason, women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform her treating physician immediately. Men treated or enrolled on this protocol must also agree to use adequate contraception prior to the study, for the duration of study participation, and 6 months after completion of palbociclib administration.\n* Ability to understand and the willingness to sign a written informed consent document.\n* Tissue from a prior biopsy or resection of intracranial or extracranial site (primary or metastatic site) for clinical genetic sequencing (at least one FFPE block or 15 unstained slides). Patients previously assessed for genetic sequencing who meet requirements of section 9.2.1 do not need to have additional tissue available for prospective genetic screening.\n* Presence of alteration in CDK pathway in any biopsy or resection (amplifications in CDK4, CDK6, CCND1, CCND2, CCND3 or CCNE1 or loss of CDKN2A) as described in Section 9.2 using a CLIA-certified assay (Cohort 1 only).\n* Patients with progressive extracranial disease will not be excluded.\n* Stable dose of corticosteroids for at least 7 days.\n* Participants who are HBsAg positive are eligible if they have received HBV anti-viral therapy for at least 4 weeks, and have undetectable HBV viral load prior to enrollment\n\n  * Note: Participants should remain on anti-viral therapy throughout study intervention and follow local guidelines for HBV anti-viral therapy post completion of study intervention\n  * Hepatits B screening tests are not required unless:\n\n    * Known history of HBV infection\n    * As mandated by local health authority\n* Participants with a history of HCV infection are eligible if HCV viral load is undetectable at screening.\n\n  * Note: Participants must have completed curative anti-viral therapy at least 4 weeks prior to enrollment\n  * Heptatits C screening tests are not required unless:\n\n    * Known history of HCV infection\n    * As mandated by local health authority\n\nExclusion Criteria\n\n* Prior treatment with CDK4/6 inhibitor.\n* Participants who have had chemotherapy, immunotherapy or radiotherapy within 2 weeks (6 weeks for nitrosoureas or mitomycin C) prior to entering the study or those who have \u2265 grade 2 adverse events due to agents administered more than 2 weeks earlier.\n* Participants who are receiving any other investigational agents.\n* Participants who are receiving other concurrent chemotherapies or immunotherapies for their cancer (except for patients who will receive letrozole, anastrozole, exemestane, tamoxifen, fulvestrant, trastuzumab, bisphosphonates, or ovarian suppression therapy)\n* Leptomeningeal involvement of cancer (Cohort 1). Leptomeningeal involvement is allowed for Cohort 2.\n* History of allergic reactions attributed to compounds of similar chemical or biologic composition to palbociclib (including abemaciclib).\n* Participants receiving any medications or substances that are moderate or strong inhibitors or inducers of CYP3A isoenzymes are ineligible. Lists including medications and substances known or with the potential to interact with the CYP3A isoenzymes are provided in Appendix C, and can also be found within section 5.4. Because the lists of these agents are constantly changing, it is important to regularly consult a frequently-updated list such as http://medicine.iupui.edu/clinpharm/ddis/table.aspx; medical reference texts such as the Physicians' Desk Reference may also provide this information. As part of the enrollment/informed consent procedures, the patient will be counseled on the risk of interactions with other agents, and what to do if new medications need to be prescribed or if the patient is considering a new over-the-counter medicine or herbal product.\n* Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.\n* Pregnant women are excluded from this study because the effect of palbociclib on a developing fetus is unknown. Because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with palbociclib, breastfeeding should be discontinued if the mother is treated with palbociclib.\n\nIf a participant inadvertently becomes pregnant while on treatment with pembrolizumab, the participant will be immediately discontinued from study intervention(s). The site will contact the participant at least monthly and document the participant's status until the pregnancy has been completed or terminated. The outcome of the pregnancy will be reported to Merck within 2 working days if the outcome is a serious adverse experience (e.g. death, abortion, congenital anomaly, or other disabling or life-threatening complication to the mother or newborn). The study Investigator will make every effort to obtain permission to follow the outcome of the pregnancy and report the condition of the fetus or newborn to Merck. If a male participant impregnates his female partner, the study personnel at the site must be informed immediately and the pregnancy must be reported to the Overall PI, Merck and Pfizer and followed as necessary.\n\n* HIV-positive participants on combination antiretroviral therapy are ineligible because of the potential for pharmacokinetic interactions with palbociclib. In addition, these participants are at increased risk of lethal infections when treated with marrow-suppressive therapy. Appropriate studies will be undertaken in participants receiving combination antiretroviral therapy when indicated (Cohort 1). In Cohort 2, HIV-positive patients will NOT be permitted.\n* Current use of drugs that are known to prolong the QT interval (See Appendix C).\n* Unable to undergo MRI scans.\n* QTc \\> 480 msec (based on the mean value of the triplicate ECGs), family or personal history of long or short QTc prolongation, or Torsade de Pointes (TdP).\n* Uncontrolled electrolyte disorders that can compound the effects of QTc-prolonging drug (eg. hypocalcemia, hypokalemia, hypomagnesemia).\n* Active auto immune disease (Cohort 2)\n* Patients with history of lung radiation (Cohort 2)\n* Prior treatment with PD-1 or PD-L1 blocking agent (Cohort 2)\n* History of allogenic transplant\n* History of (non-infectious) pneumonitis/interstitial lung disease that required steroids or has current pneumonitis/interstitial lung disease\n* History of Hepatitis B or known active Hepatitis C virus infection",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "minimumAge": "18 Years",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "source": "https://clinicaltrials.gov/study/NCT03093116",
+    "retrievedOn": "2026-10-06",
+    "study": {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT03093116",
+          "orgStudyIdInfo": {
+            "id": "CA127-1024"
+          },
+          "secondaryIdInfos": [
+            {
+              "id": "CA127-1024",
+              "type": "OTHER",
+              "domain": "BMS Protocol ID"
+            },
+            {
+              "id": "TPX-0005-01",
+              "type": "OTHER",
+              "domain": "Turning Point Therapeutics Protocol ID"
+            }
+          ],
+          "organization": {
+            "fullName": "Turning Point Therapeutics, Inc.",
+            "class": "INDUSTRY"
+          },
+          "briefTitle": "A Study of Repotrectinib (TPX-0005) in Patients With Advanced Solid Tumors Harboring ALK, ROS1, or NTRK1-3 Rearrangements",
+          "officialTitle": "A Phase 1/2, Open-Label, Multi-Center, First-in-Human Study of the Safety, Tolerability, Pharmacokinetics, and Anti-Tumor Activity of TPX-0005 in Patients With Advanced Solid Tumors Harboring ALK, ROS1, or NTRK1-3 Rearrangements (TRIDENT-1)",
+          "acronym": "TRIDENT-1"
+        },
+        "statusModule": {
+          "statusVerifiedDate": "2026-05",
+          "overallStatus": "RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": true,
+            "nctId": "NCT05926232",
+            "statusForNctId": "AVAILABLE"
+          },
+          "startDateStruct": {
+            "date": "2017-03-07",
+            "type": "ACTUAL"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2028-02-29",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2028-02-29",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2017-03-06",
+          "studyFirstSubmitQcDate": "2017-03-21",
+          "studyFirstPostDateStruct": {
+            "date": "2017-03-28",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-05-26",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-05-27",
+            "type": "ACTUAL"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "responsibleParty": {
+            "type": "SPONSOR"
+          },
+          "leadSponsor": {
+            "name": "Turning Point Therapeutics, Inc.",
+            "class": "INDUSTRY"
+          },
+          "collaborators": [
+            {
+              "name": "Zai Lab (Shanghai) Co., Ltd.",
+              "class": "INDUSTRY"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Phase 1 dose escalation will determine the first cycle dose-limiting toxicities (DLTs), the maximum tolerated dose (MTD), the biologically effective dose and recommended Phase 2 dose (RP2D) of repotrectinib given to adult subjects with advanced solid malignancies harboring an ALK, ROS1, NTRK1, NTRK2, or NTRK3 gene rearrangement.\n\nMidazolam DDI substudy will examine effect of of repotrectinib on CYP3A induction.\n\nPhase 2 will determine the confirmed Overall Response Rate (ORR) as assessed by Blinded Independent Central Review (BICR) of repotrectinib in each subject population expansion cohort of advanced solid tumors that harbor a ROS1, NTRK1, NTRK2, or NTRK3 gene rearrangement. The secondary objective will include the duration of response (DOR), time to response (TTR), progression-free survival (PFS), overall survival (OS) and clinical benefit rate (CBR) of repotrectinib in each expansion cohort of advanced solid tumors that harbor a ROS1, NTRK1, NTRK2, or NTRK3 gene rearrangement.",
+          "detailedDescription": "In Phase 2, study subjects will be enrolled into 6 distinct expansion (EXP) cohorts:\n\n* EXP-1: ROS1 TKI-na\u00efve ROS1+ NSCLC. Up to one prior line of chemotherapy OR immunotherapy is allowed\n* EXP-2: 1 Prior ROS1 TKI AND 1 Platinum-based Chemotherapy ROS1+ NSCLC. Disease progression, or intolerant to one prior line of a ROS1 TKI. Must have received one prior line of platinum based chemotherapy OR one prior line of platinum based chemotherapy in combination with immunotherapy before or after a ROS1 TKI\n* EXP-3: 2 Prior ROS1 TKIs AND NO Chemotherapy ROS1+ NSCLC. Disease progression, or intolerant to 2 prior lines of a ROS1 TKI treatment. No prior lines of chemotherapy or immunotherapy are allowed.\n* EXP-4: 1 Prior ROS1 TKI and NO Chemotherapy or Immunotherapy. Disease progression or intolerant to one prior line of a ROS1 TKI. No prior lines of chemotherapy or immunotherapy are allowed.\n* EXP-5: TRK TKI-na\u00efve NTRK+ solid tumors. Any number of prior lines of chemo or immunotherapy is allowed.\n* EXP-6: TRK TKI-pretreated NTRK+ solid tumors. Disease progression, or intolerant to 1 or 2 prior TRK TKIs. Any number of prior lines of chemo- or immunotherapy are allowed."
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Locally Advanced Solid Tumors",
+            "Metastatic Solid Tumors"
+          ],
+          "keywords": [
+            "ALK",
+            "ROS1",
+            "NTRK",
+            "Sarcoma",
+            "Lung Neoplasms",
+            "Carcinoma, NSCL",
+            "NSCLC",
+            "Non Small Cell Lung",
+            "Thyroid Disease",
+            "Colonic Neoplasms",
+            "Thyroid Neoplasms",
+            "Carcinoma, Neuroendocrine",
+            "Respiratory Tract Neoplasms",
+            "Thoracic Neoplasms",
+            "Neoplasms by Site",
+            "Neoplasms",
+            "Lung Disease",
+            "Respiratory Tract Disease",
+            "Carcinoma, Bronchogenic",
+            "Bronchial Neoplasms",
+            "Endocrine System Disease",
+            "Colorectol Neoplasms",
+            "Intestinal Neoplasms",
+            "Gastrointestinal Neoplasms",
+            "Digestive System Neoplasms",
+            "Gastrointestinal Disease",
+            "Colonic Disease",
+            "Intestinal Disease",
+            "Endocrine Gland Neoplasms",
+            "Head and Neck Neoplasms",
+            "Neuroendocrine Tumors",
+            "Neuroectodermal Tumors",
+            "Neoplasms, Germ Cell and Embryonal",
+            "Neoplasms by Histologic Type",
+            "Adenocarcinoma",
+            "Non Small Cell Lung Cancer",
+            "Solid Tumors",
+            "Rearrangements",
+            "TRIDENT-1",
+            "TKI",
+            "TKI naive",
+            "TKI pretreated",
+            "Anti-tumor activity",
+            "Repotrectinib",
+            "Advanced Solid Malignancies"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "primaryPurpose": "TREATMENT",
+            "maskingInfo": {
+              "masking": "NONE"
+            }
+          },
+          "enrollmentInfo": {
+            "count": 500,
+            "type": "ESTIMATED"
+          }
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "PHASE 1\n\nKey Inclusion Criteria:\n\n1. Histologically or cytologically confirmed diagnosis of locally advanced, or metastatic solid tumor (including primary CNS tumors) (Stage IV, American Joint Committee on Cancer v.7) that harbors an ALK, ROS1, NTRK1, NTRK2, or NTRK3 gene rearrangement by protocol specified tests.\n2. ECOG PS 0-1.\n3. Age \u226518 (or age \u2265 20 of age as required by local regulation).\n4. Capability to swallow capsules intact (without chewing, crushing, or opening).\n5. At least 1 measurable target lesion according to RECIST version 1.1. CNS-only measurable disease as defined by RECIST version 1.1 is allowed.\n6. Prior cytotoxic chemotherapy is allowed.\n7. Prior immunotherapy is allowed.\n8. Resolution of all acute toxic effects (excluding alopecia) of any prior anti-cancer therapy to National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE) Version 4.03 Grade less than or equal to 1.\n9. Patients with asymptomatic CNS metastases (treated or untreated) and/or asymptomatic leptomeningeal carcinomatosis are eligible to enroll if they satisfy the protocol specified criteria.\n10. Baseline laboratory values fulfilling the following requirements:Absolute neutrophils count (ANC) \u22651500/mm3 (1.5 \u00d7 109/L); Platelets (PLTs) \u2265100,000/mm3 (100 \u00d7 109/L); Hemoglobin \u2265 9.0 g/dL transfusions are allowed; Serum creatinine or creatinine clearance Within normal limits or \\> 40 mL/min; Total serum bilirubin \\< 1.5 \u00d7 ULN; Liver transaminases (ASTs/ALTs) \\< 2.5 \u00d7 ULN; \\< 5 \u00d7 ULN if liver metastases are present Alkaline phosphatase (ALP); \\< 2.5 \u00d7 ULN; \\< 5 \u00d7 ULN if liver and/or bone metastasis are present; Serum calcium, magnesium, and potassium Normal or CTCAE grade \u2264 1 with or without supplementation\n11. Life expectancy \u2265 3 months.\n\nPHASE 2 Key Inclusion Criteria\n\n1. Histologically or cytologically confirmed diagnosis of locally advanced, or metastatic solid tumor (including primary CNS tumors) that harbors a ROS1, or NTRK1-3 gene fusion.\n2. Subject must have a documented ROS1 or NTRK1-3 gene fusion determined by tissue-based local testing using either:\n\n   1. a next-generation sequencing (NGS) or quantitative polymerase chain reaction (qPCR) test will be accepted to determine molecular eligibility.\n\n      \u2022 Adequate tumor tissue needs to be sent to the Sponsor designated central diagnostic laboratory for retrospective confirmation by a central diagnostic laboratory test selected by the Sponsor.\n\n      OR\n   2. a fluorescence in situ hybridization (FISH) test AND prospective confirmation of fusion status by a central diagnostic laboratory test selected by the Sponsor PRIOR to enrollment will be accepted to determine molecular eligibility.\n\n      * Adequate tumor tissue must be sent to the Sponsor designated central diagnostic laboratory for prospective confirmation by a central diagnostic laboratory test selected by the Sponsor PRIOR to enrollment.\n3. Eastern Cooperative Oncology Group (ECOG) Performance Status 0-1.\n4. Age \u226512 (or age \u2265 20 as required by local regulation).\n5. Willing and able to provide written institutional review board (IRB)/institutional ethics committee-approved Informed Consent or an Assent signed by a parent or legal guardian for subjects age 12 to 17.\n6. At least 1 measurable target lesion according to RECIST (v1.1) prospectively confirmed by Blinded Independent Central Radiology Review (BICR), selected by Sponsor, PRIOR to enrollment. Subjects with CNS-only measurable disease \u226510 mm as defined by RECIST (v1.1) are eligible.\n7. Subjects with advanced solid tumors harboring ROS1, NTRK1, NTRK2, or NTRK3 rearrangement will be assigned into 6 distinct expansion (EXP) cohorts provided all inclusion and exclusion criteria are met.\n\n   i. EXP-1: ROS1 TKI-na\u00efve ROS1+ NSCLC ii. EXP-2: 1 Prior ROS1 TKI and 1 Platinum based chemo ROS1+ NSCLC iii. EXP-3: 2 Prior ROS1 TKIs ROS1+ NSCLC (No Chemo or IO) iv. EXP-4: 1 Prior ROS1 TKI ROS1+ NSCLC (No Chemo or IO) v. EXP-5: TRK TKI-na\u00efve NTRK+ solid tumors vi. EXP-6: TRK TKI-pretreated NTRK+ solid tumors\n8. Subjects with asymptomatic CNS metastases (treated or untreated) and/or asymptomatic leptomeningeal carcinomatosis are eligible to enroll if they satisfy the protocol specified criteria.\n9. Baseline laboratory values fulfilling the following requirements:Absolute neutrophils count (ANC) \u22651500/mm3 (1.5 \u00d7 109/L); Platelets (PLTs) \u2265100,000/mm3 (100 \u00d7 109/L); Hemoglobin \u2265 9.0 g/dL transfusions are allowed; Serum creatinine or creatinine clearance \\> 40 mL/min; Total serum bilirubin \\< 1.5 \u00d7 ULN; Liver transaminases (ASTs/ALTs) \\< 2.5 \u00d7 ULN; \\< 5 \u00d7 ULN if liver metastases are present Alkaline phosphatase (ALP); \\< 2.5 \u00d7 ULN; \\< 5 \u00d7 ULN if liver and/or bone metastasis are present; Serum calcium, magnesium, and potassium Normal or CTCAE grade \u2264 1 with or without supplementation\n10. Life expectancy \u2265 3 months.\n\nKey Exclusion Criteria PHASE 1 and PHASE 2\n\n1. Concurrent participation in another therapeutic clinical trial.\n2. Symptomatic brain metastases or leptomeningeal involvement.\n3. History of previous cancer, except for squamous cell or basal-cell carcinoma of the skin, or any in situ carcinoma that has been completely resected, requiring therapy within the previous 2 years.\n4. Major surgery within 4 weeks of start of repotrectinib treatment. Radiation therapy (except palliative to relieve bone pain) within 2 weeks of study entry. Palliative radiation (\u226410 fractions) must have been completed at least 48 hours prior to study entry\n5. Clinically significant cardiovascular disease (either active or within 6 months prior to enrollment): myocardial infarction, unstable angina, coronary/peripheral artery bypass graft, symptomatic congestive heart failure (New York Heart Association Classification Class \u2265 II), cerebrovascular accident or transient ischemic attack, symptomatic bradycardia, requirement for anti-arrhythmic medication. Ongoing cardiac dysrhythmias of NCI CTCAE grade \u22652\n6. Any of the following cardiac criteria:\n\n   Mean resting corrected QT interval (ECG interval measured from the onset of the QRS complex to the end of the T wave) for heart rate (QTcF) \\> 470 msec obtained from 3 ECGs, using the screening clinic ECG machine-derived QTc value Any clinically important abnormalities in rhythm, conduction or morphology of resting ECG (e.g., complete left bundle branch block, third degree heart block, second degree heart block, PR interval \\> 250 msec) Any factors that increase the risk of QTc prolongation or risk of arrhythmic events such as heart failure, hypokalemia, congenital long QT syndrome, family history of long QT syndrome, or any concomitant medication known to prolong the QT interval.\n7. Known active infections (bacterial, fungal, viral including HIV positivity).\n8. Gastrointestinal disease (e.g., Crohn's disease, ulcerative colitis, or short gut syndrome) or other malabsorption syndromes that would impact drug absorption.\n9. Peripheral neuropathy of CTCAE \u2265grade 2.\n10. History of extensive, disseminated, bilateral, or presence of CTCAE grade 3 or 4 interstitial fibrosis or interstitial lung disease including a history of pneumonitis, hypersensitivity pneumonitis, interstitial pneumonia, interstitial lung disease, obliterative bronchiolitis, and pulmonary fibrosis. Subjects with history of prior radiation pneumonitis are not excluded.",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "minimumAge": "12 Years",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "source": "https://clinicaltrials.gov/study/NCT03202940",
+    "retrievedOn": "2026-10-06",
+    "study": {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT03202940",
+          "orgStudyIdInfo": {
+            "id": "17-112"
+          },
+          "organization": {
+            "fullName": "Massachusetts General Hospital",
+            "class": "OTHER"
+          },
+          "briefTitle": "A Phase IB/II Study of Alectinib Combined With Cobimetinib in Advanced ALK-Rearranged (ALK+) NSCLC",
+          "officialTitle": "A Phase IB/II Study of Alectinib Combined With Cobimetinib in Advanced ALK-Rearranged (ALK+) NSCLC"
+        },
+        "statusModule": {
+          "statusVerifiedDate": "2026-04",
+          "overallStatus": "ACTIVE_NOT_RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2017-09-14",
+            "type": "ACTUAL"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2029-01-01",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2031-01-01",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2017-06-12",
+          "studyFirstSubmitQcDate": "2017-06-26",
+          "studyFirstPostDateStruct": {
+            "date": "2017-06-29",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-05-05",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-05-08",
+            "type": "ACTUAL"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "responsibleParty": {
+            "type": "PRINCIPAL_INVESTIGATOR",
+            "investigatorFullName": "Ibiayi Dagogo-Jack, M.D.",
+            "investigatorTitle": "Principal Investigator",
+            "investigatorAffiliation": "Massachusetts General Hospital"
+          },
+          "leadSponsor": {
+            "name": "Massachusetts General Hospital",
+            "class": "OTHER"
+          },
+          "collaborators": [
+            {
+              "name": "Genentech, Inc.",
+              "class": "INDUSTRY"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "This research study is studying a drug combination as a possible treatment for anaplastic lymphoma kinase-positive (ALK+) non-small cell lung cancer.\n\nThe drugs involved in this study are:\n\n* Alectinib\n* Cobimetinib",
+          "detailedDescription": "This is a Phase I/II clinical trial. A Phase I clinical trial tests the safety of investigational drugs or new combinations of approved drugs. In addition, a Phase I study tries to define the appropriate dose of the investigational drugs to use for further studies. \"Investigational\" means that the drugs are being studied. Following the phase I study, additional participants will be enrolled to the Phase II component. The phase II component will test the safest doses of alectinib and cobimetinib (as identified in the Phase I component) in a larger group of patients.\n\nThe FDA (the U.S. Food and Drug Administration) has approved alectinib as a treatment option for this disease.\n\nThe FDA has not approved cobimetinib as a treatment for this specific disease. However, cobimetinib is approved for treatment of melanoma, another type of cancer.\n\nAlectinib is an oral ALK inhibitor made by the pharmaceutical company Genentech. The term ALK inhibitor means that alectinib targets the abnormal ALK protein that is causing your lung cancer cells to grow. Alectinib has been tested in other clinical research studies and results show that the drug may help stop the growth and spread of ALK+ lung cancer cells.\n\nCobimetinib is an oral inhibitor of MEK, a signaling protein that can cause some types of lung cancer to grow. Cobimetinib is also made by Genentech. Laboratory studies suggest that ALK and MEK may work together to help ALK+ lung cancer cells grow. In the laboratory, combination treatment with drugs targeting ALK and MEK prevented lung cancer cells from growing. It is possible that combination treatment with alectinib and cobimetinib will work better than alectinib alone to control the spread of the cancer.\n\nIn this research study, the investigators are trying to determine whether the combination of alectinib and cobimetinib is safe and well tolerated. This study will help determine the doses of the drugs that should be used in the Phase II portion of this study. Another purpose of this study is to determine whether adding cobimetinib to alectinib is effective for treating lung cancer that has already stopped responding to alectinib alone. In order to help understand why the cancer may have stopped responding to alectinib and whether treatment with the two drugs effectively blocks growth signals, all participants in this study will have periodic blood collections and undergo multiple biopsies."
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Non-small Cell Lung Cancer"
+          ],
+          "keywords": [
+            "Lung Cancer"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "primaryPurpose": "TREATMENT",
+            "maskingInfo": {
+              "masking": "NONE"
+            }
+          },
+          "enrollmentInfo": {
+            "count": 16,
+            "type": "ACTUAL"
+          }
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Ability to understand and the willingness to sign a written informed consent document.\n* Age \u2265 18 years.\n* Histologically or cytologically confirmed diagnosis of metastatic NSCLC (Stage IV, AJCC v7.0) that carries an ALK rearrangement, as determined by the Food and Drug Administration (FDA)-approved fluorescence in-situ hybridization (FISH) test, using Vysis\u00ae ALK Break apart FISH Probe, or the Ventana\u00ae immunohistochemistry (IHC) test. Diagnosis using next generation sequencing (NGS) via a local diagnostic test will be accepted for enrollment but will need to be confirmed with either FISH or IHC.\n* For the expansion cohort: Patients must have had disease progression on alectinib (including patients who received alectinib as first-line treatment). Subsequent anti-neoplastic therapy (including other ALK inhibitors or chemotherapy) after progression on alectinib is not permitted. Note: patients in the dose-finding portion of the study may have received other anti-neoplastic therapy after progression on alectinib.\n* At least one measurable lesion as defined by RECIST version 1.1. Previously irradiated lesions are not measurable unless the lesion has demonstrated clear progression after radiation.\n* Eastern Cooperative Group (ECOG) performance status \u2264 2 for patients treated in the expansion phase. ECOG PS \u2264 1 is required for participants in the dose-finding portion of the study.\n* Life expectancy of greater than 12 weeks\n* Patient willingness and disease accessible to pre-treatment, on-treatment tumor, and progression biopsies (core biopsies). A cell block from a pleural effusion may be substituted for a core biopsy.\n* Able to swallow and retain orally administered medication. Does not have any clinically significant gastrointestinal abnormalities, such as malabsorption syndrome or major resection of the stomach or small bowel that may alter absorption of the medication.\n* For participants in the dose-finding phase, a minimum washout period of at least 5 half-lives between the last dose of tyrosine kinase inhibitor (TKI) therapy and the first dose of study treatment is required. For patients on crizotinib, a 7 day washout is sufficient. A shorter washout period may be considered in the event of disease flare, after discussion with the Sponsor. No washout is required if the most recent anti-neoplastic therapy is alectinib.\n* Patients must have recovered from treatment toxicities to \u2264 Grade 1 or to their pretreatment levels except for adverse events (AEs) that in the investigator's judgment do not constitute a safety risk for the patient.\n* Patients can either be chemotherapy-naive or have received platinum-based chemotherapy for locally advanced or metastatic disease. Acute effects of therapy must have resolved to baseline severity or to CTCAE grade \u22641 except for AEs that in the investigator's judgment do not constitute a safety risk for the patient. Patients who have received prior treatment with checkpoint inhibitors are eligible.\n* Recovery from effects of any major surgery or significant traumatic injury at least 28 days before the first dose of study treatment\n* For all women of childbearing potential, a negative pregnancy test must be obtained at the baseline visit before starting study treatment. For women who are not postmenopausal (\u2265 12 months of non-therapy-induced amenorrhea) or surgically sterile (absence of ovaries and/or uterus): agreement to remain abstinent or use two adequate methods of contraception, including at least one method with a failure rate of \\< 1% per year, during the treatment period and for at least 90 days after the last dose of study drug.\n\n  * Abstinence is only acceptable if it is in line with the preferred and usual lifestyle of the patient. Periodic abstinence (e.g., calendar, ovulation, symptothermal, or post-ovulation methods) and withdrawal are not acceptable methods of contraception.\n  * Examples of contraceptive methods with a failure rate of \\< 1% per year include tubal ligation, male sterilization, hormonal implants, established, proper use of combined oral or injected hormonal contraceptives, and certain intrauterine devices. Alternatively, two methods (e.g., two barrier methods such as a condom and a cervical cap) may be combined to achieve a failure rate of \\<1% per year. Barrier methods must always be supplemented with the use of a spermicide.\n* For men: agreement to remain abstinent or use a barrier method of contraception (e.g., condom) during the treatment period and for at least 90 days after the last dose of study drug and agreement to refrain from donating sperm during this same period\n\n  * Men with a pregnant partner must agree to remain abstinent or use a condom for the duration of the pregnancy.\n  * Abstinence is only acceptable if it is in line with the preferred and usual lifestyle of the patient. Periodic abstinence (e.g., calendar, ovulation, symptothermal, or postovulation methods) and withdrawal are not acceptable methods of contraception.\n* Patients with untreated, controlled asymptomatic central nervous system (CNS) lesions are allowed in this trial as long as the CNS is not a site of progressive disease on alectinib monotherapy. If the CNS is a site of progressive disease on alectinib monotherapy, treatment of CNS lesions is required for enrollment.\n* The use of seizure prophylaxis is allowed as long as patients are taking non-enzyme inducing anti-epileptic drugs (non-EIAED). If patients were previously on EIAEDs and these have been discontinued, they must have been discontinued for at least 2 weeks prior to treatment start. If patients require an anti-epileptic medication, then a CYP3A4 non-EIAED can be used such as levetiracetam, valproic acid, gabapentin, topiramate or lacosamide.\n* Patients requiring steroids must be at a stable or decreasing dose for at least 1 week prior to enrollment\n* Patients with asymptomatic leptomeningeal disease are eligible for participation in this trial. However, patients who had progression of leptomeningeal disease on alectinib will be required to undergo CNS radiation to meet eligibility.\n\nExclusion Criteria:\n\n* Participants who have had chemotherapy within 3 weeks prior to entering the study or those who have not recovered from adverse events due to agents administered more than 3 weeks earlier.\n* Participants who experienced progression of CNS lesions on alectinib who have not received local CNS therapies (radiation, surgery) to address the lesions. CNS imaging obtained at least 21 days after completion of radiation is required for confirmation of response.\n* Radiation therapy (except palliative to relieve bone pain) within 7 days of study entry. Palliative radiation (\u2264 10 fractions) must have been completed at least 48 hours prior to study entry. Stereotactic or small field brain irradiation must have been completed at least 7 days prior to study entry. Whole brain radiation and radiation for leptomeningeal metastasis must have been completed at least 2 weeks prior to study entry. Acute effects of radiation must have resolved to baseline severity or to CTCAE grade \u22641 except for AEs that in the investigator's judgment do not constitute a safety risk for the patient.\n* Participants with uncontrolled tumor-related pain.\n\n  * Symptomatic lesions amenable to palliative radiotherapy (e.g., bone metastases or metastases causing nerve impingement) should be treated prior to enrollment.\n  * Asymptomatic metastatic lesions whose further growth would likely cause functional deficits or intractable pain (e.g., epidural metastases that are not currently associated with spinal cord compression) should be considered for loco-regional therapy if appropriate prior to enrollment.\n* Patients who are receiving denosumab prior to enrollment who are not willing and/or eligible to switch to a bisphosphonate while on study.\n* Pregnant or lactating women.\n* History of hypersensitivity to alectinib or any of its excipients. In addition, subjects who are unable to tolerate the 600 mg twice daily (BID) dose of alectinib will not be permitted to enroll unless doses of alectinib below the entry level are being investigated (e.g. dose level -1 and -2) and they have previously tolerated alectinib monotherapy at the dose being investigated.\n* Participants with prior allogeneic stem cell or solid organ transplantation.\n* History of extensive, disseminated, bilateral or presence of Grade 3 or 4 interstitial fibrosis or interstitial lung disease including pneumonitis, hypersensitivity pneumonitis, interstitial pneumonia, interstitial lung disease, obliterative bronchiolitis or pulmonary fibrosis. Patients with history of prior radiation pneumonitis are not excluded.\n* Serum albumin \\< 2.5 g/dL\n* Positive test for human immunodeficiency virus (HIV) or history of active tuberculosis\n* Current use or anticipated need for food or drugs that are known strong or moderate CYP3A4 inhibitors, including their administration within 2 weeks prior to the first study treatment (ie, strong CYP3A4 inhibitors: grapefruit juice or grapefruit/grapefruit related citrus fruits \\[eg, Seville oranges, pomelos\\], ketoconazole, miconazole, itraconazole, voriconazole, posaconazole, clarithromycin, telithromycin, indinavir, saquinavir, ritonavir, nelfinavir, amprenavir, fosamprenavir nefazodone, lopinavir, troleandomycin, mibefradil, and conivaptan; Moderate CYP3A4 inhibitors: erythromycin, verapamil, atazanavir, delavirdine, fluconazole, darunavir, diltiazem, aprepitant, imatinib, tofisopam, ciprofloxacin, cimetidine). For participants in the dose escalation portion, no CYP3A4 inhibitors should be administered during the first 21 days of the study, regardless of strength.\n* Current use or anticipated need for drugs that are known strong or moderate CYP3A4 inducers including their administration within 2 weeks prior to the first study treatment (ie, phenobarbital, rifampin, phenytoin, carbamazepine, rifabutin, rifapentin, clevidipine, St. John's Wort). For participants in the dose escalation portion, no CYP3A4 inducers should be administered during the first 21 days of the study, regardless of strength.\n* Current symptomatic congestive heart failure or history of symptomatic congestive heart failure in the preceding 3 months, defined as New York Heart Association Classification 2- 4\n* Left ventricular ejection fraction \\< 50% or institutional lower limit of normal, whichever is lower\n* Current diagnosis of symptomatic bradycardia\n* Abnormal hematologic and end organ function, defined by the following laboratory results:\n\n  * Absolute neutrophil count \\< 1500 cells/uL (granulocyte colony-stimulating factor support should not be used within 2 weeks prior to Cycle 1, Day 1).\n  * Platelet count \\< 100,000/uL\n  * Hemoglobin \\< 9.0 g/dL (patients may be transfused above this threshold)\n  * INR and aPTT \\> 1.5 x ULN (upper limit of normal)\n  * This applies only to patients who are not receiving therapeutic anticoagulation. Patients receiving therapeutic anticoagulation should be on a stable dose.\n  * Serum creatinine \\> 1.5x the ULN or an estimated glomerular filtration rate (eGFR) calculated using the Modification of Diet in Renal Disease (MDRD) equation of \\< 45 mL/min/1.73 m2\n  * Serum lipase \\> 1.5x ULN\n* Liver disease characterized by:\n\n  * Alanine aminotransferase and asparate aminotransferase (ALT or AST) \\> 3x ULN (or \\> 5x ULN for patients with concurrent liver metastasis) confirmed on two consecutive measurements OR\n  * Serum bilirubin \\> 1.5 x ULN. Patients with known Gilbert's disease who have a serum bilirubin level \\> 3 x ULN may be enrolled.\n  * Impaired synthetic function or other conditions of decompensated liver disease, such as coagulopathy, hepatic encephalopathy, ascites, and bleeding from esophageal varices\n  * Acute viral or active autoimmune, alcoholic, or other types of acute hepatitis\n* History of or evidence of retinal pathology on ophthalmologic examination that is considered a risk factor for neurosensory retinal detachment, central serous chorioretinopathy, retinal vein occlusion (RVO), or neovascular macular degeneration. Patients will be excluded from study participation if they are currently known to have any of the following risk factors for RVO:\n\n  * Glaucoma with intraocular pressure \u2265 21 mmHg\n  * Grade \u2265 2 serum cholesterol (patients with a history of elevated cholesterol controlled with lipid lowering medication to Grade \u2264 1 are eligible)\n  * Grade \u2265 2 hypertriglyceridemia (patients with a history of elevated cholesterol controlled with lipid lowering medication to Grade \u2264 1 are eligible)\n  * Grade \u2265 2 or symptomatic hyperglycemia (fasting). Hyperglycemia may be corrected with medications to Grade \u2264 1.\n  * Grade \u2265 2 uncontrolled hypertension (patients with a history of hypertension controlled with anti-hypertensive medication to Grade \u2264 1 are eligible)\n* Major surgical procedure other than for diagnosis within 28 days prior to Cycle 1, Day 1 or anticipation of need for a major surgical procedure during the course of the study.\n* Evidence of active malignancy (other than current NSCLC, non-melanoma skin cancer, in situ cervical cancer, papillary thyroid cancer, localized/stable renal masses, ductal carcinoma in-situ/lobular carcinoma in-situ (DCIS/LCIS) of the breast, or localized and presumed cured prostate cancer) within the last 3 years.\n* Active inflammatory gastrointestinal disease or previous gastric resection or lap band.\n* Inability or unwillingness to swallow pills\n* Concurrent use of other tyrosine kinase inhibitors\n* Prior treatment with a mitogen activated kinase pathway (MAPK) inhibitor\n* Allergy or hypersensitivity to components of the cobimetinib formulation\n* Any other diseases, metabolic dysfunction, physical examination finding, or clinical laboratory finding giving reasonable suspicion of a disease or condition that would preclude the use of an investigational drug or that may affect the interpretation of the results or render the participant at high risk from treatment complications.",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "minimumAge": "18 Years",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "source": "https://clinicaltrials.gov/study/NCT03083041",
+    "retrievedOn": "2026-10-06",
+    "study": {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT03083041",
+          "orgStudyIdInfo": {
+            "id": "SHR-1210-APTN-II-202-NSCLC"
+          },
+          "organization": {
+            "fullName": "Jiangsu HengRui Medicine Co., Ltd.",
+            "class": "INDUSTRY"
+          },
+          "briefTitle": "A Study of SHR-1210 in Combination With Apatinib in Advanced Non-Small Cell Lung Cancer(NSCLC)",
+          "officialTitle": "A Phase II Study of SHR-1210 in Combination With Apatinib in Advanced Non-Small Cell Lung"
+        },
+        "statusModule": {
+          "statusVerifiedDate": "2022-06",
+          "overallStatus": "COMPLETED",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2017-03-13",
+            "type": "ACTUAL"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2022-04-22",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2022-04-22",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2017-03-02",
+          "studyFirstSubmitQcDate": "2017-03-13",
+          "studyFirstPostDateStruct": {
+            "date": "2017-03-17",
+            "type": "ACTUAL"
+          },
+          "resultsFirstSubmitDate": "2023-05-05",
+          "resultsFirstSubmitQcDate": "2026-03-02",
+          "resultsFirstPostDateStruct": {
+            "date": "2026-03-03",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-03-02",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-03-03",
+            "type": "ACTUAL"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "responsibleParty": {
+            "type": "SPONSOR"
+          },
+          "leadSponsor": {
+            "name": "Jiangsu HengRui Medicine Co., Ltd.",
+            "class": "INDUSTRY"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "This is a multi-center, open-label, Phase II study of intravenous (IV) SHR-1210 at 200mg, q2w in combination with Apatinib at two dose levels in subjects with locally advanced or metastatic non-small cell lung cancer (NSCLC).\n\nThe study is composed of two parts. Part 1 of the study will determine the safety, tolerability and pharmacokinetics of SHR-1210 in combination with Apatinib.\n\nPart 2 includes a randomized comparison of Apatinib 250mg/d or 500mg/d plus SHR-1210.\n\nSubject's tumors will be screened at baseline for EGFR mutations, EML4-ALK translocation, and PD-L1 expression.But positive tumor PD-L1 expression will not be required for enrollment.",
+          "detailedDescription": "SHR-1210 is a humanized monoclonal antibody against Programmed death 1(PD-1). Apatinib is a new kind of selective Vascular Endothelial Growth Factor Receptor 2(VEGFR-2) tyrosine kinase inhibitor (TKI). A disease-control rate of 61.1% and a mPFS of 4.7 months were showed in Apatinib phase II study in patients with NSCLC."
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Carcinoma, Non-Small-Cell Lung"
+          ],
+          "keywords": [
+            "SHR-1210",
+            "Apatinib",
+            "NSCLC"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE2"
+          ],
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "primaryPurpose": "TREATMENT",
+            "maskingInfo": {
+              "masking": "NONE"
+            }
+          },
+          "enrollmentInfo": {
+            "count": 210,
+            "type": "ACTUAL"
+          }
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Subjects \\>/= 18 years and \\</=70 years of age at the time of Informed Consent.\n2. Advanced relapsed or refractory predominantly NSCLC with at least one measurable lesion according to RECIST 1.1.\n3. Failure of second line of chemotherapy(Part 1); Failure of First line of chemotherapy(Part 2)\n4. Eastern Cooperative Oncology Group (ECOG) performance status 0-1.\n5. Patients must have recovered from any AEs of prior treatments before randomization.\n6. Adequate bone marrow,liver and renal function as assessed by the following laboratory tests conducted within 1 week before randomization. HB \u2265 90g/L; ANC\u22651.5\u00d710E+9/L; PLT\u2265100\u00d710E+9/L; ALT and AST \\< 1.5\u00d7ULN; TBIL \u22641\u00d7ULN; Cr \u22641.5\u00d7ULN or CL\u226560 ml/min.\n7. Life expectancy of at least three months.\n8. Male or female participants of childbearing potential must be willing to use an adequate method of contraception starting with the first dose of study drug through 60 days for female subjects and 120 days for male subjects after the last dose of study drug.\n9. Written informed consent and the willingness and ability to comply with all aspects of the protocol.\n\nExclusion Criteria:\n\n1. Suffered from grade II or above myocardial ischemia or myocardial infarction, uncontrolled arrhythmias (including QT interval male \u2265 450 ms, female\u2265 470 ms).\n2. Severe or uncontrolled systemic disease such as clinically significant hypertension (systolic pressure \\>/= 140 mm Hg and/or diastolic pressure \\>/= 90 mm Hg), and Grade III-IV cardiac insufficiency, according to NYHA criteria or echocardiography check: LVEF\\<50%.\n3. Factors to affect oral administration (inability to swallow tablets,GI tract resection, chronic bacillary diarrhea and intestinal obstruction).\n4. Coagulation disfunction,hemorrhagic tendency or receiving anticoagulant therapy\n5. \\>/= CTCAE 2 pneumorrhagia or \\>/= CTCAE 3 hemorrhage in other organs within 4 weeks.\n6. Bone fracture or wounds that was not cured.\n7. Arterial thrombus or phlebothrombosis within 6 months and taking anticoagulant agents.\n8. Mental diseases and psychotropic substances abuse.\n9. Previous treatment with an trial agent within 4 weeks\n10. Proteinuria \u2265 (++) or 24 hours total urine protein \\> 1.0 g.\n11. Other coexisting malignant disease (except basal-cell carcinoma and carcinoma in situ of uterine cervix).",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "minimumAge": "18 Years",
+          "maximumAge": "70 Years",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "source": "https://clinicaltrials.gov/study/NCT03417895",
+    "retrievedOn": "2026-10-06",
+    "study": {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT03417895",
+          "orgStudyIdInfo": {
+            "id": "SHR-1210-II-206"
+          },
+          "organization": {
+            "fullName": "Jiangsu HengRui Medicine Co., Ltd.",
+            "class": "INDUSTRY"
+          },
+          "briefTitle": "SHR-1210 Combined With Apatinib in Treatment of ED-SCLC After Failure of First Line Standard Therapy",
+          "officialTitle": "Anti-PD-1 Antibody SHR-1210 Combined With Anti-angiogenesis Inhibitor Apatinib in Treatment of Extensive-stage Disease Small Cell Lung Cancer After Failure of First Line Standard Therapy",
+          "acronym": "PASSION"
+        },
+        "statusModule": {
+          "statusVerifiedDate": "2023-04",
+          "overallStatus": "COMPLETED",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2018-04-20",
+            "type": "ACTUAL"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2021-08-04",
+            "type": "ACTUAL"
+          },
+          "completionDateStruct": {
+            "date": "2021-08-04",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2018-01-08",
+          "studyFirstSubmitQcDate": "2018-01-29",
+          "studyFirstPostDateStruct": {
+            "date": "2018-01-31",
+            "type": "ACTUAL"
+          },
+          "resultsFirstSubmitDate": "2023-04-12",
+          "resultsFirstSubmitQcDate": "2024-02-25",
+          "resultsFirstPostDateStruct": {
+            "date": "2024-08-07",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2024-02-25",
+          "lastUpdatePostDateStruct": {
+            "date": "2024-08-07",
+            "type": "ACTUAL"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "responsibleParty": {
+            "type": "SPONSOR"
+          },
+          "leadSponsor": {
+            "name": "Jiangsu HengRui Medicine Co., Ltd.",
+            "class": "INDUSTRY"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "This is a multi-center, open-label, phase II study of intravenous (IV) SHR-1210 at 200mg,q2w in combination with Apatinib at one dose (375mg). Comparison of 3 different dose schedules in subjects with extensive-stage disease small cell lung cancer. SHR-1210 is a humanized monoclonal antibody against Programmed death 1(PD-1). Apatinib is a new kind of selective Vascular Endothelial Growth Factor Receptor 2 (VEGFR-2) tyrosine kinase inhibitor (TKI).\n\nThe study is composed of two parts. Part 1 of the study will determine the safety and tolerability of SHR-1210 in combination with Apatinib in first 6 subjects of each arm. The second phase of treatment was carried out by selecting one group of administration mode and the tolerated dose of Apatinib. Part 2 of the study will determine the safety and efficacy of SHR-1210 in combination with Apatinib in 39 subjects."
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Small-cell Lung Cancer"
+          ]
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE2"
+          ],
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "primaryPurpose": "TREATMENT",
+            "maskingInfo": {
+              "masking": "NONE"
+            }
+          },
+          "enrollmentInfo": {
+            "count": 59,
+            "type": "ACTUAL"
+          }
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed inform consent form.\n2. Age \\>= 18 years and \\<= 70 years.\n3. Histologically or cytologically confirmed small cell lung cancer.\n4. ED-SCLC according to Veterans Administration Lung Study Group.\n5. Radiographically progression following a platinum-based standard prior chemotherapy regimen.\n6. Eastern Cooperative Oncology Group performance status of 0 or 1.\n7. Measurable disease as defined by RECIST v1.1.\n8. Life expectancy \\>= 8 weeks.\n9. Adequate hematologic and end organ function.\n\nExclusion Criteria:\n\n1. Histologically or cytologically confirmed mixed non-small cell and small cell carcinoma.\n2. Prior exposure to therapeutic anticancer vaccines; prior exposure to any T cell co-stimulatory therapy or immune checkpoint inhibitors, including but not limited to other anti-CTLA-4, anti-PD-1, anti-PD-L1 and anti-PD-L2 antibodies.\n3. Prior exposure to anti-VEGF or anti-VEGFR therapy.\n4. Active brain metastasis or meningeal metastasis.\n5. Clinically significant third space effusion (e.g., uncontrolled pericardial effusion, ascites or pleural effusion by extraction or other treatment).\n6. Known hypersensitivity to study drug or any of its excipients; known hypersensitivity to any antibody.\n7. Treatment with any other investigational agent or participation in another clinical trial within 4 weeks prior to screening.\n8. Other conditions that the investigator thinks unsuitable in this study.",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "minimumAge": "18 Years",
+          "maximumAge": "70 Years",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "source": "https://clinicaltrials.gov/study/NCT05984108",
+    "retrievedOn": "2026-10-06",
+    "study": {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05984108",
+          "orgStudyIdInfo": {
+            "id": "2022PI132"
+          },
+          "organization": {
+            "fullName": "Central Hospital, Nancy, France",
+            "class": "OTHER"
+          },
+          "briefTitle": "Clinical, Radiological, Histologic and Molecular Features of a Cohort of Melanocytic Tumors of the Central Nervous System",
+          "officialTitle": "Clinical, Radiological, Histological and Molecular Features of a Cohort of Melanocytic Tumors of the Central Nervous System",
+          "acronym": "MelaMen"
+        },
+        "statusModule": {
+          "statusVerifiedDate": "2023-07",
+          "overallStatus": "UNKNOWN",
+          "lastKnownStatus": "RECRUITING",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "startDateStruct": {
+            "date": "2023-01-01",
+            "type": "ACTUAL"
+          },
+          "primaryCompletionDateStruct": {
+            "date": "2024-06",
+            "type": "ESTIMATED"
+          },
+          "completionDateStruct": {
+            "date": "2024-06",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2023-06-25",
+          "studyFirstSubmitQcDate": "2023-07-31",
+          "studyFirstPostDateStruct": {
+            "date": "2023-08-09",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2023-07-31",
+          "lastUpdatePostDateStruct": {
+            "date": "2023-08-09",
+            "type": "ACTUAL"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "responsibleParty": {
+            "type": "PRINCIPAL_INVESTIGATOR",
+            "investigatorFullName": "Guillaume GAUCHOTTE",
+            "investigatorTitle": "PhD",
+            "investigatorAffiliation": "Central Hospital, Nancy, France"
+          },
+          "leadSponsor": {
+            "name": "Central Hospital, Nancy, France",
+            "class": "OTHER"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "Primary melanocytic tumors of the central nervous system are rare lesions and occur develop from leptomeningeal melanocytes. The WHO classification of tumors of the central nervous system in its most recent version (2021) distinguishes on the one hand the circumscribed melanocytic tumors including melanocytoma, benign, and its slope malignant, meningeal melanoma, with an intermediate grade lesion in between, called intermediate grade melanocytoma. They are to be distinguished from diffuse tumors or multifocal diseases such as melanocytosis and its malignant corollary, melanomatosis. The main current challenge is to distinguish them from their differential diagnoses, namely metastasis of a cutaneous or extrac-cutaneous melanoma mainly and on the other hand other pigmented entities occuring in the CNS such as malignant melanic tumor of the peripheral nerve sheath (MMNST, formerly \"melanotic schwannoma\").",
+          "detailedDescription": "The discovery within the CNS of a tumor of melanocytic nature requires the realization an exhaustive assessment (dermatological examination, whole body imaging), especially in the event of signs histological evidence of malignancy (marked atypia, mitoses, infiltration of the parenchyma), in order to look for unnoticed cutaneous melanoma. In the absence of primary lesion found outside the nervous system, the question of a primary lesion with a meningeal starting point arises. A molecular characterization is then required, in order to highlight mutations recurrent spores of the GNA11 or GNAQ genes, classically not found in the cutaneous melanomas, the latter presenting different genetic alterations (BRAF, NRAS, KIT etc). Other rarer alterations such as PLCB4 or CYSLTR2 are also described in these meningeal melanocytic tumors, but are not part of the gene panels of routine. On the other hand, the discovery of a circumscribed melanocytic lesion, in particular intradural extramedullary and spindle cells, should suggest the differential diagnosis malignant melanotic nerve sheath tumor (MMNST, malignant melanotic nerve sheath tumor), formerly called \"melanotic schwannoma\". Distinguish them histologically can be tricky. This differential diagnosis is important, the MMNST entering often in the context of Carney syndrome, of autosomal dominant transmission, responsible for other conditions requiring multidisciplinary follow-up (cardiac myxoma, endocrine disorders). Recent advances in molecular biology have opened up new possibilities for the diagnosis and classification of brain tumours. One of them is the methylome, studying the epigenetic signature of a tumor via its methylation profile.\n\nThese epigenetic modifications play an important role in regulating the expression genes and are now well known to be involved in the development and cancer progression. This tool has been integrated into the new WHO 2021 classification of CNS tumors and constitutes for certain entities an essential criterion for their diagnosis final. The publication by Capper et al. in 2018, entitled \"DNA methylation-based classification of central nervous system tumours\" illustrates this point. It was highlighted that meningeal melanocytic tumors cluster separately from other types of tumors, including cutaneous melanomas. Three methylation classes exist currently in version 12.5 of the classifier developed by the University of Heidelberg (www.molecularneuropathology.com): a class of methylation specific to the metastases of melanoma, one for malignant melanotic peripheral nerve sheath tumors, and a titled melanocytoma (which includes entities with similar profiles: melanocytoma and meningeal melanoma but also uveal melanoma). He does not exist to date of methylation class for diffuse meningeal melanocytic tumors(melanocytosis and its malignant corollary melanomatosis).\n\nTo conclude, meningeal melanocytic tumors are a group of tumors of the system central nervous system rare but for which it is necessary to make a diagnosis of certainty The WHO classification proposed in 2021 is based on an integrative histo-molecular approach, but for which the community medicine still lacks perspective. In particular, when using this new classification, it there are difficulties in classifying certain tumours, presenting clinical aspects, discordant radiological, histopathological and molecular findings.\n\nThe aims of this study are therefore to classify melanocytic tumors according to the new WHO 2021 classification of central nervous system tumors, to describe their clinical, radiological, histological and molecular characteristics, to define new prognostic criteria (mitotic index, Ki-67 , immunohistochemical markers such as BAP1 and p16) and to establish clinico-radio-histo-molecular correlations."
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Meningeal Melanocytoma",
+            "Meningeal Melanomatosis",
+            "Meningeal Melanocytosis",
+            "Meningeal Melanoma"
+          ]
+        },
+        "designModule": {
+          "studyType": "OBSERVATIONAL",
+          "patientRegistry": false,
+          "designInfo": {
+            "observationalModel": "COHORT",
+            "timePerspective": "RETROSPECTIVE"
+          },
+          "bioSpec": {
+            "retention": "SAMPLES_WITH_DNA",
+            "description": "Formalin-fixed Paraffin-embedded tumor samples"
+          },
+          "enrollmentInfo": {
+            "count": 50,
+            "type": "ESTIMATED"
+          }
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient with a primitive meningeal melanocytic tumor\n\nExclusion Criteria:\n\n* Patient with metastatic extrameningeal melanoma",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients with primitive meningeal melanocytic tumors",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        }
+      }
+    }
+  }
+]

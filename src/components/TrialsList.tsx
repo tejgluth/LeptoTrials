@@ -18,9 +18,8 @@ export default function TrialsList({ results, filteredCount, error }: TrialsList
       </div>
 
       <p className="text-sm text-[#8ecfe8] mb-6 sm:mb-10 leading-relaxed max-w-2xl">
-        Searched by condition, across all trial text, and with audited supplemental studies.
-        Exclusion criteria checked against leptomeningeal terms, age eligibility applied.
-        All shown trials passed eligibility filtering.
+        These studies match your filters and our screening for leptomeningeal disease.
+        Read the criteria and confirm eligibility and enrollment with the study team.
       </p>
 
       <div className="flex flex-col gap-4">

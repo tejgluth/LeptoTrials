@@ -2,7 +2,7 @@ import type { Study, FilterResult, TumorTypeFilter } from '../types/trial'
 import { isAgeEligible } from './ageParser'
 import { getManualAuditOverride } from './manualAuditOverrides'
 
-// Presence of any of these in conditionsModule.conditions is authoritative — the trial
+// Presence of any of these in conditionsModule.conditions is authoritative. The trial
 // is specifically for LMD patients, so we skip eligibility text checks (age still applies).
 const LMD_CONDITION_TERMS = [
   'leptomeningeal',
@@ -38,13 +38,13 @@ const INCLUSION_NEGATIVE_PHRASES = [
   'absence of meningeal metastasis',
 ]
 
-// Consumer-language exclusion phrases in brief summaries — these don't appear in the
+// Consumer-language exclusion phrases in brief summaries. These don't appear in the
 // structured eligibility criteria field so they need a separate check.
 const BRIEF_SUMMARY_EXCLUSION_PHRASES = [
   'cannot take part if the cancer cells have spread to the thin tissue covering the brain and spinal cord',
 ]
 
-// Generic brain-metastasis terms intentionally excluded — too broad for an LM-specific finder.
+// Generic brain-metastasis terms intentionally excluded because they are too broad for an LM-specific finder.
 const LM_POSITIVE_TERMS = [
   'leptomeningeal',
   'leptomeninges',
@@ -92,6 +92,11 @@ const EXCLUSION_SECTION_MARKERS = [
   '\r\nexclusion:',
   '\nexclusion:',
 ]
+
+// Some protocols append a phase, cohort, or part label instead of a colon.
+// Anchor at a line start so narrative mentions do not become section boundaries.
+const QUALIFIED_EXCLUSION_HEADING =
+  /^[ \t]*(?:(?:key|main|subject|patient|study|specific|general)[ \t]+)?exclusion[ \t]+criteria[ \t]+(?:phase|cohort|part)\b[^\r\n]*/im
 
 export interface ParsedCriteria {
   inclusion: string
@@ -151,6 +156,11 @@ export function parseEligibilityCriteria(text: string): ParsedCriteria {
     }
   }
 
+  const qualifiedHeading = QUALIFIED_EXCLUSION_HEADING.exec(text)
+  if (qualifiedHeading && (splitIndex === -1 || qualifiedHeading.index < splitIndex)) {
+    splitIndex = qualifiedHeading.index
+  }
+
   if (splitIndex === -1) {
     return { inclusion: text, exclusion: '', sectionFound: false }
   }
@@ -188,7 +198,7 @@ export function filterTrial(
     if (!isAgeEligible(patientAge, minAgeStr, maxAgeStr)) {
       return {
         include: false,
-        reason: `Patient age ${patientAge} outside trial range (${minAgeStr ?? 'no min'} – ${maxAgeStr ?? 'no max'})`,
+        reason: `Patient age ${patientAge} outside trial range (${minAgeStr ?? 'no min'} to ${maxAgeStr ?? 'no max'})`,
       }
     }
   }
@@ -213,7 +223,7 @@ export function filterTrial(
     }
   }
 
-  // lmdInConditions is authoritative — don't let a mixed-cohort exclusion section
+  // lmdInConditions is authoritative. Don't let a mixed-cohort exclusion section
   // veto a trial that explicitly lists LM as the condition.
   if (lmdInConditions) {
     return { include: true }
@@ -224,7 +234,7 @@ export function filterTrial(
       if (lowerExclusion.includes(term)) {
         return {
           include: false,
-          reason: `Exclusion criteria contains "${term}" — trial explicitly excludes leptomeningeal patients`,
+          reason: `Exclusion criteria contains "${term}". Trial explicitly excludes leptomeningeal patients`,
         }
       }
     }
