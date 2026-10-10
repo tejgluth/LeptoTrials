@@ -1,4 +1,5 @@
 import type { ApiResponse, Study } from '../types/trial'
+import { assertRegistryPage } from './registryResponse'
 
 const MAX_PAGES = 20
 
@@ -12,7 +13,8 @@ export async function fetchAllStudies(
 
   for (let page = 0; page < MAX_PAGES; page++) {
     const response = await fetchPage(token)
-    studies.push(...(response.studies ?? []))
+    assertRegistryPage(response)
+    studies.push(...response.studies)
     token = response.nextPageToken
     if (!token) return studies
     if (seenTokens.has(token)) {
