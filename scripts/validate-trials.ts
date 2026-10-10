@@ -1,3 +1,5 @@
+import { fetchRegistryPage } from '../src/utils/apiClient'
+import { assertRegistryPage } from '../src/utils/registryResponse'
 import { createHash } from 'node:crypto'
 import { mkdir, readFile, stat, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
@@ -23,7 +25,6 @@ import type {
 const MAX_PAGES = 20
 const CACHE_DIR = join(process.cwd(), '.cache', 'validate-trials')
 const CACHE_MAX_AGE_MS = 1000 * 60 * 60 * 6
-const FETCH_RETRIES = 5
 const DEFAULT_RESULTS_STATUSES: OverallStatus[] = [...DEFAULT_SEARCH_PARAMS.statuses]
 const ALL_STATUSES: OverallStatus[] = [
   'RECRUITING',
@@ -69,7 +70,7 @@ const PHASE_SETS: PhaseFilter[][] = [
   ['PHASE2', 'PHASE3'],
   ['PHASE1', 'PHASE2', 'PHASE3'],
 ]
-const AGE_VALUES: Array<number | null> = [null, 18, 70]
+const AGE_VALUES: Array<number | null> = [null, 0, 0.5, 2, 3, 17, 18, 21, 22, 70, 75, 76]
 const LOCATION_VALUES: Array<{ label: string; country: string | null; continent: string | null }> = [
   { label: 'anywhere', country: null, continent: null },
   { label: 'us', country: 'United States', continent: null },
@@ -326,7 +327,6 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT04923126',
       'NCT05124236',
       'NCT05782374',
-      'NCT05865990',
       'NCT06016387',
       'NCT06026735',
       'NCT06462222',
@@ -346,7 +346,6 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT04458922',
       'NCT04903678',
       'NCT07050186',
-      'NCT07361562',
       'NCT07365410',
       'NCT07506239',
       'NCT07594002',
@@ -379,6 +378,7 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT07624201',
     ],
     mustExclude: [
+      'NCT05865990', 'NCT06440954', 'NCT06497543', 'NCT07361562',
       'NCT05984108',
       'NCT06945705',
       'NCT07415018',
@@ -403,6 +403,7 @@ const REGRESSIONS: RegressionCase[] = [
   {
     scenario: 'all-statuses',
     mustInclude: [
+      'NCT05865990',
       'NCT01970865',
       'NCT04509596',
       'NCT04511013',
@@ -434,7 +435,6 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT05904080',
       'NCT06161558',
       'NCT07050186',
-      'NCT07361562',
       'NCT07365410',
       'NCT07506239',
       'NCT07594002',
@@ -502,12 +502,12 @@ const REGRESSIONS: RegressionCase[] = [
   },
   {
     scenario: 'breast-default',
-    mustInclude: ['NCT04025541', 'NCT05422794', 'NCT06810804', 'NCT04588545', 'NCT06016387', 'NCT07177950', 'NCT07361562', 'NCT07503704', 'NCT07789912'],
-    mustExclude: ['NCT06663306', 'NCT06643000', 'NCT05782374', 'NCT03684980', 'NCT07653893', 'NCT07814352'],
+    mustInclude: ['NCT04025541', 'NCT05422794', 'NCT06810804', 'NCT04588545', 'NCT06016387', 'NCT07177950', 'NCT07503704', 'NCT07789912'],
+    mustExclude: ['NCT07361562', 'NCT06663306', 'NCT06643000', 'NCT05782374', 'NCT03684980', 'NCT07653893', 'NCT07814352'],
   },
   {
     scenario: 'breast-all-statuses',
-    mustInclude: ['NCT04025541', 'NCT04509596', 'NCT04856475', 'NCT05422794', 'NCT07361562'],
+    mustInclude: ['NCT04025541', 'NCT04509596', 'NCT04856475', 'NCT05422794'],
   },
   {
     scenario: 'melanoma-default',
@@ -520,8 +520,8 @@ const REGRESSIONS: RegressionCase[] = [
   },
   {
     scenario: 'gbm-default',
-    mustInclude: ['NCT01269853', 'NCT04661384', 'NCT04978727', 'NCT07193654', 'NCT07331064', 'NCT07751744'],
-    mustExclude: ['NCT06663306', 'NCT06810804', 'NCT05782374', 'NCT03684980', 'NCT07511725', 'NCT07814352'],
+    mustInclude: ['NCT01269853', 'NCT04661384', 'NCT04978727', 'NCT07193654'],
+    mustExclude: ['NCT07331064', 'NCT07751744', 'NCT06663306', 'NCT06810804', 'NCT05782374', 'NCT03684980', 'NCT07511725', 'NCT07814352'],
   },
   {
     scenario: 'other-solid-default',
@@ -1020,43 +1020,14 @@ function buildSmokeScenarios(): Scenario[] {
 }
 
 async function fetchJson(apiUrl: string): Promise<ApiResponse> {
-  const cached = await readCachedResponse(apiUrl, false)
-  if (cached) return cached
-
-  for (let attempt = 0; attempt < FETCH_RETRIES; attempt += 1) {
-    const response = await fetch(apiUrl, {
-      headers: {
-        Accept: 'application/json',
-        'User-Agent': 'Leptomeningeal-validator/1.0',
-      },
-    })
-
-    if (response.ok) {
-      const payload = (await response.json()) as ApiResponse
-      await writeCachedResponse(apiUrl, payload)
-      return payload
-    }
-
-    if (response.status === 429 && attempt < FETCH_RETRIES - 1) {
-      await sleep(1500 * 2 ** attempt)
-      continue
-    }
-
-    const staleCached = await readCachedResponse(apiUrl, true)
-    if (staleCached) {
-      return staleCached
-    }
-
-    const errorText = await response.text().catch(() => 'Unknown error')
-    throw new Error(`ClinicalTrials.gov API error ${response.status}: ${errorText}`)
+  const cached = process.argv.includes('--fresh') ? null : await readCachedResponse(apiUrl, false)
+  if (cached) {
+    assertRegistryPage(cached)
+    return cached
   }
-
-  const staleCached = await readCachedResponse(apiUrl, true)
-  if (staleCached) {
-    return staleCached
-  }
-
-  throw new Error(`ClinicalTrials.gov API error: exhausted retries for ${apiUrl}`)
+  const payload = await fetchRegistryPage(apiUrl)
+  await writeCachedResponse(apiUrl, payload)
+  return payload
 }
 
 async function readCachedResponse(apiUrl: string, allowStale: boolean): Promise<ApiResponse | null> {
@@ -1085,9 +1056,6 @@ function getCachePath(apiUrl: string): string {
   return join(CACHE_DIR, `${hash}.json`)
 }
 
-function sleep(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms))
-}
 
 async function fetchRawSearchResults(params: SearchParams): Promise<SearchRun> {
   const seen = new Set<string>()
@@ -1307,6 +1275,14 @@ async function main() {
       scenario,
       universeRun.results
     )
+    allOracleMismatches.push(...oracleMismatches)
+    allRegressionFailures.push(...regressionFailures)
+  }
+
+  // Named regressions use smoke-scenario names, unlike generated matrix names.
+  // Execute them explicitly so a successful matrix cannot silently skip them.
+  for (const scenario of buildSmokeScenarios()) {
+    const { oracleMismatches, regressionFailures } = validateLocalScenario(scenario, universeRun.results)
     allOracleMismatches.push(...oracleMismatches)
     allRegressionFailures.push(...regressionFailures)
   }
