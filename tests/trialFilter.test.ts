@@ -186,3 +186,19 @@ test('tumor inference distinguishes lung, breast, melanoma, glioma, and other so
   assert.equal(filterByTumorType(makeStudy({ conditions: ['Lymphoma'] }), 'OTHER_SOLID'), false)
   assert.equal(filterByTumorType(makeStudy({ conditions: [] }), 'LUNG'), false)
 })
+
+test('unexpanded LMD acronym collisions do not establish malignant LM relevance', () => {
+  for (const [conditions, title] of [
+    [['Left Main Disease (LMD)'], 'LMD coronary artery registry'],
+    [['Depression'], 'Low mood/depression (LMD) intervention'],
+    [['Bladder Tumor'], 'Laser Mediated Destruction (LMD)'],
+  ] as Array<[string[], string]>) {
+    assert.equal(filterTrial(makeStudy({ conditions, title }), null).include, false)
+  }
+})
+
+test('high-grade glioma and anaplastic astrocytoma alone do not establish GBM', () => {
+  for (const condition of ['High-grade glioma', 'Anaplastic astrocytoma', 'Diffuse midline glioma']) {
+    assert.equal(filterByTumorType(makeStudy({ conditions: [condition] }), 'GBM'), false)
+  }
+})
