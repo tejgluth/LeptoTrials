@@ -1,0 +1,9 @@
+
+> leptotrials@1.0.0 reconcile:manual-audit
+> npx tsx scripts/reconcile-manual-audit.ts --fresh
+
+Manual Audit Reconciliation
+- reviewed studies: 376
+- current broadest app universe: 311
+- eligibility mismatches: 0
+- tumor mismatches: 0

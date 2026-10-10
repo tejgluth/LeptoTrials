@@ -1,3 +1,4 @@
+import { readJsonBody } from '../_lib/readJsonBody'
 import { isSameOriginRequest, tokensMatch, type AnalyticsEnv } from '../_lib/contactAnalytics'
 import { validateSuggestion, type ReviewedSuggestion, type TrialSuggestion } from '../../src/utils/trialSuggestion'
 import type { Study } from '../../src/types/trial'
@@ -11,34 +12,6 @@ function json(body: unknown, status: number): Response {
       'X-Content-Type-Options': 'nosniff',
     },
   })
-}
-
-async function readBody(request: Request): Promise<unknown> {
-  const reader = request.body?.getReader()
-  if (!reader) throw new Error('Empty request')
-  const chunks: Uint8Array[] = []
-  let length = 0
-  try {
-    while (true) {
-      const { done, value } = await reader.read()
-      if (done) break
-      length += value.byteLength
-      if (length > 16_384) {
-        await reader.cancel()
-        throw new RangeError('Request too large')
-      }
-      chunks.push(value)
-    }
-  } finally {
-    reader.releaseLock()
-  }
-  const bytes = new Uint8Array(length)
-  let offset = 0
-  for (const chunk of chunks) {
-    bytes.set(chunk, offset)
-    offset += chunk.length
-  }
-  return JSON.parse(new TextDecoder().decode(bytes))
 }
 
 export const onRequest: PagesFunction<AnalyticsEnv> = async ({ request, env }) => {
@@ -77,7 +50,7 @@ export const onRequest: PagesFunction<AnalyticsEnv> = async ({ request, env }) =
 
   let body: unknown
   try {
-    body = await readBody(request)
+    body = await readJsonBody(request, 16_384)
   } catch (error) {
     return json({ error: error instanceof RangeError ? 'Suggestion is too large.' : 'Invalid request body.' }, error instanceof RangeError ? 413 : 400)
   }

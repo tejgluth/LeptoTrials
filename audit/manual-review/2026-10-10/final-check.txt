@@ -1,0 +1,1005 @@
+
+> leptotrials@1.0.0 check
+> npm run test && npm run lint && npm run build
+
+
+> leptotrials@1.0.0 test
+> tsx --test functions/_lib/*.test.ts functions/api/*.test.ts tests/*.test.ts
+
+TAP version 13
+# Subtest: validates the public event schema
+ok 1 - validates the public event schema
+  ---
+  duration_ms: 0.388416
+  type: 'test'
+  ...
+# Subtest: compares dashboard tokens without an early equality return
+ok 2 - compares dashboard tokens without an early equality return
+  ---
+  duration_ms: 0.115959
+  type: 'test'
+  ...
+# Subtest: rejects methods other than POST
+ok 3 - rejects methods other than POST
+  ---
+  duration_ms: 9.336167
+  type: 'test'
+  ...
+# Subtest: rejects cross-site and malformed origins
+ok 4 - rejects cross-site and malformed origins
+  ---
+  duration_ms: 0.435875
+  type: 'test'
+  ...
+# Subtest: rejects oversized and invalid event bodies
+ok 5 - rejects oversized and invalid event bodies
+  ---
+  duration_ms: 2.069625
+  type: 'test'
+  ...
+# Subtest: cancels an oversized streaming body without waiting for the stream to end
+ok 6 - cancels an oversized streaming body without waiting for the stream to end
+  ---
+  duration_ms: 0.340458
+  type: 'test'
+  ...
+# Subtest: rejects media types that merely start with application/json
+ok 7 - rejects media types that merely start with application/json
+  ---
+  duration_ms: 0.104541
+  type: 'test'
+  ...
+# Trial suggestion submission failed database unavailable
+# Subtest: the review queue is private, including when the secret is missing
+ok 8 - the review queue is private, including when the secret is missing
+  ---
+  duration_ms: 9.713125
+  type: 'test'
+  ...
+# Subtest: rejects cross-site requests, oversized bodies, malformed JSON and invalid suggestions
+ok 9 - rejects cross-site requests, oversized bodies, malformed JSON and invalid suggestions
+  ---
+  duration_ms: 2.380583
+  type: 'test'
+  ...
+# Subtest: verifies registry identity and saves bound values before confirming receipt
+ok 10 - verifies registry identity and saves bound values before confirming receipt
+  ---
+  duration_ms: 1.812583
+  type: 'test'
+  ...
+# Subtest: does not claim success when the registry or database fails
+ok 11 - does not claim success when the registry or database fails
+  ---
+  duration_ms: 1.074292
+  type: 'test'
+  ...
+# Subtest: rate-limits submissions before requesting the registry
+ok 12 - rate-limits submissions before requesting the registry
+  ---
+  duration_ms: 2.821917
+  type: 'test'
+  ...
+# Subtest: pagination follows tokens until the final page
+ok 13 - pagination follows tokens until the final page
+  ---
+  duration_ms: 0.615083
+  type: 'test'
+  ...
+# Subtest: a failed later page rejects the search instead of returning partial results
+ok 14 - a failed later page rejects the search instead of returning partial results
+  ---
+  duration_ms: 0.174625
+  type: 'test'
+  ...
+# Subtest: repeated page tokens and page-limit overflow reject the search
+ok 15 - repeated page tokens and page-limit overflow reject the search
+  ---
+  duration_ms: 0.176291
+  type: 'test'
+  ...
+# Subtest: age filtering includes boundaries and handles pediatric units and open bounds
+ok 16 - age filtering includes boundaries and handles pediatric units and open bounds
+  ---
+  duration_ms: 0.1505
+  type: 'test'
+  ...
+# Subtest: both registry queries preserve selected server filters and page tokens
+ok 17 - both registry queries preserve selected server filters and page tokens
+  ---
+  duration_ms: 0.291541
+  type: 'test'
+  ...
+# Subtest: registry errors do not expose upstream response bodies
+ok 18 - registry errors do not expose upstream response bodies
+  ---
+  duration_ms: 7015.086583
+  type: 'test'
+  ...
+# Subtest: registry requests propagate cancellation
+ok 19 - registry requests propagate cancellation
+  ---
+  duration_ms: 0.534958
+  type: 'test'
+  ...
+# Subtest: malformed pages are rejected instead of being interpreted as empty results
+ok 20 - malformed pages are rejected instead of being interpreted as empty results
+  ---
+  duration_ms: 1.893208
+  type: 'test'
+  ...
+# Subtest: supplemental retrieval follows all pages, deduplicates and checks required IDs
+ok 21 - supplemental retrieval follows all pages, deduplicates and checks required IDs
+  ---
+  duration_ms: 2.33275
+  type: 'test'
+  ...
+# Subtest: transient network errors retry but cancellation interrupts retry backoff
+ok 22 - transient network errors retry but cancellation interrupts retry backoff
+  ---
+  duration_ms: 1016.700917
+  type: 'test'
+  ...
+# Subtest: empty and unstructured eligibility text preserve the absence of a section boundary
+ok 23 - empty and unstructured eligibility text preserve the absence of a section boundary
+  ---
+  duration_ms: 1.291417
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Exclusion Criteria:"
+ok 24 - parser keeps original text when splitting at "Exclusion Criteria:"
+  ---
+  duration_ms: 0.16725
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "KEY EXCLUSION CRITERIA\\n"
+ok 25 - parser keeps original text when splitting at "KEY EXCLUSION CRITERIA\\n"
+  ---
+  duration_ms: 0.042417
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Main exclusion criteria\\r\\n"
+ok 26 - parser keeps original text when splitting at "Main exclusion criteria\\r\\n"
+  ---
+  duration_ms: 0.030792
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Subject exclusion criteria:"
+ok 27 - parser keeps original text when splitting at "Subject exclusion criteria:"
+  ---
+  duration_ms: 0.096584
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Patient exclusion criteria\\n"
+ok 28 - parser keeps original text when splitting at "Patient exclusion criteria\\n"
+  ---
+  duration_ms: 0.036917
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Study exclusion criteria:"
+ok 29 - parser keeps original text when splitting at "Study exclusion criteria:"
+  ---
+  duration_ms: 0.073792
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Specific exclusion criteria:"
+ok 30 - parser keeps original text when splitting at "Specific exclusion criteria:"
+  ---
+  duration_ms: 0.057958
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "General exclusion criteria\\n"
+ok 31 - parser keeps original text when splitting at "General exclusion criteria\\n"
+  ---
+  duration_ms: 0.185209
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Exclusion criteria\\t"
+ok 32 - parser keeps original text when splitting at "Exclusion criteria\\t"
+  ---
+  duration_ms: 0.233542
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Exclusion criteria (all cohorts):"
+ok 33 - parser keeps original text when splitting at "Exclusion criteria (all cohorts):"
+  ---
+  duration_ms: 0.035209
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Key Exclusion Criteria PHASE 1 and PHASE 2"
+ok 34 - parser keeps original text when splitting at "Key Exclusion Criteria PHASE 1 and PHASE 2"
+  ---
+  duration_ms: 0.029125
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Exclusion Criteria Cohort A"
+ok 35 - parser keeps original text when splitting at "Exclusion Criteria Cohort A"
+  ---
+  duration_ms: 0.020792
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Main Exclusion Criteria Part 2"
+ok 36 - parser keeps original text when splitting at "Main Exclusion Criteria Part 2"
+  ---
+  duration_ms: 0.021792
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "\\nExclusion:\\n"
+ok 37 - parser keeps original text when splitting at "\\nExclusion:\\n"
+  ---
+  duration_ms: 0.019542
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "\\r\\nExclusion:"
+ok 38 - parser keeps original text when splitting at "\\r\\nExclusion:"
+  ---
+  duration_ms: 0.02075
+  type: 'test'
+  ...
+# Subtest: narrative mentions of inclusion and exclusion criteria do not split the text
+ok 39 - narrative mentions of inclusion and exclusion criteria do not split the text
+  ---
+  duration_ms: 0.040583
+  type: 'test'
+  ...
+# Subtest: the first exclusion heading wins when a protocol contains multiple cohort sections
+ok 40 - the first exclusion heading wins when a protocol contains multiple cohort sections
+  ---
+  duration_ms: 0.092834
+  type: 'test'
+  ...
+# Subtest: generic brain metastases, missing text, and an embedded LMD substring are insufficient
+ok 41 - generic brain metastases, missing text, and an embedded LMD substring are insufficient
+  ---
+  duration_ms: 1.05725
+  type: 'test'
+  ...
+# Subtest: LM can appear only in inclusion criteria of a broader solid-tumor study
+ok 42 - LM can appear only in inclusion criteria of a broader solid-tumor study
+  ---
+  duration_ms: 0.172375
+  type: 'test'
+  ...
+# Subtest: a summary cohort or official title can supply the only LM signal
+ok 43 - a summary cohort or official title can supply the only LM signal
+  ---
+  duration_ms: 0.050458
+  type: 'test'
+  ...
+# Subtest: an exclusion-only LM mention does not make a broad trial relevant
+ok 44 - an exclusion-only LM mention does not make a broad trial relevant
+  ---
+  duration_ms: 0.038667
+  type: 'test'
+  ...
+# Subtest: negative inclusion overrides an LM title and condition: No evidence of leptomeningeal disease
+ok 45 - negative inclusion overrides an LM title and condition: No evidence of leptomeningeal disease
+  ---
+  duration_ms: 0.037625
+  type: 'test'
+  ...
+# Subtest: negative inclusion overrides an LM title and condition: No radiographic evidence of leptomeningeal metastases
+ok 46 - negative inclusion overrides an LM title and condition: No radiographic evidence of leptomeningeal metastases
+  ---
+  duration_ms: 0.027958
+  type: 'test'
+  ...
+# Subtest: negative inclusion overrides an LM title and condition: Without leptomeningeal involvement
+ok 47 - negative inclusion overrides an LM title and condition: Without leptomeningeal involvement
+  ---
+  duration_ms: 0.030875
+  type: 'test'
+  ...
+# Subtest: negative inclusion overrides an LM title and condition: Absence of meningeal metastasis
+ok 48 - negative inclusion overrides an LM title and condition: Absence of meningeal metastasis
+  ---
+  duration_ms: 0.072541
+  type: 'test'
+  ...
+# Subtest: negative inclusion overrides an LM title and condition: No meningeal metastases
+ok 49 - negative inclusion overrides an LM title and condition: No meningeal metastases
+  ---
+  duration_ms: 0.024709
+  type: 'test'
+  ...
+# Subtest: a dedicated LM condition preserves mixed-cohort studies with exclusion mentions
+ok 50 - a dedicated LM condition preserves mixed-cohort studies with exclusion mentions
+  ---
+  duration_ms: 0.031708
+  type: 'test'
+  ...
+# Subtest: the patient-language exclusion in a summary still rejects an LM-titled study
+ok 51 - the patient-language exclusion in a summary still rejects an LM-titled study
+  ---
+  duration_ms: 0.030209
+  type: 'test'
+  ...
+# Subtest: age bounds are inclusive and checked before accepting a manual override
+ok 52 - age bounds are inclusive and checked before accepting a manual override
+  ---
+  duration_ms: 0.8765
+  type: 'test'
+  ...
+# Subtest: NCT03093116 retains asymptomatic LM enrollment despite its symptomatic exclusion
+ok 53 - NCT03093116 retains asymptomatic LM enrollment despite its symptomatic exclusion
+  ---
+  duration_ms: 0.239583
+  type: 'test'
+  ...
+# Subtest: NCT03202940 permits LM but mentions LM radiation washout in exclusions
+ok 54 - NCT03202940 permits LM but mentions LM radiation washout in exclusions
+  ---
+  duration_ms: 0.378875
+  type: 'test'
+  ...
+# Subtest: NCT02896335 permits LM in cohort 2 even though cohort 1 excludes it
+ok 55 - NCT02896335 permits LM in cohort 2 even though cohort 1 excludes it
+  ---
+  duration_ms: 0.552541
+  type: 'test'
+  ...
+# Subtest: NCT02616393 preserves a dedicated LM trial with a neurological confounder exclusion
+ok 56 - NCT02616393 preserves a dedicated LM trial with a neurological confounder exclusion
+  ---
+  duration_ms: 0.473375
+  type: 'test'
+  ...
+# Subtest: NCT03083041 stays excluded by its audited classification
+ok 57 - NCT03083041 stays excluded by its audited classification
+  ---
+  duration_ms: 0.078833
+  type: 'test'
+  ...
+# Subtest: NCT03417895 stays excluded by its audited classification
+ok 58 - NCT03417895 stays excluded by its audited classification
+  ---
+  duration_ms: 0.09525
+  type: 'test'
+  ...
+# Subtest: NCT05984108 stays excluded by its audited classification
+ok 59 - NCT05984108 stays excluded by its audited classification
+  ---
+  duration_ms: 0.056084
+  type: 'test'
+  ...
+# Subtest: tumor inference distinguishes lung, breast, melanoma, glioma, and other solid tumors
+ok 60 - tumor inference distinguishes lung, breast, melanoma, glioma, and other solid tumors
+  ---
+  duration_ms: 0.187709
+  type: 'test'
+  ...
+# Subtest: unexpanded LMD acronym collisions do not establish malignant LM relevance
+ok 61 - unexpanded LMD acronym collisions do not establish malignant LM relevance
+  ---
+  duration_ms: 0.047417
+  type: 'test'
+  ...
+# Subtest: high-grade glioma and anaplastic astrocytoma alone do not establish GBM
+ok 62 - high-grade glioma and anaplastic astrocytoma alone do not establish GBM
+  ---
+  duration_ms: 0.042542
+  type: 'test'
+  ...
+# Subtest: normalizes ordinary trial contact addresses and rejects unsafe values
+ok 63 - normalizes ordinary trial contact addresses and rejects unsafe values
+  ---
+  duration_ms: 0.368542
+  type: 'test'
+  ...
+# Subtest: builds a Gmail-compatible mailto link with an editable outreach draft
+ok 64 - builds a Gmail-compatible mailto link with an editable outreach draft
+  ---
+  duration_ms: 0.26325
+  type: 'test'
+  ...
+# Subtest: accepts official current and legacy registry links and normalizes the ID
+ok 65 - accepts official current and legacy registry links and normalizes the ID
+  ---
+  duration_ms: 0.399208
+  type: 'test'
+  ...
+# Subtest: rejects lookalike hosts, credentials, non-HTTPS links, and invalid study paths
+ok 66 - rejects lookalike hosts, credentials, non-HTTPS links, and invalid study paths
+  ---
+  duration_ms: 0.105292
+  type: 'test'
+  ...
+# Subtest: requires valid categories and a useful explanation
+ok 67 - requires valid categories and a useful explanation
+  ---
+  duration_ms: 0.461666
+  type: 'test'
+  ...
+# Subtest: NCT00570908: independently reviewed LM eligibility and tumor-cohort relationship
+ok 68 - NCT00570908: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 1.795833
+  type: 'test'
+  ...
+# Subtest: NCT00924820: independently reviewed LM eligibility and tumor-cohort relationship
+ok 69 - NCT00924820: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.433083
+  type: 'test'
+  ...
+# Subtest: NCT01654497: independently reviewed LM eligibility and tumor-cohort relationship
+ok 70 - NCT01654497: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.579875
+  type: 'test'
+  ...
+# Subtest: NCT01712659: independently reviewed LM eligibility and tumor-cohort relationship
+ok 71 - NCT01712659: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.104791
+  type: 'test'
+  ...
+# Subtest: NCT01713699: independently reviewed LM eligibility and tumor-cohort relationship
+ok 72 - NCT01713699: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.102208
+  type: 'test'
+  ...
+# Subtest: NCT02186730: independently reviewed LM eligibility and tumor-cohort relationship
+ok 73 - NCT02186730: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.049333
+  type: 'test'
+  ...
+# Subtest: NCT02308020: independently reviewed LM eligibility and tumor-cohort relationship
+ok 74 - NCT02308020: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.121458
+  type: 'test'
+  ...
+# Subtest: NCT02329080: independently reviewed LM eligibility and tumor-cohort relationship
+ok 75 - NCT02329080: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.086125
+  type: 'test'
+  ...
+# Subtest: NCT02422641: independently reviewed LM eligibility and tumor-cohort relationship
+ok 76 - NCT02422641: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.26925
+  type: 'test'
+  ...
+# Subtest: NCT02423525: independently reviewed LM eligibility and tumor-cohort relationship
+ok 77 - NCT02423525: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.309458
+  type: 'test'
+  ...
+# Subtest: NCT02838420: independently reviewed LM eligibility and tumor-cohort relationship
+ok 78 - NCT02838420: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.151208
+  type: 'test'
+  ...
+# Subtest: NCT02971501: independently reviewed LM eligibility and tumor-cohort relationship
+ok 79 - NCT02971501: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.156667
+  type: 'test'
+  ...
+# Subtest: NCT03053297: independently reviewed LM eligibility and tumor-cohort relationship
+ok 80 - NCT03053297: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.035667
+  type: 'test'
+  ...
+# Subtest: NCT03075072: independently reviewed LM eligibility and tumor-cohort relationship
+ok 81 - NCT03075072: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.041541
+  type: 'test'
+  ...
+# Subtest: NCT03368625: independently reviewed LM eligibility and tumor-cohort relationship
+ok 82 - NCT03368625: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.0555
+  type: 'test'
+  ...
+# Subtest: NCT03391362: independently reviewed LM eligibility and tumor-cohort relationship
+ok 83 - NCT03391362: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.038541
+  type: 'test'
+  ...
+# Subtest: NCT03719768: independently reviewed LM eligibility and tumor-cohort relationship
+ok 84 - NCT03719768: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.157875
+  type: 'test'
+  ...
+# Subtest: NCT03816345: independently reviewed LM eligibility and tumor-cohort relationship
+ok 85 - NCT03816345: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.233666
+  type: 'test'
+  ...
+# Subtest: NCT03911388: independently reviewed LM eligibility and tumor-cohort relationship
+ok 86 - NCT03911388: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.0975
+  type: 'test'
+  ...
+# Subtest: NCT04181060: independently reviewed LM eligibility and tumor-cohort relationship
+ok 87 - NCT04181060: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.13625
+  type: 'test'
+  ...
+# Subtest: NCT04315246: independently reviewed LM eligibility and tumor-cohort relationship
+ok 88 - NCT04315246: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.046416
+  type: 'test'
+  ...
+# Subtest: NCT04500548: independently reviewed LM eligibility and tumor-cohort relationship
+ok 89 - NCT04500548: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.184458
+  type: 'test'
+  ...
+# Subtest: NCT04527549: independently reviewed LM eligibility and tumor-cohort relationship
+ok 90 - NCT04527549: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.137166
+  type: 'test'
+  ...
+# Subtest: NCT04543188: independently reviewed LM eligibility and tumor-cohort relationship
+ok 91 - NCT04543188: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.060542
+  type: 'test'
+  ...
+# Subtest: NCT04588545: independently reviewed LM eligibility and tumor-cohort relationship
+ok 92 - NCT04588545: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.065208
+  type: 'test'
+  ...
+# Subtest: NCT04739358: independently reviewed LM eligibility and tumor-cohort relationship
+ok 93 - NCT04739358: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.157875
+  type: 'test'
+  ...
+# Subtest: NCT04899908: independently reviewed LM eligibility and tumor-cohort relationship
+ok 94 - NCT04899908: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.070709
+  type: 'test'
+  ...
+# Subtest: NCT05319873: independently reviewed LM eligibility and tumor-cohort relationship
+ok 95 - NCT05319873: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.213
+  type: 'test'
+  ...
+# Subtest: NCT05372614: independently reviewed LM eligibility and tumor-cohort relationship
+ok 96 - NCT05372614: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.282125
+  type: 'test'
+  ...
+# Subtest: NCT05388877: independently reviewed LM eligibility and tumor-cohort relationship
+ok 97 - NCT05388877: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.091875
+  type: 'test'
+  ...
+# Subtest: NCT05414123: independently reviewed LM eligibility and tumor-cohort relationship
+ok 98 - NCT05414123: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.038709
+  type: 'test'
+  ...
+# Subtest: NCT05477927: independently reviewed LM eligibility and tumor-cohort relationship
+ok 99 - NCT05477927: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.082959
+  type: 'test'
+  ...
+# Subtest: NCT05746325: independently reviewed LM eligibility and tumor-cohort relationship
+ok 100 - NCT05746325: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.070333
+  type: 'test'
+  ...
+# Subtest: NCT05810350: independently reviewed LM eligibility and tumor-cohort relationship
+ok 101 - NCT05810350: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.126166
+  type: 'test'
+  ...
+# Subtest: NCT05843253: independently reviewed LM eligibility and tumor-cohort relationship
+ok 102 - NCT05843253: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.18925
+  type: 'test'
+  ...
+# Subtest: NCT05865990: independently reviewed LM eligibility and tumor-cohort relationship
+ok 103 - NCT05865990: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.189458
+  type: 'test'
+  ...
+# Subtest: NCT05967689: independently reviewed LM eligibility and tumor-cohort relationship
+ok 104 - NCT05967689: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.182583
+  type: 'test'
+  ...
+# Subtest: NCT05991518: independently reviewed LM eligibility and tumor-cohort relationship
+ok 105 - NCT05991518: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.144459
+  type: 'test'
+  ...
+# Subtest: NCT06146010: independently reviewed LM eligibility and tumor-cohort relationship
+ok 106 - NCT06146010: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.025083
+  type: 'test'
+  ...
+# Subtest: NCT06422806: independently reviewed LM eligibility and tumor-cohort relationship
+ok 107 - NCT06422806: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.094541
+  type: 'test'
+  ...
+# Subtest: NCT06436092: independently reviewed LM eligibility and tumor-cohort relationship
+ok 108 - NCT06436092: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.053667
+  type: 'test'
+  ...
+# Subtest: NCT06440954: independently reviewed LM eligibility and tumor-cohort relationship
+ok 109 - NCT06440954: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.044959
+  type: 'test'
+  ...
+# Subtest: NCT06465316: independently reviewed LM eligibility and tumor-cohort relationship
+ok 110 - NCT06465316: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.128917
+  type: 'test'
+  ...
+# Subtest: NCT06492915: independently reviewed LM eligibility and tumor-cohort relationship
+ok 111 - NCT06492915: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.110625
+  type: 'test'
+  ...
+# Subtest: NCT06497543: independently reviewed LM eligibility and tumor-cohort relationship
+ok 112 - NCT06497543: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.044625
+  type: 'test'
+  ...
+# Subtest: NCT06589804: independently reviewed LM eligibility and tumor-cohort relationship
+ok 113 - NCT06589804: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.0765
+  type: 'test'
+  ...
+# Subtest: NCT06945705: independently reviewed LM eligibility and tumor-cohort relationship
+ok 114 - NCT06945705: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.076875
+  type: 'test'
+  ...
+# Subtest: NCT07331064: independently reviewed LM eligibility and tumor-cohort relationship
+ok 115 - NCT07331064: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.105833
+  type: 'test'
+  ...
+# Subtest: NCT07361562: independently reviewed LM eligibility and tumor-cohort relationship
+ok 116 - NCT07361562: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.041958
+  type: 'test'
+  ...
+# Subtest: NCT07415018: independently reviewed LM eligibility and tumor-cohort relationship
+ok 117 - NCT07415018: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.028917
+  type: 'test'
+  ...
+# Subtest: NCT07551414: independently reviewed LM eligibility and tumor-cohort relationship
+ok 118 - NCT07551414: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.080084
+  type: 'test'
+  ...
+# Subtest: NCT07559097: independently reviewed LM eligibility and tumor-cohort relationship
+ok 119 - NCT07559097: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.035417
+  type: 'test'
+  ...
+# Subtest: NCT07612488: independently reviewed LM eligibility and tumor-cohort relationship
+ok 120 - NCT07612488: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.182958
+  type: 'test'
+  ...
+# Subtest: NCT07647432: independently reviewed LM eligibility and tumor-cohort relationship
+ok 121 - NCT07647432: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.082166
+  type: 'test'
+  ...
+# Subtest: NCT07659652: independently reviewed LM eligibility and tumor-cohort relationship
+ok 122 - NCT07659652: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.030333
+  type: 'test'
+  ...
+# Subtest: NCT07671560: independently reviewed LM eligibility and tumor-cohort relationship
+ok 123 - NCT07671560: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.136709
+  type: 'test'
+  ...
+# Subtest: NCT07681297: independently reviewed LM eligibility and tumor-cohort relationship
+ok 124 - NCT07681297: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.147583
+  type: 'test'
+  ...
+# Subtest: NCT07689721: independently reviewed LM eligibility and tumor-cohort relationship
+ok 125 - NCT07689721: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.047042
+  type: 'test'
+  ...
+# Subtest: NCT07694986: independently reviewed LM eligibility and tumor-cohort relationship
+ok 126 - NCT07694986: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.108083
+  type: 'test'
+  ...
+# Subtest: NCT07702305: independently reviewed LM eligibility and tumor-cohort relationship
+ok 127 - NCT07702305: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.052541
+  type: 'test'
+  ...
+# Subtest: NCT07744529: independently reviewed LM eligibility and tumor-cohort relationship
+ok 128 - NCT07744529: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.063458
+  type: 'test'
+  ...
+# Subtest: NCT07751536: independently reviewed LM eligibility and tumor-cohort relationship
+ok 129 - NCT07751536: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.0885
+  type: 'test'
+  ...
+# Subtest: NCT07751744: independently reviewed LM eligibility and tumor-cohort relationship
+ok 130 - NCT07751744: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.074791
+  type: 'test'
+  ...
+# Subtest: NCT07778940: independently reviewed LM eligibility and tumor-cohort relationship
+ok 131 - NCT07778940: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.095625
+  type: 'test'
+  ...
+# Subtest: NCT07833657: independently reviewed LM eligibility and tumor-cohort relationship
+ok 132 - NCT07833657: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.053584
+  type: 'test'
+  ...
+# Subtest: NCT00003634: independently reviewed LM eligibility and tumor-cohort relationship
+ok 133 - NCT00003634: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.049666
+  type: 'test'
+  ...
+# Subtest: NCT00004064: independently reviewed LM eligibility and tumor-cohort relationship
+ok 134 - NCT00004064: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.047125
+  type: 'test'
+  ...
+# Subtest: NCT00050375: independently reviewed LM eligibility and tumor-cohort relationship
+ok 135 - NCT00050375: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.078792
+  type: 'test'
+  ...
+# Subtest: NCT00086632: independently reviewed LM eligibility and tumor-cohort relationship
+ok 136 - NCT00086632: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.070042
+  type: 'test'
+  ...
+# Subtest: NCT00795340: independently reviewed LM eligibility and tumor-cohort relationship
+ok 137 - NCT00795340: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.095292
+  type: 'test'
+  ...
+# Subtest: NCT00873119: independently reviewed LM eligibility and tumor-cohort relationship
+ok 138 - NCT00873119: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.119667
+  type: 'test'
+  ...
+# Subtest: NCT01775475: independently reviewed LM eligibility and tumor-cohort relationship
+ok 139 - NCT01775475: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.102916
+  type: 'test'
+  ...
+# Subtest: NCT01897571: independently reviewed LM eligibility and tumor-cohort relationship
+ok 140 - NCT01897571: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.093125
+  type: 'test'
+  ...
+# Subtest: NCT02091063: independently reviewed LM eligibility and tumor-cohort relationship
+ok 141 - NCT02091063: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.059209
+  type: 'test'
+  ...
+# Subtest: NCT02446457: independently reviewed LM eligibility and tumor-cohort relationship
+ok 142 - NCT02446457: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.10625
+  type: 'test'
+  ...
+# Subtest: NCT02535247: independently reviewed LM eligibility and tumor-cohort relationship
+ok 143 - NCT02535247: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.140166
+  type: 'test'
+  ...
+# Subtest: NCT02540876: independently reviewed LM eligibility and tumor-cohort relationship
+ok 144 - NCT02540876: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.105792
+  type: 'test'
+  ...
+# Subtest: NCT02839889: independently reviewed LM eligibility and tumor-cohort relationship
+ok 145 - NCT02839889: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.887125
+  type: 'test'
+  ...
+# Subtest: NCT03100006: independently reviewed LM eligibility and tumor-cohort relationship
+ok 146 - NCT03100006: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.186834
+  type: 'test'
+  ...
+# Subtest: NCT03213652: independently reviewed LM eligibility and tumor-cohort relationship
+ok 147 - NCT03213652: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.12875
+  type: 'test'
+  ...
+# Subtest: NCT03360929: independently reviewed LM eligibility and tumor-cohort relationship
+ok 148 - NCT03360929: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.081916
+  type: 'test'
+  ...
+# Subtest: NCT03473574: independently reviewed LM eligibility and tumor-cohort relationship
+ok 149 - NCT03473574: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.126792
+  type: 'test'
+  ...
+# Subtest: NCT04075396: independently reviewed LM eligibility and tumor-cohort relationship
+ok 150 - NCT04075396: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.05975
+  type: 'test'
+  ...
+# Subtest: NCT04309968: independently reviewed LM eligibility and tumor-cohort relationship
+ok 151 - NCT04309968: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.058834
+  type: 'test'
+  ...
+# Subtest: NCT04620954: independently reviewed LM eligibility and tumor-cohort relationship
+ok 152 - NCT04620954: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.139083
+  type: 'test'
+  ...
+# Subtest: NCT04914286: independently reviewed LM eligibility and tumor-cohort relationship
+ok 153 - NCT04914286: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.068833
+  type: 'test'
+  ...
+# Subtest: NCT04938583: independently reviewed LM eligibility and tumor-cohort relationship
+ok 154 - NCT04938583: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.06825
+  type: 'test'
+  ...
+# Subtest: NCT05429762: independently reviewed LM eligibility and tumor-cohort relationship
+ok 155 - NCT05429762: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.077542
+  type: 'test'
+  ...
+# Subtest: NCT05627245: independently reviewed LM eligibility and tumor-cohort relationship
+ok 156 - NCT05627245: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.110334
+  type: 'test'
+  ...
+# Subtest: NCT06258408: independently reviewed LM eligibility and tumor-cohort relationship
+ok 157 - NCT06258408: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.052292
+  type: 'test'
+  ...
+# Subtest: NCT06951243: independently reviewed LM eligibility and tumor-cohort relationship
+ok 158 - NCT06951243: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.104666
+  type: 'test'
+  ...
+# Subtest: NCT07050043: independently reviewed LM eligibility and tumor-cohort relationship
+ok 159 - NCT07050043: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.068333
+  type: 'test'
+  ...
+# Subtest: NCT07362940: independently reviewed LM eligibility and tumor-cohort relationship
+ok 160 - NCT07362940: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.126
+  type: 'test'
+  ...
+# Subtest: NCT07502027: independently reviewed LM eligibility and tumor-cohort relationship
+ok 161 - NCT07502027: independently reviewed LM eligibility and tumor-cohort relationship
+  ---
+  duration_ms: 0.081792
+  type: 'test'
+  ...
+1..161
+# tests 161
+# suites 0
+# pass 161
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 8178.564875
+
+> leptotrials@1.0.0 lint
+> eslint .
+
+
+> leptotrials@1.0.0 build
+> tsc -b && vite build
+
+vite v8.2.1 building client environment for production...
+[2Ktransforming...✓ 44 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                               1.07 kB │ gzip:   0.54 kB
+dist/assets/index-CFWQFYym.css               40.32 kB │ gzip:   8.22 kB
+dist/assets/trialSuggestion-C2zoR7xO.js       1.22 kB │ gzip:   0.74 kB
+dist/assets/SuggestTrial-eyS3YGk3.js          7.22 kB │ gzip:   2.69 kB
+dist/assets/AnalyticsDashboard-hzsspaNj.js   12.00 kB │ gzip:   3.63 kB
+dist/assets/index-VmZcrg80.js               372.85 kB │ gzip: 124.04 kB
+
+✓ built in 146ms

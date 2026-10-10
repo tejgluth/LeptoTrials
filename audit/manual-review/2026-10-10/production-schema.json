@@ -1,0 +1,32 @@
+[
+  {
+    "results": [
+      {
+        "name": "contact_events",
+        "sql": "CREATE TABLE contact_events (\n  id TEXT PRIMARY KEY NOT NULL,\n  nct_id TEXT NOT NULL,\n  action TEXT NOT NULL CHECK (action IN ('email_click', 'email_copy')),\n  recorded_at TEXT NOT NULL,\n  recorded_at_epoch INTEGER NOT NULL\n) WITHOUT ROWID"
+      },
+      {
+        "name": "trial_suggestions",
+        "sql": "CREATE TABLE trial_suggestions (\n  nct_id TEXT PRIMARY KEY,\n  categories TEXT NOT NULL,\n  relevance TEXT NOT NULL,\n  title TEXT NOT NULL,\n  study_json TEXT NOT NULL,\n  submitted_at TEXT NOT NULL\n)"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "WNAM",
+      "served_by_colo": "SJC",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.6551
+      },
+      "duration": 0.6551,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 53248,
+      "rows_read": 11,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  }
+]

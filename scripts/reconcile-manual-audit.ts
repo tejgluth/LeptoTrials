@@ -1,7 +1,9 @@
+import { fetchRegistryPage } from '../src/utils/apiClient'
+import { assertRegistryPage } from '../src/utils/registryResponse'
 import { createHash } from 'node:crypto'
 import { mkdir, readFile, stat, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
-import { buildCondUrl, buildTermUrl, DEFAULT_SEARCH_PARAMS } from '../src/utils/apiClient'
+import { buildCondUrl, buildTermUrl, DEFAULT_SEARCH_PARAMS, fetchSupplementalAuditedStudies } from '../src/utils/apiClient'
 import { CONTINENT_COUNTRIES } from '../src/constants/countries'
 import { filterByTumorType, filterTrial } from '../src/utils/trialFilter'
 import type {
@@ -16,12 +18,12 @@ import type {
 const REVIEW_DIR = join(process.cwd(), 'audit', 'manual-review')
 const CACHE_DIR = join(process.cwd(), '.cache', 'manual-audit-reconcile')
 const CACHE_MAX_AGE_MS = 1000 * 60 * 60 * 6
-const FETCH_RETRIES = 5
 const MAX_PAGES = 20
 const ALL_STATUSES: OverallStatus[] = [
   'RECRUITING',
   'NOT_YET_RECRUITING',
   'ACTIVE_NOT_RECRUITING',
+  'ENROLLING_BY_INVITATION',
   'COMPLETED',
   'TERMINATED',
   'WITHDRAWN',
@@ -71,38 +73,14 @@ function buildParams(overrides: Partial<SearchParams> = {}): SearchParams {
 }
 
 async function fetchJson(url: string): Promise<ApiResponse> {
-  const cached = await readCachedResponse(url, false)
-  if (cached) return cached
-
-  for (let attempt = 0; attempt < FETCH_RETRIES; attempt += 1) {
-    const response = await fetch(url, {
-      headers: {
-        Accept: 'application/json',
-        'User-Agent': 'Leptomeningeal-manual-audit/1.0',
-      },
-    })
-
-    if (response.ok) {
-      const payload = (await response.json()) as ApiResponse
-      await writeCachedResponse(url, payload)
-      return payload
-    }
-
-    if (response.status === 429 && attempt < FETCH_RETRIES - 1) {
-      await sleep(1500 * 2 ** attempt)
-      continue
-    }
-
-    const stale = await readCachedResponse(url, true)
-    if (stale) return stale
-
-    const text = await response.text().catch(() => 'Unknown error')
-    throw new Error(`ClinicalTrials.gov API error ${response.status}: ${text}`)
+  const cached = process.argv.includes('--fresh') ? null : await readCachedResponse(url, false)
+  if (cached) {
+    assertRegistryPage(cached)
+    return cached
   }
-
-  const stale = await readCachedResponse(url, true)
-  if (stale) return stale
-  throw new Error(`ClinicalTrials.gov API error: exhausted retries for ${url}`)
+  const payload = await fetchRegistryPage(url)
+  await writeCachedResponse(url, payload)
+  return payload
 }
 
 async function fetchRawSearchResults(params: SearchParams): Promise<Study[]> {
@@ -120,15 +98,17 @@ async function fetchRawSearchResults(params: SearchParams): Promise<Study[]> {
     }
   }
 
-  const [condData, termData] = await Promise.all([
+  const [condData, termData, supplemental] = await Promise.all([
     fetchJson(buildCondUrl(params)),
     fetchJson(buildTermUrl(params)),
+    fetchSupplementalAuditedStudies(),
   ])
 
   condToken = condData.nextPageToken
   termToken = termData.nextPageToken
   addStudies(condData.studies ?? [])
   addStudies(termData.studies ?? [])
+  addStudies(supplemental.filter((study) => passesServerFilters(study, params)))
 
   for (let page = 1; page < MAX_PAGES; page += 1) {
     if (!condToken && !termToken) break
@@ -223,11 +203,6 @@ function getBroadestAppUniverse(rawUniverse: Study[]): Study[] {
   )
 }
 
-async function readReviewFile(batchNumber: number): Promise<ReviewFile> {
-  const raw = await readFile(join(REVIEW_DIR, `review-batch-${batchNumber}.json`), 'utf8')
-  return JSON.parse(raw) as ReviewFile
-}
-
 function validateReviewCompleteness(reviews: ReviewEntry[]): Finding[] {
   const findings: Finding[] = []
 
@@ -247,8 +222,8 @@ function validateReviewCompleteness(reviews: ReviewEntry[]): Finding[] {
 }
 
 async function main() {
-  const reviewFiles = await Promise.all([1, 2, 3, 4].map(readReviewFile))
-  const reviews = reviewFiles.flatMap((file) => file.reviews)
+  const manifest = JSON.parse(await readFile(join(REVIEW_DIR, 'classification-decisions.json'), 'utf8')) as ReviewFile
+  const reviews = manifest.reviews
 
   const completenessFindings = validateReviewCompleteness(reviews)
   if (completenessFindings.length > 0) {
@@ -355,9 +330,6 @@ function getCachePath(url: string): string {
   return join(CACHE_DIR, `${hash}.json`)
 }
 
-function sleep(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms))
-}
 
 main().catch((error) => {
   console.error(error instanceof Error ? error.stack ?? error.message : String(error))

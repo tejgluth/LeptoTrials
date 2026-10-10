@@ -1,5 +1,7 @@
 import type { ApiResponse, SearchParams, OverallStatus, Study } from '../types/trial'
 import { COUNTRIES } from '../constants/countries'
+import { assertRegistryPage, assertRegistryStudy } from './registryResponse'
+import { fetchAllStudies } from './fetchAllStudies'
 
 const BASE_URL = 'https://clinicaltrials.gov/api/v2/studies'
 const FETCH_RETRIES = 4
@@ -80,6 +82,12 @@ export function buildTermUrl(params: SearchParams, pageToken?: string): string {
 }
 
 export const SUPPLEMENTAL_AUDITED_STUDY_IDS = [
+  'NCT02446457',
+  'NCT02535247',
+  'NCT03360929',
+  'NCT07362940',
+  'NCT07502027',
+
   'NCT00221325',
   'NCT00310128',
   'NCT00749723',
@@ -154,50 +162,96 @@ export const SUPPLEMENTAL_AUDITED_STUDY_IDS = [
   'NCT07444710',
   'NCT07447076',
   'NCT07624201',
+  'NCT05843253',
+  'NCT05372614',
+  'NCT04739358',
+  'NCT05388877',
+  'NCT02971501',
+  'NCT02838420',
+  'NCT07612488',
+  'NCT00570908',
+  'NCT03053297',
+  'NCT05991518',
 ] as const
 
-async function doFetch<T>(apiUrl: string, signal?: AbortSignal): Promise<T> {
+/** Shared bounded retries for runtime searches and audit scripts. */
+export async function fetchRegistryJson(apiUrl: string, signal?: AbortSignal): Promise<unknown> {
   const timeout = AbortSignal.timeout(30_000)
   const requestSignal = signal ? AbortSignal.any([signal, timeout]) : timeout
   for (let attempt = 0; attempt < FETCH_RETRIES; attempt += 1) {
     requestSignal.throwIfAborted()
-    const response = await fetch(apiUrl, {
-      headers: { Accept: 'application/json' },
-      signal: requestSignal,
-    })
-    if (response.ok) return response.json() as Promise<T>
-
-    const shouldRetry = response.status === 429 || response.status >= 500
-    if (shouldRetry && attempt < FETCH_RETRIES - 1) {
-      await new Promise((resolve) => setTimeout(resolve, 1000 * 2 ** attempt))
+    let response: Response
+    try {
+      response = await fetch(apiUrl, {
+        headers: { Accept: 'application/json' },
+        signal: requestSignal,
+      })
+    } catch (error) {
+      requestSignal.throwIfAborted()
+      if (attempt === FETCH_RETRIES - 1) throw error
+      await waitForRetry(1000 * 2 ** attempt, requestSignal)
       continue
     }
-
+    if (response.ok) return response.json()
+    if ((response.status === 429 || response.status >= 500) && attempt < FETCH_RETRIES - 1) {
+      await waitForRetry(1000 * 2 ** attempt, requestSignal)
+      continue
+    }
     throw new Error(`ClinicalTrials.gov is unavailable (HTTP ${response.status}). Please try again.`)
   }
-
   throw new Error('ClinicalTrials.gov API error: exhausted retries')
 }
 
+function waitForRetry(milliseconds: number, signal: AbortSignal): Promise<void> {
+  return new Promise((resolve, reject) => {
+    signal.throwIfAborted()
+    const abort = () => {
+      clearTimeout(timer)
+      reject(signal.reason)
+    }
+    const timer = setTimeout(() => {
+      signal.removeEventListener('abort', abort)
+      resolve()
+    }, milliseconds)
+    signal.addEventListener('abort', abort, { once: true })
+  })
+}
+
+export async function fetchRegistryPage(apiUrl: string, signal?: AbortSignal): Promise<ApiResponse> {
+  const response = await fetchRegistryJson(apiUrl, signal)
+  assertRegistryPage(response)
+  return response
+}
+
 export function fetchCondStudies(params: SearchParams, pageToken?: string, signal?: AbortSignal): Promise<ApiResponse> {
-  return doFetch(buildCondUrl(params, pageToken), signal)
+  return fetchRegistryPage(buildCondUrl(params, pageToken), signal)
 }
 
 export function fetchTermStudies(params: SearchParams, pageToken?: string, signal?: AbortSignal): Promise<ApiResponse> {
-  return doFetch(buildTermUrl(params, pageToken), signal)
+  return fetchRegistryPage(buildTermUrl(params, pageToken), signal)
 }
 
-export function fetchStudyById(nctId: string, signal?: AbortSignal): Promise<Study> {
+export async function fetchStudyById(nctId: string, signal?: AbortSignal): Promise<Study> {
   if (!/^NCT\d{8}$/.test(nctId)) throw new Error('Invalid study ID')
-  return doFetch(`${BASE_URL}/${nctId}`, signal)
+  const study = await fetchRegistryJson(`${BASE_URL}/${nctId}`, signal)
+  assertRegistryStudy(study)
+  if (study.protocolSection.identificationModule.nctId !== nctId) throw new Error('ClinicalTrials.gov returned the wrong study ID')
+  return study
 }
 
-export function fetchSupplementalAuditedStudies(signal?: AbortSignal): Promise<Study[]> {
-  const url = new URLSearchParams()
-  url.set('format', 'json')
-  url.set('pageSize', '100')
-  url.set('query.id', SUPPLEMENTAL_AUDITED_STUDY_IDS.join(' OR '))
-  return doFetch<ApiResponse>(`${BASE_URL}?${url.toString()}`, signal).then((response) => response.studies ?? [])
+export async function fetchSupplementalAuditedStudies(signal?: AbortSignal): Promise<Study[]> {
+  const url = new URL(`${BASE_URL}`)
+  url.searchParams.set('format', 'json')
+  url.searchParams.set('pageSize', '100')
+  url.searchParams.set('query.id', SUPPLEMENTAL_AUDITED_STUDY_IDS.join(' OR '))
+  const studies = await fetchAllStudies((pageToken) => {
+    if (pageToken) url.searchParams.set('pageToken', pageToken)
+    return fetchRegistryPage(url.toString(), signal)
+  })
+  const byId = new Map(studies.map((study) => [study.protocolSection.identificationModule.nctId, study]))
+  const missing = SUPPLEMENTAL_AUDITED_STUDY_IDS.filter((id) => !byId.has(id))
+  if (missing.length) throw new Error(`ClinicalTrials.gov omitted ${missing.length} audited studies. Please try again.`)
+  return [...byId.values()]
 }
 
 export function getTrialUrl(nctId: string): string {

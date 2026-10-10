@@ -1,0 +1,92 @@
+{
+  "browser-error-retry": {
+    "error": "ERROR\n\nClinicalTrials.gov returned an incomplete or invalid response. Please try again.\n\nTry again",
+    "errorResultCount": 0,
+    "retryRecovered": true,
+    "count": "150 trials found"
+  },
+  "browser-empty": {
+    "emptyState": "NO TRIALS FOUND\n\nNo studies matched your filters and our LM screening. Try broadening your search:\n\n→\nRemove the age filter\n→\nSelect \"Any\" for study type\n→\nDeselect specific phases to show all\n→\nChange country to \"Any Country\"\n→\nInclude all recruitment statuses\n\nStudies that explicitly exclude leptomeningeal disease are screened out. Review possible options with your care team.",
+    "resultCount": 0
+  },
+  "browser-contact": {
+    "copied": true,
+    "source": "https://clinicaltrials.gov/study/NCT05746754",
+    "mailtoHasStudyId": true,
+    "sentMessage": false
+  },
+  "browser-official-link": {
+    "url": "https://clinicaltrials.gov/study/NCT05746754",
+    "title": "ClinicalTrials.gov"
+  },
+  "browser-responsive": [
+    {
+      "width": 1440,
+      "height": 900,
+      "bodyBox": {
+        "x": 0,
+        "y": -2252,
+        "width": 1440,
+        "height": 48087.984375
+      },
+      "searchButton": {
+        "x": 100,
+        "y": -431.4609375,
+        "width": 238.1796875,
+        "height": 65
+      },
+      "inputLabels": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "bodyBox": {
+        "x": 0,
+        "y": -1294,
+        "width": 768,
+        "height": 56876.8125
+      },
+      "searchButton": {
+        "x": 54,
+        "y": 665.59375,
+        "width": 214.234375,
+        "height": 58.5
+      },
+      "inputLabels": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "bodyBox": {
+        "x": 0,
+        "y": -1232.5,
+        "width": 390,
+        "height": 61394.28125
+      },
+      "searchButton": {
+        "x": 17,
+        "y": 721.078125,
+        "width": 356,
+        "height": 51
+      },
+      "inputLabels": true
+    }
+  ],
+  "browser-settled-screens": [
+    {
+      "width": 1440,
+      "height": 900,
+      "settledOpacity": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "settledOpacity": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "settledOpacity": true
+    }
+  ]
+}

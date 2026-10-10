@@ -2,6 +2,7 @@ import type { Study, FilterResult, TumorTypeFilter } from '../types/trial'
 import { isAgeEligible } from './ageParser'
 import { getManualAuditOverride } from './manualAuditOverrides'
 
+// Full LM names are evidence; an unexpanded LMD acronym is not (e.g. left main disease).
 // Presence of any of these in conditionsModule.conditions is authoritative. The trial
 // is specifically for LMD patients, so we skip eligibility text checks (age still applies).
 const LMD_CONDITION_TERMS = [
@@ -12,7 +13,6 @@ const LMD_CONDITION_TERMS = [
   'meningeal disease',
   'meningeal metastasis',
   'meningeal metastases',
-  'lmd',
 ]
 
 const EXCLUSION_BLOCKED_TERMS = [
@@ -48,7 +48,6 @@ const BRIEF_SUMMARY_EXCLUSION_PHRASES = [
 const LM_POSITIVE_TERMS = [
   'leptomeningeal',
   'leptomeninges',
-  'lmd',
   'leptomeningeal carcinomatosis',
   'meningeal carcinomatosis',
   'leptomeningeal cancer',
@@ -105,7 +104,7 @@ export interface ParsedCriteria {
 }
 
 const LM_TERM_PATTERN =
-  /\b(?:lmd|leptomeningeal(?: disease| metastasis| metastases| carcinomatosis)?|leptomeninges|meningeal disease|meningeal metastasis|meningeal metastases|meningeal carcinomatosis)\b/i
+  /\b(?:leptomeningeal(?: disease| metastasis| metastases| carcinomatosis)?|leptomeninges|meningeal disease|meningeal metastasis|meningeal metastases|meningeal carcinomatosis)\b/i
 
 const LM_CONTEXT_PATTERNS = [
   new RegExp(`patients? with[^.\\n;]{0,80}${LM_TERM_PATTERN.source}`, 'i'),
@@ -275,9 +274,7 @@ const TUMOR_KEYWORDS: Record<Exclude<TumorTypeFilter, 'any' | 'OTHER_SOLID'>, st
   ],
   MELANOMA: ['melanoma'],
   GBM: [
-    'glioblastoma', 'high-grade glioma', 'high grade glioma',
-    'grade iv glioma', 'grade 4 glioma', 'malignant glioma',
-    'anaplastic astrocytoma',
+    'glioblastoma',
   ],
 }
 

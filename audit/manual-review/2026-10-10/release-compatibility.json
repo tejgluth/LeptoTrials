@@ -1,0 +1,22 @@
+{
+  "verifiedAt": "2026-10-10",
+  "production": {
+    "privacy": "200: detailed privacy policy visible",
+    "trialSuggestions": {
+      "status": 410,
+      "error": "Trial suggestions are no longer collected. Please use the trial search."
+    },
+    "D1Tables": [
+      "contact_events",
+      "trial_suggestions"
+    ]
+  },
+  "candidateLocal": {
+    "privacy": "200 SPA fallback: search homepage, policy absent",
+    "suggestionFixturePostStatus": 503,
+    "runtimeError": "D1_ERROR: no such table: suggestion_rate_limits",
+    "schema": "Observed production CREATE TABLE statements reproduced in local-only D1; no remote schema mutation",
+    "credentials": "local fake admin token, not a production secret"
+  },
+  "decision": "Do not merge/deploy clean main plus audit; it would remove live privacy behavior and reactivate a retired collection endpoint. Preserve unrelated checkout changes."
+}

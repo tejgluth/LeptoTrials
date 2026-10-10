@@ -1,0 +1,14 @@
+[
+  {
+    "file": "source-records.json.gz",
+    "sha256": "114be83850f096af3b038ab2b93781b825fefbe5c2f871533623982f6d0ff0cc",
+    "uncompressedSha256": "1381822d303a5454135cf360677ba34ba142cc235a6c439c0827f36905520266",
+    "recordCount": 697
+  },
+  {
+    "file": "pass-1-refetched.json.gz",
+    "sha256": "45b4ab7c4c8e4e6be03068ead2b03ec45bdcb7e9a3f58a3791de6879d810976c",
+    "uncompressedSha256": "cb1a3dd23fd7c36452771c97d060b292cd0481e1929320c91da139bf5ff0fe94",
+    "recordCount": 88
+  }
+]

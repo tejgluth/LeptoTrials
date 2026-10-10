@@ -1,0 +1,399 @@
+
+> leptotrials@1.0.0 check
+> npm run test && npm run lint && npm run build
+
+
+> leptotrials@1.0.0 test
+> tsx --test functions/_lib/*.test.ts functions/api/*.test.ts tests/*.test.ts
+
+TAP version 13
+# Subtest: validates the public event schema
+ok 1 - validates the public event schema
+  ---
+  duration_ms: 0.389833
+  type: 'test'
+  ...
+# Subtest: compares dashboard tokens without an early equality return
+ok 2 - compares dashboard tokens without an early equality return
+  ---
+  duration_ms: 0.074042
+  type: 'test'
+  ...
+# Subtest: rejects methods other than POST
+ok 3 - rejects methods other than POST
+  ---
+  duration_ms: 9.0355
+  type: 'test'
+  ...
+# Subtest: rejects cross-site and malformed origins
+ok 4 - rejects cross-site and malformed origins
+  ---
+  duration_ms: 0.394542
+  type: 'test'
+  ...
+# Subtest: rejects oversized and invalid event bodies
+ok 5 - rejects oversized and invalid event bodies
+  ---
+  duration_ms: 0.973542
+  type: 'test'
+  ...
+# Trial suggestion submission failed database unavailable
+# Subtest: the review queue is private, including when the secret is missing
+ok 6 - the review queue is private, including when the secret is missing
+  ---
+  duration_ms: 9.23725
+  type: 'test'
+  ...
+# Subtest: rejects cross-site requests, oversized bodies, malformed JSON and invalid suggestions
+ok 7 - rejects cross-site requests, oversized bodies, malformed JSON and invalid suggestions
+  ---
+  duration_ms: 2.81525
+  type: 'test'
+  ...
+# Subtest: verifies registry identity and saves bound values before confirming receipt
+ok 8 - verifies registry identity and saves bound values before confirming receipt
+  ---
+  duration_ms: 2.067291
+  type: 'test'
+  ...
+# Subtest: does not claim success when the registry or database fails
+ok 9 - does not claim success when the registry or database fails
+  ---
+  duration_ms: 1.859833
+  type: 'test'
+  ...
+# Subtest: rate-limits submissions before requesting the registry
+ok 10 - rate-limits submissions before requesting the registry
+  ---
+  duration_ms: 2.958625
+  type: 'test'
+  ...
+# Subtest: pagination follows tokens until the final page
+ok 11 - pagination follows tokens until the final page
+  ---
+  duration_ms: 0.749
+  type: 'test'
+  ...
+# Subtest: a failed later page rejects the search instead of returning partial results
+ok 12 - a failed later page rejects the search instead of returning partial results
+  ---
+  duration_ms: 0.277375
+  type: 'test'
+  ...
+# Subtest: repeated page tokens and page-limit overflow reject the search
+ok 13 - repeated page tokens and page-limit overflow reject the search
+  ---
+  duration_ms: 0.14075
+  type: 'test'
+  ...
+# Subtest: age filtering includes boundaries and handles pediatric units and open bounds
+ok 14 - age filtering includes boundaries and handles pediatric units and open bounds
+  ---
+  duration_ms: 0.168917
+  type: 'test'
+  ...
+# Subtest: both registry queries preserve selected server filters and page tokens
+ok 15 - both registry queries preserve selected server filters and page tokens
+  ---
+  duration_ms: 0.320208
+  type: 'test'
+  ...
+# Subtest: registry errors do not expose upstream response bodies
+ok 16 - registry errors do not expose upstream response bodies
+  ---
+  duration_ms: 7013.891833
+  type: 'test'
+  ...
+# Subtest: registry requests propagate cancellation
+ok 17 - registry requests propagate cancellation
+  ---
+  duration_ms: 1.744791
+  type: 'test'
+  ...
+# Subtest: empty and unstructured eligibility text preserve the absence of a section boundary
+ok 18 - empty and unstructured eligibility text preserve the absence of a section boundary
+  ---
+  duration_ms: 0.840209
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Exclusion Criteria:"
+ok 19 - parser keeps original text when splitting at "Exclusion Criteria:"
+  ---
+  duration_ms: 0.140375
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "KEY EXCLUSION CRITERIA\\n"
+ok 20 - parser keeps original text when splitting at "KEY EXCLUSION CRITERIA\\n"
+  ---
+  duration_ms: 0.035333
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Main exclusion criteria\\r\\n"
+ok 21 - parser keeps original text when splitting at "Main exclusion criteria\\r\\n"
+  ---
+  duration_ms: 0.029334
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Subject exclusion criteria:"
+ok 22 - parser keeps original text when splitting at "Subject exclusion criteria:"
+  ---
+  duration_ms: 0.081084
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Patient exclusion criteria\\n"
+ok 23 - parser keeps original text when splitting at "Patient exclusion criteria\\n"
+  ---
+  duration_ms: 0.029708
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Study exclusion criteria:"
+ok 24 - parser keeps original text when splitting at "Study exclusion criteria:"
+  ---
+  duration_ms: 0.063708
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Specific exclusion criteria:"
+ok 25 - parser keeps original text when splitting at "Specific exclusion criteria:"
+  ---
+  duration_ms: 0.052375
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "General exclusion criteria\\n"
+ok 26 - parser keeps original text when splitting at "General exclusion criteria\\n"
+  ---
+  duration_ms: 0.188375
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Exclusion criteria\\t"
+ok 27 - parser keeps original text when splitting at "Exclusion criteria\\t"
+  ---
+  duration_ms: 0.224583
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Exclusion criteria (all cohorts):"
+ok 28 - parser keeps original text when splitting at "Exclusion criteria (all cohorts):"
+  ---
+  duration_ms: 0.037208
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Key Exclusion Criteria PHASE 1 and PHASE 2"
+ok 29 - parser keeps original text when splitting at "Key Exclusion Criteria PHASE 1 and PHASE 2"
+  ---
+  duration_ms: 0.025833
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Exclusion Criteria Cohort A"
+ok 30 - parser keeps original text when splitting at "Exclusion Criteria Cohort A"
+  ---
+  duration_ms: 0.022125
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Main Exclusion Criteria Part 2"
+ok 31 - parser keeps original text when splitting at "Main Exclusion Criteria Part 2"
+  ---
+  duration_ms: 0.020709
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "\\nExclusion:\\n"
+ok 32 - parser keeps original text when splitting at "\\nExclusion:\\n"
+  ---
+  duration_ms: 0.021167
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "\\r\\nExclusion:"
+ok 33 - parser keeps original text when splitting at "\\r\\nExclusion:"
+  ---
+  duration_ms: 0.021167
+  type: 'test'
+  ...
+# Subtest: narrative mentions of inclusion and exclusion criteria do not split the text
+ok 34 - narrative mentions of inclusion and exclusion criteria do not split the text
+  ---
+  duration_ms: 0.03675
+  type: 'test'
+  ...
+# Subtest: the first exclusion heading wins when a protocol contains multiple cohort sections
+ok 35 - the first exclusion heading wins when a protocol contains multiple cohort sections
+  ---
+  duration_ms: 0.087333
+  type: 'test'
+  ...
+# Subtest: generic brain metastases, missing text, and an embedded LMD substring are insufficient
+ok 36 - generic brain metastases, missing text, and an embedded LMD substring are insufficient
+  ---
+  duration_ms: 1.078417
+  type: 'test'
+  ...
+# Subtest: LM can appear only in inclusion criteria of a broader solid-tumor study
+ok 37 - LM can appear only in inclusion criteria of a broader solid-tumor study
+  ---
+  duration_ms: 0.165542
+  type: 'test'
+  ...
+# Subtest: a summary cohort or official title can supply the only LM signal
+ok 38 - a summary cohort or official title can supply the only LM signal
+  ---
+  duration_ms: 0.049666
+  type: 'test'
+  ...
+# Subtest: an exclusion-only LM mention does not make a broad trial relevant
+ok 39 - an exclusion-only LM mention does not make a broad trial relevant
+  ---
+  duration_ms: 0.038125
+  type: 'test'
+  ...
+# Subtest: negative inclusion overrides an LM title and condition: No evidence of leptomeningeal disease
+ok 40 - negative inclusion overrides an LM title and condition: No evidence of leptomeningeal disease
+  ---
+  duration_ms: 0.037125
+  type: 'test'
+  ...
+# Subtest: negative inclusion overrides an LM title and condition: No radiographic evidence of leptomeningeal metastases
+ok 41 - negative inclusion overrides an LM title and condition: No radiographic evidence of leptomeningeal metastases
+  ---
+  duration_ms: 0.028041
+  type: 'test'
+  ...
+# Subtest: negative inclusion overrides an LM title and condition: Without leptomeningeal involvement
+ok 42 - negative inclusion overrides an LM title and condition: Without leptomeningeal involvement
+  ---
+  duration_ms: 0.031333
+  type: 'test'
+  ...
+# Subtest: negative inclusion overrides an LM title and condition: Absence of meningeal metastasis
+ok 43 - negative inclusion overrides an LM title and condition: Absence of meningeal metastasis
+  ---
+  duration_ms: 0.074709
+  type: 'test'
+  ...
+# Subtest: negative inclusion overrides an LM title and condition: No meningeal metastases
+ok 44 - negative inclusion overrides an LM title and condition: No meningeal metastases
+  ---
+  duration_ms: 0.025667
+  type: 'test'
+  ...
+# Subtest: a dedicated LM condition preserves mixed-cohort studies with exclusion mentions
+ok 45 - a dedicated LM condition preserves mixed-cohort studies with exclusion mentions
+  ---
+  duration_ms: 0.0315
+  type: 'test'
+  ...
+# Subtest: the patient-language exclusion in a summary still rejects an LM-titled study
+ok 46 - the patient-language exclusion in a summary still rejects an LM-titled study
+  ---
+  duration_ms: 0.031167
+  type: 'test'
+  ...
+# Subtest: age bounds are inclusive and checked before accepting a manual override
+ok 47 - age bounds are inclusive and checked before accepting a manual override
+  ---
+  duration_ms: 0.877208
+  type: 'test'
+  ...
+# Subtest: NCT03093116 retains asymptomatic LM enrollment despite its symptomatic exclusion
+ok 48 - NCT03093116 retains asymptomatic LM enrollment despite its symptomatic exclusion
+  ---
+  duration_ms: 0.325917
+  type: 'test'
+  ...
+# Subtest: NCT03202940 permits LM but mentions LM radiation washout in exclusions
+ok 49 - NCT03202940 permits LM but mentions LM radiation washout in exclusions
+  ---
+  duration_ms: 0.412291
+  type: 'test'
+  ...
+# Subtest: NCT02896335 permits LM in cohort 2 even though cohort 1 excludes it
+ok 50 - NCT02896335 permits LM in cohort 2 even though cohort 1 excludes it
+  ---
+  duration_ms: 0.600667
+  type: 'test'
+  ...
+# Subtest: NCT02616393 preserves a dedicated LM trial with a neurological confounder exclusion
+ok 51 - NCT02616393 preserves a dedicated LM trial with a neurological confounder exclusion
+  ---
+  duration_ms: 0.567166
+  type: 'test'
+  ...
+# Subtest: NCT03083041 stays excluded by its audited classification
+ok 52 - NCT03083041 stays excluded by its audited classification
+  ---
+  duration_ms: 0.0925
+  type: 'test'
+  ...
+# Subtest: NCT03417895 stays excluded by its audited classification
+ok 53 - NCT03417895 stays excluded by its audited classification
+  ---
+  duration_ms: 0.109958
+  type: 'test'
+  ...
+# Subtest: NCT05984108 stays excluded by its audited classification
+ok 54 - NCT05984108 stays excluded by its audited classification
+  ---
+  duration_ms: 0.068667
+  type: 'test'
+  ...
+# Subtest: tumor inference distinguishes lung, breast, melanoma, glioma, and other solid tumors
+ok 55 - tumor inference distinguishes lung, breast, melanoma, glioma, and other solid tumors
+  ---
+  duration_ms: 0.210375
+  type: 'test'
+  ...
+# Subtest: normalizes ordinary trial contact addresses and rejects unsafe values
+ok 56 - normalizes ordinary trial contact addresses and rejects unsafe values
+  ---
+  duration_ms: 0.359084
+  type: 'test'
+  ...
+# Subtest: builds a Gmail-compatible mailto link with an editable outreach draft
+ok 57 - builds a Gmail-compatible mailto link with an editable outreach draft
+  ---
+  duration_ms: 0.2335
+  type: 'test'
+  ...
+# Subtest: accepts official current and legacy registry links and normalizes the ID
+ok 58 - accepts official current and legacy registry links and normalizes the ID
+  ---
+  duration_ms: 0.436667
+  type: 'test'
+  ...
+# Subtest: rejects lookalike hosts, credentials, non-HTTPS links, and invalid study paths
+ok 59 - rejects lookalike hosts, credentials, non-HTTPS links, and invalid study paths
+  ---
+  duration_ms: 0.076541
+  type: 'test'
+  ...
+# Subtest: requires valid categories and a useful explanation
+ok 60 - requires valid categories and a useful explanation
+  ---
+  duration_ms: 0.484125
+  type: 'test'
+  ...
+1..60
+# tests 60
+# suites 0
+# pass 60
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 7126.548583
+
+> leptotrials@1.0.0 lint
+> eslint .
+
+
+> leptotrials@1.0.0 build
+> tsc -b && vite build
+
+vite v8.2.1 building client environment for production...
+[2Ktransforming...✓ 43 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                               1.07 kB │ gzip:   0.54 kB
+dist/assets/index-DOmJc0-H.css               40.03 kB │ gzip:   8.21 kB
+dist/assets/trialSuggestion-C2zoR7xO.js       1.22 kB │ gzip:   0.74 kB
+dist/assets/SuggestTrial-79vkW-Kf.js          7.22 kB │ gzip:   2.69 kB
+dist/assets/AnalyticsDashboard-fI-OBwUc.js   12.00 kB │ gzip:   3.63 kB
+dist/assets/index-DM37YK1_.js               368.73 kB │ gzip: 123.21 kB
+
+✓ built in 273ms

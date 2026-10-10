@@ -1,0 +1,49 @@
+[
+  {
+    "url": "https://leptotrials.com/",
+    "status": 200,
+    "at": "2026-10-10T19:32:09.765Z",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "etag": null,
+    "bodyHash": "dee522f59e51918c1afd23c856e52111ce6a4d51a1cb142ce40821f7ae579fa8"
+  },
+  {
+    "url": "https://leptotrials.com/privacy",
+    "status": 200,
+    "at": "2026-10-10T19:32:09.820Z",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "etag": null,
+    "bodyHash": "dee522f59e51918c1afd23c856e52111ce6a4d51a1cb142ce40821f7ae579fa8"
+  },
+  {
+    "url": "https://leptotrials.com/api/contact-events",
+    "status": 405,
+    "at": "2026-10-10T19:32:10.052Z",
+    "cacheControl": "no-store",
+    "etag": null,
+    "bodyHash": "7aec1e6251805037cf79d94948312d720501acf5ba79d347736ac633acee7aef"
+  },
+  {
+    "url": "https://leptotrials.com/api/contact-analytics",
+    "status": 401,
+    "at": "2026-10-10T19:32:10.192Z",
+    "cacheControl": "private, no-store",
+    "etag": null,
+    "bodyHash": "70f48da655ae496a89e527cc25f856333fdee76ed08b9c28169ce7008556f4c8"
+  },
+  {
+    "url": "https://leptotrials.com/api/trial-suggestions",
+    "status": 410,
+    "at": "2026-10-10T19:32:10.229Z",
+    "cacheControl": "no-store",
+    "etag": null,
+    "bodyHash": "87e8cdcf1d649ecc4679c82300c8bc8dde22ba665668b6e3f407e67bfa8984af"
+  },
+  {
+    "url": "https://leptotrials.com/assets/index-BHUhDcBw.js",
+    "status": 200,
+    "at": "2026-10-10T19:32:10.318Z",
+    "sha256": "3a1372cd11d66e4c90bf1fde9c170a47df5a09d9fae89cd0a3c7da3140ffd7bf",
+    "containsPrivacyLink": true
+  }
+]

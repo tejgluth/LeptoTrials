@@ -1,4 +1,5 @@
-import { mkdir, writeFile } from 'node:fs/promises'
+import { fetchRegistryPage } from '../src/utils/apiClient'
+import { access, mkdir, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import {
   buildCondUrl,
@@ -18,7 +19,6 @@ import type {
 
 const OUTPUT_DIR = join(process.cwd(), 'audit', 'manual-review')
 const MAX_PAGES = 20
-const FETCH_RETRIES = 5
 const ALL_STATUSES: OverallStatus[] = [
   'RECRUITING',
   'NOT_YET_RECRUITING',
@@ -60,28 +60,7 @@ function buildParams(overrides: Partial<SearchParams> = {}): SearchParams {
 }
 
 async function fetchJson(url: string): Promise<ApiResponse> {
-  for (let attempt = 0; attempt < FETCH_RETRIES; attempt += 1) {
-    const response = await fetch(url, {
-      headers: {
-        Accept: 'application/json',
-        'User-Agent': 'Leptomeningeal-audit-export/1.0',
-      },
-    })
-
-    if (response.ok) {
-      return response.json() as Promise<ApiResponse>
-    }
-
-    if (response.status === 429 && attempt < FETCH_RETRIES - 1) {
-      await sleep(1500 * 2 ** attempt)
-      continue
-    }
-
-    const text = await response.text().catch(() => 'Unknown error')
-    throw new Error(`ClinicalTrials.gov API error ${response.status}: ${text}`)
-  }
-
-  throw new Error(`ClinicalTrials.gov API error: exhausted retries for ${url}`)
+  return fetchRegistryPage(url)
 }
 
 async function fetchRawSearchResults(params: SearchParams): Promise<Study[]> {
@@ -259,8 +238,11 @@ async function main() {
         2
       )
     )
+    const reviewPath = join(OUTPUT_DIR, `review-batch-${index + 1}.json`)
+    const exists = await access(reviewPath).then(() => true, () => false)
+    if (exists) continue
     await writeFile(
-      join(OUTPUT_DIR, `review-batch-${index + 1}.json`),
+      reviewPath,
       JSON.stringify(
         {
           generatedAt: new Date().toISOString(),
@@ -291,9 +273,6 @@ async function main() {
   console.log(`Wrote audit files to ${OUTPUT_DIR}`)
 }
 
-function sleep(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms))
-}
 
 main().catch((error) => {
   console.error(error instanceof Error ? error.stack ?? error.message : String(error))

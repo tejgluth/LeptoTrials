@@ -1,0 +1,5 @@
+
+> leptotrials@1.0.0 generate:manual-audit-overrides
+> npx tsx scripts/generate-manual-audit-overrides.ts
+
+Wrote 376 manual audit overrides to /private/tmp/lm-weekly-audit-20261010/src/utils/manualAuditOverrides.ts

@@ -1,10 +1,10 @@
+import { fetchRegistryPage } from '../src/utils/apiClient'
 import { mkdir, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import type { ApiResponse, OverallStatus, Study } from '../src/types/trial'
 
 const OUTPUT_DIR = join(process.cwd(), 'audit', 'manual-review')
 const MAX_PAGES = 20
-const FETCH_RETRIES = 5
 const BASE_URL = 'https://clinicaltrials.gov/api/v2/studies'
 const ALL_STATUSES: OverallStatus[] = [
   'RECRUITING',
@@ -50,28 +50,7 @@ type CandidateRecord = {
 }
 
 async function fetchJson(url: string): Promise<ApiResponse> {
-  for (let attempt = 0; attempt < FETCH_RETRIES; attempt += 1) {
-    const response = await fetch(url, {
-      headers: {
-        Accept: 'application/json',
-        'User-Agent': 'Leptomeningeal-expanded-audit/1.0',
-      },
-    })
-
-    if (response.ok) {
-      return response.json() as Promise<ApiResponse>
-    }
-
-    if (response.status === 429 && attempt < FETCH_RETRIES - 1) {
-      await sleep(1500 * 2 ** attempt)
-      continue
-    }
-
-    const text = await response.text().catch(() => 'Unknown error')
-    throw new Error(`ClinicalTrials.gov API error ${response.status}: ${text}`)
-  }
-
-  throw new Error(`ClinicalTrials.gov API error: exhausted retries for ${url}`)
+  return fetchRegistryPage(url)
 }
 
 async function fetchSearch(search: typeof SEARCHES[number]): Promise<Study[]> {
@@ -166,9 +145,6 @@ async function main() {
   console.log(`Wrote ${join(OUTPUT_DIR, 'expanded-candidates.json')}`)
 }
 
-function sleep(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms))
-}
 
 main().catch((error) => {
   console.error(error instanceof Error ? error.stack ?? error.message : String(error))
