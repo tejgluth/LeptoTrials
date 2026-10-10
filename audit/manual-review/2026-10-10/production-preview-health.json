@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://leptotrials.com/",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bodyExcerpt": null,
+    "asset": "assets/index-BHUhDcBw.js",
+    "checkedAt": "2026-10-10T19:48:30.922Z"
+  },
+  {
+    "url": "https://leptotrials.com/privacy",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bodyExcerpt": null,
+    "asset": "assets/index-BHUhDcBw.js",
+    "checkedAt": "2026-10-10T19:48:31.088Z"
+  },
+  {
+    "url": "https://leptotrials.com/api/trial-suggestions",
+    "status": 410,
+    "contentType": "application/json; charset=utf-8",
+    "bodyExcerpt": "{\"error\":\"Trial suggestions are no longer collected. Please use the trial search.\"}",
+    "checkedAt": "2026-10-10T19:48:31.159Z"
+  },
+  {
+    "url": "https://leptotrials.com/api/contact-events",
+    "status": 405,
+    "contentType": "application/json; charset=utf-8",
+    "bodyExcerpt": "{\"error\":\"Method not allowed.\"}",
+    "checkedAt": "2026-10-10T19:48:31.432Z"
+  },
+  {
+    "url": "https://leptotrials.com/api/contact-analytics",
+    "status": 401,
+    "contentType": "application/json; charset=utf-8",
+    "bodyExcerpt": "{\"error\":\"Invalid analytics access token.\"}",
+    "checkedAt": "2026-10-10T19:48:31.611Z"
+  },
+  {
+    "url": "https://27577600.leptotrials.pages.dev/",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bodyExcerpt": null,
+    "asset": "assets/index-VmZcrg80.js",
+    "checkedAt": "2026-10-10T19:48:31.962Z"
+  },
+  {
+    "url": "https://27577600.leptotrials.pages.dev/privacy",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bodyExcerpt": null,
+    "asset": "assets/index-VmZcrg80.js",
+    "checkedAt": "2026-10-10T19:48:32.136Z"
+  },
+  {
+    "url": "https://27577600.leptotrials.pages.dev/api/trial-suggestions",
+    "status": 401,
+    "contentType": "application/json; charset=utf-8",
+    "bodyExcerpt": "{\"error\":\"Unauthorized.\"}",
+    "checkedAt": "2026-10-10T19:48:32.190Z"
+  },
+  {
+    "url": "https://27577600.leptotrials.pages.dev/api/contact-events",
+    "status": 405,
+    "contentType": "application/json; charset=utf-8",
+    "bodyExcerpt": "{\"error\":\"Method not allowed.\"}",
+    "checkedAt": "2026-10-10T19:48:32.303Z"
+  },
+  {
+    "url": "https://27577600.leptotrials.pages.dev/api/contact-analytics",
+    "status": 503,
+    "contentType": "application/json; charset=utf-8",
+    "bodyExcerpt": "{\"error\":\"Analytics has not been configured.\"}",
+    "checkedAt": "2026-10-10T19:48:32.335Z"
+  }
+]

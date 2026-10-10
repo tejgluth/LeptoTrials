@@ -1,0 +1,47 @@
+{
+  "recordedAt": "2026-10-10T19:50:00Z",
+  "outcome": "Blocked by operational access or failed verification",
+  "applicationCommit": "1293991baab2e6a2f69c41a5d630c32f49bdb5d9",
+  "branch": "codex/weekly-lm-audit-20261010",
+  "pullRequest": "https://github.com/tejgluth/LeptoTrials/pull/2",
+  "draft": true,
+  "labels": [
+    "codex",
+    "codex-automation"
+  ],
+  "checks": [
+    {
+      "link": "https://dash.cloudflare.com/?to=/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/27577600-b6d7-488d-b3d5-ce236a236d59",
+      "name": "Cloudflare Pages",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/tejgluth/LeptoTrials/actions/runs/38081205870/job/114298316232",
+      "name": "check",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/tejgluth/LeptoTrials/actions/runs/38081198646/job/114298294980",
+      "name": "check",
+      "state": "SUCCESS"
+    }
+  ],
+  "automaticPreview": {
+    "id": "27577600-b6d7-488d-b3d5-ce236a236d59",
+    "url": "https://27577600.leptotrials.pages.dev",
+    "source": "1293991",
+    "defaultResults": 153,
+    "resultLedgerDifference": [],
+    "privacyRoute": "search homepage; no privacy heading",
+    "analyticsGET": 503,
+    "analyticsLimitation": "Preview analytics binding/admin configuration is unavailable; no secrets added and no remote POST/migration was performed."
+  },
+  "production": {
+    "deployment": "e32dcbfd-60e3-4b4b-a795-72f1b41a67cf",
+    "asset": "index-BHUhDcBw.js",
+    "unchanged": true,
+    "merged": false,
+    "deployed": false,
+    "rollbackAttempted": false
+  }
+}

@@ -1,0 +1,227 @@
+[
+  {
+    "Id": "27577600-b6d7-488d-b3d5-ce236a236d59",
+    "Environment": "Preview",
+    "Branch": "codex/weekly-lm-audit-20261010",
+    "Source": "1293991",
+    "Deployment": "https://27577600.leptotrials.pages.dev",
+    "Status": "Active",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/27577600-b6d7-488d-b3d5-ce236a236d59"
+  },
+  {
+    "Id": "e32dcbfd-60e3-4b4b-a795-72f1b41a67cf",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "e3116e0",
+    "Deployment": "https://e32dcbfd.leptotrials.pages.dev",
+    "Status": "2 days ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/e32dcbfd-60e3-4b4b-a795-72f1b41a67cf"
+  },
+  {
+    "Id": "775e96c9-b2d9-41da-b9db-7a94d3ab224a",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "e3116e0",
+    "Deployment": "https://775e96c9.leptotrials.pages.dev",
+    "Status": "2 days ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/775e96c9-b2d9-41da-b9db-7a94d3ab224a"
+  },
+  {
+    "Id": "21ec7a26-c12a-4780-a576-3778f2f34690",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "e3116e0",
+    "Deployment": "https://21ec7a26.leptotrials.pages.dev",
+    "Status": "2 days ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/21ec7a26-c12a-4780-a576-3778f2f34690"
+  },
+  {
+    "Id": "5db3a1c3-05ed-47e0-bdd4-d62783a2d288",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "e3116e0",
+    "Deployment": "https://5db3a1c3.leptotrials.pages.dev",
+    "Status": "3 days ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/5db3a1c3-05ed-47e0-bdd4-d62783a2d288"
+  },
+  {
+    "Id": "7a6cba3d-c7e5-4fbe-b9de-ce75098e7a5a",
+    "Environment": "Preview",
+    "Branch": "codex/contributor-refresh",
+    "Source": "8a2e426",
+    "Deployment": "https://7a6cba3d.leptotrials.pages.dev",
+    "Status": "4 days ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/7a6cba3d-c7e5-4fbe-b9de-ce75098e7a5a"
+  },
+  {
+    "Id": "59b5b8cd-9b5a-4017-a250-1f2c7f2ee77a",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "8a2e426",
+    "Deployment": "https://59b5b8cd.leptotrials.pages.dev",
+    "Status": "4 days ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/59b5b8cd-9b5a-4017-a250-1f2c7f2ee77a"
+  },
+  {
+    "Id": "f2a50012-c530-4e97-a8da-acb691ed0d5d",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "1b69c19",
+    "Deployment": "https://f2a50012.leptotrials.pages.dev",
+    "Status": "1 week ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/f2a50012-c530-4e97-a8da-acb691ed0d5d"
+  },
+  {
+    "Id": "045db222-5cff-4a09-a18a-3a03235b508e",
+    "Environment": "Preview",
+    "Branch": "codex/full-lm-audit-2026-09-27",
+    "Source": "1b69c19",
+    "Deployment": "https://045db222.leptotrials.pages.dev",
+    "Status": "1 week ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/045db222-5cff-4a09-a18a-3a03235b508e"
+  },
+  {
+    "Id": "70a69e63-c56b-49ee-b72c-10918cfecd54",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "1b69c19",
+    "Deployment": "https://70a69e63.leptotrials.pages.dev",
+    "Status": "1 week ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/70a69e63-c56b-49ee-b72c-10918cfecd54"
+  },
+  {
+    "Id": "f83ba584-e58c-4531-8a4a-c9bce8c23b7d",
+    "Environment": "Preview",
+    "Branch": "codex/full-lm-audit-2026-09-27",
+    "Source": "0e33c75",
+    "Deployment": "https://f83ba584.leptotrials.pages.dev",
+    "Status": "1 week ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/f83ba584-e58c-4531-8a4a-c9bce8c23b7d"
+  },
+  {
+    "Id": "dcafb4c7-ecc7-4fd3-9569-92e372cb5070",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "0e33c75",
+    "Deployment": "https://dcafb4c7.leptotrials.pages.dev",
+    "Status": "1 week ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/dcafb4c7-ecc7-4fd3-9569-92e372cb5070"
+  },
+  {
+    "Id": "57017199-db0e-41c0-8b6a-dec12d39ee65",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "3d97a85",
+    "Deployment": "https://57017199.leptotrials.pages.dev",
+    "Status": "3 weeks ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/57017199-db0e-41c0-8b6a-dec12d39ee65"
+  },
+  {
+    "Id": "bcd43785-4e1e-4fd6-8fc7-a42c9ce57a5f",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "3d97a85",
+    "Deployment": "https://bcd43785.leptotrials.pages.dev",
+    "Status": "3 weeks ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/bcd43785-4e1e-4fd6-8fc7-a42c9ce57a5f"
+  },
+  {
+    "Id": "e822b081-03fa-4318-a5e4-ae2805ba40ff",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "9cbc041",
+    "Deployment": "https://e822b081.leptotrials.pages.dev",
+    "Status": "3 weeks ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/e822b081-03fa-4318-a5e4-ae2805ba40ff"
+  },
+  {
+    "Id": "c90de9a6-20dd-4d42-b061-db8d1d9e5621",
+    "Environment": "Preview",
+    "Branch": "codex/update-lm-trial-audit-overrides",
+    "Source": "e3116e0",
+    "Deployment": "https://c90de9a6.leptotrials.pages.dev",
+    "Status": "3 weeks ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/c90de9a6-20dd-4d42-b061-db8d1d9e5621"
+  },
+  {
+    "Id": "a2465b38-cdda-45f6-9812-2f7fc534a6f4",
+    "Environment": "Preview",
+    "Branch": "codex/update-lm-trial-audit-overrides",
+    "Source": "fba0fc1",
+    "Deployment": "https://a2465b38.leptotrials.pages.dev",
+    "Status": "3 weeks ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/a2465b38-cdda-45f6-9812-2f7fc534a6f4"
+  },
+  {
+    "Id": "6cba97e7-2941-4576-9026-15a918d95c78",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "ab40a17",
+    "Deployment": "https://6cba97e7.leptotrials.pages.dev",
+    "Status": "3 weeks ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/6cba97e7-2941-4576-9026-15a918d95c78"
+  },
+  {
+    "Id": "cf4718a3-c26d-4303-a77d-cbe1294974d8",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "ab40a17",
+    "Deployment": "https://cf4718a3.leptotrials.pages.dev",
+    "Status": "3 weeks ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/cf4718a3-c26d-4303-a77d-cbe1294974d8"
+  },
+  {
+    "Id": "c73b256f-d69a-430c-b3c0-1b0bc3baf6a8",
+    "Environment": "Preview",
+    "Branch": "codex/update-lm-trial-audit-overrides",
+    "Source": "b9204da",
+    "Deployment": "https://c73b256f.leptotrials.pages.dev",
+    "Status": "3 weeks ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/c73b256f-d69a-430c-b3c0-1b0bc3baf6a8"
+  },
+  {
+    "Id": "a64409fc-9886-48f2-aa48-e1b9ba03ccd0",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "bc5187c",
+    "Deployment": "https://a64409fc.leptotrials.pages.dev",
+    "Status": "3 weeks ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/a64409fc-9886-48f2-aa48-e1b9ba03ccd0"
+  },
+  {
+    "Id": "2fa3e36a-7879-438b-9b17-4304719b8235",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "148c4e5",
+    "Deployment": "https://2fa3e36a.leptotrials.pages.dev",
+    "Status": "3 weeks ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/2fa3e36a-7879-438b-9b17-4304719b8235"
+  },
+  {
+    "Id": "af929853-ad6c-4da1-99be-3b27f4539522",
+    "Environment": "Preview",
+    "Branch": "codex/update-lm-trial-audit-overrides",
+    "Source": "8267cd8",
+    "Deployment": "https://af929853.leptotrials.pages.dev",
+    "Status": "3 weeks ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/af929853-ad6c-4da1-99be-3b27f4539522"
+  },
+  {
+    "Id": "26ce5ff4-f84c-48f9-b1b7-ac8e007f805f",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "bf229a2",
+    "Deployment": "https://26ce5ff4.leptotrials.pages.dev",
+    "Status": "3 weeks ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/26ce5ff4-f84c-48f9-b1b7-ac8e007f805f"
+  },
+  {
+    "Id": "4347201f-f400-4c23-bed6-117a69aab11c",
+    "Environment": "Preview",
+    "Branch": "codex/update-lm-trial-audit-overrides",
+    "Source": "fe7611a",
+    "Deployment": "https://4347201f.leptotrials.pages.dev",
+    "Status": "3 weeks ago",
+    "Build": "https://dash.cloudflare.com/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/4347201f-f400-4c23-bed6-117a69aab11c"
+  }
+]
