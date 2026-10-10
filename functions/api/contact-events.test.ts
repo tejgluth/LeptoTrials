@@ -37,3 +37,21 @@ test('rejects oversized and invalid event bodies', async () => {
     eventId: '11111111-1111-4111-8111-111111111111',
   })))).status, 400)
 })
+
+test('cancels an oversized streaming body without waiting for the stream to end', async () => {
+  let cancelled = false
+  const body = new ReadableStream<Uint8Array>({
+    start(controller) { controller.enqueue(new Uint8Array(2_049)) },
+    cancel() { cancelled = true },
+  })
+  const streamRequest = new Request('https://leptotrials.example/api/contact-events', {
+    method: 'POST', headers: { 'Content-Type': 'application/json' }, body,
+    duplex: 'half',
+  } as RequestInit)
+  assert.equal((await call(streamRequest)).status, 413)
+  assert.equal(cancelled, true)
+})
+
+test('rejects media types that merely start with application/json', async () => {
+  assert.equal((await call(request('{}', { 'Content-Type': 'application/json-invalid' }))).status, 415)
+})

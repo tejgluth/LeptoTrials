@@ -1,3 +1,4 @@
+import { readJsonBody } from '../_lib/readJsonBody'
 import {
   isContactAction,
   isEventId,
@@ -20,25 +21,17 @@ function json(body: unknown, status: number): Response {
 export const onRequest: PagesFunction<AnalyticsEnv> = async ({ request, env }) => {
   if (request.method !== 'POST') return json({ error: 'Method not allowed.' }, 405)
   if (!isSameOriginRequest(request)) return json({ error: 'Cross-site requests are not allowed.' }, 403)
-  if (!request.headers.get('content-type')?.toLowerCase().startsWith('application/json')) {
+  if (request.headers.get('content-type')?.split(';')[0].trim().toLowerCase() !== 'application/json') {
     return json({ error: 'Content-Type must be application/json.' }, 415)
-  }
-
-  let rawBody: string
-  try {
-    rawBody = await request.text()
-  } catch {
-    return json({ error: 'Invalid JSON body.' }, 400)
-  }
-  if (new TextEncoder().encode(rawBody).byteLength > 2_048) {
-    return json({ error: 'Request body is too large.' }, 413)
   }
 
   let body: unknown
   try {
-    body = JSON.parse(rawBody)
-  } catch {
-    return json({ error: 'Invalid JSON body.' }, 400)
+    body = await readJsonBody(request, 2_048)
+  } catch (error) {
+    return error instanceof RangeError
+      ? json({ error: 'Request body is too large.' }, 413)
+      : json({ error: 'Invalid JSON body.' }, 400)
   }
   if (!body || typeof body !== 'object') return json({ error: 'Invalid event.' }, 400)
 
