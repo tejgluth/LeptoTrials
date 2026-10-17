@@ -11,6 +11,7 @@ type ReviewEntry = {
   tumorLabels: string[]
   confidence: string
   rationale: string
+  minimumAge?: string
 }
 
 type ReviewFile = {
@@ -27,7 +28,10 @@ async function main() {
     if (!/^NCT\d{8}$/.test(review.nctId) || seen.has(review.nctId) ||
         typeof review.siteEligible !== 'boolean' ||
         review.tumorLabels.some((label) => !labels.has(label)) ||
-        (!review.siteEligible && review.tumorLabels.length)) {
+        (!review.siteEligible && review.tumorLabels.length) ||
+        (review.minimumAge !== undefined &&
+         (!/^\d+(?:\.\d+)? Years$/.test(review.minimumAge) ||
+          Number.parseFloat(review.minimumAge) > 120))) {
       throw new Error(`Invalid or duplicate review: ${review.nctId}`)
     }
     seen.add(review.nctId)
@@ -48,6 +52,8 @@ async function main() {
   lines.push('export type ManualAuditOverride = {')
   lines.push('  siteEligible: boolean')
   lines.push("  tumorLabels: Array<Exclude<TumorTypeFilter, 'any'>>")
+  lines.push('  /** Source-reviewed correction when structured registry age conflicts with explicit criteria. */')
+  lines.push('  minimumAge?: string')
   lines.push('}')
   lines.push('')
   lines.push(`export const MANUAL_AUDIT_REVIEWED_ON = '${manifest.reviewedOn}'`)
@@ -60,7 +66,7 @@ async function main() {
       .map((label) => `'${label}'`)
       .join(', ')
     lines.push(
-      `  '${review.nctId}': { siteEligible: ${review.siteEligible ? 'true' : 'false'}, tumorLabels: [${tumorLabels}] },`
+      `  '${review.nctId}': { siteEligible: ${review.siteEligible ? 'true' : 'false'}, tumorLabels: [${tumorLabels}]${review.minimumAge ? `, minimumAge: '${review.minimumAge}'` : ''} },`
     )
   }
 
