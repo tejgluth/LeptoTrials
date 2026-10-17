@@ -29,7 +29,9 @@ function appendCommonParams(
   pageToken?: string
 ) {
   url.set('format', 'json')
-  url.set('pageSize', '20')
+  // Fewer round trips reduce exposure to transient registry/CORS failures while
+  // keeping response sizes bounded. Pagination must still reach its final page.
+  url.set('pageSize', '100')
 
   if (pageToken) url.set('pageToken', pageToken)
 
@@ -82,6 +84,17 @@ export function buildTermUrl(params: SearchParams, pageToken?: string): string {
 }
 
 export const SUPPLEMENTAL_AUDITED_STUDY_IDS = [
+  'NCT00003406',
+  'NCT00667615',
+  'NCT01527149',
+  'NCT01977209',
+  'NCT03215095',
+  'NCT03283137',
+  'NCT03401853',
+  'NCT05807893',
+  'NCT05984108',
+  'NCT06492915',
+
   'NCT02446457',
   'NCT02535247',
   'NCT03360929',
