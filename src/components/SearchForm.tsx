@@ -196,6 +196,7 @@ export default function SearchForm({
                   key={type}
                   type="button"
                   onClick={() => toggleStudyType(type)}
+                  aria-pressed={studyTypes.includes(type)}
                   className={`flex-1 text-xs font-medium border transition-colors duration-150 cursor-pointer min-h-[48px] px-1.5 leading-snug ${
                     studyTypes.includes(type)
                       ? 'bg-[#38bdf8] text-[#060f1e] border-[#38bdf8]'
@@ -224,6 +225,7 @@ export default function SearchForm({
                   key={value}
                   type="button"
                   onClick={() => togglePhase(value)}
+                  aria-pressed={phases.includes(value)}
                   className={`text-xs font-medium transition-colors duration-150 cursor-pointer px-1 leading-snug ${
                     phases.includes(value)
                       ? 'bg-[#38bdf8] text-[#060f1e]'
@@ -292,6 +294,7 @@ export default function SearchForm({
                 key={value}
                 type="button"
                 onClick={() => toggleTumorType(value)}
+                aria-pressed={tumorType === value}
                 className={`px-3.5 py-2.5 text-sm font-medium border transition-colors duration-150 cursor-pointer rounded-sm min-h-[44px] ${
                   tumorType === value
                     ? 'bg-[#38bdf8] text-[#060f1e] border-[#38bdf8]'
