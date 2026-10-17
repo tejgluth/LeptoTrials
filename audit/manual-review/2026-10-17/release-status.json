@@ -1,8 +1,17 @@
 {
   "outcome": "Blocked by operational access or failed verification",
   "pr": "https://github.com/tejgluth/LeptoTrials/pull/2",
-  "applicationCommit": null,
-  "previewDeployment": null,
+  "applicationCommit": "3e25aa7ca9169b440bbe616e4d4213726651fb14",
+  "previewDeployment": {
+    "id": "37df2b55-7435-4018-aa08-d8fb6ee4eaad",
+    "url": "https://37df2b55.leptotrials.pages.dev",
+    "applicationCommit": "3e25aa7ca9169b440bbe616e4d4213726651fb14",
+    "completed": true,
+    "defaultIdsMatchLedger": true,
+    "assetHashesMatchLocal": true,
+    "privacyCompatibility": "FAIL",
+    "privateAnalytics": "503; preview has no admin token configured"
+  },
   "productionDeploymentBefore": "e32dcbfd-60e3-4b4b-a795-72f1b41a67cf",
   "productionDeploymentAfter": "e32dcbfd-60e3-4b4b-a795-72f1b41a67cf",
   "merged": false,
@@ -12,5 +21,24 @@
   "credentialsAvailable": true,
   "protectedBranchBlock": false,
   "remoteDatabaseMutations": false,
-  "sourceFailuresUnresolved": 0
+  "sourceFailuresUnresolved": 0,
+  "pushedBranch": "codex/weekly-lm-audit-20261010",
+  "pushedAt": "2026-10-17T19:21:34.145758+00:00",
+  "applicationChecks": [
+    {
+      "link": "https://dash.cloudflare.com/?to=/d30edc14f902d872014ce43c0a5f4fec/pages/view/lm-trials/37df2b55-7435-4018-aa08-d8fb6ee4eaad",
+      "name": "Cloudflare Pages",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/tejgluth/LeptoTrials/actions/runs/39062084639/job/117481942943",
+      "name": "check",
+      "state": "SUCCESS"
+    },
+    {
+      "link": "https://github.com/tejgluth/LeptoTrials/actions/runs/39062082299/job/117481935900",
+      "name": "check",
+      "state": "SUCCESS"
+    }
+  ]
 }

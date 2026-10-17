@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-17T19:21:49.376Z",
+  "success": true,
+  "deployments": [
+    {
+      "id": "37df2b55-7435-4018-aa08-d8fb6ee4eaad",
+      "url": "https://37df2b55.leptotrials.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-10-17T19:21:27.167235Z",
+        "ended_on": "2026-10-17T19:21:37.686101Z",
+        "status": "success"
+      },
+      "trigger": {
+        "type": "github:push",
+        "metadata": {
+          "branch": "codex/weekly-lm-audit-20261010",
+          "commit_hash": "3e25aa7ca9169b440bbe616e4d4213726651fb14",
+          "commit_message": "Audit October 17 LM cohorts and repair adult age screening",
+          "commit_dirty": false
+        }
+      }
+    }
+  ]
+}

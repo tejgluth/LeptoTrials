@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-17T19:22:33.578Z",
+  "assets": [
+    {
+      "url": "https://37df2b55.leptotrials.pages.dev/assets/index-DuEYtwrY.js",
+      "sha256": "771de37f0a141d85cc2fdd8c371e682c5e57cfa8a2e9debc74071d15b23bfa91",
+      "bytes": 374074,
+      "status": 200,
+      "matchesTestedLocalBuild": true
+    },
+    {
+      "url": "https://37df2b55.leptotrials.pages.dev/assets/index-C659fkGS.css",
+      "sha256": "47571e0525a79055d7221c843200b934b9642bd25824685351ed2251a98d440e",
+      "bytes": 38437,
+      "status": 200,
+      "matchesTestedLocalBuild": true
+    }
+  ],
+  "client": "In-browser fetch; terminal urllib returned HTTP403",
+  "defaultIdsMatchIndependentLedger": true
+}
