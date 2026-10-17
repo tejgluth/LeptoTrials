@@ -1,8 +1,65 @@
 {
-  "generatedAt": "2026-10-10T19:41:40.865Z",
+  "generatedAt": "2026-10-17T19:16:11.881Z",
   "batch": 4,
-  "batchSize": 77,
+  "batchSize": 80,
   "records": [
+    {
+      "nctId": "NCT06610682",
+      "url": "https://clinicaltrials.gov/study/NCT06610682",
+      "lastUpdate": "2026-09-22",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "briefTitle": "A Trial to Evaluate CSF ctDNA and Safety of Plixorafenib Alone or With Retifanlimab in Patients With BRAF-altered Glioma",
+      "officialTitle": "A Trial to Evaluate Deoxyribonucleic) in BRAF (V-raf Murine Sarcoma Viral Oncogene Homolog B1)-Altered Glioma During Treatment With Plixorafenib Alone or With Retifanlimab",
+      "conditions": [
+        "BRAF V600E Mutation"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "The investigators will evaluate the sensitivity of ctDNA from plasma and CSF at baseline (defined as C1D1) and over time in response to treatment with plixorafenib alone or in combination with retifanlimab in patients with BRAF-V600E mutant glioma refractory to prior therapies."
+    },
+    {
+      "nctId": "NCT06638294",
+      "url": "https://clinicaltrials.gov/study/NCT06638294",
+      "lastUpdate": "2025-11-28",
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "Study in Patients With Breast Cancer Leptomeningeal Metastasis",
+      "officialTitle": "A Translational Observational Biorepository and Management Study in Patients With Breast Cancer Leptomeningeal Metastasis: The BioLept Study",
+      "conditions": [
+        "Leptomeningeal Metastasis of Breast Cancer"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "Traditional clinical trials in patients with breast cancer leptomeningeal disease (LMD) are challenging as patients often have a rapidly progressive course and prognosis is poor, making meeting standard eligibility difficult. Furthermore, there is limited information about the biology of LMD. The investigators thus propose a study that is as inclusive as possible, which will allow the investigators to collect biospecimens and clinical outcomes to learn more about LMD biology, but still potentially provide benefit for patients, by providing patients rapid diagnostics and multi-disciplinary treatment recommendations."
+    },
+    {
+      "nctId": "NCT06643000",
+      "url": "https://clinicaltrials.gov/study/NCT06643000",
+      "lastUpdate": "2025-03-06",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "briefTitle": "Evaluating High-dose Furmonertinib with Bevacizumab and Pemetrexed for EGFRm NSCLC with Leptomeningeal Metastasis",
+      "officialTitle": "A Single-center, Real-world Study Aimed At Evaluating the Efficacy and Safety of 240 Mg/d Furmonertinib Combined with Bevacizumab and Pemetrexed in the Treatment of Advanced NSCLC with EGFRm and Leptomeningeal Metastasis.",
+      "conditions": [
+        "Non-small Cell Lung Cancer",
+        "Leptomeningeal Metastasis",
+        "EGFR Gene Mutation"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "The primary objective of this clinical study is to evaluate the efficacy of high-dose furmonertinib combined with bevacizumab and pemetrexed (triple therapy) in the treatment of non-small cell lung cancer (NSCLC) with leptomeningeal metastasis and epidermal growth factor receptor mutation (EGFRm) through overall survival (OS). The secondary objectives are to further assess the efficacy of the triple therapy in patients with EGFRm and leptomeningeal metastasis, including time to treatment failure (TTF), leptomeningeal objective response rate (ORR-LM), and clinical response rate.The study will also evaluate the impact of the triple therapy on quality of life using the EORTC QLQ-C30 scale and assess the safety of the therapy in EGFRm NSCLC patients with leptomeningeal metastasis, focusing primarily on adverse events and their severity (graded according to CTCAE v5.0), as well as their frequency.The exploratory objectives are to assess changes in intracranial pressure and the improvement rate of cerebrospinal fluid (CSF) before and after the triple therapy treatment. Additionally, the study will compare the genomic and epigenomic profile changes in circulating tumor DNA (ctDNA) from peripheral blood and cell-free DNA (cfDNA) from cerebrospinal fluid before and after treatment, and analyze their correlation with clinical outcomes, drug efficacy, and other clinical indicators.\n\nThe primary endpoint of this study is overall survival (OS). The secondary endpoints include time to treatment failure (TTF), leptomeningeal objective response rate (ORR-LM), clinical response rate, and quality of life assessment (EORTC QLQ-C30).The safety endpoints are adverse events and their severity (graded according to CTCAE v5.0), as well as the frequency of occurrence.\n\nA total of 60 patients are planned to be enrolled, targeting eligible advanced NSCLC patients with EGFR mutations and leptomeningeal metastasis.\n\nThe intervention consists of furmonertinib (240 mg/d, po) combined with bevacizumab (15 mg/kg, every 3 weeks, ivgtt) and pemetrexed (50 mg) intrathecal chemotherapy / pemetrexed (500 mg/m²) intravenous chemotherapy, administered every 3 weeks."
+    },
     {
       "nctId": "NCT06663306",
       "url": "https://clinicaltrials.gov/study/NCT06663306",
@@ -105,7 +162,7 @@
     {
       "nctId": "NCT06762080",
       "url": "https://clinicaltrials.gov/study/NCT06762080",
-      "lastUpdate": "2026-09-02",
+      "lastUpdate": "2026-10-13",
       "status": "ACTIVE_NOT_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -167,7 +224,7 @@
     {
       "nctId": "NCT06809530",
       "url": "https://clinicaltrials.gov/study/NCT06809530",
-      "lastUpdate": "2026-09-02",
+      "lastUpdate": "2026-10-13",
       "status": "ACTIVE_NOT_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -809,7 +866,7 @@
     {
       "nctId": "NCT07415005",
       "url": "https://clinicaltrials.gov/study/NCT07415005",
-      "lastUpdate": "2026-05-05",
+      "lastUpdate": "2026-10-13",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-10T19:41:40.863Z",
+  "generatedAt": "2026-10-17T19:16:11.878Z",
   "batch": 1,
-  "batchSize": 78,
+  "batchSize": 80,
   "records": [
     {
       "nctId": "NCT00002578",
@@ -131,6 +131,32 @@
         "Canada"
       ],
       "briefSummary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: Phase I trial to study the effectiveness of liposomal cytarabine in treating young patients who have recurrent or refractory meningeal leukemia, lymphoma, or solid tumors."
+    },
+    {
+      "nctId": "NCT00003406",
+      "url": "https://clinicaltrials.gov/study/NCT00003406",
+      "lastUpdate": "2013-03-26",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "briefTitle": "Combination Chemotherapy Followed by Peripheral Stem Cell Transplantation in Treating Patients With Refractory Cancer",
+      "officialTitle": "A Phase I-II Intensive-Dose Ifosfamide, Carboplatin and Taxotere (IC-T) Combination Chemotherapy Followed by Autologous Stem Cell Rescue for Patients With Refractory Malignancies",
+      "conditions": [
+        "Chronic Myeloproliferative Disorders",
+        "Leukemia",
+        "Lymphoma",
+        "Multiple Myeloma and Plasma Cell Neoplasm",
+        "Myelodysplastic Syndromes",
+        "Precancerous/Nonmalignant Condition",
+        "Unspecified Adult Solid Tumor, Protocol Specific"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining chemotherapy with peripheral stem cell transplantation may allow the doctor to give higher doses of chemotherapy drugs and kill more tumor cells.\n\nPURPOSE: Phase I/II trial to study the effectiveness of combining docetaxel, ifosfamide, and carboplatin followed by peripheral stem cell transplantation in treating patients with refractory cancer."
     },
     {
       "nctId": "NCT00003462",
@@ -728,6 +754,27 @@
       "briefSummary": "RATIONALE: Drugs used in chemotherapy, such as irinotecan and temozolomide, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Giving more than one drug (combination chemotherapy) may kill more tumor cells.\n\nPURPOSE: This phase II trial is studying the side effects of giving irinotecan together with temozolomide and to see how well it works in treating patients with breast cancer who have received previous treatment for brain metastases."
     },
     {
+      "nctId": "NCT00667615",
+      "url": "https://clinicaltrials.gov/study/NCT00667615",
+      "lastUpdate": "2018-01-05",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "briefTitle": "Trial of Vorinostat in Combination With Cyclophosphamide, Etoposide, Prednisone and Rituximab for Elderly Patients With Relapsed Diffuse Large B-Cell Lymphoma (DLBCL)",
+      "officialTitle": "A Multi-Center Phase I/II Trial of Vorinostat in Combination With Cyclophosphamide, Etoposide, Prednisone and Rituximab for Elderly Patients With Relapsed Diffuse Large B-Cell Lymphoma (DLBCL)",
+      "conditions": [
+        "Hodgkin's Disease",
+        "Lymphoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "The purpose of this study is to replace a drug with many side effects, procarbazine, with a new novel drug, vorinostat, in a drug combination for the treatment of patients with diffuse large B-cell lymphoma. Vorinostat is the first of a new type of chemotherapy drug, known as a histone deacetylase inhibitor, to be approved by the Food and Drug Administration. It is approved for the treatment of certain lymphomas of the skin. It alters the cancer cell pathway by preventing cancer cells from reproducing. Vorinostat will be added to a combination of four other effective chemotherapy drugs that have been used for many years for the treatment of diffuse large B-cell lymphoma: rituximab, cyclophosphamide, etoposide and prednisone. The doses of vorinostat will be increased or decreased depending on the side effects that occur in each of the first few patients in the trial to find the safest dose with the least side effects. This is termed the phase I part of the clinical trial. Once the best dose of vorinostat is found, the rest of the patients in the clinical trial will be treated with this dose. This is termed the phase II part of the trial. The object of the trial is to find out what effects, good and/or bad, the combination of vorinostat, rituximab, cyclophosphamide, etoposide and prednisone will have on you and your lymphoma."
+    },
+    {
       "nctId": "NCT00674674",
       "url": "https://clinicaltrials.gov/study/NCT00674674",
       "lastUpdate": "2012-05-15",
@@ -1013,6 +1060,29 @@
       "briefSummary": "This pilot clinical trial studies continuous intraventricular methotrexate in treating patients with leptomeningeal disease. Drugs used in chemotherapy, such as methotrexate, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Giving drugs directly into the ventricles may be an effective treatment for patients with leptomeningeal disease"
     },
     {
+      "nctId": "NCT01527149",
+      "url": "https://clinicaltrials.gov/study/NCT01527149",
+      "lastUpdate": "2024-02-07",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Ofatumumab in Combination With Cyclophosphamide, Doxorubicin Hydrochloride, Vincristine Sulfate, and Dexamethasone Alternating With Ofatumumab in Combination With Cytarabine and Methotrexate in Treating Patients With Newly Diagnosed Mantle Cell Lymphoma",
+      "officialTitle": "Ofatumumab (O) in Combination With Chemotherapy: Hyper-Fractionated Cyclophosphamide, Doxorubicin, Vincristine and Dexamethasone (O-HyperCVAD) Alternating With Ofatumumab High-Dose Cytarabine and Methotrexate (O-MA) for Patients With Newly Diagnosed Mantle Cell Lymphoma",
+      "conditions": [
+        "Stage I Mantle Cell Lymphoma",
+        "Stage II Contiguous Mantle Cell Lymphoma",
+        "Stage II Non-Contiguous Mantle Cell Lymphoma",
+        "Stage III Mantle Cell Lymphoma",
+        "Stage IV Mantle Cell Lymphoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "This phase II trial studies how well ofatumumab in combination with cyclophosphamide, doxorubicin hydrochloride, vincristine sulfate, and dexamethasone alternating with ofatumumab in combination with cytarabine and methotrexate works in treating patients with newly diagnosed mantle cell lymphoma (MCL). Monoclonal antibodies, such as ofatumumab, may interfere with the ability of cancer cells to grow and spread. Drugs used in chemotherapy, such as cyclophosphamide, doxorubicin hydrochloride, vincristine sulfate, dexamethasone, cytarabine, and methotrexate, work in different ways to stop the growth of cancer cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Giving ofatumumab together with alternating regimens of combination chemotherapy may kill more cancer cells."
+    },
+    {
       "nctId": "NCT01563614",
       "url": "https://clinicaltrials.gov/study/NCT01563614",
       "lastUpdate": "2016-04-19",
@@ -1202,6 +1272,25 @@
         "Taiwan"
       ],
       "briefSummary": "Phase 1 and 2 trial to study the safety, pharmacokinetics, pharmacodynamics, patient reported outcomes and efficacy of PF-06463922 in ALK + advanced non-small cell lung cancer patients and ROS1+ advanced non small cell lung cancer patients ."
+    },
+    {
+      "nctId": "NCT01977209",
+      "url": "https://clinicaltrials.gov/study/NCT01977209",
+      "lastUpdate": "2013-11-06",
+      "status": "UNKNOWN",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "briefTitle": "Gossypol Combined With Docetaxel and Cisplatin Scheme in Advanced Non Small-cell Lung Cancers With APE1 High Expression",
+      "officialTitle": "A Randomized, Double Blind, Placebo-controlled Multiple-center Phase III Trial of Gossypol Combined With Docetaxel and Cisplatin Scheme in Advanced Non Small-cell Lung Cancers With APE1 High Expression",
+      "conditions": [
+        "Non-small Cell Lung Cancer"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "The investigators' experimental study found that gossypol was the natural inhibitor of apyrimidinic endonuclease 1 (APE1) and clinical study observed that high expression of APE1 was relative to the platinum-resistance in non-small cell lung cancer. Thus the purpose of this study is to find out whether gossypol can improve the sensitivity of cisplatin-based chemotherapy in the non-small cell lung cancer with apurinic apyrimidinic endonuclease 1 (APE1) high expression"
     },
     {
       "nctId": "NCT02071056",
@@ -1609,45 +1698,6 @@
         "United States"
       ],
       "briefSummary": "Background:\n\nSome non-small-cell lung cancers (NSCLC) have a mutation in a gene that makes a protein called EGFR. This particular cancer can be treated with certain drugs such as erlotinib (Tarceva), gefitinib (Iressa) and osimertinib (Tagrisso). But many tumors become resistant to these drugs because of a second mutation. Researchers want to test if adding local ablative therapy (LAT) extends the benefits of the drug, osimertinib. LAT can include techniques such as surgery, radiofrequency ablation, cryotherapy or radiation therapy.\n\nObjective:\n\nTo test if re-taking osimertinib after LAT is safe, tolerable, and effective for people whose NSCLC has progressed after initial treatment with osimertinib.\n\nEligibility:\n\nAdults ages 18 and older with certain types of NSCLC. Participants will be divided into various groups as described below.\n\nDesign:\n\nParticipants will be screened with:\n\nMedical history\n\nPhysical exam\n\nBlood, urine, and heart tests\n\nTumor scans\n\nEye exam\n\nReview of tumor sample.\n\nParticipants will take the study drug by mouth once a day. They will continue until they can no longer tolerate it or their disease worsens. They will keep a dosage diary.\n\nAll participants will start each 21-day course with physical exam; blood, urine, and saliva tests; and electrocardiogram. They will have scans every 6 weeks and echocardiogram every 3 months.\n\nGroups 1 and 2 will:\n\nStart osimertinib right away.\n\nHave LAT if their disease progresses and is suitable for LAT. If LAT cannot be performed or LAT consists of a procedure other than surgery, a tumor biopsy will be performed.\n\nRe-start osimertinib after LAT, or other treatments if not suitable for LAT.\n\nGroup 3 will:\n\nHave LAT.\n\nIf LAT consists of a procedure other than surgery, a tumor biopsy will be performed.\n\nStart osimertinib after LAT.\n\nAfter participants stop taking the drugs, they will have a final visit. This will include:\n\nMedical history\n\nPhysical exam\n\nBlood tests\n\nParticipants will be called every year for follow-up."
-    },
-    {
-      "nctId": "NCT02803619",
-      "url": "https://clinicaltrials.gov/study/NCT02803619",
-      "lastUpdate": "2016-06-17",
-      "status": "UNKNOWN",
-      "studyType": "OBSERVATIONAL",
-      "phases": [],
-      "briefTitle": "A Multi-center Prospective Observational Biomarker Study on EGFRm+ Non-small Cell Lung Cancer Patients With Leptomeningeal Metastasis",
-      "officialTitle": "",
-      "conditions": [
-        "Non-small Cell Lung Cancer",
-        "Leptomeningeal Metastasis"
-      ],
-      "countries": [
-        "China"
-      ],
-      "briefSummary": "Leptomeningeal metastasis (LM) is one of the disastrous events when managing advanced Non-small cell lung cancer (NSCLC) due to a grave prognosis. Although intrathecal (IT) chemotherapy and brain and/or spinal axis irradiation show some effects for LM in advanced NSCLC, the prognosis is still poor with median survival less than 12-14 weeks. Epidermal growth factor (EGFR) tyrosine kinase inhibitors (TKIs) showed to be effective for LM in selected NSCLC patients in some retrospective research. Our single-center prospective research indicated that the incidence of EGFR sensitive mutations (EGFRm+) in NSCLC-LM patients was high and EGFR-TKIs showed a survival benefit for LM in EGFRm+ NSCLC patients. A multi-center prospective observational biomarker study will be started in 11 lung cancer center based on our single-center prospective research result. The aims of the study are to find predictive biomarkers for LM in advanced NSCLC, to establish EGFR-TKIs based comprehensive treatment for appropriate EGFRm+ LM cases, and to establish effective clinical assessment criteria for NSCLC-LM EGFR-TKIs treatment."
-    },
-    {
-      "nctId": "NCT02838420",
-      "url": "https://clinicaltrials.gov/study/NCT02838420",
-      "lastUpdate": "2026-06-24",
-      "status": "COMPLETED",
-      "studyType": "INTERVENTIONAL",
-      "phases": [
-        "PHASE3"
-      ],
-      "briefTitle": "A Study to Evaluate and Compare the Efficacy and Safety of Alectinib Versus Crizotinib and to Evaluate the Pharmacokinetics of Alectinib in Asian Participants With Treatment-Naive Anaplastic Lymphoma Kinase (ALK)-Positive Advanced Non-Small Cell Lung Cancer (NSCLC)",
-      "officialTitle": "Randomized, Multicenter, Phase III, Open-Label Study of Alectinib Versus Crizotinib in Asian Patients With Treatment-Naive Anaplastic Lymphoma Kinase-Positive Advanced Non-Small Cell Lung Cancer",
-      "conditions": [
-        "Anaplastic Lymphoma Kinase-positive Non-small Cell Lung Cancer"
-      ],
-      "countries": [
-        "China",
-        "South Korea",
-        "Thailand"
-      ],
-      "briefSummary": "This randomized, multicenter, Phase III, open-label study will evaluate the efficacy and safety of alectinib versus crizotinib and to evaluate the pharmacokinetics of alectinib in asian participants with treatment-naive ALK-positive advanced NSCLC. Participants will be randomized 2:1 into one of the two treatment groups to receive either alectinib (600 milligrams \\[mg\\] twice daily \\[BID\\]) or crizotinib (250 mg BID) orally, respectively."
     }
   ]
 }

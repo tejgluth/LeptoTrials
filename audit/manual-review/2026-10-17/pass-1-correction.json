@@ -1,0 +1,12 @@
+{
+  "nctId": "NCT07365410",
+  "result": "Retained LUNG",
+  "supportingFields": [
+    "protocolSection.outcomesModule.secondaryOutcomes[2].description",
+    "protocolSection.outcomesModule.secondaryOutcomes[3].description",
+    "protocolSection.eligibilityModule.eligibilityCriteria"
+  ],
+  "rationale": "Retain LUNG: secondary CNS ORR and CNS DCR outcomes explicitly assess asymptomatic meningeal metastases within this EGFR-mutated NSCLC study. Read with the symptomatic-only LM exclusion, these named outcomes establish the affirmative asymptomatic LM path. Generic brain eligibility alone was not used. Final independent verification corrected an initial proposed removal that overlooked outcomes.",
+  "sourceUrl": "https://clinicaltrials.gov/study/NCT07365410",
+  "lastUpdate": "2026-01-26"
+}

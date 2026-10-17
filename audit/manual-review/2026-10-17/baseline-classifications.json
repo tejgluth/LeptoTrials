@@ -1,0 +1,4283 @@
+[
+  {
+    "nctId": "NCT06296745",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT04941430",
+    "include": false,
+    "buckets": [
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT00749723",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05414123",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT04509596",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT02887651",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05636254",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03398694",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04543188",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07778940",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT04422639",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05305365",
+    "include": true,
+    "buckets": [
+      "BREAST",
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06132698",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT03574402",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT04460729",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07134153",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT04250545",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT05112549",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT03520504",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00992602",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT02654106",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06705049",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06728865",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT06332300",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07674693",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07357298",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT00002751",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00820222",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT07005791",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00924820",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "BREAST",
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT06462092",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT02684071",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02755987",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT06643000",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT03368625",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05286684",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT02886585",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07177950",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT03029065",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07398599",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00462982",
+    "include": false,
+    "buckets": [
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT04919382",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00587964",
+    "include": false,
+    "buckets": [
+      "LUNG",
+      "BREAST",
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT00005842",
+    "include": false,
+    "buckets": [
+      "LUNG",
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT03163368",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06315686",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00112619",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT03075072",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04588545",
+    "include": true,
+    "buckets": [
+      "BREAST",
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00060528",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT03025256",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT01281696",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT07264569",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT01797159",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT06720727",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06663306",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT06945705",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00515788",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT02253264",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01713699",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "BREAST",
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04420598",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT06026735",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07476781",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00738335",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT04069910",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03501979",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT07744529",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT03507244",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06812871",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT06332287",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT06410040",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT01438021",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06399926",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00854867",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00031928",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07653893",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07751744",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT03101579",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07348965",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT05034497",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT05267587",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07511725",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06861218",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT01252797",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04030507",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT00445965",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "MELANOMA",
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04343573",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06176261",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT04833205",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT06462222",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00005812",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT01645839",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT05805631",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07789912",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "BREAST",
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06543992",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT00005811",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07167134",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03391362",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04563871",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT04025541",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT06417710",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT05115474",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT06282874",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00003462",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT03500991",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06810804",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT05064306",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT03550391",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07409272",
+    "include": false,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT02336451",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT05341739",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03252912",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT07551414",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07361562",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00450866",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT02422641",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT07132190",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07386886",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT04315246",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "BREAST",
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT01373710",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT07199413",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00729157",
+    "include": false,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07833657",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00003022",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "MELANOMA",
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04178343",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT02650752",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT03974204",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT04148898",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT02423525",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07559097",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07414979",
+    "include": true,
+    "buckets": [
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT02644044",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04804644",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT06971406",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07656103",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00523939",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07492121",
+    "include": false,
+    "buckets": [
+      "LUNG",
+      "BREAST",
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT04185038",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00416923",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01325207",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT03423628",
+    "include": true,
+    "buckets": [
+      "GBM",
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00074607",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06346977",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT06766591",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT05865990",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06809517",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00512460",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04474925",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00527410",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04661384",
+    "include": true,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT05810350",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT03741673",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03275402",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06230055",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT06058988",
+    "include": true,
+    "buckets": [
+      "GBM",
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT02308020",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "BREAST",
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT07239102",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT06023277",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT06016387",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT04545814",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00801216",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07365410",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT05146219",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT02939300",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06376292",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07361705",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00006246",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06718972",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT04207775",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07092202",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT04988009",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04031898",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT03613181",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT07659652",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT02891278",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01563614",
+    "include": true,
+    "buckets": [
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT05793489",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT05746754",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT05477927",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06762080",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07802353",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00003073",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06638294",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT03027544",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT03638167",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00089245",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT05257967",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT05305885",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00964743",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06518057",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT00617539",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT03497767",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT06933199",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07329634",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00025311",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04805255",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03719768",
+    "include": true,
+    "buckets": [
+      "BREAST",
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06984523",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04192981",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07751536",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07098806",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06304441",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT05598853",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT06339242",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT05813522",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT04109131",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04233021",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00674674",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT05289908",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT03053297",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT03257124",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT02125786",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05459441",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT01596127",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03661424",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT06121336",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06441045",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT04091412",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04457596",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT03911388",
+    "include": true,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT02948751",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT00477503",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07193654",
+    "include": true,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT04356222",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT02607605",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT04094077",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04460937",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT05385185",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT03082144",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06440954",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07263425",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT06901817",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT06724926",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT03608020",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07566052",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT02071056",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04965090",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00003020",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04899908",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04778800",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00338377",
+    "include": true,
+    "buckets": [
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT07503704",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT04729348",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT01857752",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04856475",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT06809530",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT03711422",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07304739",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT02616393",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT01654497",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07704034",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT05807165",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05984108",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02803619",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT03696030",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT05497076",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00210340",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06910761",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT06500481",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT05124236",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT05378633",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07689721",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT07545889",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06497543",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00372515",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07702305",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00029523",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06137651",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT04425681",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT04923126",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04356118",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07694986",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT07130786",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT04944069",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT05184816",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06361589",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT06537297",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT02115295",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05545007",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04503772",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00938756",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT05800275",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT00002750",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT01818713",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT06431685",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07287995",
+    "include": false,
+    "buckets": [
+      "LUNG",
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT07222956",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02228369",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT01657799",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT05746325",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT06592092",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07671560",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT06926803",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00424242",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00398437",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT03508752",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04374253",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05256134",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06575452",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05934630",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05451069",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05782374",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07423585",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT06134206",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03443973",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00949156",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02759835",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07331064",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01269853",
+    "include": true,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT04810871",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05744401",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03591757",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05063682",
+    "include": true,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT01934140",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03526224",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03262246",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01325194",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05809752",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT05394636",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07814352",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT07415018",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02962167",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02594995",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01665001",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00830245",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT05169203",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00392834",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06991101",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT04592341",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05487989",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01998841",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07390539",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04448054",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03025269",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04325932",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05208840",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00013533",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03091478",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00949741",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06691230",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02394665",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT07039760",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT06146010",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03444870",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03396822",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00096265",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT02590510",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT05586607",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05369156",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02888535",
+    "include": false,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT01793168",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00006368",
+    "include": false,
+    "buckets": [
+      "LUNG",
+      "BREAST",
+      "MELANOMA",
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT07552233",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT07806552",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04819451",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06466720",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00003398",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00870779",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01849484",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT01967823",
+    "include": false,
+    "buckets": [
+      "LUNG",
+      "BREAST",
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT03092817",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06852352",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00002647",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT00003938",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT00005854",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01632657",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04141371",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06711731",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00068250",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04065113",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07823985",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01324635",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00060021",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT00003538",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT00956475",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00538850",
+    "include": false,
+    "buckets": [
+      "LUNG",
+      "BREAST",
+      "MELANOMA",
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT04081701",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02227433",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00003887",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT07539792",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01166321",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00899951",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00004036",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06684795",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00062231",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06753617",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00376922",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04707170",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05305378",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05636618",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00064311",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT07320599",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01137643",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00008307",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00666211",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00112593",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00002504",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00003406",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07476404",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00004232",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04104529",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00049465",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT01347307",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00110045",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT03908424",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04648462",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04427384",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT05484245",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00378781",
+    "include": false,
+    "buckets": [
+      "BREAST",
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT00003805",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01053494",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00008359",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT00020579",
+    "include": false,
+    "buckets": [
+      "LUNG",
+      "BREAST",
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT00006350",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06278103",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07428213",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07457333",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04743310",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT00859040",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00005092",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07638709",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00627666",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00003883",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT00445952",
+    "include": false,
+    "buckets": [
+      "LUNG",
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT06710249",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT00014391",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT05028400",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00726830",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00049296",
+    "include": false,
+    "buckets": [
+      "LUNG",
+      "BREAST",
+      "MELANOMA",
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT02646891",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07413796",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT06640582",
+    "include": false,
+    "buckets": [
+      "MELANOMA",
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT00255671",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT04997317",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00996047",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00935090",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00006348",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01682746",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT00823524",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00919425",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03434262",
+    "include": true,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT00031798",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT03013387",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00045734",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00066248",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04903678",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT03927313",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07669272",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04500795",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00008216",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00003294",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00003687",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04079595",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00993694",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04372095",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01101412",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07398170",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00003395",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00042900",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00897767",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00005805",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00003408",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT06650163",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05374681",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00784914",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT00004258",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00003461",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT00066599",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02967380",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT00489203",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00004230",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT00020865",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00019578",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00387426",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00062140",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00900120",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00006083",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00544284",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT00053157",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00025415",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00010283",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT04511572",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01137825",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03787940",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03100786",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00003451",
+    "include": false,
+    "buckets": [
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT07757113",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00008164",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07599917",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03001349",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00952185",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00369785",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT00003082",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07411690",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT05139277",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT00002485",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00036790",
+    "include": false,
+    "buckets": [
+      "LUNG",
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT00770419",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00003270",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00027924",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01246869",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT00890435",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04712214",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00750009",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01199562",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05438212",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00004061",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07056023",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06322342",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00070161",
+    "include": false,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT04638478",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01316744",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00237627",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT05477680",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00003107",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT04343157",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00003331",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01117844",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03684980",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00867269",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05572567",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03226119",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01845740",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03267407",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07648264",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02329080",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04214444",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05965427",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00885703",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02542514",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02535247",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03202940",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT02838420",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00570908",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT02446457",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00002578",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00310128",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03093116",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT02929862",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00221325",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01625234",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT02971501",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT02896335",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT00276783",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT02693535",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT01970865",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT03360929",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT05359211",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05617885",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT05372614",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04500548",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04301076",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05388877",
+    "include": true,
+    "buckets": [
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT06102902",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT05422794",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT04181060",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT05843253",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03816345",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT05904080",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04978727",
+    "include": true,
+    "buckets": [
+      "GBM"
+    ]
+  },
+  {
+    "nctId": "NCT05991518",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT05800249",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04458922",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04094688",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT05967689",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT04739358",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT04757779",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT04527549",
+    "include": true,
+    "buckets": [
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT05259540",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT04511013",
+    "include": true,
+    "buckets": [
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT07415005",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07594002",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07431073",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07178938",
+    "include": true,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT06161558",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07695311",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07426484",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06422806",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06610682",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06465316",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07050186",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06896188",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07362940",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT07444710",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06211114",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07506239",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07612488",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07681297",
+    "include": true,
+    "buckets": [
+      "LUNG",
+      "BREAST",
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07502027",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT06589804",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07649304",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07647432",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07624201",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07447076",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07603856",
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00356889",
+    "include": false,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00512642",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00177034",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00642174",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07714395",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07724457",
+    "include": true,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00490555",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00037817",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT00734851",
+    "include": false,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07827001",
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00172861",
+    "include": false,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT03070353",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02410993",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03771898",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01117077",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03705390",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03532217",
+    "include": false,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT01471587",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03216252",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03321851",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00767559",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02086838",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03234855",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02186730",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01889862",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01743872",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02886026",
+    "include": false,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT03866824",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03818854",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02165267",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00991991",
+    "include": false,
+    "buckets": [
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT02175459",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03830801",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02767154",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01584596",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06436092",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05684978",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04057833",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04293744",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04794634",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04851145",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05530356",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04710810",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05962333",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03878511",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05333497",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06835023",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05008276",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04466098",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04010487",
+    "include": false,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT05421975",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03083041",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06492915",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07283562",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05319873",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03100006",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02091063",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00004064",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04620954",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03379428",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00003634",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05004142",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT03117049",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03875235",
+    "include": false,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07631793",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT05429762",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01712659",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02540876",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07783659",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06951243",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04075396",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT06258408",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07511608",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03633110",
+    "include": false,
+    "buckets": [
+      "LUNG",
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT04581824",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07842276",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04416854",
+    "include": false,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT00191373",
+    "include": false,
+    "buckets": [
+      "BREAST"
+    ]
+  },
+  {
+    "nctId": "NCT05627245",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03213652",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03417895",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07114497",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07638774",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04129515",
+    "include": false,
+    "buckets": [
+      "MELANOMA"
+    ]
+  },
+  {
+    "nctId": "NCT00873119",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07293481",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00795340",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04938583",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07798921",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07802652",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00005818",
+    "include": false,
+    "buckets": [
+      "OTHER_SOLID"
+    ]
+  },
+  {
+    "nctId": "NCT07684287",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00086632",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01897571",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07744256",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT00050375",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT03473574",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07438626",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04309968",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT01775475",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT02521051",
+    "include": false,
+    "buckets": [
+      "LUNG"
+    ]
+  },
+  {
+    "nctId": "NCT02839889",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT04914286",
+    "include": false,
+    "buckets": []
+  },
+  {
+    "nctId": "NCT07050043",
+    "include": false,
+    "buckets": []
+  }
+]

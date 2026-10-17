@@ -1,0 +1,209 @@
+NCT00002578 Gallium Nitrate in Treating Patients With AIDS-Related Non-Hodgkin's Lymphoma | 
+Conditions: Lymphoma
+Criteria: DISEASE CHARACTERISTICS: Histologically proven stage I-IV AIDS-related non-Hodgkin's lymphoma Intermediate- or high-grade disease HIV infection documented by ELISA and confirmed by Western blot Must have received at least 1 potentially curative chemotherapy regimen for lymphoma Must be past the hematologic nadir resulting from prior chemotherapy (generally 2 weeks from onset of prior therapy regardless of filgrastim (G-CSF) use) Waiting period waived at the discretion of the principal investigator if patient well-being would be compromised At least 1 site of bidimensionally measurable or evaluable disease (e.g., bone marrow involvement only) History of leptomeningeal disease associated with systemic lymphoma allowed No primary CNS non-Hodgkin's lymphoma A new classification scheme for adult non-Hodgkin's lymphoma has been adopted by PDQ. The terminology of "indolent" or "aggressive" lymphoma will replace the former terminology of "low", "intermediate", or "high" grade lymphoma. However, this protocol uses the former terminology.
+Criteria: PRIOR CONCURRENT THERAPY: Biologic therapy: See Disease Characteristics Prior biologic therapy allowed Chemotherapy: See Disease Characteristics No concurrent chemotherapy Endocrine therapy: No concurrent hormonal therapy Radiotherapy: Prior radiotherapy allowed No concurrent radiotherapy Surgery: Not specified Other: No concurrent investigational anticancer or anti-infective therapy No concurrent aminoglycosides, amphotericin B, or foscarnet Concurrent required supportive care allowed, including: Non-investigational antiretroviral and antiviral medications Medications for Mycobacterium avium DISEASE CHARACTERISTICS: Histologically proven stage I-IV AIDS-related non-Hodgkin's lymphoma Intermediate- or high-grade disease HIV infection documented by ELISA and confirmed by Western blot Must have received at least 1 potentially curative chemotherapy regimen for lymphoma Must be past the hematologic nadir resulting from prior chemotherapy (generally 2 weeks from onset of prior therapy regardless of filgrastim (G-CSF) use) Waiting period waived at the discretion of the principal investigat
+
+NCT00002750 Melphalan in Patients With Neoplastic Meningitis | OTHER_SOLID
+Conditions: Brain and Central Nervous System Tumors, Extragonadal Germ Cell Tumor, Leukemia, Lymphoma, Ovarian Cancer
+Criteria: DISEASE CHARACTERISTICS: Histologically confirmed malignancy that is metastatic to the CSF or leptomeningeal/subarachnoid space, including the following: Leukemia Lymphoma Germ cell tumors Persistent or recurrent disease required Cytologic evidence of malignancy in CSF or evidence of leptomeningeal tumor by CT or MRI No obstructive hydrocephalus or complete block of spinal CSF pathways on pre- study MRI or CT No rapidly progressing or deteriorating neurological deficit
+
+NCT00002751 Monoclonal Antibody Therapy in Treating Patients With Brain Metastases | OTHER_SOLID
+Conditions: Metastatic Cancer
+Criteria: DISEASE CHARACTERISTICS: Histologically confirmed neoplasm that is recurrent in the subarachnoid space Biopsy of recurrent lesion required if original diagnosis made more than 2 years prior to entry and CSF cytology negative Radiographic evidence of measurable lesion in the leptomeninges (by myelography, CT, or MRI) or cytologic evidence of malignancy in the CSF Any type of neoplasm eligible provided tumor cells (tissue or CSF preparation) bind significantly to intact monoclonal antibody Me1-14 IgG2a or to Me1-14 F(ab')2 Patency of subarachnoid pathways demonstrated by isotopic intraventricular flow
+
+NCT00003020 LMB-7 Immunotoxin in Treating Patients With Leptomeningeal Metastases | OTHER_SOLID
+Conditions: Brain and Central Nervous System Tumors
+Criteria: DISEASE CHARACTERISTICS: Histologically proven primary intracranial or extraneural neoplasm with leptomeningeal metastases At least 30% of malignant cells in the cerebrospinal fluid, primary tumor, or metastatic tumor must react with the B3 mouse monoclonal antibody
+
+NCT00003022 Monoclonal Antibody Therapy in Treating Patients With Leptomeningeal Cancer | LUNG,MELANOMA,OTHER_SOLID
+Conditions: Brain and Central Nervous System Tumors, Intraocular Melanoma, Lung Cancer, Melanoma (Skin), Neuroblastoma, Retinoblastoma, Sarcoma
+Criteria: * Cerebrospinal fluid or leptomeningeal disease that is refractory to conventional therapy or for which no conventional therapy exists
+
+NCT00003073 Chemotherapy in Treating Young Patients With Recurrent or Refractory Meningeal Leukemia, Lymphoma, or Solid Tumors | OTHER_SOLID
+Conditions: Brain and Central Nervous System Tumors, Leukemia, Lymphoma, Unspecified Childhood Solid Tumor, Protocol Specific
+Criteria: DISEASE CHARACTERISTICS: Histologically proven recurrent or refractory leukemia, lymphoma, or other solid tumor that has overt meningeal involvement Definition of meningeal disease: Leukemia/lymphoma: CSF cell count at least 5/mm3 and evidence of blast cells on cytospin preparation or cytology Solid tumors: Presence of tumor cells on cytospin preparation or cytology OR evidence of meningeal disease on CT or MRI scan No bone marrow disease
+Criteria: PRIOR CONCURRENT THERAPY: Biologic therapy: No acute toxic effects from prior immunotherapy No prior allogeneic or autologous bone marrow transplantations within 3 months of study Chemotherapy: No prior systemic CNS directed chemotherapy within 3 weeks of study No prior nitrosourea within 6 weeks of study No prior intrathecal chemotherapy within 1 week of study No acute toxic effects from prior chemotherapy No prior DTC 101 Concurrent systemic chemotherapy for management of primary cancer allowed Concurrent dexamethasone with systemic chemotherapy regimen allowed No concurrent chemotherapy for leptomeningeal disease No concurrent high dose methotrexate, high dose cytarabine, mercaptopurine, thiotepa, fluorouracil, and topotecan Endocrine therapy: Concurrent prednisone therapy with systemic chemotherapy allowed Radiotherapy: No prior craniospinal irradiation within 8 weeks of study No acute toxic effects from prior radiotherapy Concurrent local radiation therapy allowed No concurrent whole brain or craniospinal radiotherapy Surgery: Not specified Other: At least 2 weeks since investig
+
+NCT00003462 Intrathecal Busulfan in Treating Patients With Recurrent, Refractory, or Metastatic Leptomeningeal Tumors | OTHER_SOLID
+Conditions: Brain and Central Nervous System Tumors
+Criteria: * Histologically confirmed neoplasm that is metastatic in the cerebrospinal fluid or leptomeningeal/subarachnoid space
+Criteria: * Cytologic diagnosis of malignancy in the cerebrospinal fluid or neuroimaging evidence of leptomeningeal tumor by MRI
+Criteria: * Must have a recurrent or refractory leptomeningeal tumor
+Criteria: * Leptomeningeal tumors of leukemia, lymphoma, and all germ cell tumors must have also failed initial treatment or be recurrent
+
+NCT00005811 Topotecan Hydrochloride in Treating Children With Meningeal Cancer That Has Not Responded to Previous Treatment | OTHER_SOLID
+Conditions: AIDS-related Diffuse Large Cell Lymphoma, AIDS-related Diffuse Mixed Cell Lymphoma, AIDS-related Diffuse Small Cleaved Cell Lymphoma, AIDS-related Immunoblastic Large Cell Lymphoma, AIDS-related Lymphoblastic Lymphoma, AIDS-related Peripheral/Systemic Lymphoma, AIDS-related Primary CNS Lymphoma, AIDS-related Small Noncleaved Cell Lymphoma, Childhood Diffuse Large Cell Lymphoma, Childhood Immunoblastic Large Cell Lymphoma, HIV-associated Hodgkin Lymphoma, Leptomeningeal Metastases, Recurrent Childhood Acute Lymphoblastic Leukemia, Recurrent Childhood Acute Myeloid Leukemia, Recurrent Childhood Large Cell Lymphoma, Recurrent Childhood Lymphoblastic Lymphoma, Recurrent Childhood Medulloblastoma, Recurrent Childhood Small Noncleaved Cell Lymphoma, Recurrent/Refractory Childhood Hodgkin Lymphoma, Unspecified Childhood Solid Tumor, Protocol Specific
+Criteria: * Histologically proven refractory leukemia, lymphoma, or other solid tumor thathas overt meningeal involvement (Recurrent CNS acute lymphoblastic leukemia stratum only open to accrual as of 11/30/04)
+Criteria: * Definition of meningeal disease:
+Criteria: * Presence of tumor cells on cytospin preparation or cytology OR presence ofmeningeal disease on MRI scans
+Criteria: * No impending cord compression, CNS involvement requiring local radiotherapy(e.g., optic nerve), or isolated bulky ventricular or leptomeningeal basedlesions
+Criteria: * No significant illness (e.g., uncontrolled infection, except HIV \[i.e., AIDS-related lymphomatous meningitis\])
+Criteria: * No prior IT chemotherapy on days -14 to -7 before study entry unless evidence of disease progression (e.g., increasing WBC and percentage blasts in patients with leukemia/lymphoma or increased leptomeningeal enhancements in patients with solid tumors) (Recurrent CNS acute lymphoblastic leukemia stratum only open to accrual as of 11/30/04)
+Criteria: * No concurrent therapy (IT or systemic) for leptomeningeal disease
+
+NCT00005812 Temozolomide in Treating Patients With Leptomeningeal Metastases From a Solid Tumor or Lymphoma | OTHER_SOLID
+Conditions: Brain Tumors, Central Nervous System Tumors, Leptomeningeal Metastases
+Criteria: * Documented leptomeningeal metastases
+Criteria: * Carcinomatous meningitis that is previously untreated or failed prior therapy OR
+Criteria: * Lymphomatous meningitis
+Criteria: * No prior radiotherapy to areas of measurable meningeal disease unless there is clear radiographic progression in these areas
+
+NCT00006246 Busulfan in Treating Children and Adolescents With Refractory CNS Cancer | OTHER_SOLID
+Conditions: Brain and Central Nervous System Tumors, Childhood Germ Cell Tumor, Leukemia, Lymphoma, Metastatic Cancer, Retinoblastoma, Sarcoma
+Criteria: * Primary malignant brain tumor refractory to standard therapy and metastatic to the cerebrospinal fluid (CSF) or leptomeningeal subarachnoid space
+Criteria: * Recurrent or persistent leptomeningeal leukemia, lymphoma, or germ cell tumor refractory to conventional therapy
+Criteria: * Evidence of leptomeningeal tumor by MRI
+Criteria: * Chemotherapy targeted at leptomeningeal disease
+Criteria: * No other concurrent intrathecal or systemic therapy for leptomeningeal disease
+
+NCT00025311 Topotecan in Treating Patients With Recurrent, Progressive, or Refractory Cancer That is Metastatic to the Lining Around the Brain | OTHER_SOLID
+Conditions: Brain and Central Nervous System Tumors
+Criteria: * Neoplastic meningitis/leptomeningeal metastasis refractory to conventional therapy and other therapies of higher priority, defined as:
+Criteria: * Solid tumor or other malignancy with presence of tumor cells on cytospin OR positive cytology OR neuroimaging evidence of leptomeningeal tumor by MRI or CT myelogram
+Criteria: * No leptomeningeal leukemia or lymphoma with concurrent bone marrow relapse
+Criteria: * No other concurrent intrathecal or intraventricular therapy for leptomeningeal disease
+
+NCT00029523 DepoCyt Therapy in Patients With Neoplastic Meningitis From Lymphoma or a Solid Tumor | OTHER_SOLID
+Conditions: Meningeal Neoplasms
+Criteria: * Diagnosed with neoplastic meningitis
+
+NCT00031928 Mafosfamide in Treating Patients With Progressive or Refractory Meningeal Tumors | OTHER_SOLID
+Conditions: Brain and Central Nervous System Tumors
+Criteria: * Diagnosis of leukemia or lymphoma with meningeal involvement defined as cerebrospinal fluid cell count at least 5/mm\^3 AND evidence of blast cells on cytospin preparation or by cytology OR
+Criteria: * Diagnosis of other solid tumor with meningeal involvement defined as presence of tumor cells on cytospin preparation or cytology OR presence of measurable meningeal disease on CT or MRI scan
+Criteria: * Meningeal malignancy must be progressive or refractory to conventional therapy
+Criteria: * Meningeal malignancies secondary to an underlying solid tumor are allowed at initial diagnosis provided there is no conventional therapy
+Criteria: * No other concurrent intrathecal or systemic therapy to treat meningeal malignancy
+
+NCT00074607 Intrathecal Gemcitabine to Treat Neoplastic Meningitis, IT Gemcitabine | OTHER_SOLID
+Conditions: Meningitis, Neoplasms
+Criteria: * Neoplastic meningitis secondary to an underlying leukemia/lymphoma or a solid tumor (including primary CNS tumors or carcinomas of unknown primary site) for which there is no conventional therapy. Patients with CNS leukemia/lymphoma must be refractory to conventional therapy, including XRT (i.e. 2nd or greater relapse). Neoplastic meningitis is defined as follows:
+Criteria: * Solid tumor: Presence of tumor cells on cytospin preparation or cytology OR presence of meningeal disease on MRI scans.
+Criteria: * Patients receiving other therapy (either intrathecal or systemic) designed to treat their leptomeningeal disease. However, patients receiving concomitant chemotherapy to control systemic disease or bulk CNS disease will be eligible, provided that the systemic chemotherapy is not a phase I agent, an agent that significantly penetrates the CSF, or an agent known to have serious unpredictable CNS side effects.
+Criteria: * Must be free of uncontrolled infection except HIV (i.e., AIDS-related lymphomatous meningitis).
+Criteria: * Patients with impending spinal cord compression, CNS involvement requiring local XRT (e.g. optic nerve), or isolated bulky ventricular or leptomeningeal based lesions are not eligible.
+
+NCT00089245 Radiolabeled MAB Therapy in Patients With Refractory, Recurrent, or Advanced CNS or Leptomeningeal Cancer | OTHER_SOLID
+Conditions: Brain and Central Nervous System Tumors, Neuroblastoma, Sarcoma
+Criteria: * Patients must have CNS/ leptomeningeal disease which is refractory to conventional therapies or for which no conventional therapy exists OR a recurrent brain tumors with a predilection for leptomeningeal dissemination (medulloblastoma, PNET, rhabdoid tumor).
+
+NCT00112619 Topotecan in Treating Young Patients With Neoplastic Meningitis Due to Leukemia, Lymphoma, or Solid Tumors | OTHER_SOLID
+Conditions: Brain and Central Nervous System Tumors, Carcinoma of Unknown Primary, Leukemia, Lymphoma, Unspecified Childhood Solid Tumor, Protocol Specific
+Criteria: * Diagnosis of neoplastic meningitis secondary to leukemia, lymphoma (including AIDS-related lymphoma), or solid tumor (including primary CNS tumors or carcinomas of unknown primary site), defined by 1 of the following criteria:
+Criteria: * Presence of tumor cells on cytospin or cytology OR unequivocal presence of meningeal disease by MRI (for patients with solid tumor)
+Criteria: * No conventional therapy for neoplastic meningitis exists
+Criteria: * HIV-positive patients with AIDS-related lymphomatous meningitis are eligible
+Criteria: * At least 3 weeks since prior systemic chemotherapy for leptomeningeal disease
+Criteria: * No other concurrent intra-CSF or systemic therapy for leptomeningeal disease
+
+NCT00210340 A Phase I Study of Intrathecal Rituximab in Patients With Lymphomatous Meningitis | 
+Conditions: Lymphoma, B Cell
+Criteria: 1. Lymphomatous meningitis documented by positive CSF cytology in either newly diagnosed, relapsed or refractory primary CNS or systemic NHL
+Criteria: 7. Patients may have had prior CNS irradiation, intrathecal methotrexate, cytarabine or thiotepa for treatment of lymphomatous meningitis but these treatments must have completed at least two weeks before the study enrollment and the patients must have recovered from any reversible toxicity caused by prior treatments
+
+NCT00221325 A Safety Study of Rituximab Plus MTX Injected Into the Cerebrospinal Fluid in the Treatment of Brain Lymphoma | 
+Conditions: Central Nervous System Lymphoma, Intraocular Lymphoma
+Criteria: 1. Relapsed, refractory CNS lymphoma, ocular lymphoma, lymphomatous meningitis
+
+NCT00276783 Pemetrexed Disodium in Treating Patients With Recurrent Malignant Gliomas, Primary CNS Lymphoma, or Brain Metastases | OTHER_SOLID
+Conditions: Brain and Central Nervous System Tumors, Lymphoma, Metastatic Cancer
+Criteria: * Patients with leptomeningeal metastases with or without brain metastases are eligible for therapy (may be diagnosed by MRI or cytology)
+
+NCT00310128 Combination Chemotherapy Followed by Rituximab and Yttrium Y 90 Ibritumomab Tiuxetan in Treating Patients With Relapsed or Refractory AIDS-Related Non-Hodgkin's Lymphoma | 
+Conditions: AIDS-related Lymphoma, Adult Non-Hodgkin's Lymphoma, Anaplastic Large Cell Lymphoma
+Criteria: * Lymphomatous meningitis or brain metastasis eligible provided other measurable systemic lymphomatous disease is also present
+
+NCT00338377 Lymphodepletion Plus Adoptive Cell Transfer With or Without Dendritic Cell Immunization in Patients With Metastatic Melanoma | MELANOMA
+Conditions: Melanoma
+Criteria: 26. i. Patients with MRI evidence of LMD, with or without evidence of malignant cells in CSF ("positive cytology"), or ii. Patients with evidence of malignant cells in the CSF (positive cytology), with or without MRI evidence of LMD, or iii. Patients with surgically-proven LMD (leptomeningeal involvement on pathology review) +/- MRI or CSF evidence by MRI or CSF cytology (Cohort D)
+Criteria: 28. c. Previous Therapies i. Patients who are currently being treated with IT IL-2 for LMD are eligible. No wash out period is required. ii. Patients who have been previously treated with other IT therapies are eligible, as long as there is at least a 2 week wash out period iii. Patients who have previously received therapy with systemic TIL therapy are eligible.
+Criteria: 29. (contd #28) iv. Patients with VP shunts must have VP shunts with on/off valves and must be expected to tolerate VP shunt valve off for more than 6 hours Patients who have received CNS irradiation, including whole brain radiation or stereotactic radiosurgery, are eligible, if they are at least 1 weeks post CNS-irradiation (Cohort D)Patients who are currently being treated with IT IL-2 for LMD are eligible. No wash out period is required. (Cohort D)
+
+NCT00372515 High Dose Gefitinib for the Treatment of Carcinomatous Meningitis in Adult Patients With Non-Small Cell Lung Cancer and Known or Suspected EGFR Mutations | LUNG
+Conditions: Non-Small Cell Lung Cancer
+Criteria: * Recurrent or persistent disease as manifested by carcinomatous meningitis
+
+NCT00392834 Rituximab and Combination Chemotherapy in Treating Patients With Newly Diagnosed, HIV-Associated Burkitt's Lymphoma | 
+Conditions: Lymphoma
+detailedDescription: lationship to treatment effect. * Confirm the use of flow cytometry in the identification of occult leptomeningeal disease and determine whether abnormal flow cytometry is predictive when CNS cytology is negative for malignant cells. * Determine the biologic and prognostic significance of Epstein-Barr virus (EBV)-positive Burkitt's lymphoma in the highly a
+detailedDescription:  B-cell lymphoma. * Determine if EBV detection in cerebrospinal fluid at diagnosis is predictive of leptomeningeal disease.  OUTLINE: This is a prospective, multicenter study. Patients are stratified according to risk category (low-risk vs high-risk). Patients with low-risk disease receive 3 courses of R-CODOX-M chemotherapy as described below. Patients wi
+
+NCT00416923 Intrathecal Rituximab in Treating Patients With Recurrent CNS Lymphoma | 
+Conditions: Brain and Central Nervous System Tumors, Lymphoma
+detailedDescription: rmine the efficacy of intrathecal rituximab. * Determine the molecular pathogenesis of lymphomatous meningitis. * Determine the molecular basis for response or lack of response to rituximab. * Identify molecular markers specific for lymphomatous meningitis that will be useful for prognostic evaluation of peripheral lymphomas. * Determine the quality of life 
+detailedDescription: r response or lack of response to rituximab. * Identify molecular markers specific for lymphomatous meningitis that will be useful for prognostic evaluation of peripheral lymphomas. * Determine the quality of life of patients treated with intrathecal rituximab.  OUTLINE: This is a dose-escalation, multicenter study.  Patients receive rituximab intrathecally 
+
+NCT00424242 Pemetrexed Disodium in the Cerebrospinal Fluid of Patients With Leptomeningeal Metastases | OTHER_SOLID
+Conditions: Brain and Central Nervous System Tumors, Chronic Myeloproliferative Disorders, Leukemia, Lymphoma, Lymphoproliferative Disorder, Metastatic Cancer, Multiple Myeloma and Plasma Cell Neoplasm, Myelodysplastic Syndromes, Precancerous Condition, Secondary Myelofibrosis, Unspecified Adult Solid Tumor, Protocol Specific
+Criteria: * Diagnosis of systemic malignancy (solid tumor or hematologic malignancy) or primary CNS lymphoma with leptomeningeal metastases (LM) as documented by MRI, cerebrospinal fluid, or both
+
+NCT00445965 Iodine I 131 Monoclonal Antibody 3F8 in Treating Patients With Central Nervous System Cancer or Leptomeningeal Cancer | LUNG,MELANOMA,OTHER_SOLID
+Conditions: Brain and Central Nervous System Tumors, Intraocular Melanoma, Lung Cancer, Melanoma (Skin), Metastatic Cancer, Neuroblastoma, Ovarian Cancer, Retinoblastoma, Sarcoma, Small Intestine Cancer
+Criteria: * Patients must have CNS/ leptomeningeal disease including high risk medulloblastoma, or a CNS/leptomeningeal malignancy which is refractory to conventional therapies, or for which no conventional therapy exists, OR a recurrent brain tumors with a predilection for leptomeningeal dissemination (medulloblastoma, PNET, rhabdoid tumor).
+
+NCT00450866 Epothilone B in Treating Patients With CNS Metastases From Breast Cancer | BREAST
+Conditions: Breast Cancer, Metastatic Cancer
+Criteria: * CNS metastases (i.e., brain parenchymal lesions and/or leptomeningeal disease), meeting 1 of the following criteria:
+Criteria: * Newly diagnosed, untreated, asymptomatic brain or leptomeningeal metastases
+
+NCT00477503 Nuclear Imaging of Human CSF Flow Using Ga-67 Citrate and In-111 DTPA | 
+Conditions: Central Nervous System Tumors, Brain Tumors
+briefSummary: d radiation dosimetry of In 111 DTPA and gallium-67 after intrathecal injection during remission of leptomeningeal metastasis (LM) and during LM occurrence, remission and recurrence.
+
+NCT00512460 RTA 744 Injection in Patients With Leptomeningeal Disease | OTHER_SOLID
+Conditions: Neoplastic Meningitis, Solid Tumor, Lymphoma, Leukemia, Brain Tumor
+Criteria: 3. Neoplastic meningitis/leptomeningeal metastasis refractory to conventional intrathecal therapy and defined as presence of tumor cells on cytology after cytospin, OR neuroimaging evidence of leptomeningeal tumor by MRI accompanied by clinical evidence of leptomeningeal tumor.
+Criteria: 1. Concurrent intrathecal or intraventricular therapy for leptomeningeal disease or other malignancy.
+Criteria: 2. Concurrent oral or intravenous cytotoxic therapy for leptomeningeal disease or other malignancy. Patients who are receiving non-cytotoxic concurrent drug for their malignancy may be allowed on the study, provided that the non-cytotoxic drug was started for at least 4 weeks prior to entry into the study and that no apparent toxicity from the non-cytotoxic drug is evident.
+
+NCT00515788 DepoCyt Plus Temozolomide in Patients With Neoplastic Meningitis | OTHER_SOLID
+Conditions: Neoplastic Meningitis
+Criteria: 2. All patients with the exception of those with primary brain tumors, must have histologic diagnosis of systemic malignancy. Patients must have the presence of malignant cells in CSF (+CSF) or clinical signs and symptoms of leptomeningeal disease and radiographic abnormalities without malignant cells identified in the CSF (-CSF). Clinical signs/symptoms include cerebral hemispheric, cranial nerve, and/or spinal cord/root dysfunction.
+Criteria: 4. Patients must have recovered from the acute toxic effects of all prior chemotherapy, immunotherapy, or radiotherapy, before entering the study and must be without significant systemic illness. Patients must not have received any systemic therapy for Leptomeningeal disease (LMD) within 3 wks (6 wks if a nitrosourea), intrathecal chemotherapy within 1 wk, or irradiation within 8 wks prior to treatment on this study. Patients previously receiving craniospinal irradiation must have positive cytology or progression of meningeal disease on MRI scan. Patients must not have received whole brain or focal CNS radiotherapy within 1 wk of treatment.
+Criteria: 1. Patients receiving other therapy (either intrathecal or systemic) designed specifically to treat their leptomeningeal disease are not eligible for this study. However, patients receiving concomitant non-cytotoxic therapy (hormonal or cytostatic therapy) to control systemic disease or bulk CNS disease will be eligible, provided the therapy is not a phase I agent, an agent which significantly penetrates the CSF or an agent known to have serious unpredictable CNS side effects.
+Criteria: 6. Patients with any uncontrolled infection (life-threatening infection resistant to treatment after 7 days) are not eligible for this study, except those with HIV and AIDS-related lymphomatous meningitis).
+
+NCT00523939 DepoCyt for Active Lymphomatous or Leukemic Meningitis | 
+Conditions: Neoplastic Meningitis, Lymphoma, B Cell
+Criteria: * Cytologically confirmed, or radiographic evidence for lymphomatous or leukemic meningitis. If the CSF cytology is negative, patients must have MRI/CT brain and clinical findings consistent with neoplastic meningitis.
+Criteria: * Known active meningeal infection
+
+NCT00527410 A Safety Study of RTA 744 in Recurrent, Progressive or Refractory Neoplastic Meningitis | OTHER_SOLID
+Conditions: Leptomeningeal Carcinomatosis
+Criteria: * Neoplastic meningitis/leptomeningeal metastasis refractory to conventional therapy with presence of tumor cells on cytology, OR neuroimaging evidence of leptomeningeal tumor by MRI.
+Criteria: * Concurrent therapy for leptomeningeal disease or other malignancy.
+
+NCT00570908 Brain Mets - Capecitabine Plus Sunitinib and WBRT | BREAST
+Conditions: Breast Cancer
+Criteria: Must have metastases in the brain. Patients with concurrent leptomeningeal carcinomatosis are eligible for the study. Local radiation to sites of meningeal involvement in the spine is allowed.
+Criteria: Patients who have leptomeningeal carcinomatosis as the only site of CNS metastases.
+Criteria: Patients who will receive intrathecal chemotherapy for leptomeningeal disease. Patients with psychiatric or addictive disorders that would adversely effect compliance with oral medication.
+
+NCT00617539 Irinotecan and Temozolomide in Treating Patients With Breast Cancer Who Have Received Previous Treatment for Brain Metastases | BREAST
+Conditions: Breast Cancer, Metastatic Cancer
+Criteria: * Leptomeningeal disease allowed if concurrent progression or parenchymal brain metastases
+
+NCT00674674 Phase 1 Intrathecal Topotecan for Neoplastic Meningitis | OTHER_SOLID
+Conditions: Neoplastic Meningitis
+Criteria: 2. Diagnosis: Patients must have neoplastic meningitis secondary to an underlying leukemia/lymphoma or a solid tumor (including primary CNS tumors or carcinomas of unknown primary site) for which there is no conventional therapy. Patients with CNS leukemia/lymphoma must be refractory to conventional therapy, including XRT (i.e., 2nd or greater relapse). Neoplastic meningitis is defined as follows: (a)Leukemia/Lymphoma: CSF cell count over 5/µL AND evidence of blast cells on cytospin preparation or by cytology or (b) Solid tumor: Presence of tumor cells on cytospin preparation or cytology OR the unequivocal presence of meningeal disease on MRI scans.
+Criteria: 1. Patients must have received their last dose of systemically administered therapy specifically for the treatment of their leptomeningeal disease (must be discussed with study chair) at least three (3) weeks prior to study registration.
+Criteria: 3. Concomitant Therapy Patients receiving other therapy (either intrathecal or systemic) designed to treat their leptomeningeal disease are not eligible for this study. Note: Patients receiving concomitant chemotherapy to control systemic disease or bulk CNS disease will be eligible, provided that the systemic chemotherapy is not an investigational agent or one of the following: high-dose methotrexate (\> 1g/m2), high-dose cytarabine (\> 1g/m2), 5-fluorouracil, capecitabine, thiotepa, a nitrosourea, or topotecan. Please discuss plans for systemic therapy with the Study Chair prior to study entry.
+Criteria: 5. Patients must be free of uncontrolled infection, except HIV patients with AIDS-related lymphomatous meningitis.
+
+NCT00749723 Therapy Optimization Trial for the Treatment of Relapsed or Refractory Brain Tumors in Children | 
+Conditions: Recurrent Brain Tumors, Supratentorial PNETs, Medulloblastomas, Ependymomas
+detailedDescription:  II-Study with temozolomide)  Phase II-Study: intraventricular therapy with etoposide in neoplastic meningitis in relapsed PNETs and ependymomas with subarachnoid tumor manifestation (window study)
+
+NCT00801216 High-dose Sequential Chemoimmunotherapy for B-cell Lymphomas With Central Nervous System Involvement | 
+Conditions: B-cell Lymphomas
+
+NCT00830245 A Study to Assess the Efficacy of Erlotinib for Leptomeningeal Carcinomatosis in EGFR Mutation Positive Non-small Cell Lung Cancer | LUNG
+Conditions: Leptomeningeal Carcinomatosis, Non-small Cell Lung Cancer
+Criteria: 3. Leptomeningeal carcinomatosis confirmed by CSF cytology
+
+NCT00854867 Study to Demonstrate the Safety of WBR Administered at the Same Time as Intrathecal Liposomal Cytarabine (DepoCyte®) Versus Intrathecal Liposomal Cytarabine (DepoCyte®) Administered After WBR for the Treatment of Solid Tumour Neoplastic Meningitis in Patients With or Without Brain Metastasis. | OTHER_SOLID
+Conditions: Solid Tumour Neoplastic Meningitis, Brain Metastases
+Criteria: * Solid tumour neoplastic meningitis as demonstrated by a positive lumbar CSF cytology (obtained within 21 days prior to treatment initiation) OR Characteristic signs and symptoms of neoplastic meningitis PLUS an MRI indicating the presence of meningeal tumour (diagnosis to be made by neuro-oncologist and confirmed / signed within the CRF). All MRIs will be forwarded for central review and confirmation of diagnosis. In case of discrepancy the central review overrides the assessment of the investigator.
+
+NCT00924820 A Pilot Study of Bevacizumab for Neoplastic Meningitis | LUNG,BREAST,MELANOMA
+Conditions: Neoplastic Meningitis

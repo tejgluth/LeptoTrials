@@ -1,0 +1,15 @@
+[
+  {
+    "nctId": "NCT05414123",
+    "retrievedAt": "2026-10-17T19:11:47.504Z",
+    "unchanged": true,
+    "criteria": "Inclusion Criteria:\n\n1. Subjects =\\> 18 years of age\n2. All genders, races, or ethnic groups,\n3. Diagnosed with Breast Cancer or NSCLC who present with clinically suspected LM based on Investigator assessment of radiographic image, cytology, and clinical evaluation.\n4. Cytology positive and negative subjects will be included.\n5. Subjects willing to provide an Informed Consent.\n6. Subjects willing and able to undergo CSF or blood collection via Lumbar Puncture and Ommaya Reservoir as well as veni-puncture and shunt.\n7. Both patients with and without parenchymal brain metastases will be eligible as long as leptomeningeal metastases are suspected\n8. Subjects who previously had a diagnosis of Leptomeningeal Disease by Investigator assessment of radiographic image and clinical evaluation and cytology.\n\nExclusion Criteria:\n\n1. Subjects who do not have cancer,\n2. Subjects with other types of tumors than breast or lung cancer\n3. Subjects diagnosed with a primary brain tumor\n4. Subjects who are unable to undergo lumbar puncture, a shunt or veni-puncture.\n5. Lack of suspicious LM based in imaging or clinical evaluation.\n6. Ordering the Commercial CNSide test while subject is on study\n7. Pregnant women and adults lacking capacity to consent for themselves"
+  },
+  {
+    "nctId": "NCT06638294",
+    "retrievedAt": "2026-10-17T19:11:47.505Z",
+    "unchanged": true,
+    "structuredMinimumAge": "18 Weeks",
+    "criteria": "Inclusion Criteria:\n\n* Male or female, aged 18 or older\n* History of breast cancer (any subtype)\n* Suspected breast cancer-related leptomeningeal metastasis (i.e., by clinical signs or symptoms (i.e., peri-oral dysesthesia, unexplained new neurological symptoms in the absence of brain metastasis), radiographic, or by cerebrospinal fluid analysis), whereby patient will be treated along an leptomeningeal disease paradigm.\n* Previous central nervous system metastasis (including leptomeningeal disease or brain metastasis) is eligible.\n* Eastern Cooperative Oncology Group (ECOG) score of ≤3 or Karnofsky performance status ≥60.\n\nExclusion Criteria:\n\n* Suspected central nervous system recurrence of hematologic malignancy, lymphoma or other solid tumor\n* Not eligible for treatment of leptomeningeal disease."
+  }
+]

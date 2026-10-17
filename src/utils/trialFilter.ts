@@ -3,8 +3,8 @@ import { isAgeEligible } from './ageParser'
 import { getManualAuditOverride } from './manualAuditOverrides'
 
 // Full LM names are evidence; an unexpanded LMD acronym is not (e.g. left main disease).
-// Presence of any of these in conditionsModule.conditions is authoritative. The trial
-// is specifically for LMD patients, so we skip eligibility text checks (age still applies).
+// Dedicated LM conditions provide a positive signal, subject to explicit negative
+// inclusion requirements and unqualified exclusions (age still applies).
 const LMD_CONDITION_TERMS = [
   'leptomeningeal',
   'leptomeninges',
@@ -19,6 +19,11 @@ const EXCLUSION_BLOCKED_TERMS = [
   'leptomeningeal',
   'leptomeninges',
 ]
+
+// A standalone diagnosis under Exclusion Criteria is an unqualified exclusion,
+// even if the registry title/conditions also name LM. Cohort exceptions require
+// a reviewed override; incidental assessment/washout mentions do not match.
+const UNQUALIFIED_LM_EXCLUSION = /^[\s*\-\d().]*(?:(?:patients?|subjects?) with |known |history of )*(?:leptomeningeal (?:disease|metastasis|metastases|carcinomatosis)|meningeal (?:metastasis|metastases)|(?:carcinomatous|lymphomatous|leukemic) meningitis)(?: (?:are |is )?(?:excluded|not eligible))?[.;]?\s*$/im
 
 // Negative-inclusion phrases: LMD patients are effectively excluded even though
 // the phrasing appears in the inclusion section rather than the exclusion section.
@@ -177,6 +182,7 @@ export function filterTrial(
 ): FilterResult {
   const proto = study.protocolSection
   const nctId = proto.identificationModule.nctId
+  const manualAuditOverride = getManualAuditOverride(nctId)
   const eligibility = proto.eligibilityModule
   const criteriaText = eligibility?.eligibilityCriteria ?? ''
 
@@ -192,7 +198,7 @@ export function filterTrial(
   const hasDefinitiveLmSignal = lmdInConditions || hasTitleLmSignal
 
   if (patientAge !== null) {
-    const minAgeStr = eligibility?.minimumAge
+    const minAgeStr = manualAuditOverride?.minimumAge ?? eligibility?.minimumAge
     const maxAgeStr = eligibility?.maximumAge
     if (!isAgeEligible(patientAge, minAgeStr, maxAgeStr)) {
       return {
@@ -202,7 +208,6 @@ export function filterTrial(
     }
   }
 
-  const manualAuditOverride = getManualAuditOverride(nctId)
   if (manualAuditOverride) {
     if (!manualAuditOverride.siteEligible) {
       return {
@@ -222,8 +227,14 @@ export function filterTrial(
     }
   }
 
-  // lmdInConditions is authoritative. Don't let a mixed-cohort exclusion section
-  // veto a trial that explicitly lists LM as the condition.
+  if (sectionFound && hasDefinitiveLmSignal && UNQUALIFIED_LM_EXCLUSION.test(exclusion)) {
+    return {
+      include: false,
+      reason: 'Unqualified leptomeningeal exclusion in eligibility criteria',
+    }
+  }
+
+  // Assessment/washout mentions alone do not veto a dedicated LM population.
   if (lmdInConditions) {
     return { include: true }
   }

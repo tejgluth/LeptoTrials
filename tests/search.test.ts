@@ -55,6 +55,7 @@ test('both registry queries preserve selected server filters and page tokens', (
       statuses: ['RECRUITING'],
     }, 'a+b/c='))
     assert.equal(url.searchParams.get('pageToken'), 'a+b/c=')
+    assert.equal(url.searchParams.get('pageSize'), '100')
     assert.equal(url.searchParams.get('filter.overallStatus'), 'RECRUITING')
     assert.equal(url.searchParams.get('filter.advanced'),
       'AREA[StudyType]INTERVENTIONAL AND (AREA[Phase]PHASE1 OR AREA[Phase]PHASE2) AND AREA[LocationCountry]United States')

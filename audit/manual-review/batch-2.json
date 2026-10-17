@@ -1,8 +1,47 @@
 {
-  "generatedAt": "2026-10-10T19:41:40.864Z",
+  "generatedAt": "2026-10-17T19:16:11.880Z",
   "batch": 2,
-  "batchSize": 78,
+  "batchSize": 80,
   "records": [
+    {
+      "nctId": "NCT02803619",
+      "url": "https://clinicaltrials.gov/study/NCT02803619",
+      "lastUpdate": "2016-06-17",
+      "status": "UNKNOWN",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "A Multi-center Prospective Observational Biomarker Study on EGFRm+ Non-small Cell Lung Cancer Patients With Leptomeningeal Metastasis",
+      "officialTitle": "",
+      "conditions": [
+        "Non-small Cell Lung Cancer",
+        "Leptomeningeal Metastasis"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "Leptomeningeal metastasis (LM) is one of the disastrous events when managing advanced Non-small cell lung cancer (NSCLC) due to a grave prognosis. Although intrathecal (IT) chemotherapy and brain and/or spinal axis irradiation show some effects for LM in advanced NSCLC, the prognosis is still poor with median survival less than 12-14 weeks. Epidermal growth factor (EGFR) tyrosine kinase inhibitors (TKIs) showed to be effective for LM in selected NSCLC patients in some retrospective research. Our single-center prospective research indicated that the incidence of EGFR sensitive mutations (EGFRm+) in NSCLC-LM patients was high and EGFR-TKIs showed a survival benefit for LM in EGFRm+ NSCLC patients. A multi-center prospective observational biomarker study will be started in 11 lung cancer center based on our single-center prospective research result. The aims of the study are to find predictive biomarkers for LM in advanced NSCLC, to establish EGFR-TKIs based comprehensive treatment for appropriate EGFRm+ LM cases, and to establish effective clinical assessment criteria for NSCLC-LM EGFR-TKIs treatment."
+    },
+    {
+      "nctId": "NCT02838420",
+      "url": "https://clinicaltrials.gov/study/NCT02838420",
+      "lastUpdate": "2026-06-24",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "briefTitle": "A Study to Evaluate and Compare the Efficacy and Safety of Alectinib Versus Crizotinib and to Evaluate the Pharmacokinetics of Alectinib in Asian Participants With Treatment-Naive Anaplastic Lymphoma Kinase (ALK)-Positive Advanced Non-Small Cell Lung Cancer (NSCLC)",
+      "officialTitle": "Randomized, Multicenter, Phase III, Open-Label Study of Alectinib Versus Crizotinib in Asian Patients With Treatment-Naive Anaplastic Lymphoma Kinase-Positive Advanced Non-Small Cell Lung Cancer",
+      "conditions": [
+        "Anaplastic Lymphoma Kinase-positive Non-small Cell Lung Cancer"
+      ],
+      "countries": [
+        "China",
+        "South Korea",
+        "Thailand"
+      ],
+      "briefSummary": "This randomized, multicenter, Phase III, open-label study will evaluate the efficacy and safety of alectinib versus crizotinib and to evaluate the pharmacokinetics of alectinib in asian participants with treatment-naive ALK-positive advanced NSCLC. Participants will be randomized 2:1 into one of the two treatment groups to receive either alectinib (600 milligrams \\[mg\\] twice daily \\[BID\\]) or crizotinib (250 mg BID) orally, respectively."
+    },
     {
       "nctId": "NCT02886585",
       "url": "https://clinicaltrials.gov/study/NCT02886585",
@@ -343,6 +382,25 @@
       "briefSummary": "This research study is studying a drug combination as a possible treatment for anaplastic lymphoma kinase-positive (ALK+) non-small cell lung cancer.\n\nThe drugs involved in this study are:\n\n* Alectinib\n* Cobimetinib"
     },
     {
+      "nctId": "NCT03215095",
+      "url": "https://clinicaltrials.gov/study/NCT03215095",
+      "lastUpdate": "2026-08-11",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "briefTitle": "RAI Plus Immunotherapy for Recurrent/Metastatic Thyroid Cancers",
+      "officialTitle": "Radioiodine (RAI) in Combination With Durvalumab (Medi4736) for RAI-avid, Recurrent/Metastatic Thyroid Cancers",
+      "conditions": [
+        "Thyroid Cancer"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "The purpose of this study is to find out what effects, good and/or bad, a drug called durvalumab combined with Thyrogen-stimulated RAI, has on the patient and thyroid cancer. Durvalumab is a drug that has been developed to activate the immune system by blocking a protein called programmed death ligand-1 (PD-L1) that can be present on tumor and normal cells, including immune cells."
+    },
+    {
       "nctId": "NCT03252912",
       "url": "https://clinicaltrials.gov/study/NCT03252912",
       "lastUpdate": "2026-03-12",
@@ -408,6 +466,26 @@
       "briefSummary": "Children with a neuroblastoma diagnose and central nervous system (CNS)/leptomeningeal metastases will be given up to 2 rounds of intracerebroventricular treatment with a radiolabelled monoclonal antibody, 131I-omburtamab to evaluate efficacy and safety"
     },
     {
+      "nctId": "NCT03283137",
+      "url": "https://clinicaltrials.gov/study/NCT03283137",
+      "lastUpdate": "2025-02-07",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "briefTitle": "Combination of Pembrolizumab With TGR-1202 in Patients With Relapsed/Refractory CLL and B-cell NHL",
+      "officialTitle": "A Phase I, Open-label, Dose-escalation Study to Assess the Safety, Tolerability and Efficacy of the Combination of Pembrolizumab With TGR-1202 in Patients With Relapsed/Refractory CLL and B-Cell Non-Hodgkin Lymphoma (NHL)",
+      "conditions": [
+        "CLL",
+        "B-cell Non Hodgkin Lymphoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "This study will be a standard 3+3 design with a lead in of TGR-1202 at dose of 600mg (dose level 1) or 800mg daily (dose level 2) for 6 weeks, i.e. 2 cycles, followed by pembrolizumab at 200mg every 3 weeks for 8 cycles along with TGR-1202 for patients with relapsed/refractory B-cell NHL or CLL. If the dose of 600mg daily of TGR-1202 (dose level 1) is tolerated in the first cohort the dose will be increased to 800mg qd which is the only and final dose escalation. If TGR-1202 is not tolerated at 600mg daily the dose will be decreased to 400mg daily. The lead in of TGR-1202 was chosen to ensure clinical benefit and to minimize the occurrence of early overlapping toxicity with pembrolizumab as most toxicities were observed early on in the treatment with idelalisib, a related PI3K-inhibitor, and rituximab."
+    },
+    {
       "nctId": "NCT03360929",
       "url": "https://clinicaltrials.gov/study/NCT03360929",
       "lastUpdate": "2022-11-25",
@@ -428,10 +506,32 @@
       "briefSummary": "This is a multi-center, open-label, dose escalation and phase I/II study, consisting of dose escalation in Part A and phase II study in Part B."
     },
     {
+      "nctId": "NCT03401853",
+      "url": "https://clinicaltrials.gov/study/NCT03401853",
+      "lastUpdate": "2025-07-22",
+      "status": "TERMINATED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Pembrolizumab With Rituximab or Obinutuzumab in Treating Patients With Relapsed or Refractory Follicular Lymphoma or Diffuse Large B Cell Lymphoma",
+      "officialTitle": "Phase II Study of Anti-CD20 Antibody Therapy Plus Pembrolizumab (MK-3475) in Subjects With Relapsed Follicular and Diffuse Large B-Cell Lymphoma",
+      "conditions": [
+        "Recurrent Diffuse Large B-Cell Lymphoma",
+        "Recurrent Follicular Lymphoma",
+        "Refractory Diffuse Large B-Cell Lymphoma",
+        "Refractory Follicular Lymphoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "This phase II trial studies how well pembrolizumab with rituximab or obinutuzumab work in treating patients with follicular lymphoma or diffuse large B cell lymphoma that has come back (recurrent) or does not respond to treatment (refractory). Immunotherapy with monoclonal antibodies, such as pembrolizumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread. Rituximab and obinutuzumab are monoclonal antibodies. They bind to a protein called CD20, which is found on B cells (a type of white blood cell) and some types of cancer cells. This may help the immune system kill cancer cells. Giving pembrolizumab with rituximab or obinutuzumab may help kill more cancer cells in patients with follicular lymphoma or diffuse large B cell lymphoma."
+    },
+    {
       "nctId": "NCT03423628",
       "url": "https://clinicaltrials.gov/study/NCT03423628",
-      "lastUpdate": "2026-07-17",
-      "status": "ACTIVE_NOT_RECRUITING",
+      "lastUpdate": "2026-10-15",
+      "status": "COMPLETED",
       "studyType": "INTERVENTIONAL",
       "phases": [
         "PHASE1"
@@ -911,7 +1011,7 @@
     {
       "nctId": "NCT04094688",
       "url": "https://clinicaltrials.gov/study/NCT04094688",
-      "lastUpdate": "2026-03-03",
+      "lastUpdate": "2026-10-14",
       "status": "ACTIVE_NOT_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -990,7 +1090,7 @@
     {
       "nctId": "NCT04181060",
       "url": "https://clinicaltrials.gov/study/NCT04181060",
-      "lastUpdate": "2026-10-09",
+      "lastUpdate": "2026-10-16",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -1109,7 +1209,7 @@
     {
       "nctId": "NCT04301076",
       "url": "https://clinicaltrials.gov/study/NCT04301076",
-      "lastUpdate": "2026-09-23",
+      "lastUpdate": "2026-10-15",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -1444,29 +1544,6 @@
       "briefSummary": "This phase II trial compares the effect of encorafenib, binimetinib, and nivolumab versus ipilimumab and nivolumab in treating patients with BRAF- V600 mutant melanoma that has spread to the brain (brain metastases). Encorafenib and binimetinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Ipilimumab and nivolumab are monoclonal antibodies that may interfere with the ability of tumor cells to grow and spread. This trial aims to find out which approach is more effective in shrinking and controlling brain metastases from melanoma."
     },
     {
-      "nctId": "NCT04527549",
-      "url": "https://clinicaltrials.gov/study/NCT04527549",
-      "lastUpdate": "2026-10-06",
-      "status": "TERMINATED",
-      "studyType": "INTERVENTIONAL",
-      "phases": [
-        "PHASE2"
-      ],
-      "briefTitle": "Testing Dabrafenib and Trametinib With or Without Hydroxychloroquine in Stage IIIC or IV BRAF V600E/K Melanoma",
-      "officialTitle": "The BAMM2 (BRAF, Autophagy, MEK Inhibition in Melanoma) Study: A Randomized Double Blind Phase II Study of Dabrafenib and Trametinib With or Without Hydroxychloroquine in Advanced BRAF V600E/K Melanoma With Elevated LDH",
-      "conditions": [
-        "Clinical Stage IV Cutaneous Melanoma AJCC v8",
-        "Locally Advanced Melanoma",
-        "Pathologic Stage IIIC Cutaneous Melanoma AJCC v8",
-        "Pathologic Stage IV Cutaneous Melanoma AJCC v8",
-        "Unresectable Melanoma"
-      ],
-      "countries": [
-        "United States"
-      ],
-      "briefSummary": "This phase II trial investigates how well adding hydroxychloroquine to the standard treatment of dabrafenib and trametinib works to overcome resistance and delay disease progression in treating patients with stage IIIC or IV BRAF V600E/K melanoma. Hydroxychloroquine may cause cell death in tumor cells that rely on a process called \"autophagy\" for survival. Dabrafenib and trametinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Giving hydroxychloroquine together with dabrafenib and trametinib may work better than dabrafenib and trametinib alone to shrink and stabilize the cancer."
-    },
-    {
       "nctId": "NCT04543188",
       "url": "https://clinicaltrials.gov/study/NCT04543188",
       "lastUpdate": "2025-10-23",
@@ -1782,45 +1859,6 @@
         "Canada"
       ],
       "briefSummary": "Patients will receive a vaccine called SurVaxM on this study. While vaccines are usually thought of as ways to prevent diseases, vaccines can also be used to treat cancer. SurVaxM is designed to tell the body's immune system to look for tumor cells that express a protein called survivin and destroy them. The survivin protein can be found on up to 95% of glioblastomas and other types of cancer but is not found in normal cells. If the body's immune system knows to destroy cells that express survivin, it may help to control tumor growth and recurrence.\n\nSurVaxM will be mixed with Montanide ISA 51 before it is given. Montanide ISA 51 is an ingredient that helps create a stronger immune response in people, which helps the vaccine work better.\n\nThis study has two phases: Priming and Maintenance. During the Priming Phase, patients will get one dose of SurVaxM combined with Montanide ISA 51 through a subcutaneous injection (a shot under the skin) at the start of the study and every 2 weeks for 6 weeks (for a total of 4 doses). At the same time that patients get the SurVaxM/Montanide ISA 51 injection, they will also get a second subcutaneous injection of a medicine called sargramostim. Sargramostim is given close to the SurVaxM//Montanide ISA 51 injection and works to stimulate the immune system to help the SurVaxM/Montanide ISA 51 work more effectively.\n\nIf a patient completes the Priming Phase without severe side effects and his or her disease stays the same or improves, he or she can continue to the Maintenance Phase. During the Maintenance Phase, the patient will get a SurVaxM/Montanide ISA 51 dose along with a sargramostim dose about every 8 weeks for up to two years.\n\nAfter a patient finishes the study treatment, the doctor and study team will continue to follow his/her condition and watch for side effects up to 3 years following the last dose of SurVaxM/Montanide ISA 51. Patients will be seen in clinic every 3 months during the follow-up period."
-    },
-    {
-      "nctId": "NCT04988009",
-      "url": "https://clinicaltrials.gov/study/NCT04988009",
-      "lastUpdate": "2026-09-14",
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "phases": [],
-      "briefTitle": "Patient Perceptions Around Quality of Care Through Telemedicine in Neuro-Oncology",
-      "officialTitle": "Patient Perceptions Around Quality of Care Through Telemedicine in Neuro-Oncology",
-      "conditions": [
-        "Central Nervous System Neoplasm",
-        "Leptomeningeal Neoplasm",
-        "Metastatic Malignant Neoplasm in the Brain",
-        "Primary Brain Neoplasm"
-      ],
-      "countries": [
-        "United States"
-      ],
-      "briefSummary": "This study evaluates patient perceptions around quality of care through telemedicine in neuro-oncology. Studying questionnaires related to perceptions quality of care through telemedicine in patients with brain cancer may help doctors to improve the delivery of care through this modality."
-    },
-    {
-      "nctId": "NCT05034497",
-      "url": "https://clinicaltrials.gov/study/NCT05034497",
-      "lastUpdate": "2025-03-26",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "phases": [
-        "PHASE1"
-      ],
-      "briefTitle": "Intraventricular Administration of Rhenium-186 NanoLiposome for Leptomeningeal Metastases",
-      "officialTitle": "A Multicenter Phase 1 Clinical Study to Determine the Maximum Tolerated Dose/Maximum Feasible Dose, Safety,& Efficacy of Single Dose Rhenium-186 NanoLiposome (186RNL) Administered Via Intraventricular Catheter for Leptomeningeal Metastases",
-      "conditions": [
-        "Leptomeningeal Metastasis"
-      ],
-      "countries": [
-        "United States"
-      ],
-      "briefSummary": "This is an open-label Phase I clinical study that will administer a single dose of 186RNL via intraventricular catheter for treatment of Leptomeningeal Metastases (LM)."
     }
   ]
 }

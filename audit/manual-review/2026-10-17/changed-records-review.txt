@@ -1,0 +1,1225 @@
+
+NCT00820222 Lapatinib Plus Capecitabine Versus Trastuzumab Plus Capecitabine in ErbB2 (HER2) Positive Metastatic Breast Cancer
+--- 
+
++++ 
+
+@@ -1452,5 +1452,5 @@
+
+       {
+         "facility": "Novartis Investigative Site",
+-        "city": "Veliky Novgorod",
++        "city": "Velikiy Novgorod",
+         "zip": "173016",
+         "country": "Russia",
+
+NCT03423628 A Study to Assess the Safety and Tolerability of AZD1390 Given With Radiation Therapy in Patients With Brain Cancer
+--- 
+
++++ 
+
+@@ -29,6 +29,6 @@
+
+   },
+   "statusModule": {
+-    "statusVerifiedDate": "2026-07",
+-    "overallStatus": "ACTIVE_NOT_RECRUITING",
++    "statusVerifiedDate": "2026-10",
++    "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+       "hasExpandedAccess": false
+@@ -39,10 +39,10 @@
+
+     },
+     "primaryCompletionDateStruct": {
+-      "date": "2026-09-03",
+-      "type": "ESTIMATED"
++      "date": "2026-08-31",
++      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+-      "date": "2026-09-03",
+-      "type": "ESTIMATED"
++      "date": "2026-08-31",
++      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-11-28",
+@@ -52,7 +52,7 @@
+
+       "type": "ACTUAL"
+     },
+-    "lastUpdateSubmitDate": "2026-07-16",
++    "lastUpdateSubmitDate": "2026-10-14",
+     "lastUpdatePostDateStruct": {
+-      "date": "2026-07-17",
++      "date": "2026-10-15",
+       "type": "ACTUAL"
+     }
+
+NCT06762080 Intrathecal Combination of Programmed Death-1 (PD-1)/Cytotoxic T-Lymphocyte-Associated Protein 4 (CTLA-4) Bispecific Antibody and Pemetrexed for Leptomeningeal Metastasis
+--- 
+
++++ 
+
+@@ -23,9 +23,9 @@
+
+     },
+     "primaryCompletionDateStruct": {
+-      "date": "2026-09-30",
++      "date": "2026-10-30",
+       "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+-      "date": "2026-09-30",
++      "date": "2026-10-30",
+       "type": "ESTIMATED"
+     },
+@@ -36,7 +36,7 @@
+
+       "type": "ACTUAL"
+     },
+-    "lastUpdateSubmitDate": "2026-08-31",
++    "lastUpdateSubmitDate": "2026-10-12",
+     "lastUpdatePostDateStruct": {
+-      "date": "2026-09-02",
++      "date": "2026-10-13",
+       "type": "ACTUAL"
+     }
+@@ -97,5 +97,5 @@
+
+     },
+     "enrollmentInfo": {
+-      "count": 36,
++      "count": 39,
+       "type": "ESTIMATED"
+     }
+
+NCT06809530 Intrathecal Dual Checkpoint Inhibitor (PD-1 and CTLA-4) in Combination With Pemetrexed for Leptomeningeal Metastasis
+--- 
+
++++ 
+
+@@ -36,7 +36,7 @@
+
+       "type": "ACTUAL"
+     },
+-    "lastUpdateSubmitDate": "2026-08-31",
++    "lastUpdateSubmitDate": "2026-10-12",
+     "lastUpdatePostDateStruct": {
+-      "date": "2026-09-02",
++      "date": "2026-10-13",
+       "type": "ACTUAL"
+     }
+@@ -92,5 +92,5 @@
+
+     },
+     "enrollmentInfo": {
+-      "count": 34,
++      "count": 39,
+       "type": "ESTIMATED"
+     }
+
+NCT05636618 Targeted Alpha-Particle Therapy for Advanced Somatostatin Receptor Type 2 (SSTR2) Positive Tumors
+--- 
+
++++ 
+
+@@ -13,5 +13,5 @@
+
+   },
+   "statusModule": {
+-    "statusVerifiedDate": "2026-05",
++    "statusVerifiedDate": "2026-10",
+     "overallStatus": "RECRUITING",
+     "startDateStruct": {
+@@ -33,7 +33,7 @@
+
+       "type": "ACTUAL"
+     },
+-    "lastUpdateSubmitDate": "2026-05-13",
++    "lastUpdateSubmitDate": "2026-10-08",
+     "lastUpdatePostDateStruct": {
+-      "date": "2026-05-14",
++      "date": "2026-10-13",
+       "type": "ACTUAL"
+     }
+@@ -226,5 +226,5 @@
+
+           {
+             "role": "CONTACT",
+-            "phone": "904-953-2000",
++            "phone": "(904) 9532000",
+             "email": "CANCERCTR@mayo.edu"
+           },
+@@ -248,11 +248,11 @@
+
+         "contacts": [
+           {
+-            "name": "Milka Vina",
++            "name": "Jerry Joseph",
+             "role": "CONTACT",
+             "phone": "786-791-1799",
+-            "email": "mvina@cira-health.com"
+-          },
+-          {
+-            "name": "Frankis Almaguel, MD",
++            "email": "jjoseph@cira-health.com"
++          },
++          {
++            "name": "Julio Cardeo, MD",
+             "role": "PRINCIPAL_INVESTIGATOR"
+           }
+@@ -261,4 +261,28 @@
+
+           "lat": 25.77427,
+           "lon": -80.19366
++        }
++      },
++      {
++        "facility": "Advent Health Radiation Oncology at Central Florida",
++        "status": "RECRUITING",
++        "city": "Orlando",
++        "state": "Florida",
++        "zip": "32804",
++        "country": "United States",
++        "contacts": [
++          {
++            "name": "Erin Peters",
++            "role": "CONTACT",
++            "phone": "407-303-2090",
++            "email": "erin.peters@adventhealth.com"
++          },
++          {
++            "name": "Ravi Shridhar, MD, PhD",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
++        "geoPoint": {
++          "lat": 28.53834,
++          "lon": -81.37924
+         }
+       },
+@@ -273,5 +297,5 @@
+
+           {
+             "role": "CONTACT",
+-            "phone": "773-702-1000",
++            "phone": "(773) 702-1000",
+             "email": "cancerclinicaltrials@bsd.uchicago.edu"
+           },
+@@ -297,5 +321,5 @@
+
+             "name": "Yusuf Menda",
+             "role": "CONTACT",
+-            "phone": "319-356-1616",
++            "phone": "(319) 356-1616",
+             "email": "yusuf-menda@uiowa.edu"
+           },
+@@ -325,5 +349,5 @@
+
+             "name": "Yvonne Taul",
+             "role": "CONTACT",
+-            "phone": "859-323-2354",
++            "phone": "8593232354",
+             "email": "yvonne.taul@uky.edu"
+           },
+@@ -348,5 +372,5 @@
+
+           {
+             "role": "CONTACT",
+-            "phone": "410-955-6785",
++            "phone": "(410) 955-6785",
+             "email": "smosall1@jhmi.edu"
+           },
+@@ -442,8 +466,8 @@
+
+         "contacts": [
+           {
+-            "name": "Katie Wittenberger",
+-            "role": "CONTACT",
+-            "phone": "507-293-2512",
+-            "email": "Wittenberger.Kathleen@mayo.edu"
++            "name": "Cancer Center Clinical Trials Referral Office",
++            "role": "CONTACT",
++            "phone": "855 - 776-0015",
++            "email": "mayocliniccancertrials@mayo.edu"
+           },
+           {
+@@ -492,5 +516,5 @@
+
+             "name": "Scott Degenhardt, NMAA",
+             "role": "CONTACT",
+-            "phone": "402-691-5257",
++            "phone": "(402) 691-5257",
+             "email": "sdegenhardt@nebraskacancer.com"
+           },
+@@ -588,5 +612,5 @@
+
+             "name": "Patient Liaison Advisor",
+             "role": "CONTACT",
+-            "phone": "800-811-8480",
++            "phone": "1-800-811-8480",
+             "email": "cip@vumc.org"
+           },
+@@ -612,5 +636,5 @@
+
+             "name": "Carrie Friedman",
+             "role": "CONTACT",
+-            "phone": "703-636-1473",
++            "phone": "(703)636-1473",
+             "email": "carrie.friedman@usoncology.com"
+           },
+@@ -640,5 +664,5 @@
+
+           },
+           {
+-            "name": "Amir Iranvani, MD",
++            "name": "Angela Castellanos, MD",
+             "role": "PRINCIPAL_INVESTIGATOR"
+           }
+
+NCT04648462 Proton Therapy Research Infrastructure- ProTRAIT- Neuro-oncology
+--- 
+
++++ 
+
+@@ -13,5 +13,5 @@
+
+   },
+   "statusModule": {
+-    "statusVerifiedDate": "2024-11",
++    "statusVerifiedDate": "2026-10",
+     "overallStatus": "RECRUITING",
+     "expandedAccessInfo": {
+@@ -36,7 +36,7 @@
+
+       "type": "ACTUAL"
+     },
+-    "lastUpdateSubmitDate": "2024-11-25",
++    "lastUpdateSubmitDate": "2026-10-09",
+     "lastUpdatePostDateStruct": {
+-      "date": "2024-11-26",
++      "date": "2026-10-13",
+       "type": "ACTUAL"
+     }
+@@ -270,4 +270,30 @@
+
+       },
+       {
++        "facility": "Universitair Medisch Centrum Groningen",
++        "status": "RECRUITING",
++        "city": "Groningen",
++        "state": "Provincie Groningen",
++        "zip": "9713 WS",
++        "country": "Netherlands",
++        "contacts": [
++          {
++            "name": "Hiske van der Weide",
++            "role": "CONTACT",
++            "phone": "+31503612711",
++            "email": "h.l.van.der.weide@umcg.nl"
++          },
++          {
++            "name": "Miranda Kramer",
++            "role": "CONTACT",
++            "phone": "+31503612711",
++            "email": "m.c.a.kramer@umcg.nl"
++          }
++        ],
++        "geoPoint": {
++          "lat": 53.21917,
++          "lon": 6.56667
++        }
++      },
++      {
+         "facility": "Holland PTC",
+         "status": "RECRUITING",
+@@ -294,29 +320,4 @@
+
+           "lon": 4.35556
+         }
+-      },
+-      {
+-        "facility": "Universitair Medisch Centrum Groningen",
+-        "status": "RECRUITING",
+-        "city": "Groningen",
+-        "zip": "9713 WS",
+-        "country": "Netherlands",
+-        "contacts": [
+-          {
+-            "name": "Hiske van der Weide",
+-            "role": "CONTACT",
+-            "phone": "+31503612711",
+-            "email": "h.l.van.der.weide@umcg.nl"
+-          },
+-          {
+-            "name": "Miranda Kramer",
+-            "role": "CONTACT",
+-            "phone": "+31503612711",
+-            "email": "m.c.a.kramer@umcg.nl"
+-          }
+-        ],
+-        "geoPoint": {
+-          "lat": 53.21917,
+-          "lon": 6.56667
+-        }
+       }
+     ]
+
+NCT05484245 Sonography-guided Resection of Brain Mass Lesions
+NEW
+
+NCT05477680 Intraoperative Brain Shift Calculation Study
+NEW
+
+NCT00867269 Etiology, Pathogenesis, and Natural History of Idiopathic CD4+ Lymphocytopenia
+--- 
+
++++ 
+
+@@ -33,7 +33,7 @@
+
+       "type": "ESTIMATED"
+     },
+-    "lastUpdateSubmitDate": "2026-10-07",
++    "lastUpdateSubmitDate": "2026-10-15",
+     "lastUpdatePostDateStruct": {
+-      "date": "2026-10-08",
++      "date": "2026-10-16",
+       "type": "ACTUAL"
+     }
+
+NCT07648264 Single-arm Study of IgPro20 in Adults With Secondary Immune Deficiencies Due to Hematologic Malignancies Treated With B-cell Targeting Chimeric Antigen Receptor T-cell and T-cell Redirecting Therapies
+--- 
+
++++ 
+
+@@ -20,5 +20,5 @@
+
+   },
+   "statusModule": {
+-    "statusVerifiedDate": "2026-09",
++    "statusVerifiedDate": "2026-10",
+     "overallStatus": "RECRUITING",
+     "expandedAccessInfo": {
+@@ -30,9 +30,9 @@
+
+     },
+     "primaryCompletionDateStruct": {
+-      "date": "2029-03-13",
++      "date": "2029-09-27",
+       "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+-      "date": "2029-03-13",
++      "date": "2029-09-27",
+       "type": "ESTIMATED"
+     },
+@@ -43,7 +43,7 @@
+
+       "type": "ACTUAL"
+     },
+-    "lastUpdateSubmitDate": "2026-09-18",
++    "lastUpdateSubmitDate": "2026-10-13",
+     "lastUpdatePostDateStruct": {
+-      "date": "2026-09-21",
++      "date": "2026-10-14",
+       "type": "ACTUAL"
+     }
+
+NCT01970865 A Study Of PF-06463922 An ALK/ROS1 Inhibitor In Patients With Advanced Non Small Cell Lung Cancer With Specific Molecular Alterations
+--- 
+
++++ 
+
+@@ -1344,4 +1344,9 @@
+
+     "references": [
+       {
++        "pmid": "42749050",
++        "type": "DERIVED",
++        "citation": "Bauer TM, Martini JF, Besse B, Lin CC, Soo RA, Riely GJ, Wang IM, Toffalorio F, Shepard DA, Usari T, Hamilton P, Camidge DR, Kao S, Chiari R, Gadgeel S, Felip E, Shaw AT, Solomon BJ. Final Biomarker and Efficacy Analyses of Lorlatinib in Patients With ALK-Positive Advanced NSCLC in a Phase 2 Study. J Thorac Oncol. 2026 Sep 17:104202. doi: 10.1016/j.jtho.2026.104202. Online ahead of print."
++      },
++      {
+         "pmid": "39581380",
+         "type": "DERIVED",
+
+NCT05617885 Neo-DAB: Darolutamide and Abemaciclib in Prostate Cancer
+--- 
+
++++ 
+
+@@ -5,4 +5,11 @@
+
+       "id": "22-422"
+     },
++    "secondaryIdInfos": [
++      {
++        "id": "P50CA272390",
++        "type": "NIH",
++        "link": "https://reporter.nih.gov/quickSearch/P50CA272390"
++      }
++    ],
+     "organization": {
+       "fullName": "Dana-Farber Cancer Institute",
+@@ -13,6 +20,7 @@
+
+   },
+   "statusModule": {
+-    "statusVerifiedDate": "2026-06",
+-    "overallStatus": "COMPLETED",
++    "statusVerifiedDate": "2026-09",
++    "overallStatus": "TERMINATED",
++    "whyStopped": "The trial was intended to be Phase 1/2 but did not move forward to Phase 2 since the company providing drug and funding (Lilly) withdrew support for the trial based on data relating to abemaciclib in advanced prostate cancer.",
+     "expandedAccessInfo": {
+       "hasExpandedAccess": false
+@@ -36,7 +44,13 @@
+
+       "type": "ACTUAL"
+     },
+-    "lastUpdateSubmitDate": "2026-06-15",
++    "resultsFirstSubmitDate": "2026-08-31",
++    "resultsFirstSubmitQcDate": "2026-09-23",
++    "resultsFirstPostDateStruct": {
++      "date": "2026-10-15",
++      "type": "ACTUAL"
++    },
++    "lastUpdateSubmitDate": "2026-09-23",
+     "lastUpdatePostDateStruct": {
+-      "date": "2026-06-16",
++      "date": "2026-10-15",
+       "type": "ACTUAL"
+     }
+@@ -61,4 +75,8 @@
+
+         "name": "Bayer",
+         "class": "INDUSTRY"
++      },
++      {
++        "name": "National Cancer Institute (NCI)",
++        "class": "NIH"
+       }
+     ]
+@@ -216,17 +234,17 @@
+
+     "primaryOutcomes": [
+       {
+-        "measure": "Phase 1 - Maximum Tolerated Dose (MTD)",
+-        "description": "The Maximum Tolerated Dose (MTD) for the study drug combination is defined as the maximum dose combination at which \\<33% of patients experience a Dose limiting toxicity (DLT) during Cycle 1 (the DLT-evaluation period). If a DLT is observed in 1 of 3 patients, then 3 additional patients will be enrolled at that same dose level. Dose escalation will continue to a dose of abemaciclib 200mg bid, which is the maximal dose levels. If DLTs are seen in 0-1 of 6 patients at dose level +1 (darolutamide 600mg bid and abemaciclib 200mg bid), then this will be the RP2D; otherwise the maximally tolerated dose (MTD) will be the RP2D.",
+-        "timeFrame": "28 days/Cycle 1, up to 6 months"
+-      },
+-      {
+-        "measure": "Phase 1 - Dose Limiting Toxicity (DLT)",
+-        "description": "Dose Limiting Toxicity (DLT) for Phase 1 is defined as an adverse event that is related to Darolutamide and Abemaciclib with an attribution of possible, probable or definite and occurs during and/or begins during the first 28 days of the study treatment, using NCI CTCAE criteria version 5.0.",
+-        "timeFrame": "28 days/Cycle 1, up to 6 months"
+-      },
+-      {
+-        "measure": "Phase 1 - Recommended Phase 2 Dose (RP2D)",
+-        "description": "RP2D will be determined after an Maximum Tolerated Dose (MTD) is identified or the maximum planned dose is achieved. Recommended Phase 2 Dose (RP2D) is defined as no more than 0-1 patients with dose limiting toxicity out of 6 at maximal dose level. Otherwise, the maximally tolerated dose will be used.",
+-        "timeFrame": "28 days/Cycle 1, up to 6 months"
++        "measure": "Phase 1 - Number of Subjects With Dose Limiting Toxicity (DLT)",
++        "description": "Dose Limiting Toxicity (DLT) for Phase 1 will be defined as any abemaciclib or darolutamide-related toxicity resulting in discontinuation or dose reduction within the first 28 days of treatment, using NCI CTCAE criteria version 5.0.\n\nDLTs will be defined as any of the following events:\n\n* Any death\n* Dose delay of \\>14 days for the study drug(s) due to an adverse event\n* Non-hematologic toxicity:\n\n  * Grade 3 or higher\n  * Hy's Law cases (AST or ALT \\>3 x upper limit of normal (ULN) AND total bilirubin \\>2 x ULN AND ALP \\<2 x ULN AND no other reason for liver injury)\n  * AST or ALT \\>8 x ULN or AST or ALT \\> 5 x ULN for ≥14 days regardless of the absence of presence of hepatic metastases\n* Hematologic toxicity:\n\n  * Grade 4 that persists for more than 7 days\n  * Grade 3 or higher thrombocytopenia with clinically significant bleeding\n  * Febrile neutropenia",
++        "timeFrame": "Within the first 28 days of treatment (Cycle 1)"
++      },
++      {
++        "measure": "Phase 1 - Maximum Tolerated Dose (MTD) of Abemaciclib",
++        "description": "The Maximum Tolerated Dose (MTD) for the study drug is defined as the maximum dose combination at which \\<33% of patients experience a Dose limiting toxicity (DLT) during Cycle 1 (the DLT-evaluation period). If a DLT is observed in 1 of 3 patients, then 3 additional patients will be enrolled at that same dose level. Dose escalation will continue to a dose of abemaciclib 200mg bid, which is the maximal dose levels. If DLTs are seen in 0-1 of 6 patients at dose level +1 (darolutamide 600mg bid and abemaciclib 200mg bid), then this will be the RP2D; otherwise the maximally tolerated dose (MTD) will be the RP2D.",
++        "timeFrame": "Within the first 28 days of treatment (Cycle 1)"
++      },
++      {
++        "measure": "Phase 1 - Recommended Phase 2 Dose (RP2D) for Abemaciclib",
++        "description": "RP2D will be determined after a Maximum Tolerated Dose (MTD) is identified or the maximum planned dose is achieved. RP2D is defined as no more than 0-1 patients with dose limiting toxicity during cycle 1, out of 6 at maximal dose level. Otherwise, the maximally tolerated dose will be used.",
++        "timeFrame": "Within the first 28 days of treatment (Cycle 1)"
+       },
+       {
+@@ -243,12 +261,12 @@
+
+       },
+       {
+-        "measure": "Phase 1 - Median Radiographic Progression-Free Survival (rPFS)",
+-        "description": "Radiographic Progression-Free Survival (rPFS) is defined as the time from protocol treatment initiation to the earlier of progression by PCWG3 criteria73 or death due to any cause. PCWG3 progression is defined as when it is felt by the treating physician that the patient is \"no longer clinically benefiting\" (NLCB) from therapy. Per RECIST 1.1 criteria: progressive disease (PD) is at least a 20% increase in the sum of longest diameter (LD) of target lesions taking as reference the smallest sum LD recorded since the treatment started or the appearance of one or more new lesions. PD for the evaluation of non-target lesions is the appearance of one or more new lesions and/or unequivocal progression of non-target lesions.",
++        "measure": "Phase 1 - Radiographic Progression-Free Survival (rPFS) at 6 Months",
++        "description": "Radiographic Progression-Free Survival (rPFS) is defined as the time from protocol treatment initiation to the earlier of progression by PCWG3 criteria or death due to any cause. PCWG3 progression is defined as when it is felt by the treating physician that the patient is \"no longer clinically benefiting\" (NLCB) from therapy. Per RECIST 1.1 criteria: progressive disease (PD) is at least a 20% increase in the sum of longest diameter (LD) of target lesions taking as reference the smallest sum LD recorded since the treatment started or the appearance of one or more new lesions. PD for the evaluation of non-target lesions is the appearance of one or more new lesions and/or unequivocal progression of non-target lesions.\n\nrPFS at 6 months will be evaluated by the Kaplan Meier methodology.",
+         "timeFrame": "Evaluated every 12 weeks, up to 6 months"
+       },
+       {
+-        "measure": "Phase 1 & 2 - Grade 3 or Higher Treatment-Related Toxicity Rate",
++        "measure": "Phase 1 - Grade 3 or Higher Treatment-Related Toxicity Rate",
+         "description": "Defined as all grade 3 or higher adverse events (AE) with treatment attribution of possibly, probably or definite based on CTCAEv5 as reported on case report forms were counted. Rate is the proportion of treated participants experiencing at least one treatment-related grade 3 or higher AE of any type during the time of observation.",
+-        "timeFrame": "28 days, up to 6 months"
++        "timeFrame": "From study treatment initiation until within 30 days of the last dose of treatment, up to 6.5 months"
+       },
+       {
+@@ -263,17 +281,17 @@
+
+       },
+       {
+-        "measure": "Phase 2 - 3-year biochemical progression-free survival (bPFS) Rate",
++        "measure": "Phase 2 - 3-year Biochemical Progression-free Survival (bPFS) Rate",
+         "description": "3-year bPFS rate is the proportion of participants remaining alive and free of biochemical progression at 3 years. Biochemical progression is defined as a PSA rising to \\>0.1ng/mL after surgery.",
+-        "timeFrame": "at 3 years"
+-      },
+-      {
+-        "measure": "Phase 2 - 5-year progression-free survival (bPFS) Rate",
++        "timeFrame": "At 3 years post radical prostatectomy"
++      },
++      {
++        "measure": "Phase 2 - 5-year Progression-free Survival (bPFS) Rate",
+         "description": "5-year bPFS rate is the proportion of participants remaining alive and free of biochemical progression at 5 years. Biochemical progression is defined as a PSA rising to \\>0.1ng/mL after surgery.",
+-        "timeFrame": "at 5 years"
+-      },
+-      {
+-        "measure": "Phase 2 - Proportion free from Prostate Cancer Therapy",
++        "timeFrame": "At 5 years post radical prostatectomy,"
++      },
++      {
++        "measure": "Phase 2 - Proportion Free From Prostate Cancer Therapy",
+         "description": "Proportion free from further prostate cancer therapy will be estimated from the Kaplan Meier methodology by each arm. Further prostate cancer therapy includes salvage radiotherapy and/or ADT.",
+-        "timeFrame": "at 2, 3, and 5 years."
++        "timeFrame": "at 2, 3, and 5 years post radical prostatectomy"
+       }
+     ]
+
+NCT04301076 Testing the Addition of an Anti-cancer Drug, Lenalidomide, to the Usual Combination Chemotherapy Treatment ("EPOCH") for Adult T-Cell Leukemia-Lymphoma (ATLL)
+--- 
+
++++ 
+
+@@ -63,7 +63,7 @@
+
+       "type": "ACTUAL"
+     },
+-    "lastUpdateSubmitDate": "2026-09-22",
++    "lastUpdateSubmitDate": "2026-10-14",
+     "lastUpdatePostDateStruct": {
+-      "date": "2026-09-23",
++      "date": "2026-10-15",
+       "type": "ACTUAL"
+     }
+@@ -506,9 +506,20 @@
+
+       {
+         "facility": "Emory University Hospital Midtown",
+-        "status": "SUSPENDED",
++        "status": "RECRUITING",
+         "city": "Atlanta",
+         "state": "Georgia",
+         "zip": "30308",
+         "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "phone": "888-946-7447"
++          },
++          {
++            "name": "Pamela B. Allen",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
+         "geoPoint": {
+           "lat": 33.749,
+@@ -765,9 +776,21 @@
+
+       {
+         "facility": "NYP/Columbia University Medical Center/Herbert Irving Comprehensive Cancer Center",
+-        "status": "SUSPENDED",
++        "status": "RECRUITING",
+         "city": "New York",
+         "state": "New York",
+         "zip": "10032",
+         "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "phone": "212-342-5162",
++            "email": "cancerclinicaltrials@cumc.columbia.edu"
++          },
++          {
++            "name": "Jennifer E. Amengual",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
+         "geoPoint": {
+           "lat": 40.71427,
+
+NCT04181060 Osimertinib With or Without Bevacizumab as Initial Treatment for Patients With EGFR-Mutant Lung Cancer
+--- 
+
++++ 
+
+@@ -58,7 +58,7 @@
+
+       "type": "ACTUAL"
+     },
+-    "lastUpdateSubmitDate": "2026-10-08",
++    "lastUpdateSubmitDate": "2026-10-15",
+     "lastUpdatePostDateStruct": {
+-      "date": "2026-10-09",
++      "date": "2026-10-16",
+       "type": "ACTUAL"
+     }
+@@ -457,21 +457,9 @@
+
+       {
+         "facility": "Alaska Oncology and Hematology LLC",
+-        "status": "RECRUITING",
++        "status": "SUSPENDED",
+         "city": "Anchorage",
+         "state": "Alaska",
+         "zip": "99508",
+         "country": "United States",
+-        "contacts": [
+-          {
+-            "name": "Site Public Contact",
+-            "role": "CONTACT",
+-            "phone": "907-212-6871",
+-            "email": "AKPAMC.OncologyResearchSupport@providence.org"
+-          },
+-          {
+-            "name": "Alison K. Conlin",
+-            "role": "PRINCIPAL_INVESTIGATOR"
+-          }
+-        ],
+         "geoPoint": {
+           "lat": 61.21806,
+@@ -9571,9 +9559,21 @@
+
+       {
+         "facility": "Providence Newberg Medical Center",
+-        "status": "SUSPENDED",
++        "status": "RECRUITING",
+         "city": "Newberg",
+         "state": "Oregon",
+         "zip": "97132",
+         "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "phone": "503-215-2614",
++            "email": "CanRsrchStudies@providence.org"
++          },
++          {
++            "name": "Alison K. Conlin",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
+         "geoPoint": {
+           "lat": 45.30012,
+@@ -9607,9 +9607,21 @@
+
+       {
+         "facility": "Providence Willamette Falls Medical Center",
+-        "status": "SUSPENDED",
++        "status": "RECRUITING",
+         "city": "Oregon City",
+         "state": "Oregon",
+         "zip": "97045",
+         "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "phone": "503-215-2614",
++            "email": "CanRsrchStudies@providence.org"
++          },
++          {
++            "name": "Alison K. Conlin",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
+         "geoPoint": {
+           "lat": 45.35734,
+@@ -9619,9 +9631,21 @@
+
+       {
+         "facility": "Providence Portland Medical Center",
+-        "status": "SUSPENDED",
++        "status": "RECRUITING",
+         "city": "Portland",
+         "state": "Oregon",
+         "zip": "97213",
+         "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "phone": "503-215-2614",
++            "email": "CanRsrchStudies@providence.org"
++          },
++          {
++            "name": "Alison K. Conlin",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
+         "geoPoint": {
+           "lat": 45.52345,
+@@ -9631,9 +9655,21 @@
+
+       {
+         "facility": "Providence Saint Vincent Medical Center",
+-        "status": "SUSPENDED",
++        "status": "RECRUITING",
+         "city": "Portland",
+         "state": "Oregon",
+         "zip": "97225",
+         "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "phone": "503-215-2614",
++            "email": "CanRsrchStudies@providence.org"
++          },
++          {
++            "name": "Alison K. Conlin",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
+         "geoPoint": {
+           "lat": 45.52345,
+@@ -10688,9 +10724,21 @@
+
+       {
+         "facility": "PeaceHealth Saint John Medical Center",
+-        "status": "SUSPENDED",
++        "status": "RECRUITING",
+         "city": "Longview",
+         "state": "Washington",
+         "zip": "98632",
+         "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "phone": "360-514-2016",
++            "email": "kmakin-bond@peacehealth.org"
++          },
++          {
++            "name": "Alison K. Conlin",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
+         "geoPoint": {
+           "lat": 46.13817,
+
+NCT04094688 Vitamin D3 With Chemotherapy and Bevacizumab in Treating Patients With Advanced or Metastatic Colorectal Cancer
+--- 
+
++++ 
+
+@@ -26,5 +26,5 @@
+
+   },
+   "statusModule": {
+-    "statusVerifiedDate": "2026-02",
++    "statusVerifiedDate": "2026-09",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "expandedAccessInfo": {
+@@ -40,5 +40,5 @@
+
+     },
+     "completionDateStruct": {
+-      "date": "2026-07-01",
++      "date": "2027-12-15",
+       "type": "ESTIMATED"
+     },
+@@ -55,7 +55,7 @@
+
+       "type": "ACTUAL"
+     },
+-    "lastUpdateSubmitDate": "2026-02-11",
++    "lastUpdateSubmitDate": "2026-09-21",
+     "lastUpdatePostDateStruct": {
+-      "date": "2026-03-03",
++      "date": "2026-10-14",
+       "type": "ACTUAL"
+     }
+@@ -4833,5 +4833,5 @@
+
+       {
+         "facility": "Great Lakes Cancer Management Specialists-Doctors Park",
+-        "city": "East China",
++        "city": "East China Township",
+         "state": "Michigan",
+         "zip": "48054",
+@@ -7589,15 +7589,4 @@
+
+       },
+       {
+-        "facility": "Memorial Sloan Kettering Westchester",
+-        "city": "East White Plains",
+-        "state": "New York",
+-        "zip": "10604",
+-        "country": "United States",
+-        "geoPoint": {
+-          "lat": 41.03899,
+-          "lon": -73.74763
+-        }
+-      },
+-      {
+         "facility": "The New York Hospital Medical Center of Queens",
+         "city": "Flushing",
+@@ -7633,4 +7622,15 @@
+
+       },
+       {
++        "facility": "Memorial Sloan Kettering Westchester",
++        "city": "Harrison",
++        "state": "New York",
++        "zip": "10604",
++        "country": "United States",
++        "geoPoint": {
++          "lat": 40.96899,
++          "lon": -73.71263
++        }
++      },
++      {
+         "facility": "Northwell Health/Center for Advanced Medicine",
+         "city": "Lake Success",
+@@ -9482,5 +9482,5 @@
+
+       {
+         "facility": "Arnold Palmer Cancer Center Medical Oncology Norwin",
+-        "city": "North Huntingdon",
++        "city": "N. Huntingdon",
+         "state": "Pennsylvania",
+         "zip": "15642",
+
+NCT07415005 Lorlatinib Plus Local Consolidation Therapy In ALK Positive Advanced Non-Small Cell Lung Cancer
+--- 
+
++++ 
+
+@@ -20,5 +20,5 @@
+
+   },
+   "statusModule": {
+-    "statusVerifiedDate": "2026-04",
++    "statusVerifiedDate": "2026-10",
+     "overallStatus": "RECRUITING",
+     "expandedAccessInfo": {
+@@ -43,7 +43,7 @@
+
+       "type": "ACTUAL"
+     },
+-    "lastUpdateSubmitDate": "2026-04-29",
++    "lastUpdateSubmitDate": "2026-10-08",
+     "lastUpdatePostDateStruct": {
+-      "date": "2026-05-05",
++      "date": "2026-10-13",
+       "type": "ACTUAL"
+     }
+
+NCT06422806 Measuring if Immunotherapy Plus Chemotherapy is Better Than Chemotherapy Alone for Patients With Aggressive Poorly Differentiated Sarcomas
+--- 
+
++++ 
+
+@@ -58,7 +58,7 @@
+
+       "type": "ACTUAL"
+     },
+-    "lastUpdateSubmitDate": "2026-10-06",
++    "lastUpdateSubmitDate": "2026-10-14",
+     "lastUpdatePostDateStruct": {
+-      "date": "2026-10-07",
++      "date": "2026-10-15",
+       "type": "ACTUAL"
+     }
+@@ -5153,12 +5153,94 @@
+
+       {
+         "facility": "Oregon Health and Science University",
+-        "status": "SUSPENDED",
++        "status": "RECRUITING",
+         "city": "Portland",
+         "state": "Oregon",
+         "zip": "97239",
+         "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "phone": "503-494-1080",
++            "email": "trials@ohsu.edu"
++          },
++          {
++            "name": "Christopher W. Ryan",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
+         "geoPoint": {
+           "lat": 45.52345,
+           "lon": -122.67621
++        }
++      },
++      {
++        "facility": "Saint Vincent Hospital",
++        "status": "RECRUITING",
++        "city": "Erie",
++        "state": "Pennsylvania",
++        "zip": "16544",
++        "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "phone": "814-452-5000"
++          },
++          {
++            "name": "Larisa Greenberg",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
++        "geoPoint": {
++          "lat": 42.12922,
++          "lon": -80.08506
++        }
++      },
++      {
++        "facility": "Jefferson Hospital",
++        "status": "RECRUITING",
++        "city": "Jefferson Hills",
++        "state": "Pennsylvania",
++        "zip": "15025",
++        "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "phone": "412-359-3043",
++            "email": "ddefazio@wpahs.org"
++          },
++          {
++            "name": "Larisa Greenberg",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
++        "geoPoint": {
++          "lat": 40.29118,
++          "lon": -79.93199
++        }
++      },
++      {
++        "facility": "Forbes Hospital",
++        "status": "RECRUITING",
++        "city": "Monroeville",
++        "state": "Pennsylvania",
++        "zip": "15146",
++        "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "phone": "412-858-7746"
++          },
++          {
++            "name": "Larisa Greenberg",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
++        "geoPoint": {
++          "lat": 40.42118,
++          "lon": -79.7881
+         }
+       },
+@@ -5236,9 +5318,43 @@
+
+       {
+         "facility": "Allegheny General Hospital",
+-        "status": "SUSPENDED",
++        "status": "RECRUITING",
+         "city": "Pittsburgh",
+         "state": "Pennsylvania",
+         "zip": "15212",
+         "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "phone": "877-284-2000"
++          },
++          {
++            "name": "Larisa Greenberg",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
++        "geoPoint": {
++          "lat": 40.44062,
++          "lon": -79.99589
++        }
++      },
++      {
++        "facility": "West Penn Hospital",
++        "status": "RECRUITING",
++        "city": "Pittsburgh",
++        "state": "Pennsylvania",
++        "zip": "15224",
++        "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "phone": "412-578-5000"
++          },
++          {
++            "name": "Larisa Greenberg",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
+         "geoPoint": {
+           "lat": 40.44062,
+@@ -5267,4 +5383,27 @@
+
+           "lat": 40.44062,
+           "lon": -79.99589
++        }
++      },
++      {
++        "facility": "Wexford Health and Wellness Pavilion",
++        "status": "RECRUITING",
++        "city": "Wexford",
++        "state": "Pennsylvania",
++        "zip": "15090",
++        "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "email": "Dawnmarie.DeFazio@ahn.org"
++          },
++          {
++            "name": "Larisa Greenberg",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
++        "geoPoint": {
++          "lat": 40.62646,
++          "lon": -80.05589
+         }
+       },
+@@ -6138,5 +6277,5 @@
+
+           },
+           {
+-            "name": "Quincy S. Chu",
++            "name": "Branawan Gowrishankar",
+             "role": "PRINCIPAL_INVESTIGATOR"
+           }
+
+NCT06589804 Testing the Addition of Anti-Cancer Drug, Cetuximab, to Standard of Care Treatment (Pembrolizumab) for Returning or Spreading Head and Neck Cancer After Previous Treatment
+--- 
+
++++ 
+
+@@ -58,7 +58,7 @@
+
+       "type": "ACTUAL"
+     },
+-    "lastUpdateSubmitDate": "2026-10-08",
++    "lastUpdateSubmitDate": "2026-10-13",
+     "lastUpdatePostDateStruct": {
+-      "date": "2026-10-09",
++      "date": "2026-10-14",
+       "type": "ACTUAL"
+     }
+@@ -3633,9 +3633,21 @@
+
+       {
+         "facility": "Providence Willamette Falls Medical Center",
+-        "status": "SUSPENDED",
++        "status": "RECRUITING",
+         "city": "Oregon City",
+         "state": "Oregon",
+         "zip": "97045",
+         "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "phone": "503-215-2614",
++            "email": "CanRsrchStudies@providence.org"
++          },
++          {
++            "name": "Alison K. Conlin",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
+         "geoPoint": {
+           "lat": 45.35734,
+@@ -3645,9 +3657,21 @@
+
+       {
+         "facility": "Providence Portland Medical Center",
+-        "status": "SUSPENDED",
++        "status": "RECRUITING",
+         "city": "Portland",
+         "state": "Oregon",
+         "zip": "97213",
+         "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "phone": "503-215-2614",
++            "email": "CanRsrchStudies@providence.org"
++          },
++          {
++            "name": "Alison K. Conlin",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
+         "geoPoint": {
+           "lat": 45.52345,
+@@ -3657,9 +3681,21 @@
+
+       {
+         "facility": "Providence Saint Vincent Medical Center",
+-        "status": "SUSPENDED",
++        "status": "RECRUITING",
+         "city": "Portland",
+         "state": "Oregon",
+         "zip": "97225",
+         "country": "United States",
++        "contacts": [
++          {
++            "name": "Site Public Contact",
++            "role": "CONTACT",
++            "phone": "503-215-2614",
++            "email": "CanRsrchStudies@providence.org"
++          },
++          {
++            "name": "Alison K. Conlin",
++            "role": "PRINCIPAL_INVESTIGATOR"
++          }
++        ],
+         "geoPoint": {
+           "lat": 45.52345,
+
+NCT07631793 Phase I Clinical Trial of YKYY031 for Injection in Patients With Advanced Solid Tumors
+--- 
+
++++ 
+
+@@ -37,7 +37,7 @@
+
+       "type": "ACTUAL"
+     },
+-    "lastUpdateSubmitDate": "2026-08-19",
++    "lastUpdateSubmitDate": "2026-10-10",
+     "lastUpdatePostDateStruct": {
+-      "date": "2026-08-21",
++      "date": "2026-10-13",
+       "type": "ACTUAL"
+     }
+@@ -197,5 +197,5 @@
+
+   },
+   "eligibilityModule": {
+-    "eligibilityCriteria": "Inclusion criteria： Participants meeting all the following criteria may be enrolled\n\n1. Male or female patients aged 18 to 75 years old at the time of signing the informed consent form.\n2. Histologically or cytologically confirmed advanced or metastatic solid tumors that have failed standard therapy and have no effective treatment options, including but not limited to colorectal cancer, pancreatic cancer, etc.\n\n   For colorectal cancer (CRC) patients, prior receipt of at least second-line standard therapy failure and no effective treatment options; adjuvant/neoadjuvant chemotherapy failure during or within 6 months after the last treatment is considered first-line failure.\n\n   For pancreatic cancer patients, prior receipt of at least first-line standard therapy failure and no effective treatment options; adjuvant/neoadjuvant chemotherapy failure during or within 6 months after the last treatment is considered first-line failure.\n3. Patients must have human leukocyte antigen (HLA) subtype HLA-A\\*11:01.\n4. Patients must test positive for at least one of the tumor-specific antigens (TSA) targeted by YKYY031, including KRAS G12D, KRAS G12C, KRAS G12V, KRAS G13D, KRAS G12R, KRAS G12S, PIK3CA E542K, TP53 R248Q, PIK3CA E545K, BRAF V600E, PIK3CA H1047L, FBXW7 R465C.\n5. Eastern Cooperative Oncology Group (ECOG) performance status score: 0-1.\n6. Expected survival duration ≥ 3 months.\n7. At least one measurable lesion (non-nodal lesions with longest diameter ≥10 mm, nodal lesions with shortest diameter ≥15 mm) according to RECIST V1.1.\n8. Major organ function is good, meeting the following requirements:\n\n   Hemoglobin ≥90 g/L, absolute neutrophil count ≥1.5×10⁹/L, platelet count ≥80×10⁹/L within 14 days prior to the first dose, without the use of hematopoietic growth factors, blood transfusions, blood products, albumin, or blood products.\n\n   Total bilirubin ≤1.5× upper limit of normal (ULN); if liver metastasis or Gilbert's syndrome is present, total bilirubin ≤3×ULN.\n\n   Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) ≤3×ULN; if liver metastasis is present, ALT or AST ≤5×ULN.\n\n   Serum creatinine ≤1.5×ULN or creatinine clearance ≥50 mL/min (calculated using the Cockcroft-Gault formula).\n\n   Prothrombin time ≤1.5×ULN (unless using warfarin anticoagulation). International normalized ratio (INR) ≤1.5×ULN (unless using warfarin anticoagulation).\n\n   Left ventricular ejection fraction (LVEF) ≥50% as assessed by cardiac Doppler ultrasound/MUGA.\n9. Participants with childbearing potential or male participants must have no plans for conception, egg donation, or sperm donation from the date of signing the informed consent form until 6 months after the last study treatment, and must agree to use effective contraception (including one or more non-pharmacological contraceptive measures) or safety measures during this period.\n10. Agree to comply with all requirements and procedures of the clinical trial and voluntarily sign the informed consent form.\n\nExclusion Criteria:\n\nParticipants meeting any of the following criteria will be excluded\n\n1. Allergy to the investigational product (including any excipients). History of severe allergy to any drug, food, or vaccine, such as anaphylactic shock, angioneurotic edema, allergic dyspnea, anaphylactoid purpura, thrombocytopenic purpura, Arthus reaction, etc.\n2. History of other malignancies, except for cured skin basal cell carcinoma, skin squamous cell carcinoma, superficial bladder cancer, cervical carcinoma in situ, etc., that have not recurred within 5 years prior to screening, as judged by the investigator to be eligible for enrollment.\n3. Symptomatic central nervous system metastasis or meningeal metastasis, or other evidence indicating uncontrolled central nervous system metastasis or meningeal metastasis, as judged by the investigator to be unsuitable for enrollment. Patients with stable brain metastases (no imaging progression within 4 weeks, and not requiring corticosteroid treatment for at least 4 weeks before the first dose of the study drug) may be enrolled.\n4. Significant clinically significant cardiovascular diseases, including but not limited to:\n\n   1. Congestive heart failure (New York Heart Association \\[NYHA\\] class \\> II)\n   2. Myocardial infarction, unstable angina, severe pericardial disease, severe myocardial disease within the past 6 months\n   3. Need for treatment of valvular regurgitation or stenosis\n   4. Any supraventricular or ventricular arrhythmia requiring treatment or intervention; uncontrolled malignant arrhythmia; complete left bundle branch block, second- or third-degree atrioventricular block\n   5. QT interval (QTcF) \\>450 ms in males, \\>470 ms in females\n   6. Uncontrolled hypertension (defined as systolic blood pressure ≥160 mmHg or diastolic blood pressure ≥100 mmHg despite treatment with two or three antihypertensive agents)\n5. Any active autoimmune disease or history of autoimmune disease, including but not limited to immunologically related neurological diseases, multiple sclerosis, autoimmune (demyelinating) neuropathy, Guillain-Barré syndrome, myasthenia gravis, systemic lupus erythematosus, connective tissue disease, scleroderma, autoimmune hepatitis, toxic epidermal necrolysis, or Stevens-Johnson syndrome (except for type 1 diabetes mellitus on a stable dose of insulin, hypothyroidism on stable hormone replacement therapy, etc.).\n6. Any uncontrolled clinical disease (e.g., respiratory, circulatory, neurological, hematological, genitourinary, endocrine system diseases) or psychiatric disease (e.g., depression, schizophrenia) or other major illness, as judged by the investigator to interfere with providing informed consent, interpretation of trial results, participation in the trial posing risks to the participant, or otherwise affecting the achievement of trial objectives, including uncontrolled pleural effusion, pericardial effusion, or ascites as judged by the investigator.\n7. Known history of interstitial pneumonia or high suspicion of interstitial pneumonia; or presence of pulmonary abnormalities that may interfere with the detection or management of suspected drug-related pulmonary toxicity during the trial.\n8. Any abnormality at the injection site that, as judged by the investigator, would hinder observation of local reactions at the injection site.\n9. Presence of contraindications to intramuscular injection.\n10. Received any antitumor therapy (including chemotherapy, targeted therapy, immunotherapy, etc.) or participated in another drug or device clinical trial within 4 weeks or 5 half-lives (whichever is shorter) prior to the first dose; received traditional Chinese medicine or patent Chinese medicine with clear antitumor indications within 2 weeks prior to the first dose.\n11. Previous antitumor treatment-related adverse events that have not recovered to ≤ grade 1 according to CTCAE, except for toxicities judged by the investigator to have no safety risk, such as alopecia, grade 2 peripheral neurotoxicity, hypothyroidism stabilized by hormone replacement therapy, etc.\n12. Prior organ transplantation or allogeneic hematopoietic stem cell transplantation.\n13. Use of corticosteroids (\\>10 mg/day prednisone or equivalent other glucocorticoids) or other immunosuppressants for systemic treatment within 14 days prior to the first dose of the vaccine. Inhaled or topical steroids and adrenal hormone replacement at doses ≤10 mg/day prednisone are allowed in the absence of active autoimmune disease.\n14. Received live/attenuated live/inactivated vaccines within 4 weeks prior to the first dose of the vaccine.\n15. Prior receipt of a therapeutic tumor vaccine targeting the same antigen.\n16. Bleeding disorders (e.g., coagulation factor deficiency, coagulation dysfunction \\[as judged by the investigator to be unsuitable for enrollment\\]), or a history of significant bruising or bleeding after injection or blood draw.\n17. Blood donation or significant blood loss (\\>450 mL) within 3 months prior to screening, or planned blood or blood component donation during the study period.\n18. Major surgery within 4 weeks prior to screening (minor procedures such as catheter placement and biopsy required by the protocol are not exclusionary), or unresolved effects of surgery or trauma within 14 days prior to enrollment.\n19. History of substance abuse or known medical, psychological, or social conditions, such as alcoholism or drug addiction.\n20. Positive human immunodeficiency virus antibody test result, active syphilis (defined as positive syphilis antibody test and positive reagin test), active hepatitis B (defined as hepatitis B virus \\[HBV\\] DNA ≥2000 IU/mL), or active hepatitis C (defined as hepatitis C virus \\[HCV\\] RNA test positive).\n21. Active tuberculosis (TB) (patients suspected of having active TB require further consultation with the infectious disease department for definitive diagnosis) or history of active TB; or severe acute or chronic infection requiring systemic treatment.\n22. Pregnant or breastfeeding women.\n23. Any other condition deemed by the investigator to make the participant unsuitable for participation in this trial.",
++    "eligibilityCriteria": "Inclusion criteria： Participants meeting all the following criteria may be enrolled\n\n1. Male or female patients aged 18 to 75 years old at the time of signing the informed consent form.\n2. Histologically or cytologically confirmed advanced or metastatic solid tumors that have failed standard therapy and have no effective treatment options, including but not limited to colorectal cancer, pancreatic cancer, etc.\n\n   For colorectal cancer (CRC) patients, prior receipt of at least second-line standard therapy failure and no effective treatment options; adjuvant/neoadjuvant chemotherapy failure during or within 6 months after the last treatment is considered first-line failure.\n\n   For pancreatic cancer patients, prior receipt of at least first-line standard therapy failure and no effective treatment options; adjuvant/neoadjuvant chemotherapy failure during or within 6 months after the last treatment is considered first-line failure.\n3. Patients must have human leukocyte antigen (HLA) subtype HLA-A\\*11:01.\n4. Patients must test positive for at least one of the tumor-specific antigens (TSA) targeted by YKYY031.\n5. Eastern Cooperative Oncology Group (ECOG) performance status score: 0-1.\n6. Expected survival duration ≥ 3 months.\n7. At least one measurable lesion (non-nodal lesions with longest diameter ≥10 mm, nodal lesions with shortest diameter ≥15 mm) according to RECIST V1.1.\n8. Major organ function is good, meeting the following requirements:\n\n   Hemoglobin ≥90 g/L, absolute neutrophil count ≥1.5×10⁹/L, platelet count ≥80×10⁹/L within 14 days prior to the first dose, without the use of hematopoietic growth factors, blood transfusions, blood products, albumin, or blood products.\n\n   Total bilirubin ≤1.5× upper limit of normal (ULN); if liver metastasis or Gilbert's syndrome is present, total bilirubin ≤3×ULN.\n\n   Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) ≤3×ULN; if liver metastasis is present, ALT or AST ≤5×ULN.\n\n   Serum creatinine ≤1.5×ULN or creatinine clearance ≥50 mL/min (calculated using the Cockcroft-Gault formula).\n\n   Prothrombin time ≤1.5×ULN (unless using warfarin anticoagulation). International normalized ratio (INR) ≤1.5×ULN (unless using warfarin anticoagulation).\n\n   Left ventricular ejection fraction (LVEF) ≥50% as assessed by cardiac Doppler ultrasound/MUGA.\n9. Participants with childbearing potential or male participants must have no plans for conception, egg donation, or sperm donation from the date of signing the informed consent form until 6 months after the last study treatment, and must agree to use effective contraception (including one or more non-pharmacological contraceptive measures) or safety measures during this period.\n10. Agree to comply with all requirements and procedures of the clinical trial and voluntarily sign the informed consent form.\n\nExclusion Criteria:\n\nParticipants meeting any of the following criteria will be excluded\n\n1. Allergy to the investigational product (including any excipients). History of severe allergy to any drug, food, or vaccine, such as anaphylactic shock, angioneurotic edema, allergic dyspnea, anaphylactoid purpura, thrombocytopenic purpura, Arthus reaction, etc.\n2. History of other malignancies, except for cured skin basal cell carcinoma, skin squamous cell carcinoma, superficial bladder cancer, cervical carcinoma in situ, etc., that have not recurred within 5 years prior to screening, as judged by the investigator to be eligible for enrollment.\n3. Symptomatic central nervous system metastasis or meningeal metastasis, or other evidence indicating uncontrolled central nervous system metastasis or meningeal metastasis, as judged by the investigator to be unsuitable for enrollment. Patients with stable brain metastases (no imaging progression within 4 weeks, and not requiring corticosteroid treatment for at least 4 weeks before the first dose of the study drug) may be enrolled.\n4. Significant clinically significant cardiovascular diseases, including but not limited to:\n\n   1. Congestive heart failure (New York Heart Association \\[NYHA\\] class \\> II)\n   2. Myocardial infarction, unstable angina, severe pericardial disease, severe myocardial disease within the past 6 months\n   3. Need for treatment of valvular regurgitation or stenosis\n   4. Any supraventricular or ventricular arrhythmia requiring treatment or intervention; uncontrolled malignant arrhythmia; complete left bundle branch block, second- or third-degree atrioventricular block\n   5. QT interval (QTcF) \\>450 ms in males, \\>470 ms in females\n   6. Uncontrolled hypertension (defined as systolic blood pressure ≥160 mmHg or diastolic blood pressure ≥100 mmHg despite treatment with two or three antihypertensive agents)\n5. Any active autoimmune disease or history of autoimmune disease, including but not limited to immunologically related neurological diseases, multiple sclerosis, autoimmune (demyelinating) neuropathy, Guillain-Barré syndrome, myasthenia gravis, systemic lupus erythematosus, connective tissue disease, scleroderma, autoimmune hepatitis, toxic epidermal necrolysis, or Stevens-Johnson syndrome (except for type 1 diabetes mellitus on a stable dose of insulin, hypothyroidism on stable hormone replacement therapy, etc.).\n6. Any uncontrolled clinical disease (e.g., respiratory, circulatory, neurological, hematological, genitourinary, endocrine system diseases) or psychiatric disease (e.g., depression, schizophrenia) or other major illness, as judged by the investigator to interfere with providing informed consent, interpretation of trial results, participation in the trial posing risks to the participant, or otherwise affecting the achievement of trial objectives, including uncontrolled pleural effusion, pericardial effusion, or ascites as judged by the investigator.\n7. Known history of interstitial pneumonia or high suspicion of interstitial pneumonia; or presence of pulmonary abnormalities that may interfere with the detection or management of suspected drug-related pulmonary toxicity during the trial.\n8. Any abnormality at the injection site that, as judged by the investigator, would hinder observation of local reactions at the injection site.\n9. Presence of contraindications to intramuscular injection.\n10. Received any antitumor therapy (including chemotherapy, targeted therapy, immunotherapy, etc.) or participated in another drug or device clinical trial within 4 weeks or 5 half-lives (whichever is shorter) prior to the first dose; received traditional Chinese medicine or patent Chinese medicine with clear antitumor indications within 2 weeks prior to the first dose.\n11. Previous antitumor treatment-related adverse events that have not recovered to ≤ grade 1 according to CTCAE, except for toxicities judged by the investigator to have no safety risk, such as alopecia, grade 2 peripheral neurotoxicity, hypothyroidism stabilized by hormone replacement therapy, etc.\n12. Prior organ transplantation or allogeneic hematopoietic stem cell transplantation.\n13. Use of corticosteroids (\\>10 mg/day prednisone or equivalent other glucocorticoids) or other immunosuppressants for systemic treatment within 14 days prior to the first dose of the vaccine. Inhaled or topical steroids and adrenal hormone replacement at doses ≤10 mg/day prednisone are allowed in the absence of active autoimmune disease.\n14. Received live/attenuated live/inactivated vaccines within 4 weeks prior to the first dose of the vaccine.\n15. Prior receipt of a therapeutic tumor vaccine targeting the same antigen.\n16. Bleeding disorders (e.g., coagulation factor deficiency, coagulation dysfunction \\[as judged by the investigator to be unsuitable for enrollment\\]), or a history of significant bruising or bleeding after injection or blood draw.\n17. Blood donation or significant blood loss (\\>450 mL) within 3 months prior to screening, or planned blood or blood component donation during the study period.\n18. Major surgery within 4 weeks prior to screening (minor procedures such as catheter placement and biopsy required by the protocol are not exclusionary), or unresolved effects of surgery or trauma within 14 days prior to enrollment.\n19. History of substance abuse or known medical, psychological, or social conditions, such as alcoholism or drug addiction.\n20. Positive human immunodeficiency virus antibody test result, active syphilis (defined as positive syphilis antibody test and positive reagin test), active hepatitis B (defined as hepatitis B virus \\[HBV\\] DNA ≥2000 IU/mL), or active hepatitis C (defined as hepatitis C virus \\[HCV\\] RNA test positive).\n21. Active tuberculosis (TB) (patients suspected of having active TB require further consultation with the infectious disease department for definitive diagnosis) or history of active TB; or severe acute or chronic infection requiring systemic treatment.\n22. Pregnant or breastfeeding women.\n23. Any other condition deemed by the investigator to make the participant unsuitable for participation in this trial.",
+     "healthyVolunteers": false,
+     "sex": "ALL",

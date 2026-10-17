@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-17T19:16:05.533Z",
+  "success": true,
+  "productionBranch": "main",
+  "canonical": {
+    "id": "e32dcbfd-60e3-4b4b-a795-72f1b41a67cf",
+    "url": "https://e32dcbfd.leptotrials.pages.dev",
+    "stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-08T00:38:34.140523Z",
+      "status": "success"
+    },
+    "trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "main",
+        "commit_hash": "e3116e01bafdff2f0b14449e3d38440a4bab1041",
+        "commit_message": "Standardize LeptoTrials wordmark colors",
+        "commit_dirty": true
+      }
+    }
+  }
+}

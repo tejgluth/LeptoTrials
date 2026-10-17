@@ -1,0 +1,7 @@
+
+> leptotrials@1.0.0 export:audit-universe
+> npx tsx scripts/export-audit-universe.ts
+
+Raw universe: 417
+App display universe: 311
+Wrote audit files to /private/tmp/lm-weekly-audit-20261017/audit/manual-review

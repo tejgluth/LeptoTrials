@@ -1,0 +1,217 @@
+NCT03025269 Ocrelizumab Effects on Physiological and Cognitive Changes in Multiple Sclerosis
+Conditions: Multiple Sclerosis
+detailedDescription: ncluding 50 MS patients, the investigators found that the presence of leptomeningeal (LM) contrast enhancement (CE) was associated with progression of cortical atrophy over 5 years, as measured by the loss of cortical volume, in patients with MS. About 40% of relapsing-remitting MS (RRMS) patients presented
+criteria: Inclusion Criteria:
+criteria: * None of the exclusion criteria
+criteria: Exclusion Criteria:
+
+NCT03075072 Hippocampal Sparing Whole Brain Radiation Versus Stereotactic Radiation in Patients With 5-20 Brain Metastases: A Phase III, Randomized Trial
+Prior: False Widespread LM is excluded; no explicit remaining eligible LM path is established.
+Conditions: Brain Metastases
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Participants with widespread, definitive leptomeningeal disease
+
+NCT03092817 Adjunctive Corticosteroids for Tuberculous Meningitis in HIV-infected Adults (The ACT HIV Trial)
+Conditions: Tuberculosis, Tuberculous Meningitis, Drug-Induced Liver Injury, HIV, IRIS
+briefSummary: ive dexamethasone in the initial (6-8 weeks) treatment of tuberculous meningitis in Vietnamese adults. The trial will address a primary hypothesis in all enrolled patients, and a secondary hypothesis in a sub-group of enrolled patients who develop anti-tuberculosis drug-induced liver injury (DILI). The primar
+detailedDescription: lly, around 0.4 million of whom are co-infected with HIV. Tuberculous meningitis (TBM) is the most severe form of tuberculosis, killing around 30% of all sufferers despite appropriate anti-tuberculosis chemotherapy. It is especially common in young children, and in those infected with HIV.  There is a longsta
+detailedDescription: ent trial of adjunctive dexamethasone for HIV-associated cryptococcal meningitis performed in Southeast Asia and Africa found dexamethasone was associated with worse outcomes, with increased risk of secondary infections, hyperglycaemia and electrolyte abnormalities, and disability.  On the basis of these limi
+criteria: Inclusion Criteria:
+criteria: * Clinical diagnosis of TBM (≥5 days of meningitis symptoms, and CSF abnormalities) and anti-tuberculosis chemotherapy either planned or started by the attending physician
+criteria: Exclusion Criteria:
+
+NCT03100006 Phase Ib/IIa Trial to Evaluate Oregovomab and Nivolumab in Epithelial Cancer of Ovarian, Tubal or Peritoneal Origin
+Conditions: Epithelial Ovarian Cancer
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 1. Cancer-specific Exclusions
+criteria:    * Leptomeningeal carcinomatosis
+criteria: 2. General Medical Exclusions
+criteria: 3. Exclusions Related to Investigational Products
+criteria: 4. Other Exclusions Criteria
+
+NCT03100786 Leukotriene A4 Hydrolase Stratified Trial of Adjunctive Corticosteroids for HIV-uninfected Adults With Tuberculous Meningitis
+Conditions: Tuberculosis, Tuberculous Meningitis, Drug-Induced Liver Injury
+criteria: Inclusion Criteria:
+criteria: * Clinical diagnosis of TBM (≥5 days of meningitis symptoms, and CSF abnormalities) and anti-tuberculosis chemotherapy either planned or started by the attending physician
+criteria: Exclusion Criteria:
+
+NCT03163368 Dose Escalation Trial of Neoadjuvant Radiosurgery for the Treatment of Metastatic Brain Tumors
+Conditions: Brain Metastases
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Radiographic or cytologic evidence of leptomeningeal disease.
+
+NCT03210662 Pembrolizumab and External Beam Radiation Therapy in Treating Patients With Relapsed or Refractory Non-Hodgkin Lymphoma
+Prior: None Unreviewed
+Conditions: Primary Mediastinal (Thymic) Large B-Cell Lymphoma, Recurrent Aggressive Non-Hodgkin Lymphoma, Recurrent Mature T- Cell and NK-Cell Non-Hodgkin Lymphoma, Recurrent Non-Hodgkin Lymphoma, Recurrent T-Cell Non-Hodgkin Lymph…
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Has known active central nervous system (CNS) lymphoma or lymphomatous meningitis. Subjects with previously treated brain metastases may participate provided they are stable (without evidence of progression by imaging for at least four weeks prior to the first dose of trial treatment and any neurologic symptoms have returned to baseline), have no evidence of new or enlarging brain metastases, and are not using steroids for at least 7 days prior to trial treatment
+
+NCT03213652 Ensartinib in Treating Patients With Relapsed or Refractory Advanced Solid Tumors, Non-Hodgkin Lymphoma, or Histiocytic Disorders With ALK or ROS1 Genomic Alterations (A Pediatric MATCH Treatment Trial)
+Prior: False Non-RECIST-measurable leptomeningeal lesions do not qualify as measurable disease; this measurement restriction alone does not explicitly establish an eligible LM cohort in the mixed Pediatric MATCH population. Conservatively exclude unsupported inclusion.
+Conditions: Advanced Malignant Solid Neoplasm, Malignant Solid Neoplasm, Recurrent Ependymoma, Recurrent Ewing Sarcoma/Peripheral Primitive Neuroectodermal Tumor, Recurrent Hepatoblastoma, Recurrent Langerhans Cell Histiocytosis, Re…
+criteria: Inclusion Criteria:
+criteria:     * Leptomeningeal lesions that do not meet the measurement requirements for Response Evaluation Criteria in Solid Tumors (RECIST) 1.1
+criteria: Exclusion Criteria:
+
+NCT03215095 RAI Plus Immunotherapy for Recurrent/Metastatic Thyroid Cancers
+Prior: None Unreviewed
+Conditions: Thyroid Cancer
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Symptomatic brain metasteses, leptomeningeal carcinomatosis, or spinal cord compression (treated metastatic brain, leptomeningeal carcinomatosis, or spinal cord compression are allowed). Note: Patients must be off steroids used for brain metasteses, leptomeningeal carcinomatosis, or spinal cord compression.
+
+NCT03226119 MP Diagnostics HTLV Blot 2.4 Post-Market Clinical Study
+Conditions: HTLV-I Infections, HTLV-II Infections, Human T-lymphotropic Virus 1, Human T-lymphotropic Virus 2, HTLV I Associated T Cell Leukemia Lymphoma, HTLV I Associated Myelopathies
+criteria: Inclusion Criteria:
+criteria: * Meningitis
+criteria: Exclusion Criteria:
+arms: matory Demyelinating Polyneuropathy (CIDP), Dermatomyositis, HAM-TSP, Meningitis, Mild Cognitive Impairment, Multiple Sclerosis, Polymyositis, Spastic Paraparesis, Sciatica", "interventionNames": ["Diagnostic Test: MP Diagnostics HTLV Blot 2.4"]}], "interventions": [{"type": "DIAGNOSTIC_TEST", "name": "MP Dia
+
+NCT03234855 Laparoscopic Measuring Device Study
+Conditions: Physician Feedback
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+arms: {"armGroups": [{"label": "LMD", "description": "Physician uses LMD during procedure.", "interventionNames": ["Device: LMD"]}], "interventions": [{"type": "DEVICE", "name": "LMD", "description": "Physician uses LMD to measure defect during procedure.", "armGro
+arms: {"armGroups": [{"label": "LMD", "description": "Physician uses LMD during procedure.", "interventionNames": ["Device: LMD"]}], "interventions": [{"type": "DEVICE", "name": "LMD", "description": "Physician uses LMD to measure defect during procedure.", "armGroupLabels": ["LMD"]}]}
+
+NCT03262246 Cerebral Infarction and White Substance in Angiopathy Cerebral Amyloid
+Conditions: Amyloid Angiopathy
+briefSummary: lls of the arteries of young and average calibre of the brain and the leptomeninx. The incidence of the AAC increases strongly with the age and represents a major cause of spontaneous brain haemorrhage to people over 60. The main demonstration is the lobar brain haemorrhage, the other ones are bleedings und
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT03267407 Vietnam Cryptococcal Retention in Care Study - Version 2.1
+Conditions: HIV/AIDS, Cryptococcal Meningitis, Opportunistic Infections, HIV Related, Cryptococcosis, Mycosis; Opportunistic, Mycosis Fungoides
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+arms: ) and CM(-)", "description": "(1) Patients with CrAg positive without meningitis results will receive preemptive high-dose fluconazole to prevent developing meningitis.", "interventionNames": ["Other: Preemptive high-dose Fluconazole"]}, {"label": "CrAg(+) and CM(+)", "description": "(2) Patients with CrAg po
+arms: s will receive preemptive high-dose fluconazole to prevent developing meningitis.", "interventionNames": ["Other: Preemptive high-dose Fluconazole"]}, {"label": "CrAg(+) and CM(+)", "description": "(2) Patients with CrAg positive and meningitis results will receive standard treatment for cryptococcal meningit
+
+NCT03283137 Combination of Pembrolizumab With TGR-1202 in Patients With Relapsed/Refractory CLL and B-cell NHL
+Prior: None Unreviewed
+Conditions: CLL, B-cell Non Hodgkin Lymphoma
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Has known active central nervous system (CNS) disease and/or lymphomatous involvement. Subjects with previously treated CNS lymphoma and/or lymphomatous meningitis may participate provided they are stable (without evidence of progression by imaging for at least four weeks prior to the first dose of trial treatment and any neurologic symptoms have returned to baseline), have no evidence of new or enlarging brain metastases, and are not using steroids for at least 7 days prior to trial treatment Note: Seasonal influenza vaccines for injection are generally inactivated flu vaccines and are allowed; however intranasal influenza vaccines (e.g., Flu-Mist®) are live attenuated vaccines, and are not allowed.
+
+NCT03368625 A Study of Neoadjuvant Stereotactic Radiosurgery for Large Brain Metastases
+Prior: False Widespread LM is excluded; no explicit remaining eligible LM path is established.
+Conditions: Brain Metastases
+detailedDescription: year LC was 86%. This neoadjuvant approach resulted in lower rates of leptomeningeal failure (3 vs. 17%) and symptomatic radiation toxicity (1.5 vs. 14.6 %) compared to a comparative cohort of lesions treated with post-operative cavity boost SRS (POCBS).  Based on promising results, we believe that a prospe
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria:   * Widespread definitive leptomeningeal metastasis.
+
+NCT03379428 Trial of Ibrutinib Plus Trastuzumab in HER2-amplified Metastatic Breast Cancer
+Conditions: Breast Neoplasms, Malignant Neoplasm of Breast
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * 1\. Uncontrolled or untreated central nervous system metastases, defined as clinical or radiologic evidence of progression of brain metastases or clinical signs of leptomeningeal disease
+criteria: * 7\. Unresolved toxicities from prior anti-cancer therapy, defined as having not resolved to Common Terminology Criteria for Adverse Event (CTCAE, version 4), grade 0 or 1, or to the levels dictated in the inclusion/exclusion criteria with the exception of alopecia.
+
+NCT03391362 Stereotactic Radiation in Patients With Small Cell Lung Cancer and 1-10 Brain Metastases
+Prior: False Widespread LM is excluded; no explicit remaining eligible LM path is established.
+Conditions: Brain Metastases, Small Cell Lung Cancer
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Participants with widespread, definitive leptomeningeal disease
+
+NCT03396822 Meningeal Inflammation on 7T MRI as a Tool for Measuring and Predicting Ocrelizumab Response in Multiple Sclerosis
+Conditions: Multiple Sclerosis
+briefSummary: ity of the nerve cells in the brain and can cause inflammation in the meninges (the protective tissue that surrounds the brain and spinal cord). Autopsy studies have shown that the inflammation seen in the meninges is driven by a B-cells, a subset of white blood cells and that meningeal inflammation may be 
+briefSummary: l cord). Autopsy studies have shown that the inflammation seen in the meninges is driven by a B-cells, a subset of white blood cells and that meningeal inflammation may be responsible for damage to the gray matter of the brain.  Ocrelizumab is a new treatment for multiple sclerosis. This medication works by
+detailedDescription: image will be reviewed on anatomical images, and marked as regions of leptomeningeal enhancement if they have an amorphous appearance and are present in the leptomeningeal space.  Participants who are found to have leptomeningeal enhancement on their baseline scan will be considered as having passed screeni
+detailedDescription: hancement if they have an amorphous appearance and are present in the leptomeningeal space.  Participants who are found to have leptomeningeal enhancement on their baseline scan will be considered as having passed screening and will proceed with further study procedures. Those that do not have meningeal enh
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT03398694 Pre-operative Stereotactic Radiosurgery Followed by Resection for Patients With Brain Metastases
+Conditions: Brain Metastases
+detailedDescription: jectives  * Overall survival * Distant in-brain progression * Rate of leptomeningeal spread * Rate of radiation necrosis
+criteria: Inclusion Criteria
+criteria: Exclusion Criteria
+criteria: 6. Patients with leptomeningeal metastases documented by MRI or CSF evaluation
+
+NCT03401853 Pembrolizumab With Rituximab or Obinutuzumab in Treating Patients With Relapsed or Refractory Follicular Lymphoma or Diffuse Large B Cell Lymphoma
+Prior: None Unreviewed
+Conditions: Recurrent Diffuse Large B-Cell Lymphoma, Recurrent Follicular Lymphoma, Refractory Diffuse Large B-Cell Lymphoma, Refractory Follicular Lymphoma
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Has known active central nervous system (CNS) metastases and/or lymphomatous meningitis; subjects with previously treated brain metastases or lymphomatous meningitis may participate provided they are stable (without evidence of progression by imaging for at least four weeks prior to the first dose of trial treatment and any neurologic symptoms have returned to baseline), have no evidence of new or enlarging brain metastases, and are not using steroids for at least 7 days prior to trial treatment
+
+NCT03417895 SHR-1210 Combined With Apatinib in Treatment of ED-SCLC After Failure of First Line Standard Therapy
+Conditions: Small-cell Lung Cancer
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 4. Active brain metastasis or meningeal metastasis.
+
+NCT03473574 Durvalumab and Tremelimumab With Gemcitabine or Gemcitabine/Cisplatin Compared to Gemcitabine/Cisplatin in CCA Patients
+Conditions: Cholangiocarcinoma, Gall Bladder Carcinoma, Cholangiocarcinoma Non-resectable, Gallbladder Carcinoma Non-Resectable
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 5. Any unresolved toxicity NCI CTCAE Grade ≥ 2 from previous anticancer therapy with the exception of alopecia, vitiligo, and the laboratory values defined in the inclusion criteria
+criteria: 13. History of leptomeningeal carcinomatosis
+
+NCT03497767 A Randomised Phase II Trial of Osimertinib With or Without SRS for EGFR Mutated NSCLC With Brain Metastases
+Conditions: Metastatic Non Small Cell Lung Cancer
+briefSummary: nib has demonstrated intracranial activity in EFGR mutated NSCLC with leptomeningeal disease in the phase 1 BLOOM study. Stereotactic radiosurgery (SRS) is one of the standard local treatment for patients with limited number of brain metastases. Currently, it is unclear whether adding SRS to Osimertinib wil
+criteria: Inclusion Criteria:
+criteria: Exclusion criteria:
+criteria:    6. Major surgery within 4 weeks of randomisation (excluding placement of vascular access and surgery as part of local practice for the management of brain metastases, as outlined in inclusion criterion 5).
+criteria: 4. Leptomeningeal disease.
+
+NCT03502746 Phase II Nivolumab and Ramucirumab for Patients With Previously-Treated Mesothelioma
+Prior: None Unreviewed
+Conditions: Mesothelioma, Malignant
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Active brain metastases or carcinomatous meningitis. Subjects with neurological symptoms must undergo a head CT scan or brain MRI to exclude brain metastasis. Subjects with previously treated brain metastases may participate provided they are stable (without evidence of progression by imaging for at least four weeks prior to the first dose of study drugs and any neurologic symptoms have returned to baseline), have no evidence of new or enlarging brain metastases, and are not using steroids for at least 14 days prior to study registration. This exception does not include carcinomatous meningitis, which is excluded regardless of clinical stability.
+
+NCT03508752 Neurocognitive Decline in Patients With Brain Metastases
+Conditions: Brain Metastases
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 2. Patients with leptomeningeal metastasis. (NOTE: For the purposes of exclusion, LMD is a clinical diagnosis, defined as positive CSF cytology and/or equivocal radiologic or clinical evidence of leptomeningeal involvement. Patients with leptomeningeal symptoms in the setting of leptomeningeal enhancement by imaging (MRI) would be considered to have LMD even in the absence of positive CSF cytology, unless a parenchymal lesion can adequately explain the neurologic symptoms and/or signs. In contrast, an asymptomatic or minimally symptomatic patient with mild or nonspecific leptomeningeal enhancement (MRI) would not be considered to have LMD. In that patient, CSF sampling is not required to formally exclude LMD, but can be performed at the investigator's discretion based on level of clinical suspicion.)
+
+NCT03526224 Teriflunomide Tecfidera LMCE
+Conditions: Tecfidera, Teriflunomide
+briefSummary: t of teriflunomide in reducing cortical gray matter (CGM) atrophy and leptomeningeal (LM) inflammation over 24 months compared to dimethyl fumarate (Tecfidera®)
+criteria: Inclusion Criteria:
+criteria: * Treated with 14mg of teriflunomide ≥ 3 months or with 240mg of dimethyl fumarate ≥ 3 months to meet inclusion, reflective of recommended dosing on the package label
+criteria: * None of the exclusion criteria
+criteria: Exclusion Criteria:
+
+NCT03550391 Stereotactic Radiosurgery Compared With Hippocampal-Avoidant Whole Brain Radiotherapy (HA-WBRT) Plus Memantine for 5 or More Brain Metastases
+Conditions: Brain Metastases
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Widespread definitive leptomeningeal metastasis. This includes cranial nerve palsy, leptomeningeal carcinomatosis, ependymal involvement, cranial nerve involvement on imaging, suspicious linear meningeal enhancement, or cerebrospinal fluid (CSF) positive for tumour cells.
+
+NCT03591757 Short-term Effects of TOLCAPONE on Transthyretin Stability in Subjects With Leptomeningeal TTR Amyloidosis (ATTR)
+Conditions: Transthyretin Amyloidosis, Amyloidosis, Leptomeningeal, Transthyretin-Related
+briefSummary: into the fluid around the brain and stabilizes the protein that makes leptomeningeal amyloid. Tolcapone is a commercially available generic drug that treats Parkinson's disease.  The Investigator plans to evaluate Tolcapone as a treatment for ATTR (Transthyretin Amyloidosis), a rare genetic disease often ca
+detailedDescription: n) in the plasma and CSF of symptomatic or asymptomatic patients with leptomeningeal ATTR. Additionally the study will determine the plasma and CSF concentrations of TOLCAPONE needed to induce maximal stabilization of TTR across different TTR variants (TTR mutations).  The study will be carried out in two d
+detailedDescription: TTR variant expressed:  * Mutant TTR (up to 10 subjects): symptomatic leptomeningeal TTR patient with any documented leptomeningeal mutations in the TTR gene. * Mutant TTR (remaining subjects up to 10): asymptomatic leptomeningeal TTR patient with any documented leptomeningeal mutation in the TTR gene.  TTR
+criteria: Inclusion Criteria:
+criteria: * Documented CNS manifestation or expression of variant TTR with leptomeningeal potential
+criteria: Exclusion Criteria:
+
+NCT03608020 A Trial for Treatment of Cancer Patients With Multiple Brain Metastases Undergoing Whole-Brain Radiotherapy
+Conditions: Multiple Brain Metastases
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Pregnancy or women of childbearing potential and men who are sexually active and not willing/able to use medically acceptable forms of contraception; this exclusion is necessary because the treatment involved in this study may be significantly teratogenic
+criteria: * Patients with diffuse leptomeningeal disease (carcinomatous meningitis)
+
+NCT03633110 Safety, Tolerability, Immunogenicity, and Antitumor Activity of GEN-009 Adjuvanted Vaccine
+Conditions: Cutaneous Melanoma, Non-small Cell Lung Cancer, Squamous Cell Carcinoma of the Head and Neck, Urothelial Carcinoma, Renal Cell Carcinoma
+criteria: General Inclusion Criteria:
+criteria: Part A-specific Inclusion:
+criteria: Part B-specific Inclusion:
+criteria: General Exclusion Criteria:
+criteria: * History of leptomeningeal carcinomatosis
+criteria: Part A-specific Exclusion Criteria:

@@ -1,0 +1,85 @@
+{
+  "runAt": "2026-10-17T19:20:14.249834+00:00",
+  "automationId": "weekly-lm-trial-audit",
+  "outcome": "Blocked by operational access or failed verification",
+  "requestedCheckout": "/Users/speakeasy/Projects/websites/Leptomeningeal",
+  "isolatedWorktree": "/private/tmp/lm-weekly-audit-20261017",
+  "startingCommit": "763d9e3720ebf4af22d594310f059d7ba6a6f278",
+  "requestedCheckoutStartingCommit": "e3116e01bafdff2f0b14449e3d38440a4bab1041",
+  "originMain": "8a2e4260068cda10a99335c22b6387a0bea4a424",
+  "lastSuccessfulSourceAudit": "2026-10-10",
+  "productionDeployment": "e32dcbfd-60e3-4b4b-a795-72f1b41a67cf",
+  "productionCommitDirty": true,
+  "counts": {
+    "productionDisplayedBefore": 237,
+    "productionDisplayedAfter": 237,
+    "candidateBefore": 311,
+    "candidateAfter": 320,
+    "candidateSelectableBefore": 309,
+    "candidateSelectableAfter": 318,
+    "candidateDefaultAfter": 155,
+    "expandedCandidatesScreened": 570,
+    "officialRecordsScreened": 744,
+    "nonDisplayedSignalReviewPackets": 197,
+    "independentApiUnique": 529,
+    "independentWebUnique": 82,
+    "independentUnionUnique": 587,
+    "independentOutsideExpanded": 69,
+    "updatedDisplayedCandidate": 10,
+    "updatedDisplayedProduction": 3,
+    "additions": 10,
+    "removals": 1,
+    "bucketReclassifications": 1,
+    "conservativeExclusions": 25,
+    "allExcludedSourceRecords": 424,
+    "ageCorrections": 2,
+    "cumulativeProductionProposedAdditions": 83,
+    "cumulativeProductionProposedRemovals": 2,
+    "cumulativeProductionProposedBucketChanges": 13
+  },
+  "checks": {
+    "baselineTests": 161,
+    "finalTests": 188,
+    "lint": "pass",
+    "build": "pass",
+    "matrixScenarios": 46656,
+    "liveComparisons": 17,
+    "mismatches": 0,
+    "reviewedOverrideEntries": 387,
+    "browserIndependentProfiles": 11,
+    "pass1RefetchRecords": 99,
+    "additionalAgeRefetchRecords": 2,
+    "sourceRequestsUnresolved": 0,
+    "releaseCompatibility": "FAIL"
+  },
+  "assets": [
+    {
+      "path": "dist/assets/AnalyticsDashboard-DM7zS2vA.js",
+      "sha256": "b8ee85d3a90240fbe5bfecdad05102f7063752c09316bb8053d874caa5f0f56d"
+    },
+    {
+      "path": "dist/assets/SuggestTrial-CkXMk6V2.js",
+      "sha256": "4248b799132f7ac16cac443b2886f49f8896de813d751defab485ee7b9036712"
+    },
+    {
+      "path": "dist/assets/index-C659fkGS.css",
+      "sha256": "47571e0525a79055d7221c843200b934b9642bd25824685351ed2251a98d440e"
+    },
+    {
+      "path": "dist/assets/index-DuEYtwrY.js",
+      "sha256": "771de37f0a141d85cc2fdd8c371e682c5e57cfa8a2e9debc74071d15b23bfa91"
+    },
+    {
+      "path": "dist/assets/trialSuggestion-C2zoR7xO.js",
+      "sha256": "768fb6e7c558bec475c47a010d6422aee2d4078a4aadfe7a219fb09b9d217438"
+    }
+  ],
+  "release": {
+    "pr": "https://github.com/tejgluth/LeptoTrials/pull/2",
+    "applicationCommit": null,
+    "merged": false,
+    "productionDeployed": false,
+    "rollbackAttempted": false,
+    "databaseMigrationsApplied": false
+  }
+}

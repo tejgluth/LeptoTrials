@@ -1,0 +1,112 @@
+NCT07511725 Prophylactic Regimen With Intrathecal Thiotepa in SVZ-positive or Meningeal-risk Glioblastoma
+Conditions: Glioblastoma (GBM)
+briefSummary: herapy (thiotepa) to the standard Stupp regimen can lower the risk of leptomeningeal metastasis (LM) and extend survival in patients with newly diagnosed glioblastoma (GBM) whose tumors touch the sub-ventricular zone (SVZ+) or whose surgery accidentally opened the ventricle (VE). The main questions it aims 
+detailedDescription: d, WHO grade 4 IDH-wildtype glioblastoma who are at very high risk of leptomeningeal seeding. Risk is defined as:  1. pre-operative MRI showing tumor in direct contact with the sub-ventricular zone (SVZ+), or 2. intra-operative cerebrospinal-fluid leak (ventricular entry, VE) documented in the surgical note
+detailedDescription: penetrates the pia-glial barrier, and has documented activity against meningeal glioma deposits with lower neuro-toxicity than methotrexate. Delivering thiotepa while the circulating tumor cell burden is still minimal ("adjuvant to adjuvant therapy") is therefore mechanistically attractive.
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT07545889 Multicenter Prospective Study Analyzing the Occurrence of Multiple Sclerosis Relapses Without Radiological Evidence: Myth or Reality?
+Conditions: Multiple Sclerosis, RRMS, Multiple Sclerosis (MS) - Relapsing-remitting
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Corticosteroid bolus or plasma exchange in the month preceding inclusion.
+criteria: * Patient participating in another interventional study or still within an exclusion period.
+arms: aramagnetic rim lesions and post-gadolinium FLAIR sequences to detect leptomeningeal enhancement.", "armGroupLabels": ["RRMS Patients with Acute Neurological Exacerbations"]}, {"type": "DIAGNOSTIC_TEST", "name": "Biomarker Assessment", "description": "Routine blood and urine tests, including CRP, blood coun
+
+NCT07552233 NK Cell Therapy for Malignant Solid Brain Tumors
+Conditions: Malignant Solid Brain Tumors, Glioblastoma (GBM), Glioblastoma Multiforme (GBM), Brain Metastasis, Malignant Meningioma
+criteria: Inclusion Criteria:
+criteria: 11. Absence of positive blood cultures for bacteria, fungus, or virus within 48-hours prior to NK cell infusion and/or there aren't any indications of meningitis
+criteria: Exclusion Criteria:
+
+NCT07566052 A Study to Compare Setidegrasib (ASP3082) With Docetaxel, in People With Non-small Cell Lung Cancer With a KRAS G12D Mutation
+Conditions: Non-small Cell Lung Cancer (NSCLC)
+briefSummary:  has spread to the thin tissue that covers the brain and spinal cord (leptomeningeal disease), or they have recently had other active cancers that required treatment.  In this study, people will either receive setidegrasib or docetaxel. Whether people receive setidegrasib or docetaxel is decided by chance, 
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Participant has leptomeningeal disease as a manifestation of the current malignancy.
+criteria: * Participant has received therapeutic or palliative radiation therapy within 14 days prior to randomization (see first Exclusion Criteria for CNS metastases); participant must have recovered from all radiotherapy related toxicity to ≤ grade 1, with the exception of alopecia (any grade of alopecia allowed).
+
+NCT07631793 Phase I Clinical Trial of YKYY031 for Injection in Patients With Advanced Solid Tumors
+Conditions: Malignant Neoplasms
+criteria: Inclusion criteria： Participants meeting all the following criteria may be enrolled
+criteria: Exclusion Criteria:
+criteria: 3. Symptomatic central nervous system metastasis or meningeal metastasis, or other evidence indicating uncontrolled central nervous system metastasis or meningeal metastasis, as judged by the investigator to be unsuitable for enrollment. Patients with stable brain metastases (no imaging progression within 4 weeks, and not requiring corticosteroid treatment for at least 4 weeks before the first dose of the study drug) may be enrolled.
+criteria: 18. Major surgery within 4 weeks prior to screening (minor procedures such as catheter placement and biopsy required by the protocol are not exclusionary), or unresolved effects of surgery or trauma within 14 days prior to enrollment.
+
+NCT07638774 The Efficacy of Compression/Ice Gloves/Socks in Patients With UTD1-induced Neuropathy.
+Conditions: Locally Advanced or Metastatic Breast Cancer
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 3. Patients with leptomeningeal metastases, symptomatic brain metastases, spinal cord compression, or brain or leptomeningeal disease detected on imaging at screening (patients who had completed local brain therapy 21 days before treatment and had stable symptoms and no cerebral hemorrhage confirmed by imaging were eligible).
+
+NCT07653893 A Phase II Observational Clinical Study on the Relationship Between Cerebrospinal Fluid Drug Concentration and Efficacy of Trastuzumab Deruxtecan in Central Nervous System Metastatic Breast Cancer
+Conditions: Central Nervous System (CNS) Metastases, Breast Cancer
+briefSummary: nervous system metastatic breast cancer, and explore the incidence of leptomeningeal metastases diagnosed via lumbar puncture in patients with brain parenchymal metastases, facilitate early intervention to improve prognosis.
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT07669272 Deep Cervical Lymphovenous Anastomosis for Severe Alzheimer's Disease
+Conditions: Alzheimer s Disease
+briefSummary: drugs cannot reverse disease progression. Brain glymphatic system and meningeal lymphatic dysfunction lead to impaired clearance of Aβ and Tau protein, which is an important pathogenesis of AD. Deep cervical lymphovenous anastomosis (DCLVA) can improve intracranial lymphatic drainage, promote the clearance o
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT07684287 A Phase 2 Study of Sirolimus for Injection (Albumin-bound) in Patients With Progressive or Symptomatic Epithelioid Hemangioendothelioma
+Conditions: Epithelioid Hemangioendothelioma
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 11. Have clinically symptomatic central nervous system (CNS) metastases or leptomeningeal metastases, or have evidence of uncontrolled CNS/leptomeningeal metastases, and are deemed ineligible for enrollment by the investigator.
+
+NCT07744256 Adaptive Phase 1/2 Study of Dual-Target CAR-NK Cells in Relapsed/Refractory Small Cell Lung Cancer (SCLC)
+Conditions: Small Cell Lung Cancer (SCLC), Relapsed/Refractory SCLC, Extensive-stage SCLC
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Active or uncontrolled CNS metastases or leptomeningeal disease (treated/stable CNS metastases may be allowed per protocol).
+
+NCT07757113 Comparative Study of Embolic Agents in Patients With Subdural Hemorrhage Undergoing Middle Meningeal Artery (MMA) Embolization
+Conditions: Chronic Subdural Hematoma, Stroke, Middle Meningeal Artery Embolization
+criteria: Inclusion Criteria:
+criteria: * Undergoing Middle Meningeal Artery Embolization (MMAE) for chronic subdural hematoma (cSDH)
+criteria: Exclusion Criteria:
+criteria: * Non-chronic subdural hematoma (cSDH) indications for Middle Meningeal Artery Embolization (MMAE), including acute subdural hematoma with symptom onset \< 72 hours or mixed acute/chronic without predominant chronic features
+
+NCT07783659 Zotatifin And EIF4A Platinum Helix Inhibition In Resistant AdvancedTNBC
+Conditions: Phase IB, Zotatifin, EIF4A, Advanced TNBC, Platinum Helix Inhibition
+criteria: Inclusion Criteria
+criteria: 11. Subjects of childbearing potential must be willing to use highly effective birth control methods or be surgically sterile or abstain from heterosexual activity for the course of the study. Women must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. This includes all female participant s, between the onset of menses (as early as 8 years of age) and 55 years unless the participant presents with an applicable exclusionary factor which may be one of the following:
+criteria: Exclusion Criteria
+criteria: 15. Participant s with known leptomeningeal disease, defined as unequivocal imaging or cytology-proven disease.
+
+NCT07798921 JIN-A02 Plus Amivantamab in EGFR-Mutant NSCLC After Third-Generation EGFR-TKI Failure
+Conditions: Carcinoma, Non-Small-Cell Lung
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 2. Subjects with uncontrolled symptomatic spinal cord compression or central nervous system (CNS) metastases; subjects requiring an increase in corticosteroid dose within 28 days before study initiation for the treatment of CNS disease; subjects requiring local treatment for CNS disease; or subjects with leptomeningeal disease. However, subjects whose condition remains stable or who are systemically asymptomatic at least 2 weeks after gamma knife treatment or at least 4 weeks after whole-brain irradiation may be eligible to participate in the study.
+
+NCT07802353 A Study of Stereotactic Radiosurgery (SRS) in People With Brain Cancer Having Tumor Resection Surgery
+Conditions: Brain Metastasases
+criteria: Inclusion Criteria:
+criteria: * No evidence of leptomeningeal disease based on clinical symptoms, MRI imaging of the brain or spinal cord, and/or lumbar puncture cytologic analysis.
+criteria: Exclusion Criteria:
+
+NCT07802652 Doxorubicin With or Without DT-7012 in Advanced Soft Tissue Sarcoma
+Conditions: Undifferentiated Pleomorphic Sarcoma (UPS), Dedifferentiated Liposarcoma (DDLPS)
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 15. Symptomatic, untreated, or unstable central nervous system metastases or leptomeningeal disease. Participants with previously treated CNS lesions may be eligible if clinically stable, off prohibited corticosteroids, and without evidence of progression according to Investigator assessment.
+
+NCT07806552 Middle Meningeal Artery Embolization in Patients With Chronic Subdural Hematoma
+Conditions: Middle Meningeal Artery Embolization, Chronic Subdural Hematomas
+detailedDescription: ible for recurrence rather than simply evacuating the hematoma.Middle meningeal artery embolization (MMAE) has recently emerged as a promising minimally invasive treatment for CSDH. The rationale for MMAE is based on occluding the vascular supply to the outer neomembrane of the hematoma, thereby reducing ong
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+arms: {"armGroups": [{"label": "Embolization of middle meningeal artery", "type": "EXPERIMENTAL", "interventionNames": ["Procedure: middle meningeal artery embolization"]}], "interventions": [{"type": "PROCEDURE", "name": "middle meningeal artery embolization", "description": "Middle meningeal
+arms: ry", "type": "EXPERIMENTAL", "interventionNames": ["Procedure: middle meningeal artery embolization"]}], "interventions": [{"type": "PROCEDURE", "name": "middle meningeal artery embolization", "description": "Middle meningeal artery (MMA) embolization is a minimally invasive endovascular procedure designed t
+
+NCT07842276 Utidelone Capsules Combined With Doxorubicin for Advanced Soft Tissue Sarcoma
+Conditions: Soft Tissue Sarcoma (STS), Utidelone, Doxorubicin
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 11. Participants with symptomatic/uncontrolled central nervous system metastases or leptomeningeal metastases, including but not limited to participants with confirmed progressive brain metastases on imaging 2 months after radiotherapy or other local therapies, or participants deemed ineligible for enrollment by the investigator.

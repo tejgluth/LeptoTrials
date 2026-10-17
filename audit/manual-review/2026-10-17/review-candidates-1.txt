@@ -1,0 +1,184 @@
+NCT00003406 Combination Chemotherapy Followed by Peripheral Stem Cell Transplantation in Treating Patients With Refractory Cancer
+Conditions: Chronic Myeloproliferative Disorders, Leukemia, Lymphoma, Multiple Myeloma and Plasma Cell Neoplasm, Myelodysplastic Syndromes, Precancerous/Nonmalignant Condition, Unspecified Adult Solid Tumor, Protocol Specific
+criteria: DISEASE CHARACTERISTICS: Histologically confirmed malignancy Malignant lymphoma - Non-Hodgkin's lymphoma Intermediate and high grade (aggressive) histology with primary refractory disease or relapsed following standard therapy - Hodgkin's disease Relapsed or refractory after 2 regimens of curative therapy - No CNS disease that has not responded to standard therapy prior to bone marrow transplantation Breast cancer Stage IV disease, refractory, or relapsed after doxorubicin based first line therapy Ovarian cancer Primary refractory disease or relapsed after first line chemotherapy Testicular cancer Relapsed or refractory disease after 2 regimens of chemotherapy Other malignancies Recurrent or refractory to standard chemotherapy regimens, but with documented responses to a minimum of 2 courses of a docetaxel based chemotherapy Must not be greater than 60 days past completion of adjuvant or induction therapy Prior history of cerebrospinal fluid (CSF) tumor involvement without symptoms or 
+
+NCT00005579 Dolastatin 10 in Treating Patients With Indolent Lymphoma, Waldenstrom's Macroglobulinemia, or Chronic Lymphocytic Leukemia
+Prior: None Unreviewed
+Conditions: Leukemia, Lymphoma
+criteria: * Lymphoma must be stage III, IV, or recurrent (no primary CNS lymphoma or lymphomatous meningitis)
+
+NCT00005818 SU5416 and Irinotecan in Treating Patients With Advanced Colorectal Cancer
+Conditions: Adenocarcinoma of the Colon, Adenocarcinoma of the Rectum, Recurrent Colon Cancer, Recurrent Rectal Cancer, Stage III Colon Cancer, Stage III Rectal Cancer, Stage IV Colon Cancer, Stage IV Rectal Cancer
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Patients with either a prior history of or clinically apparent central nervous system metastases or leptomeningeal carcinomatosis disease
+
+NCT00013533 Pilot Study of Non-Myeloablative, HLA-Matched Allogeneic Stem Cell Transplantation for Pediatric Hematopoietic Malignancies
+Conditions: Hodgkin Lymphoma, Lymphocytic Leukemia, Mixed Cell Leukemia, Myelodysplastic Syndrome, Non Hodgkin's Lymphoma, CML, ALL, AML, Lymphoma
+briefSummary: CHO  Exclusion Criteria  * Active CNS malignancy: Tumor mass on CT or leptomeningeal disease. (Patients with a history of CNS involvement and no current evidence of CNS disease are allowed.) * HIV infection, active hepatitis B or C infection: HbSAg or HCV seropositive and elevated liver transaminases. * Fan
+detailedDescription: CHO  Exclusion Criteria  * Active CNS malignancy: Tumor mass on CT or leptomeningeal disease. (Patients with a history of CNS involvement and no current evidence of CNS disease are allowed.) * HIV infection, active hepatitis B or C infection: HbSAg or HCV seropositive and elevated liver transaminases. * Fan
+criteria: * INCLUSION CRITERIA PATIENTS:
+criteria: Patients must not have an active CNS malignancy as defined by: lymphoma (tumor mass on CT scan or leptomeningeal disease), Leukemia (CNS 2 or CNS 3 classification), or NB (History of CNS involvement with no current evidence of CNS malignancy is NOT an exclusion).
+criteria: INCLUSION CRITERIA DONOR:
+criteria: * Lymphoma: tumor mass on CT scan or leptomeningeal disease
+criteria: * NB: History of CNS involvement with no current evidence of CNS malignancy is NOT an exclusion.
+criteria: EXCLUSION CRITERIA DONOR:
+
+NCT00025415 Imatinib Mesylate in Treating Patients With Advanced Cancer and Liver Dysfunction
+Conditions: Accelerated Phase Chronic Myelogenous Leukemia, Acute Undifferentiated Leukemia, AIDS-related Peripheral/Systemic Lymphoma, AIDS-related Primary CNS Lymphoma, Anaplastic Large Cell Lymphoma, Angioimmunoblastic T-cell Lym…
+criteria: Inclusion Criteria:
+
+NCT00037817 Phase I Study of Gene Induction Mediated by Sequential Decitabine/Depsipeptide Infusion With or Without Concurrent Celecoxib in Subjects With Pulmonary and Pleural Malignancies
+Conditions: Advanced Esophageal Cancers, Primary Small Cell Lung Cancers, Non-Small-Cell Lung Carcinoma, Pleural Mesotheliomas, Cancers of Non-thoracic Origin With Metastases to the Lungs or Pleura
+criteria: * INCLUSION CRITERIA:
+criteria: EXCLUSION CRITERIA:
+criteria: Patients with active intracranial and leptomeningeal metastases as well as those requiring anticonvulsant medications will be excluded.
+criteria: Cardiac exclusion criteria, patients with known cardiac abnormalities such as:
+
+NCT00042900 Pyroxamide in Treating Patients With Advanced Cancer
+Conditions: Chronic Myeloproliferative Disorders, Leukemia, Lymphoma, Multiple Myeloma and Plasma Cell Neoplasm, Myelodysplastic Syndromes, Precancerous Condition, Small Intestine Cancer, Unspecified Adult Solid Tumor, Protocol Spec…
+criteria: * No known carcinomatous meningitis, primary brain tumors, or metastatic brain disease
+
+NCT00045734 Imatinib Mesylate in Treating Patients With Recurrent Meningioma
+Conditions: Adult Grade I Meningioma, Adult Grade II Meningioma, Adult Grade III Meningioma, Adult Meningeal Hemangiopericytoma, Adult Meningioma, Recurrent Adult Brain Tumor
+criteria: Inclusion Criteria:
+
+NCT00068250 Combination Chemotherapy, Monoclonal Antibody, and Radiation Therapy in Treating Patients With Primary Central Nervous System Lymphoma
+Conditions: Brain and Central Nervous System Tumors, Lymphoma
+criteria: Inclusion criteria:
+criteria: Exclusion criteria:
+arms: um inter-fraction interval of 6 hours, with a total dose to brain and meninges of 36 Gy.", "armGroupLabels": ["Phase I: Temozolomide 100 mg", "Phase I: Temozolomide 150 mg", "Phase I: Temozolomide 200 mg", "Phase II: Temozolomide 100 mg"], "otherNames": ["radiotherapy"]}, {"type": "DRUG", "name": "post-radi
+
+NCT00096265 Radiation Therapy and Stereotactic Radiosurgery With or Without Temozolomide or Erlotinib in Treating Patients With Brain Metastases Secondary to Non-Small Cell Lung Cancer
+Conditions: Metastatic Malignant Neoplasm in the Brain, Recurrent Non-Small Cell Lung Carcinoma, Stage IV Non-Small Cell Lung Cancer AJCC v7
+criteria: Inclusion Criteria:
+criteria: * No leptomeningeal metastases by MRI or cerebrospinal fluid evaluation
+
+NCT00112593 Fludarabine and Total-Body Irradiation Followed By Donor Stem Cell Transplant and Cyclosporine and Mycophenolate Mofetil in Treating HIV-Positive Patients With or Without Cancer
+Conditions: Accelerated Phase Chronic Myelogenous Leukemia, Acute Undifferentiated Leukemia, Adult Acute Lymphoblastic Leukemia in Remission, Adult Acute Myeloid Leukemia in Remission, Adult Acute Myeloid Leukemia With 11q23 (MLL) A…
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT00126893 Study to Determine the Optimal Biologic Dose of CC-401 in Subjects With High-Risk Myeloid Leukemia
+Prior: None Unreviewed
+Conditions: Myeloid Leukemia
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Subjects with central nervous system (CNS) involvement as documented by spinal fluid cytology or imaging; individuals with signs or symptoms of leukemic meningitis or a history of leukemic meningitis must have a negative lumbar puncture within 2 weeks prior to enrollment in the study.
+
+NCT00191373 A Trial for HER2 Positive Breast Cancer Patients With Metastatic Disease
+Conditions: Breast Neoplasms, Cancer of the Breast, Breast Cancer
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Patients with known leptomeningeal carcinomatosis
+
+NCT00243685 Chemotherapy Drug Sensitivity Microculture (MiCK) Assay for Apoptosis
+Prior: None Unreviewed
+Conditions: Breast Neoplasms, Lung Neoplasms, Ovarian Neoplasms, Sarcoma, Soft Tissue
+detailedDescription: ymal brain metastasis and not accessible tumors.  3.3.2 Patients with meningeal metastasis. 3.3.3 Patients for whom chemotherapy clinically is not indicated. 3.3.4 Pregnancy. During the course of the study, all patients of childbearing potential should be instructed to contact the treating physician if they 
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Patients with meningeal metastasis.
+
+NCT00387426 Sunitinib in Treating Patients With Idiopathic Myelofibrosis
+Conditions: Accelerated Phase Chronic Myelogenous Leukemia, Acute Undifferentiated Leukemia, Adult Acute Lymphoblastic Leukemia in Remission, Adult Acute Myeloid Leukemia in Remission, Adult Acute Myeloid Leukemia With 11q23 (MLL) A…
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT00398437 Magnetic Resonance Imaging for the Early Detection of CNS Metastases in Women With Stage IV Breast Cancer
+Conditions: Breast Cancer, Metastatic Cancer
+criteria: * No CNS metastases (i.e., brain parenchymal lesions and/or leptomeningeal carcinomatosis)
+
+NCT00462982 Sunitinib in Treating Patients With Brain Metastases Caused by Kidney Cancer or Melanoma
+Conditions: Kidney Cancer, Melanoma (Skin), Metastatic Cancer
+criteria: * No leptomeningeal metastases or primary dural metastases
+
+NCT00489203 Beclomethasone Dipropionate in Preventing Acute Graft-Versus-Host Disease in Patients Undergoing a Donor Stem Cell Transplant for Hematologic Cancer
+Conditions: Hematopoietic/Lymphoid Cancer, Accelerated Phase Chronic Myelogenous Leukemia, Adult Acute Lymphoblastic Leukemia in Remission, Adult Acute Myeloid Leukemia in Remission, Adult Acute Myeloid Leukemia With 11q23 (MLL) Abn…
+criteria: Inclusion
+criteria: Exclusion
+
+NCT00587964 Phase II Trial of Stereotactic Radiosurgery Boost Following Surgical Resection for Brain Metastases
+Conditions: Brain Metastasis, Bladder Cancer, Breast Cancer, Cervical Cancer, Colon Cancer, HEENT Cancer, Lung Cancer, Melanoma, Pancreatic Cancer, Prostate Cancer, Rectal Cancer, Sarcoma, Testicular Cancer
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Patients with leptomeningeal metastases documented by MRI or CSF evaluation Patients with metastases within 10 mm of the optic apparatus so that some portion of the optic nerve or chiasm would be included in the high dose SRS boost field
+
+NCT00667615 Trial of Vorinostat in Combination With Cyclophosphamide, Etoposide, Prednisone and Rituximab for Elderly Patients With Relapsed Diffuse Large B-Cell Lymphoma (DLBCL)
+Prior: None Unreviewed
+Conditions: Hodgkin's Disease, Lymphoma
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Patients with active CNS lymphoma and/or lymphomatous meningitis are excluded. However, patients with a history of CNS lymphoma and/or lymphomatous meningitis who have been stable without evidence of CNS and/or leptomeningeal recurrence would be eligible. They must be off steroids or on a stable dose of steroids.
+
+NCT00716534 Study of Carboplatin/Paclitaxel in Combination With ABT-869 in Subjects With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC)
+Prior: None Unreviewed
+Conditions: Advanced or Metastatic Non-Small Cell Lung Cancer
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Subject has untreated brain or meningeal metastases.
+
+NCT00738335 Stereotactic Radiosurgery and Erlotinib in Treating Patients With Non-Small Cell Lung Cancer and Brain Metastases
+Conditions: Lung Cancer, Metastatic Cancer
+detailedDescription:  spectrometry (2D-LC/MS). * To determine the incidence of subclinical leptomeningeal disease in patients assigned to gamma-knife treatment and who do not exhibit signs or symptoms or carcinomatous meningitis.  OUTLINE: Patients receive oral erlotinib hydrochloride once daily for at least 7 days. Patients th
+detailedDescription: e treatment and who do not exhibit signs or symptoms or carcinomatous meningitis.  OUTLINE: Patients receive oral erlotinib hydrochloride once daily for at least 7 days. Patients then undergo stereotactic radiosurgery on day 0. Beginning the day after radiosurgery, patients receive erlotinib hydrochloride onc
+criteria: * No leptomeningeal metastases by MRI and/or positive cerebrospinal fluid cytology
+criteria: * More than 1 week since prior intrathecal chemotherapy or prior treatment of leptomeningeal carcinoma
+
+NCT00795340 Cediranib, Paclitaxel, and Carboplatin in Treating Patients With Stage IIIB or Stage IV Non-Small Cell Lung Cancer
+Prior: False Untreated brain or meningeal metastases are excluded; the express stable-treated exception names only brain metastases, not meningeal disease. No affirmative eligible LM path.
+Conditions: Lung Cancer
+criteria: * No untreated brain or meningeal metastases
+
+NCT00867269 Etiology, Pathogenesis, and Natural History of Idiopathic CD4+ Lymphocytopenia
+Conditions: Idiopathic CD4+ Lymphocytopenia, Cryptococcal Meningitis, Warts
+criteria: * ICL PARTICPANT INCLUSION CRITERIA:
+criteria: To be eligible for this study, patients must satisfy all of the following inclusion criteria:
+criteria: ICL PARTICPANT EXCLUSION CRITERIA:
+criteria: BLOOD RELATIVE INCLUSION CRITERIA:
+criteria: HOUSEHOLD CONTACT INCLUSION CRITERIA:
+
+NCT00873119 Belinostat, Carboplatin and Paclitaxel (BelCaP) Compared to Carboplatin and Paclitaxel in Patients With Cancer of Unknown Primary
+Conditions: Carcinoma of Unknown Primary
+criteria: Inclusion Criteria:
+criteria: * Light microscopic pathologic diagnosis of adenocarcinoma (including poorly differentiated), squamous cell carcinoma, or poorly differentiated carcinoma. Patients with poorly differentiated carcinoma must have immunohistochemical stains to confirm the diagnosis of carcinoma, and to rule out other tumor types. Note: patients with a light microscopic histology diagnosis of "poorly differentiated neoplasm, not otherwise classified" did not fulfill the criteria for inclusion, unless immunohistochemical staining confirmed the diagnosis of carcinoma.
+criteria: Exclusion Criteria:
+criteria: * Patients with brain or meningeal metastases. Note, patients with adequately treated brain metastases, e.g. surgically resected, or adequately controlled by radiotherapy, with no residual neurological symptoms due to metastases and no steroid treatment required, could be enrolled. If clinical suspicion, adequate investigations should be performed to rule out brain metastases or meningeal involvement.
+
+NCT00885703 High-Dose Fluconazole for the Treatment of Cryptococcal Meningitis in HIV-Infected Individuals
+Conditions: Cryptococcal Meningitis, HIV Infections
+briefSummary: Cryptococcal meningitis (CM) is an infection of the membranes covering the brain and spinal cord, caused by the fungus Cryptococcus neoformans. CM most often affects people with compromised immune systems, like those with advanced HIV infection. This st
+criteria: Inclusion Criteria - Step 1
+criteria: Exclusion Criteria - Step 1
+criteria: Inclusion Criteria - Step 2
+criteria: Exclusion Criteria - Step 2
+criteria: Inclusion Criteria - Step 3
+criteria: Exclusion Criteria - Step 3
+criteria: Inclusion Criteria - Step 4
+criteria: Exclusion Criteria - Step 4
+
+NCT00949741 Observational Study for the Cytofluorimetric Analysis of Cerebrospinal Fluid in Non-Hodgkin's Lymphoma Patients
+Prior: False Clinical or instrumental meningeal localization is excluded; high-risk screening is not an eligible malignant LM cohort.
+Conditions: Diffuse Large Cell Lymphoma, Lymphoblastic Lymphoma, Burkitt's Lymphoma
+detailedDescription: son is recommended a prophylaxis therapy. This suggests that negative leptomeningeal localization patients at diagnosis are really positive and that would be a very high risk of CNS relapse subtype patients. It's very important detecting neoplastic cells in cerebrospinal fluid as soon as possible. This stud
+criteria: Inclusion Criteria:
+criteria: 2. DLCL patients who presented one risk factor for leptomeningeal involvement as:
+criteria: Exclusion Criteria:
+criteria: 1\. Patients with clinical or strumental evidence of meningeal localization disease.
+
+NCT01053494 Massage Therapy Given by Caregiver in Treating Quality of Life of Young Patients Undergoing Treatment for Cancer
+Conditions: Accelerated Phase Chronic Myelogenous Leukemia, Acute Undifferentiated Leukemia, Angioimmunoblastic T-cell Lymphoma, Atypical Chronic Myeloid Leukemia, BCR-ABL1 Negative, Blastic Phase Chronic Myelogenous Leukemia, Burki…
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT01114191 A Study to Assess the Effect of Ketoconazole on the Pharmacokinetics of Linifanib (ABT-869)
+Prior: None Unreviewed
+Conditions: Solid Tumors
+criteria: Inclusion Criteria
+criteria: Exclusion Criteria
+criteria: 3. Has untreated brain or meningeal metastases. Subjects with treated brain metastases that are radiographically or clinically stable (for at least 4 weeks after therapy) and who have no evidence of cavitation or hemorrhage in the brain lesion, are eligible provided that they are asymptomatic and do not require corticosteroids (must have discontinued steroids at least 1 week prior to Study Day 1).
+
+NCT01199562 Infection Prophylaxis and Management in Treating Cytomegalovirus (CMV) Infection in Patients With Hematologic Malignancies Previously Treated With Donor Stem Cell Transplant
+Conditions: Hematopoietic/Lymphoid Cancer, Accelerated Phase Chronic Myelogenous Leukemia, Acute Undifferentiated Leukemia, Adult Acute Lymphoblastic Leukemia in Remission, Adult Acute Myeloid Leukemia in Remission, Adult Acute Myel…
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:

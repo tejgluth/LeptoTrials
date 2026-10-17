@@ -1,0 +1,25 @@
+{
+  "identicalAfterAuditEvidenceWritten": true,
+  "assets": [
+    {
+      "path": "dist/assets/AnalyticsDashboard-DM7zS2vA.js",
+      "sha256": "b8ee85d3a90240fbe5bfecdad05102f7063752c09316bb8053d874caa5f0f56d"
+    },
+    {
+      "path": "dist/assets/SuggestTrial-CkXMk6V2.js",
+      "sha256": "4248b799132f7ac16cac443b2886f49f8896de813d751defab485ee7b9036712"
+    },
+    {
+      "path": "dist/assets/index-C659fkGS.css",
+      "sha256": "47571e0525a79055d7221c843200b934b9642bd25824685351ed2251a98d440e"
+    },
+    {
+      "path": "dist/assets/index-DuEYtwrY.js",
+      "sha256": "771de37f0a141d85cc2fdd8c371e682c5e57cfa8a2e9debc74071d15b23bfa91"
+    },
+    {
+      "path": "dist/assets/trialSuggestion-C2zoR7xO.js",
+      "sha256": "768fb6e7c558bec475c47a010d6422aee2d4078a4aadfe7a219fb09b9d217438"
+    }
+  ]
+}

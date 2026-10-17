@@ -1,0 +1,154 @@
+NCT07447076 Study of Novel Therapies for Young People With Recurrent/Progressive Atypical Teratoid Rhabdoid Tumor (ATRT) | 
+Conditions: Recurrent Atypical Teratoid/Rhabdoid Tumor, Atypical Teratoid/Rhabdoid Tumor (ATRT) of the CNS
+Criteria: * Patients must be evaluable per Response Assessment in Pediatric Neuro-Oncology (RAPNO) criteria for medulloblastoma and other leptomeningeal seeding tumors to be evaluated for the primary endpoint (Warren et al. 2018); patients with evaluable but non-measurable disease, including leptomeningeal disease or positive CSF cytology only are eligible.
+
+NCT07476781 Exploring the Feasibility of Cerebrospinal Fluid (CSF) and Blood Plasma Liquid Biopsy in Patients With Metastatic Solid Tumours and Primary Central Nervous System (CNS) Tumours: A Pilot Study | OTHER_SOLID
+Conditions: Solid Tumor Malignancies, Brain Metastasases, Leptomeningeal Disease (LMD), Central Nervous System
+Criteria: 1. Patients in Cohort A will have previously untreated or progressing leptomeningeal metastatic disease (LMD) with or without parenchymal brain metastases (BrM).
+Criteria: 2. Patients in Cohort B will have previously untreated or BrM but no evidence of LMD.
+Criteria: 3. Patients in Cohort C will have progressing extra-cranial metastatic disease with no LMD or BrM.
+Criteria: * Patient is eligible at any time point in their treatment course, including whether or not they have already started treatment for LMD. Considering the poor prognosis associated with LMD, rapid clinical deterioration, and the fact that available local and systemic therapies have not been shown to completely eradicate LMD, there is a high likelihood of detecting CSF biomarkers regardless of the timing of assessment. This flexible enrollment strategy is particularly important to support feasibility and recruitment in this less common and clinically challenging population. However, efforts will be made to collect CSF samples prior to treatment initiation and/or at the time of disease progression whenever possible.
+
+NCT07502027 A Clinical Study of Iparomlimab and Tuvonralimab Combined With SOX Following Heterogeneous Radiotherapy as First-line Treatment for Unresectable Locally Advanced or Metastatic HER2-negative Gastric or Gastroesophageal Junction Adenocarcinoma | OTHER_SOLID
+Conditions: Gastric Cancer (Diagnosis), Gastric Cancer (GC), Gastroesophageal Junction Adenocarcinoma
+Criteria: * Known active or untreated brain metastasis, meningeal metastasis, spinal cord compression, or leptomeningeal disease. Patients with measurable lesions outside the central nervous system may be eligible if: they are asymptomatic after treatment, radiologically stable for at least 4 weeks before study treatment (no new or enlarging brain metastases), and have discontinued systemic corticosteroids and anticonvulsants for at least 2 weeks.
+
+NCT07503704 A Prospective Study of the Genomic Landscape of Central Nervous System Disease Secondary to Breast Cancer Utilising Cell-free DNA Derived From Cerebrospinal Fluid (CSF) | BREAST
+Conditions: Breast Cancer
+Criteria: 4. Newly diagnosed with Breast Cancer Brain Metastasis (BCBM) OR Progressive BCBM following either local or systemic treatment OR Leptomeningeal disease
+
+NCT07506239 Efficacy of Laser Interstitial Thermal Therapy in Young Persons With Low-grade Glioma | 
+Conditions: Low-grade Glioma, Recurrent Low Grade Glioma, Low Grade Glioma of Brain, Pediatric Cancer
+Criteria: * A patient with stable leptomeningeal disease and a separate growing lesion suitable for LITT is eligible for the study.
+Criteria: * The presence of uncontrolled leptomeningeal disease or extracranial disease including:
+
+NCT07551414 Zorifertinib Plus Intra-Ommaya CSF Chemotherapy for Leptomeningeal Progression in NSCLC After Third-Generation EGFR-TKI | LUNG
+Conditions: NSCLC (Non-small Cell Lung Carcinoma), Leptomeningeal Metastasis, EGFR-TKI Sensitizing Mutation, Zorifertinib
+Criteria: 4\. Subjects who developed leptomeningeal progression after treatment with third-generation EGFR-TKIs and have no extracranial progression. The original third-generation EGFR-TKIs may be continued at the original dose or reduced dose.
+Criteria: 5\. Subjects diagnosed with leptomeningeal metastasis must have positive cerebrospinal fluid (CSF) cytology results. Subjects with negative CSF cytology but clinically diagnosed leptomeningeal metastasis based on symptoms, brain or spinal MRI imaging are also eligible for enrollment.
+Criteria: 6\. Subjects with both leptomeningeal progression and brain parenchymal progression are allowed to enroll.
+
+NCT07559097 Exploration of the Application of Methotrexate-loaded Drug Vesicles in Intrathecal Injection for Meningeal Metastasis of Lung Cancer | LUNG
+Conditions: Leptomeningeal Metastasis From Lung Cancer
+Criteria: 3. Diagnosed with meningeal metastasis by detecting tumor cells in cerebrospinal fluid cytology;
+Criteria: 4. Patients with advanced lung cancer and meningeal metastasis who have failed standard treatment;
+
+NCT07594002 Comparing Acupuncture vs. Sham Acupuncture for the Management of Hot Flashes in Prostate Cancer Patients Receiving Hormone Therapy | OTHER_SOLID
+Conditions: Accupuncture, Prostate Cancer, Hormone Therapy, Hot Flashes
+Criteria: * Patients with new or progressive brain metastases (active brain metastases) or leptomeningeal disease are eligible if the treating physician determines that immediate CNS specific treatment is not required and is unlikely to be required during the first cycle of therapy.
+
+NCT07603856 A Study Evaluating The Combination of Immunotherapy With Radiotherapy in Non-Small Cell Lung Cancer | LUNG
+Conditions: Non-Small Cell Lung Cancer, Metastatic Lung Cancer
+Criteria: * Patients with new or progressive brain metastases (active brain metastases) or leptomeningeal disease are eligible if the treating physician determines that immediate CNS specific treatment is not required and is unlikely to be required during the first cycle of therapy.
+
+NCT07612488 A Study of CS231295 in Patients With Advanced Solid Tumors | 
+Conditions: Advance Solid Tumors, Advanced Malignant Solid Tumors
+Criteria: 9. Advanced solid tumors other than glioma: Patients with active or untreated brain metastases, leptomeningeal metastases, spinal cord compression, or leptomeningeal carcinomatosis at the screening are excluded. Participants with previous brain metastases may participate only if they satisfy all of the following:
+Criteria: 10. Combined with meningeal metastasis, except for glioma.
+
+NCT07624201 Trastuzumab Rezetecan and Adebrelimab as Neoadjuvant Therapy for HER2-Positive Muscle-Invasive Bladder Cancer | OTHER_SOLID
+Conditions: Muscle-Invasive Bladder Cancer (MIBC)
+Criteria: 4. Subjects with untreated central nervous system (CNS) metastases; subjects who have received prior systemic, radical treatment for brain or leptomeningeal metastases (radiotherapy or surgery) may be included if imaging confirms stability for at least 1 month, systemic corticosteroid therapy (dose \>10 mg/day prednisone or equivalent) has been discontinued for more than 2 weeks, and they are asymptomatic.
+
+NCT07647432 HEME-25 Open-Label Feasibility Study of Elranatamab Utilized as Consolidation in Newly Diagnosed Plasmablastic Lymphoma With or Without HIV | 
+Conditions: Plasmablastic Lymphoma, HIV, Consolidation
+Criteria: * Known or suspected PBL involvement of the parenchymal brain or spinal cord at diagnosis. Asymptomatic leptomeningeal disease only will be allowed.
+
+NCT07649304 AMC 120, Glofitamab Plus Chemoimmunotherapy in Newly Diagnosed HIV-Associated Large B-Cell Lymphoma (The "Glofit-RCHOP Study") | 
+Conditions: AIDS-Related Diffuse Large B-cell Lymphoma, Diffuse Large B-Cell Lymphoma, Not Otherwise Specified, High Grade B-Cell Lymphoma With MYC and BCL2 Rearrangements, High Grade B-Cell Lymphoma, Not Otherwise Specified, Lugano Classification Stage II Adult Non-Hodgkin Lymphoma AJCC v8, Lugano Classification Stage III Adult Non-Hodgkin Lymphoma AJCC v8, Lugano Classification Stage IV Adult Non-Hodgkin Lymphoma AJCC v8, Plasmablastic Lymphoma, Primary Effusion Lymphoma
+Criteria: * Participants with leptomeningeal disease are eligible if the treating physician determines that immediate central nervous system (CNS) specific treatment is not required and is unlikely to be required during the first cycle of therapy, except during the initial safety run-in phase, during which participants with leptomeningeal disease will be excluded. For the first three study participants, enrollment will be halted until the third participant completes two target doses (30 mg) of glofitamab and dose-limiting toxicity (DLT) assessment is completed
+Criteria: * Participants with active parenchymal central nervous system (CNS) lymphomatous involvement are excluded; however, asymptomatic leptomeningeal disease is allowed as long as participants have ongoing CNS directed therapy, except during the initial safety-run in phase, during which participants with leptomeningeal disease will also be excluded
+
+NCT07656103 QH101 Cell Injection in Patients With Brain, Brain (Spinal) Meninges, and Spinal Cord Metastatic Malignant Solid Tumors | OTHER_SOLID
+Conditions: Brain Metastasis, Meningeal Metastasis, Spinal Cord Metastasis
+Criteria: 4. Pathologically and/or histologically confirmed malignant tumors with brain, meningeal, and spinal cord metastases that have failed standard therapy or lack standard treatment options may be considered for enrollment;
+Criteria: Unresectable by craniotomy for solitary/focal (≤3 lesions)/multiple (\>3 lesions) intracranial metastases; or inoperable leptomeningeal or spinal cord metastases; Inclusion Criteria Intracranial lesions that progressed after standard treatment, including whole-brain radiotherapy/stereotactic radiosurgery (WBRT/SRS), and are not suitable for repeat radiotherapy;
+Criteria: 6. For brain/spinal cord parenchymal metastases, contrast-enhanced MRI must show at least one measurable lesion (according to iRANO criteria); for patients with meningeal lesions only, those deemed likely to benefit from this study by investigator judgment may also be considered for inclusion (efficacy assessed using RANO-LM criteria);
+
+NCT07659652 Quality of Life for Patients With Breast Cancer Brain Metastases and Leptomeningeal Disease | BREAST
+Conditions: Breast Cancer, Quality of Life, Breast Cancer, Metastatic, Breast Cancer, Metastatic Breast Cancer, Leptomeningeal Metastasis of Breast Cancer, Brain Metastases From Breast Cancer
+Criteria: 2. Have stage 4 (metastatic) breast cancer with spread to the brain parenchyma and/or leptomeninges.
+
+NCT07671560 Efficacy and Safety of Ensartinib Combined With Anlotinib in Lorlatinib-Resistant ALK-Positive NSCLC | LUNG
+Conditions: ALK-positive, Locally Advanced or Metastatic (TNM Stage IIIB-IV) Non-small Cell Lung Cancer That Has Developed Resistance to Prior Treatment With Lorlatinib
+Criteria: Inclusion criteria1： Resistance to lorlatinib treatment; Inclusion criteria2： No restrictions on prior use of ensartinib or the number of prior lines of other ALK-TKIs and chemotherapy; Inclusion criteria3：Subjects with concomitant leptomeningeal metastases may be enrolled. For patients with leptomeningeal metastases (LM), diagnosis must be based on the three criteria outlined in the EANO-ESMO guidelines: clinical presentation, cranial imaging, and cerebrospinal fluid cytology. Tissue samples must not be derived from tumour sites that have previously undergone radiotherapy; however, new lesions arising after local treatment may be included; Inclusion criteria4：ECOG performance status of 0-4; Inclusion criteria5： Adequate organ system function, as determined by the investigator; Inclusion criteria6：All other inclusion criteria are consistent with items 1, 2 and 3 of Cohort 1.
+Criteria: Exclusion criteria1：Concurrent malignant tumours. Exclusion criteria2：Patients with leptomeningeal metastases (LM) who are unable to undergo contrast-enhanced MRI.
+
+NCT07674693 Phase 1 Study of WBRT or PCSI With REYOBIQ for Leptomeningeal Metastases | OTHER_SOLID
+Conditions: Leptomeningeal Metastases
+
+NCT07681297 Tislelizumab in Combination With Bevacizumab and Capecitabine in Advanced Solid Tumors With Evaluation in Immunotherapy-Resistant and Central Nervous System Disease | LUNG,BREAST,OTHER_SOLID
+Conditions: Advanced Solid Tumor Cancer, Triple-Negative Breast Cancer (TNBC), CNS Disease, Breast Cancer
+Criteria: * Leptomeningeal disease is allowed.
+
+NCT07689721 ctDNA-Guided Intraventricular Therapy for CNS Malignancies | LUNG,BREAST
+Conditions: Leptomeningeal Disease, Glioblastoma, Brain Metastases, Non-Small Cell Lung Cancer, Breast Cancer
+detailedDescription: Leptomeningeal disease (LMD) and other advanced CNS malignancies remain associated with poor prognosis and limited tools for monitoring disease activity and treatment response. Conventional CSF cytology has limited sensitivity, particularly in the early stag
+detailedDescription: Leptomeningeal disease (LMD) and other advanced CNS malignancies remain associated with poor prognosis and limited tools for monitoring disease activity and treatment response. Conventional CSF cytology has limited sensitivity, particularly in the early stages of disease. Circ
+
+NCT07694986 Trial of Therapies With IT cDC1s Combined w/ IT Trastuzamab for Her+ or IT Nivolumab for Her- BC LMD | BREAST
+Conditions: Breast Cancer, Leptomeningeal Disease
+Criteria: * Histologically or cytologically confirmed diagnosis of BC by ASCO/CAP guidelines (Wolff et al, 2018), or radiographically definite LMD from BC.
+Criteria: * Trial participants must have a diagnosis of LMD. They must have the presence of malignant cells in the CSF (CSF+; note now cytology is considered diagnostic of LMD if the cytology is read as positive or suspicious; \[Chamberlain et al., 2017\] OR characteristic radiographic abnormalities of LMD). Signs and symptoms of LMD in and of themselves are not sufficient for inclusion.
+Criteria: * Proton cranial spinal RT OR cranial spinal RT using IMRT are the preferred modalities of RT to treat LMD if possible, before study. At least WBRT is required for participation.
+Criteria: * Receiving other treatments specifically administered to treat LMD within the last 2 weeks or 5 half-lives of the agent, whichever is less. However, all other treatments to control systemic disease or bulk CNS disease will be eligible, provided the therapy is not a Phase I agent, an agent that significantly and unequivocally penetrates the CSF (eg, high-dose methotrexate, thiotepa, high-dose ara-C) by PI discretion. H \& P section: Patients may continue on IV trastuzumab, fam-trastuzumab deruxtecan-nxki, pertuzumab, tucatinib, or other HER2-directed, hormonal, or other therapeutic agents if controlling systemic disease and leptomeningeal metastases developed while on these therapies. In addition, at time of systemic progression, patients may start additional agents at the discretion of the treating physician according to criteria in Section 6.7.1. and not start on new systemic therapies until LMD disease assessment.
+
+NCT07695311 EWSR1 Immunotherapy in Ewing Sarcoma and DSRCT | OTHER_SOLID
+Conditions: Ewing Sarcoma, Desmoplastic Small Round Cell Tumor
+Criteria: * Participants with leptomeningeal disease are eligible. If on corticosteroids these participants should be weaned to hydrocortisone (20 mg am/10mg pm if ≥ 40 kg or if \< 40 kg hydrocortisone 10 mg am/5 mg pm).
+
+NCT07702305 Safety and Efficacy of Intrathecal Sacituzumab Tirumotecan for Leptomeningeal Metastasis in EGFR-TKI-Resistant Non-Small Cell Lung Cancer | LUNG
+Conditions: EGFR-TKI-resistant Non-small Cell Lung Cancer With Leptomeningeal Metastasis
+Criteria: Leptomeningeal metastasis confirmed by detection of tumor cells in cerebrospinal fluid cytology;
+
+NCT07704034 Wearable-Triggered Digital Safety Net for Real-Time Monitoring & Intervention in Leptomeningeal Metastasis | OTHER_SOLID
+Conditions: Leptomeningeal Metastasis
+Criteria: * Participants must have leptomeningeal metastasis (LMM) diagnosed per clinical, imaging, and/or CSF/cytology criteria (cytology, flow cytometry, or circulating tumor DNA), arising from any solid or hematologic tumor primary.
+
+NCT07714395 Evaluate Preliminary Anti-tumor Activity of Elraglusib in Adult Participants With Advanced Solid Tumors | OTHER_SOLID
+Conditions: Advanced Malignant Solid Tumor
+Criteria: 7. Has symptomatic brain metastases or leptomeningeal involvement as assessed by CT scan or MRI. Participants with stable brain metastases or leptomeningeal disease are eligible provided they have not required new treatments for this disease in a 28-day period before the first dose of study drug, and anticonvulsants and steroids are at a stable dose for a period of 14 days prior to the first dose of study drug
+
+NCT07724457 Testing the Addition of a New Anti-Cancer Drug, Glofitamab to Usual Chemotherapy for Burkitt and Double Hit Lymphoma | 
+Conditions: Recurrent Burkitt Lymphoma, Recurrent High Grade B-Cell Lymphoma With MYC and BCL2 Rearrangements, Refractory Burkitt Lymphoma, Refractory High Grade B-Cell Lymphoma With MYC and BCL2 Rearrangements
+Criteria: * BL COHORT 1: Patients with CSF/leptomeningeal involvement at diagnosis are eligible. Patients with parenchymal brain involvement at diagnosis are NOT eligible
+Criteria: * DHL COHORT 2: Patients with CSF/leptomeningeal involvement at diagnosis are eligible. Patients with parenchymal brain involvement at diagnosis are NOT eligible
+Criteria: * RELAPSED BL AND HGL COHORT 3: Patients with CSF/leptomeningeal involvement at diagnosis are eligible. Patients with parenchymal brain involvement at diagnosis are NOT eligible
+
+NCT07744529 Amivantamab Combined With Intrathecal Pemetrexed for LM From EGFR-Mutated Lung Adenocarcinoma | LUNG
+Conditions: Leptomeningeal Metastasis From Lung Cancer
+Criteria: * Patients with EGFR-mutated lung adenocarcinoma with leptomeningeal metastasis diagnosed according to the EANO-ESMO guidelines.
+
+NCT07751536 ctDNA-driven Adaptive Proton Craniospinal Irradiation in Non-Small Cell Lung Cancer With Leptomeningeal Metastasis After Resistance to Third-Generation TKIs in the Consolidation Phase | LUNG
+Conditions: Leptomeningeal Metastasis From Lung Cancer
+Criteria: 4. Leptomeningeal metastasis (LM) diagnosed according to the EANO-ESMO guidelines, based on cerebrospinal fluid (CSF) cytology and/or imaging evidence of leptomeningeal enhancement or ventriculomegaly.
+
+NCT07751744 Phase 1/2 Study Evaluating the Safety, PK/PD, and Clinical Activity of Oral JBI-778 in Patients With Brain Metastases, Leptomeningeal Disease, or Recurrent High Grade Glioma | OTHER_SOLID
+Conditions: Brain Metastases From Solid Tumors, Leptomeningeal Disease, High Grade Glioma (HGG), Glioblastoma (GBM)
+Criteria: Solid tumors with stable brain metastases (Dose Escalation Part), or Recurrent/progressive high-grade glioma, or Brain metastases from NSCLC, breast cancer, or melanoma, or Leptomeningeal disease (Dose Expansion Part).
+Criteria: ANC ≥1,500/mm³ Platelets ≥100,000/mm³ Hemoglobin \>8.0 g/dL Total bilirubin ≤1.5 × ULN (≤3 × ULN for Gilbert syndrome) AST/ALT ≤2.5 × ULN (≤5 × ULN if liver metastases present) Creatinine clearance ≥60 mL/min PT/aPTT ≤1.5 × ULN (or stable anticoagulation therapy) At least one measurable lesion on MRI according to applicable RANO criteria, or positive CSF cytology for leptomeningeal disease.
+Criteria: Leptomeningeal disease with protocol-defined prior therapy requirements.
+
+NCT07778940 Thiotepa Administration Via Ommaya Reservoir for Leptomeningeal Metastases in Non-Small Cell Lung Cancer Resistant to EGFR-TKI. | LUNG
+Conditions: Leptomeningeal Metastasis
+Criteria: 4. Radiological and/or cerebrospinal fluid (CSF) cytological evidence of leptomeningeal metastases (LM). The diagnosis of non-small cell lung cancer (NSCLC) must be confirmed by histological and/or cytological examination.
+Criteria: 2. History of epilepsy unrelated to leptomeningeal metastases.
+
+NCT07789912 BRain-AVOidant Proton Craniospinal Irradiation for Leptomeningeal Metastases From Solid Tumor Malignancies | LUNG,BREAST,OTHER_SOLID
+Conditions: Leptomeningeal Metastasis, Breast Cancer, Lung Cancer (NSCLC)
+Criteria: 1. Participants with leptomeningeal metastases established radiographically and/or through Cerebrospinal Fluid (CSF) cytology or circulating tumor cells (CTCs). Participants may have newly diagnosed or recurrent LM.
+
+NCT07814352 A Study of SX-682 in Combination With Proton Craniospinal Irradiation (pCSI) in People With Leptomeningeal Disease | LUNG,MELANOMA
+Conditions: Leptomeningeal Disease (LMD)
+Criteria: * Patients must have radiographic and/or pathologically confirmed leptomeningeal metastasis established through at least one of the following:
+Criteria: * Unequivocal radiographic diagnosis of leptomeningeal metastasis on contrast- enhanced MRI
+
+NCT07827001 PilotStudyAssessSafeActiveSurveillancApproachLocalThe Pa w/BrainMetsUndergoinCNSPenetratSystemicThe | OTHER_SOLID
+Conditions: Brain Cancer, Brain Cancer Metastatic, Nervous System Cancer, CNS Cancer
+Criteria: * Leptomeningeal disease is permitted
+
+NCT07833657 Combined Intrathecal and Systemic Therapy With Trastuzumab Rezetecan for Leptomeningeal Metastases | OTHER_SOLID
+Conditions: Leptomeningeal Metastases, Solid Tumors
+Criteria: 2. Patients with Type I LMD (defined as positive cerebrospinal fluid cytology or positive leptomeningeal biopsy) or Type II LMD (diagnosed based on clinical manifestations and neuroimaging alone) according to the European Association of Neuro-Oncology (EANO)-European Society for Medical Oncology (ESMO) clinical practice guidelines;patients with treatment-naive LMD or recurrent LMD after radiotherapy.
+Criteria: 3. Investigators assess that immediate radiotherapy for leptomeningeal lesions is not required, or the patient declines radiotherapy.
+Criteria: 7. All enrolled subjects will be stratified into 2 predefined cohorts based on tumor HER2 status: Cohort 1: Patients with leptomeningeal disease secondary to solid tumors without HER2 protein overexpression and without HER2-activating mutations; Cohort 2: Patients with leptomeningeal disease secondary to solid tumors with HER2 protein overexpression or harboring HER2-activating mutations.

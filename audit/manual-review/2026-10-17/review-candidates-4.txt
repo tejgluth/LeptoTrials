@@ -1,0 +1,231 @@
+NCT03741673 Pre-operative SRS or Post-operative SRS in Treating Cancer Patients With Brain Metastases
+Conditions: Malignant Neoplasm, Metastatic Malignant Neoplasm in the Brain
+detailedDescription: PRIMARY OBJECTIVE:  I. To investigate the 1 year leptomeningeal disease (LMD)-free rate among patients with surgically resectable metastatic brain lesions randomized to post-operative stereotactic radiosurgery (SRS) (standard care) versus pre-operative SRS followed by surgery (experimen
+detailedDescription: MARY OBJECTIVE:  I. To investigate the 1 year leptomeningeal disease (LMD)-free rate among patients with surgically resectable metastatic brain lesions randomized to post-operative stereotactic radiosurgery (SRS) (standard care) versus pre-operative SRS followed by surgery (experimental arm).  SECONDAR
+criteria: Inclusion Criteria:
+criteria: * No radiographic evidence of leptomeningeal disease on MD Anderson Cancer Center (MDACC) departmental radiology report or study neuro-radiologist review
+criteria: Exclusion Criteria:
+criteria: * For females, if they are pregnant or breast-feeding (The exclusion is made because gadolinium may be teratogenic in pregnancy)
+
+NCT03787940 Optimizing Antituberculosis Therapy in Adults With Tuberculous Meningitis
+Conditions: Tuberculous Meningitis
+briefSummary: t in lower rates of death and disability in patients with tuberculous meningitis than the rates with the standard regimen. The investigators recruited patients between the ages of 18 and 65 years with newly diagnosed TBM, then NAT2 genotype will be characterized by using High-Resolution Melting Kit (Zeesan Co
+detailedDescription: Tuberculous meningitis (TBM) is the most lethal form of tuberculosis, causing death or severe neurologic deficits in more than half of those affected in spite of antituberculosis chemotherapy. Among the first line drugs, isoniazid is the only bacterici
+detailedDescription: t in lower rates of death and disability in patients with tuberculous meningitis than the rates with the standard regimen.  The investigators recruited patients between the ages of 18 and 65 years with newly diagnosed TBM. Patients could not enter the trial if they have been using any other second line antitu
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT03789097 Vaccination With Flt3L, Radiation, and Poly-ICLC
+Prior: None Unreviewed
+Conditions: Non-Hodgkin's Lymphoma, Metastatic Breast Cancer, Head and Neck Squamous Cell Carcinoma
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Has known active central nervous system metastases, leptomeningeal disease and/or lymphomatous meningitis. Patients with previously treated brain metastases may participate provided they are stable (without evidence of progression by imaging for at least 28 days prior to the first dose of trial treatment and any neurologic symptoms have returned to baseline), have no evidence of new or enlarging brain metastases, and are not using steroids for at least 7 days prior to trial treatment. This exception does not include leptomeningeal disease or lymphomatous meningitis, which are excluded regardless of clinical stability.
+
+NCT03866824 MENIPREP Study: Evauation of the Effectiveness of Prp Injection in the Management of Degenerative Meniscal Lesions : Randomized Controlled Trial Double Blind Versus Reference Treatment"
+Conditions: DEGENERATIVE MENISCAL LESIONS
+briefSummary:  hypothesis of this work is that the injection of PRP in contact with LMD(Degenerative Meniscal Lesions) will improve the clinical symptomatology of our patients compared to reference treatment (intra-auricular injection of corticosteroids).
+criteria: Inclusion Criteria:
+criteria: * Absence of bone lesion or moderate knee osteoarthritis stage \<2 on the Kellgren Laurence scale (objectified on radiography in schuss) in the 6 months prior to inclusion
+criteria: Exclusion Criteria:
+criteria: * Major injuries or surgery of the target knee or lateral contralateral knee in the 12 months preceding the inclusion visit
+criteria: * Ligament reconstruction in the 12 months prior to the inclusion visit
+
+NCT03866993 A Study of Anti-PD-1 AK105 in Patients With Metastatic Squamous Non-small Cell Lung Cancer
+Prior: None Unreviewed
+Conditions: Lung Cancer Non-small Cell Stage IV, Squamous Cell Lung Cancer
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Presence of central nervous system (CNS) metastasis, meningeal metastasis, spinal cord compression, or leptomeningeal disease.
+criteria: * Unresolved toxicities from prior anticancer therapy, defined as having not resolved to NCI CTCAE v4.03 Grade 0 or 1, or to levels dictated in the inclusion/exclusion criteria, with the exception of alopecia.
+
+NCT03908424 Chronic Headache and Chronic Backache Following Unintentional Dural Puncture at Delivery Room.
+Conditions: Parturient Who Underwent Epidural Anesthesia During Which an Unintentional Dural Punctur Occurred, Parturient Who Develop a Postdural Puncture Headache, Parturient Who Gave Informed Consent to Participation in the Study
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+arms:  the original puncture; the resulting blood clot then \"patches\" the meningeal leak. An epidural needle is inserted into the epidural space at the site of the cerebrospinal fluid leak and blood is injected. The clotting factors of the blood close the hole in the dura.", "armGroupLabels": ["PDPH treated with
+
+NCT03927313 Linezolid, Aspirin and Enhanced Dose Rifampicin in HIV-TBM
+Conditions: Tuberculosis Meningitis, HIV-1-infection
+briefSummary: irin (ASA), for the treatment of HIV-infected adults with tuberculous meningitis (TBM). The study will recruit 100 HIV-infected adults with TBM across four sites in South Africa.  The primary endpoint is the occurrence of solicited treatment-related adverse events.  Secondary endpoints include death and disab
+detailedDescription: ng, as well as the metabolomic and proteomic profiles, in tuberculous meningitis. 4. To evaluate the effect of high dose rifampicin and linezolid with and without aspirin on central nervous system imaging in conjunction with clinical, immunological and transcriptional profiling. 5. To store biological samples
+criteria: Inclusion Criteria:
+criteria: * Tuberculous meningitis defined as 'possible', 'probable' or 'definite' as per published case definitions
+criteria: Exclusion Criteria:
+criteria: * Evidence of bacterial or cryptococcal meningitis;
+arms: lus aspirin (1000mg orally daily for the first 56 days of Tuberculous Meningitis treatment)", "interventionNames": ["Drug: Linezolid", "Drug: High dose rifampicin", "Drug: Aspirin", "Drug: Standard of Care anti-tuberculous therapy", "Drug: Dexamethasone"]}], "interventions": [{"type": "DRUG", "name": "Linezol
+
+NCT03990961 Pembrolizumab for Patients With PD-L1 Diffuse Large B Cell Lymphoma (DLBCL)
+Prior: None Unreviewed
+Conditions: Diffuse Large B Cell Lymphoma, Lymphoma
+criteria: Inclusion Criteria:
+criteria:    Note: patients having undergone prior CAR T cell therapy are eligible, as are patients having received a prior allogeneic transplantation, provided they do not meet any of the exclusionary GVHD criteria, and are at least 5 years removed from the date of their transplant.
+criteria: Exclusion Criteria:
+criteria: 6. Has known active CNS lymphoma and/or lymphomatous meningitis. Participants with previously treated brain metastases may participate provided they are radiologically stable, i.e. without evidence of progression for at least 4 weeks by repeat imaging (note that the repeat imaging should be performed during study screening), clinically stable and without requirement of steroid treatment for at least 14 days prior to first dose of study treatment.
+
+NCT04065113 Middle Meningeal Artery Embolization for Chronic Subdural Hematoma
+Conditions: Chronic Subdural Hematoma
+briefSummary: Endovascular middle meningeal artery (MMA) embolization is an emerging treatment for chronic subdural hematoma (cSDH). There is preliminary data to suggest that this minimally invasive therapy may be more efficacious and equally as safe compared to convention
+briefSummary: surgery. This study seeks to assess the safety and efficacy of middle meningeal artery embolization for chronic subdural hematoma as an adjunct to standard treatments, which include medical management and surgical evacuation.
+detailedDescription: This study seeks to assess the safety and efficacy of middle meningeal artery embolization for chronic subdural hematoma in addition to standard treatments, which include close observation and surgical evacuation. Middle meningeal artery embolization has emerged recently as a minimally invasive and 
+detailedDescription: ents, which include close observation and surgical evacuation. Middle meningeal artery embolization has emerged recently as a minimally invasive and successful method of preventing re-accumulation of subdural hematoma, particularly for patients that are not obvious surgical candidates or those with recurrent
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+arms: tion Only", "description": "Medically managed patient receives middle meningeal artery embolization", "interventionNames": ["Procedure: Middle Meningeal Artery Embolization with polyvinyl alcohol particles (PVA)"]}, {"label": "Embolization + Evacuation", "description": "Participant receives standard of care 
+arms: ingeal artery embolization", "interventionNames": ["Procedure: Middle Meningeal Artery Embolization with polyvinyl alcohol particles (PVA)"]}, {"label": "Embolization + Evacuation", "description": "Participant receives standard of care evacuation and then undergoes MMA embolization", "interventionNames": ["P
+
+NCT04069910 Stereotactic Radiation Therapy Before Surgery for the Treatment of Resectable Brain Metastases
+Conditions: Malignant Neoplasm, Brain, Brain Tumor
+detailedDescription: PRIMARY OBJECTIVE:  I. To determine the rate of leptomeningeal failure after neoadjuvant radiation therapy (NaRT) versus (vs) postoperative stereotactic radiosurgery (SRS)/stereotactic radiation therapy (SRT).  SECONDARY OBJECTIVES:  I. Local control of brain metastases. II. Rate of sa
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Imaging or cytologic evidence of leptomeningeal disease
+
+NCT04091412 Study of Collateral Circulation in Patients With Symptomatic Intracranial Anterior Circulation Occlusion
+Conditions: Collateral Circulation, Large-artery Occlusion, Cerebral Infarction
+briefSummary: emic area through collateral circulation (including circle of Willis, leptomeningeal collaterals, extracranial to intracranial collaterals, and new angiogenesis) when the blood-supplying artery of the brain is severely stenotic or even occluded, however, considerable differences across individuals exist. St
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT04129515 NovoTTF-200A + Pembrolizumab In Melanoma Brain Metastasis
+Conditions: Metastatic Melanoma, Melanoma Brain Metastasis
+criteria: Subject Inclusion Criteria
+criteria: Subject Exclusion Criteria
+criteria: * Known leptomeningeal metastasis. Confirmation of negative leptomeningeal metastasis, either by CSF analysis or by neuroimaging staging (no leptomeningeal enhancement or drop metastasis on gadolinium-enhanced head or total spine MRI, respectively) should be determined by the treating investigator. However, it is recommended that both CSF and neuroimaging be obtained because both modalities have limitations in sensitivity and specificity.
+criteria: Subjects with previously treated brain metastases may participate provided they are stable (without evidence of progression by imaging for at least four weeks prior to the first dose of trial treatment and any neurologic symptoms have returned to baseline), have no evidence of enlarging brain metastases, and are not using excessive steroids (defined as a dexamethasone dose of \>4 mg daily or equivalent) for at least 7 days prior to trial treatment. This exception does not include leptomeningeal metastasis, which is excluded regardless of clinical stability.
+
+NCT04135352 A Study of Intratumoral/Intralesional Administration of V938 in Combination With Pembrolizumab (MK-3475) in Participants With Advanced/Metastatic or Recurrent Malignancies (V938-001)
+Prior: None Unreviewed
+Conditions: Neoplasm Metastasis
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Has clinically active central nervous system metastases and/or carcinomatous meningitis.
+
+NCT04141371 Molar Sodium Lactate Filling in Severe Meningeal Hemorrhage
+Conditions: Subarachnoid Hemorrhage, Aneurysmal
+criteria: Inclusion Criteria:
+criteria: * Any patient over 18 years of age with severe meningeal hemorrhage defined by a WFNS≥3 score will be included in the study.
+criteria: Exclusion Criteria:
+criteria: * Post-traumatic meningeal hemorrhage
+
+NCT04214444 Evaluation of Prime-boost Anti-pneumococcal Vaccination in Patients With Diffuse Large B Cell Lymphoma Treated With Rituximab
+Conditions: Pneumococcal Infections, Lymphoma, Large B-Cell, Diffuse
+criteria: Inclusion Criteria:
+criteria: * Negative pregnancy test at inclusion
+criteria: * Active contraception at inclusion
+criteria: * Free and informed consent procedure at inclusion
+criteria: Exclusion Criteria:
+criteria: * Immunosuppressed patient with : asplenia, hereditary immunodeficiency disorder, infection by HIV, hepatitis B or C viruses, transplanted patient, hematopoietic stem cell transplantation, nephrotic syndrome, meningeal breach, cochlear implants.
+criteria: * Patients vaccinated in the last month before inclusion
+criteria: * Patients with prior transfusion of blood-products or immunoglobulins in the last three months before inclusion
+
+NCT04309968 Study to Evaluate the Safety, Tolerability, Pharmacokinetics (PK) and Anti-tumor Activity of SYHA1801 Monotherapy in Patients With Advanced Solid Tumors
+Prior: False Symptomatic/uncontrolled meningeal metastasis is excluded; absence of an exclusion for other cases is not an explicit eligible LM path.
+Conditions: Advanced Solid Tumors
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 8. Central nervous system metastasis or meningeal metastasis with clinical symptoms, or other evidence that the patient's central nervous system metastasis or meningeal metastasis has not been controlled, that is not suitable for the group according to the judgment of the investigator.
+
+NCT04343157 UCSD Image-Guided Cognitive-Sparing Radiosurgery for Intracranial Lesions
+Conditions: Brain Metastases, Adult, Neurocognitive Function, Cancer, Meningioma of Brain, Arteriovenous Malformations, Cerebral
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 7. Leptomeningeal metastases (ineligible for SRS)
+
+NCT04374253 A Study to Evaluate the Safety, Tolerability, and Efficacy of Long-Term Gantenerumab Administration in Participants With Alzheimer's Disease (AD)
+Conditions: Alzheimer Disease
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Evidence of disseminated leptomeningeal hemosiderosis
+
+NCT04416854 The Value of Palliative Primary Tumor Resection in Metastatic Colon Cancer
+Conditions: Metastatic Colon Cancer, Surgery
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * With brain metastasis or meningeal metastasis
+
+NCT04422639 Preoperative SRS/SRT vs Postoperative SRS/SRT for Brain Metastases
+Conditions: Brain Metastases
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Radiographic or cytologic evidence of leptomeningeal disease.
+
+NCT04448054 Imaging SARS-CoV-2 Involvement of Leptomeninges, Olfactory and Limbic Areas
+Conditions: Estimate, With the Contribution of Optimized MRI, the Prevalence of Neurological and Neurovascular Manifestations on Imaging in the Event of SARS-CoV-2
+briefSummary: oid spaces; * a 3D T1 TSE 0.7 sequence covering the brain looking for meningeal or encephalic contrast enhancement, * FLAIR HR coronal sequence (high resolution) exploring the limbic system. * Optional: a 3D FLAIR "labyrinth" sequence in the event of hearing / balance problems; a DCE infusion sequence (T1-WI
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT04474925 Pre- Versus Post-operative SRS for Resectable Brain Metastases
+Conditions: Brain Metastases
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Leptomeningeal disease
+
+NCT04500795 Prospective Study on the Use of Middle Meningeal Artery Embolization for Chronic Subdural Haematoma
+Conditions: Chronic Subdural Hematoma, Subdural Hematoma
+briefSummary: rate of 2%-33.3%. Recent evidence suggests the angiogenesis of middle meningeal arteries (MMA) in response to inflammation and healing process contributes to the development of chronic subdural haematoma, and its high recurrence chance. Several studies have looked into the use of middle meningeal artery embo
+briefSummary: recurrence chance. Several studies have looked into the use of middle meningeal artery embolization to halt the bleeding of a chronic subdural haematoma, and have found promising results in terms of haematoma reduction and prevention of surgical rescues.
+detailedDescription: mary goal of the study is to assess the safety and efficacy of middle meningeal artery embolization in treating patients presenting with subdural haematoma. Previous studies and trial in other countries have shown promising results. This study aims to serve as the pilot clinical study of the procedure in Hon
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+arms:  done at the same setting.", "interventionNames": ["Procedure: Middle meningeal artery embolization"]}, {"label": "Control Group", "type": "NO_INTERVENTION", "description": "All symptomatic patients (headache unresponsive to analgesic or neurological deficits including focal neurological deficits, deteriorat
+arms: on Group."}], "interventions": [{"type": "PROCEDURE", "name": "Middle meningeal artery embolization", "description": "MMA embolization will be performed with a liquid embolization agent with local anaesthesia. Selective angiography will be performed before embolization to select MMA branch targets and detect
+
+NCT04503772 Preoperative Stereotactic Radiosurgery for Brain Metastases
+Conditions: Brain Metastases
+criteria: Inclusion Criteria:
+criteria: * For women of childbearing age including those on luteinizing hormone-releasing hormone (LH-RH) agonists for ovarian suppression: inclusion negative serum pregnancy test (≤ 7 days prior to the start of preoperative stereotactic radiosurgery (SRS).
+criteria: Exclusion Criteria:
+criteria: * Documented leptomeningeal injury
+criteria: * Patient participating in another intervention study within 4 weeks prior to inclusion
+
+NCT04510415 Olmutinib 600 mg QD in Patients With T790M-positive NSCLC After Treatment With an EGFR-TKI
+Prior: None Unreviewed
+Conditions: Non Small Cell Lung Cancer
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Spinal cord compression, leptomeningeal carcinomatosis or active symptomatic brain metastases
+
+NCT04511572 Embolization of Middle Meningeal Artery in Chronic Subdural Hematoma
+Conditions: Chronic Subdural Hematomas
+briefSummary: il population re-operation is undesirable. Embolization of the middle meningeal artery is an adjuvant treatment which has been reported in multiple case reports and larger case series, showing a beneficial effect on recurrence rate, reducing it to \<5%, without complications.  Objectives: Primary: To evaluat
+briefSummary: s: Primary: To evaluate whether additional embolization of the middle meningeal artery after surgery for cSDH reduces the recurrent surgery rate. Secondary: to evaluate whether the use of middle meningeal artery embolization after surgical treatment in symptomatic cSDH patients increases quality of life (SF-
+detailedDescription: es are caused by collateral blood vessels originating from the middle meningeal artery. The correlation between the cycle of re-bleeding and fibrinolysis, and reabsorption of the subdural collection will determine whether the cSDH will resolve, persist or enlarge.  Treatment options The first treatment optio
+detailedDescription: s have described successful treatment with embolization of the middle meningeal artery as an adjunct to surgical evacuation. The goal of embolization is to devascularize the subdural membranes to a sufficient extent such that the balance is shifted from the continued rebleeding and accumulation of blood prod
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+arms: -36, EQ-5D-5L, ALDS, iMCQ and iPCQ."}, {"label": "embolisation middle meningeal artery", "type": "ACTIVE_COMPARATOR", "description": "Besides standard treatment those patient who are allotted to the intervention group will receive embolization of the middle meningeal artery until 72 hours after burr hole eva
+arms: ted to the intervention group will receive embolization of the middle meningeal artery until 72 hours after burr hole evacuation. After hospital discharge follow-up is at 8, 16 and 24 weeks with a follow-up CT-scan of the head in addition to assessment of mRS, MOCA, mNIHSS, Markwalder score, SF-36, EQ-5D-5L,
+
+NCT04545814 Analyzing Preoperative Stereotactic Radiosurgery With Gamma Knife Icon for Brain Metastases
+Conditions: Brain Metastases
+detailedDescription:  months for two years).  STUDY RATIONALE: Given the increased risk of leptomeningeal failure with surgery followed by SRS as well as the risk of radiation necrosis, new paradigms in therapy delivery and sequencing are being explored. Areas of investigation include optimization of target volume, marginal exp
+detailedDescription: both safe and effective (even for metastases \>3 cm) with no reported leptomeningeal recurrences or radiation necrosis. More recently, Patel et al. performed a retrospective comparison of preoperative versus postoperative SRS and reported no difference in local control, distant brain failure, or overall sur
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 5. Patients with leptomeningeal metastases documented by MRI or cerebrospinal fluid (CSF) evaluation.
+
+NCT04581824 Efficacy Comparison of Dostarlimab Plus Chemotherapy Versus Pembrolizumab Plus Chemotherapy in Participants With Metastatic Non-squamous Non-small Cell Lung Cancer (NSCLC)
+Conditions: Lung Cancer, Non-Small Cell
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Participant has had major surgery within 3 weeks of the first dose of study treatment or has not adequately recovered from any AEs (Grade \<=1) and/or complications from any major surgery. Surgical implantation of a port catheter is not exclusionary.
+criteria: * Participant has known active brain metastases and/or leptomeningeal metastases. Participants who have received prior therapy for their brain metastases and have radiographically stable central nervous system disease may participate, provided they are neurologically stable for at least 2 weeks before study entry and must be off corticosteroids within 3 days prior to the first dose of study treatment. Stable brain metastases by this definition should be established prior to the first dose of study treatment. Participants with known untreated, asymptomatic brain metastases (i.e., no neurological symptoms, no requirements for corticosteroids, no or minimal surrounding edema, and no lesions \>1.5 centimeters \[cm\]) may participate, but will require regular imaging of the brain as a site of disease.
+criteria: * Participant has current interstitial lung disease, current pneumonitis, or a history of pneumonitis that required the use of oral or IV glucocorticoids to assist with management. Lymphangitic spread of the NSCLC is not exclusionary.
+
+NCT04620954 Clinical Trial of Chemotherapy, Oregovomab and Nivolumab in Patients With Epithelial Cancer of Ovarian, Tubal or Peritoneal Origin
+Conditions: Epithelial Ovarian Cancer
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: Cancer-specific Exclusions
+criteria: * Leptomeningeal carcinomatosis
+criteria: General Medical Exclusions
+criteria: Exclusions Related to Investigational Products
+criteria: Other Exclusions Criteria
+
+NCT04707170 MRI Exploration of Meningeal Inflammatory Disease
+Conditions: MRI
+criteria: Inclusion Criteria:
+criteria: * Hospitalized for an expected period of at least 48 hours after the time of inclusion
+criteria: Exclusion Criteria:

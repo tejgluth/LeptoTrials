@@ -1,0 +1,76 @@
+{
+  "NCT00003406": {
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ],
+    "rationale": "Eligibility expressly allows a prior history of CSF tumor involvement when asymptomatic and now disease-free on lumbar puncture/brain CT; active leptomeningeal involvement remains excluded. Mixed malignancies include solid tumors; no named tumor-specific LM cohort is established."
+  },
+  "NCT00667615": {
+    "include": true,
+    "buckets": [],
+    "rationale": "DLBCL eligibility expressly allows a history of lymphomatous meningitis when stable without CNS/leptomeningeal recurrence and off steroids or on a stable dose. Active disease and primary CNS lymphoma remain excluded. Hematologic LM: general results only."
+  },
+  "NCT01527149": {
+    "include": true,
+    "buckets": [],
+    "rationale": "Mantle-cell lymphoma inclusion expressly states that a lumbar puncture demonstrating mantle-cell lymphoma is not an exclusion for enrollment, despite exclusion of symptomatic meningeal or parenchymal CNS lymphoma. CSF-positive asymptomatic lymphoma provides a genuine LM path; general only."
+  },
+  "NCT01977209": {
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ],
+    "rationale": "Stage IIIB/IV NSCLC inclusion explicitly permits a brain/meningeal metastasis history after surgery or radiotherapy and at least two months of clinical stability. The eligible meningeal path is tied to NSCLC."
+  },
+  "NCT03215095": {
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ],
+    "rationale": "Recurrent/metastatic thyroid carcinoma eligibility explicitly permits treated leptomeningeal carcinomatosis; patients must be off steroids used for CNS/LM disease. OTHER_SOLID only."
+  },
+  "NCT03283137": {
+    "include": true,
+    "buckets": [],
+    "rationale": "CLL/B-cell NHL eligibility expressly permits previously treated CNS lymphoma and/or lymphomatous meningitis after at least four weeks of imaging stability, neurologic recovery, and seven days off steroids. Hematologic LM: general only."
+  },
+  "NCT03401853": {
+    "include": true,
+    "buckets": [],
+    "rationale": "Relapsed/refractory follicular lymphoma or DLBCL eligibility explicitly permits previously treated lymphomatous meningitis after four weeks of imaging stability, neurologic recovery, and seven days off steroids. General only."
+  },
+  "NCT05807893": {
+    "include": true,
+    "buckets": [
+      "LUNG"
+    ],
+    "rationale": "Stage IV non-squamous NSCLC inclusion explicitly allows local meningeal metastases alongside qualifying parenchymal brain lesions; extensive meningeal disease is excluded. LUNG only."
+  },
+  "NCT05984108": {
+    "include": true,
+    "buckets": [
+      "MELANOMA"
+    ],
+    "rationale": "The primary meningeal melanocytic-tumor inclusion and named meningeal melanoma/melanomatosis cohorts explicitly include malignant leptomeningeal-origin disease; the summary distinguishes malignant melanomatosis from benign melanocytosis. The exclusion concerns metastatic extrameningeal melanoma, not primary malignant meningeal cohorts. MELANOMA is supported by the explicitly named malignant melanoma cohort; no GBM or OTHER_SOLID assignment."
+  },
+  "NCT06492915": {
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ],
+    "rationale": "Pancreatic ductal adenocarcinoma exclusion of active/untreated brain or meningeal metastases is followed by an explicit enrollment exception for treated, asymptomatic disease with imaging stability for four weeks, measurable extra-CNS disease, and two weeks off systemic steroids/anticonvulsants. The exception applies to the preceding meningeal population; it is not limited to brain metastases (which appear only as an example of stability). OTHER_SOLID only."
+  },
+  "NCT03423628": {
+    "include": true,
+    "buckets": [
+      "OTHER_SOLID"
+    ],
+    "rationale": "LM is a named registry condition, and Arm B (solid-tumor brain metastases) specifically addresses seizure history related to LMD. GBM belongs to separate Arms A/C without an explicit GBM LM path. Retain overall LM relevance and OTHER_SOLID; remove unsupported GBM assignment. Study is now COMPLETED; historical cohort closure remains separate from relevance."
+  },
+  "NCT04527549": {
+    "include": false,
+    "buckets": [],
+    "rationale": "Current registry and public protocol EA6191 v2023-01-19 section 3.1.30 exclude leptomeningeal disease or symptomatic/untreated/unstable cord-compression metastases. The modifier scope is ambiguous and the following steroid exception does not specifically establish an eligible LM path. Brain-metastasis permissions and generic non-measurable-disease definitions cannot establish LM inclusion. Conservatively remove unsupported relevance/MELANOMA assignment."
+  }
+}

@@ -167,11 +167,20 @@ test('NCT02616393 preserves a dedicated LM trial with a neurological confounder 
   assert.deepEqual(filterTrial(study, 45), { include: true })
 })
 
-for (const nctId of ['NCT03083041', 'NCT03417895', 'NCT05984108']) {
+for (const nctId of ['NCT03083041', 'NCT03417895']) {
   test(`${nctId} stays excluded by its audited classification`, () => {
     assertExcluded(fixture(nctId), /manual audit override/)
   })
 }
+
+test('an LM condition or title cannot override a standalone general LM exclusion', () => {
+  for (const diagnosis of ['Leptomeningeal disease.', '* Known leptomeningeal metastases', '1. Patients with carcinomatous meningitis are excluded.']) {
+    assertExcluded(makeStudy({
+      conditions: ['Leptomeningeal Disease'], title: 'Leptomeningeal study',
+      criteria: `Inclusion Criteria:\nSolid tumors.\nExclusion Criteria:\n${diagnosis}`,
+    }), /Unqualified leptomeningeal exclusion/)
+  }
+})
 
 test('tumor inference distinguishes lung, breast, melanoma, glioma, and other solid tumors', () => {
   for (const [condition, type] of [

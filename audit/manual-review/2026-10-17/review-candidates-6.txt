@@ -1,0 +1,232 @@
+NCT05932199 Neoadjuvant Durvalumab and Tremelimumab With and Without Chemotherapy for Mesothelioma
+Prior: None Unreviewed
+Conditions: Mesothelioma
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 18. History of leptomeningeal carcinomatosis.
+
+NCT05984108 Clinical, Radiological, Histologic and Molecular Features of a Cohort of Melanocytic Tumors of the Central Nervous System
+Conditions: Meningeal Melanocytoma, Meningeal Melanomatosis, Meningeal Melanocytosis, Meningeal Melanoma
+briefSummary: of the central nervous system are rare lesions and occur develop from leptomeningeal melanocytes. The WHO classification of tumors of the central nervous system in its most recent version (2021) distinguishes on the one hand the circumscribed melanocytic tumors including melanocytoma, benign, and its slope 
+briefSummary: cytic tumors including melanocytoma, benign, and its slope malignant, meningeal melanoma, with an intermediate grade lesion in between, called intermediate grade melanocytoma. They are to be distinguished from diffuse tumors or multifocal diseases such as melanocytosis and its malignant corollary, melanomato
+detailedDescription: d outside the nervous system, the question of a primary lesion with a meningeal starting point arises. A molecular characterization is then required, in order to highlight mutations recurrent spores of the GNA11 or GNAQ genes, classically not found in the cutaneous melanomas, the latter presenting different 
+detailedDescription: arer alterations such as PLCB4 or CYSLTR2 are also described in these meningeal melanocytic tumors, but are not part of the gene panels of routine. On the other hand, the discovery of a circumscribed melanocytic lesion, in particular intradural extramedullary and spindle cells, should suggest the differentia
+criteria: Inclusion Criteria:
+criteria: * Patient with a primitive meningeal melanocytic tumor
+criteria: Exclusion Criteria:
+criteria: * Patient with metastatic extrameningeal melanoma
+arms: {"armGroups": [{"label": "Meningeal melanocytoma"}, {"label": "Meningeal melanoma"}, {"label": "Meningeal melanomatosis"}, {"label": "Meningeal melanocytosis"}]}
+arms: {"armGroups": [{"label": "Meningeal melanocytoma"}, {"label": "Meningeal melanoma"}, {"label": "Meningeal melanomatosis"}, {"label": "Meningeal melanocytosis"}]}
+
+NCT06023277 A Phase 1b/2 Clinical Trial to Evaluate the Safety and Efficacy of ConvitVax in Metastatic Breast Cancer
+Conditions: Metastatic Breast Cancer
+briefSummary: ents with metastatic breast cancer (MBC) except for brain metastases, leptomeningeal carcinomatosis, and/or spinal cord compression. The primary aim is to determine the overall safety and tolerability of ConvitVax when administered via an intradermal (id) injection as monotherapy in female patients with MBC
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Patients with known brain metastases, leptomeningeal carcinomatosis, and/or spinal cord compression. Participants with brain metastases that have been previously totally resected or irradiated are eligible provided no progression or relapse is observed within 4-weeks of the last treatment.
+criteria: * Patients positive for Covid-19 or those who had the disease within a month before their inclusion in the study.
+
+NCT06121336 PRecisiOn Medicine In StrokE: Evolution of Plasma Brain-Derived Tau in Acute Stroke
+Conditions: Stroke, Stroke, Acute, Stroke, Ischemic, Cerebrovascular Disorders, Brain Diseases, Central Nervous System Diseases, Brain Ischemia, Nervous System Diseases
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * A history of ischemic stroke, subarachnoid hemorrhage, intracerebral hemorrhage, subdural hematoma, epidural hematoma, CNS tumor, meningitis, or encephalitis within the last three months
+
+NCT06134206 Burr Hole Ultrasound Study
+Conditions: Chronic Subdural Hematoma
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+arms: esidual hematoma or residual fluid. The brain's surface and overlying leptomeninges, however, displayed higher echogenicity compared to the subdural fluid. The subdural hematoma's thickness was measured at its maximum extent.", "armGroupLabels": ["Burr hole sonography"], "otherNames": ["TBUS", "Trans-burr h
+
+NCT06258408 A Phase 1 Study of BB102 in Participants With Advanced Solid Tumors
+Prior: False Symptomatic/uncontrolled metastases to the meninges are excluded; the qualified exclusion does not positively establish an eligible malignant LM population.
+Conditions: Advanced Solid Tumor
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 10. Presence of clinically symptomatic metastases to the central nervous system or meninges or other evidence showing that metastatic lesions in the central nervous system or meninges have not yet been controlled at screening, which, at the investigator's discretion, is not suitable for enrollment.
+
+NCT06436092 Japanese Coronary Intervention Using Drug Eluting and Perfusion Therapy for Left Main Disease (JDEPTH-LM Registry)
+Conditions: Stable Angina, Non-ST-elevation Acute Coronary Syndrome, Unstable Angina
+briefSummary: ted balloon (DCB) in patients with left main coronary artery disease (LMD) with left circumflex artery (LCx) ostium stenosis.
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+arms: ipants", "description": "Subjects \u2265 18 years of age with de novo LMD with LCx ostium stenosis presenting with stable angina, non-ST-elevation myocardial infarction, or unstable angina that are suitable for percutaneous coronary intervention including W-KBT processes. Approximately 280 subjects at 
+
+NCT06492915 Chiauranib in Patients With Locally Advanced or Metastatic Pancreatic Ductal Adenocarcinoma
+Prior: False Active/symptomatic LM is excluded; a generic stable-CNS exception does not establish an affirmative meningeal eligibility path.
+Conditions: Pancreatic Ductal Adenocarcinoma
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 4. Presence of active or untreated brain metastases, meningeal metastases, spinal cord compression, or molluscum contagiosum disease during the screening period. However, enrolment is permitted for subjects who meet the following requirements and have measurable lesion outside the CNS: asymptomatic after treatment and stable on imaging for at least 4 weeks prior to the first dose (e.g., no new or enlarging brain metastases) and have been off systemic glucocorticosteroids and anticonvulsant medications for at least 2 weeks prior to the first dose.
+criteria: 16. Adverse effects of prior antineoplastic therapy that have not returned to ≤grade 1 of CTCAE v5.0 criteria (except for alopecia without safety risk judged by the investigator and laboratory tests specified in Inclusion Criterion 8).
+
+NCT06684795 FG001 in Subjects with Meningiomas or Presumed Low-Grade Gliomas Scheduled for Neurosurgery
+Conditions: Low-grade Glioma, Meningioma, Glioma
+briefSummary: omas of the brain as well as the border towards healthy tissue in the meninges is a challenge. For the high-grade contrast enhanced gliomas fluorescent drugs like Gliolan have been used in several years and proved its clinical value. For non-contrast enhanced gliomas, like low-grade glioma, no such drug exi
+briefSummary: ign tumors as meningioma the complete resection including infiltrated meninges is of importance for the cure of the disease. None of the existing fluorescent drug is useful or approved for these tumors.. Hence a medicinal product that will fulfil the criteria for a safe and reliable fluorescent drug to guid
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 2. Female subjects who are pregnant or breast-feeding (pregnancy test positive prior to inclusion (or if breast-feeding willing to pause breast feeding during trial and for 30 days
+
+NCT06720727 Craniospinal Irradiation in Histone AlteRed Midline Glioma
+Conditions: Glioma
+briefSummary: compared to that of adults and an increased risk to fail/recur in the leptomeninges(covering of brain and spinal cord). The following study is planned in order to assess the benefit of craniospinal irradiation(delivering radiotherapy to brain, spinal cord and its covering membrane in this high risk populati
+detailedDescription: , particularly in children, with frequent recurrence and high risk of leptomeningeal spread. Current standard treatment involves definitive radiation therapy to the primary site and concurrent temozolomide chemotherapy following histological confirmation via biopsy. However, outcomes remain suboptimal, prom
+detailedDescription: use midline glioma.  Secondary objectives:  * Estimate median time to leptomeningeal dissemination and compare with historical control * Study patterns of failure * Early and late toxicities * Study quality of life indices * To estimate QTWiST (Quality of life without symptoms or toxicity)  Primary endpoint
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+arms: on therapy to the whole brain, spinal cord, nerve roots, the covering meninges(leptomeninges) and subarachnoid space and provides a viable means of mitigating leptomeningeal spread and possibly improving survival.", "interventionNames": ["Radiation: craniospinal irradiation"]}], "interventions": [{"type": "
+arms: y to the whole brain, spinal cord, nerve roots, the covering meninges(leptomeninges) and subarachnoid space and provides a viable means of mitigating leptomeningeal spread and possibly improving survival.", "interventionNames": ["Radiation: craniospinal irradiation"]}], "interventions": [{"type": "RADIATION
+
+NCT06784193 Phase 1 Study of OP-3136 in Advanced or Metastatic Solid Tumors
+Prior: None Unreviewed
+Conditions: Advanced or Metastatic ER+ HER2- Breast Cancer (mBC), Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC), Advanced or Metastatic Castration-Resistant Prostate Cancer (mCRPC), Metastatic Breast Cancer, Fulvestrant,…
+criteria: Key Inclusion Criteria:
+criteria: Key Exclusion Criteria:
+criteria: * Known active or symptomatic central nervous system (CNS) metastases, carcinomatous meningitis, leptomeningeal disease, or a spinal cord compression that require CNS-specific treatment, or participants who did not demonstrate clinical and radiologic stability during the last 2 months prior to the first dose of study treatment or require or are currently on steroid therapy for CNS metastases.
+criteria: Note: Additional inclusion/exclusion criteria may apply.
+
+NCT06852352 An Exploratory Study to Confirm Efficacy of Modified Deep Cervical Lymphovenous Anastomosis (LVA) in Alzheimer's Disease/ Parkinson's Disease
+Conditions: Alzheimer Disease, Parkinson Disease
+briefSummary: phatic vessel atrophy compromises the metabolic clearance capacity of meningeal lymphatic vessels, potentially disrupting the equilibrium between production and clearance of Aβ/α-synuclein, ultimately leading to pathological accumulation of these proteins within the brain. Deep cervical lymphovenous anastomo
+detailedDescription: n Lewy bodies in PD. Emerging evidence implicates that the glymphatic-meningeal lymphatic system and deep cervical lymph nodes constitute the central pathway for metabolite clearance of cerebral macromolecules. Aging-associated lymphatic vessel atrophy disrupts the equilibrium between protein production and 
+detailedDescription: eep cervical LVA will reduce intracranial pressure gradients, augment meningeal lymph flow, and accelerate interstitial waste drainage, thereby mitigating neuroinflammation and neuronal damage. This trial aims to verify the efficacy of modified deep cervical LVA to modify disease progression in AD and PD, pr
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT06933199 Neoadjuvant Stereotactic Radiotherapy for Brain Metastasis
+Conditions: Brain Metastases
+detailedDescription: nical data gathered will include local control (LC), the incidence of leptomeningeal disease (LMD), radiological and clinical signs of radiation necrosis (RN), overall survival, and incidence of metachronous brain metastases. The magnetic resonance imaging (MRI) characteristics of irradiated and subsequentl
+detailedDescription:  include local control (LC), the incidence of leptomeningeal disease (LMD), radiological and clinical signs of radiation necrosis (RN), overall survival, and incidence of metachronous brain metastases. The magnetic resonance imaging (MRI) characteristics of irradiated and subsequently resected BM will 
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT06945705 A Clinical Trial of Furmonertinib Combined With Anlotinib as First-line Treatment for Advanced NSCLC With EGFR-sensitive Mutations and Brain Metastasis
+Prior: False Only LM without brain metastasis is excluded and there is no explicit eligible LM exception or cohort; do not infer a path from a qualified exclusion.
+Conditions: NSCLC
+briefSummary: tastases. The prognosis is poor for patients presenting with brain or leptomeningeal metastases at any stage, particularly those with such metastases at initial diagnosis, who have the worst prognosis. Furmonertinib, as a novel EGFR-TKI, enhances its lipophilicity by incorporating a trifluoroethoxy pyridine
+criteria: Inclusion Criteria:
+criteria: * Patient must meet all of the following inclusion criteria to be enrolled in this study:
+criteria: Exclusion Criteria:
+criteria:   2. Patients who have leptomeningeal metastasis confirmed by MRI and/or positive cerebrospinal fluid (CSF) cytology, but no evidence of brain parenchymal metastasis.
+
+NCT06951243 A Trial of MHB088C in Advanced Extrapulmonary Neuroendocrine Cancer
+Conditions: Advanced Extrapulmonary Neuroendocrine Cancer
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria:    * Leptomeningeal metastasis, brainstem metastasis, or spinal cord compression\*\* (radiographically confirmed, regardless of symptoms).
+
+NCT07039760 Asciminib With or Without Sildenafil for Brain Tumors
+Conditions: Brain Tumor
+briefSummary: loblastoma. Genetically inactivating ABL1 and 2 resulted in decreased leptomeningeal medulloblastoma and improved overall survival (OS) in rodent models. ABL kinases have also been shown to play a role in the malignant properties of glioblastoma. Asciminib is an FDA approved for the treatment of chronic mye
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Tumors suspected to be pituitary tumors or tumors of the meninges.
+
+NCT07050043 Low Dose Nivolumab With Chemotherapy vs Standard Chemotherapy as First-Line Treatment in Advanced or Metastatic NSCLC
+Conditions: NSCLC (Non-small Cell Lung Carcinoma), First Line Therapy, Locally Advanced/Metastatic NSCLC
+criteria: Inclusion Criteria:
+criteria: 7. If a participant has brain or meningeal metastases, the participant must meet the following criteria:
+criteria:    2. Carcinomatous meningitis is excluded regardless of clinical stability.
+criteria: Exclusion Criteria:
+
+NCT07067385 Personalized mRNA Cancer Vaccine for Gastrointestinal Solid Tumor Treatment
+Prior: None Unreviewed
+Conditions: Personalized Neoantigen Vaccine in Combination With Anti-PD-1 Inhibitors in Standard Therapy-Failed and Adjuvant Therapy, Gastrointestinal Tumors
+criteria: Inclusion Criteria:
+criteria: 5. The subject must have a tumor lesion suitable for repeated sampling for sequencing and immune testing. Fresh or archived tumor tissue is required, preferably from surgical or core needle biopsy (CNB) samples, including both tumor and 2-3 soybean-sized peritumoral tissues. Paraffin blocks or at least 10-20 unstained tumor tissue sections (4-6 μm thick) with tumor content \>20% are acceptable. If the subject cannot provide suitable samples but meets other inclusion/exclusion criteria, the investigator may still consider enrollment.
+criteria: Exclusion Criteria:
+criteria: 6. Presence of central nervous system (CNS) metastases and/or carcinomatous meningitis. Patients with previously treated brain metastases may be eligible if neurologically stable for at least 3 months, show no evidence of progression by imaging within 4 weeks before study drug initiation, have recovered from all neurologic symptoms, show no evidence of new or enlarging lesions, and have discontinued corticosteroids, surgery, or radiotherapy for at least 28 days. Carcinomatous meningitis is exclusionary regardless of stability.
+
+NCT07114497 Investigation of miRNA Expression Profiles in Human Degenerated Intervertebral Disc Tissues
+Conditions: Degeneration Disc Intervertebral, miRNA
+briefSummary: r disc herniation (LDH) who are scheduled for lumbar microdiscectomy (LMD), and patients diagnosed with vertebral fractures who are scheduled for decompression or fusion surgeries, by obtaining informed consent in accordance with ethical standards.  Objective 2:  To collect degenerated intervertebral d
+briefSummary: :  To collect degenerated intervertebral disc tissues obtained during LMD or spinal cord repair surgeries into cryotubes in duplicates for real-time PCR (rt-PCR) analysis, and to store them under appropriate conditions until analysis.  Objective 3:  To identify candidate miRNAs that regulate genes asso
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+arms: r disc herniation (LDH) who are scheduled for lumbar microdiscectomy (LMD) surgery due to intervertebral disc degeneration (IVDD).", "interventionNames": ["Diagnostic Test: surgery (any volume) and / or pharmaceuticals treatment initiated or planned or only dynamic observation, in accordance with curre
+
+NCT07130786 Prophylactic Anti-Seizure Medication vs No Anti-Seizure Medication for Patients With Primary Motor Cortex Brain Metastases
+Conditions: Seizures, Primary Motor Cortex, Brain Metastases From Non-small Cell Lung Cancer (NSCLC), Brain Metastases, Adult, Brain Metastases From Extra-cranial Solid Tumors
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 7. Participants with widespread, definitive leptomeningeal disease given that leptomeningeal disease and brain metastases are different entities
+
+NCT07132190 Stereotactic Radiation for Growing/Changing Brain Metastases With Same-Day Radiation Planning and Treatment With Margin Reduction
+Conditions: Brain Metastases, Adult, Brain Tumor - Metastatic, Brain Metastases From Non-small Cell Lung Cancer (NSCLC), Brain Metastases From Extra-cranial Solid Tumors
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 4. Participants with widespread, definitive leptomeningeal disease
+
+NCT07287995 A Study of ASP2998 Given by Itself and Given With Standard Therapies in People With Solid Tumors
+Conditions: Locally Advanced or Metastatic Malignant Solid Tumors
+briefSummary: ls have spread to the thin tissue covering the brain and spinal cord (leptomeningeal disease), have symptoms of cancer in the brain or nervous system, or need medicines to suppress their immune system.  In this study, ASP2998 will be given to humans for the first time. ASP2998 will either be given by itself
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria:   * Recurrent Grade 3 or Grade 4 toxicities related to prior anticancer therapy not improved to Grade ≤ 1 or baseline per National Cancer Institute Common Terminology Criteria for Adverse Events (NCI-CTCAE) v5.0 or higher at least 28 days prior to initiating screening. NOTE: Participant with chronic, stable Grade ≤ 2 toxicities is eligible if the toxicity has not worsened beyond Grade 2 for at least 3 months prior to C1D1 and is managed with standard of care treatment, and is considered by the investigator to be related to prior anticancer therapy. However, a participant who meets other exclusion criteria will be excluded from the study regardless of the above provisions.
+criteria: * Participant has leptomeningeal disease as a manifestation of the current malignancy.
+
+NCT07320599 Neuroendoscopic Surgery With Ommaya Reservoir Implantation vs. Burr Hole Drainage for Infantile Postmeningitis Subdural Lesions: Superior Efficacy, Critical Impact of Surgical Timing, and Pathogenic Bacteria as Risk Factors for Progression
+Conditions: Meningitis
+briefSummary: Globally, approximately 750,000 cases of infantile meningitis occur annually\[1\]. Clinical data show infantile postmeningitis subdural fluid collection (IPSFC) is the most common complication of infantile bacterial meningitis (IBM), with a progression rate of 30-60% (39% in standardized tr
+briefSummary: tile meningitis occur annually\[1\]. Clinical data show infantile postmeningitis subdural fluid collection (IPSFC) is the most common complication of infantile bacterial meningitis (IBM), with a progression rate of 30-60% (39% in standardized treatment cohorts)\[2\]. Pathogens, predominantly Escherichia coli 
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * subdural fluid collections secondary to viral meningitis; secondary collections with confirmed craniocerebral trauma history; diagnosed tuberculous subdural fluid collection; intracranial space-occupying lesions.
+
+NCT07329634 Evaluation of Neoadjuvant Stereotactic Radiosurgery (SRS) and Multi-fraction SRS Alone for the Treatment of Large Brain Metastases
+Conditions: Brain Metastasis
+detailedDescription: ptomatic radiation necrosis of the treated lesions, or development of leptomeningeal disease. Secondary outcomes include overall survival (OS), progression-free survival (PFS), adverse events assessed according to NCI CTCAE version 5.0 criteria, and health-related quality of life (QoL) assessed using the EO
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Leptomeningeal disease.
+
+NCT07357298 Phase III Trial of Brain MRI Surveillance in Stage IV Breast Cancer
+Conditions: Breast Cancer
+briefSummary:  to differences in treatment modality, frequency of brain metastases, leptomeningeal disease incidence, quality of life, and survival outcomes.
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Prior diagnosis or treatment of brain metastases or leptomeningeal disease
+
+NCT07409272 A Study to Evaluate the Effectiveness and Safety of Setidegrasib, Given With Either mFOLFIRINOX or NALIRIFOX Chemotherapies, in People With Pancreatic Cancer
+Conditions: Pancreatic Cancer, Metastatic Pancreatic Cancer, Metastatic Pancreatic Adenocarcinoma
+briefSummary: ls have spread to the thin tissue covering the brain and spinal cord (leptomeningeal disease), have symptoms of cancer in the brain or nervous system, or have recently had some other cancers that required treatment.  In this study, people are given either setidegrasib with mFOLFIRINOX or NALIRIFOX chemother
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT07411690 Analysis of Cerebrospinal Fluid Leakage After Surgery for Intracranial Tumors
+Conditions: Brain Tumor Adult, Brain Tumor Benign, CerebroSpinal Fluid (CSF) Leak, Craniotomy, Glioblastoma, Glioma, Meningioma
+detailedDescription: lates within the subarachnoid space between the brain surface and the meningeal layers, providing mechanical protection and metabolic support to the central nervous system. During neurosurgical procedures for intracranial tumors, opening of the meningeal layers, including the dura mater, is routinely require
+detailedDescription: ring neurosurgical procedures for intracranial tumors, opening of the meningeal layers, including the dura mater, is routinely required to access deeper cerebral structures. At the conclusion of surgery, meticulous dural closure is performed to restore a watertight barrier. However, in certain cases, dural r
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT07415018 Optimizing Contrast Dose and Scanning Parameters for Detection of Leptomeningeal Disease
+Prior: False Confirmed imaging/cytology LM is excluded; suspected/high-risk disease is not a confirmed malignant LM eligibility cohort.
+Conditions: Leptomeningeal Disease
+briefSummary: st agent) used during MRI scanning can help in the detection of early LMD.
+detailedDescription: : Establish the ability of VUEWAY® (gadopiclenol) to detect early CNS LMD in brain MR while optimizing the ideal scan parameters including dose, sequences, and optimal timing for detection of CNS LMD in brain MRI. Brain MR offers a noninvasive alternative/complementary method to CNS sampling for detect
+detailedDescription: rs including dose, sequences, and optimal timing for detection of CNS LMD in brain MRI. Brain MR offers a noninvasive alternative/complementary method to CNS sampling for detection of LMD. However, sensitivity for disease detection remains acceptable at best ranging from 33% in hematological malignanci
+criteria: Inclusion Criteria:
+criteria: * Patients with tissue confirmed solid malignancy and standard of care brain MRI with equivocal results for LMD (questionable or possible) and negative LP CSF sampling or patients with high risk clinical LMD and negative brain MR and LP CSF sampling. Initially, we will target solid tumors, but if more patients are needed to meet the study power we will enroll liquid tumors.
+criteria: Exclusion Criteria:
+criteria: * Participants with CSF sampling positive for LMD or MR brain/spine with definitive evidence of LMD.
+arms:  48 hours) of the participants routine brain MRI scans, you will have LMD-focused brain MRI scans with gadopiclenol contrast. Specifically, MRI scans will be done immediately after a small amount of gadopiclenol is given through an IV catheter placed into a vein, and then at 10 and 30 minutes thereafte
+arms: ical and imaging guidelines for 6 months or until the confirmation of LMD (whichever comes first).", "interventionNames": ["Procedure: MRI Scan", "Drug: VUEWAY", "Drug: Gadavist"]}], "interventions": [{"type": "PROCEDURE", "name": "MRI Scan", "description": "Given during standard of care", "armGroupLab
+
+NCT07423585 Tarlatamab for the Treatment of Extensive Stage Small-cell Lung Cancer
+Conditions: Extensive Stage Lung Small Cell Carcinoma
+criteria: Inclusion Criteria:
+criteria:   * Patients with asymptomatic untreated brain metastases with no radiological evidence of vasogenic edema may be considered for inclusion after discussion with the sponsor
+criteria: * Chronic obstructive pulmonary disease (COPD) patients on stable supplementary oxygen (O2) for at least 6 months may be considered for inclusion after discussion with the sponsor
+criteria: Exclusion Criteria:
+criteria: * Symptomatic brain metastases and/or leptomeningeal disease
+criteria:   * NOTE: Simple urinary tract infections and uncomplicated bacterial pharyngitis are permitted if responding to active treatment and after consultation with sponsor. Subjects requiring oral antibiotics who have been afebrile for \> 72 hours, have no leukocytosis, nor clinical signs of infection are eligible. Screening for chronic infectious conditions is not required unless otherwise noted as an exclusion criterion
+criteria: * Prior treatment for SCLC. Subjects with limited-stage SCLC (LS-SCLC) who progressed after 6 months from completing chemotherapy and radiation may be considered for inclusion after discussion with the sponsor
+
+NCT07438626 Phase II Trial of Sacituzumab Tirumotecan in Patients With SMARCB1-Deficient Renal Medullary Carcinoma
+Conditions: Phase II, Sacituzumab, Tirumotecan, SMARCB1-deficient Renal Medullary Carcinoma
+criteria: Inclusion Criteria:
+criteria: 10. Participants with controlled brain metastases are allowed on protocol if the brain metastases were surgically resected or treated with radiosurgery or Gamma knife, and are radiologically stable without recurrence or edema for at least 1 month (4 weeks) as confirmed by repeat imaging performed during study screening. Participants actively requiring glucocorticoids for uncontrolled brain or leptomeningeal metastases are not eligible.
+criteria:     The effects of sacituzumab tirumotecan on the developing human fetus are unknown. For this reason and because immunotherapy agents as well as other therapeutic agents used in this trial are known to be teratogenic, women of child-bearing potential and men must agree to use adequate contraception(hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. (Refer to Pregnancy Assessment Policy MD Anderson Institutional Policy # CLN1114). This includes all female participants, between the onset of menses (as early as 8 years of age) and 55 years unless the participant presents with an applicable exclusionary factor which may be one of the following:
+criteria: Exclusion Criteria:

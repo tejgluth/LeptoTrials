@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-10T19:41:40.862Z",
-  "rawUniverseCount": 417,
-  "appUniverseCount": 311,
+  "generatedAt": "2026-10-17T19:16:11.876Z",
+  "rawUniverseCount": 426,
+  "appUniverseCount": 320,
   "records": [
     {
       "nctId": "NCT00002578",
@@ -131,6 +131,32 @@
         "Canada"
       ],
       "briefSummary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: Phase I trial to study the effectiveness of liposomal cytarabine in treating young patients who have recurrent or refractory meningeal leukemia, lymphoma, or solid tumors."
+    },
+    {
+      "nctId": "NCT00003406",
+      "url": "https://clinicaltrials.gov/study/NCT00003406",
+      "lastUpdate": "2013-03-26",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "briefTitle": "Combination Chemotherapy Followed by Peripheral Stem Cell Transplantation in Treating Patients With Refractory Cancer",
+      "officialTitle": "A Phase I-II Intensive-Dose Ifosfamide, Carboplatin and Taxotere (IC-T) Combination Chemotherapy Followed by Autologous Stem Cell Rescue for Patients With Refractory Malignancies",
+      "conditions": [
+        "Chronic Myeloproliferative Disorders",
+        "Leukemia",
+        "Lymphoma",
+        "Multiple Myeloma and Plasma Cell Neoplasm",
+        "Myelodysplastic Syndromes",
+        "Precancerous/Nonmalignant Condition",
+        "Unspecified Adult Solid Tumor, Protocol Specific"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining chemotherapy with peripheral stem cell transplantation may allow the doctor to give higher doses of chemotherapy drugs and kill more tumor cells.\n\nPURPOSE: Phase I/II trial to study the effectiveness of combining docetaxel, ifosfamide, and carboplatin followed by peripheral stem cell transplantation in treating patients with refractory cancer."
     },
     {
       "nctId": "NCT00003462",
@@ -728,6 +754,27 @@
       "briefSummary": "RATIONALE: Drugs used in chemotherapy, such as irinotecan and temozolomide, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Giving more than one drug (combination chemotherapy) may kill more tumor cells.\n\nPURPOSE: This phase II trial is studying the side effects of giving irinotecan together with temozolomide and to see how well it works in treating patients with breast cancer who have received previous treatment for brain metastases."
     },
     {
+      "nctId": "NCT00667615",
+      "url": "https://clinicaltrials.gov/study/NCT00667615",
+      "lastUpdate": "2018-01-05",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "briefTitle": "Trial of Vorinostat in Combination With Cyclophosphamide, Etoposide, Prednisone and Rituximab for Elderly Patients With Relapsed Diffuse Large B-Cell Lymphoma (DLBCL)",
+      "officialTitle": "A Multi-Center Phase I/II Trial of Vorinostat in Combination With Cyclophosphamide, Etoposide, Prednisone and Rituximab for Elderly Patients With Relapsed Diffuse Large B-Cell Lymphoma (DLBCL)",
+      "conditions": [
+        "Hodgkin's Disease",
+        "Lymphoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "The purpose of this study is to replace a drug with many side effects, procarbazine, with a new novel drug, vorinostat, in a drug combination for the treatment of patients with diffuse large B-cell lymphoma. Vorinostat is the first of a new type of chemotherapy drug, known as a histone deacetylase inhibitor, to be approved by the Food and Drug Administration. It is approved for the treatment of certain lymphomas of the skin. It alters the cancer cell pathway by preventing cancer cells from reproducing. Vorinostat will be added to a combination of four other effective chemotherapy drugs that have been used for many years for the treatment of diffuse large B-cell lymphoma: rituximab, cyclophosphamide, etoposide and prednisone. The doses of vorinostat will be increased or decreased depending on the side effects that occur in each of the first few patients in the trial to find the safest dose with the least side effects. This is termed the phase I part of the clinical trial. Once the best dose of vorinostat is found, the rest of the patients in the clinical trial will be treated with this dose. This is termed the phase II part of the trial. The object of the trial is to find out what effects, good and/or bad, the combination of vorinostat, rituximab, cyclophosphamide, etoposide and prednisone will have on you and your lymphoma."
+    },
+    {
       "nctId": "NCT00674674",
       "url": "https://clinicaltrials.gov/study/NCT00674674",
       "lastUpdate": "2012-05-15",
@@ -1013,6 +1060,29 @@
       "briefSummary": "This pilot clinical trial studies continuous intraventricular methotrexate in treating patients with leptomeningeal disease. Drugs used in chemotherapy, such as methotrexate, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Giving drugs directly into the ventricles may be an effective treatment for patients with leptomeningeal disease"
     },
     {
+      "nctId": "NCT01527149",
+      "url": "https://clinicaltrials.gov/study/NCT01527149",
+      "lastUpdate": "2024-02-07",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Ofatumumab in Combination With Cyclophosphamide, Doxorubicin Hydrochloride, Vincristine Sulfate, and Dexamethasone Alternating With Ofatumumab in Combination With Cytarabine and Methotrexate in Treating Patients With Newly Diagnosed Mantle Cell Lymphoma",
+      "officialTitle": "Ofatumumab (O) in Combination With Chemotherapy: Hyper-Fractionated Cyclophosphamide, Doxorubicin, Vincristine and Dexamethasone (O-HyperCVAD) Alternating With Ofatumumab High-Dose Cytarabine and Methotrexate (O-MA) for Patients With Newly Diagnosed Mantle Cell Lymphoma",
+      "conditions": [
+        "Stage I Mantle Cell Lymphoma",
+        "Stage II Contiguous Mantle Cell Lymphoma",
+        "Stage II Non-Contiguous Mantle Cell Lymphoma",
+        "Stage III Mantle Cell Lymphoma",
+        "Stage IV Mantle Cell Lymphoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "This phase II trial studies how well ofatumumab in combination with cyclophosphamide, doxorubicin hydrochloride, vincristine sulfate, and dexamethasone alternating with ofatumumab in combination with cytarabine and methotrexate works in treating patients with newly diagnosed mantle cell lymphoma (MCL). Monoclonal antibodies, such as ofatumumab, may interfere with the ability of cancer cells to grow and spread. Drugs used in chemotherapy, such as cyclophosphamide, doxorubicin hydrochloride, vincristine sulfate, dexamethasone, cytarabine, and methotrexate, work in different ways to stop the growth of cancer cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Giving ofatumumab together with alternating regimens of combination chemotherapy may kill more cancer cells."
+    },
+    {
       "nctId": "NCT01563614",
       "url": "https://clinicaltrials.gov/study/NCT01563614",
       "lastUpdate": "2016-04-19",
@@ -1202,6 +1272,25 @@
         "Taiwan"
       ],
       "briefSummary": "Phase 1 and 2 trial to study the safety, pharmacokinetics, pharmacodynamics, patient reported outcomes and efficacy of PF-06463922 in ALK + advanced non-small cell lung cancer patients and ROS1+ advanced non small cell lung cancer patients ."
+    },
+    {
+      "nctId": "NCT01977209",
+      "url": "https://clinicaltrials.gov/study/NCT01977209",
+      "lastUpdate": "2013-11-06",
+      "status": "UNKNOWN",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "briefTitle": "Gossypol Combined With Docetaxel and Cisplatin Scheme in Advanced Non Small-cell Lung Cancers With APE1 High Expression",
+      "officialTitle": "A Randomized, Double Blind, Placebo-controlled Multiple-center Phase III Trial of Gossypol Combined With Docetaxel and Cisplatin Scheme in Advanced Non Small-cell Lung Cancers With APE1 High Expression",
+      "conditions": [
+        "Non-small Cell Lung Cancer"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "The investigators' experimental study found that gossypol was the natural inhibitor of apyrimidinic endonuclease 1 (APE1) and clinical study observed that high expression of APE1 was relative to the platinum-resistance in non-small cell lung cancer. Thus the purpose of this study is to find out whether gossypol can improve the sensitivity of cisplatin-based chemotherapy in the non-small cell lung cancer with apurinic apyrimidinic endonuclease 1 (APE1) high expression"
     },
     {
       "nctId": "NCT02071056",
@@ -1989,6 +2078,25 @@
       "briefSummary": "This research study is studying a drug combination as a possible treatment for anaplastic lymphoma kinase-positive (ALK+) non-small cell lung cancer.\n\nThe drugs involved in this study are:\n\n* Alectinib\n* Cobimetinib"
     },
     {
+      "nctId": "NCT03215095",
+      "url": "https://clinicaltrials.gov/study/NCT03215095",
+      "lastUpdate": "2026-08-11",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "briefTitle": "RAI Plus Immunotherapy for Recurrent/Metastatic Thyroid Cancers",
+      "officialTitle": "Radioiodine (RAI) in Combination With Durvalumab (Medi4736) for RAI-avid, Recurrent/Metastatic Thyroid Cancers",
+      "conditions": [
+        "Thyroid Cancer"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "The purpose of this study is to find out what effects, good and/or bad, a drug called durvalumab combined with Thyrogen-stimulated RAI, has on the patient and thyroid cancer. Durvalumab is a drug that has been developed to activate the immune system by blocking a protein called programmed death ligand-1 (PD-L1) that can be present on tumor and normal cells, including immune cells."
+    },
+    {
       "nctId": "NCT03252912",
       "url": "https://clinicaltrials.gov/study/NCT03252912",
       "lastUpdate": "2026-03-12",
@@ -2054,6 +2162,26 @@
       "briefSummary": "Children with a neuroblastoma diagnose and central nervous system (CNS)/leptomeningeal metastases will be given up to 2 rounds of intracerebroventricular treatment with a radiolabelled monoclonal antibody, 131I-omburtamab to evaluate efficacy and safety"
     },
     {
+      "nctId": "NCT03283137",
+      "url": "https://clinicaltrials.gov/study/NCT03283137",
+      "lastUpdate": "2025-02-07",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "briefTitle": "Combination of Pembrolizumab With TGR-1202 in Patients With Relapsed/Refractory CLL and B-cell NHL",
+      "officialTitle": "A Phase I, Open-label, Dose-escalation Study to Assess the Safety, Tolerability and Efficacy of the Combination of Pembrolizumab With TGR-1202 in Patients With Relapsed/Refractory CLL and B-Cell Non-Hodgkin Lymphoma (NHL)",
+      "conditions": [
+        "CLL",
+        "B-cell Non Hodgkin Lymphoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "This study will be a standard 3+3 design with a lead in of TGR-1202 at dose of 600mg (dose level 1) or 800mg daily (dose level 2) for 6 weeks, i.e. 2 cycles, followed by pembrolizumab at 200mg every 3 weeks for 8 cycles along with TGR-1202 for patients with relapsed/refractory B-cell NHL or CLL. If the dose of 600mg daily of TGR-1202 (dose level 1) is tolerated in the first cohort the dose will be increased to 800mg qd which is the only and final dose escalation. If TGR-1202 is not tolerated at 600mg daily the dose will be decreased to 400mg daily. The lead in of TGR-1202 was chosen to ensure clinical benefit and to minimize the occurrence of early overlapping toxicity with pembrolizumab as most toxicities were observed early on in the treatment with idelalisib, a related PI3K-inhibitor, and rituximab."
+    },
+    {
       "nctId": "NCT03360929",
       "url": "https://clinicaltrials.gov/study/NCT03360929",
       "lastUpdate": "2022-11-25",
@@ -2074,10 +2202,32 @@
       "briefSummary": "This is a multi-center, open-label, dose escalation and phase I/II study, consisting of dose escalation in Part A and phase II study in Part B."
     },
     {
+      "nctId": "NCT03401853",
+      "url": "https://clinicaltrials.gov/study/NCT03401853",
+      "lastUpdate": "2025-07-22",
+      "status": "TERMINATED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Pembrolizumab With Rituximab or Obinutuzumab in Treating Patients With Relapsed or Refractory Follicular Lymphoma or Diffuse Large B Cell Lymphoma",
+      "officialTitle": "Phase II Study of Anti-CD20 Antibody Therapy Plus Pembrolizumab (MK-3475) in Subjects With Relapsed Follicular and Diffuse Large B-Cell Lymphoma",
+      "conditions": [
+        "Recurrent Diffuse Large B-Cell Lymphoma",
+        "Recurrent Follicular Lymphoma",
+        "Refractory Diffuse Large B-Cell Lymphoma",
+        "Refractory Follicular Lymphoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "This phase II trial studies how well pembrolizumab with rituximab or obinutuzumab work in treating patients with follicular lymphoma or diffuse large B cell lymphoma that has come back (recurrent) or does not respond to treatment (refractory). Immunotherapy with monoclonal antibodies, such as pembrolizumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread. Rituximab and obinutuzumab are monoclonal antibodies. They bind to a protein called CD20, which is found on B cells (a type of white blood cell) and some types of cancer cells. This may help the immune system kill cancer cells. Giving pembrolizumab with rituximab or obinutuzumab may help kill more cancer cells in patients with follicular lymphoma or diffuse large B cell lymphoma."
+    },
+    {
       "nctId": "NCT03423628",
       "url": "https://clinicaltrials.gov/study/NCT03423628",
-      "lastUpdate": "2026-07-17",
-      "status": "ACTIVE_NOT_RECRUITING",
+      "lastUpdate": "2026-10-15",
+      "status": "COMPLETED",
       "studyType": "INTERVENTIONAL",
       "phases": [
         "PHASE1"
@@ -2557,7 +2707,7 @@
     {
       "nctId": "NCT04094688",
       "url": "https://clinicaltrials.gov/study/NCT04094688",
-      "lastUpdate": "2026-03-03",
+      "lastUpdate": "2026-10-14",
       "status": "ACTIVE_NOT_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -2636,7 +2786,7 @@
     {
       "nctId": "NCT04181060",
       "url": "https://clinicaltrials.gov/study/NCT04181060",
-      "lastUpdate": "2026-10-09",
+      "lastUpdate": "2026-10-16",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -2755,7 +2905,7 @@
     {
       "nctId": "NCT04301076",
       "url": "https://clinicaltrials.gov/study/NCT04301076",
-      "lastUpdate": "2026-09-23",
+      "lastUpdate": "2026-10-15",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -3088,29 +3238,6 @@
         "United States"
       ],
       "briefSummary": "This phase II trial compares the effect of encorafenib, binimetinib, and nivolumab versus ipilimumab and nivolumab in treating patients with BRAF- V600 mutant melanoma that has spread to the brain (brain metastases). Encorafenib and binimetinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Ipilimumab and nivolumab are monoclonal antibodies that may interfere with the ability of tumor cells to grow and spread. This trial aims to find out which approach is more effective in shrinking and controlling brain metastases from melanoma."
-    },
-    {
-      "nctId": "NCT04527549",
-      "url": "https://clinicaltrials.gov/study/NCT04527549",
-      "lastUpdate": "2026-10-06",
-      "status": "TERMINATED",
-      "studyType": "INTERVENTIONAL",
-      "phases": [
-        "PHASE2"
-      ],
-      "briefTitle": "Testing Dabrafenib and Trametinib With or Without Hydroxychloroquine in Stage IIIC or IV BRAF V600E/K Melanoma",
-      "officialTitle": "The BAMM2 (BRAF, Autophagy, MEK Inhibition in Melanoma) Study: A Randomized Double Blind Phase II Study of Dabrafenib and Trametinib With or Without Hydroxychloroquine in Advanced BRAF V600E/K Melanoma With Elevated LDH",
-      "conditions": [
-        "Clinical Stage IV Cutaneous Melanoma AJCC v8",
-        "Locally Advanced Melanoma",
-        "Pathologic Stage IIIC Cutaneous Melanoma AJCC v8",
-        "Pathologic Stage IV Cutaneous Melanoma AJCC v8",
-        "Unresectable Melanoma"
-      ],
-      "countries": [
-        "United States"
-      ],
-      "briefSummary": "This phase II trial investigates how well adding hydroxychloroquine to the standard treatment of dabrafenib and trametinib works to overcome resistance and delay disease progression in treating patients with stage IIIC or IV BRAF V600E/K melanoma. Hydroxychloroquine may cause cell death in tumor cells that rely on a process called \"autophagy\" for survival. Dabrafenib and trametinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Giving hydroxychloroquine together with dabrafenib and trametinib may work better than dabrafenib and trametinib alone to shrink and stabilize the cancer."
     },
     {
       "nctId": "NCT04543188",
@@ -3934,8 +4061,8 @@
     {
       "nctId": "NCT05617885",
       "url": "https://clinicaltrials.gov/study/NCT05617885",
-      "lastUpdate": "2026-06-16",
-      "status": "COMPLETED",
+      "lastUpdate": "2026-10-15",
+      "status": "TERMINATED",
       "studyType": "INTERVENTIONAL",
       "phases": [
         "PHASE1"
@@ -4090,6 +4217,29 @@
         "Taiwan"
       ],
       "briefSummary": "Leptomeningeal metastasis (LM) is a complication of advanced non-small cell lung cancer (NSCLC). The incidence of LM in NSCLC patients is around 3-5 %, reaching 9.4 % of those with an epidermal growth factor receptor (EGFR) mutation. Generally, the efficacy of systemic treatment for LM is limited due to the blood-brain barrier. Osimertinib has a high central nervous system penetration rate, making it the preferred first-line treatment for EGFR-mutant NSCLC. Previous studies indicated that osimertinib had shown promising efficacy in pretreated patients harboring EGFR mutations and LM. However, intracranial disease progression eventually develops, and the prognosis of patients with LM progression after osimertinib is poor. Recently, intrathecal chemotherapy with pemetrexed (IP) was reported to be an alternative treatment in patients with NSCLC and LM. The results from a phase I/II trial examining the efficacy and safety of IP in patients with EGFR-mutant NSCLC after the failure of previous TKI, and 83% of study enrollees received osimertinib before IP. The clinical response rate was 84.6%, and the median overall survival was 9.0 months. Despite initial promising efficacy, further trials are needed to verify these results. Therefore, the investigators plan to conduct a prospective study to examine the safety and effectiveness of IP combined with EGFR-TKI for patients with EGFR mutant NSCLC after osimertinib failure."
+    },
+    {
+      "nctId": "NCT05807893",
+      "url": "https://clinicaltrials.gov/study/NCT05807893",
+      "lastUpdate": "2024-11-13",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "briefTitle": "Study to Evaluate the Safety and Efficacy of Serplulimab Plus Bevacizumab and Chemotherapy in NSCLC Patients With Brain Metastases",
+      "officialTitle": "A Multicenter, Single-arm, Open Study to Evaluate the Safety and Efficacy of Serplulimab in Combination With Bevacizumab and First-line Chemotherapy in Driver Negative Non-squamous NSCLC Patients With Brain Metastases",
+      "conditions": [
+        "Non-small Cell Lung Cancer Stage II",
+        "Bevacizumab",
+        "Immunotherapy",
+        "Brain Metastases"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "A multicenter, single-arm, open study to evaluate the safety and efficacy of Serplulimab in combination with bevacizumab and first-line chemotherapy in driver negative non-squamous NSCLC patients with brain metastases"
     },
     {
       "nctId": "NCT05809752",
@@ -4290,6 +4440,26 @@
         "United Kingdom"
       ],
       "briefSummary": "The purpose of this study is to evaluate the safety, efficacy and pharmacokinetics (PK) of zipalertinib in participants with locally advanced or metastatic Non-Small Cell Lung Cancer (NSCLC) harboring EGFR ex20ins mutations and other mutations."
+    },
+    {
+      "nctId": "NCT05984108",
+      "url": "https://clinicaltrials.gov/study/NCT05984108",
+      "lastUpdate": "2023-08-09",
+      "status": "UNKNOWN",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "Clinical, Radiological, Histologic and Molecular Features of a Cohort of Melanocytic Tumors of the Central Nervous System",
+      "officialTitle": "Clinical, Radiological, Histological and Molecular Features of a Cohort of Melanocytic Tumors of the Central Nervous System",
+      "conditions": [
+        "Meningeal Melanocytoma",
+        "Meningeal Melanomatosis",
+        "Meningeal Melanocytosis",
+        "Meningeal Melanoma"
+      ],
+      "countries": [
+        "France"
+      ],
+      "briefSummary": "Primary melanocytic tumors of the central nervous system are rare lesions and occur develop from leptomeningeal melanocytes. The WHO classification of tumors of the central nervous system in its most recent version (2021) distinguishes on the one hand the circumscribed melanocytic tumors including melanocytoma, benign, and its slope malignant, meningeal melanoma, with an intermediate grade lesion in between, called intermediate grade melanocytoma. They are to be distinguished from diffuse tumors or multifocal diseases such as melanocytosis and its malignant corollary, melanomatosis. The main current challenge is to distinguish them from their differential diagnoses, namely metastasis of a cutaneous or extrac-cutaneous melanoma mainly and on the other hand other pigmented entities occuring in the CNS such as malignant melanic tumor of the peripheral nerve sheath (MMNST, formerly \"melanotic schwannoma\")."
     },
     {
       "nctId": "NCT05991518",
@@ -4785,7 +4955,7 @@
     {
       "nctId": "NCT06422806",
       "url": "https://clinicaltrials.gov/study/NCT06422806",
-      "lastUpdate": "2026-10-07",
+      "lastUpdate": "2026-10-15",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -4910,6 +5080,25 @@
       "briefSummary": "This phase Ib trial tests the safety, side effects, and best dose of iberdomide in combination with teclistamab in treating multiple myeloma that has come back after a period of improvement (relapsed) or that does not respond to treatment (refractory). Iberdomide is a medication that belongs to a group of drugs known as cereblon E3 ligase modulators. Iberdomide works by targeting and destroying proteins that help myeloma cancer cells to survive. A monoclonal antibody is a type of protein that can bind to certain targets in the body, such as molecules that cause the body to make an immune response (antigens). Immunotherapy with monoclonal antibodies, such as teclistamab, may help the body's immune system attack the cancer, and may interfere with the ability of cancer cells to grow and spread. Giving iberdomide in combination with teclistamab may be safe and tolerable in treating patients with relapsed or refractory multiple myeloma."
     },
     {
+      "nctId": "NCT06492915",
+      "url": "https://clinicaltrials.gov/study/NCT06492915",
+      "lastUpdate": "2026-03-18",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Chiauranib in Patients With Locally Advanced or Metastatic Pancreatic Ductal Adenocarcinoma",
+      "officialTitle": "A Phase Ⅱ Study of Chiauranib Plus Albumin-paclitaxel and Gemcitabine as First-line Therapy in Patients With Locally Advanced or Metastatic Pancreatic Ductal Adenocarcinoma",
+      "conditions": [
+        "Pancreatic Ductal Adenocarcinoma"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "Chiauranib , which simultaneously targets against VEGFR/Aurora B/CSF-1R, several key kinases involved in tumor angiogenesis, tumor cell mitosis, and chronic inflammatory microenvironment."
+    },
+    {
       "nctId": "NCT06500481",
       "url": "https://clinicaltrials.gov/study/NCT06500481",
       "lastUpdate": "2026-08-17",
@@ -4996,7 +5185,7 @@
     {
       "nctId": "NCT06589804",
       "url": "https://clinicaltrials.gov/study/NCT06589804",
-      "lastUpdate": "2026-10-09",
+      "lastUpdate": "2026-10-14",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -5211,7 +5400,7 @@
     {
       "nctId": "NCT06762080",
       "url": "https://clinicaltrials.gov/study/NCT06762080",
-      "lastUpdate": "2026-09-02",
+      "lastUpdate": "2026-10-13",
       "status": "ACTIVE_NOT_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -5273,7 +5462,7 @@
     {
       "nctId": "NCT06809530",
       "url": "https://clinicaltrials.gov/study/NCT06809530",
-      "lastUpdate": "2026-09-02",
+      "lastUpdate": "2026-10-13",
       "status": "ACTIVE_NOT_RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -5915,7 +6104,7 @@
     {
       "nctId": "NCT07415005",
       "url": "https://clinicaltrials.gov/study/NCT07415005",
-      "lastUpdate": "2026-05-05",
+      "lastUpdate": "2026-10-13",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [

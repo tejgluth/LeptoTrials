@@ -1,0 +1,1 @@
+Independent second retrieval: 99 records; identical protocol sections; no missing IDs.

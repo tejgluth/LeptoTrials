@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-17T19:05:47.374Z",
+  "health": [
+    {
+      "path": "/api/contact-events",
+      "status": 405,
+      "body": "{\"error\":\"Method not allowed.\"}"
+    },
+    {
+      "path": "/api/contact-analytics",
+      "status": 401,
+      "body": "{\"error\":\"Invalid analytics access token.\"}"
+    },
+    {
+      "path": "/api/trial-suggestions",
+      "status": 401,
+      "body": "{\"error\":\"Unauthorized.\"}"
+    },
+    {
+      "path": "/api/trial-suggestions",
+      "method": "POST local only",
+      "status": 503,
+      "body": "{\"error\":\"Your suggestion could not be saved. Please try again shortly.\"}"
+    }
+  ],
+  "privacy": {
+    "url": "http://localhost:8794/privacy",
+    "title": "LeptoTrials | Clinical Trial Finder",
+    "homepageHeading": "Find your trial.\nCompare options.",
+    "hasPrivacyContent": 0
+  }
+}

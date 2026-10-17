@@ -1,0 +1,94 @@
+{
+  "at": "2026-10-17T19:17:50.926491+00:00",
+  "method": "Independent Python projection of reviewed ledger classifications and official structured filters; explicit source-reviewed age corrections. No application filtering functions imported. Default excludes invitation status.",
+  "profiles": [
+    {
+      "profile": "default: recruiting/not-yet/active only",
+      "actualCount": 155,
+      "expectedCount": 155,
+      "missing": [],
+      "extra": [],
+      "duplicates": 0
+    },
+    {
+      "profile": "all-selectable",
+      "actualCount": 318,
+      "expectedCount": 318,
+      "missing": [],
+      "extra": [],
+      "duplicates": 0
+    },
+    {
+      "profile": "age-3",
+      "actualCount": 42,
+      "expectedCount": 42,
+      "missing": [],
+      "extra": [],
+      "duplicates": 0
+    },
+    {
+      "profile": "age-17",
+      "actualCount": 51,
+      "expectedCount": 51,
+      "missing": [],
+      "extra": [],
+      "duplicates": 0
+    },
+    {
+      "profile": "age-18",
+      "actualCount": 308,
+      "expectedCount": 308,
+      "missing": [],
+      "extra": [],
+      "duplicates": 0
+    },
+    {
+      "profile": "BREAST",
+      "actualCount": 59,
+      "expectedCount": 59,
+      "missing": [],
+      "extra": [],
+      "duplicates": 0
+    },
+    {
+      "profile": "MELANOMA",
+      "actualCount": 14,
+      "expectedCount": 14,
+      "missing": [],
+      "extra": [],
+      "duplicates": 0
+    },
+    {
+      "profile": "GBM",
+      "actualCount": 8,
+      "expectedCount": 8,
+      "missing": [],
+      "extra": [],
+      "duplicates": 0
+    },
+    {
+      "profile": "OTHER_SOLID",
+      "actualCount": 113,
+      "expectedCount": 113,
+      "missing": [],
+      "extra": [],
+      "duplicates": 0
+    },
+    {
+      "profile": "LUNG",
+      "actualCount": 107,
+      "expectedCount": 107,
+      "missing": [],
+      "extra": [],
+      "duplicates": 0
+    },
+    {
+      "profile": "age18-US-breast-interventional-phase2-all-selectable",
+      "actualCount": 18,
+      "expectedCount": 18,
+      "missing": [],
+      "extra": [],
+      "duplicates": 0
+    }
+  ]
+}

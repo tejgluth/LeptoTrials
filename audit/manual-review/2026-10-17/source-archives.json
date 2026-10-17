@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "source-records.json.gz",
+      "bytes": 4538973,
+      "sha256": "296dd7820efaec2a477836ef2f4548f21d03cbabbacef9b6c507d78f3638eb03"
+    },
+    {
+      "path": "pass-1-refetched.json.gz",
+      "bytes": 707097,
+      "sha256": "d7d5a89bfdf0e8c65f0440d13810da104d73490c3ea1070813f299693a730456"
+    },
+    {
+      "path": "pass-1-age-refetched.json.gz",
+      "bytes": 6120,
+      "sha256": "d34d344f5d8dd77358b7d020d7ae827336df4ed68cc537a9655779dfa5e1bbd8"
+    }
+  ],
+  "format": "UTF-8 JSON arrays compressed with gzip; primary records retain retrieval timestamps, protocol sections and source URLs."
+}

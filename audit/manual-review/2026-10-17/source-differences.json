@@ -1,0 +1,6293 @@
+[
+  {
+    "nctId": "NCT06296745",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-01-30",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04941430",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-08-12",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00749723",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-07-20",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05414123",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-10-16",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04509596",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-04-01",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT02887651",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-03-22",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05636254",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-12-05",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03398694",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-07-16",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04543188",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-10-23",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07778940",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-21",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04422639",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-07-28",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05305365",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-12-23",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06132698",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-12",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03574402",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-12-06",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04460729",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-12-03",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07134153",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-08-21",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04250545",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-26",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05112549",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-04-03",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03520504",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-12-23",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00992602",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-07-07",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02654106",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-06-06",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06705049",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-11-26",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06728865",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-12-11",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06332300",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-08-09",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07674693",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-29",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07357298",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00002751",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-06-20",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00820222",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2019-04-02",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07005791",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-06-05",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00924820",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-12-31",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06462092",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-09-29",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02684071",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-01-10",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02755987",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2016-06-07",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT06643000",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-03-06",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03368625",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-04",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05286684",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-18",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02886585",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-21",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07177950",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-09-17",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03029065",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-01-24",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07398599",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-23",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00462982",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2015-12-30",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04919382",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-08",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00587964",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2016-02-22",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00005842",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-02-11",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03163368",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-17",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06315686",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-03-18",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00112619",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2011-06-30",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03075072",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-29",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04588545",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-26",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00060528",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-10-26",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03025256",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-19",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT01281696",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-10-16",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07264569",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-12-04",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT01797159",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-10-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06720727",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-01-20",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06663306",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-02",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06945705",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-04-25",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00515788",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-03-12",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02253264",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-08-30",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01713699",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-01-22",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04420598",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-06-24",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06026735",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-09-07",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07476781",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-31",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00738335",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-10-04",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04069910",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-01-31",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03501979",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-08-29",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07744529",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-04",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03507244",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-12-26",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06812871",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-14",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06332287",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-03-27",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06410040",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-05-10",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT01438021",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-11-09",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06399926",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-05-06",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00854867",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2014-02-24",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00031928",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2015-04-30",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07653893",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-17",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07751744",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-07",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03101579",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-03-19",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07348965",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-02",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05034497",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-03-26",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05267587",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-31",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07511725",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06861218",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-03-06",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT01252797",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-05-14",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04030507",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-09",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00445965",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-04-04",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04343573",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-02-27",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06176261",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-06",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04833205",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-04-20",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06462222",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-24",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00005812",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-05-14",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT01645839",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-06-12",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05805631",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-24",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07789912",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-01",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06543992",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-21",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00005811",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-02-21",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07167134",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-09-11",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03391362",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-29",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04563871",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-28",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04025541",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-04-02",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT06417710",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-05-16",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05115474",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06282874",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-09",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00003462",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-02-20",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03500991",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-12-17",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06810804",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-13",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05064306",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-08-01",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT03550391",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-09",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07409272",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-22",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02336451",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-04-21",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05341739",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-03-05",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03252912",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-12",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07551414",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-24",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07361562",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-04",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00450866",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2014-02-28",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02422641",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-10-05",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07132190",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-08",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07386886",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-02-04",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04315246",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-07-15",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT01373710",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-11-24",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07199413",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-17",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00729157",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-03-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07833657",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-22",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00003022",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-07-03",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04178343",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-11-26",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02650752",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-01-26",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03974204",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-09-26",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04148898",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-11-04",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02423525",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-03-10",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07559097",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-30",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07414979",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-12",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02644044",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2015-12-31",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04804644",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-14",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06971406",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-05-14",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07656103",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-18",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00523939",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-06-17",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07492121",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-25",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04185038",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-13",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00416923",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2015-02-16",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT01325207",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-09-26",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03423628",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2026-10-15",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00074607",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-11-12",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06346977",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-04-04",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06766591",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-01-09",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05865990",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-04",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06809517",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-05-20",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00512460",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2016-05-16",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04474925",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-07-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00527410",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-05-30",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04661384",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-05",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05810350",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-10-05",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03741673",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-10",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03275402",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-02-13",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06230055",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-11-25",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06058988",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-02-23",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02308020",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-12-19",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07239102",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-11-20",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06023277",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-09-05",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06016387",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-02-23",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04545814",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-24",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00801216",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-12-10",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07365410",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-01-26",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT05146219",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-12-30",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02939300",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-11-14",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06376292",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-18",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07361705",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-22",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00006246",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2009-10-07",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06718972",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-04-27",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04207775",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-07-12",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07092202",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-07-29",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04988009",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-14",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04031898",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-12-23",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03613181",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-04-24",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07659652",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-24",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02891278",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-04-12",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01563614",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2016-04-19",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05793489",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-04-24",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05746754",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-04-06",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05477927",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-13",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06762080",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2026-10-13",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07802353",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-09",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003073",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2010-03-23",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06638294",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-11-28",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03027544",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-01-23",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03638167",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-12-17",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00089245",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-12-26",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05257967",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-02-11",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05305885",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-09-30",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00964743",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-09-09",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06518057",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-14",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00617539",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-04-20",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03497767",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-05-31",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06933199",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-05-04",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07329634",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-01-09",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00025311",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-11-09",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04805255",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-05-01",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03719768",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-02",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06984523",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-31",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04192981",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-22",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07751536",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-07",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07098806",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-09",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06304441",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-09-29",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05598853",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-10-02",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06339242",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-04-01",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05813522",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-04-14",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04109131",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-01-06",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04233021",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-02-03",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00674674",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-05-15",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05289908",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-05-04",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03053297",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-02-08",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT03257124",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-08-16",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02125786",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-02-24",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05459441",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-07-15",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT01596127",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-05-24",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03661424",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-12-20",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06121336",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-20",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06441045",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-06-04",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04091412",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-09-16",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04457596",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03911388",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-04",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT02948751",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-06-06",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00477503",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-08-01",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07193654",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-09-26",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04356222",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-05-27",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02607605",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-10-26",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04094077",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-06-08",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04460937",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-31",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05385185",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-05-23",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03082144",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-08-01",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06440954",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-06-04",
+    "displayed": false,
+    "production": true
+  },
+  {
+    "nctId": "NCT07263425",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-12-04",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06901817",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-03-30",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06724926",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-18",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03608020",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-04-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07566052",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-10-08",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02071056",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-08-18",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04965090",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-12-18",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003020",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-02-20",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04899908",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-09",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04778800",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-08-31",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00338377",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-12",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07503704",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-31",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04729348",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-07-25",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT01857752",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-01-30",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04856475",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-03-02",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT06809530",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2026-10-13",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03711422",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-06-14",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07304739",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-12-26",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02616393",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-03-16",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT01654497",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-11-14",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07704034",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-03",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05807165",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-04-11",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05984108",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-08-09",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02803619",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2016-06-17",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03696030",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-12",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05497076",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-08-11",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00210340",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2015-03-30",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06910761",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-12-08",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06500481",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-17",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05124236",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-04",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05378633",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-10",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07689721",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-08",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07545889",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-22",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06497543",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-09-19",
+    "displayed": false,
+    "production": true
+  },
+  {
+    "nctId": "NCT00372515",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-01-31",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07702305",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-14",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00029523",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2007-02-28",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06137651",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-04-01",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04425681",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-06-11",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04923126",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-11",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04356118",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-05-27",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07694986",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-10",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07130786",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-08",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04944069",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-06-29",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05184816",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-14",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06361589",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-04-12",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06537297",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-09-20",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02115295",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-20",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05545007",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-30",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04503772",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-12-04",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00938756",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2010-04-07",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05800275",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-11-18",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00002750",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-02-20",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT01818713",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-10-29",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06431685",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-08",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07287995",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-02",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07222956",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-19",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02228369",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-01-05",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT01657799",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-06-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05746325",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-02",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06592092",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-01-29",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07671560",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-26",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06926803",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-04-15",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00424242",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-09-08",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00398437",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-08-12",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03508752",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04374253",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-05-08",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05256134",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-06-12",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06575452",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-11",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05934630",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-23",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05451069",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-10-12",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05782374",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-02-03",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07423585",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06134206",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-11-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03443973",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-01-17",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00949156",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2010-09-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02759835",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-06-07",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07331064",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-01-09",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT01269853",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-01",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT04810871",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-10-07",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05744401",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-02-25",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03591757",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-06-14",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05063682",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-10-01",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT01934140",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-08-28",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03526224",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-01-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03262246",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-02-04",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01325194",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-03-03",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05809752",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-15",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05394636",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-12-04",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07814352",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-11",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT07415018",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02962167",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-03-20",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02594995",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-03-31",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01665001",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-08-17",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00830245",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2011-07-26",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05169203",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-12-23",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00392834",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-06-06",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06991101",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-10-02",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04592341",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-03-27",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05487989",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-08-20",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01998841",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-07-30",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07390539",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-03",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04448054",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-12-20",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03025269",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-03-11",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04325932",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-03-30",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05208840",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-01-23",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00013533",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-12-16",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03091478",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-01-26",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00949741",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-10-22",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06691230",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-11-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02394665",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-01-05",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07039760",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-11",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06146010",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-08",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03444870",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-01-30",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03396822",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-02-28",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00096265",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-03-09",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02590510",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2016-10-28",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT05586607",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-12-11",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05369156",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-08-21",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02888535",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-02-13",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01793168",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-05-29",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00006368",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-05-01",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07552233",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-27",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07806552",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-08",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04819451",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-06-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06466720",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-04",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003398",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-10-17",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00870779",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-06-14",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01849484",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2016-08-01",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01967823",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-03-24",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03092817",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-03-22",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06852352",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-03-11",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00002647",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-09-20",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003938",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-09-24",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00005854",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2011-11-30",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01632657",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-12-22",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04141371",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-26",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06711731",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-12-02",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00068250",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-02-07",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04065113",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-07-22",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07823985",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-17",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01324635",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-05-02",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00060021",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2015-04-30",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003538",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2014-05-02",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00956475",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2011-08-24",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00538850",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2014-03-05",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04081701",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-11-21",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02227433",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-12-22",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003887",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2011-11-30",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07539792",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-20",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01166321",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-01-05",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00899951",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-04-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00004036",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-12-19",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06684795",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-11-12",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00062231",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-09-24",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06753617",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-12-31",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00376922",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-05-30",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04707170",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-12-13",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05305378",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-08-07",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05636618",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2026-10-13",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00064311",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-03-08",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07320599",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-01-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01137643",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-10-27",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00008307",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2014-01-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00666211",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-09-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00112593",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-05-24",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00002504",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2011-05-12",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003406",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-03-26",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07476404",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-17",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00004232",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-06-01",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04104529",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00049465",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2010-09-21",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01347307",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-06-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00110045",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-09-24",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03908424",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-08-14",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04648462",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2026-10-13",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04427384",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-22",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05484245",
+    "previousReview": false,
+    "protocolChanged": true,
+    "new": true,
+    "date": "2026-10-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00378781",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-02-24",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003805",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-09-24",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01053494",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-07-02",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00008359",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-01-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00020579",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-03-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00006350",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-11-04",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06278103",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-02-26",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07428213",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-02-23",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07457333",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-11",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04743310",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-10",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00859040",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-10-27",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00005092",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-10-26",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07638709",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-10",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00627666",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-03-26",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003883",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2010-04-02",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00445952",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-02-01",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06710249",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-01-27",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00014391",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2010-04-02",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05028400",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-04-12",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00726830",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-09-24",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00049296",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2010-06-11",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02646891",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-03-10",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07413796",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-20",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06640582",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-11-05",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00255671",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-07-27",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04997317",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-04-13",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00996047",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2015-03-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00935090",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-10",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00006348",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2016-07-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01682746",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-02-25",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00823524",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-02-20",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00919425",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2015-03-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03434262",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-05-31",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00031798",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-09-09",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03013387",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-08-25",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00045734",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-05-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00066248",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2014-02-03",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04903678",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-02-25",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT03927313",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-09-28",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07669272",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-25",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04500795",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-02-21",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00008216",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2014-06-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003294",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2011-03-07",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003687",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-04-03",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04079595",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-05-23",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00993694",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-04-17",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04372095",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-10-30",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01101412",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-02-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07398170",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-14",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003395",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-06-25",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00042900",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-06-05",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00897767",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-06-22",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00005805",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-01-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003408",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-03-26",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06650163",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-02-05",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05374681",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-26",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00784914",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-04-17",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00004258",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2014-09-17",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003461",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2014-08-21",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00066599",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-06-19",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02967380",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-03-27",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00489203",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-02-03",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00004230",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-06-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00020865",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-12-19",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00019578",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-10-31",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00387426",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2014-05-28",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00062140",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2010-09-21",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00900120",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-09-21",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00006083",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-08-03",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00544284",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-02-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00053157",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-10-05",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00025415",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-02-07",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00010283",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2010-04-02",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04511572",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-07-31",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01137825",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-29",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03787940",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-02-01",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03100786",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-06-17",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003451",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-02-01",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07757113",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-11",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00008164",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-12-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07599917",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-20",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03001349",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-02-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00952185",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2015-06-08",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00369785",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-10-20",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003082",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2010-03-16",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07411690",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-22",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05139277",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-02-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00002485",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2014-02-14",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00036790",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-12-17",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00770419",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2015-05-29",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003270",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-12-13",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00027924",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2010-04-02",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01246869",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-10-01",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00890435",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2015-10-21",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04712214",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-04-25",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00750009",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-07-27",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01199562",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-01-28",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05438212",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-10",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00004061",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-06-26",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07056023",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-07-09",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06322342",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-12-26",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00070161",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-09-09",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04638478",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-07",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01316744",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2011-05-13",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00237627",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-05-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05477680",
+    "previousReview": false,
+    "protocolChanged": true,
+    "new": true,
+    "date": "2026-10-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003107",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2014-09-10",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04343157",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-08",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003331",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2011-03-28",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01117844",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-11-07",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03684980",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-15",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00867269",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2026-10-16",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05572567",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-06-08",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03226119",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-09-13",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01845740",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-08-19",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03267407",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-09-12",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07648264",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2026-10-14",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02329080",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-07-08",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT04214444",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-02-12",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05965427",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-08-13",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00885703",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-11-04",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02542514",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-04-14",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT02535247",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-07-08",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT03202940",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-08",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT02838420",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-24",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT00570908",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2014-09-18",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT02446457",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-09",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT00002578",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2015-10-06",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT00310128",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2016-02-03",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT03093116",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-27",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT02929862",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-09-25",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT00221325",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2015-02-16",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT01625234",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-30",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT02971501",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-13",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT02896335",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-21",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT00276783",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-03-05",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT02693535",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-22",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT01970865",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2024-08-12",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT03360929",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-11-25",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT05359211",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-21",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT05617885",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2026-10-15",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT05372614",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-10-02",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT04500548",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-10",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT04301076",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2026-10-15",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT05388877",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-08-19",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT06102902",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-23",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT05422794",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-30",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT04181060",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2026-10-16",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT05843253",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-29",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT03816345",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-10-05",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT05904080",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-21",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT04978727",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-02",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT05991518",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-02-20",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT05800249",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-12-12",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT04458922",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-31",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT04094688",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2026-10-14",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT05967689",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-10-06",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT04739358",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-10-18",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT04757779",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-02-17",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT04527549",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-10-06",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT05259540",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-03-24",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT04511013",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-15",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07415005",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2026-10-13",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07594002",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-18",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07431073",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-29",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07178938",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-11-14",
+    "displayed": true,
+    "production": true
+  },
+  {
+    "nctId": "NCT06161558",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-07-16",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07695311",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-17",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07426484",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-11",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT06422806",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2026-10-15",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT06610682",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-22",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT06465316",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-10-05",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07050186",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-18",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT06896188",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-24",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07362940",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-01-23",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07444710",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-03",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT06211114",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-11-26",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07506239",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-01",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07612488",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-28",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07681297",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-10",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07502027",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-30",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT06589804",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2026-10-14",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07649304",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-13",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07647432",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-10-06",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07624201",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-03",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07447076",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-23",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07603856",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-16",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT00356889",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2014-05-28",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00512642",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-11-21",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00177034",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2012-07-10",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00642174",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2010-02-23",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07714395",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-20",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT07724457",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-19",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT00490555",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-11-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00037817",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-09-30",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00734851",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2015-12-23",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07827001",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-18",
+    "displayed": true,
+    "production": false
+  },
+  {
+    "nctId": "NCT00172861",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2005-09-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03070353",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-03-03",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02410993",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-07-17",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03771898",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-10",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01117077",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2010-05-05",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03705390",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-06-26",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03532217",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-08-05",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01471587",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2011-12-02",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03216252",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-11-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03321851",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2018-03-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00767559",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2011-09-26",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02086838",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2015-03-19",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03234855",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-07-31",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02186730",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-02-21",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01889862",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-05-21",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01743872",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-09-21",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02886026",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-11-01",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03866824",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-06-29",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03818854",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-12-04",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02165267",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-10-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00991991",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2016-05-17",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02175459",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-05-23",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03830801",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-10-22",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02767154",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2017-10-09",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01584596",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2016-02-05",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06436092",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-03-13",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05684978",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-10-14",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04057833",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-20",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04293744",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-12-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04794634",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-12-08",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04851145",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-26",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05530356",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-24",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04710810",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-08-04",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05962333",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-04-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03878511",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-03-19",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05333497",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-03-20",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06835023",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-02-20",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05008276",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-03-24",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04466098",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-01-29",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04010487",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-07-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05421975",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-04-29",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03083041",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-03",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06492915",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-03-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07283562",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-12-16",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05319873",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-05-11",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03100006",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-06-13",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02091063",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-08-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00004064",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-11-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04620954",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-12-01",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03379428",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-12-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00003634",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-11-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05004142",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2021-08-13",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03117049",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-05-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03875235",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-26",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07631793",
+    "previousReview": true,
+    "protocolChanged": true,
+    "new": false,
+    "date": "2026-10-13",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05429762",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-04-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01712659",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-01-10",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02540876",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-04-22",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07783659",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-08",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06951243",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-04-30",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04075396",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-04-29",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT06258408",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-11-17",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07511608",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03633110",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-04-19",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04581824",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-08-08",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07842276",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-25",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04416854",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-06-04",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00191373",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2007-09-12",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT05627245",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03213652",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-10-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03417895",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-08-07",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07114497",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-08-11",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07638774",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-06-10",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04129515",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-01-02",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00873119",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2015-07-28",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07293481",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-20",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00795340",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-08-22",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04938583",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-04-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07798921",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-02",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07802652",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00005818",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2013-01-23",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07684287",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-07-06",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00086632",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2007-12-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01897571",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2024-03-26",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07744256",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-08-04",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT00050375",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2007-12-18",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT03473574",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2023-06-15",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07438626",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2026-09-24",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04309968",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2020-06-09",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT01775475",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2022-10-10",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02521051",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-05-13",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT02839889",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2019-03-05",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT04914286",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-05-14",
+    "displayed": false,
+    "production": false
+  },
+  {
+    "nctId": "NCT07050043",
+    "previousReview": true,
+    "protocolChanged": false,
+    "new": false,
+    "date": "2025-07-03",
+    "displayed": false,
+    "production": false
+  }
+]

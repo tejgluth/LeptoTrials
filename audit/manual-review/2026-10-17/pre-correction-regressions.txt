@@ -1,0 +1,33 @@
+
+> leptotrials@1.0.0 validate:trials
+> npx tsx scripts/validate-trials.ts --json --fresh
+
+Fetching LM universe from ClinicalTrials.gov...
+Universe size: 426 studies
+Validating 46656 local matrix scenarios against an independent oracle
+Running 16 live query comparisons
+
+Summary
+- universe studies: 426
+- exhaustive scenarios: 46656
+- live scenarios: 16
+- oracle mismatches: 0
+- regression failures: 7
+- query mismatches: 0
+
+Regression failures:
+- default: NCT07365410 -> missing required regression study
+- all-statuses: NCT04527549 -> missing required regression study
+- all-statuses: NCT07365410 -> missing required regression study
+- all-statuses: NCT05984108 -> unexpectedly included regression study
+- lung-default: NCT07365410 -> missing required regression study
+- lung-all-statuses: NCT07365410 -> missing required regression study
+- melanoma-all-statuses: NCT04527549 -> missing required regression study
+{
+  "universe": 426,
+  "exhaustiveScenarios": 46656,
+  "liveScenarios": 16,
+  "oracleMismatches": 0,
+  "regressionFailures": 7,
+  "queryMismatches": 0
+}

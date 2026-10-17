@@ -1,0 +1,204 @@
+NCT04804644 Testing if High Dose Radiation Only to the Sites of Brain Cancer Compared to Whole Brain Radiation That Avoids the Hippocampus is Better at Preventing Loss of Memory and Thinking Ability
+Conditions: Metastatic Lung Small Cell Carcinoma, Metastatic Malignant Neoplasm in the Brain, Recurrent Lung Small Cell Carcinoma, Stage IV Lung Cancer AJCC v8
+detailedDescription: ative incidence of local brain recurrence, distant brain relapse, and leptomeningeal dissemination after SRS relative to HA-WBRT plus memantine for brain metastases from SCLC.  II. Compare the cost of brain-related therapies and quality-adjusted life years in patients who receive SRS relative to HA-WBRT plu
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Patients with definitive leptomeningeal metastases.
+
+NCT04805255 A Neurocognitive Study in Patients With Brain Oligometastases Receiving Hypofractionated SRT
+Conditions: Brain Metastases, Adult
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Clinical suspicion of leptomeningeal spreading
+
+NCT04810871 Surgical Resection of Latent Brain Tumors Prior to Recurrence
+Conditions: Brain Neoplasm
+detailedDescription: ionated radiation for brain mets whether there is a decreased rate of leptomeningeal disease.  CORRELATIVE RESEARCH OBJECTIVES:  I. To determine the genetic and molecular alterations occurring in radiated brain and radiated tumor tissue compared to nonradiated tissue specimens (subjects will be matched to M
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT04819451 Application of Magnesium-rich Artificial Cerebrospinal Fluid in Subarachnoid Hemorrhage
+Conditions: Intracranial Hemorrhage
+briefSummary: n and the Visual Analogue Scale (VAS), vomiting duration, duration of meningeal irritant, ICU hospitalization duration, total hospitalization duration; change of CSF and peripheral blood biochemical indicators. The objective is to evaluate MACSF replacement therapy in patients with basal ganglia cerebral hem
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT04899908 Stereotactic Brain-directed Radiation With or Without Aguix Gadolinium-Based Nanoparticles in Brain Metastases
+Prior: False Extensive LM exclusion is not positive evidence of an eligible limited LM cohort.
+Conditions: Brain Cancer, Brain Metastases, Melanoma, Lung Cancer, Breast Cancer, HER2-positive Breast Cancer, Colorectal Cancer, Gastrointestinal Cancer, SRS, SRT, Whole Brain Radiation, Stereotactic Radiation, AGuIX, Nanoparticle,…
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Participants with widespread, definitive leptomeningeal disease
+
+NCT04914286 A Study of GFH018 in Combination With Toripalimab in Patients With Advanced Solid Tumors
+Prior: False Active CNS involvement including meningeal metastasis is excluded; no explicit stable/treated meningeal exception or LM cohort.
+Conditions: Advanced Solid Tumor
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 3. With active central nervous system metastases, including symptomatic brain metastases, meningeal metastases, spinal cord compression, or requiring treatment with glucocorticoids, antiepileptic drugs, anticonvulsant drugs, or mannitol.
+
+NCT04919382 Temozolomide and Atezolizumab for Subsequent Line for the Treatment of Metastatic or Recurrent Small Cell Lung Cancer
+Conditions: Extensive Stage Lung Small Cell Carcinoma, Metastatic Lung Small Cell Carcinoma, Recurrent Lung Small Cell Carcinoma, Stage IV Lung Cancer AJCC v8, Stage IVA Lung Cancer AJCC v8, Stage IVB Lung Cancer AJCC v8
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * History of leptomeningeal disease
+
+NCT04941430 7T MRI Scan for the Early Detection of Melanoma Brain Metastases
+Conditions: Clinical Stage IV Cutaneous Melanoma AJCC v8, Metastatic Malignant Neoplasm in the Brain, Metastatic Melanoma, Pathologic Stage IV Cutaneous Melanoma AJCC v8
+detailedDescription: brain.  EXPLORATORY OBJECTIVE:  I. Evaluate incidence of diagnosis of leptomeningeal disease on CE 7T MRI brain.  OUTLINE:  Within 2 weeks of initial standard of care 3T MRI, patients undergo 7T MRI scan with and without contrast over 1-2 hours.
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT05004142 Study of Efficacy, Safety, and Pharmacokinetics of FCN-437c in Combination With Fulvestrant or Letrozole+Goserelin
+Conditions: Breast Neoplasms
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria:      3. No meningeal metastases;
+
+NCT05115474 Study of Screening Brain MRIs in Stage IV Breast Cancer
+Conditions: Triple Negative Breast Cancer, HER2-positive Breast Cancer, Hormone Receptor-positive Breast Cancer
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Prior diagnosis or treatment of brain metastases or leptomeningeal disease
+
+NCT05200143 Study of Ipilimumab, Nivolumab, and Cabozantinib in Patients With Cutaneous Melanoma
+Prior: None Unreviewed
+Conditions: Refractory Cutaneous Melanoma
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: 16. Patients with leptomeningeal involvement by melanoma
+criteria: 17. Participants with CNS metastases or leptomeningeal carcinomatosis are not eligible unless:
+criteria: 33. QTcF \> 500 msec within 14 days before first dose of study treatment (Note: Could also be listed in Inclusion as ≤ 500 msec)
+
+NCT05208840 A Study To Determine The Effect Of Ocrelizumab On Leptomeningeal Inflammation In Multiple Sclerosis
+Conditions: Multiple Sclerosis
+briefSummary: This study will evaluate the evolution of leptomeningeal lesions via leptomeningeal contrast enhancement (LMCE) presence/disappearance after treatment administration in patients with active progressive multiple sclerosis (MS). In addition, this study will investigate if the prese
+briefSummary: This study will evaluate the evolution of leptomeningeal lesions via leptomeningeal contrast enhancement (LMCE) presence/disappearance after treatment administration in patients with active progressive multiple sclerosis (MS). In addition, this study will investigate if the presence of leptomeningeal infla
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT05256134 A Study to Evaluate the Efficacy and Safety of Gantenerumab in Participants at Risk for or at the Earliest Stages of Alzheimer's Disease (AD)
+Conditions: Alzheimers Disease
+criteria: Key Inclusion Criteria:
+criteria: Key Exclusion Criteria:
+criteria: * Infections that may affect brain function or a history of infections that resulted in neurologic sequelae \[e.g., human immunodeficiency virus (HIV), syphilis, neuroborreliosis, and viral or bacterial meningitis and encephalitis\].
+criteria: * Any previous treatment with cholinesterase inhibitors and N-methyl-D-aspartate receptor antagonists are exclusionary at screening.
+
+NCT05267587 Preop fSRS for Resectable Brain Metastases
+Conditions: Brain Metastases, Brain Lesion
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: Widespread definitive leptomeningeal metastasis Infratentorial mass effect with fourth ventricle effacement or hydrocephalus Supratentorial mass effect with greater than 10 mm of midline shift or hydrocephalus.
+
+NCT05319873 Ribociclib, Tucatinib, and Trastuzumab for the Treatment of HER2 Positive Breast Cancer
+Prior: False Phase IB excludes known/suspected LM and the other phase does not expressly establish an eligible LM path.
+Conditions: Anatomic Stage II Breast Cancer AJCC v8, Anatomic Stage IIA Breast Cancer AJCC v8, Anatomic Stage IIB Breast Cancer AJCC v8, Anatomic Stage III Breast Cancer AJCC v8, Anatomic Stage IIIA Breast Cancer AJCC v8, Anatomic S…
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria:   * Any brain lesion thought to require immediate local therapy, including (but not limited to) a lesion in an anatomic site where increase in size or possible treatment-related edema may pose risk to patient (e.g. brain stem lesions). Patients who undergo local treatment for such lesions identified by screening contrast brain MRI may still be eligible for the study based on criteria described under CNS inclusion criteria
+criteria: * PHASE IB: Known or suspected leptomeningeal disease (LMD) as documented by the investigator
+
+NCT05341739 A Phase II Study of Pre-Op SRS Followed by Surgical Resection for Brain Metastases
+Conditions: Brain Metastases, Adult
+briefSummary: own of body tissue at the original tumor site, and the development of leptomeningeal disease.
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT05374681 Efficacy of a Minimally Invasive Therapy Adjuvant to the Standards of Care by Cyanoacrylate Embolization
+Conditions: Chronic Subdural Hematoma
+briefSummary: ing of the dura-mater mainly fed by the distal branches of the middle meningeal artery (MMA). There are 13 ongoing registered RCTs in CSH, with the most common covering application of steroids, surgical techniques and tranexamic acid. Further to this, there are trials running on other pharmacological agents,
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+arms: r radial arterial guided by pre-embolization cervical CTA. The middle meningeal artery will be catheterized then embolized by cyanoacrylates until the occlusion of the MMA.", "interventionNames": ["Other: Medical treatment", "Other: embolization of the MMA"]}, {"label": "Surgical treatment associated with an
+arms: r radial arterial guided by pre-embolization cervical CTA. The middle meningeal artery will be catheterized then embolized by cyanoacrylates until the occlusion of the MMA.", "interventionNames": ["Other: Surgical treatment", "Other: embolization of the MMA"]}], "interventions": [{"type": "OTHER", "name": "M
+
+NCT05378633 The CyberChallenge Trial How Much is Too Much - What is the Role of Cyberknife Radiosurgery in Patients With Multiple Brain Metastases?
+Conditions: Brain Metastases, Nsclc
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * leptomeningeal disease
+
+NCT05394636 Cerebellar Superficial Siderosis in Cerebral Amyloid Angiopathy
+Conditions: Cerebral Amyloid Angiopathy, Siderosis
+briefSummary: s unclear if cerebellar SS is caused by in situ leakage of cerebellar leptomeningeal vessels or rather represents hemorrhagic diffusion from cerebellar parenchymal micro/macrobleeds or from supratentorial bleeding sources via the tentorium cerebelli (TC).
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT05429762 Effect of Tusamitamab Ravtansine on QTc Interval in Participants With Metastatic Solid Tumors
+Conditions: Neoplasm
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Untreated brain metastases that may be considered active or leptomeningeal metastasis. A participant with asymptomatic brain metastasis/metastases is eligible.
+
+NCT05438212 Comparing the Addition of Radiation Either Before or After Surgery for Patients With Brain Metastases
+Conditions: Metastatic Malignant Neoplasm in the Brain
+detailedDescription: ereotactic radiosurgery \[SRS\] radiation necrosis; and/or 3) nodular meningeal disease \[nMD\]) is improved in patients treated with pre-resection SRS to the intact lesion versus those treated with post-resection SRS.  SECONDARY OBJECTIVES:  I. To assess the trajectory of symptom burden in patients treated 
+detailedDescription: ontreal Cognitive Assessment (MoCA).  VI. To compare rates of nodular meningeal disease in patients who receive pre-resection SRS to patients who receive post-resection SRS.  VII. To compare rates of local recurrence in the resection cavity for patients who receive pre-resection SRS to patients who receive p
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Evidence of leptomeningeal disease (LMD)
+criteria:   * Note: For the purposes of exclusion, LMD is a clinical diagnosis, defined as positive cerebrospinal fluid (CSF) cytology and/or unequivocal radiologic or clinical evidence of leptomeningeal involvement. Patients with leptomeningeal symptoms in the setting of leptomeningeal enhancement by imaging (MRI) would be considered to have LMD even in the absence of positive CSF cytology. In contrast, an asymptomatic or minimally symptomatic patient with mild or nonspecific leptomeningeal enhancement (MRI) would not be considered to have LMD. In that patient, CSF sampling is not required to formally exclude LMD, but can be performed at the investigator's discretion based on level of clinical suspicion
+
+NCT05451069 Neurofilament Light Chain ,Chitinase-3 Like-1 Proteins and Plasmacytoid Dendritic Cells in Multiple Sclerosis
+Conditions: Multiple Sclerosis
+briefSummary: acytoid dendritic cells are present in the cerebrospinal fluid (CSF), leptomeninges and demyelinating lesions of patients with MS . Plasmacytoid dendritic cells also exhibit up-regulation of chemokine (CCR7C) expression. It was demonstrated increased amounts of chemokine CCR7 in the CSF from MS patients dur
+criteria: Inclusion Criteria: 1-MS patients diagnosis 2017 McDonald criteria. 2-Patients age 20-60 years 3-All males and female patients. 3-Willingness and ability to comply with the protocol. 4-Written informed consent given by the patient before the beginning of any study-related procedure, 5-Non-MS control matched age and sex persons
+criteria: Exclusion Criteria:1-patients with Intracranial space-occupying lesion. 2-Abnormal intracranial pressure due to increased CSF pressure or Arnold-Chiari malformation.
+
+NCT05487989 VIsual Pathways Model in Neuro-inflammatory Disorders
+Conditions: Optic Neuritis
+briefSummary: s of the perivascular spaces containing cerebrospinal fluid (CSF) and meningeal inflammation seem to play an important role in the pathophysiology of these neuroinflammatory diseases. Currently, the interrelation of all these aspects is not clearly established in the pathophysiology of these diseases. In ord
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: A history of pre-existing CNS inflammatory demyelinating disease is not a criterion for non-inclusion.
+
+NCT05530356 Renal Hemodynamics, Energetics and Insulin Resistance: A Follow-up Study
+Conditions: Type 2 Diabetes, Diabetes Type 2, Diabetic Nephropathies, Nephropathy, Obesity, Adolescent Obesity, Diabetic Kidney Disease
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+arms: ously enrolled in the Renal HEIR Study)"], "otherNames": ["Dextran", "LMD"]}, {"type": "PROCEDURE", "name": "Renal Biopsy", "description": "Minimally invasive outpatient procedure in interventional radiology to obtain renal tissue cores.", "armGroupLabels": ["Obese Youth with Type 2 Diabetes (previousl
+
+NCT05545007 Preoperative vs Postoperative Hypofractionated Radiosurgery for Patients With Large Brain Metastases
+Conditions: Brain Metastases, Adult
+detailedDescription: at patients treated with postoperative SRS have an increased rates of leptomeningeal disease (LMD) occurrence than what was observed when postoperative WBRT was used as the standard. Several retrospective studies have demonstrated a LMD rates up to 31% in the postoperative SRS setting.  The proposed mechani
+detailedDescription:  postoperative SRS have an increased rates of leptomeningeal disease (LMD) occurrence than what was observed when postoperative WBRT was used as the standard. Several retrospective studies have demonstrated a LMD rates up to 31% in the postoperative SRS setting.  The proposed mechanism of this increase
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+
+NCT05586607 Causes and Management of Aseptic Meningitis : A Retrospective Cohort Study in Strasbourg University Hospital
+Conditions: Aseptic Meningitis
+briefSummary: The diagnostic and therapeutic management of patients with aseptic meningitis is a challenge for the practitioner. There are many etiologies of this condition (infectious, inflammatory, neoplastic, drug-induced), which it is necessary to know how to evoke and look for specifically.
+criteria: Inclusion criteria:
+criteria: * Subject with aseptic meningitis (CSF pleocytosis, negative bacteriology) from January 2015 to October 2020, at HUS
+criteria: Exclusion criteria:
+
+NCT05627245 Testing the Safety of the Anti-cancer Drugs Tazemetostat and Belinostat in Patients With Lymphomas That Have Resisted Treatment
+Prior: False Active lymphomatous meningitis is excluded without an explicit eligible treated/stable LM exception or cohort.
+Conditions: Recurrent B-Cell Non-Hodgkin Lymphoma, Recurrent Diffuse Large B-Cell Lymphoma Germinal Center B-Cell Type, Recurrent Follicular Lymphoma, Recurrent Non-Hodgkin Lymphoma, Recurrent Primary Cutaneous T-Cell Non-Hodgkin Ly…
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Patients with active central nervous system (CNS) metastases, including lymphomatous meningitis, as the study drugs are not known to effectively treat CNS disease
+
+NCT05636254 Diagnostic Accuracy of Imaging Findings in TBM/Spinal Tubercular Arachnoiditis and Correlation With Outcomes
+Conditions: Tuberculous Meningitis, Tuberculous Arachnoiditis
+briefSummary: and specificity of sulcal tuberculomas in the diagnosis of tubercular meningitis and * To study the correlation of imaging findings in tubercular meningitis and spinal tubercular arachnoiditis with clinical outcomes after completion of therapy * Secondary objectives * To study the proportion of patients havin
+briefSummary: itis and * To study the correlation of imaging findings in tubercular meningitis and spinal tubercular arachnoiditis with clinical outcomes after completion of therapy * Secondary objectives * To study the proportion of patients having clinical or imaging features of spinal tubercular arachnoiditis * To study
+detailedDescription:   Expecting a sensitivity of 70% of sulcal tuberculomas in tubercular meningitis with a range of 60 to 80, the investigators expect (4\*70\*30) /10\*10=84 patients Expecting sulcal tuberculomas to have a specificity of 80%, with a range of 70 to 90%, the investigators expect (4\*80\*20)/10\*10=64 patients Exp
+detailedDescription: \*80\*20)/10\*10=64 patients Expecting a 70% prevalence of tubercular meningitis amongst patients with chronic meningitis, sample size of atleast 120 patients (70% of 120=84).  Subjects:  * Study Population: Patients with chronic meningitis as per criteria described * Inclusion criteria    * Patients attendin
+criteria: * Patients attending Neurology OPD or are admitted in General Medicine or Geriatric medicine or Medical oncologywards with chronic meningitis diagnosed on the basis of composite clinical criteria, imaging criteria as well as natural history of the illness
+criteria: Exclusion Criteria:
+arms: {"armGroups": [{"label": "Chronic Meningitis", "description": "* Chronic meningitis : Case definition\n\n  * Headache with or without fever, nuchal stiffness and systemic symptoms AND\n  * CSF suggestive of meningitis Pleocytosis (\\>20 cells per \u03bcL) with lymphocyte pr
+arms: rmGroups": [{"label": "Chronic Meningitis", "description": "* Chronic meningitis : Case definition\n\n  * Headache with or without fever, nuchal stiffness and systemic symptoms AND\n  * CSF suggestive of meningitis Pleocytosis (\\>20 cells per \u03bcL) with lymphocyte predominance (\\>50%) OR Protein concentr
+
+NCT05807165 HF-SRT vs. HS-WBRT in Treating Patients With Brain Oligometastases
+Conditions: Brain Oligometastases
+criteria: Inclusion Criteria:
+criteria: Exclusion Criteria:
+criteria: * Clinical suspicion of leptomeningeal spreading
+
+NCT05807893 Study to Evaluate the Safety and Efficacy of Serplulimab Plus Bevacizumab and Chemotherapy in NSCLC Patients With Brain Metastases
+Prior: None Unreviewed
+Conditions: Non-small Cell Lung Cancer Stage II, Bevacizumab, Immunotherapy, Brain Metastases
+criteria: Inclusion Criteria:
+criteria: * MRI confirmed brain parenchymal metastasis with ≥3 brain lesions; Or have 1-2 brain lesions but not suitable for local treatment or refuse local treatment patients. There must be at least 1 measurable lesion with a diameter ≥5mm in the brain; Patients with local meningeal metastases were allowed, but patients with extensive meningeal metastases were not included;
+criteria: Exclusion Criteria:

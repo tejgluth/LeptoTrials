@@ -1,0 +1,73 @@
+# Historical first-pass builder only. Final independent verification retained NCT07365410 using outcomes and added two age corrections. Do not regenerate final decisions from this script; classification-decisions.json plus the dated ledger are authoritative.
+import json,re,hashlib,gzip
+from pathlib import Path
+p=Path('audit/manual-review/2026-10-17');rows=json.load(open(p/'source-records.json'));prior=json.load(open('audit/manual-review/2026-10-10/decision-ledger.json'));old={r['nctId']:r for r in prior['reviews']};base={r['nctId']:r for r in json.load(open(p/'baseline-classifications.json'))};prod=set(json.load(open(p/'production-displayed.json'))['ids']);expanded=set(r['nctId'] for r in json.load(open(p/'baseline-expanded.json'))['records']);ind=set(json.load(open(p/'query-coverage.json'))['independentIds'])|set(json.load(open(p/'web-coverage.json'))['ids']);manifest=json.load(open('audit/manual-review/classification-decisions.json'));ov={r['nctId']:r for r in manifest['reviews']}
+# Decisions follow full current source/cohort review, not prior inferred labels.
+changes={
+'NCT00003406':(True,['OTHER_SOLID'],'Eligibility expressly allows a prior history of CSF tumor involvement when asymptomatic and now disease-free on lumbar puncture/brain CT; active leptomeningeal involvement remains excluded. Mixed malignancies include solid tumors; no named tumor-specific LM cohort is established.'),
+'NCT00667615':(True,[],'DLBCL eligibility expressly allows a history of lymphomatous meningitis when stable without CNS/leptomeningeal recurrence and off steroids or on a stable dose. Active disease and primary CNS lymphoma remain excluded. Hematologic LM: general results only.'),
+'NCT01527149':(True,[],'Mantle-cell lymphoma inclusion expressly states that a lumbar puncture demonstrating mantle-cell lymphoma is not an exclusion for enrollment, despite exclusion of symptomatic meningeal or parenchymal CNS lymphoma. CSF-positive asymptomatic lymphoma provides a genuine LM path; general only.'),
+'NCT01977209':(True,['LUNG'],'Stage IIIB/IV NSCLC inclusion explicitly permits a brain/meningeal metastasis history after surgery or radiotherapy and at least two months of clinical stability. The eligible meningeal path is tied to NSCLC.'),
+'NCT03215095':(True,['OTHER_SOLID'],'Recurrent/metastatic thyroid carcinoma eligibility explicitly permits treated leptomeningeal carcinomatosis; patients must be off steroids used for CNS/LM disease. OTHER_SOLID only.'),
+'NCT03283137':(True,[],'CLL/B-cell NHL eligibility expressly permits previously treated CNS lymphoma and/or lymphomatous meningitis after at least four weeks of imaging stability, neurologic recovery, and seven days off steroids. Hematologic LM: general only.'),
+'NCT03401853':(True,[],'Relapsed/refractory follicular lymphoma or DLBCL eligibility explicitly permits previously treated lymphomatous meningitis after four weeks of imaging stability, neurologic recovery, and seven days off steroids. General only.'),
+'NCT05807893':(True,['LUNG'],'Stage IV non-squamous NSCLC inclusion explicitly allows local meningeal metastases alongside qualifying parenchymal brain lesions; extensive meningeal disease is excluded. LUNG only.'),
+'NCT05984108':(True,['MELANOMA'],'The primary meningeal melanocytic-tumor inclusion and named meningeal melanoma/melanomatosis cohorts explicitly include malignant leptomeningeal-origin disease; the summary distinguishes malignant melanomatosis from benign melanocytosis. The exclusion concerns metastatic extrameningeal melanoma, not primary malignant meningeal cohorts. MELANOMA is supported by the explicitly named malignant melanoma cohort; no GBM or OTHER_SOLID assignment.'),
+'NCT06492915':(True,['OTHER_SOLID'],'Pancreatic ductal adenocarcinoma exclusion of active/untreated brain or meningeal metastases is followed by an explicit enrollment exception for treated, asymptomatic disease with imaging stability for four weeks, measurable extra-CNS disease, and two weeks off systemic steroids/anticonvulsants. The exception applies to the preceding meningeal population; it is not limited to brain metastases (which appear only as an example of stability). OTHER_SOLID only.'),
+'NCT03423628':(True,['OTHER_SOLID'],'LM is a named registry condition, and Arm B (solid-tumor brain metastases) specifically addresses seizure history related to LMD. GBM belongs to separate Arms A/C without an explicit GBM LM path. Retain overall LM relevance and OTHER_SOLID; remove unsupported GBM assignment. Study is now COMPLETED; historical cohort closure remains separate from relevance.'),
+'NCT07365410':(False,[],'Complete current title, conditions, summary, detailed description, arms and eligibility provide no affirmative eligible LM cohort or exception. The sole LM mention excludes symptomatic leptomeningeal metastasis; permission for stable/asymptomatic brain metastases does not explicitly extend to LM. Conservatively remove unsupported relevance and LUNG assignment.'),
+'NCT04527549':(False,[],'Current registry and public protocol EA6191 v2023-01-19 section 3.1.30 exclude leptomeningeal disease or symptomatic/untreated/unstable cord-compression metastases. The modifier scope is ambiguous and the following steroid exception does not specifically establish an eligible LM path. Brain-metastasis permissions and generic non-measurable-disease definitions cannot establish LM inclusion. Conservatively remove unsupported relevance/MELANOMA assignment.'),
+}
+conservative={
+'NCT04135352':'Excluded after full protocol review: section 5.2.3 permits stable treated meningeal metastases, but section 8.2.3 explicitly excludes carcinomatous meningitis regardless of clinical stability. Current registry lists clinically active CNS/carcinomatous disease as exclusion without an affirmative stable LM cohort. This material protocol inconsistency prevents supported inclusion; completed conservative exclusion.',
+'NCT05200143':'The general exclusion item 16 excludes patients with leptomeningeal involvement by melanoma; the subsequent generic CNS exception in item 17 does not clearly override it or establish a separate LM cohort. Retain exclusion.',
+'NCT00013533':'Active lymphoma LM is excluded. In the structured criteria the historical CNS exception is attached to NB rather than a clearly specified lymphoma/LM cohort; the summary is broader. No unambiguous eligible malignant LM path established after full source review. Retain conservative exclusion.',
+'NCT06440954':'NSCLC LM inclusion conflicts with an unqualified meningeal-metastasis exclusion. No clear cohort-specific exception in complete current source; retain prior audit exclusion. Actual live production still includes this record.',
+'NCT06497543':'SCLC LM inclusion conflicts with an unqualified meningeal-metastasis exclusion. No clear cohort-specific exception in complete current source; retain prior audit exclusion. Actual live production still includes this record.',
+'NCT07802652':'Symptomatic/untreated/unstable LM is excluded. A generic prior-treated CNS-lesion exception does not specifically identify an eligible meningeal cohort; retain conservative exclusion.',
+'NCT07798921':'LM is excluded without qualification; the subsequent gamma-knife/WBRT stability exception does not specifically establish meningeal eligibility. Retain conservative exclusion.',
+'NCT07415018':'Definitive LM on imaging or positive CSF is expressly excluded. Equivocal/high-risk screening eligibility does not establish an eligible confirmed malignant LM cohort. Retain exclusion.',
+'NCT05984108':None,
+}
+pat=re.compile(r'leptomen\w*|meningeal|meningitis|\bLMD\b|\bmeninges\b',re.I)
+def leaves(obj,path='protocolSection'):
+ if isinstance(obj,dict):
+  for k,v in obj.items():yield from leaves(v,path+'.'+k)
+ elif isinstance(obj,list):
+  for i,v in enumerate(obj):yield from leaves(v,path+f'[{i}]')
+ elif isinstance(obj,str):yield path,obj
+reviews=[]
+for row in sorted(rows,key=lambda r:r['study']['protocolSection']['identificationModule']['nctId']):
+ q=row['study']['protocolSection'];id=q['identificationModule']['nctId'];prev=base.get(id,{'include':False,'buckets':[]});o=old.get(id,{});include=prev['include'];labels=prev['buckets'] if include else [];rationale=o.get('rationale','Screened complete current registry fields: no affirmative eligible malignant LM path; generic CNS disease, nonmalignant meningitis, anatomy and acronym matches are insufficient.');uncertainty=o.get('uncertainty');evidence=[]
+ for f,t in leaves(q):
+  if not any(x in f for x in ['identificationModule','conditionsModule','descriptionModule','eligibilityModule','armsInterventionsModule','outcomesModule']):continue
+  for m in list(pat.finditer(t))[:8]:
+   a=max(0,t.rfind('\n',0,m.start()));b=t.find('\n',m.end());b=len(t) if b<0 else b
+   excerpt=t[a:b].strip()
+   if len(excerpt)>950:excerpt=t[max(0,m.start()-180):min(len(t),m.end()+650)]
+   if not any(e['field']==f and e['excerpt']==excerpt for e in evidence):evidence.append({'field':f,'excerpt':excerpt})
+ if id in changes:
+  include,labels,rationale=changes[id];uncertainty='Unsupported inclusion or assignment removed under the conservative policy.' if not include or id=='NCT03423628' else None
+ elif conservative.get(id):rationale=conservative[id];uncertainty='Completed conservative exclusion; no human adjudication requested.'
+ if include and id not in changes:
+  if rationale.startswith('Rechecked current registry'):
+   rationale='Current official '+('LM cohort/diagnosis evidence' if evidence else 'CSF/meningeal eligibility and cohort context')+' supports general relevance; '+('retain '+', '.join(labels)+' only where the named population is in that eligible path.' if labels else 'hematologic/CNS-primary or unspecified origin has no supported main-tumor assignment.')+' Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.'
+ changed=prev['include']!=include or (include and sorted(prev['buckets'])!=sorted(labels))
+ entry={'nctId':id,'briefTitle':q['identificationModule']['briefTitle'],'status':q['statusModule']['overallStatus'],'lastUpdate':q['statusModule'].get('lastUpdatePostDateStruct',{}).get('date',''),'retrievedAt':row['retrievedAt'],'sourceUrl':'https://clinicaltrials.gov/study/'+id,'sourceRecord':'source-records.json.gz#'+id,'protocolSha256':hashlib.sha256(json.dumps(q,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode()).hexdigest(),'evidence':evidence,'reviewScope':'current official cohort/inclusion-exclusion review' if evidence or id in prod or include else 'complete source signal screening','previous':{'siteEligible':prev['include'],'tumorLabels':prev['buckets'] if prev['include'] else []},'siteEligible':include,'tumorLabels':labels,'rationale':rationale,'uncertainty':uncertainty,'accessLimitation':None,'confidence':'source-supported','expandedCandidate':id in expanded,'independentlyDiscovered':id in ind,'productionBefore':{'displayed':id in prod},'updatedDisplayedSinceLastAudit':(id in prod or prev['include']) and q['statusModule'].get('lastUpdatePostDateStruct',{}).get('date','')>'2026-10-10','changed':changed,'changeKind':('Add' if include and not prev['include'] else 'Remove' if not include and prev['include'] else 'Reclassify') if changed else 'No change','overrideRequired':id in ov or id in changes or id in conservative}
+ if id=='NCT04135352':entry['additionalSources']=[{'url':'https://cdn.clinicaltrials.gov/large-docs/52/NCT04135352/Prot_SAP_000.pdf','version':'25-MAY-2022 001-08','sections':['5.2.3 p60: treated meningeal metastases permitted','8.2.3 p94: carcinomatous meningitis excluded regardless of stability'] }]
+ if id=='NCT04527549':entry['additionalSources']=[{'url':'https://cdn.clinicaltrials.gov/large-docs/49/NCT04527549/Prot_SAP_000.pdf','version':'19-JAN-2023','section':'3.1.30 p21'}]
+ reviews.append(entry)
+ledger={'reviewedOn':'2026-10-17','lastSuccessfulSourceAudit':'2026-10-10','policy':prior['policy'],'baseline':'Unreleased audit candidate 763d9e3; production membership recorded separately, never inferred from candidate.','reviews':reviews}
+json.dump(ledger,open(p/'decision-ledger.json','w'),indent=2,ensure_ascii=False)
+manifest={'reviewedOn':'2026-10-17','evidenceLedger':'2026-10-17/decision-ledger.json','reviews':[{k:r[k] for k in ['nctId','briefTitle','siteEligible','tumorLabels','rationale','confidence']} for r in reviews if r['overrideRequired']]}
+json.dump(manifest,open('audit/manual-review/classification-decisions.json','w'),indent=2,ensure_ascii=False)
+json.dump({id:{'include':v[0],'buckets':v[1],'rationale':v[2]} for id,v in changes.items()},open(p/'decisions.json','w'),indent=2)
+print('Decisions',[(r['nctId'],r['changeKind'],r['tumorLabels']) for r in reviews if r['changed']]);print('Totals',len(reviews),'source records;',sum(r['siteEligible'] for r in reviews),'relevant;',len(manifest['reviews']),'overrides')
+# Current-source clinical regressions cover changes, recent updates and false positives.
+ids=set(changes)|set(conservative)|{r['nctId'] for r in reviews if r['updatedDisplayedSinceLastAudit']}|{'NCT06945705','NCT05319873','NCT07757113','NCT07631793','NCT05484245','NCT05477680','NCT07681297','NCT07331064'}
+fixtures=[]
+for r in reviews:
+ if r['nctId'] not in ids:continue
+ row=next(x for x in rows if x['study']['protocolSection']['identificationModule']['nctId']==r['nctId'])
+ fixtures.append({'source':r['sourceUrl'],'retrievedAt':r['retrievedAt'],'rationale':r['rationale'],'expected':{'include':r['siteEligible'],'buckets':r['tumorLabels'],'status':r['status']},'study':row['study']})
+json.dump(fixtures,open('tests/fixtures/weekly-audit-2026-10-17.json','w'),indent=2,ensure_ascii=False)

@@ -1,0 +1,16 @@
+{
+  "outcome": "Blocked by operational access or failed verification",
+  "pr": "https://github.com/tejgluth/LeptoTrials/pull/2",
+  "applicationCommit": null,
+  "previewDeployment": null,
+  "productionDeploymentBefore": "e32dcbfd-60e3-4b4b-a795-72f1b41a67cf",
+  "productionDeploymentAfter": "e32dcbfd-60e3-4b4b-a795-72f1b41a67cf",
+  "merged": false,
+  "productionDeployed": false,
+  "rollbackAttempted": false,
+  "reason": "Clean candidate regresses live privacy notice, aggregate-only contact storage and retired suggestions; local current-schema suggestion submission fails503. Existing live changes are unrelated dirty work without a reproducible committed source.",
+  "credentialsAvailable": true,
+  "protectedBranchBlock": false,
+  "remoteDatabaseMutations": false,
+  "sourceFailuresUnresolved": 0
+}

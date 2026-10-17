@@ -147,7 +147,7 @@ export default function TrialCard({ study, index }: TrialCardProps) {
   return (
     <div
       ref={cardRef}
-      className="relative bg-[#0c1e34] border border-[#1a3352] hover:border-[#2a5070] transition-colors duration-300"
+      className="relative min-w-0 [overflow-wrap:anywhere] bg-[#0c1e34] border border-[#1a3352] hover:border-[#2a5070] transition-colors duration-300"
     >
       <div
         className="absolute left-0 top-0 bottom-0 w-[3px]"

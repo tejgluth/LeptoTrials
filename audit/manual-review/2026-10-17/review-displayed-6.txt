@@ -1,0 +1,184 @@
+NCT06137651 Trotabresib in Combination With Vinorelbine and Radiation Therapy for the Treatment of HER2+ Breast Cancer With Central Nervous System or Leptomeningeal Metastasis | BREAST
+Conditions: Breast Carcinoma, Metastatic Malignant Neoplasm in the Brain, Metastatic Malignant Neoplasm in the Leptomeninges
+Criteria: * Patients must have newly diagnosed or progressive brain and/or leptomeningeal metastases, and a change in management and of treatment regimen is indicated. There is no limit on the number and types of prior systemic or intrathecal therapies
+Criteria: * Phase I/Ib only: Patients must have evaluable metastatic disease in the CNS and/or evidence of leptomeningeal disease (LMD) (clinically, on imaging or detected by circulating tumor cells)
+
+NCT06146010 Non Interventional German Leptomeningeal Disease Register | 
+Conditions: Meningeal Neoplasms, Leptomeningeal Disease
+Criteria: * Patients with leptomeningeal disease
+
+NCT06161558 Erlotinib in Combination With Select Tyrosine Kinase Inhibitors in Adult Patients With Advanced Solid Tumors | OTHER_SOLID
+Conditions: Neoplasms
+Criteria: * Patients with new or progressive brain metastases (active brain metastases) or leptomeningeal disease are eligible if the treating physician determines that immediate CNS specific treatment is not required and is unlikely to be required during the first cycle of therapy.
+
+NCT06176261 DATO-BASE: DATOpotamab-deruxtecan for Breast Cancer Brain metAstaSEs | BREAST
+Conditions: Breast Cancer, Breast Cancer Female, Metastatic Triple-Negative Breast Carcinoma, ER Positive Breast Cancer, HER2-negative Breast Cancer, HER2 Negative Breast Carcinoma, ER-negative Breast Cancer
+Criteria: * Cohorts C: Radiological evidence of evaluable leptomeningeal disease and clinical diagnosis of LMD per treating investigator. A positive CSF cytology is not required.
+
+NCT06211114 Study to Evaluate the Efficacy and Safety of Immunotherapy With Axitinib in Advanced Collecting Duct Carcinoma | OTHER_SOLID
+Conditions: Collecting Duct Carcinoma
+Criteria: 11\. Has a history of active central nervous system (CNS) metastasis or CNS metastasis had been confirmed by radiological examination (MRI or CT) at baseline within 30 days prior to the first dose of study drug. Subjects may participate who had been stable at least for 3 months after prior surgery or RT for brain or meningeal metastasis and discontinued systemic treatment with corticosteroids (Prednisone \>10 mg/day or equivalent analogue) for at least 4weeks. Subjects may participate in the study if their CNS metastases are adequately treated to meet the requirements specified in the inclusion criteria, and their neurological symptoms recover to grade 0-1 (CTCAE 5.0) for at least 2 weeks prior to inclusion (except for residual signs or symptoms associated with CNS treatment).
+
+NCT06230055 Intrathecal Chemotherapy Through Ommaya Reservoir Upon Her-2 Negative Breast Cancer With Leptomeningeal Metastasis | BREAST
+Conditions: HER2-negative Breast Cancer, Leptomeningeal Metastasis
+Criteria: 6. pial metastasis is present, which is defined as meningeal metastasis confirmed by malignant tumor cells found in cerebrospinal fluid cytology; Or clinical symptoms/signs suggest meningeal metastasis, and brain MRI suggests pia enhancement;
+
+NCT06282874 Lorlatinib in Patients With ALK-Positive NSCLC With Brain or Leptomeningeal Metastases | LUNG
+Conditions: Carcinoma, Non-Small-Cell Lung, Brain Metastases, Leptomeningeal Metastasis
+Criteria: 6. At least one CNS lesion meeting one of the following criteria must be present: 1.leptomeningeal metastasis suggested by imaging and/or cerebrospinal fluid findings; cerebrospinal fluid confirmation is not required for imaging-suspected leptomeningeal metastasis; or 2.brain parenchymal metastasis confirmed by magnetic resonance imaging (MRI), with ≥3 brain lesions, or 1-2 lesions that are not suitable for surgery or for which the patient refuses surgery. In patients without leptomeningeal metastasis, at least one measurable brain lesion with a diameter of ≥5 mm is required.
+Criteria: 7. Patients with or without symptoms related to brain and/or leptomeningeal metastases are eligible.
+Criteria: 9. ECOG performance status of 0-2 for patients without leptomeningeal metastasis, and 0-3 for patients with leptomeningeal metastasis.
+
+NCT06296745 Intrathecal Pemetrexed for Leptomeningeal Metastasis From Lung Adenocarcinoma That Progressed After Osimertinib. | LUNG
+Conditions: Leptomeningeal Metastasis
+Criteria: 3. Confirmed diagnosis of leptomeningeal metastasis according to ESMO/ EANO guidelines.
+
+NCT06304441 Intra-pemetrexed Plus Third-generation Small Molecule TKI Drugs (e.g. 'Osimertinib') Versus Third-generation Small Molecule TKI Drugs Alone for Leptomeningeal Metastasis From Epidermal Growth Factor Receptor Mutation-Positive Non-Small-cell Lung Cancer | LUNG
+Conditions: Leptomeningeal Metastasis
+Criteria: 3. Confirmed diagnosis of leptomeningeal metastasis according to ESMO/EANO guidelines.
+
+NCT06315686 The Dynamic Monitoring of Cerebrospinal Fluid ctDNA | LUNG
+Conditions: NSCLC
+Criteria: * Advanced NSCLC patient with EGFR mutation, associated with leptomeningeal metastasis
+
+NCT06332287 A Study of Trilaciclib Combined With Chemotherapy in the Treatment of Advanced NSCLC With Leptomeningeal Metastasis | LUNG
+Conditions: NSCLC
+Criteria: * Advanced non-small cell lung cancer with leptomeningeal metastasis；
+
+NCT06332300 An Exploratory Clinical Study of Adebelimumab in Combination With Famitinib and Chemotherapy in Patients With NSCLC | LUNG
+Conditions: NSCLC
+Criteria: 3. Clinical manifestations of neurologic failure such as severe encephalopathy or treatment-related severe neurologic injury, such as chemical meningitis
+
+NCT06339242 A Study of Furmonertinib Combined With Chemotherapy in the Treatment of NSCLC With Leptomeningeal Metastasis | LUNG
+Conditions: NSCLC
+Criteria: * Leptomeningeal metastasis after resistance to third-generation EGFR-TKIs;
+Criteria: * Histologically confirmed NSCLC LM patients by positive CSF cytology. The diagnosis of LM can be based on MRI with malignant cells in the cerebrospinal fluid, focal or diffuse enhancement of the leptomeninges, and enhancement of nerve roots or ependymal surfaces;
+
+NCT06346977 Diagnosis of Leptomeningeal Metastasis and the Monitoring of Intrathecal Chemotherapy Efficacy in NSCLC | LUNG
+Conditions: Diagnosis
+briefSummary: ldwide, afflicts an estimated 30% of its patients with intracranial metastatic spread. Among these, leptomeningeal metastasis (LM) is an exceptionally surreptitious and perilous manifestation, often evading timely and accurate diagnosis. The clinical landscape is further complicated by the presence of patients who, due to various reasons, are unable to und
+detailedDescription: al number of advanced NSCLC cases manifesting neither clinical signs nor radiographic indicators of meningeal involvement. These biological materials will be subjected to rigorous proteomic interrogation, with the overarching goal of discerning distinctive proteomic signatures that can accurately discriminate between NSCLC patients with and without LM.  In 
+
+NCT06361589 Real World Study of Lolatinib for Advanced ALK+ NSCLC Patients | LUNG
+Conditions: ALK-positive Non-small Cell Lung Cancer, Real World Study
+briefSummary: of life based on the EORTC QLQ C30+LC29 scale (plus the EORTC QLQ BN20 scale in patients with brain/meningeal metastases) was performed at baseline and at each follow-up point. This study will use REDCap platform to collect and manage the study data information of multi-center patients.
+
+NCT06376292 A Prospective Single Arm Phase II Exploratory Study on the Combination of Whole Brain Radiotherapy, Thiotepa Intrathecal Injection and Systemic Treatment of Primary Diseases in the Treatment of Solid Tumor Leptomeningeal Metastasis | OTHER_SOLID
+Conditions: Solid Tumor Leptomeningeal Metastasis
+Criteria: 2\) Age: ≥ 18 years old, both male and female. 3) Solid tumor patients diagnosed with meningeal metastasis according to the EANO-ESMO guidelines 4) Whole brain 6MX X-ray PTV D95/30Gy/10F regimen radiotherapy has been performed 5) CNS IPI ≥ 4. 6) An increase in serum LDH or involvement of more than one extranodal site. 7) ECOG score ≤ 2. 8) Expected survival time is at least 3 months. 9) Adequate organ and bone marrow function, without severe hematopoietic dysfunction, heart, lung, liver, kidney dysfunction, and immune deficiency (no blood transfusion, granulocyte colony-stimulating factor, or other related medical support received within 14 days prior to the use of the study drug):
+
+NCT06399926 Efficacy and Safety of Intraventricule Pemetrexed Disodium Administered Via Ommaya Reservoir | LUNG
+Conditions: Leptomeningeal Metastasis, Lung Cancer
+Criteria: 2. In accordance with the CSCO Guidelines for the Diagnosis and Management of Central Nervous System Tumors, and the EANO-ESMO diagnostic criteria: a diagnosis of type I meningeal metastatic carcinoma is made when cerebrospinal fluid cytology testing reveals anisocytosis (3 consecutive tests are required if the cerebrospinal fluid cytology testing is initially negative for the patient) (one study showed that the specificity of anisocytosis in diagnosing meningeal metastases in patients with solid tumors was 100%) or meningeal lesions Biopsy confirms the diagnosis. (Type IIA-C meningeal metastases: negative or atypical cerebrospinal fluid cytology, MRI showing linear or/and nodular meningeal enhancement\^ with typical clinical symptoms\*).
+Criteria: * MRI: at least 1.5T; demonstrates sulcal, smear, or linear ventricular enhancement, cranial nerve root enhancement or nodular meningeal enhancement, or cauda equina spinal enhancement; control enhancement T1-weighted sequences and Flair sequences; nodularity is defined as foci of ≥ 5x10mm enhancement; sequences of choice: cranial planar enhancement + T2Flair (enhancement) or and total spinal planar enhancement (when suspicion of spinal involvement); 3D T1 enhancement (involved cranial nerves - optional); cerebrospinal fluid flow imaging (functional or anatomic).
+
+NCT06410040 A Retrospective Study of the Efficacy and Safety of Lolatinib in ALK+ NSCLC Patients With Brain or Meningeal Metastasis | LUNG
+Conditions: ALK-positive Non-small Cell Lung Cancer, Brain Metastases, Meningeal Metastasis
+Criteria: 2. Diagnosis of advanced NSCLC with clear pathology and brain metastases confirmed by MRI or CT scan of the brain or meningeal metastases confirmed by imaging or lumbar puncture cerebrospinal fluid cytology
+
+NCT06417710 Standardized Clinical Assessment of Patients With Leptomeningeal Metastasis | OTHER_SOLID
+Conditions: Leptomeningeal Metastasis, Leptomeningeal Disease, Leptomeningeal Neoplasms, Leptomeningeal Cancer
+Criteria: * Diagnosis of leptomeningeal metastases confirmed or probable per EANO ESMO criteria
+
+NCT06422806 Measuring if Immunotherapy Plus Chemotherapy is Better Than Chemotherapy Alone for Patients With Aggressive Poorly Differentiated Sarcomas | OTHER_SOLID
+Conditions: Metastatic Dedifferentiated Liposarcoma, Metastatic Undifferentiated Pleomorphic Sarcoma, Stage III Soft Tissue Sarcoma of the Trunk and Extremities AJCC v8, Stage IV Soft Tissue Sarcoma of the Trunk and Extremities AJCC v8, Unresectable Dedifferentiated Liposarcoma, Unresectable Undifferentiated Pleomorphic Sarcoma
+Criteria: * Patients with new or progressive brain metastases (active brain metastases) or leptomeningeal disease are eligible if the treating physician determines that immediate CNS specific treatment is not required and is unlikely to be required during the first cycle of therapy
+
+NCT06431685 Safety and Efficacy of Whole Brain LDRT+ICI+Intrathecal Chemotherapy in Refractory Meningeal Metastasis of Lung Cancer | LUNG
+Conditions: NSCLC, Low Dose Radiotherapy, PD-1 Inhibitor, Leptomeningeal Metastasis
+Criteria: 2. Patients with a definite diagnosis of leptomeningeal metastasis by cerebrospinal fluid cytology, or patients with clinical diagnosis combined with tumor history, neuroimaging, clinical manifestations, cerebrospinal fluid examination, etc.;
+
+NCT06440954 Efficacy and Resistance Mechanisms of IP in NSCLC With Leptomeningeal Metastases | 
+Conditions: Non-Small Cell Lung Cancer
+Criteria: 2. Histopathology or cytology confirmed metastatic non-small cell lung cancer with leptomeningeal metastasis after TKI resistant.
+Criteria: 3. Presence of spinal cord compression or meningeal metastasis.
+
+NCT06441045 Double Dose of Third-generation EGFR-TKI Plus Intrathecal Pemetrexed Versus Double Dose of Third-generation EGFR-TKI in Patients With LM Progression Following the Treatment of Routine Dose of Third-generation EGFR-TKI | LUNG
+Conditions: Leptomeningeal Metastasis
+briefSummary: FR-TKI Plus Intrathecal Pemetrexed Versus double Dose of Third-generation EGFR-TKI in patients with leptomeningeal progression following the treatment of routine dose of EGFR-TKI,
+
+NCT06462092 Sacituzumab Govitecan and Intrathecal Chemotherapy for Treating Leptomeningeal Metastases From Her2-negative Breast Cancer | BREAST
+Conditions: Leptomeningeal Metastases
+Criteria: 2. Cerebrospinal fluid cytology confirms the presence of leptomeningeal metastases; or imaging findings combined with clinical symptoms and signs are consistent with the diagnosis of leptomeningeal metastases;
+
+NCT06462222 Immune Checkpoint Inhibitor Combined With Pemetrexed Intrathecal Injection for Leptomeningeal Metastasis From Solid Tumors | OTHER_SOLID
+Conditions: Leptomeningeal Metastasis
+briefSummary:  phase I/II trial of immune checkpoint inhibitor combined with pemetrexed intrathecal injection for leptomeningeal metastasis from solid tumors.
+detailedDescription:  phase I/II trial of immune checkpoint inhibitor combined with pemetrexed intrathecal injection for leptomeningeal metastasis from solid tumors. The primary objective was to assess recommended dose and safety based on adverse events (AEs). All participants were observed to evaluate the clinical response rate (CRR), disease control rate (DCR) and overall su
+
+NCT06465316 Testing Teclistamab (TECVAYLI) in Combination With Iberdomide for Relapsed or Refractory Multiple Myeloma | 
+Conditions: Recurrent Multiple Myeloma, Refractory Multiple Myeloma
+Criteria: * Patients with new or progressive brain metastases (active brain metastases) or leptomeningeal disease are eligible if the treating physician determines that immediate CNS specific treatment is not required and is unlikely to be required during the first cycle of therapy
+
+NCT06497543 Intrathecal Pemetrexed for SCLC Patients With Refractory Brain Metastases or Leptomeninges Metastatic | 
+Conditions: Small-cell Lung Cancer
+Criteria: * 4.Leptomeningeal metastasis (LM) is defined by the presence of typical clinical symptoms, positive cerebrospinal fluid (CSF) cytology, detection of cell-free DNA (cfDNA) in CSF by next-generation sequencing (NGS), or imaging findings consistent with typical meningeal metastases.
+Criteria: * 3\. Presence of spinal cord compression or meningeal metastasis.
+
+NCT06500481 Testing Proton Craniospinal Radiation Therapy Versus the Usual Radiation Therapy for Leptomeningeal Metastasis, RADIATE-LM Trial | LUNG,BREAST
+Conditions: Anatomic Stage IV Breast Cancer AJCC v8, Metastatic Breast Carcinoma, Metastatic Lung Non-Small Cell Carcinoma, Metastatic Malignant Neoplasm in the Leptomeninges, Stage IV Lung Cancer AJCC v8
+Criteria: * Patients must have newly diagnosed leptomeningeal metastasis established through at least one of the following:
+Criteria: * Patients with an equivocal or negative CSF cytology result, or not suitable for CSF sampling, radiographic diagnosis of leptomeningeal metastasis with linear and/or nodular disease and documentation of typical clinical signs (European Association of Neuro-Oncology \[EANO\]-European Society for Medical Oncology \[ESMO\] Diagnostic Criteria Type IIA-IIC) is required
+Criteria: * Patients with typical clinical signs of leptomeningeal metastasis may have one or more of the following symptoms and signs: headache, nausea, vomiting, mental status change, gait difficulty, cranial nerve palsy, diplopia, visual change, hearing loss, radicular weakness, radicular sensory change, urinary retention, saddle anesthesia, constipation, neck pain, and back pain
+Criteria: * For patients with prior history of immunotherapy or current immunotherapy, CSF sampling rather than just MRI enhancement is strongly recommended to exclude immune-related aseptic meningitis
+Criteria: * Patients must be candidates for radiation therapy for the treatment of leptomeningeal metastasis
+Criteria: * No prior treatment for leptomeningeal metastasis (note: prior CNS treatment for other non-leptomeningeal disease is allowed)
+
+NCT06518057 Hippocampal Avoidance in Craniospinal Irradiation for the Treatment of Leptomeningeal Metastases From Breast Cancer or Non-small Cell Lung Cancer | LUNG,BREAST
+Conditions: Anatomic Stage IV Breast Cancer AJCC v8, Metastatic Breast Carcinoma, Metastatic Lung Non-Small Cell Carcinoma, Metastatic Malignant Neoplasm in the Leptomeninges, Stage IV Lung Cancer AJCC v8
+Criteria: * Patients with breast cancer or NSCLC malignancies with leptomeningeal metastases established radiographically and/or through CSF cytology
+Criteria: * Patients who are candidates for radiation therapy for the treatment of leptomeningeal metastases
+
+NCT06537297 Intrathecal Pemetrexed Combined With High-dose Furmonertinib and Beva for EGFR-m NSCLC With Leptomeningeal Metastases | LUNG
+Conditions: Non-small Cell Lung Cancer
+Criteria: * 4\. confirmed or probable leptomeningeal metastases according to EANO-ESMO guidelines or known leptomeningeal metastases progression after third generation of EGFR-TKIs failure.
+Criteria: * 5.Leptomeningeal metastasis (LM) is defined by the presence of typical clinical symptoms, positive cerebrospinal fluid (CSF) cytology, detection of cell-free DNA (cfDNA) in CSF by next-generation sequencing (NGS), or imaging findings consistent with typical meningeal metastases.
+
+NCT06543992 Efficacy and Safety of Intrathecal Administration of Thiotepa in Combination With Methotrexate in Breast Cancer With Leptomeningeal Metastasis | BREAST
+Conditions: Leptomeningeal Metastasis of Breast Cancer
+briefSummary: tration of Thiotepa in Combination with Methotrexate via the Ommaya Reservoir in Breast Cancer with Leptomeningeal Metastasis
+detailedDescription: tration of thiotepa in combination with methotrexate via the Ommaya Reservoir in breast cancer with leptomeningeal metastasis.  The primary end point was iORR \[complete response (CR) + partial response (PR)\] according to RANO-LM. Scoring based on radiographic assessment in leptomeningeal metastases . A composite score (total score) is calculated and comp
+detailedDescription: se (CR) + partial response (PR)\] according to RANO-LM. Scoring based on radiographic assessment in leptomeningeal metastases . A composite score (total score) is calculated and compared with the baseline total score. A 25% worsening in the current score relative to baseline defines radiographic progressive disease. A 50% improvement in the current score d
+
+NCT06589804 Testing the Addition of Anti-Cancer Drug, Cetuximab, to Standard of Care Treatment (Pembrolizumab) for Returning or Spreading Head and Neck Cancer After Previous Treatment | OTHER_SOLID
+Conditions: Metastatic Head and Neck Squamous Cell Carcinoma, Metastatic Hypopharyngeal Squamous Cell Carcinoma, Metastatic Laryngeal Squamous Cell Carcinoma, Metastatic Oral Cavity Squamous Cell Carcinoma, Metastatic Oropharyngeal Squamous Cell Carcinoma, Recurrent Head and Neck Squamous Cell Carcinoma, Recurrent Hypopharyngeal Squamous Cell Carcinoma, Recurrent Laryngeal Squamous Cell Carcinoma, Recurrent Neck Squamous Cell Carcinoma of Unknown Primary, Recurrent Oral Cavity Squamous Cell Carcinoma, Recurrent Oropharyngeal Squamous Cell Carcinoma, Refractory Head and Neck Squamous Cell Carcinoma, Refractory Hypopharyngeal Squamous Cell Carcinoma, Refractory Laryngeal Squamous Cell Carcinoma, Refractory Oral Cavity Squamous Cell Carcinoma, Refractory Oropharyngeal Squamous Cell Carcinoma, Stage IV Head and Neck Cutaneous Squamous Cell Carcinoma AJCC v8, Stage IV Hypopharyngeal Carcinoma AJCC v8, Stage IV Laryngeal Cancer AJCC v8, Stage IV Lip and Oral Cavity Cancer AJCC v8, Stage IV Oropharyngeal (p16-Negative) Carcinoma AJCC v8
+Criteria: * Patients with new or progressive brain metastases (active brain metastases) or leptomeningeal disease are eligible if the treating physician determines that immediate CNS specific treatment is not required and is unlikely to be required during the first cycle of therapy.
+
+NCT06592092 Clinical Study of QH104 Cell Injection for the Treatment of Meningeal Metastases of B7H3+ Solid Tumors | OTHER_SOLID
+Conditions: Solid Tumor, Meningeal Metastasis
+Criteria: 5. Meningeal metastases (or with brain parenchymal metastases) from any solid malignancy that is refractory to standard treatment or for which no standard treatment is available and positive cerebrospinal fluid (CSF) cytology;
+
+NCT06610682 A Trial to Evaluate CSF ctDNA and Safety of Plixorafenib Alone or With Retifanlimab in Patients With BRAF-altered Glioma | 
+Conditions: BRAF V600E Mutation
+Criteria: * Measurable disease by RANO 2.0 criteria on screening MRI. Leptomeningeal disease allowed.
+
+NCT06638294 Study in Patients With Breast Cancer Leptomeningeal Metastasis | BREAST
+Conditions: Leptomeningeal Metastasis of Breast Cancer
+Criteria: * Suspected breast cancer-related leptomeningeal metastasis (i.e., by clinical signs or symptoms (i.e., peri-oral dysesthesia, unexplained new neurological symptoms in the absence of brain metastasis), radiographic, or by cerebrospinal fluid analysis), whereby patient will be treated along an leptomeningeal disease paradigm.
+Criteria: * Previous central nervous system metastasis (including leptomeningeal disease or brain metastasis) is eligible.
+Criteria: * Not eligible for treatment of leptomeningeal disease.
+
+NCT06643000 Evaluating High-dose Furmonertinib with Bevacizumab and Pemetrexed for EGFRm NSCLC with Leptomeningeal Metastasis | LUNG
+Conditions: Non-small Cell Lung Cancer, Leptomeningeal Metastasis, EGFR Gene Mutation
+Criteria: 5. After comprehensive clinical evaluation according to the "EANO-ESMO" meningeal metastasis diagnostic criteria, the comprehensive clinical evaluation of patients with definite meningeal metastasis included symptom evaluation, imaging evaluation, and/or cerebrospinal fluid pathology evaluation;
+Criteria: 6. Patients with newly diagnosed leptomeningeal metastases and those with disease progression after previous antineoplastic therapy were eligible;
+
+NCT06663306 Intrathecal Injection Pemetrexed And Bevacizumab in Patients With Leptomeningeal Metastases in NSCLC | LUNG
+Conditions: Lung Cancer (NSCLC), Leptomeningeal Metastasis
+Criteria: * ECOG PS score 0-3. ECOG PS score 2 or 3 should be due to leptomeningeal metastases.
+Criteria: * Patients with pathologically diagnosed non-small cell lung cancer with cerebrospinal fluid and/or MRI diagnosis of leptomeningeal metastasis(LM);
+
+NCT06705049 Retrospective Study on Leptomeningeal Metastasis of Solid Tumors | OTHER_SOLID
+Conditions: Leptomeningeal Metastasis
+briefSummary: study is to investigate the clinical characteristics, treatment outcomes, and prognostic factors of leptomeningeal metastasis (LM), a serious complication of advanced cancer. LM occurs when tumor cells spread to the leptomeninges and subarachnoid space, leading to neurological symptoms and poor prognosis. This study aims to answer:  What are the common cli
+briefSummary: etastasis (LM), a serious complication of advanced cancer. LM occurs when tumor cells spread to the leptomeninges and subarachnoid space, leading to neurological symptoms and poor prognosis. This study aims to answer:  What are the common clinical features of LM? How do different treatments affect survival and quality of life? What factors influence patien
+detailedDescription: Experimental Procedure：  1. Case Collection This study collected all cases of leptomeningeal metastasis (LM) diagnosed through cerebrospinal fluid cytology at our center between January 2014 and August 2024. The collected data includes:Demographic information: Age, gender Clinical presentation: Chief complaints, current medical histor
+
+NCT06718972 A Real-world Study on the Treatment of Non-small Cell Lung Cancer With Leptomeningeal Metastasis in China | LUNG
+Conditions: Meningeal Metastasis, Non-Small Cell Lung Cancer
+Criteria: * non-small cell lung cancer patients with Leptomeningeal metastases diagnosed after January 2018;
+
+NCT06724926 Concurrent Azeliragon With Craniospinal Irradiation | OTHER_SOLID
+Conditions: Solid Tumor, High-grade Glioma, Leptomeningeal Metastasis
+Criteria: * Patient with solid tumor malignancy or high grade glioma with leptomeningeal metastasis established radiographically and/or through cerebrospinal fluid (CSF) cytology
+Criteria: * Patients who are candidates for radiation therapy for the treatment of leptomeningeal metastasis

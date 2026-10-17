@@ -1,0 +1,39 @@
+import json,re,gzip
+from pathlib import Path
+from datetime import datetime,timezone
+p=Path('audit/manual-review/2026-10-17')
+l=json.loads((p/'decision-ledger.json').read_text())['reviews']
+src={x['study']['protocolSection']['identificationModule']['nctId']:x['study']['protocolSection'] for x in json.loads((p/'source-records.json').read_text() if (p/'source-records.json').exists() else gzip.decompress((p/'source-records.json.gz').read_bytes()))}
+statuses=['RECRUITING','NOT_YET_RECRUITING','ACTIVE_NOT_RECRUITING','ENROLLING_BY_INVITATION','COMPLETED','TERMINATED','WITHDRAWN','SUSPENDED','UNKNOWN']
+def ageyears(s):
+ if not s:return None
+ m=re.match(r'([\d.]+)\s*(\w+)',s)
+ if not m:return None
+ return float(m[1])/{'years':1,'year':1,'months':12,'month':12,'weeks':52,'week':52,'days':365,'day':365}.get(m[2].lower(),1)
+def expected(age=None,bucket=None,statuses=statuses,country=None,phase=None,stype=None):
+ ids=[]
+ for r in l:
+  if not r['siteEligible']or r['status']not in statuses or bucket and bucket not in r['tumorLabels']:continue
+  s=src[r['nctId']];e=s.get('eligibilityModule',{});mi=ageyears(r.get('ageCorrection',{}).get('minimumAge',e.get('minimumAge')));ma=ageyears(e.get('maximumAge'))
+  if age is not None and ((mi is not None and age<mi)or(ma is not None and age>ma)):continue
+  if country and not any(x.get('country')==country for x in s.get('contactsLocationsModule',{}).get('locations',[])):continue
+  if phase and phase not in s.get('designModule',{}).get('phases',[]):continue
+  if stype and stype!=s.get('designModule',{}).get('studyType'):continue
+  ids.append(r['nctId'])
+ return ids
+out=[]
+def check(label,actual,expect):
+ row={'profile':label,'actualCount':len(actual),'expectedCount':len(expect),'missing':sorted(set(expect)-set(actual)),'extra':sorted(set(actual)-set(expect)),'duplicates':len(actual)-len(set(actual))}
+ out.append(row)
+ assert not row['missing']and not row['extra']and not row['duplicates'],row
+check('default: recruiting/not-yet/active only',json.loads((p/'browser-finalDefault.json').read_text())['ids'],expected(statuses=statuses[:3]))
+a=json.loads((p/'browser-finalAges.json').read_text());check('all-selectable',a['allIds'],expected())
+for c in a['cases']:check('age-'+str(c['age']),c['ids'],expected(age=c['age']))
+for f in ['browser-localBuckets1.json','browser-localBuckets2.json']:
+ for b in json.loads((p/f).read_text()):
+  if b['bucket']!='LUNG':check(b['bucket'],b['ids'],expected(bucket=b['bucket']))
+b=json.loads((p/'browser-finalLung.json').read_text());check('LUNG',b['ids'],expected(bucket='LUNG'))
+c=json.loads((p/'browser-final-states.json').read_text())['combined']
+check(c['profile'],c['ids'],expected(age=18,bucket='BREAST',country='United States',phase='PHASE2',stype='INTERVENTIONAL'))
+(p/'browser-ledger-reconciliation.json').write_text(json.dumps({'at':datetime.now(timezone.utc).isoformat(),'method':'Independent Python projection of reviewed ledger classifications and official structured filters; explicit source-reviewed age corrections. No application filtering functions imported. Default excludes invitation status.','profiles':out},indent=2)+'\n')
+print(json.dumps(out,indent=2))

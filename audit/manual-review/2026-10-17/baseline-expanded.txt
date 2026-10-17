@@ -1,0 +1,6 @@
+
+> leptotrials@1.0.0 export:expanded-candidates
+> npx tsx scripts/export-expanded-candidates.ts
+
+Expanded candidate universe: 570
+Wrote /private/tmp/lm-weekly-audit-20261017/audit/manual-review/expanded-candidates.json

@@ -1,0 +1,80 @@
+{
+  "success": true,
+  "name": "lm-trials",
+  "domains": [
+    "leptotrials.pages.dev",
+    "leptotrials.com"
+  ],
+  "production_branch": "main",
+  "build": {
+    "build_command": "npm run build",
+    "destination_dir": "dist",
+    "root_dir": "",
+    "web_analytics_tag": null,
+    "web_analytics_token": null
+  },
+  "source": {
+    "type": "github",
+    "config": {
+      "owner": "tejgluth",
+      "owner_id": "62730024",
+      "repo_name": "Leptomeningeal",
+      "repo_id": "1182688009",
+      "production_branch": "main",
+      "pr_comments_enabled": true,
+      "deployments_enabled": true,
+      "production_deployments_enabled": true,
+      "preview_deployment_setting": "all",
+      "preview_branch_includes": [
+        "*"
+      ],
+      "preview_branch_excludes": [],
+      "path_includes": [
+        "*"
+      ],
+      "path_excludes": []
+    }
+  },
+  "canonical": {
+    "id": "e32dcbfd-60e3-4b4b-a795-72f1b41a67cf",
+    "url": "https://e32dcbfd.leptotrials.pages.dev",
+    "trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "main",
+        "commit_hash": "e3116e01bafdff2f0b14449e3d38440a4bab1041",
+        "commit_message": "Standardize LeptoTrials wordmark colors",
+        "commit_dirty": true
+      }
+    },
+    "stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-08T00:38:34.140523Z",
+      "status": "success"
+    }
+  },
+  "configs": {
+    "preview": {
+      "d1_databases": {
+        "ANALYTICS_DB": {
+          "id": "62153558-c98e-4503-9c9d-6bcde182174f"
+        }
+      },
+      "compatibility_date": "2026-08-15",
+      "envNames": []
+    },
+    "production": {
+      "d1_databases": {
+        "ANALYTICS_DB": {
+          "id": "62153558-c98e-4503-9c9d-6bcde182174f"
+        }
+      },
+      "compatibility_date": "2026-08-15",
+      "envNames": [
+        "ANALYTICS_ADMIN_TOKEN"
+      ]
+    }
+  },
+  "retrievedAt": "2026-10-17T18:51:16.170Z"
+}

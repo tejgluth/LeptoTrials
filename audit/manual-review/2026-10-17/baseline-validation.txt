@@ -1,0 +1,24 @@
+
+> leptotrials@1.0.0 validate:trials
+> npx tsx scripts/validate-trials.ts --json --fresh
+
+Fetching LM universe from ClinicalTrials.gov...
+Universe size: 417 studies
+Validating 46656 local matrix scenarios against an independent oracle
+Running 16 live query comparisons
+
+Summary
+- universe studies: 417
+- exhaustive scenarios: 46656
+- live scenarios: 16
+- oracle mismatches: 0
+- regression failures: 0
+- query mismatches: 0
+{
+  "universe": 417,
+  "exhaustiveScenarios": 46656,
+  "liveScenarios": 16,
+  "oracleMismatches": 0,
+  "regressionFailures": 0,
+  "queryMismatches": 0
+}

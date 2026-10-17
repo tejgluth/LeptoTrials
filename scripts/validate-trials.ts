@@ -319,10 +319,14 @@ type OracleResult = {
   reason?: string
 }
 
+// Current-source decisions: audit/manual-review/2026-10-17/decision-ledger.json.
+// Historical/unknown-status inclusions are tested separately from active defaults.
 const REGRESSIONS: RegressionCase[] = [
+  { scenario: 'gbm-all-statuses', mustExclude: ['NCT03423628', 'NCT07331064', 'NCT07751744'] },
   {
     scenario: 'default',
     mustInclude: [
+      'NCT07365410',
       'NCT04511013',
       'NCT04923126',
       'NCT05124236',
@@ -346,7 +350,6 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT04458922',
       'NCT04903678',
       'NCT07050186',
-      'NCT07365410',
       'NCT07506239',
       'NCT07594002',
       'NCT07603856',
@@ -376,9 +379,15 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT07444710',
       'NCT07447076',
       'NCT07624201',
+      'NCT03215095',
+      'NCT03283137',
+      'NCT06492915',
     ],
     mustExclude: [
-      'NCT05865990', 'NCT06440954', 'NCT06497543', 'NCT07361562',
+      'NCT05865990',
+      'NCT06440954',
+      'NCT06497543',
+      'NCT07361562',
       'NCT05984108',
       'NCT06945705',
       'NCT07415018',
@@ -398,11 +407,13 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT03417895',
       'NCT07438626',
       'NCT07842276',
+      'NCT04527549',
     ],
   },
   {
     scenario: 'all-statuses',
     mustInclude: [
+      'NCT07365410',
       'NCT05865990',
       'NCT01970865',
       'NCT04509596',
@@ -427,7 +438,6 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT04301076',
       'NCT04458922',
       'NCT04500548',
-      'NCT04527549',
       'NCT04903678',
       'NCT05259540',
       'NCT05617885',
@@ -435,7 +445,6 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT05904080',
       'NCT06161558',
       'NCT07050186',
-      'NCT07365410',
       'NCT07506239',
       'NCT07594002',
       'NCT07603856',
@@ -468,11 +477,21 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT07444710',
       'NCT07447076',
       'NCT07624201',
+      'NCT00003406',
+      'NCT00667615',
+      'NCT01527149',
+      'NCT01977209',
+      'NCT03215095',
+      'NCT03283137',
+      'NCT03401853',
+      'NCT05807893',
+      'NCT05984108',
+      'NCT06492915',
+      'NCT03423628',
     ],
     mustExclude: [
       'NCT02125786',
       'NCT04581824',
-      'NCT05984108',
       'NCT06945705',
       'NCT07415018',
       'NCT07631793',
@@ -489,16 +508,50 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT03417895',
       'NCT07438626',
       'NCT07842276',
+      'NCT04527549',
     ],
   },
   {
     scenario: 'lung-default',
-    mustInclude: ['NCT03202940', 'NCT04181060', 'NCT05967689', 'NCT06663306', 'NCT06643000', 'NCT06861218', 'NCT06282874', 'NCT07264569', 'NCT07365410', 'NCT07415005', 'NCT07603856', 'NCT07789912', 'NCT07814352'],
-    mustExclude: ['NCT06016387', 'NCT04588545', 'NCT05782374', 'NCT03684980'],
+    mustInclude: [
+      'NCT07365410',
+      'NCT03202940',
+      'NCT04181060',
+      'NCT05967689',
+      'NCT06663306',
+      'NCT06643000',
+      'NCT06861218',
+      'NCT06282874',
+      'NCT07264569',
+      'NCT07415005',
+      'NCT07603856',
+      'NCT07789912',
+      'NCT07814352',
+    ],
+    mustExclude: [
+      'NCT06016387',
+      'NCT04588545',
+      'NCT05782374',
+      'NCT03684980',
+    ],
   },
   {
     scenario: 'lung-all-statuses',
-    mustInclude: ['NCT01625234', 'NCT01970865', 'NCT03202940', 'NCT04181060', 'NCT04757779', 'NCT04965090', 'NCT05967689', 'NCT07365410', 'NCT07415005', 'NCT07603856', 'NCT07814352'],
+    mustInclude: [
+      'NCT07365410',
+      'NCT01625234',
+      'NCT01970865',
+      'NCT03202940',
+      'NCT04181060',
+      'NCT04757779',
+      'NCT04965090',
+      'NCT05967689',
+      'NCT07415005',
+      'NCT07603856',
+      'NCT07814352',
+      'NCT01977209',
+      'NCT05807893',
+    ],
   },
   {
     scenario: 'breast-default',
@@ -516,7 +569,12 @@ const REGRESSIONS: RegressionCase[] = [
   },
   {
     scenario: 'melanoma-all-statuses',
-    mustInclude: ['NCT04511013', 'NCT04527549', 'NCT07814352'],
+    mustInclude: [
+      'NCT04511013',
+      'NCT07814352',
+      'NCT05984108',
+    ],
+    mustExclude: ['NCT04527549'],
   },
   {
     scenario: 'gbm-default',
@@ -555,6 +613,8 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT07426484',
       'NCT07431073',
       'NCT07624201',
+      'NCT03215095',
+      'NCT06492915',
     ],
     mustExclude: ['NCT05782374', 'NCT03684980', 'NCT07414979', 'NCT07415018', 'NCT04988009', 'NCT04185038', 'NCT07264569', 'NCT07814352'],
   },
@@ -597,8 +657,16 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT07426484',
       'NCT07431073',
       'NCT07624201',
+      'NCT00003406',
+      'NCT03215095',
+      'NCT06492915',
+      'NCT03423628',
     ],
-    mustExclude: ['NCT05782374', 'NCT03684980'],
+    mustExclude: [
+      'NCT05782374',
+      'NCT03684980',
+      'NCT05984108',
+    ],
   },
   {
     scenario: 'other-solid-invitation',
@@ -860,7 +928,7 @@ function passesOracleFilters(study: Study, params: SearchParams): OracleResult {
   )
   if (manualAuditOverride) {
     if (params.age !== null) {
-      const minAgeStr = study.protocolSection.eligibilityModule?.minimumAge
+      const minAgeStr = manualAuditOverride.minimumAge ?? study.protocolSection.eligibilityModule?.minimumAge
       const maxAgeStr = study.protocolSection.eligibilityModule?.maximumAge
       if (!isOracleAgeEligible(params.age, minAgeStr, maxAgeStr)) {
         return { include: false, reason: 'oracle age rule rejected study' }
@@ -967,6 +1035,7 @@ function buildSmokeScenarios(): Scenario[] {
       params: buildParams({ tumorType: 'MELANOMA', statuses: ALL_STATUSES }),
     },
     { name: 'gbm-default', params: buildParams({ tumorType: 'GBM' }) },
+    { name: 'gbm-all-statuses', params: buildParams({ tumorType: 'GBM', statuses: ALL_STATUSES }) },
     { name: 'other-solid-default', params: buildParams({ tumorType: 'OTHER_SOLID' }) },
     {
       name: 'lung-interventional-phase1-us',

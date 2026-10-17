@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T19:42:03.882Z",
+  "generatedAt": "2026-10-17T19:03:21.481Z",
   "searches": [
     {
       "kind": "cond",
@@ -42,7 +42,7 @@
       "value": "LMD"
     }
   ],
-  "count": 568,
+  "count": 570,
   "records": [
     {
       "nctId": "NCT00002485",
@@ -6887,7 +6887,7 @@
       "url": "https://clinicaltrials.gov/study/NCT03423628",
       "briefTitle": "A Study to Assess the Safety and Tolerability of AZD1390 Given With Radiation Therapy in Patients With Brain Cancer",
       "officialTitle": "A Phase I, Multicenter Study to Assess the Safety, Tolerability, and Pharmacokinetics of Ascending Doses of AZD1390 in Combination With Radiation Therapy in Patients With Glioblastoma Multiforme and Brain Metastases From Solid Tumors",
-      "status": "ACTIVE_NOT_RECRUITING",
+      "status": "COMPLETED",
       "studyType": "INTERVENTIONAL",
       "phases": [
         "PHASE1"
@@ -10226,6 +10226,28 @@
       ]
     },
     {
+      "nctId": "NCT05477680",
+      "url": "https://clinicaltrials.gov/study/NCT05477680",
+      "briefTitle": "Intraoperative Brain Shift Calculation Study",
+      "officialTitle": "Intraoperative Brain Shift Calculation Study: a Prospective, Single Arm Clinical Trial",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "conditions": [
+        "Tumor, Brain",
+        "Meningioma of Brain",
+        "Glioma",
+        "Metastasis Brain"
+      ],
+      "briefSummary": "The purpose of the study is to calculate magnitude, type of intraoperative brain shift and assess possibility of it's prediction.",
+      "matchedSearches": [
+        "cond:meningeal metastasis",
+        "term:meningeal metastasis"
+      ]
+    },
+    {
       "nctId": "NCT05477927",
       "url": "https://clinicaltrials.gov/study/NCT05477927",
       "briefTitle": "Dual-targeting VEGFR1 and PD-L1 CAR-T for Pleural, Peritoneal, or Leptomeningeal Metastases",
@@ -10252,6 +10274,28 @@
         "term:leptomeningeal carcinomatosis",
         "term:neoplastic meningitis",
         "term:carcinomatous meningitis"
+      ]
+    },
+    {
+      "nctId": "NCT05484245",
+      "url": "https://clinicaltrials.gov/study/NCT05484245",
+      "briefTitle": "Sonography-guided Resection of Brain Mass Lesions",
+      "officialTitle": "Sonography-guided Resection of Brain Mass Lesions: a Prospective, Single Arm Clinical Trial",
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "conditions": [
+        "Tumor, Brain",
+        "Meningioma of Brain",
+        "Glioma",
+        "Metastasis Brain"
+      ],
+      "briefSummary": "The study aims to perform a comparative analysis of preoperative CT/MRI and intraoperative ultrasound findings in patients with hemispheric brain tumors (meningiomas, gliomas, metastases), and to develop an intraoperative ultrasound scanning algorithm for the differential diagnosis of residual tumor tissue and sonographic artifacts within the resection cavity.",
+      "matchedSearches": [
+        "cond:meningeal metastasis",
+        "term:meningeal metastasis"
       ]
     },
     {

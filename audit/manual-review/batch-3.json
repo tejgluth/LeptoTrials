@@ -1,8 +1,47 @@
 {
-  "generatedAt": "2026-10-10T19:41:40.864Z",
+  "generatedAt": "2026-10-17T19:16:11.881Z",
   "batch": 3,
-  "batchSize": 78,
+  "batchSize": 80,
   "records": [
+    {
+      "nctId": "NCT04988009",
+      "url": "https://clinicaltrials.gov/study/NCT04988009",
+      "lastUpdate": "2026-09-14",
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "Patient Perceptions Around Quality of Care Through Telemedicine in Neuro-Oncology",
+      "officialTitle": "Patient Perceptions Around Quality of Care Through Telemedicine in Neuro-Oncology",
+      "conditions": [
+        "Central Nervous System Neoplasm",
+        "Leptomeningeal Neoplasm",
+        "Metastatic Malignant Neoplasm in the Brain",
+        "Primary Brain Neoplasm"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "This study evaluates patient perceptions around quality of care through telemedicine in neuro-oncology. Studying questionnaires related to perceptions quality of care through telemedicine in patients with brain cancer may help doctors to improve the delivery of care through this modality."
+    },
+    {
+      "nctId": "NCT05034497",
+      "url": "https://clinicaltrials.gov/study/NCT05034497",
+      "lastUpdate": "2025-03-26",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "briefTitle": "Intraventricular Administration of Rhenium-186 NanoLiposome for Leptomeningeal Metastases",
+      "officialTitle": "A Multicenter Phase 1 Clinical Study to Determine the Maximum Tolerated Dose/Maximum Feasible Dose, Safety,& Efficacy of Single Dose Rhenium-186 NanoLiposome (186RNL) Administered Via Intraventricular Catheter for Leptomeningeal Metastases",
+      "conditions": [
+        "Leptomeningeal Metastasis"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "briefSummary": "This is an open-label Phase I clinical study that will administer a single dose of 186RNL via intraventricular catheter for treatment of Leptomeningeal Metastases (LM)."
+    },
     {
       "nctId": "NCT05063682",
       "url": "https://clinicaltrials.gov/study/NCT05063682",
@@ -469,8 +508,8 @@
     {
       "nctId": "NCT05617885",
       "url": "https://clinicaltrials.gov/study/NCT05617885",
-      "lastUpdate": "2026-06-16",
-      "status": "COMPLETED",
+      "lastUpdate": "2026-10-15",
+      "status": "TERMINATED",
       "studyType": "INTERVENTIONAL",
       "phases": [
         "PHASE1"
@@ -625,6 +664,29 @@
         "Taiwan"
       ],
       "briefSummary": "Leptomeningeal metastasis (LM) is a complication of advanced non-small cell lung cancer (NSCLC). The incidence of LM in NSCLC patients is around 3-5 %, reaching 9.4 % of those with an epidermal growth factor receptor (EGFR) mutation. Generally, the efficacy of systemic treatment for LM is limited due to the blood-brain barrier. Osimertinib has a high central nervous system penetration rate, making it the preferred first-line treatment for EGFR-mutant NSCLC. Previous studies indicated that osimertinib had shown promising efficacy in pretreated patients harboring EGFR mutations and LM. However, intracranial disease progression eventually develops, and the prognosis of patients with LM progression after osimertinib is poor. Recently, intrathecal chemotherapy with pemetrexed (IP) was reported to be an alternative treatment in patients with NSCLC and LM. The results from a phase I/II trial examining the efficacy and safety of IP in patients with EGFR-mutant NSCLC after the failure of previous TKI, and 83% of study enrollees received osimertinib before IP. The clinical response rate was 84.6%, and the median overall survival was 9.0 months. Despite initial promising efficacy, further trials are needed to verify these results. Therefore, the investigators plan to conduct a prospective study to examine the safety and effectiveness of IP combined with EGFR-TKI for patients with EGFR mutant NSCLC after osimertinib failure."
+    },
+    {
+      "nctId": "NCT05807893",
+      "url": "https://clinicaltrials.gov/study/NCT05807893",
+      "lastUpdate": "2024-11-13",
+      "status": "COMPLETED",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "briefTitle": "Study to Evaluate the Safety and Efficacy of Serplulimab Plus Bevacizumab and Chemotherapy in NSCLC Patients With Brain Metastases",
+      "officialTitle": "A Multicenter, Single-arm, Open Study to Evaluate the Safety and Efficacy of Serplulimab in Combination With Bevacizumab and First-line Chemotherapy in Driver Negative Non-squamous NSCLC Patients With Brain Metastases",
+      "conditions": [
+        "Non-small Cell Lung Cancer Stage II",
+        "Bevacizumab",
+        "Immunotherapy",
+        "Brain Metastases"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "A multicenter, single-arm, open study to evaluate the safety and efficacy of Serplulimab in combination with bevacizumab and first-line chemotherapy in driver negative non-squamous NSCLC patients with brain metastases"
     },
     {
       "nctId": "NCT05809752",
@@ -825,6 +887,26 @@
         "United Kingdom"
       ],
       "briefSummary": "The purpose of this study is to evaluate the safety, efficacy and pharmacokinetics (PK) of zipalertinib in participants with locally advanced or metastatic Non-Small Cell Lung Cancer (NSCLC) harboring EGFR ex20ins mutations and other mutations."
+    },
+    {
+      "nctId": "NCT05984108",
+      "url": "https://clinicaltrials.gov/study/NCT05984108",
+      "lastUpdate": "2023-08-09",
+      "status": "UNKNOWN",
+      "studyType": "OBSERVATIONAL",
+      "phases": [],
+      "briefTitle": "Clinical, Radiological, Histologic and Molecular Features of a Cohort of Melanocytic Tumors of the Central Nervous System",
+      "officialTitle": "Clinical, Radiological, Histological and Molecular Features of a Cohort of Melanocytic Tumors of the Central Nervous System",
+      "conditions": [
+        "Meningeal Melanocytoma",
+        "Meningeal Melanomatosis",
+        "Meningeal Melanocytosis",
+        "Meningeal Melanoma"
+      ],
+      "countries": [
+        "France"
+      ],
+      "briefSummary": "Primary melanocytic tumors of the central nervous system are rare lesions and occur develop from leptomeningeal melanocytes. The WHO classification of tumors of the central nervous system in its most recent version (2021) distinguishes on the one hand the circumscribed melanocytic tumors including melanocytoma, benign, and its slope malignant, meningeal melanoma, with an intermediate grade lesion in between, called intermediate grade melanocytoma. They are to be distinguished from diffuse tumors or multifocal diseases such as melanocytosis and its malignant corollary, melanomatosis. The main current challenge is to distinguish them from their differential diagnoses, namely metastasis of a cutaneous or extrac-cutaneous melanoma mainly and on the other hand other pigmented entities occuring in the CNS such as malignant melanic tumor of the peripheral nerve sheath (MMNST, formerly \"melanotic schwannoma\")."
     },
     {
       "nctId": "NCT05991518",
@@ -1320,7 +1402,7 @@
     {
       "nctId": "NCT06422806",
       "url": "https://clinicaltrials.gov/study/NCT06422806",
-      "lastUpdate": "2026-10-07",
+      "lastUpdate": "2026-10-15",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -1445,6 +1527,25 @@
       "briefSummary": "This phase Ib trial tests the safety, side effects, and best dose of iberdomide in combination with teclistamab in treating multiple myeloma that has come back after a period of improvement (relapsed) or that does not respond to treatment (refractory). Iberdomide is a medication that belongs to a group of drugs known as cereblon E3 ligase modulators. Iberdomide works by targeting and destroying proteins that help myeloma cancer cells to survive. A monoclonal antibody is a type of protein that can bind to certain targets in the body, such as molecules that cause the body to make an immune response (antigens). Immunotherapy with monoclonal antibodies, such as teclistamab, may help the body's immune system attack the cancer, and may interfere with the ability of cancer cells to grow and spread. Giving iberdomide in combination with teclistamab may be safe and tolerable in treating patients with relapsed or refractory multiple myeloma."
     },
     {
+      "nctId": "NCT06492915",
+      "url": "https://clinicaltrials.gov/study/NCT06492915",
+      "lastUpdate": "2026-03-18",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "briefTitle": "Chiauranib in Patients With Locally Advanced or Metastatic Pancreatic Ductal Adenocarcinoma",
+      "officialTitle": "A Phase Ⅱ Study of Chiauranib Plus Albumin-paclitaxel and Gemcitabine as First-line Therapy in Patients With Locally Advanced or Metastatic Pancreatic Ductal Adenocarcinoma",
+      "conditions": [
+        "Pancreatic Ductal Adenocarcinoma"
+      ],
+      "countries": [
+        "China"
+      ],
+      "briefSummary": "Chiauranib , which simultaneously targets against VEGFR/Aurora B/CSF-1R, several key kinases involved in tumor angiogenesis, tumor cell mitosis, and chronic inflammatory microenvironment."
+    },
+    {
       "nctId": "NCT06500481",
       "url": "https://clinicaltrials.gov/study/NCT06500481",
       "lastUpdate": "2026-08-17",
@@ -1531,7 +1632,7 @@
     {
       "nctId": "NCT06589804",
       "url": "https://clinicaltrials.gov/study/NCT06589804",
-      "lastUpdate": "2026-10-09",
+      "lastUpdate": "2026-10-14",
       "status": "RECRUITING",
       "studyType": "INTERVENTIONAL",
       "phases": [
@@ -1586,63 +1687,6 @@
         "China"
       ],
       "briefSummary": "This is an open, single-arm, single-center, interventional clinical study. It is planned to enroll 3-6 patients with meningeal metastases from B7H3+ solid tumors and to explore, on a small scale, the efficacy of local injection of allogeneic B7H3 CAR-γδ T cells (3\\*107/dose) for the treatment of patients with meningeal metastases from B7H3+ solid tumors."
-    },
-    {
-      "nctId": "NCT06610682",
-      "url": "https://clinicaltrials.gov/study/NCT06610682",
-      "lastUpdate": "2026-09-22",
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "phases": [
-        "EARLY_PHASE1"
-      ],
-      "briefTitle": "A Trial to Evaluate CSF ctDNA and Safety of Plixorafenib Alone or With Retifanlimab in Patients With BRAF-altered Glioma",
-      "officialTitle": "A Trial to Evaluate Deoxyribonucleic) in BRAF (V-raf Murine Sarcoma Viral Oncogene Homolog B1)-Altered Glioma During Treatment With Plixorafenib Alone or With Retifanlimab",
-      "conditions": [
-        "BRAF V600E Mutation"
-      ],
-      "countries": [
-        "United States"
-      ],
-      "briefSummary": "The investigators will evaluate the sensitivity of ctDNA from plasma and CSF at baseline (defined as C1D1) and over time in response to treatment with plixorafenib alone or in combination with retifanlimab in patients with BRAF-V600E mutant glioma refractory to prior therapies."
-    },
-    {
-      "nctId": "NCT06638294",
-      "url": "https://clinicaltrials.gov/study/NCT06638294",
-      "lastUpdate": "2025-11-28",
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "phases": [],
-      "briefTitle": "Study in Patients With Breast Cancer Leptomeningeal Metastasis",
-      "officialTitle": "A Translational Observational Biorepository and Management Study in Patients With Breast Cancer Leptomeningeal Metastasis: The BioLept Study",
-      "conditions": [
-        "Leptomeningeal Metastasis of Breast Cancer"
-      ],
-      "countries": [
-        "United States"
-      ],
-      "briefSummary": "Traditional clinical trials in patients with breast cancer leptomeningeal disease (LMD) are challenging as patients often have a rapidly progressive course and prognosis is poor, making meeting standard eligibility difficult. Furthermore, there is limited information about the biology of LMD. The investigators thus propose a study that is as inclusive as possible, which will allow the investigators to collect biospecimens and clinical outcomes to learn more about LMD biology, but still potentially provide benefit for patients, by providing patients rapid diagnostics and multi-disciplinary treatment recommendations."
-    },
-    {
-      "nctId": "NCT06643000",
-      "url": "https://clinicaltrials.gov/study/NCT06643000",
-      "lastUpdate": "2025-03-06",
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "phases": [
-        "NA"
-      ],
-      "briefTitle": "Evaluating High-dose Furmonertinib with Bevacizumab and Pemetrexed for EGFRm NSCLC with Leptomeningeal Metastasis",
-      "officialTitle": "A Single-center, Real-world Study Aimed At Evaluating the Efficacy and Safety of 240 Mg/d Furmonertinib Combined with Bevacizumab and Pemetrexed in the Treatment of Advanced NSCLC with EGFRm and Leptomeningeal Metastasis.",
-      "conditions": [
-        "Non-small Cell Lung Cancer",
-        "Leptomeningeal Metastasis",
-        "EGFR Gene Mutation"
-      ],
-      "countries": [
-        "China"
-      ],
-      "briefSummary": "The primary objective of this clinical study is to evaluate the efficacy of high-dose furmonertinib combined with bevacizumab and pemetrexed (triple therapy) in the treatment of non-small cell lung cancer (NSCLC) with leptomeningeal metastasis and epidermal growth factor receptor mutation (EGFRm) through overall survival (OS). The secondary objectives are to further assess the efficacy of the triple therapy in patients with EGFRm and leptomeningeal metastasis, including time to treatment failure (TTF), leptomeningeal objective response rate (ORR-LM), and clinical response rate.The study will also evaluate the impact of the triple therapy on quality of life using the EORTC QLQ-C30 scale and assess the safety of the therapy in EGFRm NSCLC patients with leptomeningeal metastasis, focusing primarily on adverse events and their severity (graded according to CTCAE v5.0), as well as their frequency.The exploratory objectives are to assess changes in intracranial pressure and the improvement rate of cerebrospinal fluid (CSF) before and after the triple therapy treatment. Additionally, the study will compare the genomic and epigenomic profile changes in circulating tumor DNA (ctDNA) from peripheral blood and cell-free DNA (cfDNA) from cerebrospinal fluid before and after treatment, and analyze their correlation with clinical outcomes, drug efficacy, and other clinical indicators.\n\nThe primary endpoint of this study is overall survival (OS). The secondary endpoints include time to treatment failure (TTF), leptomeningeal objective response rate (ORR-LM), clinical response rate, and quality of life assessment (EORTC QLQ-C30).The safety endpoints are adverse events and their severity (graded according to CTCAE v5.0), as well as the frequency of occurrence.\n\nA total of 60 patients are planned to be enrolled, targeting eligible advanced NSCLC patients with EGFR mutations and leptomeningeal metastasis.\n\nThe intervention consists of furmonertinib (240 mg/d, po) combined with bevacizumab (15 mg/kg, every 3 weeks, ivgtt) and pemetrexed (50 mg) intrathecal chemotherapy / pemetrexed (500 mg/m²) intravenous chemotherapy, administered every 3 weeks."
     }
   ]
 }

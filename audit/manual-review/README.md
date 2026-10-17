@@ -16,3 +16,7 @@ The generator validates IDs, unique entries, completed boolean relevance and all
 Use `--fresh` for release checks: validator/reconciliation otherwise permit a fresh six-hour local cache, but never silently substitute stale records after upstream failure. Missing/malformed records, incomplete pagination and missing requested supplemental IDs are errors, not empty results. Archive source responses with timestamps and hashes; preserve last verified classifications when evidence cannot be retrieved.
 
 Only verified malignant LM eligibility supports relevance. Specific tumor labels require a link to that eligible LM path. All-comers solid LM belongs in OTHER_SOLID; hematologic/CNS-primary LM may belong only in general results. Status, age and geography remain independent filters. A returned study never proves individual eligibility.
+
+The optional `minimumAge` correction is used only when reviewed explicit universal age criteria conflict with an absent or erroneous structured registry minimum. Record the original field, source excerpt and corrected value in the dated ledger; never infer a universal age from a cohort-specific criterion. It applies before relevance overrides, with regression checks below and at the boundary.
+
+The [2026-10-17 report](2026-10-17/report.md) records the current source review and unreleased candidate. Live production membership is captured separately. A verified classification audit does not establish production release compatibility.
