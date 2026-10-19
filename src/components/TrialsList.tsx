@@ -18,8 +18,9 @@ export default function TrialsList({ results, filteredCount, error }: TrialsList
       </div>
 
       <p className="text-sm text-[#8ecfe8] mb-6 sm:mb-10 leading-relaxed max-w-2xl">
-        These studies match your filters and our screening for leptomeningeal disease.
-        Read the criteria and confirm eligibility and enrollment with the study team.
+        Searched by condition, across all trial text, and with audited supplemental studies.
+        Exclusion criteria checked against leptomeningeal terms, age eligibility applied.
+        Results match the selected filters; inclusion does not confirm eligibility or enrollment availability.
       </p>
 
       <div className="flex flex-col gap-4">

@@ -123,7 +123,7 @@ export default function App() {
         {!hasSearched && !isLoading && (
           <div className="px-5 sm:px-8 md:px-12 lg:px-20 py-20 sm:py-24 text-center">
             <p className="text-sm text-[#8ecfe8]">
-              Set your filters above and press Search to find studies
+              Set your filters above and press Search to find relevant trials
             </p>
           </div>
         )}
@@ -137,9 +137,7 @@ export default function App() {
               A focused clinical trial finder for leptomeningeal metastasis patients.
               Data sourced live from ClinicalTrials.gov API v2.
             </p>
-            <a href="/suggest-trial" className="mt-5 inline-flex min-h-11 items-center gap-3 text-sm font-semibold text-[#8ecfe8] underline underline-offset-4 hover:text-white">
-              Suggest a trial <span aria-hidden="true">↗</span>
-            </a>
+
           </div>
           <div>
             <p className="text-xs font-semibold uppercase tracking-wider text-[#8ecfe8] mb-3">
@@ -151,9 +149,11 @@ export default function App() {
               in any clinical trial.
             </p>
             <p className="mt-3 text-xs text-[#6f9db8] max-w-sm leading-relaxed">
-              Anonymous trial contact interactions may be counted to help improve this service.
-              No patient details or message contents are collected.
+              We count trial contact email clicks and copies using only trial IDs and totals.
+              We do not save visitor IP addresses, visitor identifiers, or message contents
+              with these counts.
             </p>
+            <a href="/privacy" className="mt-4 inline-flex min-h-11 items-center text-sm text-[#b0d8ee] underline underline-offset-4 hover:text-white">Privacy & data collection</a>
           </div>
         </div>
       </footer>

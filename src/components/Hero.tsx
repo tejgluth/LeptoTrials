@@ -85,7 +85,7 @@ export default function Hero({ onSearchClick }: HeroProps) {
             data-hero-title-2
             className="block text-[clamp(2.1rem,12vw,7.5rem)] font-bold text-[#38bdf8]"
           >
-            Compare options.
+            Skip the complexity.
           </span>
         </h1>
 
@@ -93,14 +93,14 @@ export default function Hero({ onSearchClick }: HeroProps) {
           data-hero-sub
           className="text-base sm:text-xl text-[#b0d8ee] leading-relaxed max-w-2xl mb-8 sm:mb-14 font-light"
         >
-          Search studies for leptomeningeal metastasis. Compare eligibility criteria,
-          locations, and trial contacts to discuss with your care team.
+          A focused search tool for leptomeningeal cancer patients. We filter
+          ClinicalTrials.gov to help you explore relevant studies and prepare questions for your care team. Only the study team can confirm eligibility.
         </p>
 
         <div className="grid grid-cols-2 sm:flex sm:flex-wrap gap-x-8 gap-y-6 sm:gap-16 mb-10 sm:mb-16">
           {[
             { value: 'Live', label: 'ClinicalTrials.gov data' },
-            { value: 'LM', label: 'Focused trial screening' },
+            { value: '3-step', label: 'Eligibility filter' },
             { value: 'Free', label: 'No account required' },
           ].map((stat) => (
             <div key={stat.label} data-hero-meta className="flex flex-col gap-2">

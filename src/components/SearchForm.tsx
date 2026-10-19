@@ -312,6 +312,9 @@ export default function SearchForm({
           )}
         </div>
 
+        <p className="mb-5 max-w-2xl text-xs leading-relaxed text-[#8ecfe8]">
+          Search sends registry terms, country, phase, study type, and recruitment status directly to ClinicalTrials.gov, along with your IP address and browser information. Age and tumor type stay in this page. <a href="/privacy#search" className="underline underline-offset-4 hover:text-white">Privacy details</a>
+        </p>
         <button
           type="submit"
           disabled={isLoading}
