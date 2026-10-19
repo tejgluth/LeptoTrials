@@ -1,3 +1,4 @@
+import { contactAnalyticsAllowed } from './privacyPreferences'
 import type {
   ContactAction,
   ContactAnalyticsReport,
@@ -7,15 +8,12 @@ import type {
 const CONTACT_EVENTS_ENDPOINT = '/api/contact-events'
 const CONTACT_ANALYTICS_ENDPOINT = '/api/contact-analytics'
 
-function createEventId(): string {
-  return crypto.randomUUID()
-}
-
 export function trackContactAction(nctId: string, action: ContactAction): void {
+  if (!contactAnalyticsAllowed()) return
+
   const payload: ContactEventPayload = {
     action,
     nctId,
-    eventId: createEventId(),
   }
 
   void fetch(CONTACT_EVENTS_ENDPOINT, {
@@ -23,7 +21,8 @@ export function trackContactAction(nctId: string, action: ContactAction): void {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload),
     keepalive: true,
-    credentials: 'same-origin',
+    credentials: 'omit',
+    referrerPolicy: 'no-referrer',
   }).catch(() => {
     // Analytics must never interrupt a patient contacting a trial.
   })

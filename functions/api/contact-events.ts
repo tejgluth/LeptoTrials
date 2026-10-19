@@ -1,7 +1,6 @@
 import { readJsonBody } from '../_lib/readJsonBody'
 import {
   isContactAction,
-  isEventId,
   isNctId,
   isSameOriginRequest,
   saveContactEvent,
@@ -35,16 +34,19 @@ export const onRequest: PagesFunction<AnalyticsEnv> = async ({ request, env }) =
   }
   if (!body || typeof body !== 'object') return json({ error: 'Invalid event.' }, 400)
 
-  const { action, nctId, eventId } = body as Record<string, unknown>
-  if (!isContactAction(action) || !isNctId(nctId) || !isEventId(eventId)) {
+  const { action, nctId } = body as Record<string, unknown>
+  if (!isContactAction(action) || !isNctId(nctId)) {
     return json({ error: 'Invalid event.' }, 400)
   }
 
+  if (Object.keys(body).some(key => key !== 'action' && key !== 'nctId')) return json({ error: 'Only trial ID and action are accepted.' }, 400)
+  if (request.headers.get('sec-gpc') === '1' || request.headers.get('dnt') === '1') return json({ recorded: false }, 202)
+
   try {
-    await saveContactEvent(env.ANALYTICS_DB, { action, nctId, eventId })
+    await saveContactEvent(env.ANALYTICS_DB, { action, nctId })
     return json({ recorded: true }, 202)
-  } catch (error) {
-    console.error('Failed to save contact event', error)
+  } catch {
+    console.error('Failed to update trial totals')
     return json({ error: 'Event could not be recorded.' }, 500)
   }
 }

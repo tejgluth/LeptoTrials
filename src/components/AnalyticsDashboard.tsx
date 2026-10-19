@@ -1,5 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
-import TrialSuggestionsReview from './TrialSuggestionsReview'
+import { useEffect, useState } from 'react'
 import BrandLogo from './BrandLogo'
 import type { ContactAnalyticsReport } from '../types/contactAnalytics'
 import { fetchContactAnalytics } from '../utils/contactAnalytics'
@@ -9,12 +8,6 @@ function formatDateTime(value: string): string {
   return new Intl.DateTimeFormat('en-US', {
     month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit',
   }).format(new Date(value))
-}
-
-function formatShortDate(value: string): string {
-  return new Intl.DateTimeFormat('en-US', {
-    month: 'short', day: 'numeric', timeZone: 'UTC',
-  }).format(new Date(`${value}T00:00:00Z`))
 }
 
 function Metric({ label, value, note }: { label: string; value: number; note: string }) {
@@ -56,11 +49,6 @@ export default function AnalyticsDashboard() {
     document.title = 'Contact analytics · LeptoTrials'
     return () => { document.title = previousTitle }
   }, [])
-
-  const chartMax = useMemo(
-    () => Math.max(1, ...(report?.daily.map((day) => day.total) ?? [])),
-    [report]
-  )
 
   if (!report) {
     return (
@@ -132,45 +120,11 @@ export default function AnalyticsDashboard() {
           <p className="text-xs text-[#6f9db8]">Updated {formatDateTime(report.generatedAt)}</p>
         </div>
 
-        <section aria-label="Contact totals" className="grid grid-cols-2 gap-x-6 gap-y-9 py-10 sm:grid-cols-3 lg:grid-cols-6">
+        <section aria-label="Contact totals" className="grid grid-cols-2 gap-x-6 gap-y-9 py-10 sm:grid-cols-3 lg:grid-cols-4">
           <Metric label="All actions" value={report.totals.all} note="All time" />
           <Metric label="Email clicks" value={report.totals.emailClicks} note="Link activated" />
           <Metric label="Email copies" value={report.totals.emailCopies} note="Copied successfully" />
           <Metric label="Trials" value={report.totals.activeTrials} note="With activity" />
-          <Metric label="7 days" value={report.totals.last7Days} note="Recent actions" />
-          <Metric label="30 days" value={report.totals.last30Days} note="Recent actions" />
-        </section>
-
-        <section className="border-y border-[#1a3352] py-9 sm:py-11">
-          <div className="flex items-baseline justify-between gap-5">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#8ecfe8]">Last 30 days</p>
-              <h2 className="mt-2 text-xl sm:text-2xl font-semibold">Daily connection intent</h2>
-            </div>
-            <div className="hidden sm:flex gap-4 text-xs text-[#8ecfe8]">
-              <span><i className="mr-1.5 inline-block h-2 w-2 bg-[#38bdf8]" />Email</span>
-              <span><i className="mr-1.5 inline-block h-2 w-2 bg-[#2a5070]" />Copy</span>
-            </div>
-          </div>
-          <div className="mt-9 grid h-48 grid-cols-[repeat(30,minmax(5px,1fr))] items-end gap-1 sm:gap-1.5" aria-label="Daily activity chart">
-            {report.daily.map((day, index) => (
-              <div key={day.date} className="group relative flex h-full flex-col justify-end" title={`${formatShortDate(day.date)}: ${day.total} actions`}>
-                <div className="absolute bottom-full left-1/2 z-10 mb-2 hidden -translate-x-1/2 whitespace-nowrap bg-[#e8f4fd] px-2 py-1 text-[10px] font-semibold text-[#060f1e] group-hover:block">
-                  {formatShortDate(day.date)} · {day.total}
-                </div>
-                <div
-                  className="flex min-h-[2px] w-full flex-col justify-end transition-opacity group-hover:opacity-80"
-                  style={{ height: `${Math.max(2, (day.total / chartMax) * 100)}%` }}
-                >
-                  <div className="bg-[#38bdf8]" style={{ flex: day.emailClicks }} />
-                  <div className="bg-[#2a5070]" style={{ flex: day.emailCopies }} />
-                </div>
-                {(index === 0 || index === 14 || index === 29) && (
-                  <span className="absolute top-full mt-2 text-[9px] text-[#6f9db8]">{formatShortDate(day.date)}</span>
-                )}
-              </div>
-            ))}
-          </div>
         </section>
 
         <section className="py-10 sm:py-14">
@@ -190,7 +144,6 @@ export default function AnalyticsDashboard() {
                   <th className="px-5 py-3 text-right font-semibold">Email</th>
                   <th className="px-5 py-3 text-right font-semibold">Copy</th>
                   <th className="px-5 py-3 text-right font-semibold">Total</th>
-                  <th className="py-3 pl-5 text-right font-semibold">Last activity</th>
                 </tr>
               </thead>
               <tbody>
@@ -204,21 +157,19 @@ export default function AnalyticsDashboard() {
                     <td className="px-5 py-4 text-right tabular-nums">{trial.emailClicks}</td>
                     <td className="px-5 py-4 text-right tabular-nums">{trial.emailCopies}</td>
                     <td className="px-5 py-4 text-right font-semibold tabular-nums text-[#e8f4fd]">{trial.total}</td>
-                    <td className="py-4 pl-5 text-right text-xs text-[#6f9db8]">{formatDateTime(trial.lastActivity)}</td>
                   </tr>
                 ))}
                 {report.trials.length === 0 && (
-                  <tr><td colSpan={5} className="py-12 text-center text-sm text-[#6f9db8]">No contact activity recorded yet.</td></tr>
+                  <tr><td colSpan={4} className="py-12 text-center text-sm text-[#6f9db8]">No contact activity recorded yet.</td></tr>
                 )}
               </tbody>
             </table>
           </div>
         </section>
 
-        <TrialSuggestionsReview token={token} />
 
         <p className="border-t border-[#1a3352] pt-6 text-xs leading-relaxed text-[#6f9db8]">
-          Counts represent intent signals, not confirmed messages or trial enrollments. Storage is append-only and contains only the NCT ID, action type, and event time.
+          Counts represent intent signals, not confirmed messages or trial enrollments. Storage contains only aggregate email-click and copy counts per NCT ID. No individual event history, visitor identifiers, or event timestamps are retained.
         </p>
       </div>
     </main>
