@@ -1,0 +1,9 @@
+{
+  "kind": "synthetic_infrastructure_test_not_expert_ground_truth",
+  "studies": [
+    {"protocolSection": {"identificationModule": {"nctId": "NCT00000000", "briefTitle": "SYNTHETIC explicit LM population"}, "conditionsModule": {"conditions": ["Leptomeningeal Metastasis"]}, "eligibilityModule": {"eligibilityCriteria": "Patients with leptomeningeal metastasis may enroll."}}},
+    {"protocolSection": {"identificationModule": {"nctId": "NCT00000001", "briefTitle": "SYNTHETIC exclusion example"}, "conditionsModule": {"conditions": ["Breast Cancer"]}, "eligibilityModule": {"eligibilityCriteria": "Exclusion Criteria:\nPatients with known leptomeningeal disease are excluded."}}},
+    {"protocolSection": {"identificationModule": {"nctId": "NCT00000002", "briefTitle": "SYNTHETIC separate cohorts"}, "conditionsModule": {"conditions": ["Solid Tumor"]}, "eligibilityModule": {"eligibilityCriteria": "Inclusion Criteria:\nCohort C: Patients with leptomeningeal disease are eligible.\nExclusion Criteria:\nCohorts A and B only: Patients with leptomeningeal disease are excluded. This exclusion does not apply to Cohort C."}, "armsInterventionsModule": {"armGroups": [{"label": "Cohort C", "description": "Dedicated cohort for patients with leptomeningeal disease."}, {"label": "Cohorts A and B", "description": "Patients with leptomeningeal disease are excluded from these cohorts only."}]}}},
+    {"protocolSection": {"identificationModule": {"nctId": "NCT00000003", "briefTitle": "SYNTHETIC contradictory criteria"}, "conditionsModule": {"conditions": ["Lung Cancer"]}, "eligibilityModule": {"eligibilityCriteria": "Inclusion Criteria:\nPatients must have leptomeningeal metastasis.\nExclusion Criteria:\nPatients with meningeal metastasis are excluded. There are no separate cohorts or exceptions."}}}
+  ]
+}

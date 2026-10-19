@@ -1,0 +1,14 @@
+{
+  "nct_id": "NCT00000000",
+  "run_id": "REPLACE_WITH_RUN_ID",
+  "input_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "decision_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "expert_classification": "AMBIGUOUS_REQUIRES_REVIEW",
+  "is_lm_inclusive": null,
+  "reviewer_id": "REPLACE_WITH_PSEUDONYMOUS_ID",
+  "review_date": "2026-10-18",
+  "source_checked": false,
+  "disposition": "change",
+  "tumor_labels": [],
+  "notes": "TEMPLATE ONLY. Replace identifiers/hashes and independently check the registry before completing. Never treat this as expert ground truth."
+}
