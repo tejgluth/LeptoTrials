@@ -1,0 +1,17 @@
+{
+  "design": "New annual AACT snapshot execution study; not reconstruction of original experiments or expert truth",
+  "selection": "October monthly archive listed for each year, with actual dates preserved",
+  "accessed": "2026-10-18",
+  "rounds": [
+    {"round_id":"round_01","date":"2017-10-17","download":"https://aact.ctti-clinicaltrials.org/snapshots/flat/376/download","public_archive":"https://ctti-aact.nyc3.digitaloceanspaces.com/f9r47uudfkghi0zrrp4undxwbzxn"},
+    {"round_id":"round_02","date":"2018-10-01","download":"https://aact.ctti-clinicaltrials.org/snapshots/flat/394/download","public_archive":"https://ctti-aact.nyc3.digitaloceanspaces.com/ljzu67pu5q3iobanyqdo7sm3z1cf"},
+    {"round_id":"round_03","date":"2019-10-01","download":"https://aact.ctti-clinicaltrials.org/snapshots/flat/416/download","public_archive":"https://ctti-aact.nyc3.digitaloceanspaces.com/ivpsafol0e2yulmewoxv7p8sa91w"},
+    {"round_id":"round_04","date":"2020-10-01","download":"https://aact.ctti-clinicaltrials.org/snapshots/flat/371/download","public_archive":"https://ctti-aact.nyc3.digitaloceanspaces.com/khfkvypim2bg1dyuy61r5k63beuh"},
+    {"round_id":"round_05","date":"2021-10-04","download":"https://aact.ctti-clinicaltrials.org/snapshots/flat/366/download","public_archive":"https://ctti-aact.nyc3.digitaloceanspaces.com/gr49vzpjccuw9rttradw75ou7vfa"},
+    {"round_id":"round_06","date":"2022-10-01","download":"https://aact.ctti-clinicaltrials.org/snapshots/flat/1405/download","public_archive":"https://ctti-aact.nyc3.digitaloceanspaces.com/9f6sqo3jueh0rds6fi0mfaxppdd2"},
+    {"round_id":"round_07","date":"2023-10-01","download":"https://aact.ctti-clinicaltrials.org/snapshots/flat/2300/download","public_archive":"https://ctti-aact.nyc3.digitaloceanspaces.com/m5m7974l7lmbmayf72wvn68hz8a2"},
+    {"round_id":"round_08","date":"2024-10-01","download":"https://aact.ctti-clinicaltrials.org/snapshots/flat/3021/download","public_archive":"https://ctti-aact.nyc3.digitaloceanspaces.com/srbqbgv8i4d7j4fquvn1vn10qc71"},
+    {"round_id":"round_09","date":"2025-10-01","download":"https://aact.ctti-clinicaltrials.org/snapshots/flat/3701/download","public_archive":"https://ctti-aact.nyc3.digitaloceanspaces.com/x55pjlbypndk3cx3djs1js03pyuj"},
+    {"round_id":"round_10","date":"2026-10-01","download":"https://aact.ctti-clinicaltrials.org/snapshots/flat/4419/download","public_archive":"https://ctti-aact.nyc3.digitaloceanspaces.com/ehrmn9woamxm9n37vu66sy8gwgt9"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "collection_id": "aact-reconciled-20261018-v1",
+  "design": "New dated-archive source collection; development execution, not original paper validation or expert truth",
+  "revision_note": "2020 uses the independently date-checked September 1 archive instead of the conflicting nominal October 1 archive. Superseded imports remain unchanged.",
+  "rejected_2020_source": "https://aact.ctti-clinicaltrials.org/snapshots/flat/371/download",
+  "rounds": [
+    {"round_id":"round_01","manifest":"../../output/aact-historical/manifests/round_01.json"},
+    {"round_id":"round_02","manifest":"../../output/aact-historical-v2/manifests/round_02.json"},
+    {"round_id":"round_03","manifest":"../../output/aact-historical-v2/manifests/round_03.json"},
+    {"round_id":"round_04","manifest":"../../output/aact-2020-replacement-v1/manifests/round_04.json"},
+    {"round_id":"round_05","manifest":"../../output/aact-historical/manifests/round_05.json"},
+    {"round_id":"round_06","manifest":"../../output/aact-historical/manifests/round_06.json"},
+    {"round_id":"round_07","manifest":"../../output/aact-historical/manifests/round_07.json"},
+    {"round_id":"round_08","manifest":"../../output/aact-historical/manifests/round_08.json"},
+    {"round_id":"round_09","manifest":"../../output/aact-historical/manifests/round_09.json"},
+    {"round_id":"round_10","manifest":"../../output/aact-historical/manifests/round_10.json"}
+  ]
+}
