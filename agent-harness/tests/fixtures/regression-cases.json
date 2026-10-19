@@ -1,0 +1,12 @@
+{
+  "purpose": "Routing regressions, not independent expert ground truth",
+  "source": "Existing manualAuditOverrides.ts and 2026-10 audit reports (unreleased audits are not production)",
+  "cases": [
+    {"nct_id": "NCT06440954", "reason": "LM title/inclusion conflicts with meningeal exclusion; preserve live membership separately"},
+    {"nct_id": "NCT06497543", "reason": "LM cohort and unqualified exclusion require contextual scope review"},
+    {"nct_id": "NCT04543188", "reason": "Dedicated LM cohort alongside generic exclusion requires scoped evidence"},
+    {"nct_id": "NCT07365410", "reason": "Asymptomatic meningeal outcome language and symptomatic exclusion require context"},
+    {"nct_id": "NCT03423628", "reason": "LM condition cannot establish histology eligibility across separate arms"},
+    {"nct_id": "NCT07681297", "reason": "Histology and LM permission must belong to the same CNS cohort"}
+  ]
+}
