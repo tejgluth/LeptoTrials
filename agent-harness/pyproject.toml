@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "leptotrials-harness"
+version = "0.1.0"
+description = "Auditable two-stage registry-level LM classification and expert review"
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2.11,<3", "httpx>=0.28,<1", "google-genai>=2.3,<3", "openai>=2,<3", "python-dotenv>=1.1,<2", "pyyaml>=6,<7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.12", "jsonschema>=4.23", "build>=1.2"]
+
+[project.scripts]
+leptotrials-harness = "leptotrials_harness.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/leptotrials_harness"]
+
+[tool.hatch.build.targets.wheel.force-include]
+config = "leptotrials_harness/resources/config"
+prompts = "leptotrials_harness/resources/prompts"
+schemas = "leptotrials_harness/resources/schemas"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

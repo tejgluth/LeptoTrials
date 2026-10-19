@@ -1,0 +1,5 @@
+# Confidence is descriptive, not a calibrated acceptance probability.
+confidence_acceptance_threshold: null
+review_unresolved_classifications: true
+review_unscoped_conflicts: true
+export_requires_source_checked_expert_adjudication: true

@@ -1,0 +1,8 @@
+# Endpoint/model/schema support depend on your service; never silently fall back to JSON mode.
+model:
+  provider: openai-compatible
+  model_id: REPLACE_WITH_YOUR_MODEL_ID
+  base_url: https://YOUR_PROVIDER.example/v1
+  api_key_env: OPENAI_COMPATIBLE_API_KEY
+  reasoning_effort: null
+  send_temperature: true

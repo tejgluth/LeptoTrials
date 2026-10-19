@@ -1,0 +1,355 @@
+{
+  "$defs": {
+    "Arm": {
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "default": "",
+          "title": "Label",
+          "type": "string"
+        },
+        "type": {
+          "default": "",
+          "title": "Type",
+          "type": "string"
+        },
+        "description": {
+          "default": "",
+          "title": "Description",
+          "type": "string"
+        },
+        "intervention_names": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Intervention Names",
+          "type": "array"
+        }
+      },
+      "title": "Arm",
+      "type": "object"
+    },
+    "Eligibility": {
+      "additionalProperties": false,
+      "properties": {
+        "raw_text": {
+          "default": "",
+          "title": "Raw Text",
+          "type": "string"
+        },
+        "inclusion_text": {
+          "default": "",
+          "title": "Inclusion Text",
+          "type": "string"
+        },
+        "exclusion_text": {
+          "default": "",
+          "title": "Exclusion Text",
+          "type": "string"
+        },
+        "section_found": {
+          "default": false,
+          "title": "Section Found",
+          "type": "boolean"
+        },
+        "minimum_age": {
+          "default": "",
+          "title": "Minimum Age",
+          "type": "string"
+        },
+        "maximum_age": {
+          "default": "",
+          "title": "Maximum Age",
+          "type": "string"
+        },
+        "sex": {
+          "default": "",
+          "title": "Sex",
+          "type": "string"
+        },
+        "population": {
+          "default": "",
+          "title": "Population",
+          "type": "string"
+        }
+      },
+      "title": "Eligibility",
+      "type": "object"
+    },
+    "Intervention": {
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "default": "",
+          "title": "Type",
+          "type": "string"
+        },
+        "name": {
+          "default": "",
+          "title": "Name",
+          "type": "string"
+        },
+        "description": {
+          "default": "",
+          "title": "Description",
+          "type": "string"
+        },
+        "arm_group_labels": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Arm Group Labels",
+          "type": "array"
+        }
+      },
+      "title": "Intervention",
+      "type": "object"
+    },
+    "Location": {
+      "additionalProperties": false,
+      "properties": {
+        "facility": {
+          "default": "",
+          "title": "Facility",
+          "type": "string"
+        },
+        "city": {
+          "default": "",
+          "title": "City",
+          "type": "string"
+        },
+        "country": {
+          "default": "",
+          "title": "Country",
+          "type": "string"
+        },
+        "status": {
+          "default": "",
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "title": "Location",
+      "type": "object"
+    },
+    "Outcome": {
+      "additionalProperties": false,
+      "properties": {
+        "measure": {
+          "default": "",
+          "title": "Measure",
+          "type": "string"
+        },
+        "description": {
+          "default": "",
+          "title": "Description",
+          "type": "string"
+        },
+        "time_frame": {
+          "default": "",
+          "title": "Time Frame",
+          "type": "string"
+        }
+      },
+      "title": "Outcome",
+      "type": "object"
+    },
+    "Signals": {
+      "additionalProperties": false,
+      "properties": {
+        "lm_terms_in_title": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Lm Terms In Title",
+          "type": "array"
+        },
+        "lm_terms_in_conditions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Lm Terms In Conditions",
+          "type": "array"
+        },
+        "lm_terms_in_summary": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Lm Terms In Summary",
+          "type": "array"
+        },
+        "lm_terms_in_inclusion": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Lm Terms In Inclusion",
+          "type": "array"
+        },
+        "lm_terms_in_exclusion": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Lm Terms In Exclusion",
+          "type": "array"
+        },
+        "lm_terms_in_arm_text": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Lm Terms In Arm Text",
+          "type": "array"
+        },
+        "negative_lm_phrases": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Negative Lm Phrases",
+          "type": "array"
+        },
+        "possible_lm_cohort": {
+          "default": false,
+          "title": "Possible Lm Cohort",
+          "type": "boolean"
+        }
+      },
+      "title": "Signals",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "nct_id": {
+      "pattern": "^NCT\\d{8}$",
+      "title": "Nct Id",
+      "type": "string"
+    },
+    "input_schema_version": {
+      "default": "1.1.0",
+      "enum": [
+        "1.0.0",
+        "1.1.0"
+      ],
+      "title": "Input Schema Version",
+      "type": "string"
+    },
+    "brief_title": {
+      "default": "",
+      "title": "Brief Title",
+      "type": "string"
+    },
+    "official_title": {
+      "default": "",
+      "title": "Official Title",
+      "type": "string"
+    },
+    "overall_status": {
+      "default": "",
+      "title": "Overall Status",
+      "type": "string"
+    },
+    "study_type": {
+      "default": "",
+      "title": "Study Type",
+      "type": "string"
+    },
+    "phase": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Phase",
+      "type": "array"
+    },
+    "conditions": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Conditions",
+      "type": "array"
+    },
+    "keywords": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Keywords",
+      "type": "array"
+    },
+    "brief_summary": {
+      "default": "",
+      "title": "Brief Summary",
+      "type": "string"
+    },
+    "detailed_description": {
+      "default": "",
+      "title": "Detailed Description",
+      "type": "string"
+    },
+    "eligibility": {
+      "$ref": "#/$defs/Eligibility"
+    },
+    "arms_and_cohorts": {
+      "items": {
+        "$ref": "#/$defs/Arm"
+      },
+      "title": "Arms And Cohorts",
+      "type": "array"
+    },
+    "interventions": {
+      "items": {
+        "$ref": "#/$defs/Intervention"
+      },
+      "title": "Interventions",
+      "type": "array"
+    },
+    "primary_outcomes": {
+      "items": {
+        "$ref": "#/$defs/Outcome"
+      },
+      "title": "Primary Outcomes",
+      "type": "array"
+    },
+    "secondary_outcomes": {
+      "items": {
+        "$ref": "#/$defs/Outcome"
+      },
+      "title": "Secondary Outcomes",
+      "type": "array"
+    },
+    "locations": {
+      "items": {
+        "$ref": "#/$defs/Location"
+      },
+      "title": "Locations",
+      "type": "array"
+    },
+    "sponsor": {
+      "default": "",
+      "title": "Sponsor",
+      "type": "string"
+    },
+    "last_update_date": {
+      "default": "",
+      "title": "Last Update Date",
+      "type": "string"
+    },
+    "study_start_date": {
+      "default": "",
+      "title": "Study Start Date",
+      "type": "string"
+    },
+    "candidate_retrieval_reasons": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Candidate Retrieval Reasons",
+      "type": "array"
+    },
+    "deterministic_signals": {
+      "$ref": "#/$defs/Signals"
+    }
+  },
+  "required": [
+    "nct_id"
+  ],
+  "title": "TrialInput",
+  "type": "object"
+}

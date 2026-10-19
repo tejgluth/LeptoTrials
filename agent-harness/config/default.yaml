@@ -1,0 +1,27 @@
+model:
+  provider: google
+  model_id: gemini-3.8-flash
+  reasoning_effort: high
+  temperature: 0.0
+  timeout_seconds: 90
+  max_attempts: 3
+  # Supply dated prices yourself; null means unknown, not zero cost.
+  input_usd_per_million: null
+  output_usd_per_million: null
+registry:
+  timeout_seconds: 45
+  max_attempts: 4
+  max_pages: 200
+  page_size: 100
+  statuses: [RECRUITING, NOT_YET_RECRUITING, ACTIVE_NOT_RECRUITING]
+  searches:
+    - {kind: cond, value: leptomeningeal metastasis}
+    - {kind: cond, value: meningeal metastasis}
+    - {kind: term, value: leptomeningeal}
+    - {kind: term, value: neoplastic meningitis}
+    - {kind: term, value: carcinomatous meningitis}
+    - {kind: term, value: lymphomatous meningitis}
+    - {kind: term, value: leukemic meningitis}
+    - {kind: term, value: LMD}
+    - {kind: term, value: '("brain metastases" OR "CNS metastases") AND (cancer OR carcinoma OR melanoma)'}
+    - {kind: term, value: '(breast OR lung OR melanoma OR "solid tumor") AND ("CNS cohort" OR "central nervous system metastases")'}

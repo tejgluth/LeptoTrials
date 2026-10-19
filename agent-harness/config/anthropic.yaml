@@ -1,0 +1,5 @@
+model:
+  provider: anthropic
+  model_id: claude-sonnet-5-5
+  reasoning_effort: high
+  send_temperature: false

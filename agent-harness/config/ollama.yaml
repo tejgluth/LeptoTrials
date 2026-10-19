@@ -1,0 +1,16 @@
+# Local Gemma, no API key, no paid endpoint, no automatic model download.
+model:
+  provider: ollama
+  model_id: gemma4:latest
+  base_url: http://127.0.0.1:11434
+  reasoning_effort: null
+  local_thinking: true
+  context_length: 32768
+  max_output_tokens: 8192
+  timeout_seconds: 300
+  max_attempts: 2
+  temperature: 0.0
+  # Optional: pin the digest reported by `ollama list` / /api/tags.
+  model_revision: null
+  input_usd_per_million: 0.0
+  output_usd_per_million: 0.0

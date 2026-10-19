@@ -1,0 +1,6 @@
+# Temporary validation provider; results must not be described as Gemini validation.
+model:
+  provider: openai
+  model_id: gpt-6-sol
+  reasoning_effort: high
+  send_temperature: false

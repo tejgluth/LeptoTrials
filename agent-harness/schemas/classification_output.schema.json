@@ -1,0 +1,166 @@
+{
+  "$defs": {
+    "Classification": {
+      "enum": [
+        "LM_SPECIFIC",
+        "LM_INCLUSIVE_GENERAL",
+        "LM_INCLUSIVE_COHORT_SPECIFIC",
+        "LM_EXCLUDED",
+        "LM_MENTION_ONLY",
+        "INSUFFICIENT_INFORMATION",
+        "AMBIGUOUS_REQUIRES_REVIEW"
+      ],
+      "title": "Classification",
+      "type": "string"
+    },
+    "Evidence": {
+      "additionalProperties": false,
+      "properties": {
+        "field": {
+          "minLength": 1,
+          "title": "Field",
+          "type": "string"
+        },
+        "cohort": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Cohort"
+        },
+        "quote": {
+          "maxLength": 500,
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        },
+        "interpretation": {
+          "maxLength": 1000,
+          "minLength": 1,
+          "title": "Interpretation",
+          "type": "string"
+        },
+        "direction": {
+          "enum": [
+            "inclusion",
+            "exclusion",
+            "context"
+          ],
+          "title": "Direction",
+          "type": "string"
+        }
+      },
+      "required": [
+        "field",
+        "cohort",
+        "quote",
+        "interpretation",
+        "direction"
+      ],
+      "title": "Evidence",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "nct_id": {
+      "pattern": "^NCT\\d{8}$",
+      "title": "Nct Id",
+      "type": "string"
+    },
+    "classification": {
+      "$ref": "#/$defs/Classification"
+    },
+    "is_lm_inclusive": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Is Lm Inclusive"
+    },
+    "confidence": {
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "requires_human_review": {
+      "title": "Requires Human Review",
+      "type": "boolean"
+    },
+    "primary_reason": {
+      "maxLength": 2000,
+      "minLength": 1,
+      "title": "Primary Reason",
+      "type": "string"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/Evidence"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "conflicting_evidence": {
+      "items": {
+        "$ref": "#/$defs/Evidence"
+      },
+      "title": "Conflicting Evidence",
+      "type": "array"
+    },
+    "lm_terms_detected": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Lm Terms Detected",
+      "type": "array"
+    },
+    "classification_notes": {
+      "maxLength": 4000,
+      "title": "Classification Notes",
+      "type": "string"
+    },
+    "model_version": {
+      "title": "Model Version",
+      "type": "string"
+    },
+    "prompt_version": {
+      "title": "Prompt Version",
+      "type": "string"
+    },
+    "input_schema_version": {
+      "title": "Input Schema Version",
+      "type": "string"
+    },
+    "output_schema_version": {
+      "title": "Output Schema Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "nct_id",
+    "classification",
+    "is_lm_inclusive",
+    "confidence",
+    "requires_human_review",
+    "primary_reason",
+    "evidence",
+    "conflicting_evidence",
+    "lm_terms_detected",
+    "classification_notes",
+    "model_version",
+    "prompt_version",
+    "input_schema_version",
+    "output_schema_version"
+  ],
+  "title": "ClassificationOutput",
+  "type": "object"
+}

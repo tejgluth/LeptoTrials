@@ -1,0 +1,112 @@
+{
+  "$defs": {
+    "Classification": {
+      "enum": [
+        "LM_SPECIFIC",
+        "LM_INCLUSIVE_GENERAL",
+        "LM_INCLUSIVE_COHORT_SPECIFIC",
+        "LM_EXCLUDED",
+        "LM_MENTION_ONLY",
+        "INSUFFICIENT_INFORMATION",
+        "AMBIGUOUS_REQUIRES_REVIEW"
+      ],
+      "title": "Classification",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "nct_id": {
+      "pattern": "^NCT\\d{8}$",
+      "title": "Nct Id",
+      "type": "string"
+    },
+    "run_id": {
+      "pattern": "^[a-zA-Z0-9_-]+$",
+      "title": "Run Id",
+      "type": "string"
+    },
+    "input_hash": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Input Hash",
+      "type": "string"
+    },
+    "decision_hash": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Decision Hash",
+      "type": "string"
+    },
+    "expert_classification": {
+      "$ref": "#/$defs/Classification"
+    },
+    "is_lm_inclusive": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Is Lm Inclusive"
+    },
+    "reviewer_id": {
+      "pattern": "^[a-zA-Z0-9_-]+$",
+      "title": "Reviewer Id",
+      "type": "string"
+    },
+    "review_date": {
+      "format": "date",
+      "title": "Review Date",
+      "type": "string"
+    },
+    "source_checked": {
+      "title": "Source Checked",
+      "type": "boolean"
+    },
+    "disposition": {
+      "enum": [
+        "approve",
+        "change",
+        "reject"
+      ],
+      "title": "Disposition",
+      "type": "string"
+    },
+    "tumor_labels": {
+      "items": {
+        "enum": [
+          "LUNG",
+          "BREAST",
+          "MELANOMA",
+          "GBM",
+          "OTHER_SOLID"
+        ],
+        "type": "string"
+      },
+      "title": "Tumor Labels",
+      "type": "array"
+    },
+    "notes": {
+      "maxLength": 4000,
+      "title": "Notes",
+      "type": "string"
+    }
+  },
+  "required": [
+    "nct_id",
+    "run_id",
+    "input_hash",
+    "decision_hash",
+    "expert_classification",
+    "is_lm_inclusive",
+    "reviewer_id",
+    "review_date",
+    "source_checked",
+    "disposition",
+    "tumor_labels",
+    "notes"
+  ],
+  "title": "Adjudication",
+  "type": "object"
+}

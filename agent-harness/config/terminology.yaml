@@ -1,0 +1,22 @@
+version: '1.2'
+terms:
+  - leptomeningeal metastasis
+  - leptomeningeal metastases
+  - leptomeningeal disease
+  - leptomeningeal carcinomatosis
+  - leptomeningeal cancer
+  - leptomeningeal involvement
+  - leptomeningeal dissemination
+  - leptomeningeal
+  - lepto-meningeal
+  - leptomeninges
+  - meningeal metastasis
+  - meningeal metastases
+  - meningeal carcinomatosis
+  - meningeal disease
+  - neoplastic meningitis
+  - carcinomatous meningitis
+  - lymphomatous meningitis
+  - leukemic meningitis
+abbreviations: [LM, LMD, LMC]
+oncology_context: '\b(cancers?|carcinomas?|metasta\w*|tumou?rs?|malignan\w*|oncolog\w*|melanomas?|lymphomas?|leuk(?:a?e)mi\w*|neoplastic)\b'
