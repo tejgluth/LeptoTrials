@@ -1,5 +1,5 @@
-/* Audit records and logs must not introduce utility classes into the app build. */
 @import "tailwindcss" source(".");
+@import "./fonts.css";
 
 /* ─── Custom theme ──────────────────────────────────────────────── */
 @theme {
