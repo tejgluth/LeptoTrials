@@ -319,8 +319,8 @@ type OracleResult = {
   reason?: string
 }
 
-// Current-source decisions: audit/manual-review/2026-10-17/decision-ledger.json.
-// Historical/unknown-status inclusions are tested separately from active defaults.
+// Trials that must (or must not) show up for a given scenario. Ones that only
+// appear with non-default statuses get their own scenario.
 const REGRESSIONS: RegressionCase[] = [
   { scenario: 'gbm-all-statuses', mustExclude: ['NCT03423628', 'NCT07331064', 'NCT07751744'] },
   {
@@ -1348,8 +1348,7 @@ async function main() {
     allRegressionFailures.push(...regressionFailures)
   }
 
-  // Named regressions use smoke-scenario names, unlike generated matrix names.
-  // Execute them explicitly so a successful matrix cannot silently skip them.
+  // the matrix doesn't generate the smoke scenario names, so run those explicitly
   for (const scenario of buildSmokeScenarios()) {
     const { oracleMismatches, regressionFailures } = validateLocalScenario(scenario, universeRun.results)
     allOracleMismatches.push(...oracleMismatches)
