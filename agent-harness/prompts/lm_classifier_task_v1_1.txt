@@ -1,6 +1,0 @@
-Evaluate this structured ClinicalTrials.gov record using the taxonomy and evidence rules.
-All substantive source text is preserved; deterministic signals are hints, not conclusions.
-Classify only trial-level LM enrollment permission. Explain restrictions and cohort scope.
-Before returning the complete JSON object, ensure that the binary value and review flag
-match the chosen taxonomy, and every quoted passage is copied from its stated source field.
-Use the supplied provenance. Input follows as JSON data.

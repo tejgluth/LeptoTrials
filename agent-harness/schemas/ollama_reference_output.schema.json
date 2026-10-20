@@ -8,7 +8,8 @@
         "LM_EXCLUDED",
         "LM_MENTION_ONLY",
         "INSUFFICIENT_INFORMATION",
-        "AMBIGUOUS_REQUIRES_REVIEW"
+        "AMBIGUOUS_REQUIRES_REVIEW",
+        "LM_NOT_INCLUDED"
       ],
       "title": "Classification",
       "type": "string"
@@ -59,6 +60,59 @@
     }
   },
   "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "output_schema_version": {
+            "const": "1.1.0"
+          }
+        },
+        "required": [
+          "output_schema_version"
+        ]
+      },
+      "then": {
+        "properties": {
+          "classification": {
+            "enum": [
+              "LM_EXCLUDED",
+              "LM_INCLUSIVE_COHORT_SPECIFIC",
+              "LM_INCLUSIVE_GENERAL",
+              "LM_MENTION_ONLY",
+              "LM_NOT_INCLUDED",
+              "LM_SPECIFIC"
+            ]
+          },
+          "is_lm_inclusive": {
+            "type": "boolean"
+          },
+          "requires_human_review": {
+            "const": false
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "classification": {
+            "const": "LM_NOT_INCLUDED"
+          }
+        },
+        "required": [
+          "classification"
+        ]
+      },
+      "then": {
+        "properties": {
+          "output_schema_version": {
+            "const": "1.1.0"
+          }
+        }
+      }
+    }
+  ],
   "properties": {
     "nct_id": {
       "pattern": "^NCT\\d{8}$",

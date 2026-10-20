@@ -25,7 +25,9 @@ be evaluated without registry network calls.
 
 The adapter uses `/api/chat` with the common JSON schema and explicit context/output
 limits. Truncation and context shifting are disabled, preserving full eligibility.
-Oversized inputs or incomplete generation fail visibly. The digest of the installed
+The standard configuration reserves a 65,536-token context so long eligibility
+records fit without dropping source text. Requests beyond that limit and incomplete
+generations fail visibly. The digest of the installed
 model is resolved before cache lookup and recorded with the Ollama server version,
 token counts and timing. Set `model_revision` to pin a particular digest. Hidden
 thinking is not stored. API cost is zero; inference uses your computer's resources.

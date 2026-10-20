@@ -8,7 +8,8 @@ from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 NctId = Annotated[str, Field(pattern=r"^NCT\d{8}$")]
 Digest = Annotated[str, Field(pattern=r"^[a-f0-9]{64}$")]
-SCHEMA_VERSION = "1.0.0"
+SCHEMA_VERSION = "1.1.0"
+SUPPORTED_OUTPUT_VERSIONS = frozenset({"1.0.0", SCHEMA_VERSION})
 INPUT_SCHEMA_VERSION = "1.1.0"
 
 
@@ -24,10 +25,14 @@ class Classification(StrEnum):
     LM_MENTION_ONLY = "LM_MENTION_ONLY"
     INSUFFICIENT_INFORMATION = "INSUFFICIENT_INFORMATION"
     AMBIGUOUS_REQUIRES_REVIEW = "AMBIGUOUS_REQUIRES_REVIEW"
+    LM_NOT_INCLUDED = "LM_NOT_INCLUDED"
 
 
 INCLUSIVE = frozenset(list(Classification)[:3])
-UNRESOLVED = frozenset(list(Classification)[5:])
+UNRESOLVED = frozenset(
+    {Classification.INSUFFICIENT_INFORMATION, Classification.AMBIGUOUS_REQUIRES_REVIEW}
+)
+DECISIVE_CLASSIFICATIONS = frozenset(c for c in Classification if c not in UNRESOLVED)
 
 
 def inclusive_value(category: Classification) -> bool | None:
@@ -123,6 +128,36 @@ class Evidence(StrictModel):
 
 
 class ClassificationOutput(StrictModel):
+    # Preserve archive reads while rejecting undecided current outputs in the
+    # generated JSON Schema as well as the typed runtime validator.
+    model_config = ConfigDict(
+        json_schema_extra={
+            "allOf": [
+                {
+                    "if": {
+                        "properties": {"output_schema_version": {"const": SCHEMA_VERSION}},
+                        "required": ["output_schema_version"],
+                    },
+                    "then": {
+                        "properties": {
+                            "classification": {
+                                "enum": sorted(c.value for c in DECISIVE_CLASSIFICATIONS)
+                            },
+                            "is_lm_inclusive": {"type": "boolean"},
+                            "requires_human_review": {"const": False},
+                        }
+                    },
+                },
+                {
+                    "if": {
+                        "properties": {"classification": {"const": "LM_NOT_INCLUDED"}},
+                        "required": ["classification"],
+                    },
+                    "then": {"properties": {"output_schema_version": {"const": SCHEMA_VERSION}}},
+                },
+            ],
+        }
+    )
     nct_id: NctId
     classification: Classification
     is_lm_inclusive: bool | None
@@ -140,12 +175,33 @@ class ClassificationOutput(StrictModel):
 
     @model_validator(mode="after")
     def consistent(self):
+        if self.output_schema_version not in SUPPORTED_OUTPUT_VERSIONS:
+            raise ValueError("Unsupported output schema version")
+        if self.output_schema_version == SCHEMA_VERSION:
+            if self.classification in UNRESOLVED or self.is_lm_inclusive is None:
+                raise ValueError(
+                    "Choose an include/do-not-include decision; unclear is not allowed"
+                )
+            if self.requires_human_review:
+                raise ValueError(
+                    "Return the decision with confidence and rationale, not a review request"
+                )
+        elif self.classification == Classification.LM_NOT_INCLUDED:
+            raise ValueError("LM_NOT_INCLUDED requires output schema 1.1.0")
         if self.is_lm_inclusive is not inclusive_value(self.classification):
             raise ValueError("Binary label contradicts taxonomy")
         if self.classification in UNRESOLVED and not self.requires_human_review:
             raise ValueError("Unresolved classifications require review")
-        if self.classification != Classification.INSUFFICIENT_INFORMATION and not self.evidence:
+        if (
+            self.classification
+            not in (Classification.INSUFFICIENT_INFORMATION, Classification.LM_NOT_INCLUDED)
+            and not self.evidence
+        ):
             raise ValueError("Classification requires evidence")
+        if self.classification == Classification.LM_NOT_INCLUDED and any(
+            e.direction == "inclusion" for e in self.evidence
+        ):
+            raise ValueError("Do-not-include evidence must use context or exclusion direction")
         if self.classification in INCLUSIVE:
             if not any(e.direction == "inclusion" for e in self.evidence):
                 raise ValueError("Inclusion needs affirmative evidence")

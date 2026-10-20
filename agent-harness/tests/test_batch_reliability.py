@@ -67,9 +67,9 @@ def test_schema_retry_reports_semantic_violation_without_input_echo(config, monk
     monkeypatch.setattr("leptotrials_harness.agent_classifier.time.sleep", lambda _: None)
     config.model.max_attempts = 2
     t = trial()
-    good = response(t, "INSUFFICIENT_INFORMATION")
+    good = response(t, "LM_NOT_INCLUDED")
     bad = copy.deepcopy(good)
-    bad["is_lm_inclusive"] = False  # Actual overnight failure: unknown is not false.
+    bad["is_lm_inclusive"] = True  # A do-not-include decision cannot claim inclusion.
     bad["primary_reason"] = "UNTRUSTED_TEXT_DO_NOT_ECHO_IN_ERROR"
 
     class RepairingModel(FakeModel):
@@ -85,8 +85,8 @@ def test_schema_retry_reports_semantic_violation_without_input_echo(config, monk
             )
 
     result = classify_agent(t, RepairingModel(config, good))
-    assert result["result"]["is_lm_inclusive"] is None
-    assert result["result"]["requires_human_review"] is True
+    assert result["result"]["is_lm_inclusive"] is False
+    assert result["result"]["requires_human_review"] is False
     assert len(result["attempts"]) == 2
 
 

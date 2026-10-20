@@ -19,6 +19,7 @@ def classify_agent(trial: TrialInput, client: ModelClient, *, prompt: dict | Non
     start = time.perf_counter()
     feedback = None
     terminal_error = None
+    stop_attempts = False
     for index in range(client.config.max_attempts):
         attempt_start = time.perf_counter()
         attempt = {
@@ -52,6 +53,8 @@ def classify_agent(trial: TrialInput, client: ModelClient, *, prompt: dict | Non
                 prompt["version"],
             ):
                 raise EvidenceError("Output provenance does not match request")
+            if result.output_schema_version != payload["provenance"]["output_schema_version"]:
+                raise EvidenceError("Output schema version does not match request")
             verify_evidence(result, trial)
             attempts.append(attempt)
             return {
@@ -89,8 +92,11 @@ def classify_agent(trial: TrialInput, client: ModelClient, *, prompt: dict | Non
                 "code": exc.code,
                 "retryable": exc.retryable,
                 "retry_after": exc.retry_after,
+                "halt_provider": exc.halt_provider,
             }
             if not exc.retryable:
+                stop_attempts = True
+            if exc.halt_provider:
                 terminal_error = exc.code or "non_retryable_provider_error"
         attempts.append(attempt)
         attempt["latency_ms"] = (time.perf_counter() - attempt_start) * 1000
@@ -98,15 +104,18 @@ def classify_agent(trial: TrialInput, client: ModelClient, *, prompt: dict | Non
             "previous_attempt_rejected": True,
             "error": attempt["error"],
             "instruction": "Return corrected complete JSON. Fix the listed contract violations. "
-            "Unresolved labels require is_lm_inclusive=null and requires_human_review=true. "
+            "Choose an include/do-not-include classification and a boolean is_lm_inclusive. "
+            "Unclear, ambiguous, insufficient-information and null decisions are not allowed. "
+            "If source evidence does not establish LM enrollment, choose LM_NOT_INCLUDED, "
+            "is_lm_inclusive=false and requires_human_review=false; explain the limitation. "
             "Keep quotes verbatim, without ellipses, paraphrasing or joined list entries. "
             "String arrays may be cited by field name; do not guess array indices. "
-            "Never invent a named cohort merely to satisfy validation; use ambiguity if unclear.",
+            "Never invent a named cohort merely to satisfy validation.",
             "verbatim_copying_aids_not_classification_evidence": rejection_hints(
                 attempt["raw_output"], trial
             ),
         }
-        if terminal_error:
+        if stop_attempts or terminal_error:
             break
         if index + 1 < client.config.max_attempts:
             delay = (attempt["error"] or {}).get("retry_after") or 2**index
@@ -117,5 +126,8 @@ def classify_agent(trial: TrialInput, client: ModelClient, *, prompt: dict | Non
         "usage": usage,
         "latency_ms": (time.perf_counter() - start) * 1000,
         "error": "MODEL_FAILURE",
+        "failure_kind": "INFERENCE_ERROR"
+        if attempts and attempts[-1]["error"]["type"] == "API_MODEL_FAILURE"
+        else "MODEL_OUTPUT_REJECTED",
         "terminal_provider_error": terminal_error,
     }

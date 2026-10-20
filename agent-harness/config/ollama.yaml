@@ -5,10 +5,10 @@ model:
   base_url: http://127.0.0.1:11434
   reasoning_effort: null
   local_thinking: true
-  context_length: 32768
+  context_length: 65536
   max_output_tokens: 8192
   timeout_seconds: 300
-  max_attempts: 2
+  max_attempts: 3
   temperature: 0.0
   # Optional: pin the digest reported by `ollama list` / /api/tags.
   model_revision: null

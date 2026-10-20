@@ -27,8 +27,8 @@ flowchart TD
     D -->|No definitive rule| F[Structured trial input and terminology signals]
     F --> G[Stage 2 constrained model classification]
     G --> H{Validate schema, provenance and source quotes}
-    H -->|Clear inclusive or negative| I[Model classification]
-    H -->|Ambiguous or conflicting| J[Expert review queue]
+    H -->|Valid include or do-not-include decision| I[Model classification]
+    I -->|Independent source-conflict check| J[Separate safety review flag]
     H -->|Retries exhausted| K[MODEL_FAILURE and review queue]
     E --> L[Immutable decision store]
     I --> L
@@ -88,7 +88,7 @@ names/emails and patient data are not needed by the model input.
 Input schema `1.1.0` also preserves the registry's study population separately as
 `eligibility.population`. Legacy `1.0.0` inputs retain their original submitted
 payloads and fingerprints; adding an empty population field does not invalidate
-historical evidence. The output schema remains `1.0.0`.
+historical evidence. Current output schema `1.1.0` requires a boolean decision; immutable `1.0.0` outputs remain readable under their original contract.
 
 The exact submitted JSON is saved in each run's `model_inputs/`. System/task text is
 saved in the manifest. The model answers only: **does the registry establish an LM
@@ -103,10 +103,13 @@ unqualified conflicts, background/outcomes and prior-treatment/washout mentions.
 | `LM_INCLUSIVE_COHORT_SPECIFIC` | true, with named cohort evidence |
 | `LM_EXCLUDED` | false |
 | `LM_MENTION_ONLY` | false |
-| `INSUFFICIENT_INFORMATION` | null; expert review |
-| `AMBIGUOUS_REQUIRES_REVIEW` | null; expert review |
+| `LM_NOT_INCLUDED` | false; registry text does not establish an applicable LM enrollment pathway |
 
-Every definitive decision requires directional evidence. Quotes must resolve to
+Prompt `1.7.0` makes a concrete registry-list inclusion decision for every successful response. Unclear/ambiguous/insufficient-information classifications, null decisions and model-requested human classification are rejected in current outputs. The same restriction is enforced by each provider's generation schema, the canonical JSON Schema and the runtime validator. When the registry does not establish LM permission, the model returns `LM_NOT_INCLUDED` and false with its rationale and confidence. This means do not include the record in this list; it does not assert that all LM patients are clinically excluded. Missing context is never silently promoted to permission. Actual model/validation failures still remain failures rather than fabricated decisions.
+
+The old unresolved categories remain supported only when reading historical output schema `1.0.0` artifacts. Retained historical outputs keep their original schema and provenance. The prompt/schema/implementation changes invalidate old classification cache keys. New live requests reject legacy-schema responses even though archive readers can still inspect them.
+
+Affirmative and explicit-exclusion decisions require directional evidence. A do-not-include decision may use context/exclusion passages, or no evidence if no relevant source information exists; it must explain the limitation. Quotes must resolve to
 their declared field and match the source, allowing whitespace normalization only.
 Invented quotes, wrong NCT IDs, inconsistent labels, unsupported enums, missing
 fields and wrong prompt/schema provenance are rejected. Malformed outputs get
@@ -125,7 +128,7 @@ than clinical source text, trigger expert review instead of automatic acceptance
 
 ### Verbatim copying aids and development rejection analysis
 
-Prompt `1.6.0` retains the complete normalized trial and adds `source_passages`:
+Prompt `1.7.0` retains the source-reference mechanism from `1.6.0`, including complete normalized trials and `source_passages`:
 short contiguous source excerpts with real field paths and, where headings are
 available, a deterministic section hint. They preserve punctuation, source typos,
 literal AACT `~` delimiters, negation and nearby cohort language. These are copying
@@ -148,21 +151,25 @@ while retaining explicit LM exceptions. This does not infer eligibility from hea
 The harness independently checks the resolved field/quote pair and rejects wrong
 attribution, unsupported direction, cohort scope and inconsistent taxonomy. Other
 providers retain exact-quote verification but are not forced to the local copying
-transport. When necessary context is unavailable, the model must abstain; the catalog must
-never manufacture permission. A retry may receive nearby real source excerpts,
+transport. When necessary context is unavailable, the model chooses `LM_NOT_INCLUDED` and explains the limitation; the catalog must never manufacture permission. A retry may receive nearby real source excerpts,
 but no fuzzy match is accepted and no rejected model output is silently repaired.
 Raw attempts, failures and earlier prompt versions remain separate and immutable.
 Conditional LM permission is not itself a named enrollment cohort; unsupported
-cohort naming is rejected during model attempts so it can be corrected or abstained,
+cohort naming is rejected during model attempts so it can be corrected or replaced with a supported do-not-include decision,
 not silently accepted as a valid cohort-specific result.
 
 The local wire taxonomy omits the cohort-specific option when neither cohort/part
-text nor multi-arm structure supplies a cohort signal. This does not force inclusion
-or exclusion: general permission, negative and abstention categories remain available.
-If an unidentifiable population restriction matters, the model must abstain rather
-than convert it to unrestricted permission. Qualified symptomatic/active-only LM
+text nor multi-arm structure supplies a cohort signal. General permission, explicit exclusion, mention-only and `LM_NOT_INCLUDED` remain available. If an unidentifiable population restriction prevents establishing permission, choose `LM_NOT_INCLUDED` rather than unrestricted inclusion. Qualified symptomatic/active-only LM
 exclusion also cannot automatically become exclusion of **all** LM; missing conflicting
 source evidence triggers a new bounded attempt or review.
+
+### Generation constraints and local recovery
+
+The local generation schema now binds each classification to its boolean decision and required evidence. Affirmative evidence must reference an LM-bearing source passage; cohort-specific references are limited to real source names linked to the selected passage or its own arm. Unsupported generic CNS exclusions and qualified active/symptomatic-only restrictions cannot be generated as blanket `LM_EXCLUDED` decisions. An affirmative result must retain relevant exclusion evidence when the source contains a conflict. The model still interprets the complete record, and the independent source/semantic verifier runs after generation.
+
+Native Ollama requests keep the installed model resident for 30 minutes, use bounded connection retries and allow three model attempts in `config/ollama.yaml`. Temporary transport/server failures can retry; deterministic HTTP 400 errors stop that record without poisoning the rest of the batch. Authentication/model-not-found errors stop the provider instead of generating repeated failures. No model is downloaded and no cloud fallback is introduced. Server response bodies are not copied into error logs.
+
+Per-record `failure_kind` and execution-report counts distinguish `MODEL_OUTPUT_REJECTED` from `INFERENCE_ERROR`, while retaining the existing machine-readable `MODEL_FAILURE` field for compatibility. Older runs can be inspected under this breakdown without changing their raw records. New regression tests cover the overnight error patterns, malformed output dependencies, source/cohort binding, temporary recovery and record-scoped versus provider-wide stops.
 
 ### Historical eligibility-section projection
 
@@ -466,8 +473,8 @@ Models, existing app overrides and these synthetic examples cannot manufacture e
 ground truth. Metrics stay null until adjudications are attached to the correct
 input revision. A dry run is a routing/infrastructure test, not a model evaluation.
 Development roles are explicit; no held-out split or historical prompt/model comparison
-is invented. Prompt v1.0.0 is this implementation's new version, not a recovered
-experimental version. Preserve old prompt files when adding later versions.
+is invented. Prompt versions identify this implementation’s policies, not recovered
+experimental prompts. Retain the exact prompts used by published result bundles.
 
 The framework calculates TP/FP/TN/FN, PPV, NPV, sensitivity/recall, specificity,
 accuracy, F1, multiclass confusion matrix, per-class accuracy, review rate,
@@ -525,11 +532,6 @@ models) halt further model calls in that run and block subsequent validation rou
 Retryable throttling honors a bounded Retry-After delay. A run can still retain valid
 cached results. Raw errors are recorded as safe codes, without upstream response bodies.
 
-After a transport-only code change, a maintainer can explicitly re-index compatible
-saved responses using `scripts/reindex_verified_cache.py`. This requires identical
-prompts/config/schema, rechecks each source quote and input hash, and records the
-compatibility reason plus both implementation hashes. It never approves a classification.
-
 ## Scheduling
 
 ### Automatic discovery of new or changed trials
@@ -574,8 +576,7 @@ if not definitive, the configured model. An existing trial with changed eligibil
 title, cohorts, status, ages or other substantive input also invalidates reuse.
 Unchanged model results are reused; strict rules are rechecked cheaply on each poll.
 Timestamp-only and retrieval-reason changes do not force model calls. Failed model
-outputs are not cached, so later polls can retry them. Valid unresolved/review results
-can be cached but still require expert review; polling does not resolve ambiguity.
+outputs are not cached, so later polls can retry them. Current successful outputs always have a boolean decision. Historical unresolved/review results remain auditable but cannot satisfy the new prompt/schema cache keys.
 
 The first real poll may classify a large baseline, not just newly registered studies.
 Dry runs do not seed model results. Changing provider/model, prompts, schema or harness
@@ -624,11 +625,10 @@ the total matching count plus any sample limit. `--include-review` also selects 
 ambiguous/safety-flagged decisions. A retry batch is not the full original evaluation
 population; do not present its performance as an independent accuracy estimate.
 
-Prompt v1.1.0 clarifies null-versus-false, review flags, named cohorts and verbatim
-per-field quotes after v1.0.0 local execution exposed contract failures. Original
-prompts and run outputs remain unchanged. Retry feedback includes specific safe
-contract violations rather than just “invalid output.” This is development refinement,
-not independent expert validation; no acceptance constraint was weakened.
+Current classifications use prompt 1.7.0 and require a binary inclusion decision.
+Retry feedback includes safe contract violations and evidence errors. The latest
+[verification summary](validation/reports/2026-10-19-local-validation.md) records the
+completed batch and the distinction between output validation and expert review.
 
 ### Optional execution schedule
 
@@ -651,4 +651,4 @@ CI runs offline checks without credentials. Tests cover the actual failure modes
 negation/conflicts, cohort scope, source quotes, model/schema errors, incomplete
 pagination, cache change detection, metrics/abstentions and reviewed export revision binding.
 See [`docs/methods-map.md`](docs/methods-map.md) for implementation locations and
-[`examples/`](examples/) for labeled input-to-decision examples.
+[`examples/`](examples/) for a registry example, smoke inputs and an adjudication template.

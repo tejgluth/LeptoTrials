@@ -210,7 +210,7 @@ Suggested scheduled-task prompt, after choosing the cadence in ChatGPT:
 > not approve decisions on behalf of an expert, mutate patient-facing overrides,
 > commit or deploy. Serialize runs against the same output directory. If requested
 > to report current website counts or export a live spreadsheet, follow the production
-> membership rules in AGENTS.md rather than substituting this candidate universe.
+> membership policy in ARCHITECTURE.md rather than substituting this candidate universe.
 
 Local-file tasks need an execution environment that can access this project, Python,
 network and local credentials. In supported desktop scheduled tasks, keep the computer
@@ -226,7 +226,7 @@ An optional one-shot macOS LaunchAgent can run independently of this conversatio
 cd agent-harness
 .venv/bin/python scripts/offline_verify.py schedule --hours 8
 # Or request an explicit, timezone-qualified stop time:
-.venv/bin/python scripts/offline_verify.py schedule --until 2026-10-18T11:00:00-07:00
+.venv/bin/python scripts/offline_verify.py schedule --until YYYY-MM-DDTHH:MM:SS-07:00
 
 # Explicitly selected frozen development rounds, inference only (not the legacy sweep)
 .venv/bin/python scripts/offline_verify.py schedule --hours 3 \
@@ -236,7 +236,7 @@ cd agent-harness
 # Also publish execution integrity checks and any explicit production-baseline comparison
 # (Use a new output collection; do not launch a duplicate of an active job.)
 .venv/bin/python scripts/offline_verify.py schedule --hours 10 \
-  --manifests output/review-cycle-20261018-v1/manifests \
+  --manifests output/aact-reconciled-20261018-v1/development/manifests \
   --classification-only --post-inspection
 ```
 

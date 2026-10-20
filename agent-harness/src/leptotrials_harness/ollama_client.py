@@ -14,7 +14,11 @@ from .logging_utils import canonical
 class OllamaClient:
     def __init__(self, config: ModelConfig, client=None):
         self.config = config
-        self.client = client or httpx.Client(timeout=config.timeout_seconds, trust_env=False)
+        self.client = client or httpx.Client(
+            timeout=httpx.Timeout(config.timeout_seconds, connect=10),
+            transport=httpx.HTTPTransport(retries=2, trust_env=False),
+            trust_env=False,
+        )
         self.url = (config.base_url or "http://127.0.0.1:11434").rstrip("/")
         try:
             tags = self.client.get(self.url + "/api/tags")
@@ -98,7 +102,7 @@ class OllamaClient:
             "think": self.config.local_thinking,
             "truncate": False,
             "shift": False,
-            "keep_alive": "5m",
+            "keep_alive": "30m",
             "messages": [
                 {"role": "system", "content": system},
                 {
@@ -120,8 +124,23 @@ class OllamaClient:
             response = self.client.post(self.url + "/api/chat", json=body)
             response.raise_for_status()
             data = response.json()
+        except httpx.HTTPStatusError as exc:
+            status = exc.response.status_code
+            retryable = status in (408, 429, 500, 502, 503, 504)
+            delay = exc.response.headers.get("retry-after", "")
+            retry_after = min(float(delay), 30) if re.fullmatch(r"\d+(?:\.\d+)?", delay) else None
+            raise ModelFailure(
+                f"Local inference returned HTTP {status}",
+                code=f"local_http_{status}",
+                retryable=retryable,
+                retry_after=retry_after,
+                halt_provider=status in (401, 403, 404),
+            ) from None
         except (httpx.HTTPError, ValueError) as exc:
-            raise ModelFailure(f"Local inference failed: {type(exc).__name__}") from None
+            raise ModelFailure(
+                f"Local inference failed: {type(exc).__name__}",
+                code="local_transport_error",
+            ) from None
         if not data.get("done") or data.get("done_reason") != "stop":
             raise ModelFailure("Local model returned an incomplete response")
         text = (data.get("message") or {}).get("content")

@@ -12,7 +12,14 @@ from typing import Literal
 from pydantic import Field
 
 from .evidence import EvidenceError, lm_permission_exception
-from .models import Classification, ClassificationOutput, StrictModel
+from .generation_constraints import constrain_local_decisions
+from .models import (
+    DECISIVE_CLASSIFICATIONS,
+    SCHEMA_VERSION,
+    Classification,
+    ClassificationOutput,
+    StrictModel,
+)
 
 LOCAL_WIRE_VERSION = "ollama-source-references-1.0.0"
 
@@ -30,7 +37,7 @@ class ReferenceOutput(ClassificationOutput):
     conflicting_evidence: list[EvidenceReference]
 
 
-def available_categories(trial: dict) -> list[str]:
+def available_categories(trial: dict, *, output_version: str = SCHEMA_VERSION) -> list[str]:
     import json
 
     clinical = {
@@ -44,17 +51,29 @@ def available_categories(trial: dict) -> list[str]:
     )
     # Without any identifiable cohort signal, don't let a small local model name
     # a conditional eligibility sentence as a new enrollment cohort. Inclusion,
-    # rejection and abstention remain available; no binary answer is forced.
+    # and rejection remain available. Legacy schemas retain abstention for archive reads.
     return [
         c.value
         for c in Classification
-        if c != Classification.LM_INCLUSIVE_COHORT_SPECIFIC or cohort_signal
+        if (c != Classification.LM_INCLUSIVE_COHORT_SPECIFIC or cohort_signal)
+        and (
+            c in DECISIVE_CLASSIFICATIONS
+            if output_version == SCHEMA_VERSION
+            else c != Classification.LM_NOT_INCLUDED
+        )
     ]
 
 
 def local_wire_schema(payload: dict) -> dict:
     schema = ReferenceOutput.model_json_schema()
-    schema["$defs"]["Classification"]["enum"] = available_categories(payload.get("trial", {}))
+    schema.pop("allOf", None)
+    version = payload.get("provenance", {}).get("output_schema_version", SCHEMA_VERSION)
+    schema["$defs"]["Classification"]["enum"] = available_categories(
+        payload.get("trial", {}), output_version=version
+    )
+    if version == SCHEMA_VERSION:
+        schema["properties"]["is_lm_inclusive"] = {"type": "boolean"}
+        schema["properties"]["requires_human_review"] = {"type": "boolean", "enum": [False]}
     anchors = payload.get("source_passages", [])
     if anchors:
         base = schema["$defs"]["EvidenceReference"]
@@ -86,15 +105,20 @@ def local_wire_schema(payload: dict) -> dict:
             schema["properties"][key]["enum"] = [value]
     if payload.get("trial", {}).get("nct_id"):
         schema["properties"]["nct_id"]["enum"] = [payload["trial"]["nct_id"]]
+    if version == SCHEMA_VERSION:
+        schema = constrain_local_decisions(schema, payload)
     return schema
 
 
 def resolve_local_output(text: str, payload: dict) -> ClassificationOutput:
     wire = ReferenceOutput.model_validate_json(text)
-    if wire.classification.value not in available_categories(payload["trial"]):
+    if wire.classification.value not in available_categories(
+        payload["trial"], output_version=payload["provenance"]["output_schema_version"]
+    ):
         raise EvidenceError(
             "Cohort-specific label has no source cohort signal; use general "
-            "conditional permission or abstain, not an invented cohort"
+            "conditional permission when supported, otherwise LM_NOT_INCLUDED; "
+            "do not invent a cohort"
         )
     anchors = {a["source_passage_id"]: a for a in payload["source_passages"]}
     if len(anchors) != len(payload["source_passages"]):

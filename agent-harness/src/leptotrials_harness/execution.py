@@ -17,6 +17,20 @@ def decision_fingerprint(record: dict) -> str:
     return digest({key: record[key] for key in ("input_hash", "result", "status", "error")})
 
 
+def failure_kind(record: dict) -> str | None:
+    if not record.get("error"):
+        return None
+    if record.get("failure_kind"):
+        return record["failure_kind"]
+    attempts = record.get("attempts", [])
+    last = (attempts[-1].get("error") or {}) if attempts else {}
+    return (
+        "MODEL_OUTPUT_REJECTED"
+        if last.get("type") == "SCHEMA_OR_EVIDENCE_FAILURE"
+        else "INFERENCE_ERROR"
+    )
+
+
 def checked_record(path: Path, run: Path) -> tuple[dict, TrialInput]:
     record = read_json(path)
     if record["nct_id"] != path.stem or record["run_id"] != run.name:
@@ -153,6 +167,7 @@ def inspect_execution(output_root: Path) -> dict:
                 "pending_count": pending,
                 "status_counts": dict(counts),
                 "failure_count": len(failures),
+                "failure_kinds": dict(Counter(failure_kind(r) for r in records if r.get("error"))),
                 "failed_nct_ids": failures,
                 "review_count": sum(r.get("requires_review", False) for r in records),
                 "cache_hits": sum(r.get("cached", False) for r in records),
@@ -184,6 +199,7 @@ def inspect_execution(output_root: Path) -> dict:
             "unique_input_revisions": len({(r["nct_id"], r["input_hash"]) for r in all_records}),
             "model_attempts": len(attempts),
             "model_failure_records": failures,
+            "failure_kinds": dict(Counter(failure_kind(r) for r in all_records if r.get("error"))),
             "source_verified_result_records": sum(bool(r.get("result")) for r in all_records),
             "review_required": sum(r.get("requires_review", False) for r in all_records),
             "cache_hits": sum(r.get("cached", False) for r in all_records),
@@ -227,6 +243,10 @@ def publish_execution(report: dict, output: Path) -> None:
     lines += [
         "",
         "Record-round counts can repeat the same source record; see unique revision counts.",
+        "Rejected model outputs: "
+        f"{report['totals'].get('failure_kinds', {}).get('MODEL_OUTPUT_REJECTED', 0)}. "
+        "Inference/connection errors: "
+        f"{report['totals'].get('failure_kinds', {}).get('INFERENCE_ERROR', 0)}.",
         f"Integrity/unreadable-artifact issues: {len(report['integrity_issues'])}.",
         f"Separate current-policy review warnings: "
         f"{len(report.get('current_policy_review_warnings', []))}. "

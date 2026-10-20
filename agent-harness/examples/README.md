@@ -1,15 +1,20 @@
-# Inspectable examples
+# Examples
 
-`cases.json` contains **synthetic instructional examples**, not Gemini responses or
-expert ground truth. NCT-shaped identifiers in this file are placeholders only.
-Each example retains raw relevant fields, normalized input, schema-valid
-illustrative output and final proposed classification.
+Run `python examples/classify_single_trial.py` to retrieve and classify the public
+registry record NCT06440954. This uses the configured provider and writes a new run;
+it does not change the website’s classification or provide expert approval.
 
-Run `python examples/classify_single_trial.py` for an actual registry retrieval of
-NCT06440954. Its title/inclusion conflict with a meningeal exclusion, so it enters
-Stage 2. This example does not change its production classification.
+`local-smoke-inputs.json` contains small synthetic inputs for an infrastructure check:
 
-`local-smoke-inputs.json` is a small synthetic infrastructure check that can be run
-with any provider using the same `run-batch` command. Its NCT-shaped IDs are placeholders.
-Expected routing: first case strict; exclusion, cohort and conflict cases use Stage 2.
-The contradictory case must require expert review, irrespective of the raw model label.
+```bash
+leptotrials-harness --config config/ollama.yaml run-batch examples/local-smoke-inputs.json
+```
+
+Its NCT-shaped identifiers are placeholders. Explicit inclusion can use the strict
+stage; exclusion, cohort and conflict cases exercise model classification. Successful
+outputs require a yes/no decision and source-checked evidence. Conflicting criteria
+remain visible and can trigger a review flag.
+
+`adjudication-template.json` shows the separate expert correction format. Replace its
+placeholder identities and hashes with real source-checked expert information before
+using it; model outputs and synthetic inputs are not expert reference labels.

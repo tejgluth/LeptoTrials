@@ -111,12 +111,12 @@ outputs and store any expert correction separately.
 
 The source recipe selects exactly one accepted import per year, using corrected
 2018/2019 imports and the September 2020 replacement. To reconstruct the collection
-from the locally retained source imports without changing them:
+from the retained canonical source manifests without changing them:
 
 ```bash
 python scripts/build_aact_evaluation.py \
   --recipe validation/sources/aact-reconciled-v1.json \
-  --destination output/aact-reconciled-20261018-v1 \
+  --destination output/aact-rebuilt \
   --per-round 5 --seed aact-dev-smoke-2026-10-18-v1
 ```
 
@@ -148,4 +148,5 @@ API keys or expert adjudications are copied. The job's `status.json` gives progr
 and `summary.json` its terminal state. `harness-output/runs/` retains per-record
 outputs and failures; a schema/model failure is not silently converted to a negative.
 A completed execution with failures is not a clinically validated classifier.
-The old overnight unchanged-record sweep is not substituted for these selected inputs.
+Use the current verification summary for completed local results; full-source
+preparation and development inference remain separate milestones.

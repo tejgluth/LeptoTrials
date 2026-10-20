@@ -1,0 +1,6 @@
+Read the complete registry record and make an include/do-not-include decision.
+Choose a supported classification with is_lm_inclusive=true or false. Do not return
+an unclear/ambiguous/insufficient-information category or a null decision. Explain
+the evidence, limitations and cohort scope. Use LM_NOT_INCLUDED when the registry
+does not establish LM enrollment permission, rather than claiming explicit exclusion.
+Return the complete JSON in the supplied schema and source-reference transport.

@@ -8,7 +8,8 @@
         "LM_EXCLUDED",
         "LM_MENTION_ONLY",
         "INSUFFICIENT_INFORMATION",
-        "AMBIGUOUS_REQUIRES_REVIEW"
+        "AMBIGUOUS_REQUIRES_REVIEW",
+        "LM_NOT_INCLUDED"
       ],
       "title": "Classification",
       "type": "string"

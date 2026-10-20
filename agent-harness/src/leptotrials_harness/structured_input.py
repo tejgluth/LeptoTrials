@@ -2,9 +2,9 @@
 
 from .config import RESOURCES
 from .evidence import lm_permission_exception
-from .local_contract import LOCAL_WIRE_VERSION, available_categories
+from .local_contract import LOCAL_WIRE_VERSION, available_categories, local_wire_schema
 from .logging_utils import digest, read_json
-from .models import SCHEMA_VERSION, ClassificationOutput, TrialInput
+from .models import DECISIVE_CLASSIFICATIONS, SCHEMA_VERSION, ClassificationOutput, TrialInput
 from .source_passages import source_passages
 from .trial_normalizer import eligibility_sections, extract_signals
 
@@ -43,6 +43,13 @@ def model_payload(
     if trial.input_schema_version == "1.0.0":
         data["eligibility"].pop("population")
     payload = {
+        "decision_policy": {
+            "version": "binary-inclusion-1.0.0",
+            "allowed_classifications": sorted(c.value for c in DECISIVE_CLASSIFICATIONS),
+            "decision_required": True,
+            "no_inclusion_evidence": "LM_NOT_INCLUDED with is_lm_inclusive=false; "
+            "explain the source limitations without claiming explicit LM exclusion",
+        },
         "provenance": {
             "model_version": model_id,
             "prompt_version": (prompt if prompt is not None else prompts())["version"],
@@ -70,12 +77,25 @@ def model_payload(
             "Do not generate field or quote: the harness resolves BOTH "
             "from the selected ID after wire-schema validation.",
         }
+        # The list in the prompt must agree with the source-constrained grammar,
+        # including omitted unsupported exclusion/cohort choices.
+        payload["output_transport"]["available_classifications"] = local_wire_schema(payload)[
+            "$defs"
+        ]["Classification"]["enum"]
     return payload
 
 
 def wire_output_schema(payload: dict, *, constrain_quotes: bool = False) -> dict:
     """Constrain evidence paths/provenance to this input, without repairing model output."""
     schema = ClassificationOutput.model_json_schema()
+    # Concrete provider schemas do not need the archival version conditional.
+    schema.pop("allOf", None)
+    if payload.get("provenance", {}).get("output_schema_version") == SCHEMA_VERSION:
+        schema["$defs"]["Classification"]["enum"] = sorted(
+            c.value for c in DECISIVE_CLASSIFICATIONS
+        )
+        schema["properties"]["is_lm_inclusive"] = {"type": "boolean"}
+        schema["properties"]["requires_human_review"] = {"type": "boolean", "enum": [False]}
     paths = []
 
     def visit(value, path):

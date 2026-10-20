@@ -23,11 +23,13 @@ class ModelFailure(RuntimeError):
         code: str | None = None,
         retryable: bool = True,
         retry_after: float | None = None,
+        halt_provider: bool | None = None,
     ):
         super().__init__(message)
         self.code = code if code and re.fullmatch(r"[a-z0-9_]{1,80}", code) else None
         self.retryable = retryable
         self.retry_after = retry_after
+        self.halt_provider = not retryable if halt_provider is None else halt_provider
 
 
 @dataclass

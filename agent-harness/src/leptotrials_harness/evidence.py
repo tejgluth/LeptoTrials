@@ -2,7 +2,7 @@
 
 import re
 
-from .models import SCHEMA_VERSION, ClassificationOutput, TrialInput
+from .models import SCHEMA_VERSION, SUPPORTED_OUTPUT_VERSIONS, ClassificationOutput, TrialInput
 from .terminology import detect
 
 
@@ -69,11 +69,17 @@ def verify_evidence(
 ) -> None:
     if result.nct_id != trial.nct_id:
         raise EvidenceError("Model returned a different NCT ID")
-    if (result.input_schema_version, result.output_schema_version) != (
-        trial.input_schema_version,
-        SCHEMA_VERSION,
+    if (
+        result.input_schema_version != trial.input_schema_version
+        or result.output_schema_version not in SUPPORTED_OUTPUT_VERSIONS
     ):
         raise EvidenceError("Schema version mismatch")
+    fallback = (
+        "choose LM_NOT_INCLUDED with is_lm_inclusive=false and explain why LM enrollment "
+        "is not established; this is a do-not-include decision, not proof of blanket exclusion"
+        if result.output_schema_version == SCHEMA_VERSION
+        else "use INSUFFICIENT_INFORMATION or AMBIGUOUS_REQUIRES_REVIEW if scope is unresolved"
+    )
     source = trial.model_dump(mode="json")
     normalized = lambda s: re.sub(r"\s+", " ", s).strip()  # noqa: E731
     for evidence in result.evidence + result.conflicting_evidence:
@@ -132,7 +138,8 @@ def verify_evidence(
     ):
         raise EvidenceError(
             "Affirmative evidence does not establish LM permission. Cite actual LM enrollment "
-            "evidence or abstain; general oncology/brain-only text is not LM permission."
+            f"evidence; otherwise {fallback}. "
+            "General oncology/brain-only text is not LM permission."
         )
     if (
         semantic_support
@@ -145,7 +152,7 @@ def verify_evidence(
         raise EvidenceError(
             "LM_EXCLUDED requires LM-specific exclusion evidence. Generic brain/CNS "
             "metastasis wording alone does not establish explicit LM exclusion; "
-            "use INSUFFICIENT_INFORMATION or AMBIGUOUS_REQUIRES_REVIEW if scope is unresolved."
+            f"{fallback}."
         )
     if semantic_support and result.classification == "LM_EXCLUDED":
         lm_clauses = [
@@ -170,7 +177,7 @@ def verify_evidence(
             raise EvidenceError(
                 "Qualified symptomatic/active/progressive LM exclusion does not establish "
                 "exclusion of ALL LM. Unless another source passage resolves stable/asymptomatic "
-                "LM, use AMBIGUOUS_REQUIRES_REVIEW rather than a blanket negative."
+                f"LM, {fallback}."
             )
     if (
         semantic_support
@@ -212,5 +219,6 @@ def verify_evidence(
             raise EvidenceError(
                 "Conditional permission alone is not a source-defined cohort. Use "
                 "LM_INCLUSIVE_GENERAL for study-wide conditional LM permission; otherwise "
-                "cite an actual source-named cohort/part/arm or abstain. Do not invent a cohort."
+                f"cite an actual source-named cohort/part/arm; otherwise {fallback}. "
+                "Do not invent a cohort."
             )

@@ -179,13 +179,14 @@ class Pipeline:
                             with self.client_lock:
                                 self.provider_halt = record["terminal_provider_error"]
                     except ModelFailure as exc:
-                        if not exc.retryable:
+                        if exc.halt_provider:
                             with self.client_lock:
                                 self.provider_halt = exc.code or "non_retryable_provider_error"
                         record.update(
                             error="MODEL_FAILURE",
                             failure_detail=str(exc),
-                            terminal_provider_error=exc.code,
+                            terminal_provider_error=exc.code if exc.halt_provider else None,
+                            failure_kind="INFERENCE_ERROR",
                         )
                 result = record["result"]
                 unscoped_conflict = bool(
