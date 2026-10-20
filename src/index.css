@@ -1,14 +1,15 @@
+/* only scan src/ for class names */
 @import "tailwindcss" source(".");
 @import "./fonts.css";
 
-/* ─── Custom theme ──────────────────────────────────────────────── */
+/* Custom theme */
 @theme {
   --font-sans: "DM Sans", system-ui, sans-serif;
   --font-serif: "Fraunces", Georgia, serif;
   --font-mono: "DM Mono", monospace;
 }
 
-/* ─── Base overrides (inside layer so utilities can win) ────────── */
+/* Base overrides */
 @layer base {
   *, *::before, *::after {
     box-sizing: border-box;
@@ -49,13 +50,13 @@ body {
   width: 100%;
 }
 
-/* ─── Selection ─────────────────────────────────────────────────── */
+/* Selection */
 ::selection {
   background-color: #1e5f8c;
   color: #e8f4fd;
 }
 
-/* ─── Scrollbar ─────────────────────────────────────────────────── */
+/* Scrollbar */
 /* Firefox */
 html {
   scrollbar-width: auto;
@@ -77,13 +78,13 @@ html {
   background: #38bdf8;
 }
 
-/* ─── Focus styles ──────────────────────────────────────────────── */
+/* Focus styles */
 :focus-visible {
   outline: 2px solid #38bdf8;
   outline-offset: 2px;
 }
 
-/* ─── Number input cleanup ──────────────────────────────────────── */
+/* Number input cleanup */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
@@ -93,13 +94,13 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-/* ─── Select arrow cleanup ──────────────────────────────────────── */
+/* Select arrow cleanup */
 select option {
   background-color: #0c1e34;
   color: #e8f4fd;
 }
 
-/* ─── Reduced motion ────────────────────────────────────────────── */
+/* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

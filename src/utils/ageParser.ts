@@ -1,9 +1,4 @@
-/**
- * Parses ClinicalTrials.gov age strings like "18 Years", "6 Months", "28 Days"
- * into a decimal year value for comparison with a patient's age in years.
- *
- * Returns null if the string is empty, missing, or unparseable (meaning no age restriction).
- */
+// "18 Years", "6 Months", "28 Days" -> age in years. null means no limit.
 export function parseAgeToYears(ageStr: string | undefined | null): number | null {
   if (!ageStr || ageStr.trim() === '' || ageStr.trim().toLowerCase() === 'n/a') {
     return null
@@ -27,11 +22,6 @@ export function parseAgeToYears(ageStr: string | undefined | null): number | nul
   return null
 }
 
-/**
- * Checks whether a patient of a given age meets a trial's age eligibility.
- * Returns true if eligible, false if not.
- * If either bound is null (not specified), that bound is treated as unlimited.
- */
 export function isAgeEligible(
   patientAge: number,
   minimumAgeStr: string | undefined | null,

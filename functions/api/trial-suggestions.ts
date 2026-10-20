@@ -1,4 +1,4 @@
-// Retired: never read, log, persist, or forward submitted personal information.
+// suggestions were turned off; the endpoint just returns 410 now
 export const onRequest: PagesFunction = async () => new Response(JSON.stringify({
   error: 'Trial suggestions are no longer collected. Please use the trial search.',
 }), {

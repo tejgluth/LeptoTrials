@@ -47,7 +47,6 @@ export function buildTrialOutreachMailto({
     '[City, State/Country]',
   ].join('\r\n')
 
-  // Keep the validated recipient readable for mail handlers such as Gmail while
-  // encoding all user-visible message fields independently.
+  // leave the address unencoded so Gmail etc. can read it, encode everything else
   return `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
 }

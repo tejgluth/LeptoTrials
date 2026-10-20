@@ -29,8 +29,7 @@ function appendCommonParams(
   pageToken?: string
 ) {
   url.set('format', 'json')
-  // Fewer round trips reduce exposure to transient registry/CORS failures while
-  // keeping response sizes bounded. Pagination must still reach its final page.
+  // bigger pages = fewer requests that can fail halfway through a search
   url.set('pageSize', '100')
 
   if (pageToken) url.set('pageToken', pageToken)
@@ -187,7 +186,7 @@ export const SUPPLEMENTAL_AUDITED_STUDY_IDS = [
   'NCT05991518',
 ] as const
 
-/** Shared bounded retries for runtime searches and audit scripts. */
+// retries network errors, 429s and 5xxs with exponential backoff
 export async function fetchRegistryJson(apiUrl: string, signal?: AbortSignal): Promise<unknown> {
   const timeout = AbortSignal.timeout(30_000)
   const requestSignal = signal ? AbortSignal.any([signal, timeout]) : timeout

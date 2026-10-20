@@ -3,7 +3,6 @@ import { assertRegistryPage } from './registryResponse'
 
 const MAX_PAGES = 20
 
-/** Fail explicitly if the registry cannot return a complete search. */
 export async function fetchAllStudies(
   fetchPage: (pageToken?: string) => Promise<ApiResponse>,
 ): Promise<Study[]> {

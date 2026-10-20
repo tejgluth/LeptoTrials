@@ -1,4 +1,4 @@
-/** Stop consuming a request as soon as its byte budget is exceeded. */
+// stops reading as soon as the body goes over maximumBytes
 export async function readJsonBody(request: Request, maximumBytes: number): Promise<unknown> {
   const reader = request.body?.getReader()
   if (!reader) throw new SyntaxError('Empty request body')

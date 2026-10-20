@@ -2,7 +2,7 @@ import type { ApiResponse, Study } from '../types/trial'
 
 const INVALID_RESPONSE = 'ClinicalTrials.gov returned an incomplete or invalid response. Please try again.'
 
-/** Validate the fields required to identify, filter and render a registry record. */
+// only checks the fields we actually need to filter and render a study
 export function assertRegistryStudy(value: unknown): asserts value is Study {
   if (!value || typeof value !== 'object') throw new Error(INVALID_RESPONSE)
   const study = value as Partial<Study>
@@ -15,7 +15,7 @@ export function assertRegistryStudy(value: unknown): asserts value is Study {
   }
 }
 
-/** An omitted studies array is not a successful empty search. */
+// a missing studies array is an error, not an empty result
 export function assertRegistryPage(value: unknown): asserts value is ApiResponse {
   if (!value || typeof value !== 'object') throw new Error(INVALID_RESPONSE)
   const page = value as Partial<ApiResponse>
