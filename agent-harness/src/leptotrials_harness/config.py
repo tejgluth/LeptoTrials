@@ -1,4 +1,4 @@
-"""Explicit, validated settings and versioned resources; no implicit model fallback."""
+"""Config loading and paths to bundled prompts/schemas."""
 
 import os
 from pathlib import Path
@@ -81,7 +81,7 @@ class Config(StrictModel):
 
 
 def load_config(path: Path | None = None) -> Config:
-    # Only read the working directory's explicit .env, never search parent folders.
+    # only the .env in the working directory, not parent folders
     load_dotenv(Path.cwd() / ".env", override=False)
     data = yaml.safe_load((RESOURCES / "config/default.yaml").read_text())
     if path:

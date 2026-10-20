@@ -1,4 +1,4 @@
-"""One entry point for any scheduler; uses exactly the same pipeline as manual execution."""
+"""Entry point for scheduled runs (same pipeline as running it by hand)."""
 
 import sys
 

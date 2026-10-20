@@ -1,4 +1,4 @@
-"""Publish concise, key-free execution evidence from completed runs; never invent accuracy."""
+"""Summarize completed validation runs (counts, failures, tokens)."""
 
 import argparse
 from pathlib import Path

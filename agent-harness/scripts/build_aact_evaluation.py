@@ -1,6 +1,6 @@
-"""Assemble checked dated inputs and deterministic, explicitly developmental samples.
+"""Build the dated AACT evaluation rounds and smaller development samples.
 
-No registry/model calls. Never overwrite original captures or infer clinical labels.
+Offline, and it never overwrites the original captures.
 """
 
 import argparse
@@ -34,7 +34,7 @@ def fingerprint(path: Path) -> str:
 
 
 def bucket(trial) -> str:
-    """Observable source signals, NOT expected classifications or reference labels."""
+    """Signals visible in the source text. These are not expected labels."""
     signals = trial.deterministic_signals
     if signals.lm_terms_in_arm_text or signals.possible_lm_cohort:
         return "cohort_language"
@@ -172,7 +172,7 @@ def build_collection(recipe_path: Path, destination: Path, count: int, seed: str
             "not_full_population_inference": True,
         }
         write_json(destination / "development/manifests" / f"{nct_round}.json", sample)
-        # Verify both newly published input/manifest bindings with the real loader.
+        # load them back with the real loader to make sure they work
         load_round(destination / "full/manifests" / f"{nct_round}.json")
         load_round(destination / "development/manifests" / f"{nct_round}.json")
         all_ids.update(t.nct_id for t in chosen)

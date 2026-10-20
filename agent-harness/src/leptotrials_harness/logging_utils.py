@@ -1,4 +1,4 @@
-"""Deterministic serialization, immutable artifacts, and reproducible run identity."""
+"""JSON helpers, hashing and write-once files."""
 
 import gzip
 import hashlib
@@ -31,7 +31,7 @@ def read_json(path: Path) -> Any:
 
 
 def write_json(path: Path, value: Any) -> None:
-    """Create only. Run artifacts and adjudications cannot be silently overwritten."""
+    """Write a new file, fail if it already exists."""
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("x", encoding="utf-8") as file:
         json.dump(value, file, indent=2, ensure_ascii=False)

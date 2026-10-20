@@ -1,4 +1,4 @@
-"""Detached verification safeguards do not require launchd or a model in unit tests."""
+"""Tests for offline_verify.py. No launchd or model needed."""
 
 import importlib.util
 import json

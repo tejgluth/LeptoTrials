@@ -1,4 +1,4 @@
-"""Abstentions/failures remain in denominators; retrieval measured separately."""
+"""Accuracy metrics. Abstentions and failures count against the denominator."""
 
 from collections import Counter
 

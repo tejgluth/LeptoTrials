@@ -1,4 +1,4 @@
-"""Verify a consolidated results bundle without registry or model requests."""
+"""Check a results bundle offline."""
 
 import argparse
 import hashlib

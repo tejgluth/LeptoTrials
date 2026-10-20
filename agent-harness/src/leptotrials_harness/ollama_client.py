@@ -1,4 +1,4 @@
-"""Native local Ollama adapter: explicit context, JSON schema, no keys or cloud fallback."""
+"""Ollama client for running classifications on a local model."""
 
 import re
 import time
@@ -94,7 +94,7 @@ class OllamaClient:
     def generate(self, system: str, task: str, payload: dict) -> ModelReply:
         start = time.perf_counter()
         schema = local_wire_schema(payload)
-        # Server-side truncation and context shifting are disabled: never discard eligibility.
+        # turn off truncation/context shifting so eligibility text never gets dropped
         body = {
             "model": self.config.model_id,
             "stream": False,
@@ -161,7 +161,7 @@ class OllamaClient:
                 code="model_revision_changed",
                 retryable=False,
             )
-        # Never retain message.thinking or other hidden reasoning.
+        # drop message.thinking, we only keep the final answer
         usage = {
             "total_input_tokens": data.get("prompt_eval_count"),
             "total_output_tokens": data.get("eval_count"),

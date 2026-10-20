@@ -1,4 +1,4 @@
-"""Review-only export compatible with ManualAuditOverride; no deployment or source mutation."""
+"""Export approved decisions in the same shape as the site's ManualAuditOverride table."""
 
 import json
 import os
@@ -10,7 +10,7 @@ from .models import UNRESOLVED
 
 
 def application_root(output: Path, explicit: Path | None = None) -> Path:
-    """Locate the real app, including when the harness is installed from a wheel."""
+    """Find the app checkout, also when the harness is installed from a wheel."""
     if explicit is not None:
         root = explicit.resolve()
         if not (root / "src/utils/manualAuditOverrides.ts").is_file():
@@ -61,7 +61,7 @@ def export_approved(
         )
     if not overrides:
         raise ValueError("No source-checked, resolved expert-approved classifications to export")
-    # Existing files must be merged deliberately by a maintainer, never replaced here.
+    # never overwrite, merging into the app is done by hand
     artifact = {
         "kind": "reviewed_candidate_export_not_deployed",
         "created_at": now(),

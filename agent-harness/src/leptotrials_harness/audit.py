@@ -1,4 +1,4 @@
-"""Separate immutable expert decisions and reviewer-friendly CSV/Markdown packets."""
+"""Expert review packets (CSV/Markdown) and importing the adjudications back."""
 
 import csv
 import io
@@ -52,7 +52,7 @@ def adjudicate(run_dir: Path, path: Path, store: Path) -> list[dict]:
     experts = load_adjudications(path)
     for expert in experts:
         check_adjudication(records[expert.nct_id], expert)
-    # Validate the whole import before creating any files. Original model output is untouched.
+    # validate everything before writing anything
     for expert in experts:
         write_json(
             store

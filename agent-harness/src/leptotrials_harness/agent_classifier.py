@@ -1,4 +1,4 @@
-"""Bounded model attempts; retain raw final JSON and explicit rejection diagnostics."""
+"""Stage 2: model classification with a few retries and the reasons each attempt failed."""
 
 import time
 
@@ -75,8 +75,7 @@ def classify_agent(trial: TrialInput, client: ModelClient, *, prompt: dict | Non
                 else "Output contract rejected",
             }
             if isinstance(exc, ValidationError):
-                # Send actionable contract failures, not the rejected response/input or
-                # Pydantic context (which can include arbitrary source text/objects).
+                # send back what was wrong, not the pydantic context (may contain source text)
                 attempt["error"]["violations"] = [
                     {
                         "field": ".".join(str(part) for part in item["loc"]) or "$",

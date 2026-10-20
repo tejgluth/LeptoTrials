@@ -1,4 +1,4 @@
-"""True dated AACT flat-file ingestion; never substitute current registry text."""
+"""Load dated AACT flat-file archives as historical trial inputs."""
 
 import csv
 import gzip
@@ -67,7 +67,7 @@ ONCOLOGY = re.compile(
 
 
 class FlatFiles:
-    """Read only selected tables. ZIP members are never extracted to filesystem paths."""
+    """Read the tables we need straight out of the zip (nothing is extracted to disk)."""
 
     def __init__(self, source: Path):
         self.source = source
@@ -134,7 +134,7 @@ def candidate_reason(text):
 
 
 def normalize_rows(nct, rows, reasons, cutoff):
-    """Bridge source columns into the existing normalizer; not an API response capture."""
+    """Map AACT columns onto the shape the normalizer expects."""
     study = rows["studies"][0]
     single = lambda table: rows[table][0] if rows[table] else {}  # noqa: E731
     eligibility = single("eligibilities")

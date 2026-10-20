@@ -5,7 +5,7 @@ model:
   temperature: 0.0
   timeout_seconds: 90
   max_attempts: 3
-  # Supply dated prices yourself; null means unknown, not zero cost.
+  # USD per 1M tokens, fill in for cost estimates (null = unknown)
   input_usd_per_million: null
   output_usd_per_million: null
 registry:

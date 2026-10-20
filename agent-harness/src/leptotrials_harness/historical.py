@@ -1,4 +1,4 @@
-"""Public API retrospective subsets and frozen-snapshot import, with explicit limitations."""
+"""Retrospective subsets from the public API, and importing archived snapshots."""
 
 import hashlib
 from datetime import date
@@ -12,10 +12,9 @@ from .trial_normalizer import normalize
 def capture_unchanged_round(
     client: RegistryClient, cutoff: date, round_id: str, destination: Path
 ) -> dict:
-    """Not a complete historical search: old records modified later are necessarily absent.
+    """Records that haven't changed since the cutoff. Anything updated later is missing.
 
-    Use all recruitment statuses: filtering on today's recruitment would bias historic status.
-    Independently verify posting/update dates on every returned record.
+    Searches every status, since filtering on today's status would skew the old set.
     """
     advanced = (
         f"AREA[LastUpdatePostDate]RANGE[MIN,{cutoff.isoformat()}] AND "
@@ -77,7 +76,7 @@ def capture_unchanged_round(
 def import_snapshot(
     source: Path, cutoff: date, round_id: str, destination: Path, provenance: str, role: str
 ) -> dict:
-    """Import an actual archived as-of API-v2 snapshot; never refetch current details."""
+    """Import an archived API v2 snapshot as-is."""
     data = read_json(source)
     if data.get("snapshot_date") != cutoff.isoformat() or not isinstance(data.get("studies"), list):
         raise ValueError(

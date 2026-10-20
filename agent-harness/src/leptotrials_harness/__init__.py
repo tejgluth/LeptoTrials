@@ -1,3 +1,3 @@
-"""Separate research and maintenance subsystem; never imported by the patient runtime."""
+"""LM trial classification harness for LeptoTrials. Not used by the website at runtime."""
 
 __version__ = "0.1.0"

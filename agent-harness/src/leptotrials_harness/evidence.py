@@ -1,4 +1,4 @@
-"""Reject hallucinated quotes, mismatched IDs, schema versions and provenance."""
+"""Checks model output against the source: quotes, IDs, versions and provenance."""
 
 import re
 
@@ -11,7 +11,7 @@ class EvidenceError(ValueError):
 
 
 def lm_permission_exception(quote: str, context: str = "") -> bool:
-    """A conservative copying gate, not a clinical permission classifier."""
+    """Rough check for an LM exception in a passage (used to gate copying, not to classify)."""
     return any(
         detect(clause, context)
         and re.search(
@@ -25,7 +25,7 @@ def lm_permission_exception(quote: str, context: str = "") -> bool:
 
 
 def has_plain_lm_exclusion(trial: TrialInput) -> bool:
-    """Full-source safety signal, not a clinical classification or stored quote."""
+    """Flags a source-level conflict; this isn't a classification."""
     sections = re.split(
         r"(\b(?:inclusion|exclusion)\s+criteria\b)",
         trial.eligibility.raw_text.replace("~", "\n"),
@@ -49,7 +49,7 @@ def has_plain_lm_exclusion(trial: TrialInput) -> bool:
 
 
 def scope_is_source_named(cohort: str | None, trial: TrialInput) -> bool:
-    """A scope label must identify a source group, not a generated sentence."""
+    """Scope labels have to name a group from the source, not a made-up sentence."""
     if not cohort:
         return False
     normalize = lambda s: re.sub(r"\s+", " ", s).strip().casefold()  # noqa: E731
@@ -92,7 +92,7 @@ def verify_evidence(
                 value = value[int(part)] if isinstance(value, list) else value[part]
         except (KeyError, IndexError, TypeError, ValueError) as exc:
             raise EvidenceError(f"Invalid evidence field {evidence.field}") from exc
-        # Do not concatenate arrays: a passage must occur within one source value.
+        # a quote has to come from a single field value
         values = [value] if isinstance(value, str) else value if isinstance(value, list) else []
         if not any(
             isinstance(v, str) and normalized(evidence.quote) in normalized(v) for v in values
@@ -103,9 +103,8 @@ def verify_evidence(
             and evidence.direction == "inclusion"
             and field.startswith("eligibility.")
         ):
-            # Fail closed on an exclusion being re-labelled affirmative evidence.
-            # Do not turn legitimate exceptions ('unless...', 'are eligible...')
-            # into blanket exclusions. This is a rejection gate, not a classifier.
+            # reject exclusions passed off as inclusion evidence, but let real
+            # exceptions ("unless...", "are eligible...") through
             text = normalized(trial.eligibility.raw_text)
             offset = text.find(normalized(evidence.quote))
             lm = re.search(
@@ -120,8 +119,7 @@ def verify_evidence(
             in_exclusion = field == "eligibility.exclusion_text" or (
                 offset >= 0 and headings and headings[-1].group(1).lower() == "exclusion"
             )
-            # A nearby permission for *dural/brain* metastases is not an LM
-            # exception. Restrict this gate to the same LM-bearing clause.
+            # an exception for brain/dural mets nearby doesn't count, it has to be the LM clause
             explicit_exception = lm_permission_exception(evidence.quote, trial.brief_title)
             if in_exclusion and not explicit_exception:
                 raise EvidenceError(

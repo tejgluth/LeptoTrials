@@ -1,4 +1,4 @@
-"""Two-stage orchestration, immutable per-run decisions, cache and provenance."""
+"""Runs stage 1 and stage 2, caches results and writes the per-run decision files."""
 
 import json
 import threading
@@ -63,14 +63,13 @@ class Pipeline:
         source=None,
     ):
         self.config, self.output = config, output
-        # Snapshot once: editing the prompt registry must not change later records,
-        # retries, cache provenance or the final manifest of an already-running batch.
+        # load prompts once so editing them mid-run doesn't change the rest of the batch
         self.prompt = prompts()
         self.dry_run, self.use_cache, self.force_model = dry_run, use_cache, force_model
         self.client = client
         self.source = source
         if config.model.provider == "ollama" and not dry_run and client is None:
-            # Resolve local tag to immutable digest before constructing a cache key.
+            # use the model digest, not the tag, in the cache key
             self.client = create_model_client(config.model)
         self.client_lock = threading.Lock()
         self.provider_halt = None
@@ -254,7 +253,7 @@ class Pipeline:
             }
         )
         write_json(self.run_dir / "decisions" / f"{trial.nct_id}.json", record)
-        # Minimal machine-readable event logs deliberately exclude full registry text.
+        # event log stays small, no registry text in here
         self.run_dir.mkdir(parents=True, exist_ok=True)
         with (self.run_dir / "events.jsonl").open("a") as file:
             from .logging_utils import canonical

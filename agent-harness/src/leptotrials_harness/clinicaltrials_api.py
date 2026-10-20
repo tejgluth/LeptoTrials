@@ -1,4 +1,4 @@
-"""Public CTG API v2 with bounded retries and fail-closed pagination."""
+"""ClinicalTrials.gov API v2 client with retries. Incomplete pagination raises."""
 
 import re
 import time

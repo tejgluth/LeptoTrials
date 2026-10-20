@@ -1,4 +1,4 @@
-"""Local commands used identically by a researcher, cron, or a scheduled ChatGPT task."""
+"""Command line entry point."""
 
 import argparse
 import json
@@ -33,7 +33,7 @@ def safe_round(value: str) -> str:
 
 def parser() -> argparse.ArgumentParser:
     root = argparse.ArgumentParser(
-        description="Auditable registry-level LM classification; no deployment"
+        description="Classify ClinicalTrials.gov records for LM eligibility"
     )
     root.add_argument("--config", type=Path, help="Override default YAML settings")
     root.add_argument(
@@ -49,9 +49,7 @@ def parser() -> argparse.ArgumentParser:
     maintain = commands.add_parser(
         "maintain", help="Fetch candidates, classify changed records, emit review packet"
     )
-    fetch = commands.add_parser(
-        "fetch-candidates", help="Complementary, sensitive discovery; follow every page"
-    )
+    fetch = commands.add_parser("fetch-candidates", help="Run the broad candidate searches")
     for p in (fetch, maintain):
         p.add_argument(
             "--status", action="append", help="Registry status, repeatable; recruiting accepted"
@@ -74,28 +72,22 @@ def parser() -> argparse.ArgumentParser:
     comparison.add_argument("--manifest", type=Path, required=True)
     variants = comparison.add_mutually_exclusive_group(required=True)
     variants.add_argument("--models", nargs="+", help="Explicit provider:model IDs")
-    variants.add_argument(
-        "--configs", type=Path, nargs="+", help="Complete provider/model configurations"
-    )
+    variants.add_argument("--configs", type=Path, nargs="+", help="Config files to compare")
     for p in (validation, all_rounds, comparison):
         p.add_argument("--dry-run", action="store_true")
         p.add_argument("--workers", type=int, default=1)
-    review = commands.add_parser(
-        "review", help="Write concise source-linked expert review Markdown"
-    )
+    review = commands.add_parser("review", help="Write a Markdown review packet for a run")
     review.add_argument("run", type=Path)
     review.add_argument("--output", type=Path, required=True)
     audit = commands.add_parser(
-        "create-audit-batch", help="Export all recent decisions for periodic audit"
+        "create-audit-batch", help="Export recent decisions as a CSV for review"
     )
     audit.add_argument("--since", type=date.fromisoformat, required=True)
     audit.add_argument("--output", type=Path, required=True)
-    expert = commands.add_parser("adjudicate", help="Validate and append separate expert decisions")
+    expert = commands.add_parser("adjudicate", help="Import expert decisions for a run")
     expert.add_argument("run", type=Path)
     expert.add_argument("adjudications", type=Path)
-    export = commands.add_parser(
-        "export-approved", help="Create review-only overrides; never overwrite source"
-    )
+    export = commands.add_parser("export-approved", help="Export approved decisions as overrides")
     export.add_argument("--run", type=Path, required=True)
     export.add_argument("--adjudications", type=Path, required=True)
     export.add_argument("--format", choices=["json", "typescript"], default="json")
@@ -103,38 +95,32 @@ def parser() -> argparse.ArgumentParser:
     export.add_argument(
         "--app-root", type=Path, help="App repository root for TypeScript type imports"
     )
-    schemas = commands.add_parser("schemas", help="Generate public JSON schema contracts")
+    schemas = commands.add_parser("schemas", help="Regenerate the JSON schemas")
     schemas.add_argument("--check", action="store_true")
-    inspection = commands.add_parser(
-        "execution-report", help="Inspect saved/active runs without API calls or accuracy claims"
-    )
+    inspection = commands.add_parser("execution-report", help="Summarize saved or running runs")
     inspection.add_argument("directory", type=Path, help="Output directory containing runs/")
     inspection.add_argument("--output", type=Path, help="New JSON report plus Markdown sidecar")
     parity = commands.add_parser(
-        "reconcile-production", help="Compare an exact live baseline with independent results"
+        "reconcile-production", help="Compare the live site's trial list with a run"
     )
     parity.add_argument("--baseline", type=Path, required=True)
     parity.add_argument("--candidates", type=Path, required=True)
     parity.add_argument("--run", type=Path, required=True)
     parity.add_argument("--output", type=Path)
-    retry = commands.add_parser(
-        "prepare-retry", help="Freeze failed decisions into an explicit retry batch"
-    )
+    retry = commands.add_parser("prepare-retry", help="Make a retry batch from failed decisions")
     retry.add_argument("run", type=Path, help="Sealed source run directory")
     retry.add_argument("--output", type=Path, required=True)
     retry.add_argument(
         "--include-review", action="store_true", help="Also select valid review decisions"
     )
     retry.add_argument("--manifest", type=Path, help="Frozen round; also select unprocessed IDs")
-    retry.add_argument("--limit", type=int, help="Bounded development sample, not a full rerun")
+    retry.add_argument("--limit", type=int, help="Only take the first N")
     historical = commands.add_parser(
-        "fetch-historical", help="New retrospective unchanged-record subsets; NOT full snapshots"
+        "fetch-historical", help="Build retrospective subsets from the current API"
     )
     historical.add_argument("--dates", type=date.fromisoformat, nargs="+", required=True)
     historical.add_argument("--destination", type=Path, required=True)
-    aact = commands.add_parser(
-        "import-aact", help="Import a true dated AACT flat-file ZIP or folder"
-    )
+    aact = commands.add_parser("import-aact", help="Import a dated AACT flat-file zip or folder")
     aact.add_argument("source", type=Path)
     aact.add_argument("--date", type=date.fromisoformat, required=True)
     aact.add_argument("--round", type=safe_round, required=True)
@@ -142,9 +128,7 @@ def parser() -> argparse.ArgumentParser:
     aact.add_argument(
         "--provenance", required=True, help="Archive page/download URL and source date"
     )
-    snapshot = commands.add_parser(
-        "import-snapshot", help="Import actual archived as-of API-v2 records"
-    )
+    snapshot = commands.add_parser("import-snapshot", help="Import an archived API v2 snapshot")
     snapshot.add_argument("source", type=Path)
     snapshot.add_argument("--date", type=date.fromisoformat, required=True)
     snapshot.add_argument("--round", type=safe_round, required=True)
@@ -213,7 +197,7 @@ def execute(args) -> dict:
                 if read_json(path) != schema:
                     raise ValueError(f"Schema drift: regenerate {name}")
             else:
-                # Generated schema is a bulk mechanical rewrite, not a run artifact.
+                # schemas are regenerated wholesale
                 path.write_text(json.dumps(schema, indent=2) + "\n")
         return {"schemas": "checked" if args.check else "generated"}
     if command in ("classify", "fetch-candidates", "maintain", "fetch-historical"):
@@ -355,6 +339,6 @@ def main():
         if failed:
             sys.exit(2)
     except (ValueError, KeyError, TypeError, OSError, RuntimeError) as exc:
-        # Do not print arbitrary SDK exception text or response payloads.
+        # SDK errors can include payloads/keys, so don't print them
         print(json.dumps({"error": type(exc).__name__, "message": str(exc)}), file=sys.stderr)
         sys.exit(2)

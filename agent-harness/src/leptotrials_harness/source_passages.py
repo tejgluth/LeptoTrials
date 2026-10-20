@@ -1,8 +1,7 @@
-"""Verbatim source anchors, never summaries or eligibility decisions.
+"""Pick out exact LM-related passages the model can quote from.
 
-These copying aids supplement the complete normalized record. They are not trusted
-as evidence until the usual path/substring verifier checks the model's final JSON.
-No fuzzy match is ever accepted as a quote or used to repair a model response.
+These are only copying aids on top of the full record. Quotes still have to pass
+the normal evidence check, and nothing is fuzzy-matched.
 """
 
 import re
@@ -26,7 +25,7 @@ def source_strings(trial: TrialInput) -> list[tuple[str, str]]:
                 visit(item, f"{path}.{key}" if path else key)
 
     data = trial.model_dump(mode="json")
-    # AACT sometimes cannot be split on headings: raw_text remains authoritative.
+    # some AACT records can't be split on headings, raw_text is the fallback
     fields = (
         "eligibility",
         "arms_and_cohorts",
@@ -55,10 +54,10 @@ def source_strings(trial: TrialInput) -> list[tuple[str, str]]:
 
 
 def source_passages(trial: TrialInput, limit: int = 80) -> list[dict]:
-    """Offer short exact LM-bearing anchors plus titles; retain the entire input too."""
+    """Short exact passages that mention LM, plus the titles."""
     anchors, seen = [], set()
     for field, value in source_strings(trial):
-        # Newlines and AACT's literal '~' delimiters stay unchanged in the source.
+        # keep newlines and AACT's "~" delimiters as they are
         if not (detect(value, trial.brief_title) or field.endswith("title")):
             continue
         if len(value) <= 300:
@@ -69,8 +68,7 @@ def source_passages(trial: TrialInput, limit: int = 80) -> list[dict]:
                     r"lepto[- ]?mening\w*|meningeal|meningitis|\b(?:LM|LMD|LMC)\b", value, re.I
                 )
             )
-            # Include preceding source context across literal AACT delimiters, so
-            # qualifiers and cohort labels on wrapped lines are not discarded.
+            # pull in the previous line too so cohort labels/qualifiers aren't cut off
             quotes = [value[max(0, hit.start() - 140) : hit.start() + 160] for hit in hits[:12]]
             if not quotes and field.endswith("title"):
                 quotes = [value[:300]]
@@ -99,7 +97,7 @@ def source_passages(trial: TrialInput, limit: int = 80) -> list[dict]:
 
 
 def rejection_hints(raw_output: str | None, trial: TrialInput) -> list[dict]:
-    """Suggest actual source passages to a *new* bounded attempt, not a repair."""
+    """Passages to suggest when retrying after a bad quote."""
     import json
 
     try:

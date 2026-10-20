@@ -1,4 +1,4 @@
-"""Inspect a difficult real source record with no model calls or runtime mutation."""
+"""Show how one tricky trial gets normalized and routed, without calling a model."""
 
 from pathlib import Path
 

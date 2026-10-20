@@ -1,4 +1,4 @@
-"""Read-only execution inspection, including interrupted runs; never accuracy claims."""
+"""Inspect finished or interrupted runs without touching them."""
 
 import json
 from collections import Counter
@@ -42,19 +42,17 @@ def checked_record(path: Path, run: Path) -> tuple[dict, TrialInput]:
         raise ValueError("Source input fingerprint mismatch")
     if record.get("result"):
         result = ClassificationOutput.model_validate_json(json.dumps(record["result"]))
-        # New policy disagreements are not corrupted historical artifacts. Verify
-        # identity, schema and source quotes here; report current-policy warnings
-        # separately without dropping whole rounds or altering their old counts.
+        # Old outputs can disagree with the current policy without being broken.
+        # Check identity, schema and quotes here and report policy warnings separately.
         verify_evidence(result, trial, semantic_support=False)
     return record, trial
 
 
 def inspect_execution(output_root: Path) -> dict:
-    """Snapshot available decisions without modifying them or making model/API calls.
+    """Summarize the decisions a run has written so far. Read-only, no API calls.
 
-    A live writer can advance during inspection. Unreadable/unsealed artifacts are
-    disclosed, never counted as successful records. Duplicate record-rounds remain
-    separate, while unique source revisions are reported separately.
+    Safe to call while the run is still writing. Unreadable or unsealed files are
+    reported as such instead of being counted.
     """
     started = now()
     runs = output_root / "runs"
@@ -122,7 +120,7 @@ def inspect_execution(output_root: Path) -> dict:
                 continue
             reasons[(error.get("type", "unknown"), error.get("message", "unknown"))] += 1
             violations = error.get("violations", [])
-            # Diagnose legacy responses locally; keep the old artifact unchanged.
+            # re-check old responses in memory, the saved file stays as is
             if error.get("message") == "Output contract rejected" and not violations:
                 try:
                     ClassificationOutput.model_validate_json(attempt.get("raw_output") or "")
@@ -274,7 +272,7 @@ def prepare_retry(
     manifest_path: Path | None = None,
     limit: int | None = None,
 ) -> dict:
-    """Prepare an explicit frozen retry batch; no calls, guessing or overwritten decisions."""
+    """Write a retry batch with just the failed inputs. Existing decisions are kept."""
     if limit is not None and limit < 1:
         raise ValueError("--limit must be positive")
     records = load_decisions(run)  # Require a sealed, integrity-checked source run.

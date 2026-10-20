@@ -1,4 +1,4 @@
-"""Official OpenAI Responses API, plus explicit schema-capable compatible Chat endpoints."""
+"""OpenAI Responses API client, plus OpenAI-compatible chat endpoints."""
 
 import os
 import time

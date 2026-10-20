@@ -1,5 +1,4 @@
-# Development comparison option, not an expert-validated production replacement.
-# Same registry input, output schema, source checks and local model; thinking disabled.
+# Same as ollama.yaml with thinking turned off, for speed comparisons.
 model:
   provider: ollama
   model_id: gemma4:latest

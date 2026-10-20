@@ -1,4 +1,4 @@
-"""Compare a captured live set with independent research results, never force parity."""
+"""Compare what the live site shows against the harness results."""
 
 import re
 from pathlib import Path

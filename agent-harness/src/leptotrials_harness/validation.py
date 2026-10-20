@@ -1,4 +1,4 @@
-"""Reproduce frozen rounds. Missing expert truth never becomes an accuracy claim."""
+"""Re-run the frozen validation rounds. No expert labels means no accuracy number."""
 
 import hashlib
 import json
@@ -124,7 +124,7 @@ def validate_all(directory: Path, config, output: Path, *, dry_run=False, worker
         if result["metrics"]:
             _, _, round_truth = load_round(path)
             round_records = load_decisions(output / "runs" / result["run"]["run_id"])
-            # The same NCT may recur in independent snapshots: key by round for aggregate counts.
+            # the same trial can show up in several rounds, so key by round
             for row in round_records:
                 records.append({**row, "nct_id": path.stem + ":" + row["nct_id"]})
             truth.extend({**row, "nct_id": path.stem + ":" + row["nct_id"]} for row in round_truth)
@@ -157,8 +157,7 @@ def compare_models(
             "ollama",
         ):
             if variant.model.provider != parts[0]:
-                # Provider-specific endpoint/key/pricing settings cannot leak into a
-                # different provider's evaluation. Custom endpoints need --configs.
+                # don't carry one provider's endpoint/key/pricing over to another (use --configs)
                 variant.model.base_url = None
                 variant.model.api_key_env = None
                 variant.model.model_revision = None
@@ -187,7 +186,7 @@ def compare_variants(
         raise ValueError("At least one model/configuration is required")
     rows = []
     for label, variant in variants:
-        # Force Stage 2 so model comparison is not dominated by deterministic bypasses.
+        # force stage 2 so the comparison is actually about the models
         result = validate_round(
             manifest,
             variant,

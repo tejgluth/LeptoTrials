@@ -1,4 +1,4 @@
-"""Official Google GenAI Interactions adapter; no fallback model or hidden tools."""
+"""Gemini client (google-genai)."""
 
 import os
 import re
@@ -81,7 +81,7 @@ class GeminiClient:
                 timeout=self.config.timeout_seconds,
             )
         except (errors.APIError, httpx.HTTPError, TimeoutError) as exc:
-            # Never serialize an SDK exception body: upstream diagnostics can contain secrets.
+            # don't include the SDK error body, it can contain secrets
             raise ModelFailure(f"Gemini request failed: {type(exc).__name__}") from None
         if getattr(response, "status", None) not in (None, "completed"):
             raise ModelFailure("Gemini returned incomplete/failed interaction")

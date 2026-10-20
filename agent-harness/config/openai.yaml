@@ -1,4 +1,4 @@
-# Temporary validation provider; results must not be described as Gemini validation.
+# OpenAI instead of the default Gemini config.
 model:
   provider: openai
   model_id: gpt-6-sol

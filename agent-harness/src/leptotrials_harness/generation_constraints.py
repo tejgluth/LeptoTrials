@@ -1,7 +1,6 @@
-"""Source-bound generation choices; final evidence verification still runs separately.
+"""Grammar constraints for local models so they can't produce known-bad combinations.
 
-These constraints prevent known malformed combinations during local generation.
-They do not approve a classification or replace full-source interpretation.
+Evidence is still verified separately afterwards.
 """
 
 import copy
@@ -27,7 +26,7 @@ def lm_clauses(anchor: dict, title: str) -> list[str]:
 
 
 def source_choices(payload: dict) -> dict:
-    """Retain only real LM-bearing references for affirmative/exclusion claims."""
+    """Only allow references to passages that actually mention LM."""
     trial = TrialInput.model_validate(payload["trial"])
     title = trial.brief_title
     anchors = payload.get("source_passages", [])
@@ -79,11 +78,10 @@ def _reference(ids: list[str], direction: str, base: dict) -> dict:
 
 
 def constrain_local_decisions(schema: dict, payload: dict) -> dict:
-    """Each branch is a complete object so local grammar conversion retains all fields."""
+    """Each branch is a full object, otherwise the grammar conversion drops fields."""
     choices = source_choices(payload)
     base = schema["$defs"]["EvidenceReference"]
-    # The caller keeps the original typed reference definition for context. Use a
-    # plain item schema for specialised branches rather than free-text references.
+    # specialised branches use a plain item schema instead of free-text references
     if "anyOf" in base:
         base = base["anyOf"][0]
     positive = _reference(choices["inclusion"], "inclusion", base)
@@ -125,7 +123,7 @@ def constrain_local_decisions(schema: dict, payload: dict) -> dict:
         elif category == Classification.LM_EXCLUDED:
             props["evidence"] = {"type": "array", "minItems": 1, "items": blanket}
         else:
-            # A negative list-membership decision cannot claim affirmative evidence.
+            # a "not included" decision can't cite inclusion evidence
             context = copy.deepcopy(schema["$defs"]["EvidenceReference"])
             if "anyOf" in context:
                 context["anyOf"] = [

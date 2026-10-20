@@ -1,4 +1,4 @@
-"""Provider contract and explicit factory; provider identity is part of every cache key."""
+"""Common interface for model providers. The provider is part of every cache key."""
 
 from typing import Protocol
 

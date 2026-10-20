@@ -1,4 +1,4 @@
-# Confidence is descriptive, not a calibrated acceptance probability.
+# Confidence is the model's own estimate, it isn't calibrated.
 confidence_acceptance_threshold: null
 review_unresolved_classifications: true
 review_unscoped_conflicts: true

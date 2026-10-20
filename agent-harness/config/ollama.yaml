@@ -1,4 +1,4 @@
-# Local Gemma, no API key, no paid endpoint, no automatic model download.
+# Local Gemma through Ollama. Pull the model first.
 model:
   provider: ollama
   model_id: gemma4:latest
@@ -10,7 +10,7 @@ model:
   timeout_seconds: 300
   max_attempts: 3
   temperature: 0.0
-  # Optional: pin the digest reported by `ollama list` / /api/tags.
+  # optional, pin a digest from `ollama list`
   model_revision: null
   input_usd_per_million: 0.0
   output_usd_per_million: 0.0

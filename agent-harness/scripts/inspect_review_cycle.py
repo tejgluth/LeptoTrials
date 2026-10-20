@@ -1,4 +1,4 @@
-"""Offline post-run inspection; no model calls, expert labels or production changes."""
+"""Summarize a finished offline review cycle."""
 
 import json
 import sys

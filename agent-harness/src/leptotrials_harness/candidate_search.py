@@ -1,4 +1,4 @@
-"""Sensitive complementary retrieval, provenance per ID, no production membership claim."""
+"""Broad ClinicalTrials.gov searches for candidate trials, tracking which query found each one."""
 
 from .clinicaltrials_api import RegistryClient, RegistryError
 from .logging_utils import now

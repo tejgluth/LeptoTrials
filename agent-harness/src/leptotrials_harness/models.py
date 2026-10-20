@@ -1,4 +1,4 @@
-"""Typed contracts. JSON schemas are generated from these models, never hand-maintained."""
+"""Pydantic models. The JSON schemas in schemas/ are generated from these."""
 
 from datetime import date
 from enum import StrEnum
@@ -128,8 +128,7 @@ class Evidence(StrictModel):
 
 
 class ClassificationOutput(StrictModel):
-    # Preserve archive reads while rejecting undecided current outputs in the
-    # generated JSON Schema as well as the typed runtime validator.
+    # old archives can still be read, but new outputs must make a decision
     model_config = ConfigDict(
         json_schema_extra={
             "allOf": [

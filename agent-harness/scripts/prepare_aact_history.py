@@ -1,7 +1,7 @@
-"""Download/import dated public AACT protocol tables and verify routing, never call models.
+"""Download and import dated AACT tables, then dry-run the routing (no model calls).
 
-Run from agent-harness. Downloads require internet; once imported, dry runs are offline.
-Each subprocess has a finite timeout. Failed stages stop the workflow, retaining logs.
+Run from agent-harness. Only the download needs internet. A failed step stops
+the whole thing and keeps its logs.
 """
 
 import argparse
@@ -17,7 +17,7 @@ from leptotrials_harness.logging_utils import now
 
 
 def save_status(path: Path, summary: dict) -> None:
-    """Replace only this workflow's mutable progress pointer, not research artifacts."""
+    """Update the progress file for this workflow."""
     temporary = path.with_name(f".{path.name}.{uuid.uuid4().hex}.tmp")
     with temporary.open("x") as stream:
         json.dump(summary, stream, indent=2)
@@ -82,8 +82,7 @@ def main():
             current["state"] = "source_verified"
             save_status(args.verification_root / "status.json", summary)
             manifest = args.destination / "manifests" / f"{round_id}.json"
-            # A fresh acquisition run never trusts a pre-existing imported manifest.
-            # Import into another destination instead of silently reusing it.
+            # don't reuse an existing import, pick a new destination
             if manifest.exists():
                 raise FileExistsError(f"Existing round: {manifest}; choose a new destination")
             stage(

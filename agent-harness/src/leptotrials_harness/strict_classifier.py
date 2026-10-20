@@ -1,4 +1,4 @@
-"""Conservative, versioned inclusion rules informed by trialFilter.ts, not a port of it."""
+"""Stage 1: a couple of strict rules that can include a trial without a model call."""
 
 import re
 
@@ -18,8 +18,8 @@ def classify_strict(trial: TrialInput) -> tuple[str, ClassificationOutput] | Non
     )
     if re.search(r"\bcohorts?\b|\bparts?\s+[A-F1-9]\b", population_text, re.I):
         return None
-    # An LM condition alongside other diseases is not proof of an exclusively LM
-    # population (e.g. brain OR LM, or an LM cohort within a general CNS study).
+    # LM listed next to other conditions doesn't mean the whole study is LM
+    # (e.g. "brain or LM", or one LM cohort in a general CNS trial)
     if re.search(
         r"\b(?:brain|CNS)\b.{0,60}\bor\b.{0,60}leptomeningeal|"
         r"leptomeningeal.{0,60}\bor\b.{0,60}\b(?:brain|CNS)\b",
@@ -27,7 +27,7 @@ def classify_strict(trial: TrialInput) -> tuple[str, ClassificationOutput] | Non
         re.I,
     ):
         return None
-    # Exact named malignant conditions, not arbitrary mentions or ambiguous abbreviations.
+    # exact condition names only, no substrings or abbreviations
     exact_conditions = {
         "leptomeningeal metastasis",
         "leptomeningeal metastases",
@@ -49,7 +49,7 @@ def classify_strict(trial: TrialInput) -> tuple[str, ClassificationOutput] | Non
         trial.brief_title,
         re.I,
     )
-    # No generic title-keyword or washout/cohort bypass. Those require Stage 2.
+    # anything fuzzier than this goes to stage 2
     if condition is not None and (len(trial.conditions) == 1 or title_match):
         rule, field, quote = (
             "LM_CONDITION_EXACT_UNCONFLICTED",

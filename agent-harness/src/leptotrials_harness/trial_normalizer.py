@@ -1,4 +1,4 @@
-"""Normalize API v2 fields without summarizing away qualifiers or source text."""
+"""Turn ClinicalTrials.gov API v2 records into TrialInput."""
 
 import re
 
@@ -7,7 +7,7 @@ from .terminology import detect, lm_passages
 
 
 def eligibility_sections(raw: str) -> tuple[str, str, bool]:
-    """Preserve text while recognizing CTG headings even in flattened AACT rows."""
+    """Split criteria into inclusion/exclusion, including flattened AACT text."""
     marker = re.search(
         r"(?i)\b(?:(?:key|main|subject|patient|study|specific|general)\s+)?"
         r"exclusion(?:\s+criteria)?\s*(?=[:\n\r~(]|$)",
@@ -15,8 +15,7 @@ def eligibility_sections(raw: str) -> tuple[str, str, bool]:
     )
     if marker:
         return raw[: marker.start()], raw[marker.start() :], True
-    # Unparsed text is not, by default, an inclusion section. Keep the complete raw
-    # criterion as the authoritative evidence, rather than inventing section scope.
+    # if we can't find headings, don't pretend it's all inclusion criteria
     return "", "", False
 
 
@@ -29,7 +28,7 @@ def normalize(study: dict, reasons: list[str] | None = None) -> TrialInput:
     desc = p.get("descriptionModule") or {}
     elig = p.get("eligibilityModule") or {}
     raw = elig.get("eligibilityCriteria") or ""
-    # Preserve the raw criteria even if registry headings cannot be safely split.
+    # raw criteria are kept either way
     inclusion, exclusion, section_found = eligibility_sections(raw)
     arms = [
         Arm(
@@ -116,8 +115,7 @@ def extract_signals(trial: TrialInput) -> Signals:
         ]
     )
     arm_text = " ".join(a.label + " " + a.description for a in trial.arms_and_cohorts)
-    # Conservative Stage 1 veto: any LM-bearing exclusion or negative/conditional passage
-    # defers to contextual review, including exceptions that might ultimately allow LM.
+    # any LM exclusion or conditional mention sends the trial to stage 2, even if it might allow LM
     negative = [
         s
         for s in lm_passages(context + " " + trial.detailed_description + " " + arm_text)

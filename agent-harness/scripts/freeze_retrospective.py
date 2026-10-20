@@ -1,4 +1,4 @@
-"""Freeze API-derived inputs in a deduplicated public archive, not a full historical snapshot."""
+"""Freeze retrospective API inputs into one deduplicated archive."""
 
 import argparse
 import gzip

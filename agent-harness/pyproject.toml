@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "leptotrials-harness"
 version = "0.1.0"
-description = "Auditable two-stage registry-level LM classification and expert review"
+description = "LLM-assisted classification of LM eligibility in ClinicalTrials.gov records"
 requires-python = ">=3.11"
 dependencies = ["pydantic>=2.11,<3", "httpx>=0.28,<1", "google-genai>=2.3,<3", "openai>=2,<3", "python-dotenv>=1.1,<2", "pyyaml>=6,<7"]
 

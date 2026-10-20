@@ -1,7 +1,6 @@
-"""Read public archive members by HTTP range, without downloading unrelated results.
+"""Read single tables out of a remote AACT zip using HTTP range requests.
 
-Pass an archive URL obtained from the authenticated AACT download page, never a
-cookie or account password. This helper does not authenticate or bypass access.
+Pass the archive URL from the AACT download page. No login is handled here.
 """
 
 import argparse
@@ -20,7 +19,7 @@ import httpx
 
 
 class RemoteArchive(io.RawIOBase):
-    """Seekable, bounded, HTTPS-only byte reader suitable for stdlib ZipFile."""
+    """Seekable HTTPS reader so ZipFile can read a remote archive."""
 
     def __init__(self, url: str, block_size=4 * 1024 * 1024):
         super().__init__()
@@ -112,10 +111,9 @@ class RemoteArchive(io.RawIOBase):
 
 
 def verify_local_origin(path: Path, archive: zipfile.ZipFile, url: str) -> dict:
-    """Check public object size/ZIP directory, then fingerprint the local archive.
+    """Check the remote size and zip directory, then hash the local copy.
 
-    This is corruption/provenance checking, not a remote cryptographic SHA claim.
-    Selected members still undergo CRC verification while being read below.
+    Members are also CRC-checked as they're read.
     """
 
     def directory(file):
@@ -194,8 +192,7 @@ def main():
                             destination.write(chunk)
                         destination.flush()
                         os.fsync(destination.fileno())
-                    # Link is create-only. A partial/failed read can never masquerade
-                    # as a completed source table; ZipFile verifies the member CRC.
+                    # link only after a full read (ZipFile checks the CRC)
                     os.link(temporary, target / name)
                     temporary.unlink()
                     hashes[name] = checksum.hexdigest()

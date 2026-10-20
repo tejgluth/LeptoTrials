@@ -1,4 +1,4 @@
-# Endpoint/model/schema support depend on your service; never silently fall back to JSON mode.
+# Template for any OpenAI-compatible endpoint. It has to support JSON schema output.
 model:
   provider: openai-compatible
   model_id: REPLACE_WITH_YOUR_MODEL_ID

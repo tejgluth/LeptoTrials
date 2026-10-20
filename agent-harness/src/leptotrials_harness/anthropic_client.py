@@ -1,4 +1,4 @@
-"""Anthropic Messages API with JSON schema, bounded transport and no thought storage."""
+"""Anthropic Messages API client using structured JSON output."""
 
 import os
 import time
@@ -12,7 +12,7 @@ from .structured_input import wire_output_schema
 
 
 def wire_schema(value):
-    """Remove unsupported grammar constraints; complete local schema still enforced afterward."""
+    """Strip schema keywords the API doesn't support. The full schema is checked locally after."""
     unsupported = {"minimum", "maximum", "minLength", "maxLength", "pattern", "format"}
     if isinstance(value, dict):
         return {k: wire_schema(v) for k, v in value.items() if k not in unsupported}

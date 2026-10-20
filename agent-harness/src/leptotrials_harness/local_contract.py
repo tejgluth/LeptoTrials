@@ -1,8 +1,7 @@
-"""Explicit local evidence-reference transport; never fuzzy quote repair.
+"""Compact output format for local models.
 
-The model selects a source passage ID. After typed validation, a deterministic
-lookup resolves BOTH field and quote from the submitted immutable input. Raw wire
-JSON remains in attempts; the canonical output is validated again independently.
+Instead of copying quotes, the model picks a passage ID and we look up the field and
+quote from the input. The raw response is kept and the final output is validated again.
 """
 
 import copy
@@ -49,9 +48,7 @@ def available_categories(trial: dict, *, output_version: str = SCHEMA_VERSION) -
     cohort_signal = len(trial.get("arms_and_cohorts", [])) > 1 or re.search(
         r"\bcohorts?\b|\b(?:part|group|arm)\s+[A-Z0-9]\b", text, re.I
     )
-    # Without any identifiable cohort signal, don't let a small local model name
-    # a conditional eligibility sentence as a new enrollment cohort. Inclusion,
-    # and rejection remain available. Legacy schemas retain abstention for archive reads.
+    # with no cohort signal in the source, don't let a small model invent a cohort
     return [
         c.value
         for c in Classification

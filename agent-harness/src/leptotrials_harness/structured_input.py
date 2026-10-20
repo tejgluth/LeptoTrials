@@ -1,4 +1,4 @@
-"""The exact model payload and stable substantive-content hash."""
+"""Builds the model payload and a content hash for caching."""
 
 from .config import RESOURCES
 from .evidence import lm_permission_exception
@@ -25,7 +25,7 @@ def content_hash(trial: TrialInput) -> str:
     for key in ("last_update_date", "candidate_retrieval_reasons", "deterministic_signals"):
         data.pop(key)
     if trial.input_schema_version == "1.0.0":
-        # Preserve legacy immutable fingerprints: the old contract had no population field.
+        # 1.0.0 inputs had no population field, keep their old hashes stable
         data["eligibility"].pop("population")
     return digest(data)
 
@@ -77,8 +77,7 @@ def model_payload(
             "Do not generate field or quote: the harness resolves BOTH "
             "from the selected ID after wire-schema validation.",
         }
-        # The list in the prompt must agree with the source-constrained grammar,
-        # including omitted unsupported exclusion/cohort choices.
+        # keep this list in sync with the grammar (some choices are removed per trial)
         payload["output_transport"]["available_classifications"] = local_wire_schema(payload)[
             "$defs"
         ]["Classification"]["enum"]
@@ -86,9 +85,9 @@ def model_payload(
 
 
 def wire_output_schema(payload: dict, *, constrain_quotes: bool = False) -> dict:
-    """Constrain evidence paths/provenance to this input, without repairing model output."""
+    """Restrict evidence paths and provenance values to what exists in this input."""
     schema = ClassificationOutput.model_json_schema()
-    # Concrete provider schemas do not need the archival version conditional.
+    # providers get the plain schema without the archive version branch
     schema.pop("allOf", None)
     if payload.get("provenance", {}).get("output_schema_version") == SCHEMA_VERSION:
         schema["$defs"]["Classification"]["enum"] = sorted(
@@ -143,8 +142,8 @@ def wire_output_schema(payload: dict, *, constrain_quotes: bool = False) -> dict
         )
     anchors = payload.get("source_passages", [])
     if constrain_quotes and anchors:
-        # Local small models repeatedly rewrite exact AACT delimiters despite
-        # feedback. Restrict generation to actual source strings, not fuzzy repair.
+        # small local models kept mangling AACT's "~" delimiters, so only allow
+        # exact source strings here
         import copy
 
         base = schema["$defs"]["Evidence"]
@@ -169,8 +168,7 @@ def wire_output_schema(payload: dict, *, constrain_quotes: bool = False) -> dict
                 k: props[k] for k in ("direction", "cohort", "field", "quote", "interpretation")
             }
             branches.append(branch)
-        # A plain exclusion cannot even be generated as inclusion. Clinical scope
-        # still needs independent verification; ambiguous anchors aren't conclusions.
+        # a plain exclusion can't be emitted as an inclusion; scope is still checked later
         schema["$defs"]["Evidence"] = {"anyOf": branches}
     provenance = payload.get("provenance", {})
     for key in ("model_version", "prompt_version", "input_schema_version", "output_schema_version"):
