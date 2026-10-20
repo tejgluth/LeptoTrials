@@ -76,9 +76,7 @@ def test_selected_frozen_rounds_preserve_exact_inputs_and_do_not_copy_unrelated_
 
 
 @pytest.mark.parametrize("post_inspection", [False, True])
-def test_selected_classification_job_never_runs_legacy_sweep_or_inherits_cloud_keys(
-    tmp_path, monkeypatch, post_inspection
-):
+def test_classification_job_skips_sweep_and_cloud_keys(tmp_path, monkeypatch, post_inspection):
     module = runner()
     (tmp_path / "job.json").write_text(
         json.dumps(

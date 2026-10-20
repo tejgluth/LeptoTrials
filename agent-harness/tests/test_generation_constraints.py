@@ -110,7 +110,7 @@ def test_positive_decision_cannot_omit_existing_lm_exclusion():
     validate(data, schema)
 
 
-def test_empty_registry_has_one_decisive_option_and_does_not_require_fabrication():
+def test_empty_registry_only_allows_not_included():
     payload = model_payload(TrialInput(nct_id="NCT01234567"), "gemma4:latest", provider="ollama")
     schema = local_wire_schema(payload)
     assert schema["$defs"]["Classification"]["enum"] == ["LM_NOT_INCLUDED"]

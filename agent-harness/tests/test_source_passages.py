@@ -29,7 +29,7 @@ def test_copying_aids_are_exact_and_do_not_replace_full_eligibility():
         )
 
 
-def test_retry_hints_never_repair_or_accept_an_invalid_quote():
+def test_retry_hints_dont_fix_invalid_quotes():
     item = trial("Exclusion Criteria:~2. Known leptomeningeal disease~3. Infection")
     rejected = response(item, "LM_EXCLUDED", quote="Known leptomeningeal disease...")
     original = json.dumps(rejected)

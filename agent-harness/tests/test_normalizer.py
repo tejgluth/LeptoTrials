@@ -90,7 +90,7 @@ def test_flat_aact_and_inline_headings_do_not_label_exclusions_as_inclusions():
         assert current.eligibility.inclusion_text + current.eligibility.exclusion_text == text
 
 
-def test_projection_repairs_legacy_views_without_rewriting_frozen_input_or_hash():
+def test_projection_fixes_old_views_but_keeps_hash():
     text = "Inclusion Criteria:~Part F: LM required.~Exclusion Criteria:~Parts A and B: LM."
     legacy = normalize(raw_trial(text))
     # Reproduce the old saved AACT projection bug deliberately.

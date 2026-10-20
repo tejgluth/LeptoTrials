@@ -9,9 +9,7 @@ from leptotrials_harness.logging_utils import now, read_json, write_json
 
 
 @pytest.mark.parametrize("unresolved", [False, True])
-def test_offline_post_inspection_checks_actual_decisions_without_manufacturing_parity(
-    config, tmp_path, unresolved
-):
+def test_post_run_inspection_checks_decisions(config, tmp_path, unresolved):
     script = Path(__file__).resolve().parents[1] / "scripts/inspect_review_cycle.py"
     spec = importlib.util.spec_from_file_location("inspect_review_cycle", script)
     module = importlib.util.module_from_spec(spec)

@@ -11,7 +11,7 @@ from leptotrials_harness.historical import import_snapshot
 from leptotrials_harness.trial_normalizer import normalize
 
 
-def test_report_inspects_live_checkpoint_without_accuracy_claim(config, tmp_path):
+def test_report_reads_running_checkpoint(config, tmp_path):
     item = trial()
     pipeline = Pipeline(config, tmp_path, client=FakeModel(config, response(item)))
     pipeline.classify(item)

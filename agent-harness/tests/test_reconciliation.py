@@ -41,7 +41,7 @@ def setup_case(tmp_path, config, *, complete=True):
     return baseline, candidates, pipeline, b, live, capture
 
 
-def test_membership_disagreement_is_explicit_and_does_not_change_decisions(tmp_path, config):
+def test_membership_differences_are_reported(tmp_path, config):
     baseline, candidates, pipeline, b, _, _ = setup_case(tmp_path, config)
     pipeline.classify(b)
     pipeline.finish()

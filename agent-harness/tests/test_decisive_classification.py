@@ -35,7 +35,7 @@ def test_every_live_provider_schema_requires_boolean_decision(provider):
     assert payload["provenance"]["output_schema_version"] == SCHEMA_VERSION
 
 
-def test_no_registry_support_produces_concrete_negative_without_false_exclusion(config, tmp_path):
+def test_no_registry_support_gives_not_included(config, tmp_path):
     item = trial("Previously treated brain metastases may participate.")
     output = response(item, "LM_NOT_INCLUDED")
     row = Pipeline(config, tmp_path, client=FakeModel(config, output)).classify(item)
@@ -46,7 +46,7 @@ def test_no_registry_support_produces_concrete_negative_without_false_exclusion(
     assert row["error"] is None
 
 
-def test_empty_source_can_return_do_not_include_without_fabricating_evidence():
+def test_empty_source_can_be_not_included_without_evidence():
     item = trial("")
     output = response(item, "LM_NOT_INCLUDED")
     output["evidence"] = []
@@ -55,7 +55,7 @@ def test_empty_source_can_return_do_not_include_without_fabricating_evidence():
     assert result.is_lm_inclusive is False
 
 
-def test_actual_lm_evidence_still_required_for_inclusion():
+def test_inclusion_requires_lm_evidence():
     item = trial("Previously treated brain metastases may participate.")
     output = ClassificationOutput.model_validate_json(json.dumps(response(item)))
     with pytest.raises(EvidenceError, match="does not establish LM permission"):
@@ -76,7 +76,7 @@ def test_legacy_abstentions_remain_readable_but_cannot_satisfy_new_requests(conf
     assert "schema version does not match" in result["attempts"][0]["error"]["message"]
 
 
-def test_rejected_unclear_answer_is_retried_not_silently_converted(config, monkeypatch):
+def test_unclear_answer_is_retried(config, monkeypatch):
     from leptotrials_harness.gemini_client import ModelReply
 
     monkeypatch.setattr("leptotrials_harness.agent_classifier.time.sleep", lambda _: None)

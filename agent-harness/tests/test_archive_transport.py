@@ -149,7 +149,7 @@ def test_local_zip_origin_check_binds_receipt_and_rejects_mismatches(tmp_path, m
         module.verify_local_origin(path, file, url)
 
 
-def test_history_preparation_updates_progress_and_never_requests_inference(tmp_path, monkeypatch):
+def test_history_preparation_updates_progress_without_model_calls(tmp_path, monkeypatch):
     path = Path(__file__).resolve().parents[1] / "scripts/prepare_aact_history.py"
     spec = importlib.util.spec_from_file_location("history_helper", path)
     module = importlib.util.module_from_spec(spec)

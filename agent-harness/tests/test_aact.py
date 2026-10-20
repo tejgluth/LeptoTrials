@@ -57,7 +57,7 @@ def table_files(folder: Path, future=False, duplicate=False):
                 writer.writerow({key: row.get(key, "") for key in fields})
 
 
-def test_actual_snapshot_ingestion_preserves_population_and_cohort_links(tmp_path):
+def test_snapshot_import_keeps_population_and_cohorts(tmp_path):
     source = tmp_path / "source"
     table_files(source)
     output = tmp_path / "frozen"
@@ -83,7 +83,7 @@ def test_bad_snapshot_does_not_publish_ready_manifest(tmp_path, future, duplicat
     assert not (tmp_path / "bad/manifests/round_01.json").exists()
 
 
-def test_missing_protocol_table_is_not_silently_treated_as_empty(tmp_path):
+def test_missing_protocol_table_raises(tmp_path):
     source = tmp_path / "empty"
     source.mkdir()
     with pytest.raises(ValueError, match="required protocol tables"):
@@ -116,7 +116,7 @@ def test_current_aact_date_columns_are_preserved_and_checked(tmp_path, future):
         assert manifest["snapshot_source"]["studies_without_source_dates"] == 0
 
 
-def test_unknown_date_column_schema_cannot_silently_pass_date_validation(tmp_path):
+def test_unknown_date_columns_fail_validation(tmp_path):
     source = tmp_path / "source"
     table_files(source)
     studies = source / "studies.txt"
