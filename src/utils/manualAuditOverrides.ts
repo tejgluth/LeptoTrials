@@ -7,10 +7,8 @@ export type ManualAuditOverride = {
   minimumAge?: string
 }
 
-export const MANUAL_AUDIT_REVIEWED_ON = '2026-10-17'
-
 // Hand-reviewed decisions for trials the keyword filter gets wrong or can't decide.
-export const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
+const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT00002578': { siteEligible: true, tumorLabels: [] },
   'NCT00002750': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT00002751': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },

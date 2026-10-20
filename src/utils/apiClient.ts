@@ -1,6 +1,6 @@
 import type { ApiResponse, SearchParams, OverallStatus, Study } from '../types/trial'
 import { COUNTRIES } from '../constants/countries'
-import { assertRegistryPage, assertRegistryStudy } from './registryResponse'
+import { assertRegistryPage } from './registryResponse'
 import { fetchAllStudies } from './fetchAllStudies'
 
 const BASE_URL = 'https://clinicaltrials.gov/api/v2/studies'
@@ -187,7 +187,7 @@ export const SUPPLEMENTAL_AUDITED_STUDY_IDS = [
 ] as const
 
 // retries network errors, 429s and 5xxs with exponential backoff
-export async function fetchRegistryJson(apiUrl: string, signal?: AbortSignal): Promise<unknown> {
+async function fetchRegistryJson(apiUrl: string, signal?: AbortSignal): Promise<unknown> {
   const timeout = AbortSignal.timeout(30_000)
   const requestSignal = signal ? AbortSignal.any([signal, timeout]) : timeout
   for (let attempt = 0; attempt < FETCH_RETRIES; attempt += 1) {
@@ -241,14 +241,6 @@ export function fetchCondStudies(params: SearchParams, pageToken?: string, signa
 
 export function fetchTermStudies(params: SearchParams, pageToken?: string, signal?: AbortSignal): Promise<ApiResponse> {
   return fetchRegistryPage(buildTermUrl(params, pageToken), signal)
-}
-
-export async function fetchStudyById(nctId: string, signal?: AbortSignal): Promise<Study> {
-  if (!/^NCT\d{8}$/.test(nctId)) throw new Error('Invalid study ID')
-  const study = await fetchRegistryJson(`${BASE_URL}/${nctId}`, signal)
-  assertRegistryStudy(study)
-  if (study.protocolSection.identificationModule.nctId !== nctId) throw new Error('ClinicalTrials.gov returned the wrong study ID')
-  return study
 }
 
 export async function fetchSupplementalAuditedStudies(signal?: AbortSignal): Promise<Study[]> {

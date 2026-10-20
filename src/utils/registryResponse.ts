@@ -3,7 +3,7 @@ import type { ApiResponse, Study } from '../types/trial'
 const INVALID_RESPONSE = 'ClinicalTrials.gov returned an incomplete or invalid response. Please try again.'
 
 // only checks the fields we actually need to filter and render a study
-export function assertRegistryStudy(value: unknown): asserts value is Study {
+function assertRegistryStudy(value: unknown): asserts value is Study {
   if (!value || typeof value !== 'object') throw new Error(INVALID_RESPONSE)
   const study = value as Partial<Study>
   const protocol = study.protocolSection
