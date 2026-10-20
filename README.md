@@ -38,6 +38,45 @@ Then open http://localhost:5173.
 
 ## How search works
 
+```mermaid
+flowchart TD
+    subgraph browser["Browser (React app)"]
+        form["Search form<br/>age, tumor type, location,<br/>phase, status"]
+        fetch["apiClient.ts<br/>fetch every page, retry, dedupe"]
+        filter["trialFilter.ts<br/>LM screening, age, tumor buckets"]
+        overrides[("manualAuditOverrides.ts<br/>hand-reviewed decisions")]
+        results["Results list"]
+    end
+
+    ctgov[("ClinicalTrials.gov<br/>API v2")]
+
+    subgraph cloudflare["Cloudflare Pages"]
+        events["/api/contact-events"]
+        dashboard["/api/contact-analytics<br/>(admin token)"]
+        d1[("D1<br/>count per trial")]
+    end
+
+    subgraph offline["agent-harness (offline)"]
+        harness["Stage 1 rules + stage 2 LLM<br/>classification"]
+        review["Expert review"]
+    end
+
+    form --> fetch
+    fetch -- "query.cond + query.term<br/>+ supplemental IDs" --> ctgov
+    ctgov --> fetch
+    fetch --> filter
+    overrides --> filter
+    filter --> results
+    results -- "email click / copy" --> events --> d1
+    d1 --> dashboard
+
+    ctgov -.-> harness --> review -. "merged by hand" .-> overrides
+```
+
+Search and filtering happen entirely in the browser. Cloudflare only stores contact
+counts, and the harness runs separately on a laptop or server. Its full pipeline is
+in the [harness README](agent-harness/README.md#how-it-works).
+
 1. Two queries go to the ClinicalTrials.gov v2 API. `query.cond` uses MeSH synonym
    expansion, so "leptomeningeal metastasis" also matches things like "meningeal
    carcinomatosis". `query.term` searches every field, which catches brain-metastasis
@@ -51,7 +90,7 @@ Then open http://localhost:5173.
    keyword rules get wrong, like a cohort that allows LM when another one excludes it.
    Those overrides win over the heuristics.
 
-The [agent harness](agent-harness/) is a separate Python tool that classifies
+The [agent harness](agent-harness/README.md) is a separate Python tool that classifies
 candidate trials with an LLM and exports reviewed decisions in the same format as the
 override table. The website never calls a model.
 
