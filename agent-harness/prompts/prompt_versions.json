@@ -1,17 +1,11 @@
 {
   "current": "1.7.0",
   "versions": {
-    "1.6.0": {
-      "date": "2026-10-18",
-      "system": "lm_classifier_system_v1_6.txt",
-      "task": "lm_classifier_task_v1_2.txt",
-      "description": "Previous policy used by retained historical outputs. New classifications use the current version."
-    },
     "1.7.0": {
       "date": "2026-10-19",
       "system": "lm_classifier_system_v1_7.txt",
       "task": "lm_classifier_task_v1_7.txt",
-      "description": "Binary registry inclusion with source-bound evidence under output schema 1.1.0. LM_NOT_INCLUDED distinguishes absent inclusion support from an explicit LM exclusion."
+      "description": "Binary registry inclusion with source-bound evidence (output schema 1.1.0). LM_NOT_INCLUDED separates missing inclusion support from an explicit LM exclusion."
     }
   }
 }

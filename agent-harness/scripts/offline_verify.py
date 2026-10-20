@@ -1,7 +1,7 @@
-"""One-shot, bounded macOS verification; frozen inputs, local Ollama, no secrets.
+"""One-off overnight verification run on macOS with a local Ollama model.
 
-Schedule once with ``.venv/bin/python scripts/offline_verify.py schedule --hours 8``.
-The launch agent runs independently of the terminal/chat and expires permanently.
+Schedule with ``.venv/bin/python scripts/offline_verify.py schedule --hours 8``.
+The launch agent runs on its own and removes itself when done.
 """
 
 import argparse
@@ -30,7 +30,7 @@ def save(path, value):
 
 
 def snapshot(source, destination):
-    """Explicit allowlist: never copy .env, private output, or credentials."""
+    """Files that get copied into the job (no .env, output or credentials)."""
     names = (
         "src",
         "config",
@@ -39,7 +39,6 @@ def snapshot(source, destination):
         "tests",
         "scripts",
         "examples",
-        "docs",
         "validation",
         "pyproject.toml",
         "requirements.lock",
@@ -89,7 +88,7 @@ def progress(output):
 
 
 def freeze_selected_rounds(manifests, destination):
-    """Copy only validated inputs/manifests, never credentials or arbitrary folders."""
+    """Copy the selected manifests and their inputs into the job folder."""
     from leptotrials_harness.logging_utils import digest
     from leptotrials_harness.validation import load_round
 
@@ -153,7 +152,7 @@ def run(job):
     frozen = job / "frozen-harness"
     output = job / "harness-output"
     python = settings["python"]
-    # Allowlist environment. No API keys, proxies, or original .env enter this job.
+    # clean env: no API keys, proxies or .env
     env = {
         "PATH": settings["path"],
         "HOME": str(Path.home()),
@@ -244,7 +243,7 @@ def run(job):
         state["phases"].append(phase)
         state["current_phase"] = name
         save(job / "status.json", state)
-        # Reserve enough time to interrupt and reap a child before the stated deadline.
+        # leave time to kill the child process before the deadline
         reserve = 120 if settings.get("post_inspection") and name != "post-inspection" else 0
         end = min(deadline - 25 - reserve, time.time() + allowance)
         with (job / f"{name}.log").open("a") as log:

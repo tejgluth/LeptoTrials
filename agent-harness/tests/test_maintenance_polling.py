@@ -99,8 +99,8 @@ def test_failed_later_query_never_classifies_a_partial_candidate_set(config, tmp
     assert failure["complete"] is False
 
 
-def test_documented_launchagent_is_parseable_and_invokes_real_cli():
-    docs = Path(__file__).resolve().parents[1] / "docs/scheduling.md"
+def test_readme_launchagent_runs_maintain():
+    docs = Path(__file__).resolve().parents[1] / "README.md"
     template = re.search(r"```xml\n(.*?)\n```", docs.read_text(), re.S)[1]
     job = plistlib.loads(template.encode())
     assert job["StartInterval"] == 900

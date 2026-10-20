@@ -1,5 +1,0 @@
-Evaluate this complete structured registry record. Decide whether LM is an explicit
-enrollment population, whether permission is general or cohort-specific, and whether
-any exclusion contradicts it. Return the complete structured classification JSON.
-Copy short evidence passages from their exact fields, preferably using source_passages.
-Check synonyms, active/symptomatic qualifiers and cohort scope before deciding.
