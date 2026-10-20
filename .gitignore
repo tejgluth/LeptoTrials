@@ -1,49 +1,29 @@
-# Logs
-logs
+node_modules/
+dist/
+dist-ssr/
+*.tsbuildinfo
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
 .cache/
-*.local
+coverage/
 
-# Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+*.local
 
-# Local development assistants and instructions
-.agents/
-.claude/
-.codex/
-.cursor/
-AGENTS.md
-CLAUDE.md
+# Cloudflare state and secrets
+.wrangler/
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.env
+.env.*
+*.pem
+!.env.example
+*.pem
 
-# Browser automation output and local reference captures
-.playwright-cli/
-.playwright-mcp/
+/output/
+/outputs/
 playwright-report/
 test-results/
-coverage/
-/mobile-home*.png
-/mobile-results*.png
-/query_description_image.HEIC
-# Local Netlify folder
-.netlify
-
-# Local Cloudflare state and secrets
-.wrangler
-.dev.vars
