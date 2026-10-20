@@ -13,20 +13,69 @@ someone reviews by hand before anything goes into the site's override table
 
 ```mermaid
 flowchart TD
-    A[ClinicalTrials.gov API v2] --> B[Broad candidate searches]
-    B --> C[Normalize and deduplicate]
-    C --> D{Stage 1 strict rules}
-    D -->|clearly an LM trial| E[Include, no model call]
-    D -->|anything else| F[Stage 2 model classification]
-    F --> G{Check schema and quotes}
-    G -->|valid| H[Decision]
-    G -->|retries used up| I[MODEL_FAILURE]
-    E --> J[Expert review]
-    H --> J
-    I --> J
-    J --> K[Export approved overrides]
+    subgraph fetch["Candidates"]
+        api[("ClinicalTrials.gov API v2")]
+        searches["candidate_search.py<br/>~10 broad searches from config/default.yaml<br/>every page or nothing"]
+        norm["trial_normalizer.py + terminology.py<br/>TrialInput: criteria split into inclusion/exclusion,<br/>cohorts, arms, LM term signals"]
+        api --> searches --> norm
+    end
+
+    subgraph stage1["Stage 1 (no model)"]
+        strict{"strict_classifier.py<br/>explicit LM population<br/>and no conflicting passage?"}
+    end
+
+    subgraph stage2["Stage 2 (model)"]
+        cache{"cached result for same<br/>content hash + model + prompt?"}
+        payload["structured_input.py + source_passages.py<br/>full record + numbered exact passages"]
+        local["local_contract.py + generation_constraints.py<br/>(Ollama: pick passage IDs, restricted grammar)"]
+        client["model client<br/>Gemini / OpenAI / Anthropic / Ollama"]
+        verify{"evidence.py<br/>schema, NCT ID, versions,<br/>quotes found in claimed field"}
+        retry["retry with the errors<br/>fed back"]
+        payload --> client
+        payload -.-> local -.-> client
+        client --> verify
+        verify -- "invalid" --> retry --> client
+    end
+
+    subgraph store["Run output: output/runs/RUN_ID"]
+        decision[("decision files<br/>model inputs, raw attempts,<br/>prompts, hashes, manifest")]
+    end
+
+    subgraph humans["Review and export"]
+        packet["audit.py<br/>review packet (Markdown / CSV)"]
+        adjud["expert adjudication JSON<br/>approve / change / reject"]
+        export["export.py<br/>approved decisions as<br/>{ siteEligible, tumorLabels }"]
+        site[("src/utils/manualAuditOverrides.ts<br/>on the website")]
+        packet --> adjud --> export -- "merged by hand" --> site
+    end
+
+    norm --> strict
+    strict -- "yes: include" --> decision
+    strict -- "anything else" --> cache
+    cache -- "hit" --> decision
+    cache -- "miss" --> payload
+    verify -- "valid" --> decision
+    retry -- "retries used up:<br/>MODEL_FAILURE" --> decision
+    decision --> packet
 ```
 
+Validation runs the same pipeline on frozen inputs instead of live searches:
+
+```mermaid
+flowchart LR
+    rounds[("validation/<br/>10 frozen rounds, 2017-2026")]
+    aact[("AACT dated archives<br/>aact.py import")]
+    prod[("production-20261018.json<br/>IDs shown on leptotrials.com")]
+    pipeline["stages 1 and 2<br/>(validate, validate-all,<br/>compare-models)"]
+    metrics["validation.py + metrics.py<br/>failures, latency, tokens;<br/>accuracy once expert labels exist"]
+    recon["reconciliation.py<br/>live site vs run"]
+
+    rounds --> pipeline
+    aact --> pipeline
+    pipeline --> metrics
+    pipeline --> recon
+    prod --> recon
+```
 **Candidate search.** `config/default.yaml` lists about ten searches (LM, meningeal
 metastasis, carcinomatous/lymphomatous meningitis, brain/CNS metastasis cohorts and
 so on). These are wider than the website's queries on purpose. Every page is
