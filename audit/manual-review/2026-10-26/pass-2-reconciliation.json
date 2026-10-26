@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "changedIds": [
+    "NCT02125786",
+    "NCT07361562"
+  ],
+  "allFinalExportClassificationsMatchLedger": true,
+  "sourceProtocolsUnchanged": true,
+  "rawUniverse": 426,
+  "relevantUniverse": 322,
+  "fixtureRecords": 126,
+  "unitTestsPassed": 188,
+  "matrixScenarios": 46656,
+  "liveQueryComparisons": 17,
+  "mismatches": 0
+}

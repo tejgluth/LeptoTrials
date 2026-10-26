@@ -84,7 +84,9 @@ const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT01977209': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT02071056': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT02091063': { siteEligible: false, tumorLabels: [] },
-  'NCT02125786': { siteEligible: false, tumorLabels: [] },
+  // Metastatic ependymoma strata include CSF/neuraxis dissemination. The LM
+  // path excludes children under three; the registry's one-year floor is for local disease.
+  'NCT02125786': { siteEligible: true, tumorLabels: [], minimumAge: '3 Years' },
   'NCT02228369': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT02253264': { siteEligible: false, tumorLabels: [] },
   'NCT02308020': { siteEligible: true, tumorLabels: ['LUNG', 'BREAST', 'MELANOMA'] },
@@ -338,7 +340,9 @@ const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
   'NCT07304739': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT07331064': { siteEligible: true, tumorLabels: [] },
   'NCT07348965': { siteEligible: true, tumorLabels: ['LUNG'] },
-  'NCT07361562': { siteEligible: false, tumorLabels: [] },
+  // Part C outcomes explicitly assess breast cancer with BM +/- LMD. Part B's
+  // NSCLC brain-metastasis population has no corresponding LM eligibility evidence.
+  'NCT07361562': { siteEligible: true, tumorLabels: ['BREAST'] },
   'NCT07361705': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT07362940': { siteEligible: true, tumorLabels: ['LUNG'] },
   'NCT07365410': { siteEligible: true, tumorLabels: ['LUNG'] },

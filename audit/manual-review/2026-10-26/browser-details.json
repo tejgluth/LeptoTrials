@@ -1,0 +1,12 @@
+{
+  "summaryExpanded": 1,
+  "copied": "kennjens@rm.dk",
+  "mailtoRecipient": "mailto:kennjens@rm.dk",
+  "endpoints": {
+    "/privacy": 200,
+    "/api/contact-events": 405,
+    "/api/trial-suggestions": 410,
+    "unauthorizedAnalytics": 503
+  },
+  "noMessagesSent": true
+}

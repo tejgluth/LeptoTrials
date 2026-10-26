@@ -322,6 +322,12 @@ type OracleResult = {
 // Trials that must (or must not) show up for a given scenario. Ones that only
 // appear with non-default statuses get their own scenario.
 const REGRESSIONS: RegressionCase[] = [
+  // Current registry cohorts independently rechecked in the 2026-10-26 audit.
+  { scenario: 'default', mustInclude: ['NCT02125786', 'NCT07361562'] },
+  { scenario: 'all-statuses', mustInclude: ['NCT02125786', 'NCT07361562'] },
+  { scenario: 'lung-default', mustExclude: ['NCT02125786', 'NCT07361562'] },
+  { scenario: 'gbm-default', mustExclude: ['NCT02125786', 'NCT07361562'] },
+  { scenario: 'other-solid-default', mustExclude: ['NCT02125786', 'NCT07361562'] },
   { scenario: 'gbm-all-statuses', mustExclude: ['NCT03423628', 'NCT07331064', 'NCT07751744'] },
   {
     scenario: 'default',
@@ -387,7 +393,6 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT05865990',
       'NCT06440954',
       'NCT06497543',
-      'NCT07361562',
       'NCT05984108',
       'NCT06945705',
       'NCT07415018',
@@ -490,7 +495,6 @@ const REGRESSIONS: RegressionCase[] = [
       'NCT03423628',
     ],
     mustExclude: [
-      'NCT02125786',
       'NCT04581824',
       'NCT06945705',
       'NCT07415018',
@@ -555,8 +559,8 @@ const REGRESSIONS: RegressionCase[] = [
   },
   {
     scenario: 'breast-default',
-    mustInclude: ['NCT04025541', 'NCT05422794', 'NCT06810804', 'NCT04588545', 'NCT06016387', 'NCT07177950', 'NCT07503704', 'NCT07789912'],
-    mustExclude: ['NCT07361562', 'NCT06663306', 'NCT06643000', 'NCT05782374', 'NCT03684980', 'NCT07653893', 'NCT07814352'],
+    mustInclude: ['NCT07361562', 'NCT04025541', 'NCT05422794', 'NCT06810804', 'NCT04588545', 'NCT06016387', 'NCT07177950', 'NCT07503704', 'NCT07789912'],
+    mustExclude: ['NCT06663306', 'NCT06643000', 'NCT05782374', 'NCT03684980', 'NCT07653893', 'NCT07814352'],
   },
   {
     scenario: 'breast-all-statuses',

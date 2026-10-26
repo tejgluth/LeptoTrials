@@ -1,0 +1,7 @@
+
+> leptotrials@1.0.0 export:audit-universe
+> tsx scripts/export-weekly-audit.ts universe audit/manual-review/2026-10-26/final
+
+universe: https://clinicaltrials.gov/api/v2/studies?query.cond=leptomeningeal+metastasis&format=json&pageSize=100: 196 studies / 2 pages
+universe: https://clinicaltrials.gov/api/v2/studies?query.term=leptomeningeal&format=json&pageSize=100: 319 studies / 4 pages
+Complete: 426 unique records; 322 relevant

@@ -1,0 +1,32 @@
+{
+  "loading": "Searching ClinicalTrials.gov\u2026",
+  "resultsAfterLoading": 157,
+  "productionBrowserChecks": [
+    {
+      "path": "/privacy",
+      "status": 200,
+      "body": "privacy notice checked"
+    },
+    {
+      "path": "/api/contact-events",
+      "status": 405,
+      "body": "{\"error\":\"Method not allowed.\"}"
+    },
+    {
+      "path": "/api/trial-suggestions",
+      "status": 410,
+      "body": "{\"error\":\"Trial suggestions are no longer collected. Please use the trial search.\"}"
+    },
+    {
+      "path": "/api/contact-analytics",
+      "status": 401,
+      "body": "{\"error\":\"Invalid analytics access token.\"}"
+    },
+    {
+      "path": "/api/contact-events",
+      "method": "POST DNT=1",
+      "status": 202,
+      "body": "{\"recorded\":true}"
+    }
+  ]
+}

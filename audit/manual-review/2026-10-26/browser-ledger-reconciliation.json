@@ -1,0 +1,37 @@
+{
+  "complete": true,
+  "defaultCount": 157,
+  "allSelectableCount": 320,
+  "bucketComparisons": [
+    {
+      "name": "Lung",
+      "count": 107,
+      "symmetricDifference": []
+    },
+    {
+      "name": "Breast",
+      "count": 60,
+      "symmetricDifference": []
+    },
+    {
+      "name": "Melanoma",
+      "count": 14,
+      "symmetricDifference": []
+    },
+    {
+      "name": "GBM",
+      "count": 8,
+      "symmetricDifference": []
+    },
+    {
+      "name": "Other / Solid tumor",
+      "count": 113,
+      "symmetricDifference": []
+    },
+    {
+      "name": "Any tumor type",
+      "count": 320,
+      "symmetricDifference": []
+    }
+  ]
+}

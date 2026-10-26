@@ -1,0 +1,44 @@
+[
+  {
+    "age": "1",
+    "count": 26,
+    "newEpendymoma": 0,
+    "newBreast": 0
+  },
+  {
+    "age": "2",
+    "count": 32,
+    "newEpendymoma": 0,
+    "newBreast": 0
+  },
+  {
+    "age": "3",
+    "count": 43,
+    "newEpendymoma": 1,
+    "newBreast": 0
+  },
+  {
+    "age": "17",
+    "count": 52,
+    "newEpendymoma": 1,
+    "newBreast": 0
+  },
+  {
+    "age": "18",
+    "count": 310,
+    "newEpendymoma": 1,
+    "newBreast": 1
+  },
+  {
+    "age": "21",
+    "count": 317,
+    "newEpendymoma": 1,
+    "newBreast": 1
+  },
+  {
+    "age": "22",
+    "count": 308,
+    "newEpendymoma": 0,
+    "newBreast": 1
+  }
+]

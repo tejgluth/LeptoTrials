@@ -15,7 +15,10 @@
     "d1:migrate:local": "wrangler d1 migrations apply leptotrials-analytics --local",
     "d1:migrate:remote": "wrangler d1 migrations apply leptotrials-analytics --remote",
     "preview": "vite preview",
-    "validate:trials": "tsx scripts/validate-trials.ts"
+    "validate:trials": "tsx scripts/validate-trials.ts",
+    "export:audit-universe": "tsx scripts/export-weekly-audit.ts universe",
+    "export:expanded-candidates": "tsx scripts/export-weekly-audit.ts expanded",
+    "export:independent-candidates": "tsx scripts/export-weekly-audit.ts independent"
   },
   "dependencies": {
     "gsap": "^3.14.2",

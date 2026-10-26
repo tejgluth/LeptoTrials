@@ -1,0 +1,29 @@
+
+> leptotrials@1.0.0 export:independent-candidates
+> tsx scripts/export-weekly-audit.ts independent audit/manual-review/2026-10-26
+
+independent: https://clinicaltrials.gov/api/v2/studies?query.term=leptomeningeal+metastasis&format=json&pageSize=100: 296 studies / 3 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.cond=leptomeningeal+metastasis&format=json&pageSize=100: 196 studies / 2 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.term=leptomeningeal+metastases&format=json&pageSize=100: 288 studies / 3 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.cond=leptomeningeal+metastases&format=json&pageSize=100: 190 studies / 2 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.term=leptomeningeal+disease&format=json&pageSize=100: 313 studies / 4 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.cond=leptomeningeal+disease&format=json&pageSize=100: 182 studies / 2 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.term=leptomeningeal+carcinomatosis&format=json&pageSize=100: 167 studies / 2 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.cond=leptomeningeal+carcinomatosis&format=json&pageSize=100: 150 studies / 2 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.term=neoplastic+meningitis&format=json&pageSize=100: 224 studies / 3 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.cond=neoplastic+meningitis&format=json&pageSize=100: 180 studies / 2 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.term=carcinomatous+meningitis&format=json&pageSize=100: 220 studies / 3 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.cond=carcinomatous+meningitis&format=json&pageSize=100: 178 studies / 2 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.term=meningeal+metastasis&format=json&pageSize=100: 390 studies / 4 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.cond=meningeal+metastasis&format=json&pageSize=100: 310 studies / 4 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.term=meningeal+metastases&format=json&pageSize=100: 377 studies / 4 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.cond=meningeal+metastases&format=json&pageSize=100: 296 studies / 3 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.term=leptomeningeal+neoplasm&format=json&pageSize=100: 291 studies / 3 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.cond=leptomeningeal+neoplasm&format=json&pageSize=100: 185 studies / 2 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.term=malignant+neoplasm+in+the+leptomeninges&format=json&pageSize=100: 75 studies / 1 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.cond=malignant+neoplasm+in+the+leptomeninges&format=json&pageSize=100: 21 studies / 1 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.term=lymphomatous+meningitis&format=json&pageSize=100: 232 studies / 3 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.cond=lymphomatous+meningitis&format=json&pageSize=100: 180 studies / 2 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.term=leukemic+meningitis&format=json&pageSize=100: 190 studies / 2 pages
+independent: https://clinicaltrials.gov/api/v2/studies?query.cond=leukemic+meningitis&format=json&pageSize=100: 166 studies / 2 pages
+Complete: 529 unique records; 244 relevant

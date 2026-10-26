@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "### Result\n{\"summaryExpanded\":1,\"copied\":\"kennjens@rm.dk\",\"mailtoRecipient\":\"mailto:kennjens@rm.dk\",\"endpoints\":{\"/privacy\":200,\"/api/contact-events\":405,\"/api/trial-suggestions\":410,\"unauthorizedAnalytics\":503},\"noMessagesSent\":true}\n### Ran Playwright code\n```js\nawait (async page => {await page.emulateMedia({reducedMotion:'reduce'});await page.getByRole('button',{name:/Read more/}).first().click();const summaryExpanded=await page.getByRole('button',{name:/Show less|Read less/}).first().count();await page.context().grantPermissions(['clipboard-read','clipboard-write'],{origin:'http://localhost:8788'});await page.getByRole('button',{name:'Copy contact email',exact:true}).first().click();await page.getByRole('button',{name:'Email copied',exact:true}).waitFor();const copied=await page.evaluate(()=>navigator.clipboard.readText());const link=await page.locator('a[href^=\"mailto:\"]').first().getAttribute('href');const endpoints={};for(const path of ['/privacy','/api/contact-events','/api/trial-suggestions']){const r=await page.request.get('http://localhost:8788'+path);endpoints[path]=r.status();}const tokenTest=await page.request.get('http://localhost:8788/api/contact-analytics',{headers:{Authorization:'Bearer audit-test-invalid'}});endpoints['unauthorizedAnalytics']=tokenTest.status();return {summaryExpanded,copied,mailtoRecipient:link.split('?')[0],endpoints,noMessagesSent:true};})(page);\n```"
+    }
+  ]
+}

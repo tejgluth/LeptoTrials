@@ -1,0 +1,22 @@
+[
+  {
+    "width": 1440,
+    "overflow": false,
+    "cards": 31
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "cards": 31
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "cards": 31
+  },
+  {
+    "flow": "normal-motion-default",
+    "cards": 157,
+    "overflow": false
+  }
+]

@@ -1,0 +1,51 @@
+import json,re,gzip,hashlib,datetime,pathlib
+p=pathlib.Path('audit/manual-review/2026-10-26')
+u=json.load(open('/tmp/lm-current-union.json'));prior={r['nctId']:r for r in json.load(open('/tmp/lm-prior-ledger.json'))['reviews']}
+for r in json.load(open(p/'web-extra-records.json'))['records']:
+ k=r['study']['protocolSection']['identificationModule']['nctId'];u[k]={'nctId':k,'source':'https://clinicaltrials.gov/study/'+k,**r,'classification':{'include':False,'buckets':[]}}
+now=datetime.datetime.now(datetime.timezone.utc).isoformat()
+changes={
+'NCT07361562':{'include':True,'buckets':['BREAST'],'rationale':'Part C primary ORR and secondary safety outcomes explicitly include ERBB2-mutated or HER2-positive breast cancer with brain metastases +/- leptomeningeal disease. Current inclusion establishes Part C breast cancer and no general LM exclusion appears. NYU investigator study page independently confirms Part C BM with or without LMD. Part B supports NSCLC brain metastases only; broad Part A solid-tumor language does not establish an LM path for other tumors. Correct the previous exclusion, which overlooked outcome-defined participants.','corroboration':['https://clinicaltrials.med.nyu.edu/cancer/clinicaltrial/2954/study-selective-erbb2-inhibitor/','https://pmc.ncbi.nlm.nih.gov/articles/PMC13448434/']},
+'NCT02125786':{'include':True,'buckets':[],'minimumAge':'3 Years','rationale':'Recurrent ependymoma strata 2/3 enroll neuraxis metastatic disease; residual leptomeningeal dissemination is assessed from baseline, rather than merely incident future LM. Posted protocol section 5.7.2 reserves CSI for dissemination demonstrated by CSF cytology or neuraxis imaging. General eligibility and protocol section 3.2 exclude metastatic ependymoma under age three; the general one-year minimum covers localized disease. Include the supported CNS-primary LM population in general results only; ependymoma establishes neither GBM nor OTHER_SOLID. The cohort summary uses >36 months while the registry exclusion is <3 years: use registry facts for filtering and disclose the difference; a search result does not establish patient eligibility.','corroboration':['https://cdn.clinicaltrials.gov/large-docs/86/NCT02125786/Prot_SAP_000.pdf']}}
+expanded={r['nctId'] for r in json.load(open(p/'baseline/expanded.json'))['records']};independent={r['nctId'] for r in json.load(open(p/'independent.json'))['records']};web=set(json.load(open(p/'web-ids.json')))
+production=json.load(open(p/'production-membership-before.json'));prod=set(production['allSelectable']['ids'])
+bucketnames={'Lung':'LUNG','Breast':'BREAST','Melanoma':'MELANOMA','GBM':'GBM','Other / Solid tumor':'OTHER_SOLID'}
+prodbuckets=json.load(open(p/'production-buckets-before.json'))['rows'];pb={k:[b for label,b in bucketnames.items() if k in prodbuckets[label]] for k in prod}
+oldSource={r['study']['protocolSection']['identificationModule']['nctId']:r['study']['protocolSection'] for r in json.load(gzip.open('/tmp/lm-prior-source.json.gz'))}
+pattern=re.compile(r'leptomening\w*|meningeal|neoplastic meningitis|carcinomatous meningitis|lymphomatous meningitis|leukemic meningitis|\blmd\b',re.I)
+rows=[]
+for k,r in sorted(u.items()):
+ s=r['study']['protocolSection'];old=prior.get(k);result=changes.get(k,r['classification']);rationale=result.get('rationale')
+ if not rationale:
+  rationale=old['rationale'] if old else 'Current inclusion/exclusion and cohort fields do not establish a supported eligible malignant LM path; LM exclusions, unrelated anatomy or primary brain disease, and generic CNS eligibility do not establish inclusion.'
+ rationale=rationale.replace('Actual live production still includes this record.','').replace('Actual live production still includes this study.','').replace('Conservatively remove unsupported relevance/MELANOMA assignment.','Retain conservative exclusion: no clear eligible LM exception.').strip()
+ evidence=[]
+ def walk(v,path):
+  if isinstance(v,str):
+   matches=list(pattern.finditer(v))
+   for m in matches[:3]:
+    start=max(0,m.start()-140);end=min(len(v),m.end()+230)
+    before=v[:m.start()];heads=list(re.finditer(r'(?:Inclusion|Exclusion) Criteria[^\n]*',before,re.I))
+    evidence.append({'field':'protocolSection.'+path,'section':heads[-1].group(0) if heads else None,'offset':start,'excerpt':v[start:end]})
+  elif isinstance(v,dict):
+   for a,b in v.items():walk(b,path+'.'+a)
+  elif isinstance(v,list):
+   for i,b in enumerate(v):walk(b,path+f'[{i}]')
+ for f in ['identificationModule','conditionsModule','descriptionModule','eligibilityModule','armsInterventionsModule','outcomesModule']:walk(s.get(f,{}),f)
+ # Preserve both clinical polarity and tumor context by keeping full eligibility in the source archive.
+ previous={'include':r['classification']['include'],'buckets':r['classification']['buckets']}
+ resulting={'include':result['include'],'buckets':result['buckets']}
+ if 'minimumAge' in result:resulting['minimumAge']=result['minimumAge']
+ isconservative=not resulting['include'] and any(x in rationale.lower() for x in ['conservativ','ambig','conflict','unclear','no explicit remaining','not positive evidence','does not establish','no affirmative'])
+ rows.append({'nctId':k,'title':s['identificationModule']['briefTitle'],'status':s['statusModule']['overallStatus'],'lastUpdate':s['statusModule']['lastUpdatePostDateStruct']['date'],'retrievedAt':r['retrievedAt'],'sourceUrl':'https://clinicaltrials.gov/study/'+k,'sourceRecord':'source-records.json.gz#'+k,'protocolSha256':hashlib.sha256(json.dumps(s,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode()).hexdigest(),'evidence':evidence,'rationale':rationale,'previous':previous,'resulting':resulting,'changeKind':'Add' if k in changes else 'No change','updatedDisplayedSinceLastAudit':k in prod and s['statusModule']['lastUpdatePostDateStruct']['date']>'2026-10-17','protocolChangedSincePrior':s!=oldSource.get(k),'expandedCandidate':k in expanded,'independentlyDiscovered':k in independent|web,'productionBefore':{'displayed':k in prod,'buckets':pb.get(k,[])},'conservativeDecision':isconservative,'uncertainty':('Registry cohort summaries and the posted protocol retain a strict >36-month/<21-year description while structured eligibility is 1–21 years and its metastatic exclusion is <3 years. Filter uses the registry metastatic floor of three and registry maximum of 21; individual eligibility requires the study team.' if k=='NCT02125786' else old.get('uncertainty') if old else None),'accessLimitation':None,'corroboration':result.get('corroboration',[]),'reviewScope':'Current full-record signal, eligibility, cohort and outcome review; complete protocol comparison against October 17 archive. Coding-assistant development review, not clinical expert adjudication.'})
+ledger={'reviewedOn':'2026-10-26','previousSuccessfulSourceAudit':'2026-10-17','startingCommit':'51cd104bf36f03510736e08a22077dd5550d7821','policy':'Explicit malignant LM population/cohort required; read inclusion/exclusion, cohort and outcomes together; named tumor buckets require an LM-path connection; broad solid tumors = OTHER_SOLID only; unavailable records retain previous verified classification.','counts':{'recordsReviewed':len(rows),'expandedCandidates':len(expanded),'independentApiIds':len(independent),'webIds':len(web),'independentOutsideExpanded':len((independent|web)-expanded),'updatedDisplayedRechecked':sum(x['updatedDisplayedSinceLastAudit'] for x in rows),'displayedBefore':len(prod),'displayedAfter':len(prod)+2,'defaultBefore':155,'defaultAfter':157,'broadBefore':320,'broadAfter':322,'additions':2,'removals':0,'reclassifications':0,'conservativeExclusions':sum(x['conservativeDecision'] for x in rows),'allExclusions':sum(not x['resulting']['include'] for x in rows)},'reviews':rows}
+(p/'decision-ledger.json').write_text(json.dumps(ledger,indent=2,ensure_ascii=False)+'\n')
+with gzip.open(p/'source-records.json.gz','wt',encoding='utf8') as f:json.dump({'complete':True,'records':list(u.values())},f,separators=(',',':'),ensure_ascii=False)
+# Snapshot projections refer to one immutable archive rather than committing duplicated full records.
+for target in [p/'baseline/universe.json',p/'baseline/expanded.json',p/'independent.json',p/'final/universe.json',p/'final/expanded.json']:
+ if target.exists():
+  doc=json.load(open(target));doc['sourceArchive']='../source-records.json.gz' if target.parent.name in ['baseline','final'] else 'source-records.json.gz'
+  for r in doc['records']:
+   r.pop('study',None);r['sourceRecord']='source-records.json.gz#'+r['nctId']
+  target.write_text(json.dumps(doc,indent=2,ensure_ascii=False)+'\n')
+print(json.dumps(ledger['counts'],indent=2))
