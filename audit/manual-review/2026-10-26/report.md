@@ -1,6 +1,6 @@
 # 2026-10-26 weekly LM audit
 
-Release-candidate audit: all three verification passes passed. Production release receipt is recorded after deployment in `release-receipt.json` in this dated evidence directory. This report describes the verified changes; the receipt determines whether production has actually been updated.
+**Deployed and verified — October 26, 2026.** Two eligible LM cohorts restored; default results 155 -> 157 and selectable-status results 318 -> 320. All three verification passes and live production reconciliation passed. The existing logo is unchanged. Detailed deployment and asset proof: `release-receipt.json`; any final evidence-only deployment is captured in `final-head-verification.json`.
 
 ## Baseline and scope
 
@@ -60,6 +60,8 @@ A production API health probe incremented one synthetic email-copy counter becau
 ## Production Release
 
 Verified account `d30edc14f902d872014ce43c0a5f4fec`, Pages project `lm-trials`, production branch `main`, domains `leptotrials.com` and `leptotrials.pages.dev`, and Git repository identity `1182688009` (the Cloudflare source still uses the repository's old display name). GitHub quality workflow runs on push and PR; preview builds lack the production-only analytics secret, which is an expected environment difference. Supported rollback is POST `/accounts/d30edc14f902d872014ce43c0a5f4fec/pages/projects/lm-trials/deployments/1be7bb4a-e4e8-487f-acff-c3e3ccadf2a4/rollback` followed by live verification.
+
+Released through merged PR [#3](https://github.com/tejgluth/LeptoTrials/pull/3), pushed candidate `72f2057b65a742ed8562c3b3650c5297001aa82c`, and merged production commit `60815a1c88315fa244a0239699fb7ee3a31c5e31`. Pages production deployment `3c8beef6-a7d5-490e-b360-f6f75bd1568c` completed successfully. Live `https://leptotrials.com` returned the exact 157 default IDs and all six general/tumor result sets from the ledger, with identical tested JS/CSS bytes. Main quality workflow also passed. No rollback or production migration was required. User-requested logo preservation verified against the starting production source and assets.
 
 The inspected `npm run deploy` rebuilds and runs `wrangler pages deploy dist --project-name lm-trials`; any direct production deployment must explicitly supply `--branch main` and the verified commit. Prefer the established GitHub-to-Pages release path after passing PR checks. Actual pushed/merged commit, deployment ID, asset equality and live post-release verification are saved in `release-receipt.json` after release. A preview or successful build alone is not a production release. Rollback is required if live verification fails.
 

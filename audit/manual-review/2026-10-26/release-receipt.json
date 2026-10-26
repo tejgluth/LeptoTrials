@@ -1,0 +1,45 @@
+{
+  "outcome": "Deployed and verified",
+  "verifiedAt": "2026-10-26T21:40:07.875581+00:00",
+  "applicationCommit": "9ced71d75df1f4b5890a1f69cf16bbc76ad4c6b0",
+  "pushedCandidate": "72f2057b65a742ed8562c3b3650c5297001aa82c",
+  "mergedProductionCommit": "60815a1c88315fa244a0239699fb7ee3a31c5e31",
+  "pullRequest": "https://github.com/tejgluth/LeptoTrials/pull/3",
+  "deployment": {
+    "capturedAt": "2026-10-26T21:38:26.400Z",
+    "accountId": "d30edc14f902d872014ce43c0a5f4fec",
+    "project": "lm-trials",
+    "productionBranch": "main",
+    "domains": [
+      "leptotrials.pages.dev",
+      "leptotrials.com"
+    ],
+    "id": "3c8beef6-a7d5-490e-b360-f6f75bd1568c",
+    "url": "https://3c8beef6.leptotrials.pages.dev",
+    "commit": "60815a1c88315fa244a0239699fb7ee3a31c5e31",
+    "status": {
+      "name": "deploy",
+      "started_on": "2026-10-26T21:37:33.351665Z",
+      "ended_on": "2026-10-26T21:37:40.853222Z",
+      "status": "success"
+    },
+    "environment": "production"
+  },
+  "previousKnownGood": "1be7bb4a-e4e8-487f-acff-c3e3ccadf2a4",
+  "assetMatch": true,
+  "jsSha256": "9cb4f5d5e75816046fccdfd3377197e3e55a007859d122ca771763ce0ff35602",
+  "defaultCount": 157,
+  "allSelectableCount": 320,
+  "bucketCounts": {
+    "Lung": 107,
+    "Breast": 60,
+    "Melanoma": 14,
+    "GBM": 8,
+    "Other / Solid tumor": 113,
+    "Any tumor type": 320
+  },
+  "logoUnchanged": true,
+  "productionMigrations": false,
+  "rollbackPerformed": false,
+  "postReceiptCommitNote": "Any subsequent evidence-only commit has identical application bytes. Its deployment identity is captured in final-head-verification.json after push to avoid recursively committing a receipt for itself."
+}

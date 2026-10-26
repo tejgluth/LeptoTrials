@@ -1,0 +1,2051 @@
+{
+  "complete": true,
+  "queries": [
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies?format=json&pageSize=100&query.id=NCT02125786+OR+NCT07361562",
+      "retrievedAt": "2026-10-26T21:35:26.367Z",
+      "count": 2,
+      "hasNext": false
+    }
+  ],
+  "records": [
+    {
+      "study": {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT07361562",
+            "orgStudyIdInfo": {
+              "id": "CGT4255-25-101"
+            },
+            "organization": {
+              "fullName": "Cogent Biosciences, Inc.",
+              "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study of a Selective ERBB2 Inhibitor (CGT4255), in Patients With Advanced Solid Tumors",
+            "officialTitle": "A Study of a Selective ERBB2 Inhibitor, CGT4255, in Patients With Advanced Solid Tumors With ERBB2 Genetic Alterations or HER2 Overexpression"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-09",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2025-12-30",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2028-05",
+              "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+              "date": "2028-11",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2025-12-03",
+            "studyFirstSubmitQcDate": "2026-01-22",
+            "studyFirstPostDateStruct": {
+              "date": "2026-01-23",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-09-03",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-09-04",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "Cogent Biosciences, Inc.",
+              "class": "INDUSTRY"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "This is an open-label, phase 1/1b study evaluating the safety, tolerability, pharmacokinetic (what the body does to the drug), pharmacodynamic (what the drug does to the body), and antitumor activity of CGT4255 in adult participants with advanced solid tumors with ERBB2 alterations or HER2 overexpression."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Advanced Solid Tumor, Adult",
+              "ERBB2 Altered Breast Cancer",
+              "ERBB2 Gene Amplification",
+              "HER2 Overexpression",
+              "Non-Small Cell Lung Cancer",
+              "HER2"
+            ],
+            "keywords": [
+              "ERBB2 genetic alterations",
+              "Investigational Drug",
+              "Advanced Solid Tumors",
+              "ERBB2 Mutated Non Small Cell Lung Cancer",
+              "Mutated Advanced Solid Tumors",
+              "ERBB2 Brain Metastases",
+              "ERRB2 Point Mutations",
+              "ERBB2 Gene Short Variants",
+              "ERBB2 Gene Rearrangements",
+              "ERBB2 activation alteration",
+              "ERBB2 gene copy number amplifications",
+              "ERBB2 gene insertions",
+              "ERRB2 gene deletions",
+              "ERBB2 gene fusions",
+              "NRG1 gene fusions",
+              "ERBB2 indel",
+              "Phase 1/1b",
+              "HER2 Protein Overexpression",
+              "HER2"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE1"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "SEQUENTIAL",
+              "interventionModelDescription": "Phase 1, Part A evaluating multiple ascending doses.\n\nPhase 1b, evaluation of Part A selected doses in 2 cohorts defined by tumor type including a randomized dose optimization design (Part B)",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 100,
+              "type": "ESTIMATED"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Dose Escalation",
+                "type": "EXPERIMENTAL",
+                "description": "Part A: Dose Escalation Multiple doses of CGT4255 for oral administration",
+                "interventionNames": [
+                  "Drug: CGT4255"
+                ]
+              },
+              {
+                "label": "Signal Seeking and Dose Escalation",
+                "type": "EXPERIMENTAL",
+                "description": "Part B: Signal Seeking and Dose Optimization Oral dose(s) of CGT4255 at the selected dose levels determined in Phase 1",
+                "interventionNames": [
+                  "Drug: CGT4255"
+                ]
+              },
+              {
+                "label": "Signal Seeking",
+                "type": "EXPERIMENTAL",
+                "description": "Part C: Includes signal seeking. Participants will receive CGT4255 at a dose level selected based on data from Part A",
+                "interventionNames": [
+                  "Drug: CGT4255"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "DRUG",
+                "name": "CGT4255",
+                "description": "CGT4255 Daily Oral Administration",
+                "armGroupLabels": [
+                  "Dose Escalation",
+                  "Signal Seeking",
+                  "Signal Seeking and Dose Escalation"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Incidence and grade of Adverse Events (AEs) and Serious Adverse Events (SAEs) [Part A]",
+                "description": "1\\. Incidence and grade of Adverse Events (AEs) and Serious Adverse Events (SAEs) and AEs leading to dose modifications and dose limiting toxicities (DLTs) to determine the maximum tolerated dose (MTD) or the maximum evaluated dose (MED) in participants with ERBB2-altered advanced solid tumors",
+                "timeFrame": "Approximately 12 months"
+              },
+              {
+                "measure": "Overall Response Rate [Part B and Part C]",
+                "description": "Overall Response Rate (ORR), determined by confirmed CR + PR of all lesions (intracranial and extracranial), based on Investigator assessment using the whole-body RECIST v1.1 in participants with ERBB2-mutated NSCLC with Brain Metastases (BM) and in participants with ERBB2-mutated or HER2-positive breast cancer with BM ± leptomeningeal disease (LMD)",
+                "timeFrame": "Approximately 6 months"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Incidence and grade of Adverse Events (AEs) and Serious Adverse Events (SAEs) [Part B and C]",
+                "description": "Incidence and grade of Adverse Events (AEs), Serious Adverse Events (SAEs) and AEs leading to dose modification in participants with ERBB2-mutated NSCLC with Brain Metastases (BM) and in participants with ERBB2-mutated or HER2-positive breast cancer with BM ± leptomeningeal disease (LMD)",
+                "timeFrame": "Approximately 7 months"
+              },
+              {
+                "measure": "Pharmacokinetics [Part A]",
+                "description": "Area under the concentration-time curve (AUC) in participants with ERBB2 altered advanced solid tumors",
+                "timeFrame": "Approximately 28 days"
+              },
+              {
+                "measure": "Pharmacokinetics [Part A]",
+                "description": "Maximum observed concentration (Cmax) in participants with ERBB2 altered advanced solid tumors",
+                "timeFrame": "Approximately 28 days"
+              },
+              {
+                "measure": "Pharmacokinetics [Part A]",
+                "description": "Observed concentration at pre-dose (Ctrough)",
+                "timeFrame": "Approximately 28 days"
+              },
+              {
+                "measure": "Pharmacokinetics [Part A)",
+                "description": "Time to measure concentration (Tmax)",
+                "timeFrame": "Approximately 28 days"
+              },
+              {
+                "measure": "Disease Response [Part A]",
+                "description": "Overall objective response rate (ORR), as determined by confirmed complete response (CR) + confirmed partial response (PR) of all lesions (intracranial and extracranial) based on Investigator assessment using whole-body Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST v1.1)",
+                "timeFrame": "Approximately 6 months"
+              },
+              {
+                "measure": "Disease Response [Part A]",
+                "description": "Disease control rate (DCR), as determined by overall confirmed CR + confirmed PR + stable disease (SD) based on Investigator assessment using whole-body RECIST v1.1",
+                "timeFrame": "Approximately 6 months"
+              },
+              {
+                "measure": "Disease Response [Part B and Part C]",
+                "description": "Disease Control Rate (DCR), determined by overall confirmed CR + confirmed PR +SD based on Investigator assessment using whole body RECIST v1.1",
+                "timeFrame": "Approximately 6 months"
+              },
+              {
+                "measure": "Disease Response [Part B and Part C]",
+                "description": "Duration of Response (DOR), defined as time from first confirmed response (CR or PR) to the date of progressive disease (PD) or death from any cause, whichever occurs earlier",
+                "timeFrame": "Approximately 6 months"
+              },
+              {
+                "measure": "Disease Response [Part B and Part C]",
+                "description": "Progression- free survival (PFS), defined as the time from the date of the first dose of study drug (Part B run-in and Part C)/ randomization (Part B randomized cohort) until the date of PD, based on Investigator assessment using whole body RECIST v1.1, or death from any cause, whichever comes earlier",
+                "timeFrame": "Approximately 6 months"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Have histologically confirmed diagnosis of:\n\n   1. Part A: Locally advanced, metastatic, and/or unresectable solid tumor with documented ERBB2-activating alteration or NRG1 gene fusion in blood and/or tumor or HER2 overexpression in tumor\n   2. Part B: Locally advanced, metastatic, and/or unresectable NSCLC with documented ERBB2 mutation in blood and/or tumor\n   3. Part C: Locally advanced, metastatic and/or unresectable breast cancer with documented ERBB2 mutation in blood and/or tumor or HER overexpression in tumor\n2. Have measurable disease per RECIST v1.1.\n3. Eastern Cooperative Oncology Group (ECOG) Performance Status 0 to 1 for Part A. For Parts B and C, ECOG Performance Status must be 0 to 2.\n4. Have clinically acceptable local laboratory screening results (clinical chemistry and hematology) within certain limits.\n\nExclusion Criteria:\n\n1. Received small molecule chemotherapy or anticancer therapies or radiotherapy within certain timeframes before first dose of study drug.\n2. Major surgeries (eg, craniotomy and thoracotomy) within 4 weeks of the first dose of study drug.\n3. Treatment with palliative focal radiotherapy (cranial or extracranial) (eg, stereotactic radiosurgery or intensity-modulated radiation therapy) ≤2 weeks before the first dose of study drug; treatment with whole-brain radiotherapy ≤4 weeks before the first dose of study drug.\n4. Clinically significant cardiac disease.\n5. Resolution of toxicities from prior therapy to ≤Grade 1 (or baseline), including resolution of clinically significant laboratory abnormalities, before the first dose of study drug.\n6. Restrictions on use of corticosteroid use to manage neurologic symptoms in different parts of the study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "name": "Cogent Biosciences, Inc",
+                "role": "CONTACT",
+                "phone": "617-945-5576",
+                "email": "trialinfo@cogentbio.com"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "HonorHealth Research Institute",
+                "status": "RECRUITING",
+                "city": "Scottsdale",
+                "state": "Arizona",
+                "zip": "85258",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.50921,
+                  "lon": -111.89903
+                }
+              },
+              {
+                "facility": "Mayo Scottsdale",
+                "status": "RECRUITING",
+                "city": "Scottsdale",
+                "state": "Arizona",
+                "zip": "85281",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 33.50921,
+                  "lon": -111.89903
+                }
+              },
+              {
+                "facility": "Yale Cancer Center",
+                "status": "RECRUITING",
+                "city": "New Haven",
+                "state": "Connecticut",
+                "zip": "06510",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.30815,
+                  "lon": -72.92816
+                }
+              },
+              {
+                "facility": "Mayo Jacksonville",
+                "status": "RECRUITING",
+                "city": "Jacksonville",
+                "state": "Florida",
+                "zip": "32209",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.33218,
+                  "lon": -81.65565
+                }
+              },
+              {
+                "facility": "Northwestern University",
+                "status": "RECRUITING",
+                "city": "Chicago",
+                "state": "Illinois",
+                "zip": "60611",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                }
+              },
+              {
+                "facility": "LSU Health Sciences Center School of Medicine",
+                "status": "RECRUITING",
+                "city": "New Orleans",
+                "state": "Louisiana",
+                "zip": "70803",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 29.95465,
+                  "lon": -90.07507
+                }
+              },
+              {
+                "facility": "START Midwest",
+                "status": "RECRUITING",
+                "city": "Grand Rapids",
+                "state": "Michigan",
+                "zip": "49546",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 42.96336,
+                  "lon": -85.66809
+                }
+              },
+              {
+                "facility": "Mayo Rochester",
+                "status": "RECRUITING",
+                "city": "Rochester",
+                "state": "Minnesota",
+                "zip": "55905",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 44.02163,
+                  "lon": -92.4699
+                }
+              },
+              {
+                "facility": "Washington University School of Medicine - Siteman Cancer Center",
+                "status": "RECRUITING",
+                "city": "St Louis",
+                "state": "Missouri",
+                "zip": "63110",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.62727,
+                  "lon": -90.19789
+                }
+              },
+              {
+                "facility": "START NY Long Island",
+                "status": "RECRUITING",
+                "city": "Lake Success",
+                "state": "New York",
+                "zip": "11042",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.77066,
+                  "lon": -73.71763
+                }
+              },
+              {
+                "facility": "NYU Langone",
+                "status": "RECRUITING",
+                "city": "New York",
+                "state": "New York",
+                "zip": "10016",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                }
+              },
+              {
+                "facility": "Tennessee Oncology",
+                "status": "RECRUITING",
+                "city": "Nashville",
+                "state": "Tennessee",
+                "zip": "37203",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 36.16589,
+                  "lon": -86.78444
+                }
+              },
+              {
+                "facility": "NEXT Oncology Texas",
+                "status": "RECRUITING",
+                "city": "Austin",
+                "state": "Texas",
+                "zip": "78758",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 30.26715,
+                  "lon": -97.74306
+                }
+              },
+              {
+                "facility": "START Mountain Region",
+                "status": "RECRUITING",
+                "city": "West Valley City",
+                "state": "Utah",
+                "zip": "84119",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 40.69161,
+                  "lon": -112.00105
+                }
+              },
+              {
+                "facility": "NEXT Oncology Virginia",
+                "status": "RECRUITING",
+                "city": "Fairfax",
+                "state": "Virginia",
+                "zip": "22031",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 38.84622,
+                  "lon": -77.30637
+                }
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-10-26"
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D002289",
+                "term": "Carcinoma, Non-Small-Cell Lung"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D002283",
+                "term": "Carcinoma, Bronchogenic"
+              },
+              {
+                "id": "D001984",
+                "term": "Bronchial Neoplasms"
+              },
+              {
+                "id": "D008175",
+                "term": "Lung Neoplasms"
+              },
+              {
+                "id": "D012142",
+                "term": "Respiratory Tract Neoplasms"
+              },
+              {
+                "id": "D013899",
+                "term": "Thoracic Neoplasms"
+              },
+              {
+                "id": "D009371",
+                "term": "Neoplasms by Site"
+              },
+              {
+                "id": "D009369",
+                "term": "Neoplasms"
+              },
+              {
+                "id": "D008171",
+                "term": "Lung Diseases"
+              },
+              {
+                "id": "D012140",
+                "term": "Respiratory Tract Diseases"
+              }
+            ]
+          }
+        },
+        "hasResults": false
+      },
+      "retrievedAt": "2026-10-26T21:35:26.367Z"
+    },
+    {
+      "study": {
+        "protocolSection": {
+          "identificationModule": {
+            "nctId": "NCT02125786",
+            "orgStudyIdInfo": {
+              "id": "RERTEP"
+            },
+            "secondaryIdInfos": [
+              {
+                "id": "NCI-2014-00906",
+                "type": "REGISTRY",
+                "domain": "NCI Clinical Trial Registration Program"
+              }
+            ],
+            "organization": {
+              "fullName": "St. Jude Children's Research Hospital",
+              "class": "OTHER"
+            },
+            "briefTitle": "A Trial of Surgery and Fractionated Re-Irradiation for Recurrent Ependymoma",
+            "officialTitle": "A Phase II Trial of Surgery and Fractionated Re-Irradiation for Recurrent Ependymoma"
+          },
+          "statusModule": {
+            "statusVerifiedDate": "2026-02",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+              "date": "2014-05-07",
+              "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+              "date": "2023-05",
+              "type": "ACTUAL"
+            },
+            "completionDateStruct": {
+              "date": "2028-05",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2014-04-25",
+            "studyFirstSubmitQcDate": "2014-04-28",
+            "studyFirstPostDateStruct": {
+              "date": "2014-04-29",
+              "type": "ESTIMATED"
+            },
+            "resultsFirstSubmitDate": "2024-08-21",
+            "resultsFirstSubmitQcDate": "2024-11-07",
+            "resultsFirstPostDateStruct": {
+              "date": "2024-11-12",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-02-03",
+            "lastUpdatePostDateStruct": {
+              "date": "2026-02-24",
+              "type": "ACTUAL"
+            }
+          },
+          "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+              "type": "SPONSOR"
+            },
+            "leadSponsor": {
+              "name": "St. Jude Children's Research Hospital",
+              "class": "OTHER"
+            }
+          },
+          "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+          },
+          "descriptionModule": {
+            "briefSummary": "The primary purpose of this study is to investigate whether surgery and re-irradiation will help treat ependymoma that has come back after initial treatment. The combined doses of the first and second courses of radiation are higher than what is usual standard of care. The investigators will study the effects and side effects of surgery and re-irradiation. They will also evaluate and study tumor tissue and blood to learn more about the tumor and how it does or does not respond to treatments and will use magnetic resonance imaging (MRI) and positron emission tomography (PET) scans to see if they can predict tumor response and tumor recurrence.\n\nParticipants will be followed for up to 5 years following enrollment. Evaluations during radiation therapy will be done weekly while receiving therapy for up to 7 weeks. Other evaluations will be done at enrollment, every 4 months from enrollment through 3 years, and every 6 months during the 4th and 5th year.",
+            "detailedDescription": "Stratification for treatment will be determined when radiation therapy planning is initiated. Patients will be stratified for outcome according to diagnosis and prior therapy.\n\n* Stratum 1 (initial pattern of failure is local); disease confined to primary site; age \\>12 months at time of enrollment to \\< 21 years. Treatment: focal irradiation.\n* Stratum 2 (initial pattern of failure is metastatic); neuraxis metastatic disease without equivocal evidence of local failure; age \\> 36 months at time of enrollment to \\< 21 years. Treatment: craniospinal irradiation.\n* Stratum 3 (Initial pattern of failure is both local and metastatic): neuraxis metastatic disease with unequivocal evidence of local failure; age \\> 36 months at time of enrollment to \\< 21 years. Treatment: craniospinal irradiation.\n* Stratum 4 (initial pattern of failure is local): disease confined to primary site, age \\>36 months at time of enrollment to \\<21 years; tumor shows presence of 1g gain. Treatment: craniospinal irradiation (optional).\n\nPRIMARY OBJECTIVE:\n\n* To prospectively estimate the progression-free and overall survival distributions for children and young adults with recurrent ependymoma treated with a second course of irradiation while monitoring for excessive central nervous system necrosis.\n\nSECONDARY OBJECTIVES:\n\n* To explore potential associations of clinical and treatment factors with the incidence and severity of neurological, endocrine and cognitive deficits in children and young adults with ependymoma treated with a second course of irradiation.\n* Using specific measures of sleep quality, excessive daytime sleepiness, daytime activity, fatigue, symptom distress, and quality of life, explore associations of sleep, fatigue and quality of life with other measures of CNS effects, clinical and treatment factors in children and young adults with ependymoma treated with a second course of irradiation.\n* To evaluate and explore differences in physical performance and movement in children and young adults with ependymoma treated with a second course of irradiation.\n* Estimate and compare the response of residual tumor and the incidence and severity of structural, physiological, and vascular effects of normal brain in children and young adults with ependymoma after treatment with a second course of irradiation using specific methods of diffusion, contrast-enhancement, magnetization transfer, vascular and functional neuroimaging, and explore the association between these and other measures of CNS effects and clinical and treatment factors. Determine the time course of gray matter and white matter tract injury and recovery post irradiation and the association between imaging metrics derived from serial quantitative neural imaging and radiation dosimetry as well as neuro-cognitive outcomes.\n\nOther Pre-Specified (Exploratory) Objectives:\n\n* Estimate the avidity of ependymoma to 18F-fluorodeoxyglucose (FDG) and 11C-methionine positron emission tomography (IND # 104987) prior to radiation therapy and correlate change in avidity 12, 24 and 36 months after a second course of irradiation with tumor progression.\n* Measure growth factor and cytokine responses in children and young adults with ependymoma after treatment with a second course of irradiation, and explore associations between these and other measures of CNS effects and clinical and treatment factors. Descriptively compare findings for patients treated with an initial course of irradiation.\n* To conduct a variety of exploratory molecular analyses on tumor samples (and blood where a germline control is required), including but not limited to broad (genome-wide / array-based) or focused (gene-specific) analyses at the DNA, RNA, or protein level and next generation (whole genome, exome, transcriptome) sequencing in an effort to improve the investigators understanding of ependymoma biology, and to explore associations between molecular findings and treatment response and various side effects including vasculopathy, hearing loss, cognitive deficits, and growth hormone deficiency and other measures as appropriate.\n* To explore the association of chemotherapy given prior to re-irradiation with progression-free survival and overall survival distributions\n* To compare the progression-free and overall survival distributions for children (age \\>3 years) and young adults with recurrent ependymoma and 1g gain treated with a second course of irradiation (focal or craniospinal) while monitoring for excessive central nervous system necrosis."
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Ependymoma"
+            ]
+          },
+          "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+              "PHASE2"
+            ],
+            "designInfo": {
+              "allocation": "NON_RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "primaryPurpose": "TREATMENT",
+              "maskingInfo": {
+                "masking": "NONE"
+              }
+            },
+            "enrollmentInfo": {
+              "count": 68,
+              "type": "ACTUAL"
+            }
+          },
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "label": "Stratum 1: Local Failure",
+                "type": "EXPERIMENTAL",
+                "description": "Participants exhibit an initial pattern of failure that is local (disease confined to primary site). Treatment is surgery and a second course of focal irradiation. The total dose for the second course of irradiation will be 54Gy.\n\nParticipants may receive one or both: Photon therapy or proton therapy.\n\nParticipants receive \\^1\\^8F-fluorodeoxyglucose and \\^1\\^1C-methionine to aid in tumor visualization.",
+                "interventionNames": [
+                  "Radiation: Irradiation",
+                  "Procedure: Surgery",
+                  "Drug: ^1^8F-Fluorodeoxyglucose",
+                  "Drug: ^1^1C-methionine",
+                  "Device: Photon therapy",
+                  "Device: Proton therapy"
+                ]
+              },
+              {
+                "label": "Stratum 2: Metastatic Failure",
+                "type": "EXPERIMENTAL",
+                "description": "Participants exhibit an initial pattern of failure that is metastatic (neuraxis metastatic disease without equivocal evidence of local failure). Treatment is surgery and craniospinal irradiation. Craniospinal irradiation (36-39.6Gy) will include focal boost treatment of metastatic sites (54-59.4Gy) depending on location, extent of resection and target volume.\n\nParticipants may receive one or both: Photon therapy or proton therapy.\n\nParticipants receive \\^1\\^8F-fluorodeoxyglucose and \\^1\\^1C-methionine to aid in tumor visualization.",
+                "interventionNames": [
+                  "Radiation: Irradiation",
+                  "Procedure: Surgery",
+                  "Drug: ^1^8F-Fluorodeoxyglucose",
+                  "Drug: ^1^1C-methionine",
+                  "Device: Photon therapy",
+                  "Device: Proton therapy"
+                ]
+              },
+              {
+                "label": "Stratum 3: Local and Metastatic Failure",
+                "type": "EXPERIMENTAL",
+                "description": "Participants exhibit an initial pattern of failure that is both local and metastatic (neuraxis metastatic disease with equivocal evidence of local failure). Treatment is surgery and craniospinal irradiation.\n\nParticipants may receive one or both: Photon therapy or proton therapy.\n\nParticipants receive \\^1\\^8F-fluorodeoxyglucose and \\^1\\^1C-methionine to aid in tumor visualization.",
+                "interventionNames": [
+                  "Radiation: Irradiation",
+                  "Procedure: Surgery",
+                  "Drug: ^1^8F-Fluorodeoxyglucose",
+                  "Drug: ^1^1C-methionine",
+                  "Device: Photon therapy",
+                  "Device: Proton therapy"
+                ]
+              },
+              {
+                "label": "Stratum 4: Local Failure",
+                "type": "EXPERIMENTAL",
+                "description": "Local Failure Participants exhibit an initial pattern of failure that is local (disease confined to primary site). Age is \\>36 months at time of enrollment to \\<21 years. Tumor shows presence of 1q gain. Treatment is optional craniospinal irradiation.\n\nParticipants may receive one or both: Photon therapy or proton therapy.\n\nParticipants receive \\^1\\^8F-fluorodeoxyglucose and \\^1\\^1C-methionine to aid in tumor visualization.",
+                "interventionNames": [
+                  "Radiation: Irradiation",
+                  "Procedure: Surgery",
+                  "Drug: ^1^8F-Fluorodeoxyglucose",
+                  "Drug: ^1^1C-methionine",
+                  "Device: Photon therapy",
+                  "Device: Proton therapy"
+                ]
+              }
+            ],
+            "interventions": [
+              {
+                "type": "RADIATION",
+                "name": "Irradiation",
+                "description": "Radiation therapy on this protocol will be based on extent of disease, extent of resection and location. The allowed treatment modalities include conformal or intensity-modulated radiation therapy using photons or proton therapy using double-scattering or spot-scanning methods. The general goal is to initiate radiation therapy within 12 weeks of last surgery performed at the time of recurrence.",
+                "armGroupLabels": [
+                  "Stratum 1: Local Failure",
+                  "Stratum 2: Metastatic Failure",
+                  "Stratum 3: Local and Metastatic Failure",
+                  "Stratum 4: Local Failure"
+                ],
+                "otherNames": [
+                  "Focal irradiation",
+                  "Craniospinal irradiation"
+                ]
+              },
+              {
+                "type": "PROCEDURE",
+                "name": "Surgery",
+                "description": "When applicable, surgery will be used to remove metastases. The goal of surgery is to achieve gross total resection of all imaging visible residual tumor.",
+                "armGroupLabels": [
+                  "Stratum 1: Local Failure",
+                  "Stratum 2: Metastatic Failure",
+                  "Stratum 3: Local and Metastatic Failure",
+                  "Stratum 4: Local Failure"
+                ],
+                "otherNames": [
+                  "Metastasectomy"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "^1^8F-Fluorodeoxyglucose",
+                "description": "This is a contrast media that will be given intravenously to aid in tumor visualization.",
+                "armGroupLabels": [
+                  "Stratum 1: Local Failure",
+                  "Stratum 2: Metastatic Failure",
+                  "Stratum 3: Local and Metastatic Failure",
+                  "Stratum 4: Local Failure"
+                ],
+                "otherNames": [
+                  "18F-FDG",
+                  "Contrast Media"
+                ]
+              },
+              {
+                "type": "DRUG",
+                "name": "^1^1C-methionine",
+                "description": "This is a contrast media that will be given intravenously to aid in tumor visualization.",
+                "armGroupLabels": [
+                  "Stratum 1: Local Failure",
+                  "Stratum 2: Metastatic Failure",
+                  "Stratum 3: Local and Metastatic Failure",
+                  "Stratum 4: Local Failure"
+                ],
+                "otherNames": [
+                  "Contrast Media"
+                ]
+              },
+              {
+                "type": "DEVICE",
+                "name": "Photon therapy",
+                "description": "Participants will receive one or both: Photon or proton therapy.",
+                "armGroupLabels": [
+                  "Stratum 1: Local Failure",
+                  "Stratum 2: Metastatic Failure",
+                  "Stratum 3: Local and Metastatic Failure",
+                  "Stratum 4: Local Failure"
+                ],
+                "otherNames": [
+                  "Photon linear accelerator"
+                ]
+              },
+              {
+                "type": "DEVICE",
+                "name": "Proton therapy",
+                "description": "Participants will receive one or both: Photon or proton therapy.",
+                "armGroupLabels": [
+                  "Stratum 1: Local Failure",
+                  "Stratum 2: Metastatic Failure",
+                  "Stratum 3: Local and Metastatic Failure",
+                  "Stratum 4: Local Failure"
+                ],
+                "otherNames": [
+                  "Proton synchroton"
+                ]
+              }
+            ]
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "3-year Progression-free Survival Rate",
+                "description": "To prospectively estimate the progression-free distribution for children and young adults with recurrent ependymoma treated with a second course of irradiation.",
+                "timeFrame": "2 years follow-up after initiation of radiation therapy for the last patient enrolled"
+              },
+              {
+                "measure": "3-year Overall Survival Rate",
+                "description": "OS was calculated from the date of initial radiation therapy to date of death or date of last contact for the patients who were treated with RT. The event of interest was death.",
+                "timeFrame": "2 years follow-up after initiation of radiation therapy for the last patient enrolled"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Incidence Rate of Neurological Deficits",
+                "description": "Evaluation will be in children and young adults with ependymoma treated with a second course of irradiation.\n\nOutcomes will be reported by p-values.",
+                "timeFrame": "Through 5 years after initiation of second course of irradiation"
+              },
+              {
+                "measure": "Incidence Rate of Ophthalmological Deficits",
+                "description": "Evaluation will be in children and young adults with ependymoma treated with a second course of irradiation.\n\nOutcome will be reported with p values.",
+                "timeFrame": "Through 5 years after initiation of second course of irradiation"
+              },
+              {
+                "measure": "Incidence Rate of Audiological Deficits",
+                "description": "Evaluation will be in children and young adults with ependymoma treated with a second course of irradiation.\n\nOutcome will be reported with p-values.",
+                "timeFrame": "Through 5 years after initiation of second course of irradiation"
+              },
+              {
+                "measure": "Incidence Rate of Endocrine Deficits",
+                "description": "Evaluation will be in children and young adults with ependymoma treated with a second course of irradiation.\n\nOutcome will be reported with p-values.",
+                "timeFrame": "Through 5 years after initiation of second course of irradiation"
+              },
+              {
+                "measure": "Number of Neurocognitive Deficits",
+                "timeFrame": "Through 5 years after initiation of second course of irradiation"
+              },
+              {
+                "measure": "Mean Change in Quality of Life by Treatment Arm",
+                "description": "Baseline is defined as day 1 of radiation therapy.",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy"
+              },
+              {
+                "measure": "Mean Change in Measured Task Sets",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nMeasured task sets: BOT2 (4-21 years old) and PPT (≥22 years old).\n\n* BOT2 outcome: total motor composite, a standardized score range from 20 to 80, with a mean of 50 and a standard deviation of 10.\n* PPT (7-item questionnaire) outcome: a score range from 0 to 28. The normative data is available from the human performance lab.\n\nThe above scores will be standardized into z-scores/T-scores for data analysis based on normative data.",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy"
+              },
+              {
+                "measure": "Mean Change in Physical Function",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nSelf-reported instruments (PROMIS): Three questionnaires.\n\n* Pediatric Physical Function - Mobility - SF1: 8-item questionnaire with the score range from 0 to 32.\n* Pediatric Physical Function - Upper Extremity - SF1: same as above.\n* Physical Function - SF1: 10-item questionnaire with the score range from 0 to 50.\n\nThe above scores will be standardized into z-scores/T-scores for data analysis based on normative data",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy"
+              },
+              {
+                "measure": "Mean Change in Body Mass Index (kg/m2)",
+                "description": "Baseline is defined as day 1 of radiation therapy",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy"
+              },
+              {
+                "measure": "Mean Change in Waist/Hip Ratio (cm/cm)",
+                "description": "Baseline is defined as day 1 of radiation therapy.",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy"
+              },
+              {
+                "measure": "Mean Change in Ankle Dorsiflexion",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nAnkle dorsiflexion active and passive range of motion: measured by goniometer, and recorded as an angle (degree).",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy"
+              },
+              {
+                "measure": "Mean Change in Overall Flexibility in cm",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nOverall flexibility: measured by sit and reach test, and recorded as a length (cm).",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy"
+              },
+              {
+                "measure": "Proportion Change in Balance",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nBalance measured by Measured by sensory organization test (SOT), and the result from the test is the equilibrium score, a percentage range from 0% to 100%, with the higher percentage, the better balance. The outcome is a binary variable with a cutoff score of \\< 70% indicates future risk for a fall.",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy"
+              },
+              {
+                "measure": "Mean Change in Fine Motor Coordination",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nFine motor coordination (finger and hand coordination). Measured by Composite Cerebellar Functional Severity Score (CCFS), and the outcome is an age-adjusted z-score and log transformed.",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy"
+              },
+              {
+                "measure": "Mean Change in Overall Coordination",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nOverall coordination measured by brief ataxia rating scale (five-item questionnaire). The outcome is a total scale range from 0 to 22.",
+                "timeFrame": "Fine motor coordination (finger and hand coordination)."
+              },
+              {
+                "measure": "Mean Change of Lower Extremity Strength and Power",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nLower extremity strength measured by BiodexIII. The outcomes are peak torque value/body weight ratios at different speeds of motion.\n\nThe scores will be standardized into z-scores for data analysis based on normative data.",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy"
+              },
+              {
+                "measure": "Mean Change in Hand Grip Strength",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nHand grip strength is measured by a Jamar hand held dynamometer and recorded in kilograms (kg).\n\nThe scores will be standardized into z-scores for data analysis based on normative data.",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy"
+              },
+              {
+                "measure": "Mean Change in Resting Energy Expenditure",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nResting energy expenditure is measured with indirect calorimetry after an overnight fast and recorded as REE (kcal/day).\n\nThe scores will be standardized into z-scores for data analysis based on normative data.",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy"
+              },
+              {
+                "measure": "Mean Change in Cardiopulmonary Exercise Test (CPET)",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nCardiopulmonary exercise test (CPET) will be completed on a treadmill using the Balke protocol or cycle ergometer using an incremental ramping protocol. The outcome is recorded as VO2max (ml/kg/min).\n\nThe scores will be standardized into z-scores for data analysis based on normative data.",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy"
+              },
+              {
+                "measure": "Longitudinal Change of Size (or Extent if Leptomeningeal Dissemination) of Residual Tumor",
+                "description": "Baseline is defined as the last MRI prior to initiation of radiation therapy.",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy"
+              },
+              {
+                "measure": "Longitudinal Change of Incidence and Severity of Structural Effects of Normal Brain",
+                "description": "Baseline is defined as the last MRI prior to initiation of radiation therapy.",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy"
+              },
+              {
+                "measure": "Longitudinal Change in Gray and White Matter Tissues",
+                "description": "This outcome will be evaluated by neuroimaging. Baseline is defined as day 1 of radiation therapy.",
+                "timeFrame": "Baseline to recovery of gray and white matter tract injury, up to a maximum of 5 years"
+              },
+              {
+                "measure": "Longitudinal Change of Individual Variation and Risk Factors in Gray and White Matter Tissues",
+                "description": "Baseline is defined as day 1 of radiation therapy.",
+                "timeFrame": "Baseline to recovery of gray and white matter tract injury, up to a maximum of 5 years"
+              },
+              {
+                "measure": "Change Over Time in Imaging Metrics",
+                "description": "Baseline is defined as day 1 of radiation therapy.",
+                "timeFrame": "Baseline to recovery of gray and white matter tract injury, up to a maximum of 5 years"
+              }
+            ],
+            "otherOutcomes": [
+              {
+                "measure": "Avidity of Ependymoma to 18F-fluorodeoxyglucose and 11C-methionine PET Prior to Radiation Therapy",
+                "description": "Baseline is the last FDG-PET and MET-PET prior to initiation of radiation therapy.",
+                "timeFrame": "Baseline"
+              },
+              {
+                "measure": "Longitudinal Change of Avidity of Ependymoma to 18F-fluorodeoxyglucose and 11C-methionine PET Prior to Radiation Therapy",
+                "description": "Correlation of avidity of ependymoma to 18F-fluorodeoxyglucose and 11C-methionine PET prior to radiation therapy with progression-free survival will be reported",
+                "timeFrame": "12, 24 and 36 months after second course of irradiation"
+              },
+              {
+                "measure": "Longitudinal Change of Necrosis Measured With MET/FDG and Necrosis Measured With MRI",
+                "description": "Association between necrosis measured with MET/FDG vs. MRI Baseline is defined as day 1 of radiation therapy (RT).",
+                "timeFrame": "Baseline, and at 12, 24 and 36 month"
+              },
+              {
+                "measure": "Mean Change Over Time in Cytokine Levels",
+                "description": "Baseline is defined as day 1 of radiation therapy.",
+                "timeFrame": "Baseline through 5 years after radiation therapy"
+              },
+              {
+                "measure": "Genetic Variations in Germline",
+                "description": "Evaluate will be of genetic variations in germline associated with treatment response and side effects. P-values will be reported.\n\nBaseline is defined as day 1 of radiation therapy.",
+                "timeFrame": "Baseline"
+              },
+              {
+                "measure": "3-year Progression-free Survival (PFS) Rates by Chemotherapy Groups",
+                "timeFrame": "2 years after initiation of irradiation for the last patient enrolled"
+              },
+              {
+                "measure": "3 Year Overall Survival (OS) Rates by Chemotherapy Groups",
+                "timeFrame": "2 years after initiation of irradiation for the last patient enrolled"
+              }
+            ]
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Progressive intracranial ependymoma after prior focal irradiation\n* Patients aged 1-21 years at the time of enrollment\n* Adequate performance status (ECOG \\< 3) and research participant does not require mechanical ventilation\n* Interval from start of initial radiation therapy to enrollment \\> 9 months\n\nExclusion Criteria:\n\n* Prior craniospinal irradiation\n* Pregnant women are excluded from enrollment on this study because radiation therapy is an agent with the potential for teratogenic or abortifacient effects\n* Any patient with both metastatic ependymoma and age \\< 3 years at the time of enrollment",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "1 Year",
+            "maximumAge": "21 Years",
+            "stdAges": [
+              "CHILD",
+              "ADULT"
+            ]
+          },
+          "contactsLocationsModule": {
+            "overallOfficials": [
+              {
+                "name": "Thomas E. Merchant, DO, PhD",
+                "affiliation": "St. Jude Children's Research Hospital",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "locations": [
+              {
+                "facility": "St. Jude Children's Research Hospital",
+                "city": "Memphis",
+                "state": "Tennessee",
+                "zip": "38105",
+                "country": "United States",
+                "geoPoint": {
+                  "lat": 35.14953,
+                  "lon": -90.04898
+                }
+              }
+            ]
+          },
+          "referencesModule": {
+            "seeAlsoLinks": [
+              {
+                "label": "St. Jude Children's Research Hospital",
+                "url": "http://www.stjude.org"
+              },
+              {
+                "label": "Clinical Trials Open at St. Jude",
+                "url": "http://www.stjude.org/protocols"
+              }
+            ]
+          }
+        },
+        "resultsSection": {
+          "participantFlowModule": {
+            "preAssignmentDetails": "Of 70 enrollments, 3 were found to be ineligible and removed; 3 withdrew before reirradiation to seek other treatment. One participant who was initially ineligible was later found to be eligible and re-enrolled, and a participant who had previously withdrawn to seek other treatment options decided to pursue reirradiation and re-enrolled. The 2 screen failures St. Jude pathology did not result ependymoma diagnosis after consent as expected. Sixty-four (64) completed reirradiation treatment.",
+            "recruitmentDetails": "70 enrollments occurred on 68 participants between from April 21, 2014 and June 30, 2020.",
+            "groups": [
+              {
+                "id": "FG000",
+                "title": "Reirradiation",
+                "description": "Children and young adults with Recurrent Ependymoma undergoing reirradiation"
+              }
+            ],
+            "periods": [
+              {
+                "title": "Overall Study",
+                "milestones": [
+                  {
+                    "type": "STARTED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "68"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "9"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "NOT COMPLETED",
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "59"
+                      }
+                    ]
+                  }
+                ],
+                "dropWithdraws": [
+                  {
+                    "type": "Still in Follow-up",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "3"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Screen Failure",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "2"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Withdrawal by Family before Start of RT",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "2"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Progressive Disease",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "44"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Death",
+                    "reasons": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "8"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "baselineCharacteristicsModule": {
+            "populationDescription": "Children and young adults with Recurrent Ependymoma undergoing reirradiation.",
+            "groups": [
+              {
+                "id": "BG000",
+                "title": "Reirradiation",
+                "description": "Children and young adults with Recurrent Ependymoma undergoing reirradiation."
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "BG000",
+                    "value": "64"
+                  }
+                ]
+              }
+            ],
+            "measures": [
+              {
+                "title": "Age, Continuous",
+                "paramType": "MEAN",
+                "dispersionType": "STANDARD_DEVIATION",
+                "unitOfMeasure": "years",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "9.95",
+                            "spread": "5.11"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Sex: Female, Male",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "Female",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "24"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Male",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "40"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Ethnicity (NIH/OMB)",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "Hispanic or Latino",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "9"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Not Hispanic or Latino",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "55"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Unknown or Not Reported",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Race (NIH/OMB)",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "American Indian or Alaska Native",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Asian",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "3"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Native Hawaiian or Other Pacific Islander",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Black or African American",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "8"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "White",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "51"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "More than one race",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "2"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Unknown or Not Reported",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Treatment Stratum",
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "unitOfMeasure": "Participants",
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "title": "Stratum 1(Initial pattern of failure is local) Treatment: Focal Irradiation",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "25"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Stratum 2 (Initial pattern of failure is metastatic) Treatment: CSI",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "16"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Stratum 3 (Initial pattern of failure is local and metastatic) Treatment: CSI",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "15"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Stratum 4 (Initial pattern of failure is local) Treatment: CSI (optional-presence of 1q gain & >3yo)",
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "8"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+              {
+                "type": "PRIMARY",
+                "title": "3-year Progression-free Survival Rate",
+                "description": "To prospectively estimate the progression-free distribution for children and young adults with recurrent ependymoma treated with a second course of irradiation.",
+                "reportingStatus": "POSTED",
+                "paramType": "NUMBER",
+                "dispersionType": "95% Confidence Interval",
+                "unitOfMeasure": "percentage of participants",
+                "timeFrame": "2 years follow-up after initiation of radiation therapy for the last patient enrolled",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Reirradiation",
+                    "description": "Children and young adults with Recurrent Ependymoma undergoing reirradiation"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "64"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "21.88",
+                            "lowerLimit": "12.73",
+                            "upperLimit": "32.61"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PRIMARY",
+                "title": "3-year Overall Survival Rate",
+                "description": "OS was calculated from the date of initial radiation therapy to date of death or date of last contact for the patients who were treated with RT. The event of interest was death.",
+                "reportingStatus": "POSTED",
+                "paramType": "NUMBER",
+                "dispersionType": "95% Confidence Interval",
+                "unitOfMeasure": "percentage of participants",
+                "timeFrame": "2 years follow-up after initiation of radiation therapy for the last patient enrolled",
+                "groups": [
+                  {
+                    "id": "OG000",
+                    "title": "Reirradiation",
+                    "description": "Children and young adults with Recurrent Ependymoma undergoing reirradiation"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "units": "Participants",
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "64"
+                      }
+                    ]
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "60.33",
+                            "lowerLimit": "47.14",
+                            "upperLimit": "71.20"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Incidence Rate of Neurological Deficits",
+                "description": "Evaluation will be in children and young adults with ependymoma treated with a second course of irradiation.\n\nOutcomes will be reported by p-values.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Through 5 years after initiation of second course of irradiation",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Incidence Rate of Ophthalmological Deficits",
+                "description": "Evaluation will be in children and young adults with ependymoma treated with a second course of irradiation.\n\nOutcome will be reported with p values.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Through 5 years after initiation of second course of irradiation",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Incidence Rate of Audiological Deficits",
+                "description": "Evaluation will be in children and young adults with ependymoma treated with a second course of irradiation.\n\nOutcome will be reported with p-values.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Through 5 years after initiation of second course of irradiation",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Incidence Rate of Endocrine Deficits",
+                "description": "Evaluation will be in children and young adults with ependymoma treated with a second course of irradiation.\n\nOutcome will be reported with p-values.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Through 5 years after initiation of second course of irradiation",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Number of Neurocognitive Deficits",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Through 5 years after initiation of second course of irradiation",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Mean Change in Quality of Life by Treatment Arm",
+                "description": "Baseline is defined as day 1 of radiation therapy.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Mean Change in Measured Task Sets",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nMeasured task sets: BOT2 (4-21 years old) and PPT (≥22 years old).\n\n* BOT2 outcome: total motor composite, a standardized score range from 20 to 80, with a mean of 50 and a standard deviation of 10.\n* PPT (7-item questionnaire) outcome: a score range from 0 to 28. The normative data is available from the human performance lab.\n\nThe above scores will be standardized into z-scores/T-scores for data analysis based on normative data.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Mean Change in Physical Function",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nSelf-reported instruments (PROMIS): Three questionnaires.\n\n* Pediatric Physical Function - Mobility - SF1: 8-item questionnaire with the score range from 0 to 32.\n* Pediatric Physical Function - Upper Extremity - SF1: same as above.\n* Physical Function - SF1: 10-item questionnaire with the score range from 0 to 50.\n\nThe above scores will be standardized into z-scores/T-scores for data analysis based on normative data",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Mean Change in Body Mass Index (kg/m2)",
+                "description": "Baseline is defined as day 1 of radiation therapy",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Mean Change in Waist/Hip Ratio (cm/cm)",
+                "description": "Baseline is defined as day 1 of radiation therapy.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Mean Change in Ankle Dorsiflexion",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nAnkle dorsiflexion active and passive range of motion: measured by goniometer, and recorded as an angle (degree).",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Mean Change in Overall Flexibility in cm",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nOverall flexibility: measured by sit and reach test, and recorded as a length (cm).",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Proportion Change in Balance",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nBalance measured by Measured by sensory organization test (SOT), and the result from the test is the equilibrium score, a percentage range from 0% to 100%, with the higher percentage, the better balance. The outcome is a binary variable with a cutoff score of \\< 70% indicates future risk for a fall.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Mean Change in Fine Motor Coordination",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nFine motor coordination (finger and hand coordination). Measured by Composite Cerebellar Functional Severity Score (CCFS), and the outcome is an age-adjusted z-score and log transformed.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Mean Change in Overall Coordination",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nOverall coordination measured by brief ataxia rating scale (five-item questionnaire). The outcome is a total scale range from 0 to 22.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Fine motor coordination (finger and hand coordination).",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Mean Change of Lower Extremity Strength and Power",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nLower extremity strength measured by BiodexIII. The outcomes are peak torque value/body weight ratios at different speeds of motion.\n\nThe scores will be standardized into z-scores for data analysis based on normative data.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Mean Change in Hand Grip Strength",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nHand grip strength is measured by a Jamar hand held dynamometer and recorded in kilograms (kg).\n\nThe scores will be standardized into z-scores for data analysis based on normative data.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Mean Change in Resting Energy Expenditure",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nResting energy expenditure is measured with indirect calorimetry after an overnight fast and recorded as REE (kcal/day).\n\nThe scores will be standardized into z-scores for data analysis based on normative data.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Mean Change in Cardiopulmonary Exercise Test (CPET)",
+                "description": "Baseline is defined as day 1 of radiation therapy.\n\nCardiopulmonary exercise test (CPET) will be completed on a treadmill using the Balke protocol or cycle ergometer using an incremental ramping protocol. The outcome is recorded as VO2max (ml/kg/min).\n\nThe scores will be standardized into z-scores for data analysis based on normative data.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Longitudinal Change of Size (or Extent if Leptomeningeal Dissemination) of Residual Tumor",
+                "description": "Baseline is defined as the last MRI prior to initiation of radiation therapy.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Longitudinal Change of Incidence and Severity of Structural Effects of Normal Brain",
+                "description": "Baseline is defined as the last MRI prior to initiation of radiation therapy.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline through 5 years after initiation of radiation therapy",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Longitudinal Change in Gray and White Matter Tissues",
+                "description": "This outcome will be evaluated by neuroimaging. Baseline is defined as day 1 of radiation therapy.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline to recovery of gray and white matter tract injury, up to a maximum of 5 years",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Longitudinal Change of Individual Variation and Risk Factors in Gray and White Matter Tissues",
+                "description": "Baseline is defined as day 1 of radiation therapy.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline to recovery of gray and white matter tract injury, up to a maximum of 5 years",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "SECONDARY",
+                "title": "Change Over Time in Imaging Metrics",
+                "description": "Baseline is defined as day 1 of radiation therapy.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline to recovery of gray and white matter tract injury, up to a maximum of 5 years",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "OTHER_PRE_SPECIFIED",
+                "title": "Avidity of Ependymoma to 18F-fluorodeoxyglucose and 11C-methionine PET Prior to Radiation Therapy",
+                "description": "Baseline is the last FDG-PET and MET-PET prior to initiation of radiation therapy.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "OTHER_PRE_SPECIFIED",
+                "title": "Longitudinal Change of Avidity of Ependymoma to 18F-fluorodeoxyglucose and 11C-methionine PET Prior to Radiation Therapy",
+                "description": "Correlation of avidity of ependymoma to 18F-fluorodeoxyglucose and 11C-methionine PET prior to radiation therapy with progression-free survival will be reported",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "12, 24 and 36 months after second course of irradiation",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "OTHER_PRE_SPECIFIED",
+                "title": "Longitudinal Change of Necrosis Measured With MET/FDG and Necrosis Measured With MRI",
+                "description": "Association between necrosis measured with MET/FDG vs. MRI Baseline is defined as day 1 of radiation therapy (RT).",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline, and at 12, 24 and 36 month",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "OTHER_PRE_SPECIFIED",
+                "title": "Mean Change Over Time in Cytokine Levels",
+                "description": "Baseline is defined as day 1 of radiation therapy.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline through 5 years after radiation therapy",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "OTHER_PRE_SPECIFIED",
+                "title": "Genetic Variations in Germline",
+                "description": "Evaluate will be of genetic variations in germline associated with treatment response and side effects. P-values will be reported.\n\nBaseline is defined as day 1 of radiation therapy.",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "Baseline",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "OTHER_PRE_SPECIFIED",
+                "title": "3-year Progression-free Survival (PFS) Rates by Chemotherapy Groups",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "2 years after initiation of irradiation for the last patient enrolled",
+                "denomUnitsSelected": "Participants"
+              },
+              {
+                "type": "OTHER_PRE_SPECIFIED",
+                "title": "3 Year Overall Survival (OS) Rates by Chemotherapy Groups",
+                "reportingStatus": "NOT_POSTED",
+                "timeFrame": "2 years after initiation of irradiation for the last patient enrolled",
+                "denomUnitsSelected": "Participants"
+              }
+            ]
+          },
+          "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "11C-Methionine-Related Adverse Events: From time of injection through one hour post injection of 11C-methionine. Radiation-Related Adverse Events: From initiation of radiation therapy through study completion, an average of 2 years.",
+            "description": "All-cause mortality was assessed in eligible participants who received radiation therapy. Adverse events were assessed in eligible participants with adverse event data who received radiation therapy.",
+            "eventGroups": [
+              {
+                "id": "EG000",
+                "title": "Reirradiation",
+                "description": "Children and young adults with Recurrent Ependymoma undergoing reirradiation.",
+                "deathsNumAffected": 8,
+                "deathsNumAtRisk": 64,
+                "seriousNumAffected": 2,
+                "seriousNumAtRisk": 64,
+                "otherNumAffected": 30,
+                "otherNumAtRisk": 64
+              }
+            ],
+            "seriousEvents": [
+              {
+                "term": "Gastric Hemorrhage",
+                "organSystem": "Gastrointestinal disorders",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "notes": "Unrelated to radiation therapy, resulted in patient's death.",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 64
+                  }
+                ]
+              },
+              {
+                "term": "Death NOS",
+                "organSystem": "General disorders",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "notes": "Unrelated to radiation therapy, pre-existing swallowing issues developed post-operatively prior to radiation therapy; cause of death unknown as autopsy not performed.",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 64
+                  }
+                ]
+              }
+            ],
+            "otherEvents": [
+              {
+                "term": "Febrile neutropenia",
+                "organSystem": "Blood and lymphatic system disorders",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 64
+                  }
+                ]
+              },
+              {
+                "term": "Sinus bradycardia",
+                "organSystem": "Cardiac disorders",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "notes": "Associated with administration of 11C-Methionine, observed post-11C-Methionine PET scan, not radiation-related.",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 64
+                  }
+                ]
+              },
+              {
+                "term": "Sinus tachycardia",
+                "organSystem": "Cardiac disorders",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "notes": "Associated with administration of 11C-Methionine, observed post-11C-Methionine PET scan, not radiation-related.",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 3,
+                    "numAffected": 3,
+                    "numAtRisk": 64
+                  }
+                ]
+              },
+              {
+                "term": "Other-Pseudomeningocele",
+                "organSystem": "General disorders",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 64
+                  }
+                ]
+              },
+              {
+                "term": "Peripheral nerve infection",
+                "organSystem": "Infections and infestations",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 64
+                  }
+                ]
+              },
+              {
+                "term": "Wound complication",
+                "organSystem": "Injury, poisoning and procedural complications",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 64
+                  }
+                ]
+              },
+              {
+                "term": "Lymphocyte count decreased",
+                "organSystem": "Investigations",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 64
+                  }
+                ]
+              },
+              {
+                "term": "Central nervous system necrosis",
+                "organSystem": "Nervous system disorders",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 15,
+                    "numAffected": 15,
+                    "numAtRisk": 64
+                  }
+                ]
+              },
+              {
+                "term": "Cerebrospinal fluid leakage",
+                "organSystem": "Nervous system disorders",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 64
+                  }
+                ]
+              },
+              {
+                "term": "Headache",
+                "organSystem": "Nervous system disorders",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 64
+                  }
+                ]
+              },
+              {
+                "term": "Seizure",
+                "organSystem": "Nervous system disorders",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "notes": "New diagnosis/onset of seizures.",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 64
+                  }
+                ]
+              },
+              {
+                "term": "Other - Bradypnea",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "notes": "Associated with administration of 11C-Methionine, observed post-11C-Methionine PET scan, not radiation-related.",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 9,
+                    "numAffected": 7,
+                    "numAtRisk": 64
+                  }
+                ]
+              },
+              {
+                "term": "Other - Tachypnea",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "notes": "Associated with administration of 11C-Methionine, observed post-11C-Methionine PET scan, not radiation-related.",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 5,
+                    "numAffected": 5,
+                    "numAtRisk": 64
+                  }
+                ]
+              },
+              {
+                "term": "Hypertension",
+                "organSystem": "Vascular disorders",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "notes": "Associated with administration of 11C-Methionine, observed post-11C-Methionine PET scan, not radiation-related.",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 2,
+                    "numAffected": 2,
+                    "numAtRisk": 64
+                  }
+                ]
+              },
+              {
+                "term": "Hypotension",
+                "organSystem": "Vascular disorders",
+                "sourceVocabulary": "CTCAE (4.0)",
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "notes": "Associated with administration of 11C-Methionine, observed post-11C-Methionine PET scan, not radiation-related.",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numEvents": 1,
+                    "numAffected": 1,
+                    "numAtRisk": 64
+                  }
+                ]
+              }
+            ]
+          },
+          "moreInfoModule": {
+            "certainAgreement": {
+              "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+              "title": "Thomas E. Merchant, DO, PhD",
+              "organization": "St. Jude Children's Research Hospital",
+              "email": "referralinfo@stjude.org",
+              "phone": "8662785833"
+            }
+          }
+        },
+        "documentSection": {
+          "largeDocumentModule": {
+            "largeDocs": [
+              {
+                "typeAbbrev": "Prot_SAP",
+                "hasProtocol": true,
+                "hasSap": true,
+                "hasIcf": false,
+                "label": "Study Protocol and Statistical Analysis Plan",
+                "date": "2023-02-01",
+                "uploadDate": "2024-08-21T15:05",
+                "filename": "Prot_SAP_000.pdf",
+                "size": 1140949
+              },
+              {
+                "typeAbbrev": "ICF",
+                "hasProtocol": false,
+                "hasSap": false,
+                "hasIcf": true,
+                "label": "Informed Consent Form",
+                "date": "2023-02-01",
+                "uploadDate": "2024-08-21T15:06",
+                "filename": "ICF_001.pdf",
+                "size": 286142
+              }
+            ]
+          }
+        },
+        "derivedSection": {
+          "miscInfoModule": {
+            "versionHolder": "2026-10-26",
+            "removedCountries": [
+              "Canada"
+            ]
+          },
+          "conditionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D004806",
+                "term": "Ependymoma"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D005910",
+                "term": "Glioma"
+              },
+              {
+                "id": "D018302",
+                "term": "Neoplasms, Neuroepithelial"
+              },
+              {
+                "id": "D017599",
+                "term": "Neuroectodermal Tumors"
+              },
+              {
+                "id": "D009373",
+                "term": "Neoplasms, Germ Cell and Embryonal"
+              },
+              {
+                "id": "D009370",
+                "term": "Neoplasms by Histologic Type"
+              },
+              {
+                "id": "D009369",
+                "term": "Neoplasms"
+              },
+              {
+                "id": "D009375",
+                "term": "Neoplasms, Glandular and Epithelial"
+              },
+              {
+                "id": "D009380",
+                "term": "Neoplasms, Nerve Tissue"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "meshes": [
+              {
+                "id": "D011827",
+                "term": "Radiation"
+              },
+              {
+                "id": "D061888",
+                "term": "Craniospinal Irradiation"
+              },
+              {
+                "id": "D013514",
+                "term": "Surgical Procedures, Operative"
+              },
+              {
+                "id": "D059146",
+                "term": "Metastasectomy"
+              },
+              {
+                "id": "D019788",
+                "term": "Fluorodeoxyglucose F18"
+              },
+              {
+                "id": "D003287",
+                "term": "Contrast Media"
+              },
+              {
+                "id": "D061766",
+                "term": "Proton Therapy"
+              }
+            ],
+            "ancestors": [
+              {
+                "id": "D055585",
+                "term": "Physical Phenomena"
+              },
+              {
+                "id": "D011878",
+                "term": "Radiotherapy"
+              },
+              {
+                "id": "D013812",
+                "term": "Therapeutics"
+              },
+              {
+                "id": "D003847",
+                "term": "Deoxyglucose"
+              },
+              {
+                "id": "D003837",
+                "term": "Deoxy Sugars"
+              },
+              {
+                "id": "D002241",
+                "term": "Carbohydrates"
+              },
+              {
+                "id": "D064907",
+                "term": "Diagnostic Uses of Chemicals"
+              },
+              {
+                "id": "D020228",
+                "term": "Pharmacologic Actions"
+              },
+              {
+                "id": "D020164",
+                "term": "Chemical Actions and Uses"
+              },
+              {
+                "id": "D020313",
+                "term": "Specialty Uses of Chemicals"
+              },
+              {
+                "id": "D063193",
+                "term": "Heavy Ion Radiotherapy"
+              }
+            ]
+          }
+        },
+        "hasResults": true
+      },
+      "retrievedAt": "2026-10-26T21:35:26.367Z"
+    }
+  ]
+}

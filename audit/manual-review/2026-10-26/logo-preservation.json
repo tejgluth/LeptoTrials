@@ -1,0 +1,15 @@
+{
+  "requestedAt": "2026-10-26",
+  "baseline": "51cd104bf36f03510736e08a22077dd5550d7821",
+  "unchanged": true,
+  "files": {
+    "src/components/BrandLogo.tsx": "3975b8edf6efcafcaaac08d777ec91bd812a96babc728454c51fad76bb1e6913",
+    "src/App.tsx": "ec15b0ef20810bacefddaa7c06e4b87b084f57012568a398a53ae737f563aad3",
+    "src/index.css": "e6d07d5cfb5723588ed4a8369b62a4fdbe39d4e652d8278471d29210b2289556",
+    "public/favicon.svg": "fe83bcb2619f7a044e463e9607b65dcd851d90aa3417e040445e4f8454bb457e"
+  },
+  "liveWordmark": {
+    "text": "LeptoTrials",
+    "html": "<span class=\"font-bold uppercase text-[#e8f4fd] min-w-0 flex-shrink text-[0.9rem] max-[430px]:text-[clamp(0.82rem,2.9vw,0.9rem)] tracking-[0.2em] max-[430px]:tracking-[0.16em] sm:tracking-[0.25em] whitespace-nowrap\">Lepto<span class=\"text-[#38bdf8]\">Trials</span></span>"
+  }
+}
