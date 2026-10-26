@@ -1,0 +1,1166 @@
+
+> leptotrials@1.0.0 check
+> npm run test && npm run lint && npm run build
+
+
+> leptotrials@1.0.0 test
+> tsx --test functions/_lib/*.test.ts functions/api/*.test.ts tests/*.test.ts
+
+TAP version 13
+# Subtest: validates the public event schema
+ok 1 - validates the public event schema
+  ---
+  duration_ms: 0.3245
+  type: 'test'
+  ...
+# Subtest: compares dashboard tokens without an early equality return
+ok 2 - compares dashboard tokens without an early equality return
+  ---
+  duration_ms: 0.113375
+  type: 'test'
+  ...
+# Subtest: rejects methods other than POST
+ok 3 - rejects methods other than POST
+  ---
+  duration_ms: 12.444417
+  type: 'test'
+  ...
+# Subtest: rejects cross-site and malformed origins
+ok 4 - rejects cross-site and malformed origins
+  ---
+  duration_ms: 0.485041
+  type: 'test'
+  ...
+# Subtest: rejects oversized and invalid event bodies
+ok 5 - rejects oversized and invalid event bodies
+  ---
+  duration_ms: 2.367584
+  type: 'test'
+  ...
+# Subtest: cancels an oversized streaming body without waiting for the stream to end
+ok 6 - cancels an oversized streaming body without waiting for the stream to end
+  ---
+  duration_ms: 0.420791
+  type: 'test'
+  ...
+# Subtest: rejects media types that merely start with application/json
+ok 7 - rejects media types that merely start with application/json
+  ---
+  duration_ms: 0.114959
+  type: 'test'
+  ...
+# Subtest: accepts only trial/action, ignores privacy-signal requests, and stores aggregate counters
+ok 8 - accepts only trial/action, ignores privacy-signal requests, and stores aggregate counters
+  ---
+  duration_ms: 1.647792
+  type: 'test'
+  ...
+# Subtest: retired submissions never read bodies, call providers, or access a database
+ok 9 - retired submissions never read bodies, call providers, or access a database
+  ---
+  duration_ms: 13.179875
+  type: 'test'
+  ...
+# Subtest: counts trial contacts by default with only trial/action and honors browser privacy signals
+ok 10 - counts trial contacts by default with only trial/action and honors browser privacy signals
+  ---
+  duration_ms: 12.129667
+  type: 'test'
+  ...
+# Subtest: NCT00003406 matches the reviewed LM eligibility and tumor buckets
+ok 11 - NCT00003406 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 2.093875
+  type: 'test'
+  ...
+# Subtest: NCT00003634 matches the reviewed LM eligibility and tumor buckets
+ok 12 - NCT00003634 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.089291
+  type: 'test'
+  ...
+# Subtest: NCT00004064 matches the reviewed LM eligibility and tumor buckets
+ok 13 - NCT00004064 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.066667
+  type: 'test'
+  ...
+# Subtest: NCT00013533 matches the reviewed LM eligibility and tumor buckets
+ok 14 - NCT00013533 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.1415
+  type: 'test'
+  ...
+# Subtest: NCT00050375 matches the reviewed LM eligibility and tumor buckets
+ok 15 - NCT00050375 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.590667
+  type: 'test'
+  ...
+# Subtest: NCT00086632 matches the reviewed LM eligibility and tumor buckets
+ok 16 - NCT00086632 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.090583
+  type: 'test'
+  ...
+# Subtest: NCT00570908 matches the reviewed LM eligibility and tumor buckets
+ok 17 - NCT00570908 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.138625
+  type: 'test'
+  ...
+# Subtest: NCT00667615 matches the reviewed LM eligibility and tumor buckets
+ok 18 - NCT00667615 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.092458
+  type: 'test'
+  ...
+# Subtest: NCT00795340 matches the reviewed LM eligibility and tumor buckets
+ok 19 - NCT00795340 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.304125
+  type: 'test'
+  ...
+# Subtest: NCT00873119 matches the reviewed LM eligibility and tumor buckets
+ok 20 - NCT00873119 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.321666
+  type: 'test'
+  ...
+# Subtest: NCT00924820 matches the reviewed LM eligibility and tumor buckets
+ok 21 - NCT00924820 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.158125
+  type: 'test'
+  ...
+# Subtest: NCT01527149 matches the reviewed LM eligibility and tumor buckets
+ok 22 - NCT01527149 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.151083
+  type: 'test'
+  ...
+# Subtest: NCT01654497 matches the reviewed LM eligibility and tumor buckets
+ok 23 - NCT01654497 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.0875
+  type: 'test'
+  ...
+# Subtest: NCT01712659 matches the reviewed LM eligibility and tumor buckets
+ok 24 - NCT01712659 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.090333
+  type: 'test'
+  ...
+# Subtest: NCT01713699 matches the reviewed LM eligibility and tumor buckets
+ok 25 - NCT01713699 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.035167
+  type: 'test'
+  ...
+# Subtest: NCT01775475 matches the reviewed LM eligibility and tumor buckets
+ok 26 - NCT01775475 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.103291
+  type: 'test'
+  ...
+# Subtest: NCT01897571 matches the reviewed LM eligibility and tumor buckets
+ok 27 - NCT01897571 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.096125
+  type: 'test'
+  ...
+# Subtest: NCT01977209 matches the reviewed LM eligibility and tumor buckets
+ok 28 - NCT01977209 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.055084
+  type: 'test'
+  ...
+# Subtest: NCT02091063 matches the reviewed LM eligibility and tumor buckets
+ok 29 - NCT02091063 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.063375
+  type: 'test'
+  ...
+# Subtest: NCT02186730 matches the reviewed LM eligibility and tumor buckets
+ok 30 - NCT02186730 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.099125
+  type: 'test'
+  ...
+# Subtest: NCT02308020 matches the reviewed LM eligibility and tumor buckets
+ok 31 - NCT02308020 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.09925
+  type: 'test'
+  ...
+# Subtest: NCT02329080 matches the reviewed LM eligibility and tumor buckets
+ok 32 - NCT02329080 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.0695
+  type: 'test'
+  ...
+# Subtest: NCT02422641 matches the reviewed LM eligibility and tumor buckets
+ok 33 - NCT02422641 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.09275
+  type: 'test'
+  ...
+# Subtest: NCT02423525 matches the reviewed LM eligibility and tumor buckets
+ok 34 - NCT02423525 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.077916
+  type: 'test'
+  ...
+# Subtest: NCT02446457 matches the reviewed LM eligibility and tumor buckets
+ok 35 - NCT02446457 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.133959
+  type: 'test'
+  ...
+# Subtest: NCT02535247 matches the reviewed LM eligibility and tumor buckets
+ok 36 - NCT02535247 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.128666
+  type: 'test'
+  ...
+# Subtest: NCT02540876 matches the reviewed LM eligibility and tumor buckets
+ok 37 - NCT02540876 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.097875
+  type: 'test'
+  ...
+# Subtest: NCT02838420 matches the reviewed LM eligibility and tumor buckets
+ok 38 - NCT02838420 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.102375
+  type: 'test'
+  ...
+# Subtest: NCT02839889 matches the reviewed LM eligibility and tumor buckets
+ok 39 - NCT02839889 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.096083
+  type: 'test'
+  ...
+# Subtest: NCT02971501 matches the reviewed LM eligibility and tumor buckets
+ok 40 - NCT02971501 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.133125
+  type: 'test'
+  ...
+# Subtest: NCT03053297 matches the reviewed LM eligibility and tumor buckets
+ok 41 - NCT03053297 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.039625
+  type: 'test'
+  ...
+# Subtest: NCT03075072 matches the reviewed LM eligibility and tumor buckets
+ok 42 - NCT03075072 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.056083
+  type: 'test'
+  ...
+# Subtest: NCT03100006 matches the reviewed LM eligibility and tumor buckets
+ok 43 - NCT03100006 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.164375
+  type: 'test'
+  ...
+# Subtest: NCT03213652 matches the reviewed LM eligibility and tumor buckets
+ok 44 - NCT03213652 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.134625
+  type: 'test'
+  ...
+# Subtest: NCT03215095 matches the reviewed LM eligibility and tumor buckets
+ok 45 - NCT03215095 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.136875
+  type: 'test'
+  ...
+# Subtest: NCT03283137 matches the reviewed LM eligibility and tumor buckets
+ok 46 - NCT03283137 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.100625
+  type: 'test'
+  ...
+# Subtest: NCT03360929 matches the reviewed LM eligibility and tumor buckets
+ok 47 - NCT03360929 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.075042
+  type: 'test'
+  ...
+# Subtest: NCT03368625 matches the reviewed LM eligibility and tumor buckets
+ok 48 - NCT03368625 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.047916
+  type: 'test'
+  ...
+# Subtest: NCT03391362 matches the reviewed LM eligibility and tumor buckets
+ok 49 - NCT03391362 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.045042
+  type: 'test'
+  ...
+# Subtest: NCT03401853 matches the reviewed LM eligibility and tumor buckets
+ok 50 - NCT03401853 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.691167
+  type: 'test'
+  ...
+# Subtest: NCT03423628 matches the reviewed LM eligibility and tumor buckets
+ok 51 - NCT03423628 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.123625
+  type: 'test'
+  ...
+# Subtest: NCT03473574 matches the reviewed LM eligibility and tumor buckets
+ok 52 - NCT03473574 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.119875
+  type: 'test'
+  ...
+# Subtest: NCT03719768 matches the reviewed LM eligibility and tumor buckets
+ok 53 - NCT03719768 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.1115
+  type: 'test'
+  ...
+# Subtest: NCT03816345 matches the reviewed LM eligibility and tumor buckets
+ok 54 - NCT03816345 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.210709
+  type: 'test'
+  ...
+# Subtest: NCT03911388 matches the reviewed LM eligibility and tumor buckets
+ok 55 - NCT03911388 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.082708
+  type: 'test'
+  ...
+# Subtest: NCT04075396 matches the reviewed LM eligibility and tumor buckets
+ok 56 - NCT04075396 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.058459
+  type: 'test'
+  ...
+# Subtest: NCT04094688 matches the reviewed LM eligibility and tumor buckets
+ok 57 - NCT04094688 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.096291
+  type: 'test'
+  ...
+# Subtest: NCT04135352 matches the reviewed LM eligibility and tumor buckets
+ok 58 - NCT04135352 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.086041
+  type: 'test'
+  ...
+# Subtest: NCT04181060 matches the reviewed LM eligibility and tumor buckets
+ok 59 - NCT04181060 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.110625
+  type: 'test'
+  ...
+# Subtest: NCT04301076 matches the reviewed LM eligibility and tumor buckets
+ok 60 - NCT04301076 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.09775
+  type: 'test'
+  ...
+# Subtest: NCT04309968 matches the reviewed LM eligibility and tumor buckets
+ok 61 - NCT04309968 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.053584
+  type: 'test'
+  ...
+# Subtest: NCT04315246 matches the reviewed LM eligibility and tumor buckets
+ok 62 - NCT04315246 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.042208
+  type: 'test'
+  ...
+# Subtest: NCT04500548 matches the reviewed LM eligibility and tumor buckets
+ok 63 - NCT04500548 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.189292
+  type: 'test'
+  ...
+# Subtest: NCT04527549 matches the reviewed LM eligibility and tumor buckets
+ok 64 - NCT04527549 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.125875
+  type: 'test'
+  ...
+# Subtest: NCT04543188 matches the reviewed LM eligibility and tumor buckets
+ok 65 - NCT04543188 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.053958
+  type: 'test'
+  ...
+# Subtest: NCT04588545 matches the reviewed LM eligibility and tumor buckets
+ok 66 - NCT04588545 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.052042
+  type: 'test'
+  ...
+# Subtest: NCT04620954 matches the reviewed LM eligibility and tumor buckets
+ok 67 - NCT04620954 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.132958
+  type: 'test'
+  ...
+# Subtest: NCT04739358 matches the reviewed LM eligibility and tumor buckets
+ok 68 - NCT04739358 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.17925
+  type: 'test'
+  ...
+# Subtest: NCT04899908 matches the reviewed LM eligibility and tumor buckets
+ok 69 - NCT04899908 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.091375
+  type: 'test'
+  ...
+# Subtest: NCT04914286 matches the reviewed LM eligibility and tumor buckets
+ok 70 - NCT04914286 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.07975
+  type: 'test'
+  ...
+# Subtest: NCT04938583 matches the reviewed LM eligibility and tumor buckets
+ok 71 - NCT04938583 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.075709
+  type: 'test'
+  ...
+# Subtest: NCT05200143 matches the reviewed LM eligibility and tumor buckets
+ok 72 - NCT05200143 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.183375
+  type: 'test'
+  ...
+# Subtest: NCT05319873 matches the reviewed LM eligibility and tumor buckets
+ok 73 - NCT05319873 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.19875
+  type: 'test'
+  ...
+# Subtest: NCT05372614 matches the reviewed LM eligibility and tumor buckets
+ok 74 - NCT05372614 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.204042
+  type: 'test'
+  ...
+# Subtest: NCT05388877 matches the reviewed LM eligibility and tumor buckets
+ok 75 - NCT05388877 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.084125
+  type: 'test'
+  ...
+# Subtest: NCT05414123 matches the reviewed LM eligibility and tumor buckets
+ok 76 - NCT05414123 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.238709
+  type: 'test'
+  ...
+# Subtest: NCT05429762 matches the reviewed LM eligibility and tumor buckets
+ok 77 - NCT05429762 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.075334
+  type: 'test'
+  ...
+# Subtest: NCT05477680 matches the reviewed LM eligibility and tumor buckets
+ok 78 - NCT05477680 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.038125
+  type: 'test'
+  ...
+# Subtest: NCT05477927 matches the reviewed LM eligibility and tumor buckets
+ok 79 - NCT05477927 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.066042
+  type: 'test'
+  ...
+# Subtest: NCT05484245 matches the reviewed LM eligibility and tumor buckets
+ok 80 - NCT05484245 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.030459
+  type: 'test'
+  ...
+# Subtest: NCT05617885 matches the reviewed LM eligibility and tumor buckets
+ok 81 - NCT05617885 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.175375
+  type: 'test'
+  ...
+# Subtest: NCT05627245 matches the reviewed LM eligibility and tumor buckets
+ok 82 - NCT05627245 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.112833
+  type: 'test'
+  ...
+# Subtest: NCT05746325 matches the reviewed LM eligibility and tumor buckets
+ok 83 - NCT05746325 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.050833
+  type: 'test'
+  ...
+# Subtest: NCT05807893 matches the reviewed LM eligibility and tumor buckets
+ok 84 - NCT05807893 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.05925
+  type: 'test'
+  ...
+# Subtest: NCT05810350 matches the reviewed LM eligibility and tumor buckets
+ok 85 - NCT05810350 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.098917
+  type: 'test'
+  ...
+# Subtest: NCT05843253 matches the reviewed LM eligibility and tumor buckets
+ok 86 - NCT05843253 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.195917
+  type: 'test'
+  ...
+# Subtest: NCT05865990 matches the reviewed LM eligibility and tumor buckets
+ok 87 - NCT05865990 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.149917
+  type: 'test'
+  ...
+# Subtest: NCT05967689 matches the reviewed LM eligibility and tumor buckets
+ok 88 - NCT05967689 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.158917
+  type: 'test'
+  ...
+# Subtest: NCT05984108 matches the reviewed LM eligibility and tumor buckets
+ok 89 - NCT05984108 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.025208
+  type: 'test'
+  ...
+# Subtest: NCT05991518 matches the reviewed LM eligibility and tumor buckets
+ok 90 - NCT05991518 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.1295
+  type: 'test'
+  ...
+# Subtest: NCT06146010 matches the reviewed LM eligibility and tumor buckets
+ok 91 - NCT06146010 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.025291
+  type: 'test'
+  ...
+# Subtest: NCT06258408 matches the reviewed LM eligibility and tumor buckets
+ok 92 - NCT06258408 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.0495
+  type: 'test'
+  ...
+# Subtest: NCT06422806 matches the reviewed LM eligibility and tumor buckets
+ok 93 - NCT06422806 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.087541
+  type: 'test'
+  ...
+# Subtest: NCT06436092 matches the reviewed LM eligibility and tumor buckets
+ok 94 - NCT06436092 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.049584
+  type: 'test'
+  ...
+# Subtest: NCT06440954 matches the reviewed LM eligibility and tumor buckets
+ok 95 - NCT06440954 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.038875
+  type: 'test'
+  ...
+# Subtest: NCT06465316 matches the reviewed LM eligibility and tumor buckets
+ok 96 - NCT06465316 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.122625
+  type: 'test'
+  ...
+# Subtest: NCT06492915 matches the reviewed LM eligibility and tumor buckets
+ok 97 - NCT06492915 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.094833
+  type: 'test'
+  ...
+# Subtest: NCT06497543 matches the reviewed LM eligibility and tumor buckets
+ok 98 - NCT06497543 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.040167
+  type: 'test'
+  ...
+# Subtest: NCT06589804 matches the reviewed LM eligibility and tumor buckets
+ok 99 - NCT06589804 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.06875
+  type: 'test'
+  ...
+# Subtest: NCT06638294 matches the reviewed LM eligibility and tumor buckets
+ok 100 - NCT06638294 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.121625
+  type: 'test'
+  ...
+# Subtest: NCT06762080 matches the reviewed LM eligibility and tumor buckets
+ok 101 - NCT06762080 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.032833
+  type: 'test'
+  ...
+# Subtest: NCT06809530 matches the reviewed LM eligibility and tumor buckets
+ok 102 - NCT06809530 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.028417
+  type: 'test'
+  ...
+# Subtest: NCT06945705 matches the reviewed LM eligibility and tumor buckets
+ok 103 - NCT06945705 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.0695
+  type: 'test'
+  ...
+# Subtest: NCT06951243 matches the reviewed LM eligibility and tumor buckets
+ok 104 - NCT06951243 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.097417
+  type: 'test'
+  ...
+# Subtest: NCT07050043 matches the reviewed LM eligibility and tumor buckets
+ok 105 - NCT07050043 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.069417
+  type: 'test'
+  ...
+# Subtest: NCT07331064 matches the reviewed LM eligibility and tumor buckets
+ok 106 - NCT07331064 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.092083
+  type: 'test'
+  ...
+# Subtest: NCT07361562 matches the reviewed LM eligibility and tumor buckets
+ok 107 - NCT07361562 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.039
+  type: 'test'
+  ...
+# Subtest: NCT07362940 matches the reviewed LM eligibility and tumor buckets
+ok 108 - NCT07362940 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.106834
+  type: 'test'
+  ...
+# Subtest: NCT07365410 matches the reviewed LM eligibility and tumor buckets
+ok 109 - NCT07365410 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.061459
+  type: 'test'
+  ...
+# Subtest: NCT07415005 matches the reviewed LM eligibility and tumor buckets
+ok 110 - NCT07415005 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.167083
+  type: 'test'
+  ...
+# Subtest: NCT07415018 matches the reviewed LM eligibility and tumor buckets
+ok 111 - NCT07415018 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.043458
+  type: 'test'
+  ...
+# Subtest: NCT07502027 matches the reviewed LM eligibility and tumor buckets
+ok 112 - NCT07502027 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.074084
+  type: 'test'
+  ...
+# Subtest: NCT07551414 matches the reviewed LM eligibility and tumor buckets
+ok 113 - NCT07551414 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.079209
+  type: 'test'
+  ...
+# Subtest: NCT07559097 matches the reviewed LM eligibility and tumor buckets
+ok 114 - NCT07559097 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.031375
+  type: 'test'
+  ...
+# Subtest: NCT07612488 matches the reviewed LM eligibility and tumor buckets
+ok 115 - NCT07612488 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.127125
+  type: 'test'
+  ...
+# Subtest: NCT07631793 matches the reviewed LM eligibility and tumor buckets
+ok 116 - NCT07631793 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.101458
+  type: 'test'
+  ...
+# Subtest: NCT07647432 matches the reviewed LM eligibility and tumor buckets
+ok 117 - NCT07647432 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.055
+  type: 'test'
+  ...
+# Subtest: NCT07659652 matches the reviewed LM eligibility and tumor buckets
+ok 118 - NCT07659652 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.022417
+  type: 'test'
+  ...
+# Subtest: NCT07671560 matches the reviewed LM eligibility and tumor buckets
+ok 119 - NCT07671560 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.040459
+  type: 'test'
+  ...
+# Subtest: NCT07681297 matches the reviewed LM eligibility and tumor buckets
+ok 120 - NCT07681297 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.11275
+  type: 'test'
+  ...
+# Subtest: NCT07689721 matches the reviewed LM eligibility and tumor buckets
+ok 121 - NCT07689721 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.037292
+  type: 'test'
+  ...
+# Subtest: NCT07694986 matches the reviewed LM eligibility and tumor buckets
+ok 122 - NCT07694986 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.088875
+  type: 'test'
+  ...
+# Subtest: NCT07702305 matches the reviewed LM eligibility and tumor buckets
+ok 123 - NCT07702305 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.038375
+  type: 'test'
+  ...
+# Subtest: NCT07744529 matches the reviewed LM eligibility and tumor buckets
+ok 124 - NCT07744529 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.057625
+  type: 'test'
+  ...
+# Subtest: NCT07751536 matches the reviewed LM eligibility and tumor buckets
+ok 125 - NCT07751536 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.079708
+  type: 'test'
+  ...
+# Subtest: NCT07751744 matches the reviewed LM eligibility and tumor buckets
+ok 126 - NCT07751744 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.073084
+  type: 'test'
+  ...
+# Subtest: NCT07757113 matches the reviewed LM eligibility and tumor buckets
+ok 127 - NCT07757113 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.035666
+  type: 'test'
+  ...
+# Subtest: NCT07778940 matches the reviewed LM eligibility and tumor buckets
+ok 128 - NCT07778940 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.109791
+  type: 'test'
+  ...
+# Subtest: NCT07798921 matches the reviewed LM eligibility and tumor buckets
+ok 129 - NCT07798921 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.055542
+  type: 'test'
+  ...
+# Subtest: NCT07802652 matches the reviewed LM eligibility and tumor buckets
+ok 130 - NCT07802652 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.148
+  type: 'test'
+  ...
+# Subtest: NCT07833657 matches the reviewed LM eligibility and tumor buckets
+ok 131 - NCT07833657 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.042708
+  type: 'test'
+  ...
+# Subtest: NCT02125786 matches the reviewed LM eligibility and tumor buckets
+ok 132 - NCT02125786 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.114792
+  type: 'test'
+  ...
+# Subtest: NCT03990961 matches the reviewed LM eligibility and tumor buckets
+ok 133 - NCT03990961 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.133125
+  type: 'test'
+  ...
+# Subtest: NCT06462222 matches the reviewed LM eligibility and tumor buckets
+ok 134 - NCT06462222 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.029958
+  type: 'test'
+  ...
+# Subtest: NCT05305365 matches the reviewed LM eligibility and tumor buckets
+ok 135 - NCT05305365 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.099417
+  type: 'test'
+  ...
+# Subtest: NCT07134153 matches the reviewed LM eligibility and tumor buckets
+ok 136 - NCT07134153 matches the reviewed LM eligibility and tumor buckets
+  ---
+  duration_ms: 0.045167
+  type: 'test'
+  ...
+# Subtest: pagination follows tokens until the final page
+ok 137 - pagination follows tokens until the final page
+  ---
+  duration_ms: 0.67175
+  type: 'test'
+  ...
+# Subtest: a failed later page rejects the search instead of returning partial results
+ok 138 - a failed later page rejects the search instead of returning partial results
+  ---
+  duration_ms: 0.173625
+  type: 'test'
+  ...
+# Subtest: repeated page tokens and page-limit overflow reject the search
+ok 139 - repeated page tokens and page-limit overflow reject the search
+  ---
+  duration_ms: 0.158375
+  type: 'test'
+  ...
+# Subtest: age filtering includes boundaries and handles pediatric units and open bounds
+ok 140 - age filtering includes boundaries and handles pediatric units and open bounds
+  ---
+  duration_ms: 0.169084
+  type: 'test'
+  ...
+# Subtest: both registry queries preserve selected server filters and page tokens
+ok 141 - both registry queries preserve selected server filters and page tokens
+  ---
+  duration_ms: 0.241333
+  type: 'test'
+  ...
+# Subtest: registry errors do not expose upstream response bodies
+ok 142 - registry errors do not expose upstream response bodies
+  ---
+  duration_ms: 7015.194791
+  type: 'test'
+  ...
+# Subtest: registry requests propagate cancellation
+ok 143 - registry requests propagate cancellation
+  ---
+  duration_ms: 1.128167
+  type: 'test'
+  ...
+# Subtest: malformed pages are rejected instead of being interpreted as empty results
+ok 144 - malformed pages are rejected instead of being interpreted as empty results
+  ---
+  duration_ms: 3.578375
+  type: 'test'
+  ...
+# Subtest: supplemental retrieval follows all pages, deduplicates and checks required IDs
+ok 145 - supplemental retrieval follows all pages, deduplicates and checks required IDs
+  ---
+  duration_ms: 5.358333
+  type: 'test'
+  ...
+# Subtest: transient network errors retry but cancellation interrupts retry backoff
+ok 146 - transient network errors retry but cancellation interrupts retry backoff
+  ---
+  duration_ms: 1013.840333
+  type: 'test'
+  ...
+# Subtest: empty and unstructured eligibility text preserve the absence of a section boundary
+ok 147 - empty and unstructured eligibility text preserve the absence of a section boundary
+  ---
+  duration_ms: 2.3725
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Exclusion Criteria:"
+ok 148 - parser keeps original text when splitting at "Exclusion Criteria:"
+  ---
+  duration_ms: 0.291208
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "KEY EXCLUSION CRITERIA\\n"
+ok 149 - parser keeps original text when splitting at "KEY EXCLUSION CRITERIA\\n"
+  ---
+  duration_ms: 0.045584
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Main exclusion criteria\\r\\n"
+ok 150 - parser keeps original text when splitting at "Main exclusion criteria\\r\\n"
+  ---
+  duration_ms: 0.037583
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Subject exclusion criteria:"
+ok 151 - parser keeps original text when splitting at "Subject exclusion criteria:"
+  ---
+  duration_ms: 0.093458
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Patient exclusion criteria\\n"
+ok 152 - parser keeps original text when splitting at "Patient exclusion criteria\\n"
+  ---
+  duration_ms: 0.03625
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Study exclusion criteria:"
+ok 153 - parser keeps original text when splitting at "Study exclusion criteria:"
+  ---
+  duration_ms: 0.069958
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Specific exclusion criteria:"
+ok 154 - parser keeps original text when splitting at "Specific exclusion criteria:"
+  ---
+  duration_ms: 0.062666
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "General exclusion criteria\\n"
+ok 155 - parser keeps original text when splitting at "General exclusion criteria\\n"
+  ---
+  duration_ms: 0.191833
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Exclusion criteria\\t"
+ok 156 - parser keeps original text when splitting at "Exclusion criteria\\t"
+  ---
+  duration_ms: 0.2995
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Exclusion criteria (all cohorts):"
+ok 157 - parser keeps original text when splitting at "Exclusion criteria (all cohorts):"
+  ---
+  duration_ms: 0.076292
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Key Exclusion Criteria PHASE 1 and PHASE 2"
+ok 158 - parser keeps original text when splitting at "Key Exclusion Criteria PHASE 1 and PHASE 2"
+  ---
+  duration_ms: 0.03575
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Exclusion Criteria Cohort A"
+ok 159 - parser keeps original text when splitting at "Exclusion Criteria Cohort A"
+  ---
+  duration_ms: 0.024334
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "Main Exclusion Criteria Part 2"
+ok 160 - parser keeps original text when splitting at "Main Exclusion Criteria Part 2"
+  ---
+  duration_ms: 0.020542
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "\\nExclusion:\\n"
+ok 161 - parser keeps original text when splitting at "\\nExclusion:\\n"
+  ---
+  duration_ms: 0.019375
+  type: 'test'
+  ...
+# Subtest: parser keeps original text when splitting at "\\r\\nExclusion:"
+ok 162 - parser keeps original text when splitting at "\\r\\nExclusion:"
+  ---
+  duration_ms: 0.019416
+  type: 'test'
+  ...
+# Subtest: narrative mentions of inclusion and exclusion criteria do not split the text
+ok 163 - narrative mentions of inclusion and exclusion criteria do not split the text
+  ---
+  duration_ms: 0.044083
+  type: 'test'
+  ...
+# Subtest: the first exclusion heading wins when a protocol contains multiple cohort sections
+ok 164 - the first exclusion heading wins when a protocol contains multiple cohort sections
+  ---
+  duration_ms: 0.097875
+  type: 'test'
+  ...
+# Subtest: generic brain metastases, missing text, and an embedded LMD substring are insufficient
+ok 165 - generic brain metastases, missing text, and an embedded LMD substring are insufficient
+  ---
+  duration_ms: 1.576875
+  type: 'test'
+  ...
+# Subtest: LM can appear only in inclusion criteria of a broader solid-tumor study
+ok 166 - LM can appear only in inclusion criteria of a broader solid-tumor study
+  ---
+  duration_ms: 0.225791
+  type: 'test'
+  ...
+# Subtest: a summary cohort or official title can supply the only LM signal
+ok 167 - a summary cohort or official title can supply the only LM signal
+  ---
+  duration_ms: 0.071459
+  type: 'test'
+  ...
+# Subtest: an exclusion-only LM mention does not make a broad trial relevant
+ok 168 - an exclusion-only LM mention does not make a broad trial relevant
+  ---
+  duration_ms: 0.046667
+  type: 'test'
+  ...
+# Subtest: negative inclusion overrides an LM title and condition: No evidence of leptomeningeal disease
+ok 169 - negative inclusion overrides an LM title and condition: No evidence of leptomeningeal disease
+  ---
+  duration_ms: 0.0435
+  type: 'test'
+  ...
+# Subtest: negative inclusion overrides an LM title and condition: No radiographic evidence of leptomeningeal metastases
+ok 170 - negative inclusion overrides an LM title and condition: No radiographic evidence of leptomeningeal metastases
+  ---
+  duration_ms: 0.030334
+  type: 'test'
+  ...
+# Subtest: negative inclusion overrides an LM title and condition: Without leptomeningeal involvement
+ok 171 - negative inclusion overrides an LM title and condition: Without leptomeningeal involvement
+  ---
+  duration_ms: 0.033375
+  type: 'test'
+  ...
+# Subtest: negative inclusion overrides an LM title and condition: Absence of meningeal metastasis
+ok 172 - negative inclusion overrides an LM title and condition: Absence of meningeal metastasis
+  ---
+  duration_ms: 0.085209
+  type: 'test'
+  ...
+# Subtest: negative inclusion overrides an LM title and condition: No meningeal metastases
+ok 173 - negative inclusion overrides an LM title and condition: No meningeal metastases
+  ---
+  duration_ms: 0.025875
+  type: 'test'
+  ...
+# Subtest: a dedicated LM condition preserves mixed-cohort studies with exclusion mentions
+ok 174 - a dedicated LM condition preserves mixed-cohort studies with exclusion mentions
+  ---
+  duration_ms: 0.271542
+  type: 'test'
+  ...
+# Subtest: the patient-language exclusion in a summary still rejects an LM-titled study
+ok 175 - the patient-language exclusion in a summary still rejects an LM-titled study
+  ---
+  duration_ms: 0.032917
+  type: 'test'
+  ...
+# Subtest: age bounds are inclusive and checked before accepting a manual override
+ok 176 - age bounds are inclusive and checked before accepting a manual override
+  ---
+  duration_ms: 0.917459
+  type: 'test'
+  ...
+# Subtest: NCT03093116 retains asymptomatic LM enrollment despite its symptomatic exclusion
+ok 177 - NCT03093116 retains asymptomatic LM enrollment despite its symptomatic exclusion
+  ---
+  duration_ms: 0.247583
+  type: 'test'
+  ...
+# Subtest: NCT03202940 permits LM but mentions LM radiation washout in exclusions
+ok 178 - NCT03202940 permits LM but mentions LM radiation washout in exclusions
+  ---
+  duration_ms: 0.889625
+  type: 'test'
+  ...
+# Subtest: NCT02896335 permits LM in cohort 2 even though cohort 1 excludes it
+ok 179 - NCT02896335 permits LM in cohort 2 even though cohort 1 excludes it
+  ---
+  duration_ms: 0.666084
+  type: 'test'
+  ...
+# Subtest: NCT02616393 preserves a dedicated LM trial with a neurological confounder exclusion
+ok 180 - NCT02616393 preserves a dedicated LM trial with a neurological confounder exclusion
+  ---
+  duration_ms: 0.723917
+  type: 'test'
+  ...
+# Subtest: NCT03083041 stays excluded by its audited classification
+ok 181 - NCT03083041 stays excluded by its audited classification
+  ---
+  duration_ms: 0.089083
+  type: 'test'
+  ...
+# Subtest: NCT03417895 stays excluded by its audited classification
+ok 182 - NCT03417895 stays excluded by its audited classification
+  ---
+  duration_ms: 0.103667
+  type: 'test'
+  ...
+# Subtest: an LM condition or title cannot override a standalone general LM exclusion
+ok 183 - an LM condition or title cannot override a standalone general LM exclusion
+  ---
+  duration_ms: 0.24575
+  type: 'test'
+  ...
+# Subtest: tumor inference distinguishes lung, breast, melanoma, glioma, and other solid tumors
+ok 184 - tumor inference distinguishes lung, breast, melanoma, glioma, and other solid tumors
+  ---
+  duration_ms: 0.189292
+  type: 'test'
+  ...
+# Subtest: unexpanded LMD acronym collisions do not establish malignant LM relevance
+ok 185 - unexpanded LMD acronym collisions do not establish malignant LM relevance
+  ---
+  duration_ms: 0.05125
+  type: 'test'
+  ...
+# Subtest: high-grade glioma and anaplastic astrocytoma alone do not establish GBM
+ok 186 - high-grade glioma and anaplastic astrocytoma alone do not establish GBM
+  ---
+  duration_ms: 0.043791
+  type: 'test'
+  ...
+# Subtest: normalizes ordinary trial contact addresses and rejects unsafe values
+ok 187 - normalizes ordinary trial contact addresses and rejects unsafe values
+  ---
+  duration_ms: 0.365042
+  type: 'test'
+  ...
+# Subtest: builds a Gmail-compatible mailto link with an editable outreach draft
+ok 188 - builds a Gmail-compatible mailto link with an editable outreach draft
+  ---
+  duration_ms: 0.260625
+  type: 'test'
+  ...
+1..188
+# tests 188
+# suites 0
+# pass 188
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 8129.462167
+
+> leptotrials@1.0.0 lint
+> eslint .
+
+
+> leptotrials@1.0.0 build
+> tsc -b && vite build
+
+vite v8.2.1 building client environment for production...
+[2Ktransforming...✓ 44 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                               0.71 kB │ gzip:   0.40 kB
+dist/assets/index-DLhMwpeA.css               34.23 kB │ gzip:   7.20 kB
+dist/assets/SuggestTrial-DUwGtZD4.js          1.07 kB │ gzip:   0.53 kB
+dist/assets/PrivacyNotice-uZqv4f46.js         5.97 kB │ gzip:   2.55 kB
+dist/assets/AnalyticsDashboard-SeJASAyx.js    7.01 kB │ gzip:   2.31 kB
+dist/assets/index-DRgq5_KO.js               374.65 kB │ gzip: 124.58 kB
+
+✓ built in 154ms

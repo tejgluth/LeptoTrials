@@ -1,0 +1,15 @@
+
+> leptotrials@1.0.0 export:expanded-candidates
+> tsx scripts/export-weekly-audit.ts expanded audit/manual-review/2026-10-26/final
+
+expanded: https://clinicaltrials.gov/api/v2/studies?query.cond=leptomeningeal+metastasis&format=json&pageSize=100: 196 studies / 2 pages
+expanded: https://clinicaltrials.gov/api/v2/studies?query.cond=meningeal+metastasis&format=json&pageSize=100: 310 studies / 4 pages
+expanded: https://clinicaltrials.gov/api/v2/studies?query.cond=leptomeningeal+disease&format=json&pageSize=100: 182 studies / 2 pages
+expanded: https://clinicaltrials.gov/api/v2/studies?query.term=leptomeningeal&format=json&pageSize=100: 319 studies / 4 pages
+expanded: https://clinicaltrials.gov/api/v2/studies?query.term=leptomeningeal+disease&format=json&pageSize=100: 313 studies / 4 pages
+expanded: https://clinicaltrials.gov/api/v2/studies?query.term=meningeal+metastasis&format=json&pageSize=100: 390 studies / 4 pages
+expanded: https://clinicaltrials.gov/api/v2/studies?query.term=leptomeningeal+carcinomatosis&format=json&pageSize=100: 167 studies / 2 pages
+expanded: https://clinicaltrials.gov/api/v2/studies?query.term=neoplastic+meningitis&format=json&pageSize=100: 224 studies / 3 pages
+expanded: https://clinicaltrials.gov/api/v2/studies?query.term=carcinomatous+meningitis&format=json&pageSize=100: 220 studies / 3 pages
+expanded: https://clinicaltrials.gov/api/v2/studies?query.term=LMD&format=json&pageSize=100: 87 studies / 1 pages
+Complete: 570 unique records; 245 relevant
