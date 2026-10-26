@@ -83,6 +83,7 @@ export function buildTermUrl(params: SearchParams, pageToken?: string): string {
 }
 
 export const SUPPLEMENTAL_AUDITED_STUDY_IDS = [
+  'NCT02125786',
   'NCT00003406',
   'NCT00667615',
   'NCT01527149',

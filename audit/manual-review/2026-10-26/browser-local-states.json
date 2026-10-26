@@ -1,0 +1,37 @@
+[
+  {
+    "flow": "age18-US-BREAST-interventional-phase2-all-statuses",
+    "ids": [
+      "NCT05305365",
+      "NCT04588545",
+      "NCT00450866",
+      "NCT00992602",
+      "NCT06518057",
+      "NCT06910761",
+      "NCT02422641",
+      "NCT00924820",
+      "NCT03501979",
+      "NCT01325207",
+      "NCT04315246",
+      "NCT06176261",
+      "NCT00617539",
+      "NCT02308020",
+      "NCT07694986",
+      "NCT00570908",
+      "NCT02896335"
+    ]
+  },
+  {
+    "flow": "empty-infant-combined-filters",
+    "statusRole": "NO TRIALS FOUND\n\nNo studies matched your filters and our LM screening. Try broadening your search:\n\n\u2192\nRemove the age filter\n\u2192\nSelect \"Any\" for study type\n\u2192\nDeselect specific phases to show all\n\u2192\nChange country to \"Any Country\"\n\u2192\nInclude all recruitment statuses\n\nStudies that explicitly exclude leptomeningeal disease are screened out. Review possible options with your care team."
+  },
+  {
+    "flow": "malformed-upstream",
+    "alert": "ERROR\n\nClinicalTrials.gov returned an incomplete or invalid response. Please try again.\n\nTry again",
+    "cards": 0
+  },
+  {
+    "flow": "retry-live-registry",
+    "cards": 157
+  }
+]

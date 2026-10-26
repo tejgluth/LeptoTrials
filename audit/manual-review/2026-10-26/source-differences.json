@@ -1,0 +1,199 @@
+[
+  {
+    "nctId": "NCT01713699",
+    "include": true,
+    "fields": [
+      "contactsLocationsModule"
+    ]
+  },
+  {
+    "nctId": "NCT01818713",
+    "include": true,
+    "fields": [
+      "contactsLocationsModule"
+    ]
+  },
+  {
+    "nctId": "NCT02336451",
+    "include": true,
+    "fields": [
+      "contactsLocationsModule"
+    ]
+  },
+  {
+    "nctId": "NCT02446457",
+    "include": true,
+    "fields": [
+      "statusModule"
+    ]
+  },
+  {
+    "nctId": "NCT02693535",
+    "include": true,
+    "fields": [
+      "referencesModule"
+    ]
+  },
+  {
+    "nctId": "NCT03053297",
+    "include": true,
+    "fields": [
+      "contactsLocationsModule"
+    ]
+  },
+  {
+    "nctId": "NCT03093116",
+    "include": true,
+    "fields": [
+      "contactsLocationsModule"
+    ]
+  },
+  {
+    "nctId": "NCT04181060",
+    "include": true,
+    "fields": [
+      "statusModule",
+      "contactsLocationsModule"
+    ]
+  },
+  {
+    "nctId": "NCT04563871",
+    "include": true,
+    "fields": [
+      "contactsLocationsModule"
+    ]
+  },
+  {
+    "nctId": "NCT05257967",
+    "include": true,
+    "fields": [
+      "statusModule"
+    ]
+  },
+  {
+    "nctId": "NCT05305365",
+    "include": true,
+    "fields": [
+      "sponsorCollaboratorsModule",
+      "armsInterventionsModule",
+      "statusModule",
+      "identificationModule",
+      "referencesModule",
+      "outcomesModule"
+    ]
+  },
+  {
+    "nctId": "NCT05904080",
+    "include": true,
+    "fields": [
+      "statusModule"
+    ]
+  },
+  {
+    "nctId": "NCT06422806",
+    "include": true,
+    "fields": [
+      "statusModule",
+      "contactsLocationsModule"
+    ]
+  },
+  {
+    "nctId": "NCT06462222",
+    "include": true,
+    "fields": [
+      "statusModule",
+      "eligibilityModule"
+    ]
+  },
+  {
+    "nctId": "NCT06465316",
+    "include": true,
+    "fields": [
+      "statusModule",
+      "contactsLocationsModule"
+    ]
+  },
+  {
+    "nctId": "NCT06492915",
+    "include": true,
+    "fields": [
+      "statusModule"
+    ]
+  },
+  {
+    "nctId": "NCT06589804",
+    "include": true,
+    "fields": [
+      "statusModule",
+      "contactsLocationsModule"
+    ]
+  },
+  {
+    "nctId": "NCT06728865",
+    "include": true,
+    "fields": [
+      "armsInterventionsModule",
+      "oversightModule",
+      "statusModule",
+      "identificationModule",
+      "contactsLocationsModule"
+    ]
+  },
+  {
+    "nctId": "NCT07134153",
+    "include": true,
+    "fields": [
+      "descriptionModule",
+      "statusModule"
+    ]
+  },
+  {
+    "nctId": "NCT07287995",
+    "include": false,
+    "fields": [
+      "statusModule",
+      "contactsLocationsModule"
+    ]
+  },
+  {
+    "nctId": "NCT07566052",
+    "include": false,
+    "fields": [
+      "statusModule",
+      "contactsLocationsModule"
+    ]
+  },
+  {
+    "nctId": "NCT07624201",
+    "include": true,
+    "fields": [
+      "statusModule",
+      "contactsLocationsModule"
+    ]
+  },
+  {
+    "nctId": "NCT07647432",
+    "include": true,
+    "fields": [
+      "oversightModule",
+      "statusModule",
+      "contactsLocationsModule"
+    ]
+  },
+  {
+    "nctId": "NCT07789912",
+    "include": true,
+    "fields": [
+      "statusModule",
+      "designModule",
+      "contactsLocationsModule"
+    ]
+  },
+  {
+    "nctId": "NCT01199562",
+    "include": false,
+    "fields": [
+      "statusModule"
+    ]
+  }
+]

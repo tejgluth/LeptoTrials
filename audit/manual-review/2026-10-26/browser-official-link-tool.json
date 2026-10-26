@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "### Result\n{\"url\":\"https://clinicaltrials.gov/study/NCT07361562\",\"title\":\"Study Details | NCT07361562 | A Study of a Selective ERBB2 Inhibitor (CGT4255), in Patients With Advanced Solid Tumors | ClinicalTrials.gov\",\"identity\":true,\"eligibility\":true,\"locations\":true,\"lmOutcome\":true,\"status\":true}\n### Ran Playwright code\n```js\nawait (async page => {const link=page.locator('a[href=\"https://clinicaltrials.gov/study/NCT07361562\"]');const [popup]=await Promise.all([page.waitForEvent('popup'),link.click()]);await popup.waitForLoadState('domcontentloaded');await popup.getByText('Eligibility Criteria',{exact:true}).first().waitFor({timeout:30000});const text=await popup.locator('body').innerText();const out={url:popup.url(),title:await popup.title(),identity:text.includes('NCT07361562'),eligibility:text.includes('Inclusion Criteria'),locations:text.includes('Contacts and Locations'),lmOutcome:text.includes('leptomeningeal disease'),status:text.includes('Recruiting')};await popup.close();return out;})(page);\n```"
+    }
+  ]
+}

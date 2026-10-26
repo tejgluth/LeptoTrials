@@ -1,0 +1,12 @@
+import { readFile,writeFile } from 'node:fs/promises'
+import { fetchRegistryPage } from '/Users/speakeasy/Projects/websites/Leptomeningeal/src/utils/apiClient.ts'
+import { fetchAllStudies } from '/Users/speakeasy/Projects/websites/Leptomeningeal/src/utils/fetchAllStudies.ts'
+const ids=JSON.parse(await readFile(process.argv[2],'utf8'))
+const rows=new Map(),queries=[]
+for(let i=0;i<ids.length;i+=80){
+ const batch=ids.slice(i,i+80),url=new URL('https://clinicaltrials.gov/api/v2/studies');url.searchParams.set('format','json');url.searchParams.set('pageSize','100');url.searchParams.set('query.id',batch.join(' OR '));
+ const pages=[];const studies=await fetchAllStudies(async token=>{if(token)url.searchParams.set('pageToken',token);const r=await fetchRegistryPage(url.toString());pages.push({url:url.toString(),retrievedAt:new Date().toISOString(),count:r.studies.length,hasNext:!!r.nextPageToken});return r});
+ for(const study of studies)rows.set(study.protocolSection.identificationModule.nctId,{study,retrievedAt:new Date().toISOString()});
+ const missing=batch.filter(id=>!rows.has(id));if(missing.length)throw new Error('Missing IDs: '+missing.join(','));queries.push(...pages);console.log('retrieved',rows.size,'/',ids.length)
+}
+await writeFile(process.argv[3],JSON.stringify({complete:true,queries,records:[...rows.values()]},null,2)+'\n')

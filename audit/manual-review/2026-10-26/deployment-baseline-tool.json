@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"capturedAt\": \"2026-10-26T21:31:59.082Z\",\n  \"accountId\": \"d30edc14f902d872014ce43c0a5f4fec\",\n  \"project\": \"lm-trials\",\n  \"productionBranch\": \"main\",\n  \"domains\": [\n    \"leptotrials.pages.dev\",\n    \"leptotrials.com\"\n  ],\n  \"previousKnownGood\": {\n    \"id\": \"1be7bb4a-e4e8-487f-acff-c3e3ccadf2a4\",\n    \"url\": \"https://1be7bb4a.leptotrials.pages.dev\",\n    \"commit\": \"51cd104bf36f03510736e08a22077dd5550d7821\",\n    \"status\": \"success\"\n  },\n  \"rollback\": {\n    \"method\": \"POST\",\n    \"path\": \"/accounts/d30edc14f902d872014ce43c0a5f4fec/pages/projects/lm-trials/deployments/1be7bb4a-e4e8-487f-acff-c3e3ccadf2a4/rollback\"\n  },\n  \"build\": {\n    \"build_command\": \"npm run build\",\n    \"destination_dir\": \"dist\",\n    \"root_dir\": \"\",\n    \"web_analytics_tag\": null,\n    \"web_analytics_token\": null\n  },\n  \"sourceRepositoryId\": \"1182688009\"\n}"
+    }
+  ]
+}

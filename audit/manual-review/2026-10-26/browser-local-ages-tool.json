@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "### Result\n[{\"age\":\"1\",\"count\":26,\"newEpendymoma\":0,\"newBreast\":0},{\"age\":\"2\",\"count\":32,\"newEpendymoma\":0,\"newBreast\":0},{\"age\":\"3\",\"count\":43,\"newEpendymoma\":1,\"newBreast\":0},{\"age\":\"17\",\"count\":52,\"newEpendymoma\":1,\"newBreast\":0},{\"age\":\"18\",\"count\":310,\"newEpendymoma\":1,\"newBreast\":1},{\"age\":\"21\",\"count\":317,\"newEpendymoma\":1,\"newBreast\":1},{\"age\":\"22\",\"count\":308,\"newEpendymoma\":0,\"newBreast\":1}]\n### Ran Playwright code\n```js\nawait (async page => {const out=[];for (const age of ['1','2','3','17','18','21','22']) {await page.getByRole('button',{name:'Show filters',exact:true}).click();await page.getByRole('spinbutton',{name:'Your Age'}).fill(age);await page.getByRole('button',{name:'Search Trials →',exact:true}).click();await page.getByText(/End of results/).waitFor({timeout:45000});out.push({age,count:await page.locator('a[href^=\"https://clinicaltrials.gov/study/\"]').count(),newEpendymoma:await page.locator('a[href$=\"NCT02125786\"]').count(),newBreast:await page.locator('a[href$=\"NCT07361562\"]').count()});}return out;})(page);\n```"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "at": "2026-10-26T21:30:47.960266+00:00",
+  "checks": [
+    {
+      "url": "http://localhost:8789/privacy",
+      "status": 200,
+      "body": "privacy page present"
+    },
+    {
+      "url": "http://localhost:8789/api/contact-events",
+      "status": 405,
+      "body": "{\"error\":\"Method not allowed.\"}"
+    },
+    {
+      "url": "http://localhost:8789/api/trial-suggestions",
+      "status": 410,
+      "body": "{\"error\":\"Trial suggestions are no longer collected. Please use the trial search.\"}"
+    },
+    {
+      "url": "http://localhost:8789/api/contact-analytics",
+      "status": 401,
+      "body": "{\"error\":\"Invalid analytics access token.\"}"
+    },
+    {
+      "url": "http://localhost:8789/api/contact-analytics",
+      "authenticatedStatus": 200,
+      "validAggregates": true
+    },
+    {
+      "url": "https://leptotrials.com/privacy",
+      "status": 403,
+      "body": "Cloudflare WAF 1010 blocked Python user agent; browser verification recorded separately."
+    },
+    {
+      "url": "https://leptotrials.com/api/contact-events",
+      "status": 403,
+      "body": "Cloudflare WAF 1010 blocked Python user agent; browser verification recorded separately."
+    },
+    {
+      "url": "https://leptotrials.com/api/trial-suggestions",
+      "status": 403,
+      "body": "Cloudflare WAF 1010 blocked Python user agent; browser verification recorded separately."
+    },
+    {
+      "url": "https://leptotrials.com/api/contact-analytics",
+      "status": 403,
+      "body": "Cloudflare WAF 1010 blocked Python user agent; browser verification recorded separately."
+    }
+  ]
+}
