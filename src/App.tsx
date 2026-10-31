@@ -137,7 +137,17 @@ export default function App() {
               A focused clinical trial finder for leptomeningeal metastasis patients.
               Data sourced live from ClinicalTrials.gov API v2.
             </p>
-            <p className="mt-3 text-xs text-[#6f9db8]">Created by Tejas Gluth</p>
+            <p className="mt-3 text-xs text-[#6f9db8]">
+              Created by{' '}
+              <a
+                href="https://www.linkedin.com/in/tejas-gluth-51b35138b"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#b0d8ee] underline underline-offset-4 hover:text-white"
+              >
+                Tejas Gluth
+              </a>
+            </p>
 
           </div>
           <div>
