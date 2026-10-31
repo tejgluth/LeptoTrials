@@ -137,6 +137,7 @@ export default function App() {
               A focused clinical trial finder for leptomeningeal metastasis patients.
               Data sourced live from ClinicalTrials.gov API v2.
             </p>
+            <p className="mt-3 text-xs text-[#6f9db8]">Created by Tejas Gluth</p>
 
           </div>
           <div>
