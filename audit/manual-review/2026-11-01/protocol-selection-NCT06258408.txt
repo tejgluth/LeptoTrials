@@ -1,0 +1,180 @@
+BB102 tablets/Phase I Protocol No.: BB102-ST-I-02
+Study Protocol/Version 1.0/Date: Jul 14, 2022 Confidential Page 74 of 179
+
+3. Selection and Withdrawal of Subjects
+3.1 Inclusion Criteria
+Patients must meet all of the following criteria before being enrolled in the study:
+(1) 18-78 years of age (inclusive) in dose escalation trial and ≥18 years of age in expansion trial
+at the time of signing the informed consent form (ICF), male or female.
+(2) For the dose escalation trial, histologically, cytologically confirmed or clinically confirmed
+advanced solid tumors patients who without available standard treatment, failed in standard
+treatment or cannot tolerate standard treatment (primary HCC patients are preferred; primary HCC
+patients should have a liver function score of ≤9 points as assessed according to the Child -Pugh
+classification criteria).  Note: Only primary liver cancer can be clinically diagnosed, and other
+tumors need to be confirmed by histology or cytology.
+For the expansion trial, histologically or cytologically confirmed FGF19 or FGFR4 positive
+advanced primary HCC (primary HCC patients should have a liver function score of ≤9 points as
+assessed according to the Child -Pugh classification criteria) or other advanced solid tumors
+patients who without available standard treatment, failed in standard treatment or cannot tolerate
+standard treatment. Note: FGF19 or FGFR4 posit ivity includes but is not limited to FGF19
+amplification, FGF19 overexpression, elevation of serum FGF19 protein level, FGFR4
+amplification, FGFR4 overexpression and FGFR4 activating mutation.  At the discretion of the
+investigator, the patien ’s previous po sitive test results for FGF19 or FGFR4 can be accepted
+(patients must agree to provide previous positive test results for FGF19 or FGFR4).  Newly
+reported FGF19 or FGFR4 positive test results from a central laboratory based on tumor tissue
+and/or blood samp les are also acceptable (patients must agree to provide tumor tissue samples
+and/or blood samples for FGF19 or FGFR4 positive testing. If there are special circumstances such
+as the tissue is difficult to obtain or the risk of obtaining biopsy is high, etc., the investigator can
+communicate with the sponsor to discuss whether it can be exempted.  Tumor tissue: During
+screening period, tumor tissue samples from patients in the past 2 years or fresh tumor tissue
+samples can be collected; the samples can be  collected from the primary lesion or metastatic
+lesions. Blood: A fresh blood sample 5 mL can be collected during the screening period).
+(3) For the dose escalation trial, at least one evaluable tumor lesion according to the Response
+Evaluation Criteria in Solid Tumors (RECIST) v1.1 (Appendix I).
+For the expansion trial, at least one measurable tumor lesion according to RECIST v1.1.
+(4) Eastern Cooperative Oncology Group (ECOG) performance status score of ≤1 (Appendix II).
+(5) Life expectancy of ≥3 months.
+(6) With good organ function, including:
+BB102 tablets/Phase I Protocol No.: BB102-ST-I-02
+Study Protocol/Version 1.0/Date: Jul 14, 2022 Confidential Page 75 of 179
+
+➢ Liver function: TBIL ≤1.5 × upper limit of normal (ULN), ALT ≤3×ULN, and AST ≤3×ULN
+(for patients with liver cancer or liver metastases, the criteria will be TBIL ≤3×ULN, ALT
+≤5×ULN, and AST ≤5×ULN);
+➢ Renal function: blood creatinine ≤1.5×ULN and creatinine clearance rate ≥50 mL/min
+(calculated based on Cockcroft-Gault formula);
+➢ Hematology (no blood transfusion or hematopoietic stimulating factor therapy within 14 days
+of blood sampling for hematology): blood platelet (PLT) ≥100×109/L (for patients with liver
+cancer, the criteria will be PLT ≥85×109/L), absolute neutrophil count ( ANC) ≥1.5×109/L,
+and Hb ≥90 g/L (90 mg/mL);
+➢ Coagulation function: activated partial thromboplastin time ≤1.5×ULN and international
+normalized ratio ≤1.5×ULN.
+(7) For female patients of childbearing potential, the pregnancy test result within 7 days before
+the first dose is negative and promise to use adequate and effective methods of contraception or
+abstinence from the start of screening period to 6 months after the last dose of study treatment;
+male patients who promise to use adequate and effective methods o f contraception or abstinence
+from the start of screening period to 6 months after the last dose of study treatment. The definition
+of female with childbearing potential and contraceptive requirements are detailed in Appendix III.
+(8) V oluntarily participate in this clinical study, understand the content of the ICF and sign it
+voluntarily, with good compliance.
+3.2 Exclusion Criteria
+Patients who meet any of the criteria cannot be enrolled in this study:
+(1) Use of systemic immunosuppressive or systemic cortisol  (≥10 mg prednisone or other
+equivalent hormone) within 4 weeks prior to the first dose.
+(2) Prior use of selective FGFR4 inhibitor and/or pan-FGFR inhibitor therapy.
+(3) Use of cytotoxic chemotherapeutics within 4 weeks prior to the first dose , OR use of state-
+approved Chinese traditional patent drugs/Chinese traditional drugs  with an anti -tumor effect
+within 2 weeks prior to the first dose. Note: For mitomycin C o r nitrosoureas, 6-week washout is
+required; for small  molecule targeted drugs and oral fluorouracil drugs, a washout period of 2
+weeks or five T1/2 of the drug (whichever is longer) is required.
+(4) Anti-tumor endocrine therapy, radiotherapy, interventional em bolization, radiofrequency,
+proton therapy, radioimmunotherapy, immunotherapy or other biotherapies within 4 weeks prior
+to the first dose (if five T 1/2 of the drug/therapy used by the patient is confirmed to be <4 weeks,
+five T1/2 shall prevail).
+BB102 tablets/Phase I Protocol No.: BB102-ST-I-02
+Study Protocol/Version 1.0/Date: Jul 14, 2022 Confidential Page 76 of 179
+
+(5) Use of other clinical investigational drug or therapy that not marketed within 4 weeks prior
+to the first dose.
+(6) Patient is receiving drugs or therapies prohibited in the protocol (e.g., strong CYP3A4
+inhibitors, strong CYP3A4 inducers, strong CYP3A5 inhibitors, st rong CYP3A5 inducers,
+sensitive CYP3A4 substrates with a narrow therapeutic index, sensitive CYP2B6 substrates with
+a narrow therapeutic range, etc., see Section 6.2 of the main text for details) and cannot discontinue
+such use at least 2 weeks prior to the first dose or throughout the study.
+(7) Pregnant or lactating females.
+(8) Patient with known hypersensitivity to any ingredient of BB102 tablets, or patient who have
+a history of drug allergy and is judged as not suitable for participating in this study by the
+investigator.
+(9) Presence of clinically significant gastrointestinal disorder that may affect the intake, transport
+or absorption of study drugs (e.g., dysphagia, uncontrollable nausea and vomiting, active gastric
+ulcer, ulcerative colitis, Crohn’s disease, chronic diarrhea, intestinal obstruction, and other
+conditions determined by the investigator that may cause gastrointestinal bleeding, perforation,
+etc.) at screening.
+(10) Patient with concurrent cancer (adequately treated non -melanoma skin cancer or lentigo
+maligna with no evidence of disease recurrence, except carcinoma in situ) within 5 years prior to
+the first dose.
+(11) Adverse reaction of the prior anti-tumor therapy not yet recovered to grade ≤1 as assessed by
+CTCAE v5.0 at screening (except the toxicities that are judged as having no safety risk by the
+investigator, such as alopecia, asthenia, γ-glutamyltransferase (GGT) increased, ALP increased,
+grade 2 periph eral neurotoxicity, thyroid function decreased stabilized by hormone replacement
+therapy, etc.).
+(12) Clinically uncontrollable third space effusion at screening, which, at the investigator’s
+discretion, is not suitable for enrollment. Note: For patients with t hird space effusion (pleural
+ascites, pericardial effusion) who are stable after local drainage and drug infusion, and drug-eluted
+for at least five T1/2 or 14 days (whichever is shorter), they can be considered for enrollment.
+(13) Presence of clinically symptomatic metastases to central nervous system or meninges or other
+evidence showing that metastatic lesions in central nervous system or meninges have not yet been
+controlled at screening, which, at the investigator’s discretion, is not suitable for enrollment. Note:
+Patients with central nervous system metastases or meningeal metastases who are asymptomatic
+or in a stable state after treatment before the first dose can be considered for enrollment.
+BB102 tablets/Phase I Protocol No.: BB102-ST-I-02
+Study Protocol/Version 1.0/Date: Jul 14, 2022 Confidential Page 77 of 179
+
+(14) History of severe neurological or psychiatric disorders, inc luding epilepsy, dementia, or
+moderate to severe depression, etc.
+(15) History of drug abuse or dependence.
+(16) Clinically significant and uncontrolled cardiovascular diseases, including:
+➢ Serious cardiac rhythm or conduction abnormality at screening, such as ventricular
+arrhythmia that requires clinical intervention, second/third-degree A V block, etc.;
+➢ Myocardial infarction within 12 months prior to the first dose;
+➢ Acute coronary syndrome, congestive cardiac failure, aortic dissection, cerebral stroke or
+other grade ≥3 cardiovascular and cerebrovascular events within 6 months prior to the first
+dose;
+➢ Arterial or deep venous thrombosis within 6 months prior to the first dose, or those who need
+to monitor international normalized ratios or use anticoagulants at s creening. Note: Patients
+with superficial venous thrombosis wh ich do not need treatment can be considered for
+enrollment; patients who can stop anticoagulant within 2 weeks before the first dose and
+during the administration period can be considered for enrollment;
+➢ Mean resting QTcF >480 ms at screening, which are obtained from three 12 -lead
+electrocardiograms (ECGs) [Note: QTcF is calculated based on Fridericia formula, QTcF =
+QT/(RR^0.33)];
+➢ Heart failure of New York Heart Association Class ≥II at screening;
+➢ Left ventricular ejection fraction (LVEF) <50% at screening;
+➢ Hypertension (defined as systolic blood pressure ≥160 mmHg or diastolic blood pressure
+≥100 mmHg) that medication fails to control stably at screening;
+➢ Hyperglycemia that medication fails to control stably at screening.
+(17) Pulmonary embolism within 6 months prior to the first dose, or interstitial pneumonia at
+screening.
+(18) Prior allogeneic stem cell transplantation, bone marrow transplantation or vital organ
+transplantation.
+(19) Surgical operation (excluding aspiration biopsy) of vital organs or significant trauma within
+8 weeks prior to the first dose, or unrecovered surgical effect at screening, or planned elective
+major surgery during the study period.
+(20) Presence of uncontrollable infectious disease, congenital immunodeficiency disease, acquired
+immunodeficiency syndrome [positive for human immunodeficiency virus antibody (HIV -Ab)],
+BB102 tablets/Phase I Protocol No.: BB102-ST-I-02
+Study Protocol/Version 1.0/Date: Jul 14, 2022 Confidential Page 78 of 179
+
+syphilis (positive for syphilis antibody), active hepatitis B [for non-HCC patients, hepatitis B virus
+(HBV)-DNA >500 IU/mL; for HCC patients, HBV-DNA >104 copies/mL or 2000 IU/mL; hepatitis
+B patients need to take oral anti-HBV drugs regularly during the administration of BB102 tablets],
+hepatitis C virus (HCV) infection (positive for HCV antibody, and positive for quantitat ive
+detection of HCV ribonucleic acid amplification).
+(21) Severe active infection, including but not limited to bacteremia, severe pneumonia, etc.,
+occurred within 2 weeks before the first dose; active infection that received therapeutic intravenous
+antibiotics within 2 weeks before the first dose.
+(22) Patient with active autoimmune disease, such as rheumatism, rheumatoid, etc.
+(23) The investigator considers that the patient is not suitable for participating in this study (e.g.,
+study treatment is not in the best inter est of patient, patients with mental disorder, patients with
+poor compliance, etc.).
+3.3 Withdrawal of Subjects
+Subjects have the right to discontinue study treatment and/or withdraw from the trial for any reason
+at any time without affecting future treatment provided by the clinician or the study facility. The
+investigator also has the right to terminate the study treatment at any time during the study for
+reasons such as the subject’s clinical condition, safety, compliance or management.
+Criteria for study treatment discontinuation (whichever occurs first):
+ Subject has disease progression, unless the investigator believes the subject can still benefit
+from the study treatment clinically.
+ The investigator determines that the subject cannot clinically benefit from the study treatment
+and continued study treatment may pose an unacceptable risk to the subject.
+ There is major protocol deviation. After enrollment, the subject is found to be non-compliant
+with enrollment criteria in the study protocol or doe s not follow requirements in the study
+protocol, and the investigator believes that continued study treatment may pose an
+unacceptable risk to the subject.
+ The subject has a poor compliance, uses prohibited concomitant medications without
+permission or fails to attend visits on schedule, which affects the evaluation of efficacy and/or
+safety, and the subject is considered inappropriate to continue the study at the discretion of
+the investigator.
+ The subject experiences a particular comorbidity or complication, which, in the discretion of
+the investigator, makes it inappropriate to continue the study treatment.
+ The subject experiences an intolerable toxicity.

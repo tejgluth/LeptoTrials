@@ -10646,12 +10646,32 @@
  },
  {
   "source": "https://clinicaltrials.gov/study/NCT06258408",
-  "rationale": "Symptomatic/uncontrolled metastases to the meninges are excluded; the qualified exclusion does not positively establish an eligible malignant LM population.",
+  "rationale": "Posted protocol BB102-ST-I-02 section 3.2(13), page 76, explicitly permits asymptomatic or stable treated meningeal metastases. Current registry exclusion 10 restricts symptomatic/uncontrolled CNS or meningeal disease, consistent with that exception. General advanced solid-tumor eligibility supports OTHER_SOLID only; preclinical breast models and incidental non-melanoma history are not eligible disease-specific LM cohorts. Registry age range 18–78 retained.",
   "expected": {
-   "include": false,
-   "buckets": [],
+   "include": true,
+   "buckets": [
+    "OTHER_SOLID"
+   ],
    "status": "RECRUITING"
   },
+  "ageCases": [
+   {
+    "age": 17,
+    "include": false
+   },
+   {
+    "age": 18,
+    "include": true
+   },
+   {
+    "age": 78,
+    "include": true
+   },
+   {
+    "age": 79,
+    "include": false
+   }
+  ],
   "study": {
    "protocolSection": {
     "identificationModule": {
@@ -10696,6 +10716,19 @@
       "type": "ACTUAL"
      }
     },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "Broadenbio Ltd., Co.",
+      "class": "INDUSTRY"
+     }
+    },
+    "oversightModule": {
+     "isFdaRegulatedDrug": true,
+     "isFdaRegulatedDevice": false
+    },
     "descriptionModule": {
      "briefSummary": "This is a Phase 1 study to evaluate the safety, tolerability, pharmacokinetics, efficacy and preliminary food effect of BB102, a highly selective and potent FGFR4 inhibitor, as monotherapy in subjects with advanced solid tumors. This study has two phase: dose escalation phase and expansion phase.",
      "detailedDescription": "This first-in-human (FIH) study of BB102 will evaluate safety, tolerability, pharmacokinetics (PK), efficacy and preliminary food effect in subjects with advanced solid tumors. In dose escalation trial, the primary objective is to determine the maximum tolerated dose (MTD) and the recommended phase II dose (RP2D) of BB102 as monotherapy, and to evaluate the safety and tolerability of BB102. The secondary objectives include the assessments of PK profile, preliminary efficacy, preliminary food effect (FE), preliminary metabolites identification, biomarkers and C-QTcF analysis of BB102. In expansion trial, the primary objective is to evaluate the efficacy of BB102 in subjects with FGF19 or FGFR4 positive advanced primary hepatocellular carcinoma (HCC) or other advanced solid tumors. The secondary objectives include the assessments of PK profile, safety and biomarkers of BB102."
@@ -10730,6 +10763,87 @@
       "type": "ESTIMATED"
      }
     },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "BB102 monotherapy",
+       "type": "EXPERIMENTAL",
+       "description": "The study is composed of fasted dose cohorts and fed dose cohort. BB102 will be administered orally daily alone as monotherapy in all cohorts. In the fasted dose cohorts, the subjects will receive once daily of BB102 monotherapy fasted across approximately 6 ascending dose levels. The starting dose is 50mg/day. In the fed dose cohort, the subjects will receive once daily of BB102 monotherapy in a fed condition. The dose selected for fed dose cohort must be deemed safe as assessed by safety monitoring committee (SMC).",
+       "interventionNames": [
+        "Drug: BB102 tablet"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "BB102 tablet",
+       "description": "BB102 tablets will be administered orally once daily(QD).",
+       "armGroupLabels": [
+        "BB102 monotherapy"
+       ],
+       "otherNames": [
+        "BB102"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Number of subjects with dose limiting toxicities (DLTs)",
+       "description": "To assess the safety and tolerability of BB102 tablet as monotherapy in subjects with advanced solid tumors and to determine the maximum tolerated dose (MTD) of BB102 tablet, and to provide a basis for determination of the recommended dose (RP2D) for Phase II clinical trials.",
+       "timeFrame": "Single dose to the end of Cycle 1 (each cycle is 21 days)"
+      },
+      {
+       "measure": "Number of subjects with adverse events (AEs) and serious adverse events (SAEs)",
+       "description": "AEs and SAEs will be characterized by type, seriousness, relationship to study treatment, severity (as graded by National Cancer Institute Common Terminology Criteria for Adverse Events \\[NCI CTCAE\\] version 5.0) and timing.\n\nFGF19 or FGFR4 positive advanced primary HCC or other advanced solid tumors.",
+       "timeFrame": "From screening (Day -28 to Day -1) through up to 12 months or until disease progression"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Pharmacokinetic Assessments: Peak Plasma Concentration (Cmax)",
+       "description": "Blood samples will be collected for PK analyses",
+       "timeFrame": "Day 1, Day 8, Day 15 and at the end of Cycle 1 (each cycle is 21 days)"
+      },
+      {
+       "measure": "Pharmacokinetic Assessments: Time to Peak Concentration (Tmax)",
+       "description": "Blood samples will be collected for PK analyses",
+       "timeFrame": "Day 1, Day 8, Day 15 and at the end of Cycle 1 (each cycle is 21 days)"
+      },
+      {
+       "measure": "Pharmacokinetic Assessments: Area under the plasma concentration-time curve (AUC)",
+       "description": "Blood samples will be collected for PK analyses",
+       "timeFrame": "Day 1, Day 8, Day 15 and at the end of Cycle 1 (each cycle is 21 days)"
+      },
+      {
+       "measure": "Pharmacokinetic Assessments: Elimination half-life (t½)",
+       "description": "Blood samples will be collected for PK analyses",
+       "timeFrame": "Day 1, Day 8, Day 15 and at the end of Cycle 1 (each cycle is 21 days)"
+      },
+      {
+       "measure": "Objective response rate (ORR)",
+       "description": "Tumor response measured by radiologic imaging techniques at baseline and throughout the study.",
+       "timeFrame": "From date of screening until the date of first documented progression or date of death from any cause, whichever came first, assessed up to 24 months"
+      },
+      {
+       "measure": "Duration of response (DOR)",
+       "description": "Tumor response measured by radiologic imaging techniques at baseline and throughout the study.",
+       "timeFrame": "From date of screening until the date of first documented progression or date of death from any cause, whichever came first, assessed up to 24 months"
+      },
+      {
+       "measure": "Disease control rate (DCR)",
+       "description": "Tumor response measured by radiologic imaging techniques at baseline and throughout the study.",
+       "timeFrame": "From date of screening until the date of first documented progression or date of death from any cause, whichever came first, assessed up to 24 months"
+      },
+      {
+       "measure": "Progression-free survival (PFS)",
+       "description": "Tumor response measured by radiologic imaging techniques at baseline and throughout the study.",
+       "timeFrame": "From date of screening until the date of first documented progression or date of death from any cause, whichever came first, assessed up to 24 months"
+      }
+     ]
+    },
     "eligibilityModule": {
      "eligibilityCriteria": "Inclusion Criteria:\n\n1. For the dose escalation trial, histologically, cytologically confirmed or clinically confirmed advanced solid tumors patients who without available standard treatment, have disease progression on standard treatment or cannot tolerate standard treatment.\n\n   For the expansion trial, histologically or cytologically confirmed FGF19 or FGFR4 positive advanced primary HCC or other advanced solid tumors patients who without available standard treatment, have disease progression on standard treatment or cannot tolerate standard treatment.\n2. For the dose escalation trial, at least one evaluable lesion as defined by RECIST v1.1.\n\n   For the expansion trial, at least one measurable lesion as defined by RECIST v1.1.\n3. Eastern Cooperative Oncology Group (ECOG) score ≤1.\n4. Expected survival ≥ 3 months.\n5. Adequate organ function.\n6. Female subjects of childbearing potential must have a negative pregnancy test prior to the first dose and are required to use effective contraception from signing the ICF until 6 months after the last dose of study treatment.\n7. Fully informed of the study and voluntarily signed the informed consent form (ICF), and willing to follow and have the ability to complete all trial procedures.\n\nExclusion Criteria:\n\n1. Use of systemic immunosuppressive or systemic cortisol (≥10 mg prednisone or other equivalent hormones) within 4 weeks.\n2. Prior use of selective FGFR4 inhibitor and/or pan-FGFR inhibitor therapy.\n3. Use of cytotoxic chemotherapeutics within 4 weeks, OR use of state-approved Chinese traditional patent drugs/Chinese traditional drugs with an antitumor effect within 2 weeks.\n4. Anti-tumor endocrine therapy, radiotherapy, interventional embolization, radiofrequency, proton therapy, radioimmunotherapy, immunotherapy or other biotherapies within 4 weeks.\n5. Use of other clinical investigational drug or therapy that was not marketed within 4 weeks.\n6. The patient is receiving drugs or therapies prohibited in the protocol and cannot discontinue such use at least 2 weeks.\n7. Pregnant or lactating females.\n8. Presence of clinically significant gastrointestinal disorder that may affect the intake, transport, or absorption of the study drug at screening.\n9. Patient with dual-source cancer within 5 years.\n10. Presence of clinically symptomatic metastases to the central nervous system or meninges or other evidence showing that metastatic lesions in the central nervous system or meninges have not yet been controlled at screening, which, at the investigator's discretion, is not suitable for enrollment.\n11. History of severe neurological or psychiatric disorders, including epilepsy, dementia, moderate to severe depression, etc.\n12. Clinically significant and uncontrolled cardiovascular diseases.\n13. Pulmonary embolism within 6 months.\n14. Prior allogeneic stem cell transplantation, bone marrow transplantation or vital organ transplantation.\n15. Presence of uncontrollable infectious disease, congenital immunodeficiency disease,acquired immunodeficiency syndrome, syphilis, active hepatitis B, hepatitis C virus (HCV) infection.\n16. Severe active infection, including but not limited to bacteremia, severe pneumonia, etc., occurred within 2 weeks; an active infection that received therapeutic intravenous antibiotics within 2 weeks.",
      "healthyVolunteers": false,
@@ -10740,8 +10854,97 @@
       "ADULT",
       "OLDER_ADULT"
      ]
+    },
+    "contactsLocationsModule": {
+     "centralContacts": [
+      {
+       "name": "Qi Wang, PhD",
+       "role": "CONTACT",
+       "phone": "+86-15311443674",
+       "email": "qi.wang@broadenbio.com"
+      }
+     ],
+     "overallOfficials": [
+      {
+       "name": "Suxia Luo, MD",
+       "affiliation": "Henan Cancer Hospital",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Nanfang Hospital",
+       "status": "RECRUITING",
+       "city": "Guangzhou",
+       "state": "Guangdong",
+       "country": "China",
+       "contacts": [
+        {
+         "name": "Yabing Guo, MD",
+         "role": "CONTACT",
+         "email": "gyabing@126.com"
+        }
+       ],
+       "geoPoint": {
+        "lat": 23.11667,
+        "lon": 113.25
+       }
+      },
+      {
+       "facility": "Henan Cancer Hospital",
+       "status": "RECRUITING",
+       "city": "Zhengzhou",
+       "state": "Henan",
+       "country": "China",
+       "contacts": [
+        {
+         "name": "Suxia Luo, MD",
+         "role": "CONTACT",
+         "email": "luosmrm@163.com"
+        }
+       ],
+       "geoPoint": {
+        "lat": 34.75778,
+        "lon": 113.64861
+       }
+      }
+     ]
     }
-   }
+   },
+   "documentSection": {
+    "largeDocumentModule": {
+     "largeDocs": [
+      {
+       "typeAbbrev": "Prot",
+       "hasProtocol": true,
+       "hasSap": false,
+       "hasIcf": false,
+       "label": "Study Protocol",
+       "date": "2022-07-14",
+       "uploadDate": "2024-02-06T21:06",
+       "filename": "Prot_000.pdf",
+       "size": 1609056
+      },
+      {
+       "typeAbbrev": "ICF",
+       "hasProtocol": false,
+       "hasSap": false,
+       "hasIcf": true,
+       "label": "Informed Consent Form",
+       "date": "2022-07-15",
+       "uploadDate": "2024-02-06T21:08",
+       "filename": "ICF_001.pdf",
+       "size": 525424
+      }
+     ]
+    }
+   },
+   "derivedSection": {
+    "miscInfoModule": {
+     "versionHolder": "2026-10-30"
+    }
+   },
+   "hasResults": false
   }
  },
  {
@@ -16683,6 +16886,2163 @@
      ]
     }
    }
+  }
+ },
+ {
+  "source": "https://clinicaltrials.gov/study/NCT06784193",
+  "rationale": "Conditional CNS/LM exclusion supplies no explicit affirmative LM eligibility path; do not infer one from a restricted exclusion.",
+  "expected": {
+   "include": false,
+   "buckets": [],
+   "status": "RECRUITING"
+  },
+  "study": {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT06784193",
+     "orgStudyIdInfo": {
+      "id": "OP-3136-101"
+     },
+     "organization": {
+      "fullName": "Olema Pharmaceuticals, Inc.",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "Phase 1 Study of OP-3136 in Advanced or Metastatic Solid Tumors",
+     "officialTitle": "A Phase 1 First-in-Human, Open-Label, Multicenter Study of OP-3136 in Adult Participants With Advanced or Metastatic Solid Tumors"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2026-10",
+     "overallStatus": "RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2024-12-16",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2027-05-30",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2027-08-30",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2025-01-14",
+     "studyFirstSubmitQcDate": "2025-01-14",
+     "studyFirstPostDateStruct": {
+      "date": "2025-01-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-01",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-05",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "Olema Pharmaceuticals, Inc.",
+      "class": "INDUSTRY"
+     }
+    },
+    "oversightModule": {
+     "isFdaRegulatedDrug": true,
+     "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+     "briefSummary": "This is a first-in-human, open-label, multicenter phase 1 study to evaluate safety, tolerability, pharmacokinetics (PK), pharmacodynamics (PD), and preliminary efficacy of OP-3136, a lysine acetyltransferases 6A and 6B (KAT6A/B) inhibitor, as monotherapy and in combination with other anticancer agents in participants with advanced solid tumors.\n\nThis study consists of 2 parts: a dose escalation part (Part 1) and dose expansion part (Part 2).",
+     "detailedDescription": "Part 1A (Dose Escalation for OP-3136 Monotherapy): This part of the study will evaluate the safety, tolerability, and PK in a range of doses of OP-3136, a lysine acetyltransferases 6A and 6B (KAT6A/B) inhibitor, administered orally once daily to participants with ER+ HER2- advanced or metastatic breast cancer (mBC), advanced or metastatic castration resistant prostate cancer (mCRPC), or advanced or metastatic non-small cell lung cancer (mNSCLC), and determine the maximum tolerated dose (MTD) and the recommended dose/regimen for expansion (RDE).\n\nPart 1B (Dose Escalation for OP-3136 in Combination with Fulvestrant): This part of the study will evaluate the safety and PK of OP-3136 administered in combination with fulvestrant in participants with ER+ HER2- mBC, and determine MTD and RDE for this combination.\n\nPart 1C (Dose Escalation for OP-3136 in Combination with Palazestrant): This part of the study will evaluate the safety and PK of OP-3136 administered in combination with palazestrant in participants with ER+ HER2- mBC, and determine MTD and RDE for this combination.\n\nPart 2A (Dose Expansion for OP-3136 Monotherapy): This part will evaluate two expansion cohorts at the monotherapy RDE from part 1 in participants with ER+ HER2- mBC and participants with mCRPC.\n\nPart 2B (Dose Expansion for OP-3136 in Combination with Fulvestrant OR Palazestrant): This part will evaluate the RDEs for OP-3136 in combination with fulvestrant from Part 1B OR the RDEs of OP-3136 in combination with palazestrant in an expansion cohort in participants with ER+ HER2- mBC."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Advanced or Metastatic ER+ HER2- Breast Cancer (mBC)",
+      "Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC)",
+      "Advanced or Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+      "Metastatic Breast Cancer",
+      "Fulvestrant",
+      "Palazestrant"
+     ],
+     "keywords": [
+      "KAT6 Inhibitor",
+      "Histone Acetyltransferase (HAT) Inhibitor",
+      "Epigenetic"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE1"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 180,
+      "type": "ESTIMATED"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Part 1A Dose Escalation monotherapy",
+       "type": "EXPERIMENTAL",
+       "interventionNames": [
+        "Drug: OP-3136"
+       ]
+      },
+      {
+       "label": "Part 1B Dose Escalation in combination with fulvestrant",
+       "type": "EXPERIMENTAL",
+       "interventionNames": [
+        "Drug: OP-3136",
+        "Drug: Fulvestrant"
+       ]
+      },
+      {
+       "label": "Part 1C Dose Escalation in combination with palazestrant",
+       "type": "EXPERIMENTAL",
+       "interventionNames": [
+        "Drug: OP-3136",
+        "Drug: Palazestrant"
+       ]
+      },
+      {
+       "label": "Part 2A Dose Expansion monotherapy - mBC",
+       "type": "EXPERIMENTAL",
+       "interventionNames": [
+        "Drug: OP-3136"
+       ]
+      },
+      {
+       "label": "Part 2A Dose Expansion monotherapy - mCRPC",
+       "type": "EXPERIMENTAL",
+       "interventionNames": [
+        "Drug: OP-3136"
+       ]
+      },
+      {
+       "label": "Part 2B Dose Expansion in combination with fulvestrant OR palazestrant-mBC @ RDE 1",
+       "type": "EXPERIMENTAL",
+       "interventionNames": [
+        "Drug: OP-3136",
+        "Drug: Fulvestrant",
+        "Drug: Palazestrant"
+       ]
+      },
+      {
+       "label": "Part 2B Dose Expansion in combination with fulvestrant OR palazestrant-mBC @ RDE 2",
+       "type": "EXPERIMENTAL",
+       "interventionNames": [
+        "Drug: OP-3136",
+        "Drug: Fulvestrant",
+        "Drug: Palazestrant"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "OP-3136",
+       "description": "Selective inhibitor of HAT enzymes KAT6A and KAT6B",
+       "armGroupLabels": [
+        "Part 1A Dose Escalation monotherapy",
+        "Part 1B Dose Escalation in combination with fulvestrant",
+        "Part 1C Dose Escalation in combination with palazestrant",
+        "Part 2A Dose Expansion monotherapy - mBC",
+        "Part 2A Dose Expansion monotherapy - mCRPC",
+        "Part 2B Dose Expansion in combination with fulvestrant OR palazestrant-mBC @ RDE 1",
+        "Part 2B Dose Expansion in combination with fulvestrant OR palazestrant-mBC @ RDE 2"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Fulvestrant",
+       "description": "Selective estrogen receptor degrader (SERD)",
+       "armGroupLabels": [
+        "Part 1B Dose Escalation in combination with fulvestrant",
+        "Part 2B Dose Expansion in combination with fulvestrant OR palazestrant-mBC @ RDE 1",
+        "Part 2B Dose Expansion in combination with fulvestrant OR palazestrant-mBC @ RDE 2"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Palazestrant",
+       "description": "Complete estrogen receptor antagonist (CERAN)",
+       "armGroupLabels": [
+        "Part 1C Dose Escalation in combination with palazestrant",
+        "Part 2B Dose Expansion in combination with fulvestrant OR palazestrant-mBC @ RDE 1",
+        "Part 2B Dose Expansion in combination with fulvestrant OR palazestrant-mBC @ RDE 2"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Number of participants with dose-limiting toxicities in the Dose Escalation Arms",
+       "timeFrame": "Up to 28 days"
+      },
+      {
+       "measure": "Incidence of adverse events and laboratory abnormalities",
+       "timeFrame": "Up to 26 months"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Maximum observed concentration (Cmax)",
+       "timeFrame": "Up to 26 months"
+      },
+      {
+       "measure": "Time to maximum concentration (Tmax)",
+       "timeFrame": "Up to 26 months"
+      },
+      {
+       "measure": "Area under the curve from time zero to 24 hours (AUC0-24)",
+       "timeFrame": "Up to 26 months"
+      },
+      {
+       "measure": "Overall Response Rate (ORR)",
+       "timeFrame": "Up to 26 months"
+      },
+      {
+       "measure": "Duration of Response (DOR)",
+       "timeFrame": "Up to 26 months"
+      },
+      {
+       "measure": "Clinical Benefit Rate (CBR)",
+       "timeFrame": "Up to 26 months"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Participants with advanced or metastatic ER+HER2- breast cancer, mCRPC, or NSCLC (Part 1) or advanced or metastatic ER+HER2- BC or mCRPC (Part 2).\n* Part 1A (Dose escalation for OP-3136 monotherapy): Participants must have a tumor that is unresectable or metastatic and for which life prolonging measures do not exist or available therapies are intolerable or no longer effective.\n* Part 1B (Dose escalation for OP-3136 in combination with fulvestrant): Participants with advanced or metastatic ER+ HER2- breast cancer that have progressed on or after at least 1 prior line of treatment that included endocrine therapy and CDK 4/6 inhibitor in advanced or metastatic setting and must have received no more than 2 prior lines of endocrine therapy (one of which must be in combination with CDK4/6 inhibitor) and no more than 1 prior line of chemotherapy or an antibody-drug conjugate in the advanced or metastatic setting.\n* Part 1C (Dose escalation for OP-3136 in combination with palazestrant): Participants with advanced or metastatic ER+ HER2- breast cancer that have progressed on or after at least 1 prior line of treatment that included endocrine therapy and CDK 4/6 inhibitor in advanced or metastatic setting and must have received no more than 2 prior lines of endocrine therapy (one of which must be in combination with CDK4/6 inhibitor) and no more than 1 prior line of chemotherapy or an antibody-drug conjugate in the advanced or metastatic setting.\n* Part 2A (Dose Expansion in ER+ HER2- mBC for OP-3136 monotherapy): Participants must have received up to 3 prior lines of endocrine therapy (one of which must be in combination with CDK4/6 inhibitor) and up to 1 prior line of chemotherapy or an antibody-drug conjugate.\n* Part 2A (Dose Expansion in mCRPC for OP-3136 monotherapy): Participants must have received up to 4 lines of prior systemic therapy for prostate cancer. Prior therapy must include treatment with an androgen receptor pathway inhibitor(s).\n* Part 2B (Dose Expansion in ER+ HER2- mBC for OP-3136 in combination with fulvestrant OR Dose Expansion in ER+ HER2- mBC for OP-3136 in combination with palazestrant): Participants must have progressed on or after at least 1 prior line of treatment that included endocrine therapy and CDK 4/6 inhibitor in advanced or metastatic setting. Participants must have received no more than 2 prior lines of endocrine therapy in the advanced or metastatic setting and no more than 1 prior line of chemotherapy or an antibody-drug conjugate in the advanced or metastatic setting.\n\nKey Exclusion Criteria:\n\n* Prior therapy with KAT6A/B inhibitor in any treatment setting.\n* Participants with advanced/metastatic, symptomatic, visceral spread, that are at risk of life-threatening complications in the short term.\n* Known active or symptomatic central nervous system (CNS) metastases, carcinomatous meningitis, leptomeningeal disease, or a spinal cord compression that require CNS-specific treatment, or participants who did not demonstrate clinical and radiologic stability during the last 2 months prior to the first dose of study treatment or require or are currently on steroid therapy for CNS metastases.\n* History of cerebral vascular disease, including transient ischemic attack, within 6 months prior to the first dose of study treatment.\n* History of or ongoing impaired cardiac function or clinically significant cardiac disease within 6 months prior to the first dose of study treatment.\n\nNote: Additional inclusion/exclusion criteria may apply.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "centralContacts": [
+      {
+       "name": "There may be multiple sites in this clinical trial Olema Clinical Trial Lead",
+       "role": "CONTACT",
+       "phone": "415-651-7206",
+       "email": "clinical@olema.com"
+      },
+      {
+       "name": "Olema Medical Study Director",
+       "role": "CONTACT"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Banner MD Anderson Cancer Center",
+       "status": "RECRUITING",
+       "city": "Gilbert",
+       "state": "Arizona",
+       "zip": "85234",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 33.35283,
+        "lon": -111.78903
+       }
+      },
+      {
+       "facility": "University of Colorado",
+       "status": "RECRUITING",
+       "city": "Aurora",
+       "state": "Colorado",
+       "zip": "80045",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 39.72943,
+        "lon": -104.83192
+       }
+      },
+      {
+       "facility": "Florida Cancer Specialists",
+       "status": "RECRUITING",
+       "city": "Sarasota",
+       "state": "Florida",
+       "zip": "34232",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 27.33643,
+        "lon": -82.53065
+       }
+      },
+      {
+       "facility": "University Medical Center - New Orleans",
+       "status": "TERMINATED",
+       "city": "New Orleans",
+       "state": "Louisiana",
+       "zip": "70112",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 29.95465,
+        "lon": -90.07507
+       }
+      },
+      {
+       "facility": "Massachusetts General Hospital",
+       "status": "RECRUITING",
+       "city": "Boston",
+       "state": "Massachusetts",
+       "zip": "02114",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 42.35843,
+        "lon": -71.05977
+       }
+      },
+      {
+       "facility": "Dana-Farber Cancer Institute",
+       "status": "RECRUITING",
+       "city": "Boston",
+       "state": "Massachusetts",
+       "zip": "02215",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 42.35843,
+        "lon": -71.05977
+       }
+      },
+      {
+       "facility": "START - Midwest",
+       "status": "RECRUITING",
+       "city": "Grand Rapids",
+       "state": "Michigan",
+       "zip": "49546",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 42.96336,
+        "lon": -85.66809
+       }
+      },
+      {
+       "facility": "Memorial Sloan Kettering Cancer Center",
+       "status": "RECRUITING",
+       "city": "New York",
+       "state": "New York",
+       "zip": "10065",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 40.71427,
+        "lon": -74.00597
+       }
+      },
+      {
+       "facility": "The Ohio State University",
+       "status": "RECRUITING",
+       "city": "Columbus",
+       "state": "Ohio",
+       "zip": "43021",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 39.96118,
+        "lon": -82.99879
+       }
+      },
+      {
+       "facility": "SCRI Oncology Partners",
+       "status": "RECRUITING",
+       "city": "Nashville",
+       "state": "Tennessee",
+       "zip": "37203",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 36.16589,
+        "lon": -86.78444
+       }
+      },
+      {
+       "facility": "Tennessee Oncology",
+       "status": "RECRUITING",
+       "city": "Nashville",
+       "state": "Tennessee",
+       "zip": "37203",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 36.16589,
+        "lon": -86.78444
+       }
+      },
+      {
+       "facility": "START - San Antonio",
+       "status": "RECRUITING",
+       "city": "San Antonio",
+       "state": "Texas",
+       "zip": "78229",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 29.42412,
+        "lon": -98.49363
+       }
+      },
+      {
+       "facility": "START - Mountain Region",
+       "status": "RECRUITING",
+       "city": "West Valley City",
+       "state": "Utah",
+       "zip": "84119",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 40.69161,
+        "lon": -112.00105
+       }
+      },
+      {
+       "facility": "The Kinghorn Cancer Centre",
+       "status": "RECRUITING",
+       "city": "Darlinghurst",
+       "state": "New South Wales",
+       "zip": "2010",
+       "country": "Australia",
+       "geoPoint": {
+        "lat": -33.87939,
+        "lon": 151.21925
+       }
+      },
+      {
+       "facility": "Liverpool Hospital",
+       "status": "RECRUITING",
+       "city": "Liverpool",
+       "state": "New South Wales",
+       "zip": "2170",
+       "country": "Australia",
+       "geoPoint": {
+        "lat": -33.91938,
+        "lon": 150.92588
+       }
+      },
+      {
+       "facility": "Macquarie University Clinical Trials Unit",
+       "status": "RECRUITING",
+       "city": "Macquarie",
+       "state": "New South Wales",
+       "zip": "2109",
+       "country": "Australia"
+      },
+      {
+       "facility": "Cancer Research South Australia",
+       "status": "RECRUITING",
+       "city": "Adelaide",
+       "state": "South Australia",
+       "zip": "5000",
+       "country": "Australia",
+       "geoPoint": {
+        "lat": -34.92866,
+        "lon": 138.59863
+       }
+      },
+      {
+       "facility": "Institut De Cancerologie De L'ouest",
+       "status": "RECRUITING",
+       "city": "Saint-Herblain",
+       "state": "Loire-Atlantique",
+       "zip": "44805",
+       "country": "France",
+       "geoPoint": {
+        "lat": 47.21154,
+        "lon": -1.651
+       }
+      },
+      {
+       "facility": "Hôpital Paris Saint-Joseph",
+       "status": "RECRUITING",
+       "city": "Paris",
+       "state": "Paris",
+       "zip": "75014",
+       "country": "France",
+       "geoPoint": {
+        "lat": 48.85341,
+        "lon": 2.3488
+       }
+      },
+      {
+       "facility": "Institut Gustave Roussy",
+       "status": "RECRUITING",
+       "city": "Villejuif",
+       "state": "Val-de-Marne",
+       "zip": "94800",
+       "country": "France",
+       "geoPoint": {
+        "lat": 48.7939,
+        "lon": 2.35992
+       }
+      },
+      {
+       "facility": "Queen Mary Hospital",
+       "status": "RECRUITING",
+       "city": "Hong Kong",
+       "state": "Hong Kong",
+       "country": "Hong Kong",
+       "geoPoint": {
+        "lat": 22.27832,
+        "lon": 114.17469
+       }
+      },
+      {
+       "facility": "START Dublin",
+       "status": "RECRUITING",
+       "city": "Dublin",
+       "state": "Dublin",
+       "zip": "D07 R2WY",
+       "country": "Ireland",
+       "geoPoint": {
+        "lat": 53.33306,
+        "lon": -6.24889
+       }
+      },
+      {
+       "facility": "START - Barcelona",
+       "status": "RECRUITING",
+       "city": "Barcelona",
+       "state": "Barcelona",
+       "zip": "08023",
+       "country": "Spain",
+       "geoPoint": {
+        "lat": 41.38879,
+        "lon": 2.15899
+       }
+      },
+      {
+       "facility": "Start - Fjd",
+       "status": "RECRUITING",
+       "city": "Madrid",
+       "state": "Madrid",
+       "zip": "28040",
+       "country": "Spain",
+       "geoPoint": {
+        "lat": 40.4165,
+        "lon": -3.70256
+       }
+      },
+      {
+       "facility": "START Madrid - CIOCC",
+       "status": "RECRUITING",
+       "city": "Madrid",
+       "state": "Madrid",
+       "zip": "28050",
+       "country": "Spain",
+       "geoPoint": {
+        "lat": 40.4165,
+        "lon": -3.70256
+       }
+      }
+     ]
+    },
+    "ipdSharingStatementModule": {
+     "ipdSharing": "UNDECIDED"
+    }
+   },
+   "derivedSection": {
+    "miscInfoModule": {
+     "versionHolder": "2026-10-30"
+    },
+    "conditionBrowseModule": {
+     "meshes": [
+      {
+       "id": "D002289",
+       "term": "Carcinoma, Non-Small-Cell Lung"
+      },
+      {
+       "id": "D001943",
+       "term": "Breast Neoplasms"
+      }
+     ],
+     "ancestors": [
+      {
+       "id": "D002283",
+       "term": "Carcinoma, Bronchogenic"
+      },
+      {
+       "id": "D001984",
+       "term": "Bronchial Neoplasms"
+      },
+      {
+       "id": "D008175",
+       "term": "Lung Neoplasms"
+      },
+      {
+       "id": "D012142",
+       "term": "Respiratory Tract Neoplasms"
+      },
+      {
+       "id": "D013899",
+       "term": "Thoracic Neoplasms"
+      },
+      {
+       "id": "D009371",
+       "term": "Neoplasms by Site"
+      },
+      {
+       "id": "D009369",
+       "term": "Neoplasms"
+      },
+      {
+       "id": "D008171",
+       "term": "Lung Diseases"
+      },
+      {
+       "id": "D012140",
+       "term": "Respiratory Tract Diseases"
+      },
+      {
+       "id": "D001941",
+       "term": "Breast Diseases"
+      },
+      {
+       "id": "D012871",
+       "term": "Skin Diseases"
+      },
+      {
+       "id": "D017437",
+       "term": "Skin and Connective Tissue Diseases"
+      }
+     ]
+    },
+    "interventionBrowseModule": {
+     "meshes": [
+      {
+       "id": "D000077267",
+       "term": "Fulvestrant"
+      }
+     ],
+     "ancestors": [
+      {
+       "id": "D004958",
+       "term": "Estradiol"
+      },
+      {
+       "id": "D004963",
+       "term": "Estrenes"
+      },
+      {
+       "id": "D004962",
+       "term": "Estranes"
+      },
+      {
+       "id": "D013256",
+       "term": "Steroids"
+      },
+      {
+       "id": "D000072473",
+       "term": "Fused-Ring Compounds"
+      },
+      {
+       "id": "D011083",
+       "term": "Polycyclic Compounds"
+      },
+      {
+       "id": "D045166",
+       "term": "Estradiol Congeners"
+      },
+      {
+       "id": "D012739",
+       "term": "Gonadal Steroid Hormones"
+      },
+      {
+       "id": "D042341",
+       "term": "Gonadal Hormones"
+      },
+      {
+       "id": "D006728",
+       "term": "Hormones"
+      },
+      {
+       "id": "D006730",
+       "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  }
+ },
+ {
+  "source": "https://clinicaltrials.gov/study/NCT04762901",
+  "rationale": "Both stages explicitly exclude carcinomatous meningitis regardless of clinical stability; treated brain metastasis exceptions do not override it.",
+  "expected": {
+   "include": false,
+   "buckets": [],
+   "status": "WITHDRAWN"
+  },
+  "study": {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT04762901",
+     "orgStudyIdInfo": {
+      "id": "LCI-BRE-MTN-NIR-001"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "00048055",
+       "type": "OTHER",
+       "domain": "Advarra IRB"
+      }
+     ],
+     "organization": {
+      "fullName": "Wake Forest University Health Sciences",
+      "class": "OTHER"
+     },
+     "briefTitle": "LCI-BRE-MTN-NIR-001:Ph I Study of Niraparib in Combo With Standard Chemo in Metastatic Trip Neg Breast Cancer",
+     "officialTitle": "LCI-BRE-MTN-NIR-001: A Phase I Study of Niraparib in Combination With Standard Chemotherapy in Metastatic Triple-Negative Breast Cancer"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2021-05",
+     "overallStatus": "WITHDRAWN",
+     "whyStopped": "Funding was terminated.",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2021-04-01",
+      "type": "ESTIMATED"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2026-01",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2026-01",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2021-01-17",
+     "studyFirstSubmitQcDate": "2021-02-16",
+     "studyFirstPostDateStruct": {
+      "date": "2021-02-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-04-20",
+     "lastUpdatePostDateStruct": {
+      "date": "2022-04-26",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "Wake Forest University Health Sciences",
+      "class": "OTHER"
+     },
+     "collaborators": [
+      {
+       "name": "Tesaro, Inc.",
+       "class": "INDUSTRY"
+      }
+     ]
+    },
+    "oversightModule": {
+     "oversightHasDmc": true,
+     "isFdaRegulatedDrug": true,
+     "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+     "briefSummary": "This is an open-label, two-stage, multi-arm Phase 1 study designed to evaluate the safety and preliminary efficacy of combining niraparib with four standard chemotherapy regimens used to treat TNBC.",
+     "detailedDescription": "Niraparib is an oral, selective poly ADP ribose polymerase (PARP)-1 and PARP-2 inhibitor. A strategy of combining a PARP inhibitor, as a chemopotentiator, with chemotherapy is a promising approach in the treatment of triple-negative breast cancer. This study will evaluate the combination of niraparib with several standard chemotherapy regimens used to treat breast cancer to determine a recommended Stage 2 dose (RS2D) of chemotherapy regimens with niraparib. Stage 1 will be conducted in subjects with metastatic TNBC and will include 4 chemotherapy treatment arms in escalating dose levels (Arm 1: doxorubicin + cyclophosphamide (AC) every 14 days with pegfilgrastim (or biosimilar) for 4 cycles followed by AC every 21 days; Arm 2: AC every 21 days; Arm 3: weekly paclitaxel; Arm 4: weekly paclitaxel + carboplatin every 21 days), each combined with oral daily niraparib. Treatment will continue until disease progression, unacceptable toxicity, or subject withdrawal.Stage 2 will be conducted in subjects with non-metastatic TNBC. Subjects will receive neoadjuvant chemotherapy with either AC every 14 days (Arm 1A) or every 21 days (Arm 2A) at the RS2D of chemotherapy combined with oral daily niraparib from Stage 1. Treatment will continue for 4 cycles."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Cancer"
+     ],
+     "keywords": [
+      "Triple-negative"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE1"
+     ],
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Stage 1 Arm 1",
+       "type": "EXPERIMENTAL",
+       "description": "Niraparib 100 mg orally once daily, Doxorubicin and Cyclophosphamide (AC) IV every 14 days with pegfilgrastim (or biosimilar) for 4 cycles, followed by AC IV every 21 days",
+       "interventionNames": [
+        "Drug: Niraparib",
+        "Drug: Doxorubicin",
+        "Drug: Cyclophosphamide",
+        "Drug: Pegfilgrastim"
+       ]
+      },
+      {
+       "label": "Stage 1 Arm 2",
+       "type": "EXPERIMENTAL",
+       "description": "Niraparib 100 mg orally once daily, Doxorubicin and Cyclophosphamide (AC) IV every 21 days",
+       "interventionNames": [
+        "Drug: Niraparib",
+        "Drug: Doxorubicin",
+        "Drug: Cyclophosphamide"
+       ]
+      },
+      {
+       "label": "Stage 1 Arm 3",
+       "type": "EXPERIMENTAL",
+       "description": "Niraparib 100 mg orally once daily, Paclitaxel IV Days 1, 8, 15, and 22 every 28 days",
+       "interventionNames": [
+        "Drug: Niraparib",
+        "Drug: Paclitaxel"
+       ]
+      },
+      {
+       "label": "Stage 1 Arm 4",
+       "type": "EXPERIMENTAL",
+       "description": "Niraparib 100 mg orally once daily, Paclitaxel IV Days 1, 8, and 15 every 21 days and carboplatin IV every 21 days",
+       "interventionNames": [
+        "Drug: Niraparib",
+        "Drug: Paclitaxel",
+        "Drug: Carboplatin"
+       ]
+      },
+      {
+       "label": "Stage 2 Arm 1",
+       "type": "EXPERIMENTAL",
+       "description": "Niraparib 100 mg orally once daily, Doxorubicin and Cyclophosphamide (AC) IV every 14 days with pegfilgrastim (or biosimilar) for 4 cycles",
+       "interventionNames": [
+        "Drug: Niraparib",
+        "Drug: Doxorubicin",
+        "Drug: Cyclophosphamide",
+        "Drug: Pegfilgrastim"
+       ]
+      },
+      {
+       "label": "Stage 2 Arm 2",
+       "type": "EXPERIMENTAL",
+       "description": "Niraparib 100 mg orally once daily, Doxorubicin and Cyclophosphamide (AC) IV every 21 days",
+       "interventionNames": [
+        "Drug: Niraparib",
+        "Drug: Doxorubicin",
+        "Drug: Cyclophosphamide"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "Niraparib",
+       "description": "Oral tablet",
+       "armGroupLabels": [
+        "Stage 1 Arm 1",
+        "Stage 1 Arm 2",
+        "Stage 1 Arm 3",
+        "Stage 1 Arm 4",
+        "Stage 2 Arm 1",
+        "Stage 2 Arm 2"
+       ],
+       "otherNames": [
+        "ZEJULA"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Doxorubicin",
+       "description": "IV",
+       "armGroupLabels": [
+        "Stage 1 Arm 1",
+        "Stage 1 Arm 2",
+        "Stage 2 Arm 1",
+        "Stage 2 Arm 2"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Cyclophosphamide",
+       "description": "IV",
+       "armGroupLabels": [
+        "Stage 1 Arm 1",
+        "Stage 1 Arm 2",
+        "Stage 2 Arm 1",
+        "Stage 2 Arm 2"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Paclitaxel",
+       "description": "IV",
+       "armGroupLabels": [
+        "Stage 1 Arm 3",
+        "Stage 1 Arm 4"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Pegfilgrastim",
+       "description": "Injection",
+       "armGroupLabels": [
+        "Stage 1 Arm 1",
+        "Stage 2 Arm 1"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Carboplatin",
+       "description": "IV",
+       "armGroupLabels": [
+        "Stage 1 Arm 4"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Stage 1 - Evaluate dose-limiting toxicities (DLT) separately for Arms 1, 2, 3, and 4 and establish recommended Stage 2 dose of chemotherapy in combination with niraparib",
+       "description": "The DLT variable will be determined for each subject as a binary variability indicating whether or not subject experienced a protocol-defined DLT.",
+       "timeFrame": "up to 28 days"
+      },
+      {
+       "measure": "Stage 2 - Assess clinically significant toxicities separately for Arms 1 and 2 after RS2D of niraparib is determined.",
+       "description": "The clinically significant toxicity variable will be determined for each subject as a binary variable indicating whether or not the subject experienced a niraparib-related dose delay of at least 28 days or a Grade 3 or higher niraparib-related non-hematologic toxicity.",
+       "timeFrame": "up to 84 days"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Stage 1 - Objective response rate (ORR)",
+       "description": "Objective response will be determined for each subject in Stage 1 as a binary variable indicating whether or not the subject achieved a best overall response of CR or PR",
+       "timeFrame": "up to 30 days post-treatment discontinuation"
+      },
+      {
+       "measure": "Stage 1 - Duration of response (DoR)",
+       "description": "Duration of Response (DoR) will be determined for subjects in Stage 1 who experience a PR or better and is defined as the duration of time from the first assessment that determined a CR or PR to the date of the first occurrence of progressive disease or death.",
+       "timeFrame": "up to 5 years post-treatment discontinuation"
+      },
+      {
+       "measure": "Stage 1 - Clinical benefit rate (CBR)",
+       "description": "Clinical benefit will be determined for each subject in Stage 1 as a binary variable indicating whether or not the subject achieved a best overall response of CR, PR, or SD",
+       "timeFrame": "up to 30 days post-treatment discontinuation"
+      },
+      {
+       "measure": "Stage 1 - Progression free survival (PFS)",
+       "description": "PFS will be determined for all subjects in Stage 1 and is defined as the duration of time from enrollment to the first occurrence of either progressive disease or death.",
+       "timeFrame": "up to 5 years post-treatment discontinuation"
+      },
+      {
+       "measure": "Stage 1 - Overall survival (OS)",
+       "description": "Overall survival is defined as the duration of time from enrollment to the date of death from any cause.",
+       "timeFrame": "up to 5 years post-treatment discontinuation"
+      },
+      {
+       "measure": "Stage 1 - Cumulative incidence of secondary malignancies including MDS",
+       "description": "Secondary malignancies (including MDS) will be defined as a time to event endpoint and will be calculated from the date of enrollment.",
+       "timeFrame": "up to 5 years post-treatment discontinuation"
+      },
+      {
+       "measure": "Stage 1 - Overall safety profile - Adverse Events of Special Interest (AESIs)",
+       "description": "The AESI variable will be determined for each subject as a binary variability indicating whether or not subject experienced a protocol-defined AESI.",
+       "timeFrame": "up to 30 days post-treatment discontinuation"
+      },
+      {
+       "measure": "Stage 1 - Overall safety profile - Adverse Events (AEs)",
+       "description": "The AE variable will be determined for each subject as a binary variability indicating whether or not subject experienced an AE per CTCAE V5.0.",
+       "timeFrame": "up to 30 days post-treatment discontinuation"
+      },
+      {
+       "measure": "Stage 1 - Overall safety profile - Death on Study Therapy",
+       "description": "The death of study therapy variable will be determined for each subject as a binary variability indicating whether or not subject experienced a Grade 5 event.",
+       "timeFrame": "up to 30 days post-treatment discontinuation"
+      },
+      {
+       "measure": "Stage 1 - Overall safety profile - Complete Blood Count with Differential (CBCD)",
+       "description": "The CBCD variable will be collected quantitatively for each subject.",
+       "timeFrame": "up to 30 days post-treatment discontinuation"
+      },
+      {
+       "measure": "Stage 1 - Overall safety profile - Comprehensive Metabolic Profile (CMP)",
+       "description": "The CMP variable will be collected quantitatively for each subject.",
+       "timeFrame": "up to 30 days post-treatment discontinuation"
+      },
+      {
+       "measure": "Stage 2 - Pathologic complete response (pCR)",
+       "description": "Pathologic complete response (pCR) will be determined for each subject in Stage 2 as a binary variable indicating whether the subject experiences a pCR to neoadjuvant therapy.",
+       "timeFrame": "up to 4 weeks post-surgery"
+      },
+      {
+       "measure": "Stage 2 - Clinical complete response (cCR)",
+       "description": "Clinical complete response (cCR) will be determined for each subject in Stage 2 as a binary variable indicating whether the subject experiences a cCR to neoadjuvant therapy.",
+       "timeFrame": "up to 4 weeks post-surgery"
+      },
+      {
+       "measure": "Stage 2 - Relapse-free survival",
+       "description": "RFS will be determined for all subjects in Stage 2 and is defined as the duration of time from enrollment to the first occurrence of either disease progression prior to surgery, disease relapse after surgery, or death.",
+       "timeFrame": "up to 5 years post-treatment discontinuation"
+      },
+      {
+       "measure": "Stage 2 - Overall survival",
+       "description": "Overall survival is defined as the duration of time from enrollment to the date of death from any cause.",
+       "timeFrame": "up to 5 years post-treatment discontinuation"
+      },
+      {
+       "measure": "Stage 2 - Cumulative incidence of secondary malignancies including MDS",
+       "description": "Secondary malignancies (including MDS) will be defined as a time to event endpoint and will be calculated from the date of enrollment.",
+       "timeFrame": "up to 5 years post-treatment discontinuation"
+      },
+      {
+       "measure": "Stage 2 - Overall safety profile - Adverse Events of Special Interest (AESIs)",
+       "description": "The AESI variable will be determined for each subject as a binary variability indicating whether or not subject experienced a protocol-defined AESI.",
+       "timeFrame": "up to 4 weeks post-surgery"
+      },
+      {
+       "measure": "Stage 2 - Overall safety profile - Adverse Events (AEs)",
+       "description": "The AE variable will be determined for each subject as a binary variability indicating whether or not subject experienced an AE per CTCAE V5.0.",
+       "timeFrame": "up to 4 weeks post-surgery"
+      },
+      {
+       "measure": "Stage 2 - Overall safety profile - Serious Adverse Events (SAEs)",
+       "description": "The SAE variable will be determined for each subject as a binary variability indicating whether or not subject experienced a protocol-defined SAE.",
+       "timeFrame": "up to 4 weeks post-surgery"
+      },
+      {
+       "measure": "Stage 2 - Overall safety profile - Death on Study Therapy",
+       "description": "The death of study therapy variable will be determined for each subject as a binary variability indicating whether or not subject experienced a Grade 5 event.",
+       "timeFrame": "up to 4 weeks post-surgery"
+      },
+      {
+       "measure": "Stage 2 - Overall safety profile - Complete Blood Count with Differential (CBCD)",
+       "description": "The CBCD variable will be collected quantitatively for each subject.",
+       "timeFrame": "up to 4 weeks post-surgery"
+      },
+      {
+       "measure": "Stage 2 - Overall safety profile - Comprehensive Metabolic Profile (CMP)",
+       "description": "The CMP variable will be collected quantitatively for each subject.",
+       "timeFrame": "up to 4 weeks post-surgery"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria\n\nSubject must meet all of the following applicable inclusion criteria to participate in this study:\n\n1. Able to understand and willing to provide written informed consent and HIPAA authorization for release of personal health information. NOTE: HIPAA authorization may be included in the informed consent or obtained separately.\n2. Male or female and age ≥ 18 years at the time of consent.\n3. ECOG Performance Status of 0, 1 or 2 (Stage 1), or 0-1 (Stage 2) within 14 days prior to day 1 of treatment.\n4. Histologically or cytologically confirmed hormone receptor negative tumor (estrogen and progesterone) on pathology immunohistochemistry (IHC) assessment defined as \\<10% staining and HER2-negative, non-overexpressing defined by an IHC 0 or 1+ or fluorescence in-situ hybridization (FISH) HER2:CEP17 ratio \\< 2.0 with an average HER2 gene copy number of \\<4 signals/nucleus, and:\n\n   Stage 1 (metastatic):\n\n   a. Measurable (by RECIST v1.1) or evaluable lesions\n\n   Stage 2 (non-metastatic, treatment naïve, with no prior excisional biopsy/lumpectomy/LND staging):\n   1. Primary tumor size ≥ 2 cm by at least one radiographic or clinical measurement. NOTE: this requirement does not apply to subjects with inflammatory TNBC.\n   2. Clinical stage at presentation: cT1c-cT4, cN0-cN3\n5. Tumor tissue:\n\n   Stage 1:\n\n   Willing to provide tumor tissue for research purposes. Fresh biopsy of metastatic lesion prior to day 1 of treatment preferred if feasible. If fresh biopsy of metastatic lesion is not feasible, fresh biopsy can be obtained from the primary tumor site (i.e. breast). Tumor tissue from bone metastases is not acceptable. If fresh biopsy from metastatic tumor or primary tumor site is not possible, archival tumor tissue (formalin-fixed paraffin embedded \\[FFPE\\] or tumor block) may be used as long as it is from within 12 months of study entry. NOTE: If tissue is not available within required timeframe (i.e., either fresh or archival) subject will still be eligible for trial.\n\n   Stage 2:\n\n   Willing to undergo fresh biopsy of the primary tumor prior to day 1 of treatment for research purposes (breast is preferred; lymph node is acceptable). If not clinically feasible, then provide archived tumor tissue (FFPE or tumor block) of the primary tumor within 12 months of study entry. If archived tissue will be submitted rather than fresh biopsy, the archived tissue must be assessed and documented by pathology to ensure adequate tumor is present for correlative analysis. NOTE: For subjects who do not have archival tumor tissue available within required timeframe or if archival tissue insufficient, a pre-treatment core biopsy of the primary breast tumor must be obtained. If subjects have inflammatory breast cancer and a core biopsy is not possible, consideration can be given to obtain a skin punch biopsy.\n6. Demonstrate adequate organ function as defined in the table below; all screening labs to be obtained within 14 days prior to day 1 of treatment.\n\n   * Absolute Neutrophil Count (ANC): greater than or equal to 1,000/µL\n   * Platelet Count greater than or equal to 100,000/µL without platelet transfusion within 4 weeks of day 1 of treatment\n   * Hemoglobin (Hgb): greater than or equal to 9 g/dL without red blood cell transfusion within 4 weeks of day 1 of treatment\n   * Serum creatinine (SCr): less than or equal to 1.5 × upper limit of normal (ULN)\n7. For subjects anticipated to receive anthracyclines, adequate cardiac function as defined by ≥50% Left Ventricular Ejection Fraction (LVEF) by ECHO or MUGA within 28 days prior to day 1 of treatment.\n8. Females of childbearing potential (FCBP) must have a negative serum pregnancy test within 7 days prior to day 1 of treatment and documented. NOTE: Females are considered of childbearing potential unless they are surgically sterile (have undergone a hysterectomy, bilateral salpingectomy, or bilateral oophorectomy) or are postmenopausal (\\>45 years of age and at least 12 consecutive months with no menses without an alternative medical cause).\n9. FCBP must be willing to use a highly effective contraceptive method (i.e., highly effective achieves a failure rate of \\<1% per year when used consistently and correctly) or a combination method from the time of informed consent until 30 days after treatment discontinuation. Contraceptive methods with low user dependency are preferable but not required.\n\n   Acceptable methods of contraception (highly effective) are:\n\n   Single method (one of the following is acceptable):\n   * Non-hormonal Intrauterine device (IUD)\n   * Vasectomy of a female subject's partner\n   * Sexual abstinence is considered a highly effective method only if defined as refraining from heterosexual intercourse during the entire period of risk associated with the study treatments.\n\n   Combination method (requires use of two of the following):\n   * Diaphragm with spermicide (Cannot be used in conjunction with cervical cap/spermicide)\n   * Cervical cap with spermicide (nulliparous women only)\n   * Contraceptive sponge with spermicide (nulliparous women only)\n   * Male condom or female condom (cannot be used together) with spermicide\n10. Male subjects with female partners who are of child-bearing potential, should use a highly effective method of contraception during niraparib therapy and for 90 days after receiving the last dose of niraparib.\n11. Subjects must agree to not donate blood for 90 days after receiving the last dose of niraparib.\n12. Female subjects must agree to not breastfeed during the study or for 30 days after the last dose of study treatment and male subjects must not donate sperm during niraparib therapy and for 90 days after receiving the last dose of niraparib.\n13. As determined by the enrolling physician, ability of the subject to understand and comply with study procedures for the entire length of the study.\n14. Ability to swallow oral medications.\n\nStage 1 Exclusion Criteria\n\nSubjects meeting any of the criteria below may not participate in Stage 1 of the study:\n\n1. Subject has known active central nervous system (CNS) metastases and/or carcinomatous meningitis. Note: Subjects with previously treated brain metastases may participate if there is no evidence of disease progression for at least 4 weeks after CNS-directed treatment as ascertained by clinical examination and brain imaging (MRI or CT) during the screening period, are asymptomatic, have no requirement for steroids, no requirement for anticonvulsants, and stable CNS radiographic study showing no significant vasogenic edema ≥ 4 weeks since completion of radiation and ≥ 1 week since discontinuation of steroids. Carcinomatous meningitis precludes a subject from study participation regardless of clinical stability.\n2. More than 3 prior lines of chemotherapy for triple-negative metastatic disease.\n3. Not recovered (i.e., ≥ Grade 1) from adverse events due to agents previously administered; NOTE: Subjects with ≤ Grade 2 neuropathy or alopecia of any grade are an exception.\n4. Prior chemotherapy within 3 weeks, prior targeted small molecule therapy or radiation therapy within 2 weeks, or prior anti-cancer monoclonal antibody for direct anti-neoplastic treatment within 3 weeks prior to day 1 of treatment.\n5. History or known allergic reaction to doxorubicin, cyclophosphamide, paclitaxel or carboplatin.\n6. For Arm 1, any prior anthracycline exposure.\n7. For Arm 2, prior doxorubicin exposure of \\> 300 mg/m2 or equivalent anthracycline exposure (i.e. epirubicin dose \\> 540 mg/m2).\n\nStage 2 Exclusion Criteria\n\nSubjects meeting any of the criteria below may not participate in Stage 2 of the study:\n\n1. Final needle aspirate (FNA) alone to diagnose primary breast cancer.\n2. Excisional biopsy or lumpectomy performed prior to screening.\n3. Surgical axillary staging procedure prior to screening; NOTE: the following procedures are permitted prior to screening:\n\n   1. FNA or core biopsy of an axillary node for any subject\n   2. Although not recommended, a pre-neoadjuvant therapy sentinel node (SN) biopsy for subjects with clinically negative axillary nodes\n4. Definitive radiologic evidence of metastatic disease.\n5. History of ipsilateral invasive breast cancer regardless of treatment or ipsilateral ductal carcinoma in-situ (DCIS) treated with radiotherapy (NOTE: subjects with a lobular CIS (LCIS) are eligible).\n6. Treatment including chemotherapy, radiation, and/or targeted therapy administered for the currently diagnosed breast cancer prior to screening.\n7. Previous therapy with anthracyclines for any malignancy.\n8. History of known allergic reaction to doxorubicin or cyclophosphamide.\n\nOverall Exclusion Criteria\n\nSubjects meeting any of the criteria below may not participate in the study:\n\n1. Active infection requiring systemic therapy (NOTE: at discretion of investigator, subjects with uncomplicated urinary tract infections may be eligible).\n2. Major surgery within 3 weeks of day 1 of treatment.\n3. Pregnant or breastfeeding (NOTE: breast milk cannot be stored for future use while the mother is being treated on study).\n4. Has had diagnosis, detection or treatment of another type of cancer ≤ 2 years prior to day 1 of treatment (exceptions include basal cell or squamous cell skin cancer, or in-situ cervical cancer that has been definitively treated).\n5. Known hypersensitivity to the components of niraparib or the excipients.\n6. Prior treatment with any PARP inhibitor.\n7. Has received any other investigational agents within 4 weeks of day 1 of treatment or within a time interval less than at least 5 half-lives of the investigational agent, whichever is longer, prior to day 1 of treatment.\n8. Has a known history of Human Immunodeficiency Virus (HIV) or known acquired immunodeficiency disorder (AIDS).\n9. Known history or current diagnosis of myelodysplastic syndrome (MDS) or acute myeloid leukemia (AML).\n10. Poor medical risk as evidenced by uncontrolled intercurrent illness including, but not limited to, uncontrolled hypertension, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, recent (within 90 days) myocardial infarction; uncontrolled major seizure disorder; unstable spinal cord compression; superior vena cava syndrome; or any psychiatric or substance abuse disorders or psychiatric illness/social situations that would limit compliance with study requirements as determined by the investigator.\n11. Received a transfusion (platelets or red blood cells) ≤ 4 weeks of day 1 of treatment.\n12. Subject has a condition (such as transfusion dependent anemia or thrombocytopenia) that might confound the results of the study or interfere with the subject's participation for the full duration of the study treatment or that makes it not in the best interest of the subject to participate.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Antoinette Tan, MD",
+       "affiliation": "Wake Forest University Health Sciences",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ]
+    },
+    "ipdSharingStatementModule": {
+     "ipdSharing": "NO"
+    }
+   },
+   "derivedSection": {
+    "miscInfoModule": {
+     "versionHolder": "2026-10-30",
+     "removedCountries": [
+      "United States"
+     ]
+    },
+    "conditionBrowseModule": {
+     "meshes": [
+      {
+       "id": "D001943",
+       "term": "Breast Neoplasms"
+      }
+     ],
+     "ancestors": [
+      {
+       "id": "D009371",
+       "term": "Neoplasms by Site"
+      },
+      {
+       "id": "D009369",
+       "term": "Neoplasms"
+      },
+      {
+       "id": "D001941",
+       "term": "Breast Diseases"
+      },
+      {
+       "id": "D012871",
+       "term": "Skin Diseases"
+      },
+      {
+       "id": "D017437",
+       "term": "Skin and Connective Tissue Diseases"
+      }
+     ]
+    },
+    "interventionBrowseModule": {
+     "meshes": [
+      {
+       "id": "C545685",
+       "term": "niraparib"
+      },
+      {
+       "id": "D004317",
+       "term": "Doxorubicin"
+      },
+      {
+       "id": "D003520",
+       "term": "Cyclophosphamide"
+      },
+      {
+       "id": "D017239",
+       "term": "Paclitaxel"
+      },
+      {
+       "id": "C455861",
+       "term": "pegfilgrastim"
+      },
+      {
+       "id": "D016190",
+       "term": "Carboplatin"
+      }
+     ],
+     "ancestors": [
+      {
+       "id": "D003630",
+       "term": "Daunorubicin"
+      },
+      {
+       "id": "D018943",
+       "term": "Anthracyclines"
+      },
+      {
+       "id": "D009279",
+       "term": "Naphthacenes"
+      },
+      {
+       "id": "D011084",
+       "term": "Polycyclic Aromatic Hydrocarbons"
+      },
+      {
+       "id": "D006841",
+       "term": "Hydrocarbons, Aromatic"
+      },
+      {
+       "id": "D006844",
+       "term": "Hydrocarbons, Cyclic"
+      },
+      {
+       "id": "D006838",
+       "term": "Hydrocarbons"
+      },
+      {
+       "id": "D009930",
+       "term": "Organic Chemicals"
+      },
+      {
+       "id": "D011083",
+       "term": "Polycyclic Compounds"
+      },
+      {
+       "id": "D000617",
+       "term": "Aminoglycosides"
+      },
+      {
+       "id": "D006027",
+       "term": "Glycosides"
+      },
+      {
+       "id": "D002241",
+       "term": "Carbohydrates"
+      },
+      {
+       "id": "D010752",
+       "term": "Phosphoramide Mustards"
+      },
+      {
+       "id": "D009588",
+       "term": "Nitrogen Mustard Compounds"
+      },
+      {
+       "id": "D009150",
+       "term": "Mustard Compounds"
+      },
+      {
+       "id": "D006846",
+       "term": "Hydrocarbons, Halogenated"
+      },
+      {
+       "id": "D063088",
+       "term": "Phosphoramides"
+      },
+      {
+       "id": "D009943",
+       "term": "Organophosphorus Compounds"
+      },
+      {
+       "id": "D043823",
+       "term": "Taxoids"
+      },
+      {
+       "id": "D043822",
+       "term": "Cyclodecanes"
+      },
+      {
+       "id": "D003516",
+       "term": "Cycloparaffins"
+      },
+      {
+       "id": "D006840",
+       "term": "Hydrocarbons, Alicyclic"
+      },
+      {
+       "id": "D004224",
+       "term": "Diterpenes"
+      },
+      {
+       "id": "D013729",
+       "term": "Terpenes"
+      },
+      {
+       "id": "D056831",
+       "term": "Coordination Complexes"
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  }
+ },
+ {
+  "source": "https://clinicaltrials.gov/study/NCT02767934",
+  "rationale": "Registry exclusion and posted protocol section 5.1.3(8), pages 11–12, exclude active CNS leukemia/leukemic meningitis but explicitly permit previously treated stable CNS leukemia with no CSF blasts. This supports a historical, cleared leukemic-meningitis eligibility path, consistent with the treated CNS-lymphoma exceptions already included. ALL minimal residual marrow disease remains required; active meningitis is not eligible. Terminated status is retained and hidden by default recruitment filters. No solid-tumor bucket applies.",
+  "expected": {
+   "include": true,
+   "buckets": [],
+   "status": "TERMINATED"
+  },
+  "ageCases": [
+   {
+    "age": 17,
+    "include": false
+   },
+   {
+    "age": 18,
+    "include": true
+   }
+  ],
+  "study": {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT02767934",
+     "orgStudyIdInfo": {
+      "id": "9458"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "NCI-2016-00602",
+       "type": "REGISTRY",
+       "domain": "CTRP (Clinical Trial Reporting Program)"
+      },
+      {
+       "id": "9458",
+       "type": "OTHER",
+       "domain": "Fred Hutch/University of Washington Cancer Consortium"
+      },
+      {
+       "id": "P30CA015704",
+       "type": "NIH",
+       "link": "https://reporter.nih.gov/quickSearch/P30CA015704"
+      },
+      {
+       "id": "RG1016006",
+       "type": "OTHER",
+       "domain": "Fred Hutch/University of Washington Cancer Consortium"
+      }
+     ],
+     "organization": {
+      "fullName": "University of Washington",
+      "class": "OTHER"
+     },
+     "briefTitle": "Pembrolizumab in Treating Minimal Residual Disease in Patients With Acute Lymphoblastic Leukemia",
+     "officialTitle": "A Phase II Study of Anti-PD-1 Antibody (MK-3475; Pembrolizumab) for the Treatment of Minimal Residual Disease in Adults With Acute Lymphoblastic Leukemia"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2020-06",
+     "overallStatus": "TERMINATED",
+     "whyStopped": "Terminated due to lack of efficacy",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2017-01-13",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2019-07-31",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2019-12-17",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2016-05-06",
+     "studyFirstSubmitQcDate": "2016-05-06",
+     "studyFirstPostDateStruct": {
+      "date": "2016-05-11",
+      "type": "ESTIMATED"
+     },
+     "resultsFirstSubmitDate": "2020-07-20",
+     "resultsFirstSubmitQcDate": "2020-07-28",
+     "resultsFirstPostDateStruct": {
+      "date": "2020-08-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-08-11",
+     "lastUpdatePostDateStruct": {
+      "date": "2020-08-20",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "University of Washington",
+      "class": "OTHER"
+     },
+     "collaborators": [
+      {
+       "name": "National Cancer Institute (NCI)",
+       "class": "NIH"
+      }
+     ]
+    },
+    "oversightModule": {
+     "oversightHasDmc": false,
+     "isFdaRegulatedDrug": true,
+     "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+     "briefSummary": "This phase II trial studies how well pembrolizumab works in treating small amounts of cancer cells that remain after attempts to remove the cancer has been made in patients with acute lymphoblastic leukemia. Immunotherapy with monoclonal antibodies, such as pembrolizumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread.",
+     "detailedDescription": "PRIMARY OBJECTIVES:\n\nI. To evaluate the efficacy of pembrolizumab in minimal residual disease (MRD)-positive acute lymphoblastic leukemia (ALL).\n\nSECONDARY OBJECTIVES:\n\nI. To describe the toxicity profile of pembrolizumab in patients with previously-treated ALL.\n\nII. To gain a preliminary assessment of how MRD response translates into relapse-free and overall survival.\n\nEXPLORATORY OBJECTIVES:\n\nI. To compare disease assessments by multiparameter flow cytometry (MFC) and polymerase chain reaction (PCR) to a newly-developed and more sensitive next generation sequencing (NGS)-based platform.\n\nII. To correlate response to pembrolizumab to immunologic markers in peripheral blood and bone marrow specimens.\n\nIII. To evaluate if treatment with pembrolizumab has a measurable impact on hematopoietic engraftment and graft-vs-host disease (GVHD) in patients who subsequently undergo allogeneic hematopoietic cell transplantation (HCT).\n\nOUTLINE:\n\nPatients receive pembrolizumab intravenously (IV) over 30 minutes on day 1. Cycles repeat every 21 days for 2 years in the absence of disease progression or unacceptable toxicity. Patients achieving complete MRD response may receive up to 1 additional year of treatment at the discretion of the investigator.\n\nAfter completion of study treatment, patients are followed up every 3 months for up to 2 years."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "B Acute Lymphoblastic Leukemia",
+      "Minimal Residual Disease",
+      "Recurrent Acute Lymphoblastic Leukemia",
+      "T Acute Lymphoblastic Leukemia"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE2"
+     ],
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 12,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Treatment (pembrolizumab)",
+       "type": "EXPERIMENTAL",
+       "description": "Patients receive pembrolizumab IV over 30 minutes on day 1. Cycles repeat every 21 days for 2 years in the absence of disease progression or unacceptable toxicity. Patients achieving complete MRD response may receive up to 1 additional year of treatment at the discretion of the investigator.",
+       "interventionNames": [
+        "Other: Laboratory Biomarker Analysis",
+        "Biological: Pembrolizumab"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "OTHER",
+       "name": "Laboratory Biomarker Analysis",
+       "description": "Correlative studies",
+       "armGroupLabels": [
+        "Treatment (pembrolizumab)"
+       ]
+      },
+      {
+       "type": "BIOLOGICAL",
+       "name": "Pembrolizumab",
+       "description": "Given IV",
+       "armGroupLabels": [
+        "Treatment (pembrolizumab)"
+       ],
+       "otherNames": [
+        "Keytruda",
+        "Lambrolizumab",
+        "MK-3475",
+        "SCH 900475"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Rate of Complete Minimal Residual Disease Response",
+       "description": "Will be defined as percentage of evaluable subjects who achieve a complete response. Will be evaluated with a Simon two-stage optimum design.",
+       "timeFrame": "Up to 2 years"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Overall Survival",
+       "timeFrame": "Up to 2 years"
+      },
+      {
+       "measure": "Relapse-Free Survival",
+       "timeFrame": "Up to 2 years"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* All subjects must have a diagnosis of ALL of either B-cell, T-cell, or mixed (i.e., B/T lineage)\n* Be willing and able to provide written informed consent for the trial\n* Presence of MRD (defined as \\< 5% blasts in the bone marrow by morphologic assessment and no clinically-apparent extramedullary disease but with quantifiably-measurable disease as assessed by either MFC or PCR) under any of the following circumstances:\n\n  * MRD persistence \\>= 11 weeks after the start of initial therapy\n  * MRD persistence \\>= 2 weeks after the start of salvage therapy, or\n  * MRD reappearance at any time\n* For patients with Philadelphia chromosome positive (Ph+) disease, have previously received treatment with \\>= 1 Abelson (ABL) kinase inhibitor (e.g., imatinib, dasatinib, etc.) or are ineligible for such treatment\n* Have previously received or are ineligible for treatment with blinatumomab; ineligibility will include (but not be limited to) cluster of differentiation 19 (CD19)-negative disease, denial of insurance coverage, physician discretion, and/or patient refusal\n* Be willing to provide tissue from a newly obtained bone marrow aspirate and/or biopsy; newly-obtained is defined as a specimen obtained up to 28 days prior to initiation of treatment on day 1; subjects for whom newly-obtained samples cannot be provided (e.g., inaccessible or subject safety concern) may submit an archived specimen only upon agreement from the principal investigator (PI)\n* Have a performance status of 0 to 1 on the Eastern Cooperative Oncology Group (ECOG) performance scale\n* Absolute neutrophil count (ANC) \\>= 1,000 /mcL (performed within 10 days of treatment initiation)\n* Hemoglobin \\>= 8 g/dL (performed within 10 days of treatment initiation)\n* Platelets \\>= 50,000 /mcL (performed within 10 days of treatment initiation)\n* Serum creatinine =\\< 1.5 X upper limit of normal (ULN) OR measured or calculated creatinine clearance \\>= 60 mL/min/1.73 m\\^2 for subject with creatinine levels \\> 1.5 X institutional ULN (performed within 10 days of treatment initiation) (glomerular filtration rate \\[GFR\\] can also be used in place of creatinine or creatinine clearance \\[CrCl\\])\n* Serum total bilirubin =\\< 1.5 X ULN OR direct bilirubin =\\< ULN for subjects with total bilirubin levels \\> 1.5 ULN (performed within 10 days of treatment initiation)\n* Aspartate aminotransferase (AST) (serum glutamic-oxaloacetic transaminase \\[SGOT\\]) and alanine aminotransferase (ALT) (serum glutamate pyruvate transaminase \\[SGPT\\]) =\\< 2.5 ULN (performed within 10 days of treatment initiation)\n* International normalized ratio (INR) or prothrombin time (PT) =\\< 1.5 ULN unless subject is receiving anticoagulant therapy as long as PT or partial thromboplastin time (PTT) is within therapeutic range of intended use of anticoagulants (performed within 10 days of treatment initiation)\n* Activated partial thromboplastin time (aPTT) =\\< 1.5 X ULN unless subject is receiving anticoagulant therapy as long as PT or PTT is within therapeutic range of intended use of anticoagulants (performed within 10 days of treatment initiation)\n* Female subjects of childbearing potential should have a negative urine or serum pregnancy within 3 days prior to receiving the first dose of study medication; if the urine test is positive or cannot be confirmed as negative, a serum pregnancy test will be required\n* Female subjects of childbearing potential should be willing to use 2 methods of birth control or be surgically sterile, or abstain from heterosexual activity for the course of the study through 120 days after the last dose of study medication\n* Male subjects should agree to use an adequate method of contraception starting with the first dose of study therapy through 120 days after the last dose of study therapy\n\nExclusion Criteria:\n\n* Is currently participating and receiving study therapy or has participated in a study of an investigational new drug and received study therapy or used an investigational device within 4 weeks of the first dose of treatment\n* Has a diagnosis of immunodeficiency or is receiving systemic steroid therapy or any other form of immunosuppressive therapy within 7 days prior to the first dose of trial treatment\n* Has a known history of active bacillus tuberculosis (TB)\n* Has a known hypersensitivity to pembrolizumab or any of its excipients\n* Has had a prior anti-cancer monoclonal antibody (mAb) within 4 weeks prior to study day 1 or who has not recovered (i.e., =\\< grade 1 or at baseline) from adverse events due to agents administered more than 4 weeks earlier\n* Has had prior chemotherapy, targeted small molecule therapy, or radiation therapy within 2 weeks prior to study day 1 or who has not recovered (i.e., =\\< grade 1 or at baseline) from adverse events due to a previously administered agent\n\n  * Note: subjects with =\\< grade 2 neuropathy or with hematologic toxicity that has recovered to levels above that stated in inclusion criterion are an exception to this criterion and may qualify for the study if all other inclusion/exclusion criteria are met\n  * Note: if subject received major surgery, they must have recovered adequately from the toxicity and/or complications from the intervention (i.e., =\\< grade 1 or at baseline) prior to starting therapy\n* Has a known additional malignancy that is progressing or requires active treatment; exceptions include basal cell carcinoma of the skin or squamous cell carcinoma of the skin that has undergone potentially curative therapy or in situ cervical cancer\n* Has known active central nervous system (CNS) leukemia and/or leukemic meningitis; subjects with previously treated CNS leukemia may participate provided they are stable (e.g., without evidence of active disease by imaging for at least four weeks prior to the first dose of trial treatment and any neurologic symptoms have returned to baseline) and have no evidence of leukemic blasts on analysis of cerebrospinal fluid (CSF)\n* Has active autoimmune disease that has required systemic treatment in the past 2 years (i.e. with use of disease modifying agents, corticosteroids or immunosuppressive drugs); replacement therapy (e.g., thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency, etc.) is not considered a form of systemic treatment\n* Has known history of, or any evidence of active, non-infectious pneumonitis\n* Has previously received an allogeneic hematopoietic cell transplant, unless the following criteria are met:\n\n  * Detection of MRD occurred \\>= 21 days from stem cell infusion\n  * No active GVHD\n  * Receiving systemic steroid therapy of =\\< 10 mg of prednisone daily (or equivalent)\n  * Has discontinued systemic immunosuppressant therapy \\>= 7 days prior to first dose of pembrolizumab\n* Has previously received other forms of cellular immunotherapy (e.g., chimeric antigen receptor-modified \\[CAR\\] T cells), unless the following criteria are met:\n\n  * Detection of MRD occurred \\>= 21 days from cell infusion\n  * Any specific manifestations of cytokine release syndrome or neurologic toxicity attributable to the cellular therapy have completely resolved (i.e., \\< grade 1)\n* Has an active infection requiring systemic therapy; antimicrobial prophylaxis will be permitted at the discretion of the treating investigator\n* Has a history or current evidence of any condition, therapy, or laboratory abnormality that might confound the results of the trial, interfere with the subject's participation for the full duration of the trial, or is not in the best interest of the subject to participate, in the opinion of the treating investigator\n* Has known psychiatric or substance abuse disorders that would interfere with cooperation with the requirements of the trial\n* Is pregnant or breastfeeding, or expecting to conceive or father children within the projected duration of the trial, starting from the time of consent through 120 days after the last dose of trial treatment\n* Has received prior therapy with any immune checkpoint inhibitor\n* Has a known history of human immunodeficiency virus (HIV) (HIV 1/2 antibodies)\n* Has known active hepatitis B (e.g., hepatitis B virus surface protein antigen \\[HBsAg\\] reactive) or hepatitis C (e.g., hepatitis C virus \\[HCV\\] ribonucleic acid \\[RNA\\] \\[qualitative\\] is detected)\n* Has received a live vaccine within 30 days of planned start of study therapy \\* Note: seasonal influenza vaccines for injection are generally inactivated flu vaccines and are allowed; however intranasal influenza vaccines (e.g., Flu-Mist) are live attenuated vaccines, and are not allowed",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Ryan Cassaday",
+       "affiliation": "Fred Hutch/University of Washington Cancer Consortium",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Fred Hutch/University of Washington Cancer Consortium",
+       "city": "Seattle",
+       "state": "Washington",
+       "zip": "98109",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 47.60621,
+        "lon": -122.33207
+       }
+      }
+     ]
+    },
+    "referencesModule": {
+     "references": [
+      {
+       "pmid": "32692850",
+       "type": "DERIVED",
+       "citation": "Cassaday RD, Garcia KA, Fromm JR, Percival MM, Turtle CJ, Nghiem PT, Stevenson PA, Estey EH. Phase 2 study of pembrolizumab for measurable residual disease in adults with acute lymphoblastic leukemia. Blood Adv. 2020 Jul 28;4(14):3239-3245. doi: 10.1182/bloodadvances.2020002403."
+      }
+     ]
+    }
+   },
+   "resultsSection": {
+    "participantFlowModule": {
+     "groups": [
+      {
+       "id": "FG000",
+       "title": "Pembrolizumab",
+       "description": "Pembrolizumab for MRD in Adults with ALL"
+      }
+     ],
+     "periods": [
+      {
+       "title": "Overall Study",
+       "milestones": [
+        {
+         "type": "STARTED",
+         "achievements": [
+          {
+           "groupId": "FG000",
+           "numSubjects": "12"
+          }
+         ]
+        },
+        {
+         "type": "COMPLETED",
+         "achievements": [
+          {
+           "groupId": "FG000",
+           "numSubjects": "12"
+          }
+         ]
+        },
+        {
+         "type": "NOT COMPLETED",
+         "achievements": [
+          {
+           "groupId": "FG000",
+           "numSubjects": "0"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "baselineCharacteristicsModule": {
+     "groups": [
+      {
+       "id": "BG000",
+       "title": "Treatment (Pembrolizumab)",
+       "description": "Patients receive pembrolizumab IV over 30 minutes on day 1. Cycles repeat every 21 days for 2 years in the absence of disease progression or unacceptable toxicity. Patients achieving complete MRD response may receive up to 1 additional year of treatment at the discretion of the investigator.\n\nLaboratory Biomarker Analysis: Correlative studies\n\nPembrolizumab: Given IV"
+      }
+     ],
+     "denoms": [
+      {
+       "units": "Participants",
+       "counts": [
+        {
+         "groupId": "BG000",
+         "value": "12"
+        }
+       ]
+      }
+     ],
+     "measures": [
+      {
+       "title": "Age, Categorical",
+       "paramType": "COUNT_OF_PARTICIPANTS",
+       "unitOfMeasure": "Participants",
+       "classes": [
+        {
+         "categories": [
+          {
+           "title": "<=18 years",
+           "measurements": [
+            {
+             "groupId": "BG000",
+             "value": "0"
+            }
+           ]
+          },
+          {
+           "title": "Between 18 and 65 years",
+           "measurements": [
+            {
+             "groupId": "BG000",
+             "value": "9"
+            }
+           ]
+          },
+          {
+           "title": ">=65 years",
+           "measurements": [
+            {
+             "groupId": "BG000",
+             "value": "3"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "title": "Age, Continuous",
+       "paramType": "MEAN",
+       "dispersionType": "FULL_RANGE",
+       "unitOfMeasure": "years",
+       "classes": [
+        {
+         "categories": [
+          {
+           "measurements": [
+            {
+             "groupId": "BG000",
+             "value": "52.5",
+             "lowerLimit": "22",
+             "upperLimit": "75"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "title": "Sex: Female, Male",
+       "paramType": "COUNT_OF_PARTICIPANTS",
+       "unitOfMeasure": "Participants",
+       "classes": [
+        {
+         "categories": [
+          {
+           "title": "Female",
+           "measurements": [
+            {
+             "groupId": "BG000",
+             "value": "5"
+            }
+           ]
+          },
+          {
+           "title": "Male",
+           "measurements": [
+            {
+             "groupId": "BG000",
+             "value": "7"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "title": "Ethnicity (NIH/OMB)",
+       "paramType": "COUNT_OF_PARTICIPANTS",
+       "unitOfMeasure": "Participants",
+       "classes": [
+        {
+         "categories": [
+          {
+           "title": "Hispanic or Latino",
+           "measurements": [
+            {
+             "groupId": "BG000",
+             "value": "1"
+            }
+           ]
+          },
+          {
+           "title": "Not Hispanic or Latino",
+           "measurements": [
+            {
+             "groupId": "BG000",
+             "value": "11"
+            }
+           ]
+          },
+          {
+           "title": "Unknown or Not Reported",
+           "measurements": [
+            {
+             "groupId": "BG000",
+             "value": "0"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "title": "Race (NIH/OMB)",
+       "paramType": "COUNT_OF_PARTICIPANTS",
+       "unitOfMeasure": "Participants",
+       "classes": [
+        {
+         "categories": [
+          {
+           "title": "American Indian or Alaska Native",
+           "measurements": [
+            {
+             "groupId": "BG000",
+             "value": "0"
+            }
+           ]
+          },
+          {
+           "title": "Asian",
+           "measurements": [
+            {
+             "groupId": "BG000",
+             "value": "1"
+            }
+           ]
+          },
+          {
+           "title": "Native Hawaiian or Other Pacific Islander",
+           "measurements": [
+            {
+             "groupId": "BG000",
+             "value": "0"
+            }
+           ]
+          },
+          {
+           "title": "Black or African American",
+           "measurements": [
+            {
+             "groupId": "BG000",
+             "value": "1"
+            }
+           ]
+          },
+          {
+           "title": "White",
+           "measurements": [
+            {
+             "groupId": "BG000",
+             "value": "10"
+            }
+           ]
+          },
+          {
+           "title": "More than one race",
+           "measurements": [
+            {
+             "groupId": "BG000",
+             "value": "0"
+            }
+           ]
+          },
+          {
+           "title": "Unknown or Not Reported",
+           "measurements": [
+            {
+             "groupId": "BG000",
+             "value": "0"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "outcomeMeasuresModule": {
+     "outcomeMeasures": [
+      {
+       "type": "PRIMARY",
+       "title": "Rate of Complete Minimal Residual Disease Response",
+       "description": "Will be defined as percentage of evaluable subjects who achieve a complete response. Will be evaluated with a Simon two-stage optimum design.",
+       "reportingStatus": "POSTED",
+       "paramType": "COUNT_OF_PARTICIPANTS",
+       "unitOfMeasure": "Participants",
+       "timeFrame": "Up to 2 years",
+       "groups": [
+        {
+         "id": "OG000",
+         "title": "Pembrolizumab",
+         "description": "Patients receive pembrolizumab IV over 30 minutes on day 1. Cycles repeat every 21 days for 2 years in the absence of disease progression or unacceptable toxicity. Patients achieving complete MRD response may receive up to 1 additional year of treatment at the discretion of the investigator.\n\nLaboratory Biomarker Analysis: Correlative studies\n\nPembrolizumab: Given IV"
+        }
+       ],
+       "denoms": [
+        {
+         "units": "Participants",
+         "counts": [
+          {
+           "groupId": "OG000",
+           "value": "12"
+          }
+         ]
+        }
+       ],
+       "classes": [
+        {
+         "categories": [
+          {
+           "measurements": [
+            {
+             "groupId": "OG000",
+             "value": "1"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "SECONDARY",
+       "title": "Overall Survival",
+       "reportingStatus": "POSTED",
+       "paramType": "MEDIAN",
+       "dispersionType": "Full Range",
+       "unitOfMeasure": "months",
+       "timeFrame": "Up to 2 years",
+       "groups": [
+        {
+         "id": "OG000",
+         "title": "Pembrolizumab",
+         "description": "Pembrolizumab for MRD in Adults with ALL"
+        }
+       ],
+       "denoms": [
+        {
+         "units": "Participants",
+         "counts": [
+          {
+           "groupId": "OG000",
+           "value": "12"
+          }
+         ]
+        }
+       ],
+       "classes": [
+        {
+         "categories": [
+          {
+           "measurements": [
+            {
+             "groupId": "OG000",
+             "value": "12.7",
+             "lowerLimit": "5.9",
+             "upperLimit": "30.4"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "SECONDARY",
+       "title": "Relapse-Free Survival",
+       "reportingStatus": "POSTED",
+       "paramType": "MEDIAN",
+       "dispersionType": "Full Range",
+       "unitOfMeasure": "months",
+       "timeFrame": "Up to 2 years",
+       "groups": [
+        {
+         "id": "OG000",
+         "title": "Pembrolizumab",
+         "description": "Pembrolizumab for MRD in Adults with ALL"
+        }
+       ],
+       "denoms": [
+        {
+         "units": "Participants",
+         "counts": [
+          {
+           "groupId": "OG000",
+           "value": "12"
+          }
+         ]
+        }
+       ],
+       "classes": [
+        {
+         "categories": [
+          {
+           "measurements": [
+            {
+             "groupId": "OG000",
+             "value": "3.1",
+             "lowerLimit": "1.2",
+             "upperLimit": "30.4"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "adverseEventsModule": {
+     "frequencyThreshold": "0",
+     "timeFrame": "From the time of consent through 30 days following cessation of treatment, an average of 3 months",
+     "eventGroups": [
+      {
+       "id": "EG000",
+       "title": "Pembrolizumab",
+       "description": "Pembrolizumab for MRD in Adults with ALL",
+       "deathsNumAffected": 5,
+       "deathsNumAtRisk": 12,
+       "seriousNumAffected": 1,
+       "seriousNumAtRisk": 12,
+       "otherNumAffected": 6,
+       "otherNumAtRisk": 12
+      }
+     ],
+     "seriousEvents": [
+      {
+       "term": "Bacteremia (acinetobacter ursingii, herbasprillum, achromobacter xylosoxidans)",
+       "organSystem": "Infections and infestations",
+       "sourceVocabulary": "CTCAE (5.0)",
+       "assessmentType": "SYSTEMATIC_ASSESSMENT",
+       "stats": [
+        {
+         "groupId": "EG000",
+         "numEvents": 1,
+         "numAffected": 1,
+         "numAtRisk": 12
+        }
+       ]
+      }
+     ],
+     "otherEvents": [
+      {
+       "term": "Infusion related reaction",
+       "organSystem": "Injury, poisoning and procedural complications",
+       "sourceVocabulary": "CTCAE (5.0)",
+       "assessmentType": "SYSTEMATIC_ASSESSMENT",
+       "stats": [
+        {
+         "groupId": "EG000",
+         "numEvents": 1,
+         "numAffected": 1,
+         "numAtRisk": 12
+        }
+       ]
+      },
+      {
+       "term": "Pruritus",
+       "organSystem": "Skin and subcutaneous tissue disorders",
+       "sourceVocabulary": "CTCAE (5.0)",
+       "assessmentType": "SYSTEMATIC_ASSESSMENT",
+       "stats": [
+        {
+         "groupId": "EG000",
+         "numEvents": 1,
+         "numAffected": 1,
+         "numAtRisk": 12
+        }
+       ]
+      },
+      {
+       "term": "Stevens-Johnson syndrome",
+       "organSystem": "Skin and subcutaneous tissue disorders",
+       "sourceVocabulary": "CTCAE (5.0)",
+       "assessmentType": "SYSTEMATIC_ASSESSMENT",
+       "stats": [
+        {
+         "groupId": "EG000",
+         "numEvents": 1,
+         "numAffected": 1,
+         "numAtRisk": 12
+        }
+       ]
+      },
+      {
+       "term": "Hypertension",
+       "organSystem": "Vascular disorders",
+       "sourceVocabulary": "CTCAE (5.0)",
+       "assessmentType": "SYSTEMATIC_ASSESSMENT",
+       "stats": [
+        {
+         "groupId": "EG000",
+         "numEvents": 3,
+         "numAffected": 2,
+         "numAtRisk": 12
+        }
+       ]
+      },
+      {
+       "term": "Alanine aminotransferase increased",
+       "organSystem": "Investigations",
+       "sourceVocabulary": "CTCAE (5.0)",
+       "assessmentType": "SYSTEMATIC_ASSESSMENT",
+       "stats": [
+        {
+         "groupId": "EG000",
+         "numEvents": 1,
+         "numAffected": 1,
+         "numAtRisk": 12
+        }
+       ]
+      },
+      {
+       "term": "Aspartate aminotransferase increased",
+       "organSystem": "Investigations",
+       "sourceVocabulary": "CTCAE (5.0)",
+       "assessmentType": "SYSTEMATIC_ASSESSMENT",
+       "stats": [
+        {
+         "groupId": "EG000",
+         "numEvents": 1,
+         "numAffected": 1,
+         "numAtRisk": 12
+        }
+       ]
+      }
+     ]
+    },
+    "moreInfoModule": {
+     "certainAgreement": {
+      "piSponsorEmployee": true,
+      "restrictiveAgreement": false
+     },
+     "pointOfContact": {
+      "title": "Dr. Ryan Cassaday",
+      "organization": "University of Washington",
+      "email": "cassaday@seattlecca.org",
+      "phone": "206-606-1202"
+     }
+    }
+   },
+   "documentSection": {
+    "largeDocumentModule": {
+     "largeDocs": [
+      {
+       "typeAbbrev": "Prot_SAP",
+       "hasProtocol": true,
+       "hasSap": true,
+       "hasIcf": false,
+       "label": "Study Protocol and Statistical Analysis Plan",
+       "date": "2019-04-04",
+       "uploadDate": "2020-07-14T17:52",
+       "filename": "Prot_SAP_000.pdf",
+       "size": 4280884
+      }
+     ]
+    }
+   },
+   "derivedSection": {
+    "miscInfoModule": {
+     "versionHolder": "2026-10-30"
+    },
+    "conditionBrowseModule": {
+     "meshes": [
+      {
+       "id": "D002051",
+       "term": "Burkitt Lymphoma"
+      },
+      {
+       "id": "D018365",
+       "term": "Neoplasm, Residual"
+      },
+      {
+       "id": "D054198",
+       "term": "Precursor Cell Lymphoblastic Leukemia-Lymphoma"
+      },
+      {
+       "id": "D054218",
+       "term": "Precursor T-Cell Lymphoblastic Leukemia-Lymphoma"
+      }
+     ],
+     "ancestors": [
+      {
+       "id": "D020031",
+       "term": "Epstein-Barr Virus Infections"
+      },
+      {
+       "id": "D006566",
+       "term": "Herpesviridae Infections"
+      },
+      {
+       "id": "D004266",
+       "term": "DNA Virus Infections"
+      },
+      {
+       "id": "D014777",
+       "term": "Virus Diseases"
+      },
+      {
+       "id": "D007239",
+       "term": "Infections"
+      },
+      {
+       "id": "D014412",
+       "term": "Tumor Virus Infections"
+      },
+      {
+       "id": "D016393",
+       "term": "Lymphoma, B-Cell"
+      },
+      {
+       "id": "D008228",
+       "term": "Lymphoma, Non-Hodgkin"
+      },
+      {
+       "id": "D008223",
+       "term": "Lymphoma"
+      },
+      {
+       "id": "D009370",
+       "term": "Neoplasms by Histologic Type"
+      },
+      {
+       "id": "D009369",
+       "term": "Neoplasms"
+      },
+      {
+       "id": "D008232",
+       "term": "Lymphoproliferative Disorders"
+      },
+      {
+       "id": "D008206",
+       "term": "Lymphatic Diseases"
+      },
+      {
+       "id": "D006425",
+       "term": "Hemic and Lymphatic Diseases"
+      },
+      {
+       "id": "D007160",
+       "term": "Immunoproliferative Disorders"
+      },
+      {
+       "id": "D007154",
+       "term": "Immune System Diseases"
+      },
+      {
+       "id": "D009385",
+       "term": "Neoplastic Processes"
+      },
+      {
+       "id": "D010335",
+       "term": "Pathologic Processes"
+      },
+      {
+       "id": "D013568",
+       "term": "Pathological Conditions, Signs and Symptoms"
+      },
+      {
+       "id": "D007945",
+       "term": "Leukemia, Lymphoid"
+      },
+      {
+       "id": "D007938",
+       "term": "Leukemia"
+      },
+      {
+       "id": "D006402",
+       "term": "Hematologic Diseases"
+      }
+     ]
+    },
+    "interventionBrowseModule": {
+     "meshes": [
+      {
+       "id": "C582435",
+       "term": "pembrolizumab"
+      }
+     ]
+    }
+   },
+   "hasResults": true
   }
  }
 ]

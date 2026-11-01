@@ -1,0 +1,267 @@
+NCT02803619 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT02838420 LUNG ALK-positive NSCLC eligibility expressly allows previous brain or leptomeningeal metastases when asymptomatic.
+* Previous brain or leptomeningeal metastases are allowed if the participant is asymptomatic (e.g., diagnosed incidentally at study baseline). Asymptomatic central nervous system (CNS) lesions may be treated at the discretion of the investigator as per local clinical practice. If participant has neurological symptoms or signs because of CNS metastasis, the participant must complete whole-brain radiation or gamma knife irradiation treatment. In all cases, radiation treatment must be completed \>=14 days before enrollment and disease must be clinically stable
+
+NCT02886585 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT02896335 BREAST Current official LM cohort/diagnosis evidence supports general relevance; retain BREAST only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Leptomeningeal involvement of cancer (Cohort 1). Leptomeningeal involvement is allowed for Cohort 2.
+
+NCT02929862 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Subject has known symptomatic brain metastases or leptomeningeal involvement as assessed by CT scan or MRI. Subjects with stable asymptomatic brain metastases or leptomeningeal disease are eligible if they have not required new treatments for this disease in a 28 day period before the first dose of study drug, and anticonvulsants and steroids have not been administered for a period of 2 weeks prior to the first dose of study drug.
+
+NCT02939300 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT02948751 BREAST Current official LM cohort/diagnosis evidence supports general relevance; retain BREAST only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Undergoing lumbar puncture for clinical or radiographic suspicion of leptomeningeal metastasis
+
+NCT02962167  Current official LM cohort/diagnosis evidence supports general relevance; hematologic/CNS-primary or unspecified origin has no supported main-tumor assignment. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* For stratum B, patients must have disseminated recurrent disease (defined as multifocal disease, positive spine MRI including leptomeningeal disease and/or positive cytology within 21 days prior to study registration) and have adequate cerebrospinal fluid (CSF) flow based on spine MRI with no evidence of bulky disease or if bulky disease is present based on a CSF flow study per institutional guidelines. Children must have undergone what is considered the standard of care as upfront therapy including either surgery followed by high dose chemotherapy with stem cell rescue or multi-modality therapy of surgery, radiation and chemotherapy.
+* For stratum C, patients must have disseminated recurrent disease (defined as multifocal disease, positive spine MRI including leptomeningeal disease and/or positive cytology within 21 days prior to study registration) and have adequate cerebrospinal fluid (CSF) flow based on spine MRI with no evidence of bulky disease or if bulky disease is present based on a CSF flow study per institutional guidelines. Children must have undergone what is considered the standard of care as upfront therapy including either surgery followed by high dose chemotherapy with stem cell rescue or multi-modality therapy of surgery, radiation and chemotherapy.
+
+NCT02971501 LUNG NSCLC inclusion expressly permits asymptomatic leptomeningeal disease; symptomatic LM is excluded.
+* Symptomatic brain metastases or symptomatic leptomeningeal disease; asymptomatic leptomeningeal disease is allowed
+
+NCT03025256 LUNG,MELANOMA Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG, MELANOMA only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT03027544 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT03029065 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+1. Patients with confirmed diagnosis of lung adenocarcinoma with brain (meningeal) metastasis.
+
+NCT03053297 LUNG Observational advanced/metastatic NSCLC cohorts explicitly collect leptomeningeal-metastasis patient outcomes and associated CNS treatment; eligibility does not exclude those patients.
+
+
+NCT03082144 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+1. Patients who have been definitely diagnosed as leptomeningeal metastasis according to cerebrospinal fluid cytology or neuroimaging, or patients who got the clinical diagnosis by combining with the history of cancer, clinical manifestation, cerebrospinal fluid examination, neuroimaging etc;
+1. Patients with leptomeningeal metastasis from unknown primary tumor;
+
+NCT03091478 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+21. Patients with a condition related to their cancer or leptomeningeal disease requiring urgent intervention that has not been clinically managed or stabilized prior to the time of consent.
+
+NCT03093116 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+9. Patients with asymptomatic CNS metastases (treated or untreated) and/or asymptomatic leptomeningeal carcinomatosis are eligible to enroll if they satisfy the protocol specified criteria.
+8. Subjects with asymptomatic CNS metastases (treated or untreated) and/or asymptomatic leptomeningeal carcinomatosis are eligible to enroll if they satisfy the protocol specified criteria.
+2. Symptomatic brain metastases or leptomeningeal involvement.
+
+NCT03101579 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+1. Patients diagnosed as leptomeningeal metastases from non-small cell lung cancer had been received comprehensive treatment, including intrathecal methotrexate and/or cytarabine, central nervous system radiation therapy, systemic chemotherapy as well as tyrosine-kinase inhibitor drugs.
+2. Patients diagnosed with recurrent leptomeningeal metastases by positive cerebrospinal fluid cytological examination and persist aggravate symptoms for more than 1 week, or increased intracranial pressure (\>300 mmH2O).
+
+NCT03202940 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Patients with asymptomatic leptomeningeal disease are eligible for participation in this trial. However, patients who had progression of leptomeningeal disease on alectinib will be required to undergo CNS radiation to meet eligibility.
+* Radiation therapy (except palliative to relieve bone pain) within 7 days of study entry. Palliative radiation (≤ 10 fractions) must have been completed at least 48 hours prior to study entry. Stereotactic or small field brain irradiation must have been completed at least 7 days prior to study entry. Whole brain radiation and radiation for leptomeningeal metastasis must have been completed at least 2 weeks prior to study entry. Acute effects of radiation must have resolved to baseline severity or to CTCAE grade ≤1 except for AEs that in the investigator's judgment do not constitute a safety risk for the patient.
+
+NCT03215095 OTHER_SOLID Recurrent/metastatic thyroid carcinoma eligibility explicitly permits treated leptomeningeal carcinomatosis; patients must be off steroids used for CNS/LM disease. OTHER_SOLID only.
+* Symptomatic brain metasteses, leptomeningeal carcinomatosis, or spinal cord compression (treated metastatic brain, leptomeningeal carcinomatosis, or spinal cord compression are allowed). Note: Patients must be off steroids used for brain metasteses, leptomeningeal carcinomatosis, or spinal cord compression.
+
+NCT03252912 BREAST Current official LM cohort/diagnosis evidence supports general relevance; retain BREAST only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT03257124 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* For LM, at least one site of CNS leptomeningeal disease that can be assessed by MRI
+
+NCT03275402 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Patients must have a histologically confirmed diagnosis of neuroblastoma with relapse in the central nervous system or in the meninges (leptomeningeal).
+
+NCT03283137  CLL/B-cell NHL eligibility expressly permits previously treated CNS lymphoma and/or lymphomatous meningitis after at least four weeks of imaging stability, neurologic recovery, and seven days off steroids. Hematologic LM: general only.
+* Has known active central nervous system (CNS) disease and/or lymphomatous involvement. Subjects with previously treated CNS lymphoma and/or lymphomatous meningitis may participate provided they are stable (without evidence of progression by imaging for at least four weeks prior to the first dose of trial treatment and any neurologic symptoms have returned to baseline), have no evidence of new or enlarging brain metastases, and are not using steroids for at least 7 days prior to trial treatment Note: Seasonal influenza vaccines for injection are generally inactivated flu vaccines and are allowed; however intranasal influenza vaccines (e.g., Flu-Mist®) are live attenuated vaccines, and are not allowed.
+
+NCT03360929 LUNG EGFR-mutant NSCLC inclusion explicitly requires brain and/or LM disease, specifies positive malignant CSF cytology and MRI-visible leptomeningeal lesions; MRI alone is insufficient. Read with whole-brain-radiotherapy and CNS-control exclusions.
+10. LM patients must have at least one leptomeningeal lesion which shows visible abnormality by MRI. Measurable extracranial disease is not required.
+
+NCT03401853  Relapsed/refractory follicular lymphoma or DLBCL eligibility explicitly permits previously treated lymphomatous meningitis after four weeks of imaging stability, neurologic recovery, and seven days off steroids. General only.
+* Has known active central nervous system (CNS) metastases and/or lymphomatous meningitis; subjects with previously treated brain metastases or lymphomatous meningitis may participate provided they are stable (without evidence of progression by imaging for at least four weeks prior to the first dose of trial treatment and any neurologic symptoms have returned to baseline), have no evidence of new or enlarging brain metastases, and are not using steroids for at least 7 days prior to trial treatment
+
+NCT03423628 OTHER_SOLID LM is a named registry condition, and Arm B (solid-tumor brain metastases) specifically addresses seizure history related to LMD. GBM belongs to separate Arms A/C without an explicit GBM LM path. Retain overall LM relevance and OTHER_SOLID; remove unsupported GBM assignment. Study is now COMPLETED; historical cohort closure remains separate from relevance.
+
+
+NCT03434262 GBM Current official LM cohort/diagnosis evidence supports general relevance; retain GBM only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+  * Patients with radiologically discernible but non-measurable lesions (i.e. leptomeningeal disease)
+
+NCT03500991  Current official LM cohort/diagnosis evidence supports general relevance; hematologic/CNS-primary or unspecified origin has no supported main-tumor assignment. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT03501979 BREAST Current official LM cohort/diagnosis evidence supports general relevance; retain BREAST only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Evidence of leptomeningeal disease (LMD) as diagnosed by a) presence of malignant cells in CSF (+CSF cytology) and/or b) Magnetic Resonance Imaging (MRI) evidence of LMD, plus clinical signs and/or symptoms. NOTE: Measurable extra-CNS disease is not required. Note: Patients who have MRI evidence of focal LMD with negative cytology and no symptoms are not eligible for enrollment.
+
+NCT03507244 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+1. Patients who have been definitely diagnosed as leptomeningeal metastasis according to cerebrospinal fluid (CSF) cytology, or patients who got the clinical diagnosis by combining history of cancer, neuroimaging, clinical manifestation, and CSF examination, etc.
+1. Patients with leptomeningeal metastasis from unknown primary tumor;
+
+NCT03520504 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Patient with solid tumor malignancy with leptomeningeal metastases established radiographically and/or through CSF cytology.
+
+NCT03574402 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+4. With or without brain or leptomeningeal metastasis (BM/LM). For patients with symptoms of BM/LM, no need for local therapy should be confirmed by investigator and no dramatic decline of performance status in 2 weeks.
+
+NCT03613181 BREAST Current official LM cohort/diagnosis evidence supports general relevance; retain BREAST only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+4. Newly diagnosed leptomeningeal carcinomatosis
+1. Any prior treatment for leptomeningeal carcinomatosis, except emergency radiotherapy or shunt
+5. Patients for whom intrathecal therapy is the most appropriate therapy for leptomeningeal disease
+
+NCT03638167  Current official LM cohort/diagnosis evidence supports general relevance; hematologic/CNS-primary or unspecified origin has no supported main-tumor assignment. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT03661424 BREAST Current official LM cohort/diagnosis evidence supports general relevance; retain BREAST only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+3. Histologically confirmed breast cancer (any Her2, estrogen receptor (ER), or progesterone receptor (PR) expression) with leptomeningeal metastasis (LM) as determined by imaging and/or cerebrospinal fluid (CSF) cytology.
+
+NCT03684980  Current official LM cohort/diagnosis evidence supports general relevance; hematologic/CNS-primary or unspecified origin has no supported main-tumor assignment. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Histologically documented B-cell non-Hodgkin"s lymphoma involving the brain, spinal cord, and/or leptomeningeal space.
+* Patients with parenchymal lesions must have received no more than two cycles of treatment for treatment of CNS lymphoma or have unequivocal evidence of disease progression on imaging (MRI of the brain/spine or CT head) 28 days prior to study registration. For patients with leptomeningeal disease only, CSF cytology must document lymphoma cells and/or imaging findings must be consistent with CSF disease 28 days prior to study registration (at the discretion of the investigator).
+* Histologically documented B-cell non-Hodgkin's lymphoma involving the brain, spinal cord, and/or leptomeningeal space
+* Patients must be treatment naïve or have unequivocal evidence of disease progression on imaging (MRI of the brain/spine or CT head) 28 days prior to initiation of MTX. For patients with leptomeningeal disease only, CSF cytology must document lymphoma cells and/or imaging findings must be consistent with CSF disease 28 days prior to initiation of MTX. (at the discretion of the investigator)
+
+NCT03696030 BREAST Current official LM cohort/diagnosis evidence supports general relevance; retain BREAST only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* SCREENING: Participant has treated brain and/or leptomeningeal metastases that has not recurred OR
+* SCREENING: Participant has recurrent leptomeningeal metastases after intrathecal chemotherapy OR
+* SCREENING: Participant has untreated brain or leptomeningeal metastases and refuses to undergo radiation and/or intrathecal chemotherapy
+  * Note: Participants with leptomeningeal metastasis (diagnosed by positive CSF cytology or characteristic findings on brain or spine magnetic resonance imaging \[MRI\]) may have concomitant brain metastases, but having both is not required
+* ADDITIONAL ELIGIBILITY TO START CYCLE 1: Participant must have at least 1 metastatic brain lesion (measurable disease per RANO-Brain Metastases \[BM\] is not required-i.e., participant does not need to have at least 1 metastatic lesion \>= 1 cm in longest dimension) that is new or increasing in size, or CSF cytology and/or radiographic findings consistent with leptomeningeal metastases
+
+NCT03711422 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT03719768 BREAST,OTHER_SOLID Solid malignancies with cancerous CSF or clinical LM are eligible; the same eligibility section specifically permits continuing treatment for triple-negative breast cancer within this LM protocol.
+* 21\. Known symptomatic brain metastases requiring steroids. Patients with previously diagnosed brain metastases are eligible if they have completed their treatment and have recovered from the acute effects of radiation therapy or surgery prior to study treatment, have discontinued corticosteroid treatment for these metastases for at least 4 weeks and are neurologically stable. Short courses of corticosteroids are permitted if these were started for leptomeningeal disease and can be tapered down to \< 2 mg/day of dexamethasone equivalents and patients remain stable for 3 days prior to study treatment
+
+NCT03816345 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Patients with new or progressive brain metastases (active brain metastases) or leptomeningeal disease are eligible if the treating physician determines that immediate central nervous system (CNS) specific treatment is not required and is unlikely to be required for at least 4 weeks (or scheduled assessment after the first cycle of treatment), and a risk-benefit analysis (discussion) by the patient and the investigator favors participation in the clinical trial
+
+NCT03911388 GBM Single eligible malignant cerebellar-tumor population explicitly names glioblastoma/giant-cell glioblastoma; its G207 intervention expressly includes radiation to progressive leptomeningeal disease, without a separate histology-restricted LM cohort.
+
+
+NCT03974204 BREAST Current official LM cohort/diagnosis evidence supports general relevance; retain BREAST only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Patient with suspected metastatic leptomeningitis
+
+NCT04025541 BREAST Current official LM cohort/diagnosis evidence supports general relevance; retain BREAST only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT04094688 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Patients with new or progressive brain metastases (active brain metastases) or leptomeningeal disease are eligible if the treating physician determines that immediate CNS-specific treatment is not required and is unlikely to be required during the first cycle of protocol-specified therapy after registration.
+
+NCT04109131 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+   * Cohort 7: Radiologically or cytologically confirmed leptomeningeal carcinomatosis
+
+NCT04148898 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* LM diagnosis was based on the detection of malignant cells in the CSF, the focal or diffuse enhancement of leptomeninges, and nerve roots or the ependymal surface on gadolinium-enhanced MRI .
+
+NCT04178343 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Histologic or cytologic diagnosis of primary tumor and conformed meningeal metastases by enhanced MRI; KPS ≥60,or KPS ≥40 and the limitation of motion is simply caused by brain tumor that is adjacent to the motor function areas; Age: 18-75 years old; Adequate organ function:WBC≥4.0x109/L Neu ≥ 1.5x109/L Hemoglobin ≥ 110 g/L Platelets ≥100 x109/L Total bilirubin ≤ 1.5x ULN AST and ALT ≤ 1.5x ULN BUN and Cr: within the normal range.
+* Other clinically significant diseases (e.g.myocardial infarction within the past 6 months, severe arrhythmia); unable or unwilling to comply with the study protocol; patients who are anticipated in other clinical trials of meningeal metastases; pregnant patients or female patients whose HCG is positive; unsuitable to participate in study, that in the opinion of the treating physician.
+
+NCT04181060 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Patients with untreated brain metastases or leptomeningeal disease are eligible if the treating physician determines that immediate CNS specific treatment is not required provided the metastatic lesions are non-hemorrhagic and are neurologically stable without glucocorticoid therapy
+
+NCT04185038  Current official LM cohort/diagnosis evidence supports general relevance; hematologic/CNS-primary or unspecified origin has no supported main-tumor assignment. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT04192981 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Brain metastases and/or leptomeningeal metastases involving the brain demonstrated by MR imaging of the brain. For patients with brain metastases, measurable lesion by RANO-BM is required28. Patients with spine leptomeningeal metastases are eligible for the study if they have leptomeningeal metastases of the brain demonstrated by MRI imaging of the brain.
+* Patients with prior SRS are eligible, provided that there are new, non-irradiated brain lesions or leptomeningeal metastases. Patients must be ≥ 3 months post prior cranial radiation therapy.
+* Patients with seizure history related to brain metastases or leptomeningeal metastases controlled on antiepileptic medications are eligible.
+
+NCT04233021 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+2. Patients with brain and/or leptomeningeal metastases. For cohort 1, the diagnosis of leptomeningeal metastasis requires either 1) detection of cancer cell or EGFR mutation in the CSF, or 2) presence of both clinical and neuro-imaging findings typical of LM, according to EANO-ESMO criteria.
+9\. Age of at least 18 years old. 10. Performance status (PS) 0 to 2 (ECOG) except for patients with leptomeningeal carcinomatosis (cohort 1) a PS 3 is authorised.
+
+NCT04250545 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Patients with stable, treated, asymptomatic brain metastases (active brain metastases) or leptomeningeal disease are eligible if the treating physician determines that immediate CNS specific treatment is not required and is unlikely to be required during the first cycle of therapy
+
+NCT04301076  Current official LM cohort/diagnosis evidence supports general relevance; hematologic/CNS-primary or unspecified origin has no supported main-tumor assignment. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Patients with new or progressive brain metastases (active brain metastases) or leptomeningeal disease are eligible if the treating physician determines that immediate CNS specific treatment is not required and is unlikely to be required during the first cycle of therapy
+
+NCT04315246 LUNG,BREAST,MELANOMA Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG, BREAST, MELANOMA only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Progressive systemic (extra-leptomeningeal) disease
+* Smallest diameter of treated or untreated nodular or linear leptomeningeal metastasis \>0.5 cm on MRI (Part 2 only)
+
+NCT04343573 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Patient with solid tumor malignancy with leptomeningeal metastases established radiographically and/or through CSF cytology
+* Patients who are candidates for radiation therapy for the treatment of leptomeningeal metastases
+
+NCT04356118 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+4. LM diagnosis was based on the detection of malignant cells in the CSF, the focal or diffuse enhancement of leptomeninges, and nerve roots or the ependymal surface on gadolinium-enhanced MRI .
+
+NCT04356222 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT04420598 BREAST Current official LM cohort/diagnosis evidence supports general relevance; retain BREAST only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+7. At least one brain lesion needed to be measurable (≥10 mm on T1-weighted, gadolinium-enhanced MRI) (study cohorts 2 to 4) or leptomeningeal carcinomatosis (LMC) with positive cerebrospinal fluid (CSF) cytology (study cohort 5).
+
+NCT04425681 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* LM diagnosis was based on the detection of malignant cells in the CSF, the focal or diffuse enhancement of leptomeninges, and nerve roots or the ependymal surface on gadolinium-enhanced MRI .
+
+NCT04458922 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Patients with new or progressive brain metastases (active brain metastases) or leptomeningeal disease are eligible if the treating physician determines that immediate CNS-specific treatment is not required and is unlikely to be required during the first 2 cycles of therapy
+
+NCT04460729 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+  1. Cohort 1 and Cohort 2 (without leptomeningeal carcinoma): At least 1 measurable intracranial lesion per RANO-BM criteria, documented by a radiologist/neuroradiologist (treated or untreated).
+  2. Cohort 2 (with leptomeningeal carcinoma): participants with leptomeningeal carcinoma may not have measurable lesions. In this circumstance, the participant's disease will be considered to have non-target lesions only at baseline and their response based on descriptive clinical criteria by physician assessment.
+
+NCT04460937 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Patients with new or progressive brain metastases (active brain metastases) or leptomeningeal disease are eligible if the treating physician determines that immediate CNS specific treatment is not required and is unlikely to be required during the first cycle of therapy
+
+NCT04500548 OTHER_SOLID The recurrent solid-malignancy inclusion population (also allowing lymphoma) expressly permits new/progressive LM in part 2 when immediate CNS therapy is unnecessary. No explicit GBM-to-LM link.
+  * Patients with new or progressive CNS metastasis (active metastasis) or leptomeningeal disease are eligible if the treating physician determines that immediate CNS-directed treatment is not required and is unlikely to be required for at least 6 weeks after treatment initiation, and a risk-benefit analysis (discussion) by the patient and investigator favors participation in the trial
+
+NCT04509596 BREAST Current official LM cohort/diagnosis evidence supports general relevance; retain BREAST only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT04511013 MELANOMA Current official LM cohort/diagnosis evidence supports general relevance; retain MELANOMA only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Participants may have leptomeningeal disease
+
+NCT04543188 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+  * Cohort 5: any solid tumor that does not meet requirements for Cohorts 1-4, history of or current leptomeningeal metastases.
+* History of or current leptomeningeal metastases
+
+NCT04563871 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT04588545 BREAST,OTHER_SOLID HER2-positive breast LM population is explicit, and the same inclusion section additionally allows all HER2-positive cancers with LMD. Retain named breast and general solid-tumor paths.
+* Confirmation of HER2 positivity. All patients with HER2+ cancers will be allowed to enroll if they have leptomeningeal disease (LMD). Patients may be IHC 3+ and/or FISH-positive. IHC 2+ HER2 patients are eligible with reflex FISH-positive testing with the ratio ≥2.0.
+* Patients may continue treatment with IV trastuzumab, pertuzumab, or other HER2-directed, hormonal, or chemotherapeutic agents if controlling systemic disease and leptomeningeal metastases that developed while on these therapies. In addition, at time of systemic progression, patients may start additional agents at the discretion of the treating physician according to criteria per protocol.
+* Cannot be on systemic agents (chemotherapy) that have Central Nervous System (CNS) penetration (temozolomide, carmustine, lomustine, etoposide, capecitabine, carboplatin, vinorelbine, bevacizumab, irinotecan, and topotecan) unless they develop or have progressive or persistent leptomeningeal metastases while on these agent(s). See protocol for additional information regarding systemic therapies.
+
+NCT04661384 GBM Current official LM cohort/diagnosis evidence supports general relevance; retain GBM only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Participant has verified leptomeningeal metastases
+
+NCT04729348 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* Leptomeningeal metastases, as determined by: 1) positive CSF cytology, or 2) MRI suggestive of leptomeningeal metastases and atypical cytology.
+
+NCT04739358 LUNG MET-driven NSCLC eligibility expressly permits MRI/CSF-confirmed leptomeningeal disease when not the only disease site; isolated LM is excluded.
+    c. Leptomeningeal disease (confirmed through either MRI or CSF sampling) is permitted provided this is not the only site of disease. If leptomeningeal disease is present, it will not count as measurable disease.
+2. Participants with isolated leptomeningeal disease are not eligible. Patients with symptomatic brain metastases may be potentially eligible provided that all the following criteria are met: 1) they are not on prednisolone 20mg equivalents daily prior to enrolling in the study and 2) anticonvulsants will be permitted provided the patient has been on a stable dose for a period of 2 weeks prior to the first dose of study drug.
+
+NCT04757779 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+4. Relapsed advanced small-cell lung cancer patients with symptom-controlled brain metastasis or leptomeningeal metastasis (subjects with symptomatic brain metastasis are allowed to receive radiotherapy, whether brain lesions can be deemed as target lesions is decided by investigators.); or patients with newly- discovered brain metastasis or leptomeningeal metastasis diagnosed by CT/MRI. Symptomatic or asymptomatic serosal cavity effusion (pleural effusion, ascites, pericardial effusion, local therapy is allowed). Radiotherapy for symptomatic bone metastasis or elsewhere is allowed as long as response evaluation is not affected.
+
+NCT04778800 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+3. Tumor cells found in cerebrospinal fluid or MRI showed clear meningeal enhancement and patients with dizziness/headache were included as selection criteria;
+
+NCT04833205 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* A definite diagnosis of Leptomeningeal metastases from lung cancer, including cerebrospinal fluid cytology and/or neuroimaging;
+
+NCT04856475 BREAST Current official LM cohort/diagnosis evidence supports general relevance; retain BREAST only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT04903678 OTHER_SOLID Current official LM cohort/diagnosis evidence supports general relevance; retain OTHER_SOLID only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT04923126  Current official LM cohort/diagnosis evidence supports general relevance; hematologic/CNS-primary or unspecified origin has no supported main-tumor assignment. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+    * Diffuse leptomeningeal glioneuronal tumor
+
+NCT04944069 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+3. Histologically confirmed patients with NSCLC leptomeningeal metastasis by positive cerebrospinal fluid cytological examination.
+
+NCT04965090 LUNG Current official LM cohort/diagnosis evidence supports general relevance; retain LUNG only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+
+
+NCT04978727 GBM Current official LM cohort/diagnosis evidence supports general relevance; retain GBM only where the named population is in that eligible path. Supporting current-source fields are recorded below; inclusion/exclusion criteria and arms were reviewed together.
+* • DIAGNOSIS: Patients with a histologically confirmed diagnosis of a primary CNS tumor that is progressive or recurrent defined as radiographic progression in any known residual tumor, or the appearance of one or more new lesions, leptomeningeal disease, or new cerebrospinal fluid (CSF) positivity for malignant cells, after most recent treatment modality. At the time of diagnosis or recurrence, all tumors must have histologic verification of one of the following:
+  * diffuse leptomeningeal disease, or
