@@ -1,0 +1,400 @@
+9458- Protocol Version Date 28 Feb 2019
+and objective evidence of tumor size reduction at all dose levels (1 mglkg, 3 mg/kg and 10
+mg/kg e2W). No MTD has been identifred to date. 10.0 mg/kg Q2V/, the highest dose tested in
+pÑOOt, will be the dose and schedule utilized in Cohorts A, B, C and D of PN001 to test for
+initial tumor activity. Recent data from other clinical studies within the MK-3475 program has
+shown that a lower dose of MK-3475 and a less frequent schedule may be suffrcient for target
+engagement and clinical activity.
+PK data analysis ofMK-3475 administered Q2W and Q3W showed slow systemic clearance,
+limited volume of distribution, and a long half-life (refer to IB). Pharmacodynamic data(1f-2
+release assay) suggested that peripheral target engagement is durable (>21 days). This early PK
+and pharmacodynamic data provides scientific rationale for testing a Q2W and Q3W dosing
+schedule.
+A population pharmacokinetic analysis has been performed using serum concentration time data
+from 476 patients. Within the resulting population PK model, clearance and volume parameters
+of MK-3475 were found to be dependent on body weight. The relationship between clearance
+and body weight, with an allometric exponent of 0.59, is within the range observed for other
+antibodies and would support both body weight normalized dosing or a fixed dose across all
+body weights. MK-3475 has been found to have a wide therapeutic range based on the
+melânomá indication. The differences in exposure for a 200 mg fixed dose regimen relative to a
+2 mglkgQ3w body weight based regimen are anticipated to remain well within the established
+"*põr.ri. 
+margins of 0.5 - 5.0 for MK-3475 in the melanoma indication. The exposure margins
+aré based on the notion of similar efficacy and safety in melanoma at 10 mg/kg Q3W vs. the
+proposed dose regim en of 2 mg/kg Q3W (i.e. 5-fold higher dose and exposure). The population
+ÞKìvaluation revealed that there was no significant impact of tumor burden on exposure. In
+addition, exposure was similar between the NSCLC and melanoma indications. Therefore, there
+are no anticipated changes in exposure between different indication settings.
+The rationale for further explorationof 2 mg/kg and comparable doses of pembrolizumab in solid
+tumors is based on: 1) similar efficacy and safety of pembrolizumab when dosed at either 2mglkg
+or 10 mg/kg Q3W in melanoma patients, 2) the flat exposure-response relationships of
+pembrolizumab for both efficacy and safety in the dose ranges of 2 mg/kg Q3V/ to l0 mg/kg Q3V/,^¡) 
+ttt" lack of effect of tumor burden or indication on distribution behavior of pembrolizumab (as
+assessed by the population PK model) and 4) the assumption that the dynamics of pembrolizumab
+target engagement will not vary meaningfully with tumor type.
+The choice of the 200 mg Q3W as an appropriate dose for the switch to fixed dosing is based on
+simulations performed using the population PK model of pembrolizumab showing that the fixed
+dose of 200 mg every 3 weeks will provide exposures that 1) are optimally consistent with those
+obtained with the 2 mglkgdose every 3 weeks, 2) will maintain individual patient exposures in the
+exposure range established in melanoma as associated with maximal efficacy response and 3) will
+*uintuin individual patients exposure in the exposure range established in melanomathat are well
+tolerated and safe.
+A fixed dose regimen will simplify the dosing regimen to be more convenient for physicians and
+to reduce poteniial for dosing erîors. A fixed dosing scheme will also reduce complexity in the
+logistical chain at treatment facilities and reduce wastage.
+ 
+IRB Approved 
+Document Release Date: 04/04/2019
+Printed on 6/26/2019
+9458- Protocol Version Date 28 Feb 2019
+4.2.3 Rationale for Endpoints
+4.2.3.1 Efficacy Endpoints
+Immunotherapy is a particularly attractive approach to the problem of MRD
+persistence heappeararrce: the disease burden by definition is very low; and when MRD is detected
+following multiple cytotoxic agents, additional cytotoxic therapy is unlikely to provide substantial
+efficacy but could lead to signihcant toxicity. Proof of this principle has been demonstrated with
+blinatumomab, a CD3-CD19 bispecific antibody that helps target the patient's endogenous CD3+
+T cells to the CD19+ blasts in B-cell precursor ALL. Early in its development, this agent was
+shown to be efficacious against chemorefractory MRD in adults with ALL, with l6 of 20 patients
+remaining in hematologic remission at a median follow-up of 405 days (relapse-free survival of
+78%).6 Similar results were observed in a larger study from the German Multicenter ALL Study
+Group.T It is now being tested in a randomized Phase III study (ClinicalTrials.gov
+#NCT02013167), and it was granted accelerated approval by the Food and Drug Administration
+in December 2014. Unfortunately, blinatumomab must be administered as a 28-day continuous
+intravenous (IV) infusion, making it very inconvenient for the patient and the clinical staff.
+Furthermore, it is associated with significant toxicity, including serious neurologic side-effects and
+cytokine release syndrome. While it can be highly efficacious in this setting, blinatumomab is not
+universally effective. Further, due to its toxicity profile and need for 4-week continuous infusion
+(a portiorrof which must be administered in an inpatient setting), patients may not be eligible or
+willing to receive it. Immune checkpoint blockade through inhibition of the PD-I/PD-LI axis
+could provide a similar benefit for a very high-risk clinical scenario with relatively low toxicity, a
+significantly easier mode of administration, and inclusion of both T- and B-cell ALL.
+Thus, based on the ability of immunotherapy to eliminate MRD, the belief that this endpoint will
+translate into improved long-term outcomes in ALL, as well as a strong need for new treatments
+for this challenging disease, we will study pembrolizumab for the treatment of MRD in adults with
+ALL. This trial will offer an option to reduce the risk of frank relapse following either front-line
+or salvage therapy. Should this approach prove efficacious, it could create a novel method of
+treatment, in addition to providing a platform from which this agent could be tested either as a
+single-agent or in combination with other treatments as consolidation for patients in complete
+remission or for those with frankly relapsed/refractory ALL.
+4.2.3.2 Biomarker Research
+ALL is relatively unique in that frequent disease assessments are common, relatively safe and non-
+invasive, and involve direct evaluation of the leukemia microenvironment (i.e., bone marrow).
+This provides an attractive opportunity to explore changes in the cellular and immunologic
+composition of tumor microenvironment before and after treatment with pembrolizumab. For
+example, since it has been demonstrated previously that PD-l and PD-LI expression on tumor
+cells and the tumor microenvironment is associated with a higher likelihood of response to
+inhibition of the PD-I/PD-LI axis,8-10 we will be able to specifically evaluate the tumor
+microenvironment over time via bone maffow specimens. By definition, samples from patients
+on this study will have very little leukemia present, such that these analyses will be primarily
+reflective of the tumor microenvironment and not the malignarrcy per se.
+ 
+IRB Approved 
+Document Release Date: 04/04/2019
+Printed on 6/26/2019
+9458- Protocol Version Date 28 Feb 2019
+Further, to evaluate the systemic immune response more broadly, we can study changes in
+circulating PBMC and serum cytokines and inflammatory markers that occur following exposure
+to pembrolizumab to draw correlations to disease response (or lack thereof). Using a flow
+cytometry platform available in the UV/ Hematopathology Laboratory, relative proportions of
+circulating T-cell subsets and other components of cellular immunity can be quantified and
+compared pre- and post-treatment with pembrolizumab. Additionally, the Immune Monitoring
+Laboratory (IML) at the Fred Hutchinson Cancer Research Center (FHCRC) can measure the
+levels of approximately 40 different cytokines from samples of peripheral blood. Such analyses
+may provide evidence of an on-tar get in vivo effect in responding patients. They can also advance
+our understanding of why some patients respond to these agents while others seemingly do not, a
+phenomenon which has been suggested previously.ll
+Lastly, while MFC and PCR remain the most widely-utilized methods of MRD detection in ALL,
+more sensitive methods are being developed. NGS platforms have been developed that can
+amplifu and identify disease-specific index sequence from either the immunoglobulin heavy chain
+(IGH) or T-cell receptor (TCR) genes that are unique to individual B-cell and T-cell ALL
+irespáctively).tz,tr This technique can detect MRD with a frequency below 10-5, which is generally
+> 2 orders of magnitude more sensitive than most clinically-available assays currently. Early
+studies suggest thát detection even to this low level can impact outcomes in ALL.la'Is As this
+clinical trial is designed specifically for patients with MRD, it will provide a unique opportunity
+to further evaluate NGS as a viable method of MRD detection in ALL.
+5.0 METHODOLOGY
+5.1 Entry Criteria
+5.1.1 Diagnosis/Condition for Entry into the Trial
+All subjects must have a diagnosis of ALL of either B-cell, T-cell, or mixed (i.e., B/T) lineage.
+5.1.2 Subject Inclusion Criteria
+In order to be eligible for participation in this trial, the subject must:
+1. Be willing and able to provide written informed consent for the trial.
+2. Be > 18 years of age on day of signing informed consent.
+3. Presence of MRD (defined as < 5Yo blasts in the bone marrow by morphologic assessment
+and no clinically-apparent extramedullary disease but with quantifiably-measurable
+disease as assessed by either MFC or PCR) under any of the following circumstances:
+a. MRD persistence > I I weeks after the start of initial therapy,
+b. MRD persistence > 2 weeks after the start of salvage therapy, or
+c. MRD reappearance at anY time.
+ 
+IRB Approved 
+Document Release Date: 04/04/2019
+Printed on 6/26/2019
+9458- Protocol Version Date 28 Feb 2019
+4. For patients with Ph+ disease, have previously received treatment with > 1 ABL kinase
+inhibitor (e.g., imatinib, dasatinib, etc.) or are ineligible for such treatment.
+5. Have previously received or are ineligible for treatment with blinatumomab. Ineligibility
+will include (but not be limited to) CDl9-negative disease, denial of insurance coverage,
+physician discretion, and/or patient refusal.
+6. Be willing to provide tissue from a newly obtained bone marrow aspirate and/or biopsy.
+Newly-obtained is defined as a specimen obtained up 28 days prior to initiation of
+treatment on Day l. Subjects for whom newly-obtained samples cannot be provided (e.g.,
+inaccessible or subject safety concern) may submit an archived specimen only upon
+agreement from the PI.
+7. Have a performance status of 0 to I on the ECOG Performance Scale.
+8. Demonstrate adequate organ function as defined in Table 1, all screening labs should be
+performed within 10 days of treatment initiation.
+Table 1: Adequate Organ Function Laboratory Values
+Svstem Laboratory Value
+Hematoloeical
+Ahsolute neutroohil count IANC) >1.000 /mcl
+Hemoelobin >8 s/dl-
+Platelets >50.000 / mcl-
+Renal
+Serum creatinine$
+Measured or calculatedu creatinine
+clearance
+(GFR can also be used in place of
+creatinine or CrCl)
+<1.5 X upper limit of normal (ULN) OR
+>60 ml/min/l.73 m2 for subject with creatinine levels > 1.5 X
+institutional ULN
+Hepatic
+Serum total bilirubin < I.5 X TJLN OR
+Direct bilirubin < ULN for subjects with total bilirubin levels >
+I.5 ULN
+AST ISGOD and ALT (SGPT) < 2.5 X TJLN
+Coasulation
+International Normalized Ratio (INR) or
+Prothrombin Time (PT)
+Activated Partial Thromboplastin Time
+(aPTT)
+ll.5 X ULN unless subject is receiving anticoagulant therapy
+as long as PT or PTT is within therapeutic range of intended use
+of anticoagulants
+ll.5 X ULN unless subject is receiving anticoagulant therapy
+as long as PT or PTT is within therapeutic range of intended use
+of anticoagulants
+uCreatinine clearance or glomerular filtration rate (GFR) should be calculated per the MDRD equation
+GFR fml/min/1.73 m2\: 175 x (S".)-t tsc x (Ase)-o203 x (0.742 if female) x (I.2l2if American)
+9. Female subjects of childbearing potential should have a negative urine or serum pregnancy
+within 3 days prior to receiving the first dose of study medication. If the urine test is
+positive or cannot be confirmed as negative, a serum pregnancy test will be required. (For
+this protocol, childbearing potential is defined in section 5.7 .2.)
+IRB Approved 
+Document Release Date: 04/04/2019
+Printed on 6/26/2019
+9458- Protocol Version Date 28 Feb 2019
+10. Female subjects of childbearing potential should be willing to use 2 methods of birth
+control or be surgically sterile, or abstain from heterosexual activity for the course of the
+study through 120 days after the last dose of study medication (Reference Section 5.7.2).
+1 1. Male subjects should agree to use an adequate method of contraception (as defined in
+section 5.7.2) starting with the first dose of study therapy through 120 days after the last
+dose of study therapy.
+5.1.3 Subject Exclusion Criteria
+The subject must be excluded from participating in the trial if the subject:
+1. Is currently participating and receiving study therapy or has participated in a study of an
+investigational new drug and received study therapy or used an investigational device
+within 4 weeks of the first dose of treatment.
+2. Has a diagnosis of immunodeficiency or is receiving systemic steroid therapy or any other
+form of immunosuppressive therapy within 7 days prior to the first dose of trial treatment.
+3. Has a known history of active TB (Bacillus Tuberculosis).
+4. Has a known hypersensitivity to pembrolizumab or any of its excipients.
+5. Has had a prior anti-cancer monoclonal antibody (mAb) within 4 weeks prior to study Day
+I or who has not recovered (i.e., < Grade I or at baseline) from adverse events due to agents
+administered more thart 4 weeks earlier.
+6. Has had prior chemotherapy, targeted small molecule therapy, or radiation therapy within
+2 weeks prior to study Day 1 or who has not recovered (i.e., < Grade 1 or at baseline) from
+adverse events due to a previously administered agent.
+- Note: Subjects with < Grade 2 neuropathy or with hematologic toxicity that has
+recovered to levels above that stated in Inclusion Criterion 6 are an exception to
+this criterion and may qualify for the study if all other inclusion/exclusion criteria
+are met.
+- Note: If subject received major surgery, they must have recovered adequately from
+the toxicity and/or complications from the intervention (i.e., < Grade 1 or at
+baseline) prior to starting therapy.
+7. Has a known additional malignancy that is progressing or requires active treatment.
+Exceptions include basal cell carcinoma of the skin or squamous cell carcinoma of the skin
+that has undergone potentially curative therapy or in situ cervical cancer.
+8. Has known active central nervous system (CNS) leukemia and/or leukemic meningitis.
+Subjects with previously treated CNS leukemia may participate provided they are stable
+(e.g., without evidence of active disease by imaging for at least four weeks prior to the hrst
+IRB Approved 
+Document Release Date: 04/04/2019
+Printed on 6/26/2019
+9458- Protocol Version Date 28 Feb 2019
+dose of trial treatment and any neurologic symptoms have returned to baseline) and have
+no evidence of leukemic blasts on analysis of cerebrospinal fluid (CSF).
+9. Has active autoimmune disease that has required systemic treatment in the past 2 years (i.e.
+with use of disease modifuing agents, corticosteroids or immunosuppressive drugs).
+Replacement therapy (eg., thyroxine, insulin, or physiologic corticosteroid replacement
+therapy for adrenal or pituitary insufficiency, etc.) is not considered a form of systemic
+treatment.
+10. Has known history of, or any evidence of active, non-infectious pneumonitis.
+11. Has previously received an allogeneic hematopoietic cell transplant, unless the following
+criteria are met:
+- Detection of MRD occurred > 2l days from stem cell infusion
+- No active GVHD
+- Receiving systemic steroid therapy of < 10 mg of prednisone daily (or equivalent)
+- Has discontinued systemic immunosuppressant therapy > 7 days prior to first dose
+of pembrolizumab
+12. Has previously received other forms of cellular immunotherapy (e.g., chimeric antigen
+receptor-modified [CAR] T cells), unless the following criteria are met:
+_-Detection of MRD occurred > 2l days from cell infusion
+-Any specific manifestations of cytokine release syndrome or neurologic toxicity
+attributable to the cellular therapy have completely resolved (i.e., < Grade 1)
+13. Has an active infection requiring systemic therapy. Antimicrobial prophylaxis will be
+permitted at the discretion of the treating investigator.
+14. Has a history or current evidence of any condition, therapy, or laboratory abnormality that
+might confound the results of the trial, interfere with the subject's participation for the full
+duration of the trial, or is not in the best interest of the subject to participate, in the opinion
+of the treating investigator.
+15. Has known psychiatric or substance abuse disorders that would interfere with cooperation
+with the requirements of the trial.
+16. Is pregnant or breastfeeding, or expecting to conceive or father children within the
+projected duration of the trial, starting from the time of consent through 120 days after the
+last dose of trial treatment.
+17. Has received prior therapy with any immune checkpoint inhibitor.
+18. Has a known history of Human Immunodeficiency Virus (HIV) (HlV ll2 antibodies)
+IRB Approved 
+Document Release Date: 04/04/2019
+Printed on 6/26/2019
+9458- Protocol Version Date 28 Feb 2019
+19. Has known active Hepatitis B (e.g., HBsAg reactive) or Hepatitis C (e.g., HCV RNA
+[qualitative] is detected).
+20. Has received a live vaccine within 30 days of planned start of study therapy.
+Note: Seasonal influenzavaccinesfor injection are generally inactivatedfluvaccines and
+are allowed; however intranasal influenza vaccines (e.g., Flu-Mist@) are live attenuated
+vaccines, and are not allowed.
+5.2 Trial Treatments
+The treatment to be used in this trial is outlined below in Table 2
+Table 2: Trial Treatment
+Trial treatment should begin within 28 days of signed informed consent.
+5.2.1 Dose Selection/lVlodification
+5.2.1.1 Dose Selection
+The rationale for selection of doses to be used in this trial is provided in Section 4.0 - Background
+and Rationale.
+Details on preparation and administration of pembrolizumab (MK-3475) are provided in the
+Pharmacy Manual.
+5.2.1.2 DoseModification
+AEs associated with pembrolizumab exposure may represent an immunologic etiology. These
+immune-related AEs (irAEs) may occur shortly after the first dose or several months after the
+last dose of pembroliztstnab treatment and may affect more than on body system simultaneously'
+Therefore, early recognition and initiation of treatment is critical to reduce complications. Based
+on existing clinical study data, most irAEs were reversible and could be managed with
+intemrptions of pembrolizumab, administration of corticosteroids and/or other supportive care.
+For suspected irAEs, ensure adequate evaluation to confirm etiology or exclude other causes.
+Additional procedures or tests such as bronchoscopy, endoscopy, skin biopsy may be included as
+part of the evaluation. Based on the severity of irAEs, withhold or pennanently discontinue
+pembrolizumab and administer corticosteroids. Dose modification and toxicity management
+guidelines for irAEs associated with pembrolizumab are provided in Table 3.
+Drug Dose/Potency Dose
+Frequency
+Route of
+Administration
+Regimen/Treatment
+Period
+Use
+Pembrolizumab 200 mg Q 21+3
+days
+IV infusion Day l of each21-
+day cycle
+Experimental
+IRB Approved 
+Document Release Date: 04/04/2019
+Printed on 6/26/2019
+9458- Protocol Version Date28 Feb 2019
+Table 3: Dose Modifîcation Guidelines for Drug-Related Adverse Events
+General instructions:
+1. Corticosteroid taper should be initiated upon AE improving to Grade I or less and continue to taper over at least
+4 weeks.
+2. For situations where pembrolizumab has been withheld, pembrolizumab can be resumed after AE has been
+reduced to Grade I or 0 and corticosteroid has been tapered. Pembrolizumab should be permanently
+discontinued if AE does not resolve within 12 weeks of last dose or corticosteroids cannot be reduced to <1 0 mg
+prednisone or equivalent per day within 12 weeks.
+3. For severe and lifethreatening irAEs, IV corticosteroid should be initiated first followed by oral steroid. Other
+immunosuppressive treatment should be initiated if irAEs cannot be controlled by corticosteroids.
+Immune-
+related AEs
+Toxicity grade
+or conditions
+(CTCAEv5.0)
+Action taken to
+pembrolizumab
+irAE management with
+corticosteroid and/or other
+therapies
+Monitor and follow-up
+Pneumonitis Grude2 wirhhold a Administer
+corticosteroids (initial
+dose of l-2 mglkg
+prednisone or equivalent)
+followed by taper
+a Monitor participants for signs and
+symptoms of pneumonitis
+Evaluate participants with
+suspected pneumonitis with
+radiographic imaging and initiate
+corticosteroid treatment
+Add prophylactic antibiotics for
+opportunistic infections
+a
+Grade 3 or 4,
+or recurrent
+Grade2
+Permanently
+discontinue
+Diarrhea /
+Colitis
+Grade 2 or 3 Withhold Administer
+corticosteroids (initial
+dose of l-2 m/kg
+prednisone or equivalent)
+followed by taper
+a Monitor participants for signs and
+symptoms of enterocolitis (ie,
+diarrhea, abdominal pain, blood
+or mucus in stool with or without
+fever) and ofbowel perforation
+(ie, peritoneal signs and ileus).
+Participants with > Grade2
+diarrhea suspecting colitis should
+consider GI consultation and
+performing endoscopy to rule out
+colitis.
+Participants with dianhea/colitis
+should be advised to drink liberal
+quantities of clear fluids. If
+sufficient oral fluid intake is not
+feasible, fluid and electrolytes
+should be substituted via IV
+infusion.
+a
+a
+Grade 4 Permanently
+discontinue
+AST / ALT
+elevation or
+Increased
+bilirubin
+Grade 2 wirhhold ¡ Administer
+corticosteroids (initial
+dose of 0.5- I mdkg
+prednisone or equivalent)
+followed by taper
+a Monitor with liver function tests
+(consider weekly or more
+frequently until liver enzyme
+value retumed to baseline or is
+stable
+Grade 3 or 4 Permanently
+discontinue
+r Administer
+corticosteroids (initial
+dose of l-2 me/ks.
+l4
+ 
+IRB Approved 
+Document Release Date: 04/04/2019
+Printed on 6/26/2019

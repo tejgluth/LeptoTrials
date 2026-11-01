@@ -323,9 +323,9 @@ type OracleResult = {
 // appear with non-default statuses get their own scenario.
 const REGRESSIONS: RegressionCase[] = [
   // Current registry cohorts independently rechecked in the 2026-10-26 audit.
-  { scenario: 'default', mustInclude: ['NCT02125786', 'NCT07361562'] },
-  { scenario: 'all-statuses', mustInclude: ['NCT02125786', 'NCT07361562'] },
-  { scenario: 'lung-default', mustExclude: ['NCT02125786', 'NCT07361562'] },
+  { scenario: 'default', mustInclude: ['NCT02125786', 'NCT07361562', 'NCT06258408'] },
+  { scenario: 'all-statuses', mustInclude: ['NCT02125786', 'NCT07361562', 'NCT06258408', 'NCT02767934'] },
+  { scenario: 'lung-default', mustExclude: ['NCT02125786', 'NCT07361562', 'NCT06258408'] },
   { scenario: 'gbm-default', mustExclude: ['NCT02125786', 'NCT07361562'] },
   { scenario: 'other-solid-default', mustExclude: ['NCT02125786', 'NCT07361562'] },
   { scenario: 'gbm-all-statuses', mustExclude: ['NCT03423628', 'NCT07331064', 'NCT07751744'] },
@@ -588,6 +588,7 @@ const REGRESSIONS: RegressionCase[] = [
   {
     scenario: 'other-solid-default',
     mustInclude: [
+      'NCT06258408',
       'NCT05124236',
       'NCT06462222',
       'NCT07476781',

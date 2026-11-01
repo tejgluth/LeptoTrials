@@ -1,0 +1,69 @@
+{
+  "complete": true,
+  "displayed": 322,
+  "default": 157,
+  "comparisons": [
+    {
+      "bucket": "LUNG",
+      "count": 107,
+      "symmetricDifference": []
+    },
+    {
+      "bucket": "BREAST",
+      "count": 60,
+      "symmetricDifference": []
+    },
+    {
+      "bucket": "MELANOMA",
+      "count": 14,
+      "symmetricDifference": []
+    },
+    {
+      "bucket": "GBM",
+      "count": 8,
+      "symmetricDifference": []
+    },
+    {
+      "bucket": "OTHER_SOLID",
+      "count": 114,
+      "symmetricDifference": []
+    },
+    {
+      "profile": "18-US-BREAST-INTERVENTIONAL-PHASE2",
+      "count": 17,
+      "symmetricDifference": []
+    }
+  ],
+  "ages": [
+    {
+      "age": 17,
+      "count": 52,
+      "symmetricDifference": []
+    },
+    {
+      "age": 18,
+      "count": 312,
+      "symmetricDifference": []
+    },
+    {
+      "age": 78,
+      "count": 244,
+      "symmetricDifference": []
+    },
+    {
+      "age": 79,
+      "count": 243,
+      "symmetricDifference": []
+    },
+    {
+      "age": 0,
+      "count": 14,
+      "symmetricDifference": []
+    },
+    {
+      "age": 3,
+      "count": 43,
+      "symmetricDifference": []
+    }
+  ]
+}
