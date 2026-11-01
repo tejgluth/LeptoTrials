@@ -18,7 +18,7 @@ antibodies and would support both body weight normalized dosing or a fixed dose 
 body weights. MK-3475 has been found to have a wide therapeutic range based on the
 melânomá indication. The differences in exposure for a 200 mg fixed dose regimen relative to a
 2 mglkgQ3w body weight based regimen are anticipated to remain well within the established
-"*põr.ri. 
+"*põr.ri.
 margins of 0.5 - 5.0 for MK-3475 in the melanoma indication. The exposure margins
 aré based on the notion of similar efficacy and safety in melanoma at 10 mg/kg Q3W vs. the
 proposed dose regim en of 2 mg/kg Q3W (i.e. 5-fold higher dose and exposure). The population
@@ -28,7 +28,7 @@ are no anticipated changes in exposure between different indication settings.
 The rationale for further explorationof 2 mg/kg and comparable doses of pembrolizumab in solid
 tumors is based on: 1) similar efficacy and safety of pembrolizumab when dosed at either 2mglkg
 or 10 mg/kg Q3W in melanoma patients, 2) the flat exposure-response relationships of
-pembrolizumab for both efficacy and safety in the dose ranges of 2 mg/kg Q3V/ to l0 mg/kg Q3V/,^¡) 
+pembrolizumab for both efficacy and safety in the dose ranges of 2 mg/kg Q3V/ to l0 mg/kg Q3V/,^¡)
 ttt" lack of effect of tumor burden or indication on distribution behavior of pembrolizumab (as
 assessed by the population PK model) and 4) the assumption that the dynamics of pembrolizumab
 target engagement will not vary meaningfully with tumor type.
@@ -42,8 +42,8 @@ tolerated and safe.
 A fixed dose regimen will simplify the dosing regimen to be more convenient for physicians and
 to reduce poteniial for dosing erîors. A fixed dosing scheme will also reduce complexity in the
 logistical chain at treatment facilities and reduce wastage.
- 
-IRB Approved 
+
+IRB Approved
 Document Release Date: 04/04/2019
 Printed on 6/26/2019
 9458- Protocol Version Date 28 Feb 2019
@@ -88,8 +88,8 @@ inhibition of the PD-I/PD-LI axis,8-10 we will be able to specifically evaluate 
 microenvironment over time via bone maffow specimens. By definition, samples from patients
 on this study will have very little leukemia present, such that these analyses will be primarily
 reflective of the tumor microenvironment and not the malignarrcy per se.
- 
-IRB Approved 
+
+IRB Approved
 Document Release Date: 04/04/2019
 Printed on 6/26/2019
 9458- Protocol Version Date 28 Feb 2019
@@ -127,8 +127,8 @@ disease as assessed by either MFC or PCR) under any of the following circumstanc
 a. MRD persistence > I I weeks after the start of initial therapy,
 b. MRD persistence > 2 weeks after the start of salvage therapy, or
 c. MRD reappearance at anY time.
- 
-IRB Approved 
+
+IRB Approved
 Document Release Date: 04/04/2019
 Printed on 6/26/2019
 9458- Protocol Version Date 28 Feb 2019
@@ -182,7 +182,7 @@ GFR fml/min/1.73 m2\: 175 x (S".)-t tsc x (Ase)-o203 x (0.742 if female) x (I.2l
 within 3 days prior to receiving the first dose of study medication. If the urine test is
 positive or cannot be confirmed as negative, a serum pregnancy test will be required. (For
 this protocol, childbearing potential is defined in section 5.7 .2.)
-IRB Approved 
+IRB Approved
 Document Release Date: 04/04/2019
 Printed on 6/26/2019
 9458- Protocol Version Date 28 Feb 2019
@@ -220,7 +220,7 @@ that has undergone potentially curative therapy or in situ cervical cancer.
 8. Has known active central nervous system (CNS) leukemia and/or leukemic meningitis.
 Subjects with previously treated CNS leukemia may participate provided they are stable
 (e.g., without evidence of active disease by imaging for at least four weeks prior to the hrst
-IRB Approved 
+IRB Approved
 Document Release Date: 04/04/2019
 Printed on 6/26/2019
 9458- Protocol Version Date 28 Feb 2019
@@ -257,7 +257,7 @@ projected duration of the trial, starting from the time of consent through 120 d
 last dose of trial treatment.
 17. Has received prior therapy with any immune checkpoint inhibitor.
 18. Has a known history of Human Immunodeficiency Virus (HIV) (HlV ll2 antibodies)
-IRB Approved 
+IRB Approved
 Document Release Date: 04/04/2019
 Printed on 6/26/2019
 9458- Protocol Version Date 28 Feb 2019
@@ -301,7 +301,7 @@ days
 IV infusion Day l of each21-
 day cycle
 Experimental
-IRB Approved 
+IRB Approved
 Document Release Date: 04/04/2019
 Printed on 6/26/2019
 9458- Protocol Version Date28 Feb 2019
@@ -394,7 +394,7 @@ r Administer
 corticosteroids (initial
 dose of l-2 me/ks.
 l4
- 
-IRB Approved 
+
+IRB Approved
 Document Release Date: 04/04/2019
 Printed on 6/26/2019
