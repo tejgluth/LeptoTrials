@@ -19044,5 +19044,1028 @@
    },
    "hasResults": true
   }
+ },
+ {
+  "source": "https://clinicaltrials.gov/study/NCT00104923",
+  "rationale": "Hematologic malignancy study explicitly allows previously treated leptomeningeal disease with no residual disease on the specified assessments. No solid tumor bucket applies.",
+  "expected": {
+   "include": true,
+   "buckets": [],
+   "status": "COMPLETED"
+  },
+  "study": {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT00104923",
+     "orgStudyIdInfo": {
+      "id": "CDR0000413887"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "P30CA033572",
+       "type": "NIH",
+       "link": "https://reporter.nih.gov/quickSearch/P30CA033572"
+      },
+      {
+       "id": "CCC-PHI-42"
+      },
+      {
+       "id": "NCI-6528"
+      },
+      {
+       "id": "LAC-USC-0C-04-3"
+      },
+      {
+       "id": "NCI-06-C-0227"
+      },
+      {
+       "id": "NCI-P6820"
+      }
+     ],
+     "organization": {
+      "fullName": "California Cancer Consortium",
+      "class": "NETWORK"
+     },
+     "briefTitle": "Fenretinide in Treating Patients With Refractory or Relapsed Hematologic Cancer",
+     "officialTitle": "Phase I Trial of Intravenous Fenretinide (4-HPR) for Patients With Hematologic Malignancies"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2017-07",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2005-02"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2017-04",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2017-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2005-03-03",
+     "studyFirstSubmitQcDate": "2005-03-03",
+     "studyFirstPostDateStruct": {
+      "date": "2005-03-04",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2017-07-18",
+     "lastUpdatePostDateStruct": {
+      "date": "2017-07-19",
+      "type": "ACTUAL"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Chronic Myeloproliferative Disorders",
+      "Leukemia",
+      "Lymphoma",
+      "Multiple Myeloma and Plasma Cell Neoplasm"
+     ],
+     "keywords": [
+      "adult acute myeloid leukemia with 11q23 (MLL) abnormalities",
+      "adult acute myeloid leukemia with inv(16)(p13;q22)",
+      "adult acute myeloid leukemia with t(15;17)(q22;q12)",
+      "adult acute myeloid leukemia with t(16;16)(p13;q22)",
+      "adult acute myeloid leukemia with t(8;21)(q22;q22)",
+      "recurrent grade 1 follicular lymphoma",
+      "recurrent grade 2 follicular lymphoma",
+      "recurrent grade 3 follicular lymphoma",
+      "recurrent small lymphocytic lymphoma",
+      "recurrent mantle cell lymphoma",
+      "Waldenstrom macroglobulinemia",
+      "adult grade III lymphomatoid granulomatosis",
+      "recurrent adult grade III lymphomatoid granulomatosis",
+      "secondary acute myeloid leukemia",
+      "recurrent adult Burkitt lymphoma",
+      "recurrent adult immunoblastic large cell lymphoma",
+      "refractory chronic lymphocytic leukemia",
+      "recurrent adult lymphoblastic lymphoma",
+      "recurrent adult Hodgkin lymphoma",
+      "refractory multiple myeloma",
+      "recurrent adult acute lymphoblastic leukemia",
+      "relapsing chronic myelogenous leukemia",
+      "chronic eosinophilic leukemia",
+      "primary myelofibrosis",
+      "chronic neutrophilic leukemia",
+      "essential thrombocythemia",
+      "polycythemia vera",
+      "stage II multiple myeloma",
+      "stage III multiple myeloma",
+      "recurrent adult diffuse large cell lymphoma",
+      "recurrent adult diffuse mixed cell lymphoma",
+      "recurrent adult diffuse small cleaved cell lymphoma",
+      "extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue",
+      "nodal marginal zone B-cell lymphoma",
+      "recurrent marginal zone lymphoma",
+      "splenic marginal zone lymphoma",
+      "recurrent adult acute myeloid leukemia"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE1"
+     ],
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 29,
+      "type": "ACTUAL"
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "RATIONALE: Drugs used in chemotherapy, such as fenretinide, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Giving fenretinide in a different way may kill more cancer cells.\n\nPURPOSE: This phase I trial is studying the side effects and best dose of intravenous fenretinide in treating patients with refractory or relapsed hematologic cancer.",
+     "detailedDescription": "OBJECTIVES:\n\n* Determine the maximum tolerated dose of intravenous emulsified fenretinide in patients with refractory or relapsed hematologic malignancies.\n* Determine the toxic effects of this drug in these patients.\n* Determine the pharmacokinetics and in vivo activity of this drug in these patients.\n* Determine, preliminarily, disease or tumor response in patients treated with this drug.\n\nOUTLINE: This is a pilot, dose-escalation, multicenter study.\n\nPatients receive emulsified fenretinide IV continuously over 5 days. Treatment repeats every 21 days for up to 6 courses in the absence of disease progression or unacceptable toxicity. Patients who achieve a complete or partial response may continue to receive fenretinide at the discretion of the study chair.\n\nCohorts of 1 patient receive accelerated escalating doses of fenretinide until 2 patients experience moderate toxicity (cumulative across all dose levels) OR 1 patient experiences dose-limiting toxicity (DLT). After completion of the accelerated dose-escalation portion, the standard dose-escalation portion begins. Cohorts of 3-6 patients receive escalating doses of fenretinide until the maximum tolerated dose (MTD) is determined. The MTD is defined as the dose preceding that at which 2 of 6 patients experience DLT. At least 6 patients are treated at the MTD. An additional 12 patients are treated at the MTD.\n\nAfter completion of study treatment, patients are followed every 3 months for 2 years, every 6 months for 3 years, and then annually thereafter.\n\nPROJECTED ACCRUAL: Approximately 40 patients will be accrued for this study."
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "DISEASE CHARACTERISTICS:\n\n* Histologically or cytologically confirmed diagnosis of 1 of the following hematologic malignancies:\n\n  * Non-Hodgkin's lymphoma (NHL)\n  * Hodgkin's lymphoma\n  * Multiple myeloma\n  * Acute lymphoblastic leukemia\n  * Acute myeloid leukemia\n  * Chronic hematologic malignancy with a poor prognosis (e.g., failed 3 prior standard therapies), including any of the following:\n\n    * Chronic lymphocytic leukemia\n    * Chronic myelogenous leukemia\n    * Indolent NHL\n    * Myeloproliferative disorders\n* Refractory or relapsed disease, as defined by 1 of the following:\n\n  * Resistant to standard therapy for refractory or relapsed disease\n  * Progressed after standard therapy for advanced disease\n* No effective treatment exists\n* Measurable or evaluable disease\n* No active CNS disease\n\n  * Previously treated leptomeningeal disease or brain metastases allowed provided there is no evidence of remaining cancer by positron-emission tomography, MRI, or spinal fluid cytology\n\nPATIENT CHARACTERISTICS:\n\nAge\n\n* 18 and over\n\nPerformance status\n\n* ECOG 0-2\n\nLife expectancy\n\n* At least 3 months\n\nHematopoietic\n\n* Absolute neutrophil count ≥ 1,500/mm\\^3 (unless due to bone marrow involvement of disease)\n* Platelet count ≥ 75,000/mm\\^3 (unless due to bone marrow involvement of disease)\n* Hemoglobin ≥ 8.0 g/dL (transfusion allowed)\n* No coagulation disorders\n\nHepatic\n\n* AST and ALT \\< 2.5 times upper limit of normal (ULN) (≤ 5 times ULN for patients with liver metastasis)\n* Bilirubin ≤ 1.5 times ULN\n\nRenal\n\n* Creatinine ≤ 1.5 times ULN\n\nCardiovascular\n\n* No major cardiovascular disease\n\nPulmonary\n\n* No major respiratory disease\n\nOther\n\n* Not pregnant or nursing\n* Negative pregnancy test\n* Fertile patients must use effective double-method contraception prior to study entry, during study, and for at least 6 months after study participation\n* No uncontrolled systemic infection\n* No uncontrolled hypertriglyceridemia (i.e., triglyceride level \\> 500 mg/dL)\n* No known HIV positivity\n* No known allergy to egg products\n* No known familial hyperlipidemia disorders\n* No previously undiscovered hypertriglyceridemia\n* No poorly controlled diabetes\n\nPRIOR CONCURRENT THERAPY:\n\nBiologic therapy\n\n* Not specified\n\nChemotherapy\n\n* More than 2 weeks since prior chemotherapy except hydroxyurea\n\n  * No concurrent hydroxyurea during study drug administration\n* No other concurrent anticancer chemotherapy\n\nEndocrine therapy\n\n* No concurrent hormone-ablative agents\n* No concurrent steroids\n* No concurrent tamoxifen or any of its analogues\n\nRadiotherapy\n\n* No prior cranial radiotherapy\n* More than 2 weeks since prior radiotherapy\n\nSurgery\n\n* More than 20 days since prior surgery except for biopsy\n\nOther\n\n* Recovered from all prior therapy\n* More than 2 weeks since prior investigational agents\n* No other concurrent investigational agents\n* No other concurrent antineoplastic therapy\n* No other concurrent antioxidants\n* No concurrent herbal or other alternative therapies\n* No concurrent vitamin supplements (e.g., vitamin A, ascorbic acid, or vitamin E)\n\n  * Standard dose multivitamin allowed\n* No other concurrent medications that may act as modulators of intracellular ceramide levels or ceramide cytotoxicity, sphingolipid transport, or p-glycoprotein or multidrug resistance protein 1 (MRP1) drug/lipid transporters, including any of the following:\n\n  * Cyclosporine or any of its analogues\n  * Verapamil\n  * Ketoconazole\n  * Chlorpromazine\n  * Mifepristone\n  * Indomethacin\n  * Sulfinpyrazone\n* No concurrent medications that may cause pseudotumor cerebri, including any of the following:\n\n  * Tetracycline\n  * Nalidixic acid\n  * Nitrofurantoin\n  * Phenytoin\n  * Sulfonamides\n  * Lithium\n  * Amiodarone\n* No concurrent medication to control hypertriglyceridemia",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "120 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    }
+   }
+  },
+  "ageCases": [
+   {
+    "age": 17,
+    "include": false
+   },
+   {
+    "age": 18,
+    "include": true
+   }
+  ]
+ },
+ {
+  "source": "https://clinicaltrials.gov/study/NCT00126893",
+  "rationale": "The myeloid leukemia eligibility criteria specifically provide for participants with signs, symptoms, or history of leukemic meningitis if lumbar puncture is negative within two weeks. Active documented CNS involvement is excluded.",
+  "expected": {
+   "include": true,
+   "buckets": [],
+   "status": "TERMINATED"
+  },
+  "study": {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT00126893",
+     "orgStudyIdInfo": {
+      "id": "CC-401-AML-001"
+     },
+     "organization": {
+      "fullName": "Celgene",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "Study to Determine the Optimal Biologic Dose of CC-401 in Subjects With High-Risk Myeloid Leukemia",
+     "officialTitle": "Phase 1 Study to Determine the Optimal Biologic Dose of CC-401 in Subjects With High-Risk Myeloid Leukemia"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2006-12",
+     "overallStatus": "TERMINATED",
+     "startDateStruct": {
+      "date": "2005-10"
+     },
+     "completionDateStruct": {
+      "date": "2006-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2005-08-03",
+     "studyFirstSubmitQcDate": "2005-08-03",
+     "studyFirstPostDateStruct": {
+      "date": "2005-08-05",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2007-05-14",
+     "lastUpdatePostDateStruct": {
+      "date": "2007-05-15",
+      "type": "ESTIMATED"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Myeloid Leukemia"
+     ],
+     "keywords": [
+      "Leukemia",
+      "AML",
+      "CC401",
+      "CC-401",
+      "Celgene",
+      "High Risk Myeloid Leukemia",
+      "Myeloid Leukemia"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE1"
+     ],
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 36
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "This is a single center Phase 1 study to evaluate the safety, pharmacokinetics and pharmacodynamics of CC-401 in subjects with refractory acute myelogenous leukemia."
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Must understand and voluntarily sign an informed consent form.\n* Must be greater than or equal to 18 years of age at the time of signing the informed consent form.\n* Must have a diagnosis of high-risk myeloid leukemia, defined as:\n\n  1. Subjects \\> 70 years of age with newly diagnosed acute myelogenous leukemia (AML) (regardless of karyotype) who decline conventional induction chemotherapy;\n  2. Subjects \\> 60 years of age with newly diagnosed AML and poor-risk cytogenetics or a history of secondary AML who decline conventional induction chemotherapy;\n  3. Subjects with newly diagnosed AML who do not experience a CR after at least 2 cycles of induction chemotherapy;\n  4. Subjects with AML who do not experience a second or greater complete remission after 1 but no more than 2 cycles of re-induction chemotherapy;\n  5. Subjects with recurrence of AML after a remission duration of less than three months in subjects \\< 60 years of age or remission duration of less than six months in subjects \\> 60 years of age; or\n  6. Subjects with imatinib-refractory chronic myeloid leukemia (CML) in blast crisis defined as \\> 30% blasts and promyelocytes in the peripheral blood or bone marrow smear despite treatment with imatinib \\> 600 mg/daily\n* ECOG performance status \\< 2 (see Appendix 2).\n* Serum creatinine \\< 2 mg/d and ALT (SGPT), alkaline phosphatase, and conjugated bilirubin \\< 2 times the upper limit of normal.\n* No conventional or investigational anti-leukemic treatment within two weeks of the administration of study drug with the exception of hydroxyurea to control the peripheral blood blast count.\n* Subjects must have recovered from any prior treatment-related toxicities.\n* Subject must be able to adhere to the study visit schedule and other protocol requirements.\n* Women of childbearing potential (WCBP) must have a negative serum or urine pregnancy test within 7 days of starting study drug. In addition, sexually active WCBP must agree to use adequate contraceptive methods (oral, injectable, or implantable hormonal contraceptive; tubal ligation; intra-uterine device; barrier contraceptive with spermicide; or vasectomized partner) while on study drug. WCBP must agree to have pregnancy tests every 4 weeks while on study drug.\n* Males (including those who have had a vasectomy) must use barrier contraception (latex condoms) when engaging in reproductive sexual activity with WCBP while on study medication and 4 weeks after the last dose of study medication\n\nExclusion Criteria:\n\n* Subjects with central nervous system (CNS) involvement as documented by spinal fluid cytology or imaging; individuals with signs or symptoms of leukemic meningitis or a history of leukemic meningitis must have a negative lumbar puncture within 2 weeks prior to enrollment in the study.\n* Subjects who are pregnant or lactating; women of child-bearing potential must have a negative urine or serum pregnancy test within 14 days prior to the initial treatment with CC-401.\n* Subjects with severe or life threatening active, unresolved systemic infections.\n* Prior history of malignancy other than myeloid leukemia (except basal cell or squamous cell carcinoma or carcinoma in situ of the cervix or breast) unless the subject has been free of disease for ≥ 3 years.\n* Known HIV-1 positivity.\n* Known hepatitis B surface antigen (HBsAg) positivity.\n* Prior treatment with CC-401\n* Use of any other experimental drug or treatment within 28 days of baseline\n* Inability to provide a bone marrow aspirate\n* Subjects with severe or life-threatening active bleeding refractory to platelet transfusion\n* Subjects with severe or life-threatening anemia refractory to red blood cell transfusion\n* Any serious medical condition, laboratory abnormality, or psychiatric illness that would prevent the subject from signing the informed consent form.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    }
+   }
+  },
+  "ageCases": [
+   {
+    "age": 17,
+    "include": false
+   },
+   {
+    "age": 18,
+    "include": true
+   }
+  ]
+ },
+ {
+  "source": "https://clinicaltrials.gov/study/NCT01231581",
+  "rationale": "Metastatic pancreatic cancer cohort excludes symptomatic or untreated leptomeningeal metastases, leaving the treated, asymptomatic LM path eligible under this criterion.",
+  "expected": {
+   "include": true,
+   "buckets": [
+    "OTHER_SOLID"
+   ],
+   "status": "COMPLETED"
+  },
+  "study": {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT01231581",
+     "orgStudyIdInfo": {
+      "id": "113487"
+     },
+     "organization": {
+      "fullName": "GlaxoSmithKline",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "Study of GSK1120212 Plus Gemcitabine vs Placebo Plus Gemcitabine in Metastatic Pancreatic Cancer",
+     "officialTitle": "A Randomized, Double-Blind Placebo-Controlled Phase II Study of the MEK Inhibitor GSK1120212 Plus Gemcitabine vs Placebo Plus Gemcitabine in Subjects With Metastatic Pancreatic Cancer"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2013-07",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2010-08"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2012-04",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2013-02",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2010-08-30",
+     "studyFirstSubmitQcDate": "2010-10-28",
+     "studyFirstPostDateStruct": {
+      "date": "2010-11-01",
+      "type": "ESTIMATED"
+     },
+     "resultsFirstSubmitDate": "2013-06-20",
+     "resultsFirstSubmitQcDate": "2013-07-25",
+     "resultsFirstPostDateStruct": {
+      "date": "2013-09-26",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2013-07-25",
+     "lastUpdatePostDateStruct": {
+      "date": "2013-09-26",
+      "type": "ESTIMATED"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Cancer"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE2"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "OUTCOMES_ASSESSOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 160,
+      "type": "ACTUAL"
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "GSK1120212 is a potent and highly selective inhibitor of MEK phosphorylation and kinase activity and has demonstrated potent anti-proliferative activity against human pancreatic cancer cell lines. This study is a Phase II, randomized placebo-controlled trial of the MEK inhibitor GSK1120212 plus gemcitabine vs. placebo plus gemcitabine in subjects with metastatic pancreatic cancer. Eligible subjects will receive intravenous gemcitabine with oral GSK1120212 or placebo. Therapy will continue until treatment discontinuation criteria are met. The primary objective will be to compare the overall survival of subjects in the GSK1120212 plus gemcitabine arm vs. subjects in the placebo plus gemcitabine arm. Secondary objectives include comparison of progression free survival, overall response rate, and duration of response between the two arms. Exploratory research objectives include the evaluation of population pharmacokinetics as well as blood and tissue based biomarkers. Safety will also be monitored throughout dosing.\n\nOnce the determined number of survival events has occurred, if subjects are eligible, they will have the option to enter MEK114375, an open-label, Phase Ib rollover study of GSK1120212 monotherapy or GSK1120212 in combination with other anti-cancer treatments."
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years old or older\n* Histologically or cytologically confirmed diagnosis of metastatic (Stage IV) adenocarcinoma of the pancreas with measurable or non-measurable disease per Response Evaluation Criteria in Solid Tumors (RECIST) 1.1\n* Performance status score of 0 or 1 according to the Eastern Cooperative Oncology Group (ECOG) scale\n* All prior treatment related toxicities must be Common Terminology Criteria for Adverse Events (CTCAE) (Version 4.0) ≤ Grade 1 (except alopecia) at the time of randomization\n* Adequate baseline organ function\n* Able to swallow and retain orally administered medication and does not have any clinically significant gastrointestinal abnormalities that may alter absorption such as malabsorption syndrome or major resection of the stomach or bowels\n\nExclusion Criteria:\n\n* Prior systemic therapy (i.e., chemotherapy, immunotherapy, hormone therapy, , targeted therapy or any investigational anti-cancer drug) for metastatic pancreatic adenocarcinoma.\n\n(Prior treatment with 5-FU based or gemcitabine administered as a radiation sensitizer during and up to 4 weeks after radiation therapy is allowed. Prior systemic chemotherapy in the adjuvant setting is allowed ; however, prior therapy with gemcitabine is allowed only if tumor recurrence occurred at least 6 months after completing the last dose of gemcitabine)\n\n* History of another malignancy. Exception: Subjects who have been disease-free for 5 years, or subjects with a history of completely resected non-melanoma skin cancer or successfully treated in situ carcinoma are eligible. Subjects with second malignancies that are indolent or definitively treated may be enrolled. Consult GSK Medical Monitor if unsure whether second malignancies meet requirements specified above\n* Any serious and/or unstable pre-existing medical (aside from malignancy exception above), psychiatric disorder, or other conditions that could interfere with subject's safety, obtaining informed consent or compliance to the study procedures, in the opinion of the Investigator or GSK Medical Monitor\n* History of interstitial lung disease or pneumonitis\n* History or current evidence / risk of retinal vein occlusion (RVO) or central serous retinopathy (CSR)\n* Symptomatic or untreated leptomeningeal or brain metastases or spinal cord compression\n* History of acute coronary syndromes (including unstable angina), coronary angioplasty, or stenting within the past 6 months",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    }
+   }
+  },
+  "ageCases": [
+   {
+    "age": 17,
+    "include": false
+   },
+   {
+    "age": 18,
+    "include": true
+   }
+  ]
+ },
+ {
+  "source": "https://clinicaltrials.gov/study/NCT04464174",
+  "rationale": "The triple-negative breast cancer protocol section 5.2, criterion 3 (page 72), limits the LM exclusion to active uncontrolled or symptomatic disease and provides conditions for prior CNS metastases. The protocol also recognizes LM as nonmeasurable disease on page 143.",
+  "expected": {
+   "include": true,
+   "buckets": [
+    "BREAST"
+   ],
+   "status": "COMPLETED"
+  },
+  "study": {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT04464174",
+     "orgStudyIdInfo": {
+      "id": "MedOPP253"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2018-004648-44",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "id": "2018",
+       "type": "NIH",
+       "link": "https://reporter.nih.gov/quickSearch/2018"
+      }
+     ],
+     "organization": {
+      "fullName": "MedSIR",
+      "class": "OTHER"
+     },
+     "briefTitle": "Ipatasertib Plus Non-Taxane Chemotherapy for Advanced or Metastatic Triple-Negative Breast Cancer",
+     "officialTitle": "A Multicenter, Open-Label, Non-Comparative, Three-Arm, Phase IIa Trial of Ipatasertib (GDC-0068) in Combination With Non-Taxane Chemotherapy Agents for Taxane-Pretreated Unresectable Locally Advanced or Metastatic TNBC Patients",
+     "acronym": "PATHFINDER"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2022-06",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2020-10-08",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2023-11-10",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2023-11-10",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-07-06",
+     "studyFirstSubmitQcDate": "2020-07-06",
+     "studyFirstPostDateStruct": {
+      "date": "2020-07-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-07-24",
+     "lastUpdatePostDateStruct": {
+      "date": "2024-07-26",
+      "type": "ACTUAL"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Triple Negative Breast Cancer"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE2"
+     ],
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 54,
+      "type": "ACTUAL"
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "This is a multicenter, open-label, non-comparative, three-arm, phase IIa trial of Ipatasertib (GDC-0068) in combination with non-taxane chemotherapy agents for taxane-pretreated unresectable locally advanced or metastatic triple-negative breast cancer patients",
+     "detailedDescription": "Women age ≥ 18 years with triple-negative unresectable locally advanced or MBC that is not amenable to resection with curative intent.\n\nPatients must have received at least one, but not more than two, prior chemotherapeutic regimens for treatment of unresectable locally advanced and/or metastatic disease (at least one regimen must have contained a taxane).\n\nThe number of patients to be included is 54 patients. The primary objective is to evaluate the safety and tolerability of ipatasertib (GDC-0068) in combination with capecitabine, eribulin, or carboplatin plus gemcitabine in patients with unresectable locally advanced or metastatic triple-negative breast cancer"
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed Informed Consent Form (ICF) prior to participation in any study-related activities.\n2. Female patients ≥ 18 years at the time of signing ICF.\n3. Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 or 1.\n4. Life expectancy of ≥ 12 weeks.\n5. Histologically confirmed Triple Negative Breast Cancer (TNBC) per American Society of Clinical Oncology (ASCO)/College of American Pathologists (CAP) criteria based on local testing on the most recent analyzed biopsy. Triple-negative is defined as \\<1% expression for estrogen receptor (ER) and progesterone receptor (PgR) and negative for Human Epidermal Growth Factor Receptor 2 (HER2) (0-1+ by immunohistochemistry (IHC) or 2+ and negative by in situ hybridization \\[ISH) test\\].\n6. Unresectable locally advanced or metastatic disease documented by computerized tomography (CT) scan or magnetic resonance imaging (MRI) that is not amenable to resection with curative intent.\n7. Measurable or evaluable disease as per RECIST v.1.1. Patients with only bone lesions are also eligible.\n8. Refractory to or relapsed after one or two prior standard of care chemotherapy regimens for unresectable locally advanced or metastatic breast cancer (MBC). Earlier adjuvant or neoadjuvant therapy for more limited disease will be considered as one of the required prior regimens if the development of unresectable locally advanced or metastatic disease occurred within a 12-month period of time after completion of chemotherapy.\n\n   Note: Exclusive tumor marker elevation will not be considered sufficient for diagnosis of disease progression.\n9. Prior therapy must have included a taxane in any combination or order and either in the early, locally advanced, or metastatic setting. Note: Exclusive prior taxane-based therapy as adjuvant or neoadjuvant treatment is also allowed if the patient had a disease-free interval of less than 12 months after completing this treatment.\n10. Eligible for one of the chemotherapy options (eribulin, capecitabine, carboplatin plus gemcitabine) as per local investigator assessment and slots availability. Patients treated with (neo)adjuvant platinum salts or capecitabine and who have relapsed more than one year after the last dose of either treatment may be allowed to be included in the treatment arm based on ipatasertib (GDC-0068) in combination with carboplatin plus gemcitabine and capecitabine, respectively.\n11. Previous treatment with androgen receptor antagonists, poly ADP-ribose Polymerase (PARP) inhibitors, and immunotherapy is allowed. Those patients who have previously received a PARP inhibitor will not be included in the carboplatin and gemcitabine arm unless PARP inhibitors were used in the early breast cancer setting and the period between the end of PARP inhibitor-based regimen and onset of metastatic disease is at least of 12 months.\n12. Resolution of all acute toxic effects of prior anti-cancer therapy to grade inferior or equal to 1 as determined by the NCI-CTCAE v.5.0 (except for alopecia or other toxicities not considered a safety risk for the patient at investigator's discretion).\n13. Willingness and ability to provide a tumor biopsy from a metastatic site or the primary breast tumor at the time of the inclusion in order to perform exploratory studies. If not feasible, patient eligibility should be evaluated by a Sponsor's qualified designee. Note: Subjects for whom tumor biopsies cannot be obtained (e.g., inaccessible tumor or subject safety concern) may submit an archived metastatic tumor specimen only upon agreement from the Sponsor.\n14. Patients agree to give blood samples (liquid biopsy) at the time of inclusion, after two cycles of study treatment, and upon progression or study termination.\n15. Adequate hematologic and organ function within 14 days before the first study treatment on Day 1 of Cycle 1, defined by the following:\n\n    1. Hematological: White blood cell (WBC) count \\> 3.0 x 109/L, absolute neutrophil count (ANC) \\> 1.5 x 109/L, platelet count \\> 100.0 x109/L, and hemoglobin \\> 9.0 g/dL.\n    2. Hepatic: Serum albumin ≥ 3 g/dL; Bilirubin ≤ 1.5 times the upper limit of normal (× ULN) (≤ 3 x ULN in the case of Gilbert's disease); aspartate transaminase (AST) and alanine transaminase (ALT) ≤ 2.5 × ULN (in the case of liver metastases ≤ 5 × ULN); alkaline phosphatase (ALP) ≤ 2 × ULN (≤ 5 × ULN in the case of liver and/or bone metastases ≤ 5 × ULN).\n    3. Renal: Serum creatinine \\< 1.5 × ULN or creatinine clearance ≥ 50 mL/min based on Cockcroft-Gault glomerular filtration rate estimation.\n    4. Coagulation: Partial Thromboplastin Time (PTT) (or activated Partial Thromboplastin Time \\[aPTT\\]) and International Normalized Ratio (INR) ≤ 1.5 × ULN (except for patients receiving anticoagulation therapy).\n\n    Note: Patients receiving heparin treatment should have a PTT (or aPTT) ≤ 2.5 × ULN (or patient value before starting heparin treatment). Patients receiving coumarin derivatives should have an INR between 2.0 and 3.0 assessed in two consecutive measurements one to four days apart. Patients should be on a stable anticoagulant regimen.\n16. For women of childbearing potential: agreement to remain abstinent (refrain from heterosexual intercourse), or to use a highly effective non-hormonal form of contraception, or two effective forms of contraception, as defined in the protocol during the treatment period and for at least 28 days after the last dose of ipatasertib (GDC-0068), three months after the last dose of eribulin, and six months after the last dose of carboplatin and gemcitabine or capecitabine, whichever occurs later, and agreement to refrain from donating eggs during this same period. Women of childbearing potential must have a negative serum pregnancy test before study treatment initiation.\n\nExclusion Criteria:\n\n1. Inability to comply with study and follow-up procedures.\n2. Previous treatment with PI3K, mTOR, or AKT inhibitors.\n3. Known active uncontrolled or symptomatic central nervous system (CNS) metastases, carcinomatous meningitis, or leptomeningeal disease as indicated by clinical symptoms, cerebral edema, and/or progressive growth. Patients with a history of CNS metastases or cord compression are eligible if they have been definitively treated (e.g., radiotherapy, stereotactic surgery), are clinically stable, and off anticonvulsants and steroids for at least two weeks before first dose of study treatment.\n4. Radiotherapy or limited-field palliative radiotherapy within seven days prior to study enrolment, or patients who have not recovered from radiotherapy-related toxicities to baseline or grade ≤ 1 and/or from whom ≥ 25% of the bone marrow has been previously irradiated.\n5. Major surgery (defined as requiring general anesthesia) or significant traumatic injury within 28 days of start of study drug, or patients who have not recovered from the side effects of any major surgery.\n6. Grade ≥ 2 peripheral neuropathy.\n7. Grade ≥ 2 uncontrolled or untreated hypercholesterolemia or hypertriglyceridemia.\n8. History of type I or type II diabetes mellitus either requiring insulin or with a baseline fasting glucose \\> 150 mg/dL (8.3 mmol/L) or high hemoglobin A1c (HbA1c) as defined as \\> 7%. Patients who are on a stable dose of oral diabetes medication during at least weeks prior to initiation of study treatment are eligible for enrolment.\n9. Lung disease: pneumonitis, interstitial lung disease, idiopathic pulmonary fibrosis, cystic fibrosis, Aspergillosis, active tuberculosis, or history of opportunistic infections (pneumocystis pneumonia or cytomegalovirus pneumonia).\n10. History of malabsorption syndrome or other condition that would interfere with enteral absorption or results in the inability or unwillingness to swallow pills.\n11. History of or active inflammatory bowel disease (e.g., Crohn's disease and ulcerative colitis) or active bowel inflammation (e.g., diverticulitis).\n12. Known hypersensitivity reaction to any investigational or therapeutic compound or their incorporated substances.\n13. Patients have a concurrent malignancy or malignancy within five years of study enrollment with the exception of carcinoma in situ of the cervix, non-melanoma skin carcinoma, or stage I uterine cancer. For other cancers considered to have a low risk of recurrence, discussion with the Medical Monitor is required.\n14. Current known infection with HIV, hepatitis B virus (HBV), or hepatitis C virus (HCV). Patients with past HBV infection or resolved HBV infection (defined as having a negative hepatitis B surface antibody \\[HBsAg\\] test and a positive hepatitis B core antibody \\[HBcAb\\] test, accompanied by a negative HBV DNA test) are eligible. Patients positive for HCV antibody are eligible only if polymerase chain reaction (PCR) is negative for HCV RNA.\n15. Active uncontrolled infection at the time of enrollment.\n16. Congenital long QT syndrome or screening QT interval corrected using Fridericia's formula (QTcF) \\> 480 milliseconds.\n17. Patients have an active cardiac disease or a history of cardiac dysfunction including any of the following:\n\n    1. Unstable angina pectoris or documented myocardial infarction within six months prior to study entry.\n    2. Symptomatic pericarditis.\n    3. Documented congestive heart failure (New York Heart Association functional classification III- IV).\n    4. Left ventricular ejection fraction (LVEF) \\< 50% as determined by multiple gated acquisition (MUGA) scan or echocardiogram (ECHO).\n18. Patients have any of the following cardiac conduction abnormalities:\n\n    1. Ventricular arrhythmias except for benign premature ventricular contractions.\n    2. Supraventricular and nodal arrhythmias requiring a pacemaker or not controlled with medication.\n    3. Conduction abnormality requiring a pacemaker.\n    4. Other cardiac arrhythmia not controlled with medication.\n19. Patients have any other concurrent severe and/or uncontrolled medical condition that would, in the investigator's judgment contraindicate patient participation in the clinical study.\n20. Treatment with strong CYP3A inhibitors or strong CYP3A inducers within 14 days or five drug-elimination half-lives, whichever is longer, prior to initiation of study treatment.\n21. Pregnant, breastfeeding, or intending to become pregnant during the study or within 28 days after the last dose of ipatasertib (GDC-0068), three months after the last dose of eribulin, and six months after the last dose of carboplatin and gemcitabine or capecitabine, whichever occurs later.\n22. Treatment with approved or investigational cancer therapy within 14 days prior to initiation of study drug.\n23. Concurrent participation in other interventional clinical trial.",
+     "healthyVolunteers": false,
+     "sex": "FEMALE",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    }
+   }
+  },
+  "ageCases": [
+   {
+    "age": 17,
+    "include": false
+   },
+   {
+    "age": 18,
+    "include": true
+   }
+  ]
+ },
+ {
+  "source": "https://clinicaltrials.gov/study/NCT04670913",
+  "rationale": "Advanced non-squamous NSCLC study names meningeal metastases within its CNS criteria and expressly allows those CNS cases when asymptomatic or treated and off corticosteroids for two weeks.",
+  "expected": {
+   "include": true,
+   "buckets": [
+    "LUNG"
+   ],
+   "status": "UNKNOWN"
+  },
+  "study": {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT04670913",
+     "orgStudyIdInfo": {
+      "id": "NCC2607"
+     },
+     "organization": {
+      "fullName": "Peking Union Medical College",
+      "class": "OTHER"
+     },
+     "briefTitle": "Camrelizumab Plus Apatinib for Advanced Non-Squamous NSCLC Previously Treated With First-Line Immunotherapy",
+     "officialTitle": "A Single-Arm Phase II Trial of Camrelizumab Plus Apatinib for Advanced Non-Squamous NSCLC Previously Treated With First-Line Immunotherapy"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2021-06",
+     "overallStatus": "UNKNOWN",
+     "lastKnownStatus": "RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2021-06-28",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2021-12",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2022-06",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2020-11-26",
+     "studyFirstSubmitQcDate": "2020-12-14",
+     "studyFirstPostDateStruct": {
+      "date": "2020-12-17",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-06-27",
+     "lastUpdatePostDateStruct": {
+      "date": "2021-06-29",
+      "type": "ACTUAL"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Advanced Non Squamous NSCLC"
+     ],
+     "keywords": [
+      "programmed cell death 1 (PD-1, PD1)",
+      "programmed cell death-ligand 1 (PD-L1, PDL1)",
+      "anti-angiogenesis",
+      "First-Line Immunotherapy"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE2"
+     ],
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 30,
+      "type": "ESTIMATED"
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "The purpose of this study is to assess the efficacy and safety of Camrelizumab plus Apatinib in the treatment of advanced non-squamous NSCLC previously treated with first-line immunotherapy",
+     "detailedDescription": "This trial will evaluate the safety and efficacy of Camrelizumab plus Apatinib in participants with advanced non-squamous NSCLC previously treated with first-line immunotherapy. The primary objective of this pilot study is to determine the Camrelizumab plus Apatinib improves progression-free survival (PFS) . All the efficacy and safety are assessed by investigator : 1) response rate (ORR), 2) duration of response(DoR), 3) overall survival(OS), 4) disease control rate (DCR); the safety and quality of life assessment Explore objective is potential biomarker associated with efficacy."
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n1. Provision of signed (infomed consent form, ICF).\n2. The best response of first-line immunotherapy was SD or above, and PFS was at least 3 months.\n3. Male and female aged ≥18 years and ≤75 years.\n4. Subjects with histologically or cytologically-documented non-squamous cell NSCLC who present with Stage IIIB/IV disease or recurrent or progressive disease following multimodal therapy.\n5. Patients who are unwilling to receive chemotherapy after disease recurrence or progression during/after first-line treatment including PD-(L)1 combined with chemotherapy, and PD-(L)1 monotherapy for advanced or metastatic disease.\n6. Measurable disease by Computed Tomography (CT) or Magnetic Resonance Imaging (MRI) per RECIST 1.1 criteria.\n7. Eastern Cooperative Oncology Group (ECOG) performance status 0-1.\n8. Subjects are eligible if CNS metastases are asymptomatic or treated.\n9. Life expectancy ≥12 weeks.\n10. Fertile female must agree to use adequate contraception within 24 weeks from the beginning of the first dose of study medication to the last dose.\n11. Adequate organ and marrow function.\n\nExclusion Criteria:\n\n1. Prior treatment with anti-tumor virus, or prior T cell co-stimulation factors,including anti-Cytotoxic T lymphocyte-associated antigen 4 (anti-CTLA-4) antibody or other T cell-targeted drugs.\n2. Subjects who had discontinued prior treatment due to immune-related adverse events (irAEs) or who are not suitable for PD-(L)1 treatment assessed by the investigator.\n3. Subjects with histologically or cytologically-documented squamous cell NSCLC.\n4. Prior treatments with anti-angiogenic agents.\n5. Subjects with activated EGFR gene mutation or ALK fusion mutation.\n6. Untreated or active central nervous system metastases (such as brain or meningeal metastases). Subjects are eligible if CNS metastases are asymptomatic or treated and subjects are off corticosteroids for at least 2 weeks prior to first dose of study therapy.\n7. Radiotherapy for the chest and whole brain should be completed within 4 weeks before the first dose of study drug (palliative radiotherapy for bone lesions should be completed before the first dose of study drugs).\n8. History of active or recent history of known or suspected autoimmune disease.\n9. History of idiopathic pulmonary fibrosis (including pneumonitis), drug-induced pneumonitis, radiation pneumonitis requiring steroid therapy, or evidence of active pneumonitis with clinical symptoms.\n10. History of active tuberculosis regardless of prior treatment.\n11. Malignancies other than NSCLC within 5 years prior to first administration of drugs, with the exception of those with a negligible risk of metastasis or death and treated with expected curative outcome, such as cervical carcinoma in situ, basal cell or squamous cell skin cancer, local prostate cancer after radical resection, and ductal carcinoma in situ after radical resection.\n12. Known mental illness, alcohol abuse, inability to quit smoking, drug or drug abuse, etc.\n13. Active hepatitis B or hepatitis C; History of known HIV-positive history or known AIDS.\n14. Treatment with any investigational agent within 28 days of signing ICF.\n15. According to the judgment of the investigator, subjects have other factors that may cause the study to be terminated halfway, such as non-compliance with the protocol, other serious diseases (including mental illness) requiring combined treatment, severe laboratory abnormalities, and Factors such as family or society will affect the safety of subjects or the collection of data and samples.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "75 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    }
+   }
+  },
+  "ageCases": [
+   {
+    "age": 17,
+    "include": false
+   },
+   {
+    "age": 18,
+    "include": true
+   }
+  ]
+ },
+ {
+  "source": "https://clinicaltrials.gov/study/NCT05207904",
+  "rationale": "The squamous NSCLC brain-metastasis inclusion criteria expressly allow local meningeal metastases with the required parenchymal lesions; extensive meningeal disease is excluded.",
+  "expected": {
+   "include": true,
+   "buckets": [
+    "LUNG"
+   ],
+   "status": "UNKNOWN"
+  },
+  "study": {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT05207904",
+     "orgStudyIdInfo": {
+      "id": "B2020-241"
+     },
+     "organization": {
+      "fullName": "Sun Yat-sen University",
+      "class": "OTHER"
+     },
+     "briefTitle": "Tislelizumab Plus Chemotherapy as First-Line Treatment for Advanced Squamous NSCLC With Brain Metastases",
+     "officialTitle": "A Phase II, Prospective Clinical Study to Evaluate the Efficacy and Safety of Tislelizumab Plus Chemotherapy as First-Line Treatment in Patients With Brain Metastases of Squamous Non-small Cell Lung Cancer"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2022-01",
+     "overallStatus": "UNKNOWN",
+     "lastKnownStatus": "RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2021-06-17",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2022-12-30",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2023-06-30",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2021-12-12",
+     "studyFirstSubmitQcDate": "2022-01-12",
+     "studyFirstPostDateStruct": {
+      "date": "2022-01-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-01-12",
+     "lastUpdatePostDateStruct": {
+      "date": "2022-01-26",
+      "type": "ACTUAL"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non-Small Cell Squamous Lung Cancer",
+      "Brain Metastases"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE2"
+     ],
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 41,
+      "type": "ESTIMATED"
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "This study is a prospective, single-arm, phase II clinical study to evaluate the efficacy and safety of Tislelizumab Plus Chemotherapy in patients with squamous NSCLC with brain metastases who had not previously received systemic therapy."
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n1. Histologically or cytologically confirmed squamous non-small cell lung cancer;\n2. Asymptomatic brain metastases or brain metastases that are relieved by dehydration therapy and remain clinically stable for at least 2 weeks\n3. MRI confirmed tumor parenchymal metastases, ≥ 3 brain lesions; or patients with 1-2 brain lesions but do not require local treatment or refuse local treatment. At least one measurable lesion in the brain lesion must be ≥ 5mm in diameter; patients with local meningeal metastasis are allowed, but those with extensive meningeal metastasis are not included\n4. Patients with stable brain metastasis symptoms after stereotactic radiotherapy are allowed (the number of stereotactic radiotherapy lesions is not more than 3)\n5. No prior systemic treatment for metastatic NSCLC\n6. Tumor tissue biomarker detection results must meet the following conditions at the same time: （1）EGFR mutation negative.（2）ALK rearrangement negative.（3）There are sufficient tissue samples for PD-L1 detection\n7. Aged ≥ 18 years and ≤ 75 years\n8. ECOG (Eastern Cooperative Oncology Group) performance status ≤ 1\n9. Life expectancy of more than 3 months\n10. Have adequate organ function as indicated by the following laboratory values\n11. Written informed consent before any trial-related procedures are performed\n\nExclusion Criteria:\n\nSubjects with any of the following criteria may not be included in this study:\n\n1. With mixed adenosquamous carcinoma or small cell lung cancer mainly composed of adenocarcinoma\n2. Currently participating in interventional clinical study treatment, or have received other investigational drugs or investigational device treatment before the first dose;\n3. Received prior therapies targeting PD-1, PD-L1, CTLA-4, cytotoxic chemotherapy or other immune checkpoints inhibitors\n4. Received solid organ or blood system transplantation\n5. Have active autoimmune diseases requiring systemic therapy within 2 years before the first dose\n6. Diagnosis of immunodeficiency or systemic glucocorticoid therapy or any other form of immunosuppressive therapy within 7 days before the first dose of the study\n7. History of non-infectious pneumonia requiring glucocorticoid therapy or current interstitial lung disease within 1 year before the first dose\n8. Known history of human immunodeficiency virus (HIV) infection\n9. Untreated active hepatitis B; Note: hepatitis B subjects who meet the following criteria are also eligible: a) HBV viral load must be \\< 1000 copies/ml before the first dose, and subjects should receive anti-HBV therapy to avoid viral reactivation throughout the study chemotherapy drug treatment b) For subjects with anti-HBc (+), HBsAg (-), anti-HBs (-), and HBV viral load (-), prophylactic anti-HBV therapy is not required, but viral reactivation needs to be closely monitored;\n10. Subjects with active HCV infection\n11. Pregnant and lactating women\n12. Malignant tumors other than NSCLC within 5 years before screening, except for adequately treated cervical carcinoma in situ, basal cell or squamous cell epithelial skin cancer, local prostate cancer after radical resection, and ductal carcinoma in situ after radical resection",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "75 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    }
+   }
+  },
+  "ageCases": [
+   {
+    "age": 17,
+    "include": false
+   },
+   {
+    "age": 18,
+    "include": true
+   }
+  ]
+ },
+ {
+  "source": "https://clinicaltrials.gov/study/NCT07912723",
+  "rationale": "The diagnostic observational EGFR-mutant NSCLC study requires malignant CSF cytology and defines its cohort as CSF-confirmed LM. The production registry search already retrieves it.",
+  "expected": {
+   "include": true,
+   "buckets": [
+    "LUNG"
+   ],
+   "status": "ACTIVE_NOT_RECRUITING"
+  },
+  "study": {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07912723",
+     "orgStudyIdInfo": {
+      "id": "LCLM-01"
+     },
+     "organization": {
+      "fullName": "Fujian Cancer Hospital",
+      "class": "OTHER_GOV"
+     },
+     "briefTitle": "SERS-Based Diagnosis of Leptomeningeal Metastasis in EGFR-Mutant NSCLC",
+     "officialTitle": "Development and Validation of a SERS-based Diagnostic Approach for Leptomeningeal Metastasis in EGFR-mutant Advanced NSCLC: a Prospective Multicenter Study",
+     "acronym": "SERS"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2026-08",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2026-01-24",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2027-06-30",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2027-06-30",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2026-09-14",
+     "studyFirstSubmitQcDate": "2026-10-29",
+     "studyFirstPostDateStruct": {
+      "date": "2026-11-03",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-29",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-11-03",
+      "type": "ACTUAL"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Lung Adenocarcinoma EGFR-mutated",
+      "Leptomeningeal Metastasis From Lung Cancer"
+     ]
+    },
+    "designModule": {
+     "studyType": "OBSERVATIONAL",
+     "patientRegistry": false,
+     "designInfo": {
+      "observationalModel": "CASE_CONTROL",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 74,
+      "type": "ESTIMATED"
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "This prospective, multicenter study aims to address the low sensitivity of cerebrospinal fluid (CSF) cytology (60-70%) in diagnosing leptomeningeal metastasis (LM) in patients with EGFR-mutant lung cancer. We will establish a diagnostic methodology and develop a predictive model using surface-enhanced Raman spectroscopy (SERS) technology to improve diagnostic accuracy and guide subsequent clinical management."
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\nAge ≥ 18 years; Pathologically confirmed NSCLC; EGFR-sensitive mutations (19del, L858R, or uncommon mutations); Positive CSF cytology for malignant cells; No prior treatment or prior systemic therapy allowed; Complete medical records available (demographics, pathology, molecular pathology, imaging); Signed informed consent and willingness to complete the study.\n\nExclusion Criteria:\n\nPathologically confirmed mixed histology containing small cell lung cancer (SCLC) components; Presence of other primary malignancies other than lung cancer; Molecular pathology indicating concurrent other driver mutations, including ALK, ROS1, or other oncogenic alterations; Co-existing neurological diseases unrelated to the tumor; Severe cardiac or pulmonary dysfunction; Pregnancy or lactation.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ],
+     "studyPopulation": "Study participants will be recruited from outpatient clinics and inpatient wards across three tertiary hospitals. The target population comprises patients with advanced non-small cell lung cancer (NSCLC) who have been histologically or cytologically confirmed to harbor EGFR-sensitive mutations, and who have leptomeningeal metastasis verified by cerebrospinal fluid (CSF) cytology. Both treatment-naïve patients and those who have undergone prior systemic anti-tumor therapy are eligible. All participants must be aged 18 years or older, have comprehensive clinical records accessible, and voluntarily sign the informed consent form.",
+     "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    }
+   }
+  },
+  "ageCases": [
+   {
+    "age": 17,
+    "include": false
+   },
+   {
+    "age": 18,
+    "include": true
+   }
+  ]
+ },
+ {
+  "source": "https://clinicaltrials.gov/study/NCT07630974",
+  "rationale": "The CNS exclusion names LM and carcinomatous meningitis. The exception is limited to qualifying brain metastases.",
+  "expected": {
+   "include": false,
+   "buckets": [],
+   "status": "RECRUITING"
+  },
+  "study": {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07630974",
+     "orgStudyIdInfo": {
+      "id": "9999-01D"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "U1111-1322-6561",
+       "type": "REGISTRY",
+       "domain": "UTN"
+      },
+      {
+       "id": "2025-522339-32-00",
+       "type": "REGISTRY",
+       "domain": "EU CT"
+      },
+      {
+       "id": "LIGHTBEAM-U01",
+       "type": "OTHER",
+       "domain": "MSD"
+      },
+      {
+       "id": "MK-9999-01D",
+       "type": "OTHER",
+       "domain": "MSD"
+      },
+      {
+       "id": "2025",
+       "type": "NIH",
+       "link": "https://reporter.nih.gov/quickSearch/2025"
+      }
+     ],
+     "organization": {
+      "fullName": "Merck Sharp & Dohme LLC",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "A Study of Ifinatamab Deruxtecan in Pediatric Participants With Relapsed or Refractory Solid Tumors (MK-9999-01D/LIGHTBEAM-U01)",
+     "officialTitle": "LIGHTBEAM-U01 Substudy 01D: A Phase 1b/2 Substudy to Evaluate the Safety and Efficacy of Ifinatamab Deruxtecan in Pediatric Participants With Relapsed or Refractory Solid Tumors"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2026-10",
+     "overallStatus": "RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2026-07-06",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2031-08-17",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2031-08-17",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2026-06-01",
+     "studyFirstSubmitQcDate": "2026-06-01",
+     "studyFirstPostDateStruct": {
+      "date": "2026-06-05",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-28",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-30",
+      "type": "ACTUAL"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Malignant Neoplasm"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 134,
+      "type": "ESTIMATED"
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "Researchers are looking for new ways to treat children with relapsed or refractory solid tumors:\n\n* Relapsed means the cancer came back after treatment\n* Refractory means the cancer did not respond (get smaller or go away) to treatment\n* Solid tumors are cancers mostly in body organs and tissues, not in the blood or other body liquids\n\nThe study treatment I-DXd (also known as MK-2400 or ifinatamab deruxtecan) is an antibody-drug conjugate (ADC). An ADC attaches to a protein on cancer cells and delivers treatment to destroy those cells. The goals of this study are to learn:\n\n* About the safety of I-DXd and if children younger than 12 years old tolerate it\n* How many children who receive I-DXd have the cancer get smaller or go away",
+     "detailedDescription": "This study will have 2 parts: Part 1 will evaluate the safety and tolerability and determine the recommended dose for expansion (RDE) of I-DXd, followed by Part 2 an efficacy expansion."
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "The main inclusion criteria include but are not limited to the following:\n\n* In Part 1, participant has recurrent or relapsed, refractory solid tumors (excluding primary central nervous system (CNS)); and in Part 2, participant has recurrent or relapsed, refractory and histologically confirmed diagnosis of osteosarcoma (OST), neuroblastoma (NBL), rhabdomyosarcoma (RMS), or Wilms tumor (WT). All participants must meet the following criteria: Has documented radiological disease progression after at least 1 line of prior therapy in the locally advanced/metastatic setting and who has no satisfactory alternative treatment option (ie, is ineligible for other standard treatment regimens).\n* Is an individual of any sex/gender, ≥1 month to \\<12 years of age for Part 1 and ≥1 month to \\<18 years for Part 2 at the time of providing the informed consent or assent, as applicable\n* Participants who have AEs due to previous anticancer therapies must have recovered to ≤Grade 1 or baseline. Participants with endocrine-related AEs who are adequately treated with hormone replacement or participants who have ≤Grade 2 neuropathy are eligible.\n\nThe main exclusion criteria include but are not limited to the following:\n\n* Has clinically significant corneal disease\n* Has a history of cerebrovascular accident, transient ischemic attack, or another arterial thromboembolic event within 6 months before screening\n* Has uncontrolled or significant cardiovascular disease, including conduction abnormalities, hypertension, ischemic heart disease, heart failure, and peripheral vascular disease\n* Has any history of interstitial lung disease (ILD)/pneumonitis, irrespective of steroid use, except for a history of radiation pneumonitis that did not require steroids, current ILD, or Clinical or radiographic suspicion of ILD for which the diagnosis of ILD cannot be ruled out\n* Has clinically severe respiratory compromise resulting from intercurrent pulmonary illnesses\n* Has an active, known or suspected autoimmune disease.\n* Has history of solid organ transplant.\n* Has history of allogeneic stem cell transplant (SCT).\n* Has known active CNS metastases and/or carcinomatous meningitis/leptomeningeal disease/spinal cord compression. Participants with untreated and asymptomatic brain metastases or previously treated brain metastases may participate provided they are radiologically stable, (i.e, without evidence of progression) for at least 4 weeks\n* Has history of human immunodeficiency virus (HIV) infection.\n* Has known additional malignancy that is progressing or has required active treatment within the past 1 year.\n* Has active infection requiring systemic therapy\n* Has known hypersensitivity or contraindication to either the study intervention substance or inactive ingredients in the study intervention product\n* Participants who have not adequately recovered from major surgery or have ongoing surgical complications",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "1 Month",
+     "maximumAge": "17 Years",
+     "stdAges": [
+      "CHILD"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "source": "https://clinicaltrials.gov/study/NCT01678690",
+  "rationale": "The exclusion expressly covers any leptomeningeal metastases.",
+  "expected": {
+   "include": false,
+   "buckets": [],
+   "status": "COMPLETED"
+  },
+  "study": {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT01678690",
+     "orgStudyIdInfo": {
+      "id": "HR-11-001"
+     },
+     "organization": {
+      "fullName": "InnoPharmax Inc.",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "An Exploratory Study of Gemcitabine Hydrochloride Oral Formulation (D07001-F4) in Subjects With Malignant Tumors",
+     "officialTitle": "An Open-Label, Exploratory, Limited Dose Escalation Study to Evaluate the Pharmacokinetics, Safety and Tolerability of Gemcitabine Hydrochloride Oral Formulation (D07001-F4) in Subjects With Malignant Tumors"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2016-08",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2012-08"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2014-04",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2014-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2012-08-29",
+     "studyFirstSubmitQcDate": "2012-08-30",
+     "studyFirstPostDateStruct": {
+      "date": "2012-09-05",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2016-08-31",
+     "lastUpdatePostDateStruct": {
+      "date": "2016-09-02",
+      "type": "ESTIMATED"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Malignant Tumors"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "EARLY_PHASE1"
+     ],
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 11,
+      "type": "ACTUAL"
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "Open-label, Phase 0, dose-escalation study of 3 successive cohorts (3 subjects per cohort), to determine and characterize the plasma PK of gemcitabine HCl oral formulation (D07001-F4) administered once on Day 1 with 7 Days of study follow-up. In addition, oral tolerability and safety will also be assessed during this 1-week period."
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or female subjects aged 18 years and older.\n2. Signed and dated informed consent form.\n3. Subjects with malignancies with histological or pathologic confirmation and who are clinically stable.\n4. History of treatment with at least 1 cytotoxic chemotherapy regimen for the current malignancy.\n5. If the subject has received cytotoxic chemotherapy within the past 14 days, the subject is beyond the nadir of white blood cell and platelet counts.\n6. At least 28 days have elapsed since the subject's prior radiotherapy or any major surgery (excluding diagnostic biopsy or venous access device placement).\n7. World Health Organization (WHO) performance status 0 to 2\n8. Subject has an ANC ≥1500 cells/mm³, platelet count ≥ 100,000 cells/mm³, and hemoglobin ≥ 9 g/dL.\n9. Subject has adequate liver function demonstrated by transaminases within normal limits (aspartate transaminase and alanine transaminase), total bilirubin ≤ 1.5 mg/dL (unless due to Gilbert's syndrome), albumin ≥ 2.5 g/dL, international normalized ratio \\[INR\\] \\< 1.5).\n10. Subject has adequate renal function: serum creatinine ≤ 1.5 x upper limit of normal.\n11. Subject has a life expectancy \\>24 weeks.\n12. If a women of child-bearing potential, subject has a negative pregnancy test and is not breast-feeding.\n13. If a women of child-bearing potential, subject is using a medically acceptable form of birth control prior to screening and for the duration of their study participation and for 1 month after the end of the study.\n14. Subject is willing to comply with protocol-required visit schedule and visit requirements and provide written informed consent.\n\nExclusion Criteria:\n\n1. Subject has rapidly progressive disease or rapid clinical deterioration as assessed by the Investigator.\n2. Subject is receiving full-dose (therapeutic) anticoagulation therapy.\n3. Subject is receiving concomitant radiotherapy.\n4. Subject is intolerant or allergic or has a known hypersensitivity to gemcitabine.\n5. Subject has clinically significant cardiovascular disease (for example: uncontrolled hypertension, unstable angina, congestive heart failure, or New York Heart Association Grade 2 or greater).\n6. Subject has uncontrolled serious cardiac arrhythmia.\n7. Subject has known active brain metastases, or any leptomeningeal metastases.\n8. Subject has a history of drug or alcohol abuse within last year.\n9. Subject has documented cerebrovascular disease.\n10. Subject has a seizure disorder not controlled on medication.\n11. Subject received an investigational agent within 30 days of screening.\n12. Subject received systemic treatment for infection within 14 days of screening.\n13. Subject has known human immunodeficiency virus infection or viral hepatitis.\n14. Subject has any other serious medical condition that, in the investigator's medical opinion, would preclude safe participation in a clinical trial.\n15. Subject has gastrointestinal disease or prior gastrointestinal surgery that may interfere with adequate oral therapy absorption.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    }
+   }
+  }
  }
 ]
