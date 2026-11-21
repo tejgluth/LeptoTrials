@@ -20067,5 +20067,1318 @@
     }
    }
   }
+ },
+ {
+  "source": "https://clinicaltrials.gov/study/NCT01621906",
+  "rationale": "Breast adenocarcinoma criteria and explicit exception for cranial-only LM with concomitant parenchymal brain metastases; spinal LM remains excluded.",
+  "expected": {
+   "include": true,
+   "buckets": [
+    "BREAST"
+   ],
+   "status": "COMPLETED"
+  },
+  "ageCases": [
+   {
+    "age": 17,
+    "include": false
+   },
+   {
+    "age": 18,
+    "include": true
+   }
+  ],
+  "study": {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT01621906",
+     "orgStudyIdInfo": {
+      "id": "12-039"
+     },
+     "organization": {
+      "fullName": "Memorial Sloan Kettering Cancer Center",
+      "class": "OTHER"
+     },
+     "briefTitle": "18F-FLT-PET Imaging of the Brain in Patients With Metastatic Breast Cancer to the Brain Treated With Whole Brain Radiation Therapy With or Without Sorafenib: Comparison With MR Imaging of the Brain",
+     "officialTitle": "Pilot Study of 18F-FLT-PET Imaging of the Brain in Patients With Metastatic Breast Cancer to the Brain Treated With Whole Brain Radiation Therapy With or Without Sorafenib: Comparison With MR Imaging of the Brain"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2021-06",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2012-06-13",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2021-05-27",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2021-05-27",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2012-06-14",
+     "studyFirstSubmitQcDate": "2012-06-15",
+     "studyFirstPostDateStruct": {
+      "date": "2012-06-18",
+      "type": "ESTIMATED"
+     },
+     "resultsFirstSubmitDate": "2022-05-10",
+     "resultsFirstSubmitQcDate": "2022-08-15",
+     "resultsFirstPostDateStruct": {
+      "date": "2022-09-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-08-15",
+     "lastUpdatePostDateStruct": {
+      "date": "2022-09-09",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "Memorial Sloan Kettering Cancer Center",
+      "class": "OTHER"
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "The purpose of this study is to compare two different imaging methods to examine the response of brain metastases to WBRT. These two imaging methods will take pictures of the brain using : 1) a positron emission tomography (PET) scanner and 2) Magnetic Resonance Imaging (MRI) scanner. A PET scanner resembles a CT or MR scanner.PET scans use radioactive substances also called as radioactive markers to \"see\" cancer cells. We plan to use \\[18F\\]FLT as a radioactive marker. FLT is used to image tumor growth. FLT PET scan is a new clinical procedure. It is in the testing stage of development unlike FDG-PET which is used more commonly used. Therefore, this is considered a \"research\" study. This will help us evaluate whether this scan will be safe and better used in the future to evaluate tumors. The amount of radiation to the body is small. The radiation from the radiotracer drug will be gone from the body in a few hours. There is no radiation risk from the MRI scans. Additionally, we also plan to use MRI imaging of the brain. We expect that \\[18F\\]FLT PET is better when compared to MRI and will give us more information about the brain metastases after WBRT."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Metastatic Breast Cancer to the Brain"
+     ],
+     "keywords": [
+      "Breast",
+      "brain metastases",
+      "18F-FLT-PET Imaging",
+      "FLT(3'DEOXY-3'FLUOROTHYMIDINE)",
+      "MR Imaging",
+      "12-039"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "DIAGNOSTIC",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 17,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Cohort 1",
+       "type": "EXPERIMENTAL",
+       "description": "Cohort 1 will include the first ten patients treated with WBRT concomitantly with sorafenib (on a separate phase I trial). We will perform a pilot study of serial FLT-PET imaging of the brain at baseline (\\< 4 weeks prior to initiation of WBRT), up to 7-10 days post-WBRT and 10-12 weeks after WBRT in patients with metastatic breast cancer to the brain (N=20) treated with WBRT with or without sorafenib.",
+       "interventionNames": [
+        "Device: 18F-FLT-PET Imaging"
+       ]
+      },
+      {
+       "label": "Cohort 2",
+       "type": "EXPERIMENTAL",
+       "description": "Cohort 2 will include patients treated with standard WBRT alone. Patients in both these cohorts will also be assessed with standard non-invasive MRI in addition to \\[18F\\] FLT PET at baseline (\\< 4 weeks of WBRT) and 10-12 weeks after completion of WBRT.",
+       "interventionNames": [
+        "Device: 18F-FLT-PET Imaging"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DEVICE",
+       "name": "18F-FLT-PET Imaging",
+       "description": "All patients will be imaged using FLT-PET scans at baseline (within 4 weeks of initiation of WBRT), 7-10 days after completion of WBRT and then 10-12 weeks after WBRT.\n\nPatients will also be evaluated with MRI imaging at baseline and then 10-12 weeks after WBRT.\n\nPatients will be followed with MRI every 3 months (+/- 7 days) for the first year and then every 6 months (+/- 7 days) thereafter which is the standard of care.",
+       "armGroupLabels": [
+        "Cohort 1"
+       ]
+      },
+      {
+       "type": "DEVICE",
+       "name": "18F-FLT-PET Imaging",
+       "description": "All patients will be imaged using FLT-PET scans at baseline (within 4 weeks of initiation of WBRT), 7-10 days after completion of WBRT and then 10-12 weeks after WBRT.\n\nPatients will also be evaluated with MRI imaging at baseline and then 10-12 weeks after WBRT.\n\nPatients will be followed with MRI every 3 months (+/- 7 days) for the first year and then every 6 months (+/- 7 days) thereafter which is the standard of care.",
+       "armGroupLabels": [
+        "Cohort 2"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Overall Response Rate",
+       "description": "Overall Response Rate is the proportion of participants who had a complete or partial response (Cohort 1)",
+       "timeFrame": "1 year"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Change in Avg SUV Max From Baseline to 1 Year",
+       "description": "Comparing FLT PET findings with tissue analysis will enable us to determine if imaging results are concordant with histological findings and thus allow for confirmation of this hypothesis. In this manner, we propose to generate a bridge between tissue analysis and FLT-PET brain imaging studies. For patients needing to undergo craniotomy for resection of a brain metastasis after WBRT, tissue findings (radionecrosis versus viable tumor) will be correlated with radiologic assessment in an exploratory manner.",
+       "timeFrame": "1 year"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologically-confirmed (confirmation done at MSKCC) metastatic adenocarcinoma of the breast\n* Radiologic evidence of new and/or progressive brain metastases ((≥10 mm in longest dimension) by MRI imaging of the Brain\n* Planned WBRT based on number (≥ 3 lesions) and/or size (≥ 1 cm) of brain metastases.\n* Age ≥18 years; males and females\n* Patients who require additional clinically indicated stereotactic radiosurgery (SRS) in addition to WBRT will also be eligible.\n* Life expectancy of \\>12 weeks.\n* Karnofsky Performance Status (KPS) ≥ 70%.\n* Creatinine ≤2.0 times the upper limit of normal.\n* Women of childbearing potential must have a negative serum pregnancy test performed within 7 days prior to enrollment, must be non-lactating and must agree to use adequate contraception prior to enrollment and for the duration of study participation.\n* No limit to prior therapies with last anti-cancer treatment ≥2 weeks from initiation of WBRT. Please note: there is no washout period required for trastuzumab, pertuzumab, for patients who have developed new parenchymal brain metastases while on these agents.\n\nExclusion Criteria:\n\n* Leptomeningeal metastases Please note: leptomeningeal metastases may be allowed if it is limited to cranial metastasis (MRI spine should be completed, within 4 weeks of enrollment, to show that no other leptomeningeal metastases is present) and is not the only metastasis present in the brain.\n* Concurrent administration of lapatinib or other tyrosine kinase inhibitors other than sorafenib\n* Craniotomy or any other major surgery, open biopsy, or significant traumatic injury within 4 weeks of randomization.\n* Concurrent anti-cancer therapy (chemotherapy, hormonal therapy, radiation therapy, surgery, immunotherapy, biologic therapy, or tumor embolization) other than sorafenib, and protocol-specified whole-brain radiotherapy.\n* Use of any investigational drug within 30 days or 5 half-lives, whichever is longer, preceding enrollment.\n* Inability to comply with protocol and /or not willing or not available for follow-up assessments.\n* Any condition which in the investigator's opinion makes the patient unsuitable for the study participation.\n* Patient is incontinent of urine or stool (which would make them unable to tolerate lying still for 60 minutes).\n* Claustrophobia\n* Known allergic reaction to Gd-DTPA\n* Renal insufficiency with recent (\\<3 month old) creatinine \\>2.0",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "Andrew Seidman, MD",
+       "affiliation": "Memorial Sloan Kettering Cancer Center",
+       "role": "PRINCIPAL_INVESTIGATOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Memoral Sloan Kettering Cancer Center",
+       "city": "Basking Ridge",
+       "state": "New Jersey",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 40.70621,
+        "lon": -74.54932
+       }
+      },
+      {
+       "facility": "Memorial Sloan Kettering Monmouth",
+       "city": "Middletown",
+       "state": "New Jersey",
+       "zip": "07748",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 40.39428,
+        "lon": -74.11709
+       }
+      },
+      {
+       "facility": "Memorial Sloan Kettering Cancer Center @ Suffolk",
+       "city": "Commack",
+       "state": "New York",
+       "zip": "11725",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 40.84288,
+        "lon": -73.29289
+       }
+      },
+      {
+       "facility": "Memorial Sloan Kettering Westchester",
+       "city": "Harrison",
+       "state": "New York",
+       "zip": "10604",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 40.96899,
+        "lon": -73.71263
+       }
+      },
+      {
+       "facility": "Memorial Sloan Kettering Cancer Center",
+       "city": "New York",
+       "state": "New York",
+       "zip": "10065",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 40.71427,
+        "lon": -74.00597
+       }
+      },
+      {
+       "facility": "Memorial Sloan Kettering at Mercy Medical Center",
+       "city": "Rockville Centre",
+       "state": "New York",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 40.65871,
+        "lon": -73.64124
+       }
+      }
+     ]
+    },
+    "referencesModule": {
+     "references": [
+      {
+       "pmid": "34109515",
+       "type": "DERIVED",
+       "citation": "Morikawa A, Grkovski M, Patil S, Jhaveri KL, Tang K, Humm JL, Holodny A, Beal K, Schoder H, Seidman AD. A phase I trial of sorafenib with whole brain radiotherapy (WBRT) in breast cancer patients with brain metastases and a correlative study of FLT-PET brain imaging. Breast Cancer Res Treat. 2021 Jul;188(2):415-425. doi: 10.1007/s10549-021-06209-4. Epub 2021 Jun 10."
+      }
+     ],
+     "seeAlsoLinks": [
+      {
+       "label": "Memorial Sloan Kettering Cancer Center",
+       "url": "http://www.mskcc.org/"
+      }
+     ]
+    }
+   }
+  }
+ },
+ {
+  "source": "https://clinicaltrials.gov/study/NCT04101357",
+  "rationale": "The shared medical-conditions exception expressly permits treated, asymptomatic, radiographically stable brain or leptomeningeal metastases without acute steroids. Part 1A permits solid tumors, expressly including NSCLC/SCLC and pancreatic cancer; Part 1B requires extensive-stage SCLC. No breast, melanoma or GBM cohort inferred.",
+  "expected": {
+   "include": true,
+   "buckets": [
+    "LUNG",
+    "OTHER_SOLID"
+   ],
+   "status": "TERMINATED"
+  },
+  "ageCases": [
+   {
+    "age": 17,
+    "include": false
+   },
+   {
+    "age": 18,
+    "include": true
+   }
+  ],
+  "study": {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT04101357",
+     "orgStudyIdInfo": {
+      "id": "BNT411-01"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2019-003593-17",
+       "type": "EUDRACT_NUMBER"
+      }
+     ],
+     "organization": {
+      "fullName": "BioNTech SE",
+      "class": "INDUSTRY"
+     },
+     "briefTitle": "Safety, Pharmacokinetics, Pharmacodynamics, and Preliminary Efficacy Trial of BNT411",
+     "officialTitle": "Phase 1/2a, First-in-human, Open-label, Dose-escalation Trial With Expansion Cohorts to Evaluate Safety, Pharmacokinetics, Pharmacodynamics, and Preliminary Efficacy of BNT411 as a Monotherapy in Patients With Solid Tumors and in Combination With Atezolizumab, Carboplatin and Etoposide in Patients With Chemotherapy-naïve Extensive-stage Small Cell Lung Cancer (ES-SCLC)"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2025-02",
+     "overallStatus": "TERMINATED",
+     "whyStopped": "Sponsor decision",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2020-06-19",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2024-01-19",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2024-05-23",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-09-20",
+     "studyFirstSubmitQcDate": "2019-09-23",
+     "studyFirstPostDateStruct": {
+      "date": "2019-09-24",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2025-01-16",
+     "resultsFirstSubmitQcDate": "2025-02-26",
+     "resultsFirstPostDateStruct": {
+      "date": "2025-03-18",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-02-26",
+     "lastUpdatePostDateStruct": {
+      "date": "2025-03-18",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "BioNTech SE",
+      "class": "INDUSTRY"
+     }
+    },
+    "oversightModule": {
+     "isFdaRegulatedDrug": true,
+     "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+     "briefSummary": "This first-in-human (FIH) trial aimed to establish a safe dose of BNT411 as a monotherapy and in combination with atezolizumab, carboplatin and etoposide. BNT411 is a toll-like receptor 7 (TLR7) agonist which is expected to mount broad innate and adaptive immune reactions, especially in combination with cytotoxic therapies and immune checkpoint inhibitors.",
+     "detailedDescription": "The first part (Part 1A) of this trial was a FIH, open-label, dose-escalation trial studying BNT411 monotherapy in patients with different types of malignant solid tumors in order to determine the safety profile of BNT411. The second part (Part 1B) aimed to determine further the safety profile of BNT411 in combination with atezolizumab, carboplatin and etoposide in patients with chemotherapy-naïve ES-SCLC. The third part (Part 2) was the expansion phase to explore BNT411 further as a monotherapy or in combination with atezolizumab, carboplatin and etoposide in select tumor indications. Different treatment schedules and other indications were planned to be explored in Part 2 of this trial, however, the sponsor decided not to continue with this part of this trial."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Tumor",
+      "Extensive-stage Small Cell Lung Cancer"
+     ],
+     "keywords": [
+      "Solid Tumor",
+      "Extensive-stage Small Cell Lung Cancer"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 54,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Part 1A - monotherapy dose escalation",
+       "type": "EXPERIMENTAL",
+       "description": "BNT411 monotherapy",
+       "interventionNames": [
+        "Drug: BNT411"
+       ]
+      },
+      {
+       "label": "Part 1B - combination dose escalation",
+       "type": "EXPERIMENTAL",
+       "description": "BNT411 in combination with atezolizumab, carboplatin, and etoposide.",
+       "interventionNames": [
+        "Drug: BNT411",
+        "Drug: Atezolizumab",
+        "Drug: Carboplatin",
+        "Drug: Etoposide"
+       ]
+      },
+      {
+       "label": "Part 2 - expansion cohorts",
+       "type": "EXPERIMENTAL",
+       "description": "BNT411 either as monotherapy or in combination with atezolizumab, carboplatin, and etoposide. Please note that the sponsor decided not to continue with this part of this trial.",
+       "interventionNames": [
+        "Drug: BNT411",
+        "Drug: Atezolizumab",
+        "Drug: Carboplatin",
+        "Drug: Etoposide"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DRUG",
+       "name": "BNT411",
+       "description": "intravenous",
+       "armGroupLabels": [
+        "Part 1A - monotherapy dose escalation",
+        "Part 1B - combination dose escalation",
+        "Part 2 - expansion cohorts"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Atezolizumab",
+       "description": "intravenous",
+       "armGroupLabels": [
+        "Part 1B - combination dose escalation",
+        "Part 2 - expansion cohorts"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Carboplatin",
+       "description": "intravenous",
+       "armGroupLabels": [
+        "Part 1B - combination dose escalation",
+        "Part 2 - expansion cohorts"
+       ]
+      },
+      {
+       "type": "DRUG",
+       "name": "Etoposide",
+       "description": "intravenous",
+       "armGroupLabels": [
+        "Part 1B - combination dose escalation",
+        "Part 2 - expansion cohorts"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Number of Participants With Dose Limiting Toxicities (DLTs)",
+       "description": "DLTs were defined as any non-immune-related adverse events (AEs) or immune-related AEs during the first treatment cycle that was of Grade 3 and that did not resolve to Grade 1 or lower within a week, or that were of Grade 4. AEs were graded for severity using National Cancer Institute Common Terminology Criteria for Adverse Events, version 5.0 (NCI-CTCAE v5.0), where Grade 1: Mild; Grade 2: Moderate; Grade 3: Severe; Grade 4 - Life-threatening consequences; and Grade 5: Death related to AE.",
+       "timeFrame": "Cycle 1 (21 Days)"
+      },
+      {
+       "measure": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs), Serious TEAEs (TESAEs) and Grade >=3 TEAEs",
+       "description": "A TEAE was defined as any AE with an onset date on or after the first administration of trial treatment (if AE was absent before the first administration of trial treatment) or worsened after the first administration of trial treatment (if AE was present before the first administration of trial treatment). AEs occurring more than 60 days after last treatment administration were considered as treatment-emergent only if assessed as related to the trial treatment by the investigator. Serious adverse event (SAE): any untoward medical occurrence that, at any dose: resulted in death; was life-threatening; required inpatient hospitalization or prolongation of existing hospitalization; resulted in persistent disability/incapacity; was a congenital anomaly/birth defect or was another medically important condition. AE were graded for severity using NCI-CTCAE v5.0, where Grade 1: Mild; Grade 2: Moderate; Grade 3: Severe; Grade 4 - Life-threatening consequences; and Grade 5: Death related to AE.",
+       "timeFrame": "From Baseline until 60 days after last dose of study treatment (3 years and 11 months)"
+      },
+      {
+       "measure": "Number of Participants Reporting Dose Reduction and/or Discontinuation of BNT411 Due to TEAEs",
+       "description": "Participants with dose reduction and/or discontinuation of BNT411 due to TEAEs are reported.",
+       "timeFrame": "From Baseline until 60 days after last dose of study treatment (3 years and 11 months)"
+      },
+      {
+       "measure": "Maximal Tolerated Dose (MTD) of BNT411",
+       "description": "The MTD defined as the highest tolerated dose was reported based on the DLTs and TEAEs experienced by participants.",
+       "timeFrame": "Cycle 1 (21 days)"
+      },
+      {
+       "measure": "Recommended Phase 2 Dose (RP2D) of BNT411",
+       "description": "RP2D was based on integrated evaluation of safety, tolerability, clinical benefit, pharmacokinetic (PK), and pharmacodynamic data, for all dose levels was tested.",
+       "timeFrame": "Cycle 1 (21 days)"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Pharmacokinetics (PK) Assessment for BNT411: Area Under the Concentration Time Curve (AUC0-last)",
+       "description": "AUC0-last defined as the AUC from time 0 to the last measurable time-point was calculated from plasma concentrations of BNT411 using the linear-log trapezoidal method.",
+       "timeFrame": "Part 1A: Cycle 1 Day 1; Cycle 2 Day 1; Part 1B: Cycle 1 Day 2; Cycle 2 Day 2 (each cycle duration=21 days)"
+      },
+      {
+       "measure": "PK Assessment for BNT411: Clearance (CL)",
+       "description": "Clearance reflects the elimination of the drug from the body was estimated from plasma concentrations of BNT411 as Dose/AUC0-inf. Dose was converted, as necessary, to reflect the amount of anhydrous BNT411 administered.",
+       "timeFrame": "Part 1A: Cycle 1 Day 1; Cycle 2 Day 1; Part 1B: Cycle 1 Day 2; Cycle 2 Day 2 (each cycle duration=21 days)"
+      },
+      {
+       "measure": "PK Assessment for BNT411: Volume of Distribution (Vd)",
+       "description": "Volume of distribution (Vd) is defined as the theoretical volume in which the total amount of drug would need to be uniformly distributed to produce the desired plasma concentration of a drug. Vd was estimated from plasma concentrations of BNT411.",
+       "timeFrame": "Part 1A: Cycle 1 Day 1; Cycle 2 Day 1; Part 1B: Cycle 1 Day 2; Cycle 2 Day 2 (each cycle duration=21 days)"
+      },
+      {
+       "measure": "PK Assessment for BNT411: Maximum Plasma Concentration (Cmax)",
+       "description": "Cmax defined as the maximum observed plasma concentration was estimated from plasma concentrations of BNT411.",
+       "timeFrame": "Part 1A: Cycle 1 Day 1; Cycle 2 Day 1; Part 1B: Cycle 1 Day 2; Cycle 2 Day 2 (each cycle duration=21 days)"
+      },
+      {
+       "measure": "PK Assessment for BNT411: Time to Reach Cmax (Tmax)",
+       "description": "Tmax defined as the time to reach maximum (peak) concentration was estimated from plasma concentrations of BNT411.",
+       "timeFrame": "Part 1A: Cycle 1 Day 1; Cycle 2 Day 1; Part 1B: Cycle 1 Day 2; Cycle 2 Day 2 (each cycle duration=21 days)"
+      },
+      {
+       "measure": "PK Assessment for BNT411: Trough Concentration (Ctrough)",
+       "description": "Ctrough defined as the pre-dose concentrations of BNT411 was estimated from the plasma concentrations of BNT411.",
+       "timeFrame": "Part 1A: Start of infusion on Cycle 1 Day 8, Day 15, Day 22, Day 43; Day 85; Part 1B: Start of infusion on Cycle 1 Day 8, Day 15, Day 23, Day 44 (each cycle duration=21 days)"
+      },
+      {
+       "measure": "PK Assessment for BNT411: Terminal Elimination Half-life (T1/2)",
+       "description": "Terminal elimination half-life was estimated from the plasma concentrations of BNT411.",
+       "timeFrame": "Part 1A: Cycle 1 Day 1; Cycle 2 Day 1; Part 1B: Cycle 1 Day 2; Cycle 2 Day 2 (each cycle duration=21 days)"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\nFor Part 1A:\n\n* Histologically confirmed solid tumor (cytology was allowed for non-small cell lung cancer \\[NSCLC\\], small cell lung cancer \\[SCLC\\] and pancreatic cancer) that was metastatic or unresectable and for which there was no available standard therapy likely to confer clinical benefit, or patients who were not candidates for such available therapy.\n\nFor Part 1B:\n\n* Histologically or cytologically confirmed ES-SCLC (per the Veterans Administration Lung Study Group \\[VALG\\] staging system) who received no prior chemotherapy for extensive stage disease.\n* Those treated with prior chemo/radiotherapy with curative intent for limited-stage small cell lung cancer (LS-SCLC) were treatment-free for at least 6 months since last chemo/radiotherapy.\n* Did not have interstitial lung disease or active, non-infectious pneumonitis.\n\nFor Both Part 1A and Part 1B:\n\n* Male and female \\>= 18 years of age.\n* Must have signed an informed consent form (ICF) indicating that he or she understood the purpose of and procedures required for the trial and were willing to participate in the trial prior to any trial-related assessments or procedures.\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 1.\n* Measurable disease according to RECIST 1.1.\n* Albumin level at screening \\>= 30 g/L.\n* Adequate coagulation function at screening as determined by:\n\n  1. International normalized ratio (INR) or prothrombin time \\<= 1.5 x upper limit normal (ULN; unless on therapeutic anticoagulants with values within therapeutic window),\n  2. Activated partial thromboplastin time (aPTT) \\<= 1.5 x ULN (unless on therapeutic anticoagulants with values within therapeutic window).\n* Adequate hematologic function at screening as determined by:\n\n  1. White blood cell count (WBC) \\>= 3 x 10\\^9/L,\n  2. Absolute neutrophil count (ANC) \\>= 1.5 x 10\\^9/L (patient could not use granulocyte-colony stimulating factor (G-CSF) or granulocyte-macrophage colony stimulating factor (GM-CSF) to achieve these WBC and ANC levels),\n  3. Platelet count \\>= 100 x 10\\^9/L,\n  4. Hemoglobin (Hgb) \\>= 9.0 g/dL.\n* Adequate hepatic function at screening as determined by:\n\n  1. Total bilirubin \\<= 1.5 mg/dL (or \\<= 2.0 mg/dL for patients with known Gilbert's syndrome),\n  2. Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) \\<= 2.5 x ULN; or \\<= 5 x ULN in patients with metastatic liver disease.\n* Adequate renal function at screening as determined by:\n\n  a. Glomerular filtration rate (GFR) \\>= 60 mL/min/1.73 m\\^2 - e.g., according to the abbreviated Modification of Diet in Renal Disease (MDRD) equation: GFR = 186 × (SCr\\^-1.154) × (age\\^-0.203) (where SCr, the serum creatinine level, was expressed in mg/dL; multiplied by 0.742 if the patient was female; multiplied by 1.212, if the patient was African-American (Levey et al., 1999).\n* Were able to attend trial visits as required by the protocol.\n* Women of childbearing potential (WOCBP) must have had a negative serum (beta-human chorionic gonadotropin \\[beta-hCG\\]) test/value at screening. Patients who were postmenopausal or permanently sterilized were considered as not having reproductive potential.\n* WOCBP must have agreed not to donate eggs (ova, oocytes) for the purposes of assisted reproduction during the entire trial, until 6 months after last BNT411 treatment.\n* A man who was sexually active with a WOCBP and had not had a vasectomy must have agreed to use a barrier method of birth control, e.g., either condom with spermicidal foam/gel/film/cream/suppository or partner with occlusive cap (diaphragm or cervical/vault caps) with spermicidal foam/gel/film/cream/suppository, and all men must also not donate sperm during the trial and for 6 months after receiving the last dose of BNT411.\n* All patients must have provided a Formalin Fixed Paraffin Embedded (FFPE) sample from the latest available archival tumor tissue. If such tissue was not provided, the sponsor's approval of enrollment was needed.\n\nExclusion Criteria:\n\nPrior and Concomitant Therapy:\n\n* Had received prior systemic therapy with a TLR7 agonist.\n* Had been receiving: radiotherapy, chemotherapy, or molecularly-targeted agents or tyrosine kinase inhibitors within 2 weeks or 5 half-lives (whichever was longer) of the start of trial treatment; immunotherapy/monoclonal antibodies within 3 weeks of the start of trial treatment; any live vaccine within 4 weeks of the start of trial treatment; nitrosoureas, antibody-drug conjugates, or radioactive isotopes within 6 weeks of the start of trial treatment.\n* Received concurrent systemic (oral or intravenous) steroid therapy \\>10 mg prednisone daily or its equivalent for an underlying condition.\n* Received concurrent strong inhibitors or inducers of the cytochrome P450 enzymes.\n* Had major surgery within the 4 weeks before the first dose of BNT411.\n* Had ongoing or active infection requiring intravenous treatment with anti-infective therapy that has been administered less than two weeks prior to first dose of trial treatment.\n* Had side effects of any prior therapy or procedures for any medical condition not recovered to National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE) v.5 Grade \\<= 1.\n\n  * Notes: peripheral neuropathy Grade \\<= 2 was allowed; alopecia of any grade was allowed.\n\nMedical Conditions\n\n* Evidence of new or growing brain or leptomeningeal metastases during screening. Patients with known brain or leptomeningeal metastases might have been eligible if they:\n\n  1. had radiotherapy, surgery or stereotactic surgery for the brain or leptomeningeal metastases,\n  2. have no neurological symptoms (excluding Grade ≤2 neuropathy),\n  3. have stable brain or leptomeningeal disease on the computed tomography (CT) or magnetic resonance imaging (MRI) scan within 4 weeks before signing the informed consent,\n  4. were not undergoing acute corticosteroid therapy or steroid taper.\n\n     * Notes: Patients with central nervous system symptoms had to undergo a CT scan or MRI of the brain to exclude new or progressive brain metastases. Spinal bone metastases were allowed, unless imminent fracture with cord compression was anticipated.\n* Had history of seizures other than isolated febrile seizure in childhood; had a history of a cerebrovascular accident or transient ischemic attack less than 6 months ago.\n* Had effusions (pleural, pericardial, or ascites) requiring drainage.\n* Had eye pathology likely to confound observation of potential ocular adverse events.\n* Had a fever \\>=38°C within 3 days before signing the ICF.\n* Had a history of autoimmune disease active or past including but not limited to inflammatory bowel disease, systemic lupus erythematosus (SLE), ankylosing spondylitis, scleroderma, or multiple sclerosis. Had any active immunologic disorder requiring immunosuppression with steroids or other immunosuppressive agents (e.g., azathioprine, cyclosporine A) with the exception of patients with isolated vitiligo, resolved childhood asthma or atopic dermatitis, controlled hypoadrenalism or hypopituitarism, and euthyroid patients with a history of Grave's disease. Patients with controlled hyperthyroidism must have been negative for thyroglobulin, thyroid peroxidase antibodies, and thyroid-stimulating immunoglobulin prior to trial drug administration.\n* Had known history of seropositivity for human immunodeficiency virus (HIV) with CD4+ T-cell (CD4+) counts \\<350 cells/µL and with a history of acquired immunodeficiency syndrome (AIDS)-defining opportunistic infections.\n* Had known history/positive serology for hepatitis B requiring active anti-viral therapy (unless immune due to vaccination or resolved natural infection or unless passive immunization due to immunoglobulin therapy). Patients with positive serology must have had Hepatitis B virus (HBV) viral load below the limit of quantification.\n* Active Hepatitis C virus (HCV) infection; patients who had completed curative antiviral treatment with HCV viral load below the limit of quantification were allowed.\n\n  * Notes: Country-specific criteria for Germany - To confirm that a patient would be eligible, an active infection with HIV/Hepatitis B or C was ruled out by serum blood test at screening.\n* Had a known hypersensitivity to a component of BNT411 drug product, or another similar compound.\n* Had another primary malignancy that has not been in remission for at least 2 years, with the exception of those with a negligible risk of metastasis or death (such as adequately treated carcinoma in situ of the cervix, basal or squamous cell skin cancer, localized prostate cancer, or ductal carcinoma in situ).\n\nOther Comorbidities\n\n* Had abnormal electrocardiograms (ECGs) that were clinically significant, such as Framingham-corrected QT interval \\>480 ms.\n* In the opinion of the treating investigator, had any concurrent conditions that could pose an undue medical hazard or interfere with the interpretation of the trial results; these conditions included, but were not limited to:\n\n  1. ongoing or active infection requiring antibiotic/antiviral/antifungal therapy,\n  2. concurrent congestive heart failure (New York Heart Association \\[NYHA\\] Functional Classification Class III or IV),\n  3. concurrent unstable angina,\n  4. concurrent cardiac arrhythmia requiring treatment (excluding asymptomatic atrial fibrillation),\n  5. acute coronary syndrome within the previous 6 months,\n  6. significant pulmonary disease (shortness of breath at rest or on mild exertion) for example due concurrent severe obstructive pulmonary disease.\n* Had a cognitive, psychological or psychosocial impediment that would impair the ability of the patient to receive therapy according to the protocol or adversely affect the ability of the patient to comply with the informed consent process, protocol, or protocol-required visits and procedures.\n* Was pregnant or breastfeeding.\n* Had any contraindication to atezolizumab, carboplatin or etoposide as per US prescribing information (USPI) or summary of product characteristics (SmPC) in Part 1B.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "overallOfficials": [
+      {
+       "name": "BioNTech Responsible Person",
+       "affiliation": "BioNTech SE",
+       "role": "STUDY_DIRECTOR"
+      }
+     ],
+     "locations": [
+      {
+       "facility": "Cedars-Sinai Medical Center",
+       "city": "Los Angeles",
+       "state": "California",
+       "zip": "90048",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 34.05223,
+        "lon": -118.24368
+       }
+      },
+      {
+       "facility": "Northwestern Medical Faculty Foundation",
+       "city": "Chicago",
+       "state": "Illinois",
+       "zip": "60611",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 41.85003,
+        "lon": -87.65005
+       }
+      },
+      {
+       "facility": "Prisma Health-Upstate Cancer Institute",
+       "city": "Greenville",
+       "state": "South Carolina",
+       "zip": "29605",
+       "country": "United States",
+       "geoPoint": {
+        "lat": 34.85262,
+        "lon": -82.39401
+       }
+      },
+      {
+       "facility": "Universitaetsklinikum Koeln - (Recruiting only for part 1B and part 2)",
+       "city": "Cologne",
+       "zip": "50937",
+       "country": "Germany",
+       "geoPoint": {
+        "lat": 50.93333,
+        "lon": 6.95
+       }
+      },
+      {
+       "facility": "University Medical Center Hamburg-Eppendorf - (Recruiting only for part 1B and part 2)",
+       "city": "Hamburg",
+       "zip": "20246",
+       "country": "Germany",
+       "geoPoint": {
+        "lat": 53.55073,
+        "lon": 9.99302
+       }
+      },
+      {
+       "facility": "Universitaetsmedizin der Johannes Gutenberg Universitat Mainz KoeR - (Recruiting only for part 1B and part 2)",
+       "city": "Mainz",
+       "zip": "55131",
+       "country": "Germany",
+       "geoPoint": {
+        "lat": 49.98185,
+        "lon": 8.28008
+       }
+      },
+      {
+       "facility": "Hospital Universitari Vall d'Hebron",
+       "city": "Barcelona",
+       "zip": "08035",
+       "country": "Spain",
+       "geoPoint": {
+        "lat": 41.38879,
+        "lon": 2.15899
+       }
+      },
+      {
+       "facility": "Clinica Universidad de Navarra",
+       "city": "Madrid",
+       "zip": "28022",
+       "country": "Spain",
+       "geoPoint": {
+        "lat": 40.4165,
+        "lon": -3.70256
+       }
+      },
+      {
+       "facility": "START Madrid - CIOCC. Grupo Hospital de Madrid (HM) - Centro Integral Oncologico Clara Campal (CIOCC)",
+       "city": "Madrid",
+       "zip": "28050",
+       "country": "Spain",
+       "geoPoint": {
+        "lat": 40.4165,
+        "lon": -3.70256
+       }
+      },
+      {
+       "facility": "Hospital Universitario La Fe de Valencia",
+       "city": "Valencia",
+       "zip": "46026",
+       "country": "Spain",
+       "geoPoint": {
+        "lat": 39.47391,
+        "lon": -0.37966
+       }
+      },
+      {
+       "facility": "Edinburgh Cancer Research Centre",
+       "city": "Edinburgh",
+       "zip": "EH4 2XU",
+       "country": "United Kingdom",
+       "geoPoint": {
+        "lat": 55.95206,
+        "lon": -3.19648
+       }
+      },
+      {
+       "facility": "Sarah Cannon Research Institute",
+       "city": "London",
+       "zip": "W1G 6AD",
+       "country": "United Kingdom",
+       "geoPoint": {
+        "lat": 51.50853,
+        "lon": -0.12574
+       }
+      }
+     ]
+    },
+    "ipdSharingStatementModule": {
+     "ipdSharing": "NO"
+    }
+   }
+  }
+ },
+ {
+  "source": "https://clinicaltrials.gov/study/NCT07944235",
+  "rationale": "Brain radiosurgery trial explicitly excludes leptomeningeal disease at baseline.",
+  "expected": {
+   "include": false,
+   "buckets": [],
+   "status": "RECRUITING"
+  },
+  "ageCases": [
+   {
+    "age": 17,
+    "include": false
+   },
+   {
+    "age": 18,
+    "include": false
+   }
+  ],
+  "study": {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07944235",
+     "orgStudyIdInfo": {
+      "id": "PREOPRAD"
+     },
+     "organization": {
+      "fullName": "Fundacion Miguel Servet",
+      "class": "OTHER"
+     },
+     "briefTitle": "Preoperative and Postoperative Radiosurgery in Patients With Brain Metastases Undergoing Surgery",
+     "officialTitle": "Randomized Phase II/III Study Comparing Preoperative Radiosurgery Versus Postoperative Radiosurgery in Patients With Brain Metastases Eligible for Surgery: Correlation With Histopathological Factors and Radiomic Analysis.",
+     "acronym": "PREOPRAD"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2026-11",
+     "overallStatus": "RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2026-09-30",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2030-03-30",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2030-03-31",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2026-11-03",
+     "studyFirstSubmitQcDate": "2026-11-17",
+     "studyFirstPostDateStruct": {
+      "date": "2026-11-18",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-11-17",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-11-18",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "PRINCIPAL_INVESTIGATOR",
+      "investigatorFullName": "Paola Anna Jablonska",
+      "investigatorTitle": "Consultant Physician",
+      "investigatorAffiliation": "Fundacion Miguel Servet"
+     },
+     "leadSponsor": {
+      "name": "Fundacion Miguel Servet",
+      "class": "OTHER"
+     },
+     "collaborators": [
+      {
+       "name": "Hospital Ruber Internacional",
+       "class": "OTHER"
+      },
+      {
+       "name": "University of Salamanca",
+       "class": "OTHER"
+      },
+      {
+       "name": "Hospital de Meixoeiro",
+       "class": "OTHER_GOV"
+      },
+      {
+       "name": "Hospital Universitario de Badajoz",
+       "class": "UNKNOWN"
+      },
+      {
+       "name": "Hospital Universitario Ramon y Cajal",
+       "class": "OTHER"
+      },
+      {
+       "name": "Hospital of Navarra",
+       "class": "OTHER"
+      },
+      {
+       "name": "Centro de Investigación Médica Aplicada (CIMA)",
+       "class": "UNKNOWN"
+      },
+      {
+       "name": "Universidad de Brescia",
+       "class": "UNKNOWN"
+      }
+     ]
+    },
+    "oversightModule": {
+     "oversightHasDmc": false,
+     "isFdaRegulatedDrug": false,
+     "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+     "briefSummary": "The PREOP-RAD study aims to evaluate the feasibility, safety, and efficacy of preoperative surgical resection (SRS) in patients with large brain metastases requiring surgical resection, taking into account potential differences based on sex/gender, compared to postoperative SRS, within the Spanish healthcare context.\n\nMore specifically, the study seeks to:\n\n* Assess the clinical and radiological outcomes of the preoperative strategy in terms of local control, progression-free survival, and the occurrence of radionecrosis or neuromuscular dysfunction (nMD) compared to the postoperative strategy.\n* Study the histopathological profile of resected lesions before and after SRS, searching for personalized biomarkers of response and toxicity.\n* Identify patterns based on radiomic analysis and advanced imaging related to therapeutic response, recurrence, and complications.\n\nPREOP-RAD is a prospective, randomized, multicenter study that will include patients diagnosed with symptomatic, single or multiple brain metastases ≥2 cm who are candidates for surgical resection. The procedure will consist of preoperative administration of SRS (1-5 fractions, depending on location and size), followed by surgery within a maximum of 10 days.\n\nThe intervention will be carried out in coordination with the Neurosurgery and Radiation Oncology Departments of each participating center, using a standardized workflow. The collection of surgical samples will allow for centralized histopathological studies. Furthermore, pre- and postoperative images will undergo radiomic analysis using artificial intelligence tools to explore similarities and correlate morphological and textural characteristics with clinical outcomes.",
+     "detailedDescription": "Preoperative SRS has emerged as a promising alternative. Administered before surgery, it allows for more precise planning, less exposure of healthy tissue, avoids delays due to surgical complications, and reduces the risk of neuromuscular dysfunction (nMD) by eliminating prior tumor manipulation. Recent retrospective studies and meta-analyses show local control rates similar to postoperative SRS, with a lower incidence of radionecrosis (1.5% vs. 14.6%) and nMD (3% vs. 17%). However, most of this data comes from North American centers, and prospective studies evaluating this strategy within the Spanish healthcare system, and especially its differentiated impact on patients by sex, are lacking."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Brain Neoplasms",
+      "Neoplasm Metastasis",
+      "Radiosurgery",
+      "Neoadjuvant Therapy",
+      "Radiotherapy Adjuvant",
+      "Surgery"
+     ],
+     "keywords": [
+      "neoplasms metastasis",
+      "radiosurgery",
+      "radiotherapy",
+      "radiomics",
+      "randomized",
+      "phase II/III"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "interventionModelDescription": "the aim is to conduct a prospective comparison of the use of preoperative radiosurgery (SRS) in patients with brain metastases who are candidates for surgery versus standard treatment, consisting of surgical resection followed by irradiation of the tumor bed",
+      "primaryPurpose": "OTHER",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 50,
+      "type": "ESTIMATED"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "preoperative radiosurgery",
+       "type": "EXPERIMENTAL",
+       "description": "preoperative radiosurgery (SRS) in patients with brain metastases who are candidates for surgery",
+       "interventionNames": [
+        "Radiation: SRS",
+        "Procedure: metastasectomy: surgical resection"
+       ]
+      },
+      {
+       "label": "postoperative radiosurgery",
+       "type": "OTHER",
+       "description": "standard treatment, consisting of surgical resection followed by irradiation of the tumor bed",
+       "interventionNames": [
+        "Radiation: SRS",
+        "Procedure: metastasectomy: surgical resection"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "RADIATION",
+       "name": "SRS",
+       "description": "radiosurgery (SRS) in patients with brain metastases who are candidates for surgery",
+       "armGroupLabels": [
+        "postoperative radiosurgery",
+        "preoperative radiosurgery"
+       ],
+       "otherNames": [
+        "radiosurgery"
+       ]
+      },
+      {
+       "type": "PROCEDURE",
+       "name": "metastasectomy: surgical resection",
+       "description": "Microsurgical resection of the target brain metastasis, performed either after preoperative SRS or before postoperative SRS depending on treatment arm",
+       "armGroupLabels": [
+        "postoperative radiosurgery",
+        "preoperative radiosurgery"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Locoregional adverse event-free survival",
+       "description": "A side effect or complication occurring specifically in the region or site where a medical procedure or treatment-such as surgery or radiotherapy-was performed.",
+       "timeFrame": "From randomization to the first locoregional adverse event, assessed up to 12 months after randomization"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Meningeal Failure Rate",
+       "description": "Proportion of patients developing nodular meningeal disease (nMD) during follow-up, as determined by clinical assessment and brain magnetic resonance imaging (MRI).",
+       "timeFrame": "6 and 12 months after randomization."
+      },
+      {
+       "measure": "Symptomatic Radiation Necrosis Rate",
+       "description": "Proportion of patients developing symptomatic radiation necrosis confirmed by clinical and radiological evaluation.",
+       "timeFrame": "6 and 12 months after randomization."
+      },
+      {
+       "measure": "Local Control Rate",
+       "description": "Proportion of patients without local recurrence at the treated lesion or surgical cavity, as assessed by brain MRI.",
+       "timeFrame": "6 and 12 months after randomization."
+      },
+      {
+       "measure": "Distant Brain Failure-Free Survival",
+       "description": "Time from randomization to the occurrence of distant intracranial failure, defined as the appearance of new brain metastases outside the treated lesion(s).",
+       "timeFrame": "6 and 12 months after randomization."
+      },
+      {
+       "measure": "Overall Survival",
+       "description": "Time from randomization to death from any cause.",
+       "timeFrame": "6 and 12 months after randomization."
+      }
+     ],
+     "otherOutcomes": [
+      {
+       "measure": "Time to Whole-Brain Radiotherapy (WBRT)",
+       "description": "Time from randomization to the administration of whole-brain radiotherapy (WBRT).",
+       "timeFrame": "From randomization until administration of WBRT, up to 42 months."
+      },
+      {
+       "measure": "Health-Related Quality of Life",
+       "description": "Change from baseline in health-related quality of life assessed using the European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire Brain Neoplasm 20 (EORTC QLQ-BN20). The questionnaire includes 20 items organized into 4 disease-specific symptom scales (future uncertainty, visual disorder, motor dysfunction, communication deficit) and 7 single items. All scores are linearly transformed to a scale from 0 to 100, where a higher score represents a higher level of symptoms or worse outcome (greater symptom burden).",
+       "timeFrame": "Baseline, and at 3, 6, 12, 18, and 24 months after treatment."
+      },
+      {
+       "measure": "Length of Hospital Stay",
+       "description": "Duration of hospital stay measured in days, defined as the time from the date of hospital admission for the surgical procedure until the date of hospital discharge.",
+       "timeFrame": "From the date of admission for the surgical procedure until the date of hospital discharge, assessed up to 30 days."
+      },
+      {
+       "measure": "Treatment Delay",
+       "description": "Time elapsed between the protocol-defined optimal treatment schedule and the actual administration of treatment.",
+       "timeFrame": "From treatment planning to treatment completion, up to 42 months."
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥18 years.\n* Histologically confirmed solid tumor with one to four brain metastases.\n* At least one brain metastasis considered suitable for surgical resection and stereotactic radiosurgery.\n* Karnofsky Performance Status (KPS) ≥70.\n* Life expectancy ≥3 months.\n* Ability to undergo MRI examinations.\n* Written informed consent provided.\n\nExclusion Criteria:\n\n* Brain metastases from small-cell lung cancer, germ cell tumors, lymphoma, or leukemia.\n* Prior radiotherapy to the index lesion.\n* Leptomeningeal disease at baseline.\n* Contraindication to surgery or stereotactic radiosurgery.\n* Pregnancy or breastfeeding.\n* Any condition that, in the investigator's opinion, would interfere with study participation or evaluation.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Hospital Universitario de Badajoz",
+       "status": "NOT_YET_RECRUITING",
+       "city": "Badajoz",
+       "state": "Badajoz",
+       "zip": "06080",
+       "country": "Spain",
+       "contacts": [
+        {
+         "name": "Victoria Vera Barragán, MD",
+         "role": "CONTACT",
+         "phone": "+34924 21 81 00",
+         "email": "victoria.vera@salud-juntaex.es"
+        }
+       ],
+       "geoPoint": {
+        "lat": 38.87789,
+        "lon": -6.97061
+       }
+      },
+      {
+       "facility": "Hospital do Meixoeiro",
+       "status": "NOT_YET_RECRUITING",
+       "city": "Vigo",
+       "state": "Galicia",
+       "zip": "36214",
+       "country": "Spain",
+       "contacts": [
+        {
+         "name": "Beatriz Vazquez Barreiro, MD",
+         "role": "CONTACT",
+         "phone": "+34 986 81 11 11",
+         "email": "Beatriz.vazquez.barreiro@sergas.es"
+        }
+       ],
+       "geoPoint": {
+        "lat": 42.23282,
+        "lon": -8.72264
+       }
+      },
+      {
+       "facility": "Hospital Ruber Internacional",
+       "status": "NOT_YET_RECRUITING",
+       "city": "Madrid",
+       "state": "Madrid",
+       "zip": "28034",
+       "country": "Spain",
+       "contacts": [
+        {
+         "name": "Rafael Garcia Garcia, MD",
+         "role": "CONTACT",
+         "phone": "+34913 87 50 00",
+         "email": "rafael.garciag.ce@ruberinternacional.es"
+        }
+       ],
+       "geoPoint": {
+        "lat": 40.4165,
+        "lon": -3.70256
+       }
+      },
+      {
+       "facility": "Hospital Universitario Ramón y Cajal",
+       "status": "RECRUITING",
+       "city": "Madrid",
+       "state": "Madrid",
+       "zip": "28034",
+       "country": "Spain",
+       "contacts": [
+        {
+         "name": "Eva Lizarbe Fernández, MD",
+         "role": "CONTACT",
+         "phone": "+3491 336 82 22",
+         "email": "eva.lizarbe@gmail.com"
+        }
+       ],
+       "geoPoint": {
+        "lat": 40.4165,
+        "lon": -3.70256
+       }
+      },
+      {
+       "facility": "Hospital Universitario de Navarra",
+       "status": "RECRUITING",
+       "city": "Pamplona",
+       "state": "Navarre",
+       "zip": "31008",
+       "country": "Spain",
+       "contacts": [
+        {
+         "name": "Paola Anna Jablonska, MD",
+         "role": "CONTACT",
+         "phone": "+34848 428 482",
+         "email": "paolajablonska@gmail.com"
+        },
+        {
+         "name": "Cristina Gutierrez, PhD",
+         "role": "CONTACT",
+         "phone": "+34848433454",
+         "email": "cristina.gutierrez.povedano@navarra.es"
+        }
+       ],
+       "geoPoint": {
+        "lat": 42.81687,
+        "lon": -1.64323
+       }
+      }
+     ]
+    }
+   }
+  }
+ },
+ {
+  "source": "https://clinicaltrials.gov/study/NCT07948356",
+  "rationale": "LMD prevention outcome does not establish an eligible LM cohort; evidence of LM is explicitly excluded.",
+  "expected": {
+   "include": false,
+   "buckets": [],
+   "status": "NOT_YET_RECRUITING"
+  },
+  "ageCases": [
+   {
+    "age": 17,
+    "include": false
+   },
+   {
+    "age": 18,
+    "include": false
+   }
+  ],
+  "study": {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07948356",
+     "orgStudyIdInfo": {
+      "id": "26-0403"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "23-004",
+       "type": "OTHER",
+       "domain": "Northwell Health Cancer Institute"
+      }
+     ],
+     "organization": {
+      "fullName": "Northwell Health",
+      "class": "OTHER"
+     },
+     "briefTitle": "Pre-Operative fSRS for Brain Metastases",
+     "officialTitle": "Improving Outcomes in Patients With Metastatic Cancer to the Brain With Pre-Operative Fractionated Radiosurgery (fSRS): A Pilot Study"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2026-11",
+     "overallStatus": "NOT_YET_RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2028-12",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2028-12",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2026-11-09",
+     "studyFirstSubmitQcDate": "2026-11-16",
+     "studyFirstPostDateStruct": {
+      "date": "2026-11-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-11-16",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-11-19",
+      "type": "ACTUAL"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "responsibleParty": {
+      "type": "SPONSOR"
+     },
+     "leadSponsor": {
+      "name": "Northwell Health",
+      "class": "OTHER"
+     }
+    },
+    "oversightModule": {
+     "oversightHasDmc": true,
+     "isFdaRegulatedDrug": false,
+     "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+     "briefSummary": "This pilot study investigates a new approach for patients with metastatic cancer that has spread to the brain (brain metastases) who are already planned to receive both fractionated stereotactic radiosurgery (fSRS) and brain surgery as standard treatment for their condition. Usually, surgery comes first, followed by radiation. However, post-operative radiation can sometimes lead to the cancer returning in the area, spreading to the brain's lining (LMD), or causing side effects from radiation (RN). This study hypothesizes that delivering fSRS before surgery may improve outcomes by enabling more accurate targeting, reducing tumor spillage, and potentially decreasing RN, while improving treatment compliance. The study is specifically testing the sequence of these two standard treatments.\n\nThis is a single-arm, prospective study enrolling 12 adult participants (age \\>18) with 1-5 brain metastases, where one main tumor (between 2.0-5.0 cm diameter) requires surgical resection. Participants will receive fSRS (27 Gy in 3 fractions) approximately one week prior to surgery, as part of the study's approach. Throughout the study, participants will also have regular brain MRI scans to monitor their condition and complete tests to check memory and thinking skills (like the MoCA test) at various points.\n\nThe main goal is to see how well the cancer is controlled at the surgery site (called local freedom from progression, or FFP) over 6, 12, 18, and 24 months post-operatively. Secondary outcomes include rates of LMD and RN. Safety (adverse events, toxicities) will be continuously monitored by an independent Data Safety Monitoring Committee (DSMC). Each participant will be in the study for 2 years.\n\nThis research aims to provide preliminary data to inform future larger, randomized trials, ultimately improving treatment strategies for patients with metastatic brain cancer."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Brain Metastasases"
+     ],
+     "keywords": [
+      "Brain Metastases",
+      "Metastatic Cancer",
+      "Fractionated Stereotactic Radiosurgery",
+      "fSRS",
+      "Pre-Operative Radiation",
+      "Radiosurgery",
+      "Brain Cancer",
+      "Brain Tumor"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "This is a prospective, single-arm pilot study. All enrolled participants will receive the same sequence of interventions: pre-operative fractionated stereotactic radiosurgery (fSRS) followed by surgical resection of their brain metastasis.",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 12,
+      "type": "ESTIMATED"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Pre-Operative fSRS Followed by Re-Section",
+       "type": "EXPERIMENTAL",
+       "description": "This arm consists of all enrolled participants who will receive fractionated stereotactic radiosurgery (fSRS) prior to neurosurgical resection of their brain metastasis. This approach investigates a modified sequence of two standard-of-care treatments for this condition, aiming to evaluate its safety and efficacy.",
+       "interventionNames": [
+        "Radiation: Fractionated Stereotactic Radiosurgery (fSRS)",
+        "Procedure: Neurosurgical Resection"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "RADIATION",
+       "name": "Fractionated Stereotactic Radiosurgery (fSRS)",
+       "description": "Pre-operative fSRS to a dose of 27 Gy in 3 fractions will be delivered to the index lesion every other day. These radiation treatments will be completed within 1 week (+/- 5 days) prior to surgical resection. This is a standard radiation procedure for brain metastases.",
+       "armGroupLabels": [
+        "Pre-Operative fSRS Followed by Re-Section"
+       ]
+      },
+      {
+       "type": "PROCEDURE",
+       "name": "Neurosurgical Resection",
+       "description": "Surgical removal of the brain metastasis (index lesion) performed after completion of pre-operative fSRS. This is a standard surgical procedure for brain metastases.",
+       "armGroupLabels": [
+        "Pre-Operative fSRS Followed by Re-Section"
+       ],
+       "otherNames": [
+        "Brain Metastasis Resection"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Local Freedom from Progression (FFP) within the Resection Cavity",
+       "description": "The absence of new nodular contrast enhancement 2 mm or less from the resection cavity.",
+       "timeFrame": "6, 12, 18, and 24 Months Post-Operative"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Incidence of Leptomeningeal Disease (LMD)",
+       "description": "Documented incidence of LMD on brain MRI imaging",
+       "timeFrame": "From post-operative MRI (48-72 hours after surgery) through every 3 months for 2 years"
+      },
+      {
+       "measure": "Incidence of Radiation Necrosis (RN)",
+       "description": "Documented incidence of RN on brain MRI imaging",
+       "timeFrame": "From post-operative (48-72 hours after surgery) through every 3 months for 2 years"
+      },
+      {
+       "measure": "Change in Neurocognitive Function",
+       "description": "Assessed using the Montreal Cognitive Assessment (MoCA) score",
+       "timeFrame": "Baseline, Post-Operative Visit, and Every 3 Months for 2 Years"
+      }
+     ],
+     "otherOutcomes": [
+      {
+       "measure": "Correlation of Pathologic Information Between Primary Cancer and Resected Brain Metastasis",
+       "description": "Comparison of pathological characteristics of resected brain metastasis with the primary tumor",
+       "timeFrame": "Between Surgery and Post-Operative Visit"
+      },
+      {
+       "measure": "Correlation of Extent of Surgical Resection with Survival Outcomes",
+       "description": "Evaluation of the Association between extent of surgical resection and Progression-Free Survival (PFS) and Overall Survival (OS)",
+       "timeFrame": "From study registration until 2 years post-operative or death"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient is ≥18 years old.\n* Radiographic confirmation of 1-5 brain metastases by MRI with contrast obtained within 4 weeks prior to registration. One of these must be an index lesion requiring surgical resection.\n* The maximum diameter of the index lesion, as measured on any orthogonal plane (axial, sagittal, coronal) on the post-contrast MRI, must be ≥2.0 cm and ≤5.0 cm.\n* Documented pathological diagnosis of active or history of invasive cancer within the past 5 years.\n* All brain metastases must be located ≥5 mm from the optic chiasm and outside the brainstem.\n* Patient can medically tolerate surgery and fSRS. The treating surgeon must deem the index lesion an appropriate target for safe resection.\n* Karnofsky Performance Status (KPS) ≥50 within 14 days prior to registration.\n* A negative urine or serum pregnancy test (for individuals of childbearing potential) ≤14 days prior to registration.\n* Patient or legally authorized representative provides study-specific informed consent before study entry. For patients treated in the U.S., authorization permitting release of personal health information is also required.\n\nExclusion Criteria:\n\n\\- Previous cranial radiotherapy, including whole-brain radiotherapy or stereotactic radiosurgery (SRS), to the planned resection site (index lesion). Repeat radiosurgery to the same location/lesion is not permitted on this protocol.\n\nNote: Prior or current fSRS/SRS to other non-index lesions is allowed.\n\n* Evidence of leptomeningeal disease.\n* Any contraindication or inability to undergo MRI with contrast.\n* Planned administration of cytotoxic chemotherapy or tyrosine/multi-kinase inhibitors within 3 days prior to, on the day of, or within 3 days after the completion of fSRS.\n\nNote: Chemotherapy and immunotherapy outside of this window are allowed.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "contactsLocationsModule": {
+     "locations": [
+      {
+       "facility": "Lenox Hill Hospital, Northwell Health",
+       "city": "New York",
+       "state": "New York",
+       "zip": "10075",
+       "country": "United States",
+       "contacts": [
+        {
+         "name": "A. Gabriella Wernicke, MD, MS",
+         "role": "PRINCIPAL_INVESTIGATOR"
+        }
+       ],
+       "geoPoint": {
+        "lat": 40.71427,
+        "lon": -74.00597
+       }
+      }
+     ]
+    },
+    "referencesModule": {
+     "references": [
+      {
+       "pmid": "31668513",
+       "type": "BACKGROUND",
+       "citation": "Shepard MJ, Sheehan JP. The Choice of Postoperative Stereotactic Radiosurgery After Resection of an Isolated Brain Metastasis. Int J Radiat Oncol Biol Phys. 2019 Dec 1;105(5):940. doi: 10.1016/j.ijrobp.2018.05.081. Epub 2019 Oct 24. No abstract available."
+      },
+      {
+       "pmid": "28687375",
+       "type": "BACKGROUND",
+       "citation": "Mahajan A, Ahmed S, McAleer MF, Weinberg JS, Li J, Brown P, Settle S, Prabhu SS, Lang FF, Levine N, McGovern S, Sulman E, McCutcheon IE, Azeem S, Cahill D, Tatsui C, Heimberger AB, Ferguson S, Ghia A, Demonte F, Raza S, Guha-Thakurta N, Yang J, Sawaya R, Hess KR, Rao G. Post-operative stereotactic radiosurgery versus observation for completely resected brain metastases: a single-centre, randomised, controlled, phase 3 trial. Lancet Oncol. 2017 Aug;18(8):1040-1048. doi: 10.1016/S1470-2045(17)30414-X. Epub 2017 Jul 4."
+      },
+      {
+       "pmid": "35751740",
+       "type": "BACKGROUND",
+       "citation": "Palmer JD, Perlow HK, Matsui JK, Ho C, Prasad RN, Liu K, Upadhyay R, Klamer B, Wang J, Damante M, Ghose J, Blakaj DM, Beyer S, Grecula J, Arnett A, Thomas E, Chakravarti A, Lonser R, Hardesty D, Prevedello D, Prabhu R, Elder JB, Raval RR. Fractionated pre-operative stereotactic radiotherapy for patients with brain metastases: a multi-institutional analysis. J Neurooncol. 2022 Sep;159(2):389-395. doi: 10.1007/s11060-022-04073-w. Epub 2022 Jun 25."
+      }
+     ]
+    },
+    "ipdSharingStatementModule": {
+     "ipdSharing": "UNDECIDED",
+     "description": "A formal plan for sharing individual participant data (IPD) has not been developed or approved for this pilot study. Participant confidentiality and privacy are strictly maintained, and study data will be transmitted and stored internally at the Northwell Health Cancer Institute (NHCI) in a de-identified format for statistical analysis and scientific reporting. Results will be disseminated through publications that do not contain identifying information."
+    }
+   }
+  }
  }
 ]

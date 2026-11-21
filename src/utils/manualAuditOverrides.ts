@@ -9,6 +9,8 @@ export type ManualAuditOverride = {
 
 // Hand-reviewed decisions for trials the keyword filter gets wrong or can't decide.
 const MANUAL_AUDIT_OVERRIDES: Record<string, ManualAuditOverride> = {
+  'NCT01621906': { siteEligible: true, tumorLabels: ['BREAST'] },
+  'NCT04101357': { siteEligible: true, tumorLabels: ['LUNG', 'OTHER_SOLID'] },
   'NCT00002578': { siteEligible: true, tumorLabels: [] },
   'NCT00002750': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
   'NCT00002751': { siteEligible: true, tumorLabels: ['OTHER_SOLID'] },
